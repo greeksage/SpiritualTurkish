@@ -86,10 +86,20 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // -----------------------------------------------------------
-  // Tab Management
+  // Tab & Studio Modal Management
   // -----------------------------------------------------------
   const tabButtons = document.querySelectorAll('[data-tab-target]');
   const tabPanes = document.querySelectorAll('.tab-pane');
+  const studioBadge = document.getElementById('studio-active-badge');
+
+  const tabLabels = {
+    'tab-pronunciation': '01 발음 클리닉',
+    'tab-simulator': '02 전도 시뮬레이터',
+    'tab-worldview': '03 문화 & 세계관',
+    'tab-syntax': '04 성경 & 문법',
+    'tab-prayer': '05 6단계 기도문',
+    'tab-orthography': '06 종교 표기 규정'
+  };
 
   function switchTab(targetId) {
     state.currentTab = targetId;
@@ -97,11 +107,11 @@ document.addEventListener('DOMContentLoaded', () => {
       const isTarget = btn.getAttribute('data-tab-target') === targetId;
       btn.setAttribute('aria-selected', isTarget);
       if (isTarget) {
-        btn.classList.add('tab-active', 'text-emerald-900', 'bg-white');
-        btn.classList.remove('text-slate-600', 'hover:text-slate-900', 'hover:bg-stone-100');
+        btn.classList.add('tab-active', 'text-[#EA5D3B]', 'bg-white', 'border-[#EBE5DA]');
+        btn.classList.remove('text-[#64756D]', 'hover:text-[#1E2822]', 'hover:bg-white/80', 'border-transparent');
       } else {
-        btn.classList.remove('tab-active', 'text-emerald-900', 'bg-white');
-        btn.classList.add('text-slate-600', 'hover:text-slate-900', 'hover:bg-stone-100');
+        btn.classList.remove('tab-active', 'text-[#EA5D3B]', 'bg-white', 'border-[#EBE5DA]');
+        btn.classList.add('text-[#64756D]', 'hover:text-[#1E2822]', 'hover:bg-white/80', 'border-transparent');
       }
     });
 
@@ -113,11 +123,76 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
-    window.audioEngine.playClickSound();
+    if (studioBadge && tabLabels[targetId]) {
+      studioBadge.textContent = tabLabels[targetId];
+    }
+
+    if (window.audioEngine) {
+      window.audioEngine.playClickSound();
+    }
   }
 
   // Expose switchTab globally
   window.switchTab = switchTab;
+
+  window.openStudio = function(tabId = 'tab-pronunciation', targetSectionId = null) {
+    const modal = document.getElementById('studio-modal');
+    if (!modal) return;
+    modal.classList.remove('hidden');
+    document.body.classList.add('overflow-hidden');
+    switchTab(tabId);
+    if (targetSectionId) {
+      setTimeout(() => {
+        const el = document.getElementById(targetSectionId);
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          el.classList.add('ring-2', 'ring-[#EA5D3B]', 'ring-offset-2', 'transition-all');
+          setTimeout(() => el.classList.remove('ring-2', 'ring-[#EA5D3B]', 'ring-offset-2'), 1800);
+        }
+      }, 150);
+    }
+  };
+
+  window.closeStudio = function() {
+    const modal = document.getElementById('studio-modal');
+    if (!modal) return;
+    modal.classList.add('hidden');
+    document.body.classList.remove('overflow-hidden');
+  };
+
+  window.openIntroVideo = function() {
+    const modal = document.getElementById('intro-video-modal');
+    if (!modal) return;
+    modal.classList.remove('hidden');
+    document.body.classList.add('overflow-hidden');
+  };
+
+  window.closeIntroVideo = function() {
+    const modal = document.getElementById('intro-video-modal');
+    if (!modal) return;
+    modal.classList.add('hidden');
+    document.body.classList.remove('overflow-hidden');
+  };
+
+  // Close modals on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      window.closeStudio();
+      window.closeIntroVideo();
+    }
+  });
+
+  // Close modals on backdrop click
+  document.getElementById('studio-modal')?.addEventListener('click', (e) => {
+    if (e.target.id === 'studio-modal') {
+      window.closeStudio();
+    }
+  });
+  document.getElementById('intro-video-modal')?.addEventListener('click', (e) => {
+    if (e.target.id === 'intro-video-modal') {
+      window.closeIntroVideo();
+    }
+  });
 
   tabButtons.forEach(btn => {
     btn.addEventListener('click', () => {
