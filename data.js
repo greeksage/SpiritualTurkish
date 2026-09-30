@@ -189,6 +189,88 @@ const APP_DATA = {
   simulator: {
     scenarios: [
       {
+        id: "scenario-circle",
+        title: "천국과 구원의 확신 (원 비유)",
+        subtitle: "Cennet Güvencesi ve Daire Benzetmesi - 행위의 불안에서 은혜의 확신으로",
+        npc: {
+          name: "Ahmet (아흐멧)",
+          role: "카디쾨이의 금융회사 연구원",
+          avatarBg: "bg-emerald-600",
+          desc: "매일 5번의 기도(Namaz)를 지키지만 구원의 불확실성에 깊이 고뇌하는 30대 무슬림"
+        },
+        context: "카페에서 대화를 나누던 중, 아흐멧이 '우리가 아무리 열심히 살아도 마지막 날 하나님이 천국에 들여보내 주실지 지옥에 보낼지는 오직 알라의 기분에 달렸잖아요. 인간이 구원을 어떻게 미리 확신할 수 있나요?'라고 묻습니다.",
+        steps: [
+          {
+            stepIndex: 1,
+            npcSpeech: "Kimse cennete gideceğinden emin olamaz. Ben ne kadar namaz kılsam da, Allah son anda 'Ben seni affetmiyorum' derse cehenneme giderim. Kimse garantileyemez.",
+            npcSpeechKo: "누구도 자기가 천국에 갈 거라고 확신할 수 없어요. 내가 아무리 기도를 많이 해도, 하나님이 마지막 순간에 '난 널 용서하지 않는다' 하시면 지옥에 가는 거죠. 누구도 장담 못 해요.",
+            choices: [
+              {
+                id: "c1",
+                text: "Ahmet Bey, kağıda elle kusursuz bir daire çizebilir misiniz? Elimiz ne kadar titrerse titresin, pergel olmadan mükemmel bir daire çizemeyiz, değil mi?",
+                korean: "아흐멧 씨, 종이에 손으로 완전한 원을 그릴 수 있나요? 손이 아무리 정교해도 컴퍼스 없이는 찌그러질 수밖에 없잖아요, 안 그래요?",
+                score: 35,
+                feedbackType: "best",
+                feedback: "탁월한 비유적 접근입니다! 인간의 불완전한 선행(찌그러진 원)과 하나님이 주신 완전한 구원의 기준(완전한 원)을 시각적으로 깨닫게 합니다.",
+                theologyTip: "인간의 행위로는 결코 하나님의 거룩한 기준에 도달할 수 없음을 컴퍼스/원 비유로 설명하면 거부감 없이 인정하게 됩니다."
+              },
+              {
+                id: "c2",
+                text: "Neden bu kadar korku içindesiniz? Dinimiz öyle demiyor, hemen İncil okuyun.",
+                korean: "왜 그렇게 두려움 속에 사시나요? 우리 기독교는 그렇게 말하지 않아요. 당장 성경을 읽으세요.",
+                score: -20,
+                feedbackType: "bad",
+                feedback: "상대의 실존적 불안을 공감하지 않고 배타적으로 압박하면 방어적 태도를 부릅니다.",
+                theologyTip: "무슬림의 깊은 구원 불안은 정죄의 대상이 아니라 복음의 참 평안(Huzur)으로 이끄는 접촉점입니다."
+              },
+              {
+                id: "c3",
+                text: "Haklısınız, kimse bilemez. Ben de bazen şüpheye düşüyorum.",
+                korean: "맞아요, 아무도 모르죠. 저도 가끔 의심이 들 때가 있어요.",
+                score: -10,
+                feedbackType: "neutral",
+                feedback: "복음의 확신을 잃어버리고 불확실성에 동조해 버렸습니다.",
+                theologyTip: "요한일서 5:13은 믿는 자들에게 영생이 있음을 '알게 하려 함'이라고 분명히 선포합니다."
+              }
+            ]
+          },
+          {
+            stepIndex: 2,
+            npcSpeech: "Doğru, elle çizilen daire her zaman biraz yamuk olur. Pergel gibi kusursuz bir alet gerekir. Ama bu cennetle nasıl bağlanıyor?",
+            npcSpeechKo: "맞아요, 손으로 그리는 원은 항상 조금씩 삐뚤어지죠. 컴퍼스 같은 완전한 도구가 필요해요. 근데 이게 천국이랑 어떻게 연결되나요?",
+            choices: [
+              {
+                id: "c1",
+                text: "Bizim iyi amellerimiz elle çizilmiş o yamuk daire gibidir. Tanrı ise kusursuz kutsallık ister. İsa Mesih bizim yerimize kusursuz bir yaşam yaşadı ve bedeli ödedi. Biz O'na iman ettiğimizde, Tanrı bizi İsa'nın mükemmel dairesi içinde görür!",
+                korean: "우리의 선행은 손으로 그린 삐뚤어진 원 같아요. 하지만 하나님은 완전한 거룩을 요구하시죠. 예수 그리스도께서 우리 대신 완전한 삶을 사시고 죗값을 치르셨습니다. 우리가 그분을 믿을 때, 하나님은 우리를 예수님의 완전한 원 안에서 보십니다!",
+                score: 35,
+                feedbackType: "best",
+                feedback: "칭의(Aklanmak)와 대속의 은혜를 원 비유와 매끄럽게 연결하여 구원의 확신을 설명했습니다.",
+                theologyTip: "로마서 3:22: '곧 예수 그리스도를 믿음으로 말미암아 모든 믿는 자에게 미치는 하나님의 의니 차별이 없느니라.'"
+              },
+              {
+                id: "c2",
+                text: "İsa pergeldir, biz de kağıdız. Anladınız mı?",
+                korean: "예수님이 컴퍼스고 우리는 종이입니다. 이해하셨나요?",
+                score: -15,
+                feedbackType: "bad",
+                feedback: "비유의 연결이 모호하여 메시지가 왜곡되었습니다.",
+                theologyTip: "완전한 기준(공의)과 대속의 전가를 명확히 설명해야 합니다."
+              },
+              {
+                id: "c3",
+                text: "Sadece inanın, gerisini Tanrı halleder.",
+                korean: "그냥 믿으세요, 나머지는 하나님이 알아서 하십니다.",
+                score: 10,
+                feedbackType: "neutral",
+                feedback: "구체적인 신학적 설명이 부족합니다.",
+                theologyTip: "예수님의 거룩한 의가 신자에게 덧입혀지는 은혜의 원리를 설명하세요."
+              }
+            ]
+          }
+        ]
+      },
+      {
         id: "scenario-1",
         title: "200리라 지폐와 순금의 비유",
         subtitle: "Buruşuk 200 lira ve 1g altın bedeli - 그리스도께서 치르신 생명의 값",
@@ -533,6 +615,172 @@ const APP_DATA = {
                 feedbackType: "bad",
                 feedback: "어린아이도 이해할 수 있는 복음의 단순성을 지식의 장벽으로 가로막았습니다.",
                 theologyTip: "복음은 단순하며 모든 겸손한 마음에 임하는 하나님의 능력입니다."
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        id: "scenario-noel",
+        title: "크리스마스(Noel) vs 새해(Yılbaşı)",
+        subtitle: "Noel ile Yılbaşı Farkı - 산타클로스를 넘어 성육신의 신비로",
+        npc: {
+          name: "Elif (엘리프)",
+          role: "베식타쉬의 패션 디자이너",
+          avatarBg: "bg-rose-600",
+          desc: "연말 쇼핑몰 트리 장식을 보며 성탄절을 서구식 새해 파티로만 알고 있는 20대 여성"
+        },
+        context: "12월 말 이스탄불 쇼핑몰에서 화려한 트리와 산타 장식을 보던 중, 엘리프가 '터키 사람들도 12월 31일에 새해(Yılbaşı) 맞이하며 선물 주고받잖아요. 기독교인들의 크리스마스도 결국 같은 파티 아닌가요?'라고 묻습니다.",
+        steps: [
+          {
+            stepIndex: 1,
+            npcSpeech: "Her yerde çam ağaçları ve Noel Baba var. 31 Aralık'ta kutlanan Yılbaşı ile sizin Noel'iniz arasında bir fark var mı ki? Bence ikisi de aynı kış eğlencesi.",
+            npcSpeechKo: "어딜 가나 전나무 트리와 산타클로스가 있잖아요. 12월 31일에 기념하는 새해(Yılbaşı)랑 기독교의 크리스마스(Noel) 사이에 차이가 있나요? 제 생각엔 둘 다 같은 겨울 파티 같아요.",
+            choices: [
+              {
+                id: "c1",
+                text: "Elif Hanım, çok haklısınız, dışarıdan bakınca ağaçlar ve hediyeler benziyor. Ama Noel (25 Aralık), bir yılın bitişi değil, Tanrı'nın insan bedeninde aramıza gelişinin (Enkarnasyon) doğum günüdür.",
+                korean: "엘리프 씨, 겉으로 보기엔 트리와 선물이 비슷해서 그렇게 보일 수 있어요! 하지만 크리스마스(25일)는 단순한 연말 파티가 아니라, 하나님께서 인간의 몸을 입고 우리 가운데 오신 성육신의 생일이랍니다.",
+                score: 35,
+                feedbackType: "best",
+                feedback: "상대방의 오해를 부드럽게 공감하면서도 축제의 참된 본질(성육신)을 정확히 규명했습니다.",
+                theologyTip: "터키에서는 Noel(성탄절 12/25)과 Yılbaşı(새해맞이 12/31)가 문화적으로 뒤섞여 있습니다. 이 차이를 설명하는 것은 훌륭한 복음의 접촉점입니다."
+              },
+              {
+                id: "c2",
+                text: "Tamamen farklı! Noel Hristiyanların bayramıdır, Yılbaşı ise dünyevi bir eğlencedir.",
+                korean: "완전히 달라요! 성탄절은 기독교인의 명절이고, 새해는 세속적인 유흥일 뿐입니다.",
+                score: -20,
+                feedbackType: "bad",
+                feedback: "문화적 반감을 유발하여 대화를 차단시킵니다. 온유함으로 기원을 설명하세요.",
+                theologyTip: "터키의 역사적 성 니콜라스(Noel Baba)가 뎀레(Demre/Antalya) 출신의 기독교 주교였다는 점을 들어 친근하게 접근하는 것이 좋습니다."
+              },
+              {
+                id: "c3",
+                text: "Önemli olan eğlenmek, ne fark eder ki?",
+                korean: "즐기면 그만이죠, 뭐가 다르겠어요?",
+                score: -10,
+                feedbackType: "neutral",
+                feedback: "성탄의 거룩한 복음적 진리를 세속화해 버렸습니다.",
+                theologyTip: "성탄은 그리스도께서 세상을 구원하러 오신 구속사적 사건입니다."
+              }
+            ]
+          },
+          {
+            stepIndex: 2,
+            npcSpeech: "Tanrı'nın insan bedenine girmesi mi? Tanrı yücedir, neden bir bebeğin aciz bedenine girsin ki? Bu bana çok garip geliyor.",
+            npcSpeechKo: "하나님이 인간의 몸으로 오셨다고요? 하나님은 지극히 높으신데, 왜 갓난아기의 연약한 몸으로 오시겠어요? 그건 너무 이상하게 들려요.",
+            choices: [
+              {
+                id: "c1",
+                text: "Bir kral düşünün, sarayından halkına emirler yağdırabilir. Ama tebaasını o kadar çok sever ki, onların acısını ve çamurunu tatmak için çoban kılığına girip aralarında yaşar. İşte Noel, Tanrı'nın bize 'Seni anlıyorum ve seviyorum' diyerek sarıldığı gündür.",
+                korean: "한 왕을 떠올려 보세요. 궁궐에서 백성에게 명령만 내릴 수도 있죠. 하지만 백성을 너무나 사랑해서 그들의 슬픔과 진흙탕을 함께 겪기 위해 목자의 옷을 입고 찾아온 것입니다. 성탄은 하나님이 우리에게 '내가 널 이해하고 사랑한다'며 안아주신 날입니다.",
+                score: 35,
+                feedbackType: "best",
+                feedback: "왕과 목자의 비유로 하나님의 초월성과 내재적 사랑(성육신)의 신비를 감동적으로 전달했습니다.",
+                theologyTip: "빌립보서 2:6-7: '그는 근본 하나님의 본체시나... 자기를 비워 종의 형체를 가지사 사람들과 같이 되셨고'"
+              },
+              {
+                id: "c2",
+                text: "Bunu akılla anlayamazsınız, bu bir sırdır.",
+                korean: "이건 이성으로 이해할 수 없습니다, 신비니까요.",
+                score: -15,
+                feedbackType: "bad",
+                feedback: "질문에 성의 없이 회피하면 상대는 복음을 비합리적이라고 단정 짓게 됩니다.",
+                theologyTip: "하나님의 성육신은 사랑의 극치이자 최고의 겸손입니다."
+              },
+              {
+                id: "c3",
+                text: "Noel hediyeleri aslında Tanrı'nın bize verdiği sonsuz yaşam armağanıdır.",
+                korean: "크리스마스 선물은 사실 하나님이 우리에게 주신 영생의 선물이에요.",
+                score: 25,
+                feedbackType: "good",
+                feedback: "선물의 의미로 연결하는 좋은 시도이지만, 성육신의 이유를 먼저 설명해 주면 더 좋습니다.",
+                theologyTip: "로마서 6:23: '하나님의 은사는 그리스도 예수 우리 주 안에 있는 영생이니라.'"
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        id: "scenario-heart",
+        title: "마음의 공허함과 하나님의 형상",
+        subtitle: "Kalpteki Sonsuzluk Boşluğu - 세상이 채울 수 없는 영혼의 갈증",
+        npc: {
+          name: "Caner (자네르)",
+          role: "레벤트의 IT 스타트업 개발자",
+          avatarBg: "bg-indigo-600",
+          desc: "좋은 연봉과 최신 아파트를 가졌지만 내면의 허무와 외로움에 지친 30대 싱글"
+        },
+        context: "퇴근 후 보스포루스 해변 카페에서, 자네르가 '어릴 적 꿈꾸던 걸 다 이뤘는데도 침대에 누우면 가슴 한구석이 뻥 뚫린 것 같아요. 돈도 성공도 결국 아무것도 아니더군요'라고 씁쓸하게 말합니다.",
+        steps: [
+          {
+            stepIndex: 1,
+            npcSpeech: "Her şeyim var gibi görünüyor: iyi bir araba, yüksek maaş, güzel bir ev. Ama akşam eve gelince içimde koca bir boşluk hissediyorum. Sanki bir parçam eksik gibi.",
+            npcSpeechKo: "다 가진 것처럼 보이죠. 좋은 차, 높은 연봉, 근사한 집. 하지만 저녁에 집에 돌아오면 마음속에 거대한 빈방이 느껴져요. 마치 내 한 조각이 빠져나간 것처럼요.",
+            choices: [
+              {
+                id: "c1",
+                text: "Caner, o hissettiğin boşluk bir hata değil, bir çağrıdır. Süleyman Peygamber 성경 전도서에 'Tanrı insanların yüreğine sonsuzluğu koydu' diye yazar. Sonsuz bir boşluğu sonlu şeylerle dolduramazsın.",
+                korean: "자네르 씨, 그 공허함은 고장이 아니라 신호입니다. 솔로몬 왕은 성경 전도서에서 '하나님이 사람들의 마음에 영원을 사모하는 마음을 두셨다'고 기록했어요. 영원한 크기의 빈자리는 유한한 세상 것으로 채울 수 없답니다.",
+                score: 35,
+                feedbackType: "best",
+                feedback: "현대인의 실존적 허무를 성경의 '영원성(Sonsuzluk)'과 연결하여 영적 자각을 일깨웠습니다.",
+                theologyTip: "전도서 3:11: '하나님이 모든 것을 지으시되 때를 따라 아름답게 하셨고 또 사람들에게는 영원을 사모하는 마음을 주셨느니라.'"
+              },
+              {
+                id: "c2",
+                text: "Daha çok tatile çıkın ya da yeni bir hobi edinin.",
+                korean: "휴가를 더 자주 가거나 새로운 취미를 가져보세요.",
+                score: -20,
+                feedbackType: "bad",
+                feedback: "영혼의 근원적인 갈증을 일시적인 오락으로 돌리려 하여 복음의 기회를 놓칩니다.",
+                theologyTip: "영혼의 갈증은 영원하신 생수의 근원(예수 그리스도)을 만날 때만 해결됩니다."
+              },
+              {
+                id: "c3",
+                text: "Daha fazla çalışıp kariyer yaparsanız geçer.",
+                korean: "일을 더 열심히 해서 승진하면 지나갈 거예요.",
+                score: -15,
+                feedbackType: "bad",
+                feedback: "상대의 고민을 일 중독으로 덮으려 하는 잘못된 조언입니다.",
+                theologyTip: "오직 그리스도 안에서만 참된 쉼과 만족을 얻을 수 있습니다."
+              }
+            ]
+          },
+          {
+            stepIndex: 2,
+            npcSpeech: "Sonsuz bir boşluk mu? Gerçekten de para veya kariyer onu bir iki günlüğüne oyalıyor ama asla tamamen dolduramıyor. Peki bu boşluk nasıl dolar?",
+            npcSpeechKo: "영원한 크기의 빈자리요? 정말 그래요. 돈이나 승진도 하루이틀 기분 좋을 뿐 채워지진 않더군요. 그럼 그 빈자리는 어떻게 채우나요?",
+            choices: [
+              {
+                id: "c1",
+                text: "İskenderiye ve Anadolu'nun büyük düşünürü Augustinus şöyle demiştir: 'Rabbim, bizi Kendin için yarattın ve yüreğimiz Sende huzur buluncaya dek huzursuzdur.' O boşluğun şekli Tanrı şeklindedir. İsa Mesih'in sevgisi o yüreğe girdiğinde, eve dönmüş gibi huzur bulursun.",
+                korean: "아우구스티누스는 이렇게 고백했습니다. '주님, 주님께서는 주님을 위하여 우리를 창조하셨기에, 우리 마음이 주님 안에서 안식할 때까지 평안이 없나이다.' 그 빈자리의 모양은 하나님의 모양입니다. 예수 그리스도의 사랑이 마음에 임할 때, 비로소 집에 돌아온 듯한 참 평안(Huzur)을 얻게 됩니다.",
+                score: 35,
+                feedbackType: "best",
+                feedback: "기독교 고전의 명언과 '하나님 모양의 빈자리'를 완벽하게 제시하며 복음의 결단으로 인도했습니다.",
+                theologyTip: "요한복음 14:27: '평안을 너희에게 끼치노니 곧 나의 평안을 너희에게 주노라 내가 너희에게 주는 것은 세상이 주는 것과 같지 아니하니라.'"
+              },
+              {
+                id: "c2",
+                text: "Kiliseye gelip bağış yaparsanız dolar.",
+                korean: "교회에 와서 헌금하면 채워집니다.",
+                score: -20,
+                feedbackType: "bad",
+                feedback: "행위 중심의 종교 생활로 오도하여 은혜의 본질을 훼손합니다.",
+                theologyTip: "구원은 행위가 아닌 하나님의 은혜의 선물입니다 (에베소서 2:8-9)."
+              },
+              {
+                id: "c3",
+                text: "İncil okuyup dua edin, zamanla geçer.",
+                korean: "성경 읽고 기도해 보세요, 시간 지나면 나아집니다.",
+                score: 20,
+                feedbackType: "neutral",
+                feedback: "기본적인 신앙 권면이지만, 인격적인 그리스도와의 만남을 강조해 주면 더 좋습니다.",
+                theologyTip: "요한복음 4:14: '내가 주는 물을 마시는 자는 영원히 목마르지 아니하리니...'"
               }
             ]
           }
@@ -1297,6 +1545,44 @@ const APP_DATA = {
           "Bize Müjde'yi cesaretle, bilgelikle ve sevgiyle paylaşma gücü ver.",
           "İsa Mesih'in diri ve kutsal adıyla dua ediyorum, Amin."
         ]
+      }
+    ],
+
+    situationalLibrary: [
+      {
+        id: "prayer-healing",
+        category: "치유와 회복",
+        title: "환우 치유와 회복을 위한 기도 (Hastalar İçin Şifa Duası)",
+        tr: "Şifa Veren Rabbimiz Göksel Babamız,\nSen bedenlerimizi yaratan ve her türlü hastalığı iyileştiren Yüce Tanrı'sın. İsa Mesih'in çarmıhtaki yaralarıyla şifa bulduğumuza iman ediyoruz. Şimdi hasta olan kardeşimize merhamet et. Ağrılarını dindir, zayıflamış bedenine taze güç ve diriliş gücünü üfle. Şüphe ve korkuyu yüreğinden söküp at, yerine Senin sarsılmaz esenliğini (Şalom) yerleştir. Doktorların ellerini ve kullanılan ilaçları bereketle. Bu hastalık ölümle değil, Tanrı'nın yüceliğinin ortaya çıkmasıyla sonuçlansın. Şifanın kaynağı olan İsa Mesih'in diriliş dolu kutsal adıyla dua ediyoruz, Amin.",
+        ko: "치유의 주님이신 하나님 아버지,\n주님은 우리의 몸을 창조하셨으며 모든 질병을 고치시는 전능하신 하나님이십니다. 예수 그리스도의 채찍에 맞으심으로 우리가 나음을 입었음을 믿음으로 고백합니다. 지금 병중에 있는 형제자매를 불쌍히 여겨 주옵소서. 통증을 가라앉혀 주시고, 쇠약해진 육체에 하늘의 생명과 부활의 생기를 불어넣어 주옵소서. 두려움과 불안을 몰아내시고 주님의 참된 평강(샬롬)을 채워 주옵소서. 치료하는 의료진의 손길과 약물 위에 은혜를 더하사, 이 질병이 죽음이 아닌 하나님의 영광을 드러내는 통로가 되게 하옵소서. 치유의 근원이신 예수 그리스도의 살아계신 이름으로 기도합니다, 아멘."
+      },
+      {
+        id: "prayer-revival",
+        category: "부흥과 민족",
+        title: "터키 민족과 영적 부흥을 위한 기도 (Türkiye ve Ruhsal Uyanış)",
+        tr: "Milletlerin Rabbi ve Efendimiz Tanrımız,\nBu güzel Anadolu toprakları Elçilerin yürüdüğü, yedi kilisenin parladığı topraklardır. Bugün Türkiye'de yaşayan 85 milyon can için Sana yalvarıyoruz. İnsanların gözlerindeki perdeyi kaldır, kulaklarını gerçeğe aç. Korku ve önyargıları parçala, İsa Mesih'in koşulsuz sevgisini ve lütfunu kalplerine dök. Yerel kiliseleri koru, iman kardeşlerimize cesaret ve hikmet ver. Gençlerin yüreğindeki boşluğu Ruhunla doldur. Bu topraklardan bütün dünyaya yayılan güçlü bir ruhsal uyanış estir. Rabbimiz ve Kurtarıcımız İsa Mesih'in adıyla, Amin.",
+        ko: "만국의 주권자이신 주 하나님,\n이 아름다운 아나톨리아 땅은 사도들이 걸었던 곳이며 요한계시록의 일곱 교회가 등불을 밝혔던 땅입니다. 오늘날 터키의 8,500만 영혼을 위해 주님 앞에 엎드립니다. 사람들의 눈을 가린 어두운 장막을 걷어 주시고 귀를 열어 진리를 듣게 하옵소서. 두려움과 오해를 깨뜨리시고 예수 그리스도의 무조건적인 사랑과 십자가 은혜가 각 사람의 심령에 부어지게 하옵소서. 현지 교회들을 눈동자처럼 지켜 주시고 성도들에게 담대함과 지혜를 주옵소서. 거룩한 영적 각성과 부흥이 일어나게 하옵소서. 우리 구주 예수 그리스도의 이름으로 기도합니다, 아멘."
+      },
+      {
+        id: "prayer-newbeliever",
+        category: "새신자 양육",
+        title: "새신자 양육과 믿음의 뿌리를 위한 기도 (Yeni İnanlıların Büyümesi)",
+        tr: "Sevgi Dolu Babamız Tanrı,\nKaranlıktan Işığa çağırdığın, İsa Mesih'i Rab ve Kurtarıcı olarak kabul eden bu yeni imanlı kardeşimiz için Sana şükrediyoruz. Ailesinden veya çevresinden gelebilecek baskı ve yalnızlık hissinde ona sığınak ol. Kutsal Ruh'unla onu her gün teselli et, Sözün olan Kutsal Kitap'ı okurken zihnini aydınlat. İmanını fırtınalarda sarsılmayan kaya üzerine bina et. Kilise topluluğu içinde sıcak sevgi ve kardeşlik bulmasını sağla. Karşılaştığı her zorlukta Senin 'Ben seni asla bırakmam ve terk etmem' vaadini hatırlat. İsa Mesih'in yetkili adıyla dua ederiz, Amin.",
+        ko: "사랑의 아버지 하나님,\n어둠에서 빛으로 불러내어 예수 그리스도를 주와 구주로 영접한 새신자 형제자매를 인하여 감사드립니다. 가족과 주변 이웃으로부터 올 수 있는 오해와 압박, 외로움 속에서 주님이 피난처가 되어 주옵소서. 성령의 위로를 날마다 덧입혀 주시고, 거룩한 말씀을 읽을 때마다 영적인 총명과 기쁨을 더하여 주옵소서. 그 믿음이 흔들리지 않는 반석 위에 굳게 뿌리내리게 하시고, 교회 공동체 안에서 따뜻한 사랑과 돌봄을 경험하게 하옵소서. 예수 그리스도의 이름으로 기도합니다, 아멘."
+      },
+      {
+        id: "prayer-persecution",
+        category: "고난과 보호",
+        title: "박해와 고난 중의 성도를 위한 보호 기도 (Zulüm ve Zorluk Çeken Kardeşler)",
+        tr: "Gücümüz ve Kalemiz Olan Yaşayan Tanrı,\nDoğruluk uğruna baskı gören, inancından ötürü dışlanan ve tehdit edilen kardeşlerimizi Senin güçlü ellerine emanet ediyoruz. 'Dünyada sıkıntınız olacak; ama cesur olun, Ben dünyayı yendim' diyen İsa Mesih'in sözü onların yüreğine can versin. İftiralara karşı onları koru, meleklerini onların etrafına ordugah kurdur. Zulmedenlerin yüreğini Saul'u Pavlus'a dönüştürdüğün gibi lütfunla dönüştür. Kardeşlerimize kötülüğe kötülükle değil, iyilik ve sevgiyle karşılık verecek lütuf ihsan et. Zaferin Sahibi olan İsa Mesih'in adıyla dua ederiz, Amin.",
+        ko: "우리의 힘이시요 요새이신 살아계신 하나님,\n의를 위하여 박해를 받으며, 믿음 때문에 배척당하고 위협받는 형제자매들을 주님의 전능하신 손에 올려드립니다. '세상에서는 너희가 환난을 당하나 담대하라 내가 세상을 이기었노라' 하신 예수님의 약속이 그들의 영혼에 생명수가 되게 하옵소서. 불의한 거짓과 핍박에서 건져 주시고, 천군 천사를 보내사 그들을 둘러 진치게 하옵소서. 핍박하는 자들의 마음을 변화시키사 회개의 역사가 일어나게 하옵소서. 승리의 주 예수 그리스도의 이름으로 기도합니다, 아멘."
+      },
+      {
+        id: "prayer-family",
+        category: "가정과 자녀",
+        title: "가정의 평안과 자녀를 위한 축복 기도 (Aile Huzuru ve Çocuklar İçin Bereket)",
+        tr: "Her Ailenin Kaynağı Olan Yüce Tanrı,\nEvimizi Senin sevginin, esenliğinin ve affının barınağı eyle. Eşler arasındaki sevgiyi Mesih ile kilisesi arasındaki vefalı sevgi gibi derinleştir. Çocuklarımızı dünyanın ayartılarından koru, onların yüreklerine Rab korkusውን ve hikmetini nakşet. Evimizde her zaman şükran ve övgü sesleri yükselsin, öfke ve kavga kapımızdan uzak olsun. Soframız bereketli, kapımız ihtiyaç sahiplerine açık olsun. Bu yuvayı karanlık bir dünyada parlayan bir fener gibi kullan. Kurtarıcımız İsa Mesih'in adıyla, Amin.",
+        ko: "가정의 주인이신 전능하신 하나님,\n우리 가정을 주님의 사랑과 평강과 용서가 머무는 거룩한 처소가 되게 하옵소서. 부부간의 사랑을 그리스도와 교회의 신실한 사랑처럼 날마다 깊어지게 하옵소서. 자녀들을 세상의 유혹과 거짓된 풍조로부터 지켜 주시고 그 마음에 주를 경외하는 참된 지혜를 새겨 주옵소서. 우리 가정에 불평 대신 감사와 찬양이 넘쳐나게 하시고, 식탁마다 일용할 양식의 은혜를 더하사 이웃을 섬기는 축복의 통로가 되게 하옵소서. 우리 구주 예수 그리스도의 이름으로 기도합니다, 아멘."
       }
     ]
   },

@@ -10,6 +10,10 @@ class AudioEngine {
     this.isAmbientPlaying = false;
     this.ambientVolume = 0.25;
 
+    // Playback settings
+    this.playbackRate = 1.0;
+    this.isMuted = false;
+
     // Speech Synthesis
     this.turkishVoice = null;
     this.initVoices();
@@ -18,6 +22,16 @@ class AudioEngine {
     this.recognition = null;
     this.isListening = false;
     this.initRecognition();
+  }
+
+  toggleSpeed() {
+    this.playbackRate = this.playbackRate === 1.0 ? 0.8 : 1.0;
+    return this.playbackRate;
+  }
+
+  toggleMute() {
+    this.isMuted = !this.isMuted;
+    return this.isMuted;
   }
 
   // Ensure AudioContext is initialized after user gesture
@@ -38,6 +52,7 @@ class AudioEngine {
   // Web Audio API: Sound Effects
   // -------------------------------------------------------------
   playCorrectSound() {
+    if (this.isMuted) return;
     try {
       const ctx = this.getAudioContext();
       if (!ctx) return;
@@ -67,6 +82,7 @@ class AudioEngine {
   }
 
   playWrongSound() {
+    if (this.isMuted) return;
     try {
       const ctx = this.getAudioContext();
       if (!ctx) return;
@@ -92,6 +108,7 @@ class AudioEngine {
   }
 
   playClickSound() {
+    if (this.isMuted) return;
     try {
       const ctx = this.getAudioContext();
       if (!ctx) return;
@@ -117,6 +134,7 @@ class AudioEngine {
   }
 
   playSyllableTap() {
+    if (this.isMuted) return;
     try {
       const ctx = this.getAudioContext();
       if (!ctx) return;
@@ -251,7 +269,7 @@ class AudioEngine {
     }
   }
 
-  speakTurkish(text, rate = 1.0, onStart, onEnd) {
+  speakTurkish(text, rate = null, onStart, onEnd) {
     if (!('speechSynthesis' in window)) {
       alert("죄송합니다. 현재 브라우저가 음성 합성(Speech Synthesis)을 지원하지 않습니다.");
       return;
@@ -262,7 +280,7 @@ class AudioEngine {
     const cleanText = text.replace(/[*_#]/g, '').trim();
     const utterance = new SpeechSynthesisUtterance(cleanText);
     utterance.lang = 'tr-TR';
-    utterance.rate = rate;
+    utterance.rate = (rate !== null && rate !== undefined) ? rate : this.playbackRate;
     utterance.pitch = 1.0;
 
     if (this.turkishVoice) {

@@ -1,127 +1,118 @@
 /* ============================================================ */
-/* SPIRITUAL TURKISH - MODERN EDITORIAL STYLES                   */
-/* Palette: Warm Ivory Canvas, Coral Terracotta, Sage, Amber    */
+/* SPIRITUAL TURKISH - LMS & LEARNING STUDIO STYLES              */
+/* Palette: Pale Mint-Stone, Soft Sage, Warm Cream, Apricot, Aqua*/
 /* ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --font-serif: 'Playfair Display', Georgia, Cambria, serif;
   --font-sans: 'Plus Jakarta Sans', 'Inter', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   
-  --bg-canvas: #FBF9F5;
-  --bg-canvas-alt: #F7F5EE;
-  --bg-card: #FFFFFF;
-  --border-editorial: #EBE5DA;
-  --border-light: #F0ECE1;
+  --bg-workspace: #EFF5F1;
+  --bg-sidebar: #DEE9E3;
+  --border-sidebar: #CDDCD3;
   
-  --color-coral: #EA5D3B;
-  --color-coral-dark: #D44826;
-  --color-coral-light: #FFF0EB;
+  --card-cream: #FDFBF7;
+  --border-cream: #EBE5DA;
   
-  --color-sage: #2A6F5B;
-  --color-sage-dark: #1E5343;
-  --color-sage-light: #EDF7F4;
+  --card-peach: #FFF4EF;
+  --border-peach: #FCDFD3;
   
+  --card-aqua: #E9F5F0;
+  --border-aqua: #CFE6DC;
+  
+  --card-amber: #FEF9E7;
+  --border-amber: #F9E9B8;
+  
+  --text-header: #1C332A;
+  --text-body: #2D453C;
+  --text-muted: #5D776C;
+  --text-subtle: #829D91;
+  
+  --color-primary: #2A6F5B;
+  --color-accent: #EA5D3B;
   --color-amber: #D48B38;
-  --color-amber-dark: #A8661E;
-  --color-amber-light: #FDF6EC;
-  
-  --text-charcoal: #1E2822;
-  --text-body: #2C3E35;
-  --text-muted: #64756D;
-  --text-subtle: #8E9F96;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
   font-family: var(--font-sans);
-  background-color: var(--bg-canvas);
+  background-color: var(--bg-workspace);
   color: var(--text-body);
   letter-spacing: -0.015em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  height: 100vh;
 }
 
-.font-serif {
-  font-family: var(--font-serif);
+/* Card Surface Classes */
+.card-cream {
+  background-color: var(--card-cream);
+  border: 1px solid var(--border-cream);
+  border-radius: 0.625rem; /* 10px */
 }
 
-/* Master Editorial Card */
-.editorial-card {
-  background-color: #FFFFFF;
-  border: 1px solid var(--border-editorial);
-  border-radius: 1rem; /* 16px */
-  box-shadow: 0 4px 20px 0 rgba(30, 40, 34, 0.03);
-  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), 
-              box-shadow 0.22s cubic-bezier(0.16, 1, 0.3, 1), 
-              border-color 0.22s ease;
+.card-peach {
+  background-color: var(--card-peach);
+  border: 1px solid var(--border-peach);
+  border-radius: 0.625rem;
 }
 
-.editorial-card:hover {
-  border-color: #DDD4C4;
-  box-shadow: 0 10px 30px -5px rgba(30, 40, 34, 0.06);
+.card-aqua {
+  background-color: var(--card-aqua);
+  border: 1px solid var(--border-aqua);
+  border-radius: 0.625rem;
 }
 
-/* Card-in-Card Sub-Cards */
-.sub-card-box {
-  background-color: #FFFFFF;
-  border: 1px solid #ECE7DC;
-  border-radius: 0.75rem;
-  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+.card-amber {
+  background-color: var(--card-amber);
+  border: 1px solid var(--border-amber);
+  border-radius: 0.625rem;
 }
 
-.sub-card-box:hover {
-  background-color: #FCFBF9;
-  border-color: #DFD7C7;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(30, 40, 34, 0.04);
+/* Sidebar Item Active / Inactive */
+.sidebar-sublesson-btn {
+  transition: all 0.16s ease;
+  border: 1px solid transparent;
 }
 
-/* Dropdown Menu Animation */
-.dropdown-menu {
-  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
-  visibility: hidden;
-  opacity: 0;
-  transform: translateY(8px);
+.sidebar-sublesson-btn:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-color: #CDDCD3;
+  color: var(--text-header);
 }
 
-.group:hover .dropdown-menu,
-.dropdown-menu:hover {
-  visibility: visible;
-  opacity: 1;
-  transform: translateY(0);
+.sidebar-sublesson-btn.active {
+  background-color: #FFFFFF !important;
+  border-color: #2A6F5B !important;
+  color: #1C332A !important;
+  font-weight: 700 !important;
+  box-shadow: 0 1px 4px rgba(28, 51, 42, 0.06);
 }
 
-/* Badges for Module Numbers */
-.badge-num-coral {
-  background-color: var(--color-coral);
-  color: #FFFFFF;
+.sidebar-sublesson-btn.active .lesson-badge {
+  background-color: #2A6F5B !important;
+  color: #FFFFFF !important;
 }
 
-.badge-num-sage {
-  background-color: var(--color-sage);
-  color: #FFFFFF;
-}
-
-.badge-num-amber {
-  background-color: var(--color-amber);
-  color: #FFFFFF;
-}
-
-/* Refined Scrollbars */
+/* Refined Custom Scrollbars */
 ::-webkit-scrollbar {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #F4EFE6;
+  background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: #D8D0C2;
+  background: #C4D6CC;
   border-radius: 9999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #BDB3A1;
+  background: #A9C2B4;
 }
 
 /* 3D Flip Card Effect */
@@ -140,7 +131,7 @@ body {
 }
 
 .flip-card-inner {
-  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .flipped .flip-card-inner {
   transform: rotateY(180deg);
@@ -152,7 +143,7 @@ body {
     height: 4px;
   }
   50% {
-    height: 22px;
+    height: 18px;
   }
 }
 
@@ -162,13 +153,13 @@ body {
 .bar-anim-4 { animation: soundwave 1.3s ease-in-out infinite 0.1s; }
 .bar-anim-5 { animation: soundwave 0.9s ease-in-out infinite 0.3s; }
 
-/* Mic Active Pulse */
-@keyframes mic-pulse-warm {
+/* Mic Pulse for Active Recording */
+@keyframes mic-pulse-lms {
   0% {
     box-shadow: 0 0 0 0 rgba(234, 93, 59, 0.5);
   }
   70% {
-    box-shadow: 0 0 0 14px rgba(234, 93, 59, 0);
+    box-shadow: 0 0 0 12px rgba(234, 93, 59, 0);
   }
   100% {
     box-shadow: 0 0 0 0 rgba(234, 93, 59, 0);
@@ -176,65 +167,24 @@ body {
 }
 
 .mic-recording {
-  animation: mic-pulse-warm 1.4s infinite;
+  animation: mic-pulse-lms 1.4s infinite;
 }
 
 /* Syllable Tag Rhythm Effect */
 .syllable-chunk {
-  transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.15s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .syllable-chunk:hover {
   transform: translateY(-2px);
 }
 
-/* Tab active state in Studio Modal */
-.tab-active {
-  background-color: #FFFFFF !important;
-  color: var(--color-coral) !important;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05) !important;
-  border-bottom: 2px solid var(--color-coral) !important;
-  font-weight: 700 !important;
-}
-
-/* Modal Transitions */
-.modal-overlay {
-  transition: opacity 0.25s ease-out;
-}
-.modal-content {
-  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease-out;
-}
-.modal-hidden .modal-overlay {
-  opacity: 0;
-  pointer-events: none;
-}
-.modal-hidden .modal-content {
-  transform: translateY(20px) scale(0.98);
-  opacity: 0;
-  pointer-events: none;
-}
-
-/* Line clamp helpers */
-.line-clamp-2 {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-/* Palette Harmonizers for Dynamic Components */
+/* Dynamic Harmonizers */
 .border-stone-200, .border-stone-200\/90 {
   border-color: #EBE5DA !important;
 }
 .bg-stone-50, .bg-stone-50\/80 {
-  background-color: #FBF9F5 !important;
+  background-color: #FDFBF7 !important;
 }
 .bg-stone-100, .bg-stone-100\/90 {
-  background-color: #F7F5EE !important;
+  background-color: #F4EFE6 !important;
 }
-.hover\:bg-stone-100:hover {
-  background-color: #F7F5EE !important;
-}
-.hover\:bg-stone-200:hover {
-  background-color: #EFECE1 !important;
-}
-

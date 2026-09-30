@@ -6,31 +6,32 @@
 document.addEventListener('DOMContentLoaded', () => {
   // State variables
   const state = {
-    currentTab: 'tab-pronunciation',
+    currentLessonId: 'ch1-1',
+    completedLessons: new Set(['ch1-1']),
     showKoreanInSimulator: true,
 
-    // Tab 1 state
+    // Chapter 1 state
     oxAnswers: {}, // { qId: 'O' or 'X' }
     activeSpeechTarget: 'Müjde',
     isListening: false,
 
-    // Tab 2 state
-    currentScenarioId: 'scenario-1',
+    // Chapter 2 state
+    currentScenarioId: 'scenario-circle',
     scenarioStep: 0,
     scenarioScore: 0,
     selectedChoice: null,
     scenarioHistory: [],
 
-    // Tab 3 state
+    // Chapter 3 state
     activeAhiretStage: 1,
 
-    // Tab 4 state
+    // Chapter 4 state
     activeVerseId: 'rom-6-4',
     selectedTokenIndex: 0,
     flippedCards: {}, // { cardIndex: true/false }
     unluAnswers: {}, // { quizId: { value: '', isCorrect: null } }
 
-    // Tab 5 state
+    // Chapter 5 state
     assembledPrayer: [
       APP_DATA.prayer.steps[0].options[0].tr,
       APP_DATA.prayer.steps[1].options[0].tr,
@@ -41,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ],
     savedPrayers: [],
 
-    // Tab 6 (Orthography) state
+    // Chapter 6 (Orthography) state
     orthoCategory: 'all',
     orthoQuizAnswers: {}, // { qId: 'O' or 'X' }
     activeProofreadingSentenceIdx: 0,
@@ -86,45 +87,118 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // -----------------------------------------------------------
-  // Tab & Studio Modal Management
+  // LMS Curriculum & Lesson Navigation Engine
   // -----------------------------------------------------------
-  const tabButtons = document.querySelectorAll('[data-tab-target]');
-  const tabPanes = document.querySelectorAll('.tab-pane');
-  const studioBadge = document.getElementById('studio-active-badge');
+  const LESSONS = [
+    { id: 'ch1-1', chapter: 1, chapterName: '조음 & 발음 클리닉', title: '1.1 유성음 vs 무성음 (B/D/G OX)' },
+    { id: 'ch1-2', chapter: 1, chapterName: '조음 & 발음 클리닉', title: '1.2 음절(Hece) 분절 훈련' },
+    { id: 'ch1-3', chapter: 1, chapterName: '조음 & 발음 클리닉', title: '1.3 모자 부호(Şapka ^) 의미 구별' },
+    { id: 'ch1-4', chapter: 1, chapterName: '조음 & 발음 클리닉', title: '1.4 Web Speech AI 음성 인식' },
 
-  const tabLabels = {
-    'tab-pronunciation': '01 발음 클리닉',
-    'tab-simulator': '02 전도 시뮬레이터',
-    'tab-worldview': '03 문화 & 세계관',
-    'tab-syntax': '04 성경 & 문법',
-    'tab-prayer': '05 6단계 기도문',
-    'tab-orthography': '06 종교 표기 규정'
-  };
+    { id: 'ch2-1', chapter: 2, chapterName: '복음 전도 시뮬레이터', title: '2.1 천국과 구원의 확신 (원 비유)', scenarioId: 'scenario-circle' },
+    { id: 'ch2-2', chapter: 2, chapterName: '복음 전도 시뮬레이터', title: '2.2 성경 왜곡설 & Milat (M.S. 2026)', scenarioId: 'scenario-2' },
+    { id: 'ch2-3', chapter: 2, chapterName: '복음 전도 시뮬레이터', title: '2.3 선행 저울(Mizan) vs 십자가 은혜', scenarioId: 'scenario-3' },
+    { id: 'ch2-4', chapter: 2, chapterName: '복음 전도 시뮬레이터', title: '2.4 크리스마스(Noel) vs 새해(Yılbaşı)', scenarioId: 'scenario-noel' },
+    { id: 'ch2-5', chapter: 2, chapterName: '복음 전도 시뮬레이터', title: '2.5 마음의 공허함과 하나님의 형상', scenarioId: 'scenario-heart' },
+    { id: 'ch2-6', chapter: 2, chapterName: '복음 전도 시뮬레이터', title: '2.6 구겨진 200리라 지폐의 가치', scenarioId: 'scenario-1' },
+    { id: 'ch2-7', chapter: 2, chapterName: '복음 전도 시뮬레이터', title: '2.7 글 없는 책 (5가지 색상 복음)', scenarioId: 'scenario-4' },
 
-  function switchTab(targetId) {
-    state.currentTab = targetId;
-    tabButtons.forEach(btn => {
-      const isTarget = btn.getAttribute('data-tab-target') === targetId;
-      btn.setAttribute('aria-selected', isTarget);
+    { id: 'ch3-1', chapter: 3, chapterName: '문화 & 세계관 브릿지', title: '3.1 4대 기본 규범 (Sevap/Günah)' },
+    { id: 'ch3-2', chapter: 3, chapterName: '문화 & 세계관 브릿지', title: '3.2 Kul Hakkı & 탕감 문화' },
+    { id: 'ch3-3', chapter: 3, chapterName: '문화 & 세계관 브릿지', title: '3.3 Ahiret (사후세계) 8단계 여정' },
+    { id: 'ch3-4', chapter: 3, chapterName: '문화 & 세계관 브릿지', title: '3.4 종교법: Fidye vs Kefaret (대속)' },
+
+    { id: 'ch4-1', chapter: 4, chapterName: '성경 구문 & 문법', title: '4.1 로마서 6:4 세례 형태소 분석' },
+    { id: 'ch4-2', chapter: 4, chapterName: '성경 구문 & 문법', title: '4.2 모음 탈락(Ünlü Düşmesi) 퀴즈' },
+    { id: 'ch4-3', chapter: 4, chapterName: '성경 구문 & 문법', title: '4.3 신학 어휘 360° 플립 카드' },
+
+    { id: 'ch5-1', chapter: 5, chapterName: '6단계 기도문 스튜디오', title: '5.1 6단계 공식 가이드 & 템플릿' },
+    { id: 'ch5-2', chapter: 5, chapterName: '6단계 기도문 스튜디오', title: '5.2 실시간 블록 조립 에디터 (TTS)' },
+    { id: 'ch5-3', chapter: 5, chapterName: '6단계 기도문 스튜디오', title: '5.3 상황별 & 성도 양육 기도문 라이브러리' },
+
+    { id: 'ch6-1', chapter: 6, chapterName: 'MEB 2023 종교 표기 규정', title: '6.1 11대 핵심 맞춤법 규정' },
+    { id: 'ch6-2', chapter: 6, chapterName: 'MEB 2023 종교 표기 규정', title: '6.2 실전 O/X 맞춤법 퀴즈' },
+    { id: 'ch6-3', chapter: 6, chapterName: 'MEB 2023 종교 표기 규정', title: '6.3 실시간 오탈자 교정기 미니게임' },
+  ];
+
+  function selectLesson(lessonId) {
+    const idx = LESSONS.findIndex(l => l.id === lessonId);
+    if (idx === -1) return;
+    const lesson = LESSONS[idx];
+
+    state.currentLessonId = lessonId;
+    state.completedLessons.add(lessonId);
+
+    // Update Sidebar active state & completion checkmark
+    document.querySelectorAll('.sidebar-sublesson-btn').forEach(btn => {
+      const bId = btn.getAttribute('data-lesson-id');
+      const isTarget = bId === lessonId;
       if (isTarget) {
-        btn.classList.add('tab-active', 'text-[#EA5D3B]', 'bg-white', 'border-[#EBE5DA]');
-        btn.classList.remove('text-[#64756D]', 'hover:text-[#1E2822]', 'hover:bg-white/80', 'border-transparent');
+        btn.classList.add('active');
       } else {
-        btn.classList.remove('tab-active', 'text-[#EA5D3B]', 'bg-white', 'border-[#EBE5DA]');
-        btn.classList.add('text-[#64756D]', 'hover:text-[#1E2822]', 'hover:bg-white/80', 'border-transparent');
+        btn.classList.remove('active');
+      }
+
+      const statusSpan = btn.querySelector('.lesson-status');
+      if (statusSpan && state.completedLessons.has(bId)) {
+        statusSpan.textContent = '✓';
+        statusSpan.classList.add('text-[#2A6F5B]', 'font-bold');
       }
     });
 
-    tabPanes.forEach(pane => {
-      if (pane.id === targetId) {
-        pane.classList.remove('hidden');
-      } else {
-        pane.classList.add('hidden');
-      }
-    });
+    // Update Top Breadcrumb
+    const breadcrumb = document.getElementById('breadcrumb-display');
+    if (breadcrumb) {
+      breadcrumb.innerHTML = `
+        <span class="text-[#5D776C]">Chapter ${lesson.chapter}: ${lesson.chapterName}</span>
+        <span class="text-[#829D91]">›</span>
+        <span class="text-[#2A6F5B] font-bold">${lesson.title}</span>
+      `;
+    }
 
-    if (studioBadge && tabLabels[targetId]) {
-      studioBadge.textContent = tabLabels[targetId];
+    // Update Prev / Next Buttons
+    const prevBtn = document.getElementById('prev-lesson-btn');
+    const nextBtn = document.getElementById('next-lesson-btn');
+    if (prevBtn) prevBtn.disabled = idx === 0;
+    if (nextBtn) nextBtn.disabled = idx === LESSONS.length - 1;
+
+    // Switch Chapter Section
+    for (let c = 1; c <= 6; c++) {
+      const sec = document.getElementById(`section-ch${c}`);
+      if (sec) {
+        if (c === lesson.chapter) {
+          sec.classList.remove('hidden');
+        } else {
+          sec.classList.add('hidden');
+        }
+      }
+    }
+
+    // Switch Sub-lesson block if applicable
+    if (lesson.chapter !== 2) {
+      document.querySelectorAll(`#section-ch${lesson.chapter} .lesson-block`).forEach(blk => {
+        if (blk.id === `lesson-${lessonId}`) {
+          blk.classList.remove('hidden');
+        } else {
+          blk.classList.add('hidden');
+        }
+      });
+    } else if (lesson.scenarioId) {
+      // For Chapter 2, switch directly to the scenario
+      window.switchScenario(lesson.scenarioId, false);
+    }
+
+    // Update Overall Progress
+    updateCurriculumProgress();
+
+    // Scroll main canvas to top
+    const canvas = document.getElementById('main-canvas');
+    if (canvas) canvas.scrollTop = 0;
+
+    // Mobile sidebar close
+    const sidebar = document.getElementById('sidebar');
+    if (sidebar && window.innerWidth < 1024) {
+      sidebar.classList.add('-translate-x-full');
     }
 
     if (window.audioEngine) {
@@ -132,72 +206,106 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Expose switchTab globally
-  window.switchTab = switchTab;
+  function updateCurriculumProgress() {
+    const total = LESSONS.length;
+    const completed = state.completedLessons.size;
+    const pct = Math.min(100, Math.round((completed / total) * 100));
 
-  window.openStudio = function(tabId = 'tab-pronunciation', targetSectionId = null) {
-    const modal = document.getElementById('studio-modal');
-    if (!modal) return;
-    modal.classList.remove('hidden');
-    document.body.classList.add('overflow-hidden');
-    switchTab(tabId);
-    if (targetSectionId) {
-      setTimeout(() => {
-        const el = document.getElementById(targetSectionId);
-        if (el) {
-          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          el.classList.add('ring-2', 'ring-[#EA5D3B]', 'ring-offset-2', 'transition-all');
-          setTimeout(() => el.classList.remove('ring-2', 'ring-[#EA5D3B]', 'ring-offset-2'), 1800);
-        }
-      }, 150);
-    }
-  };
+    const percentEl = document.getElementById('progress-percent');
+    const barEl = document.getElementById('progress-bar-fill');
+    const statsEl = document.getElementById('progress-stats');
 
-  window.closeStudio = function() {
-    const modal = document.getElementById('studio-modal');
-    if (!modal) return;
-    modal.classList.add('hidden');
-    document.body.classList.remove('overflow-hidden');
-  };
+    if (percentEl) percentEl.textContent = `${pct}%`;
+    if (barEl) barEl.style.width = `${pct}%`;
+    if (statsEl) statsEl.textContent = `완료 ${completed} / ${total} 레슨`;
+  }
 
-  window.openIntroVideo = function() {
-    const modal = document.getElementById('intro-video-modal');
-    if (!modal) return;
-    modal.classList.remove('hidden');
-    document.body.classList.add('overflow-hidden');
-  };
-
-  window.closeIntroVideo = function() {
-    const modal = document.getElementById('intro-video-modal');
-    if (!modal) return;
-    modal.classList.add('hidden');
-    document.body.classList.remove('overflow-hidden');
-  };
-
-  // Close modals on Escape key
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') {
-      window.closeStudio();
-      window.closeIntroVideo();
+  // Prev / Next button listeners
+  document.getElementById('prev-lesson-btn')?.addEventListener('click', () => {
+    const idx = LESSONS.findIndex(l => l.id === state.currentLessonId);
+    if (idx > 0) {
+      selectLesson(LESSONS[idx - 1].id);
     }
   });
 
-  // Close modals on backdrop click
-  document.getElementById('studio-modal')?.addEventListener('click', (e) => {
-    if (e.target.id === 'studio-modal') {
-      window.closeStudio();
-    }
-  });
-  document.getElementById('intro-video-modal')?.addEventListener('click', (e) => {
-    if (e.target.id === 'intro-video-modal') {
-      window.closeIntroVideo();
+  document.getElementById('next-lesson-btn')?.addEventListener('click', () => {
+    const idx = LESSONS.findIndex(l => l.id === state.currentLessonId);
+    if (idx < LESSONS.length - 1) {
+      selectLesson(LESSONS[idx + 1].id);
     }
   });
 
-  tabButtons.forEach(btn => {
+  // Sidebar item click listeners
+  document.querySelectorAll('.sidebar-sublesson-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      const target = btn.getAttribute('data-tab-target');
-      switchTab(target);
+      const lessonId = btn.getAttribute('data-lesson-id');
+      if (lessonId) selectLesson(lessonId);
+    });
+  });
+
+  // Mobile sidebar toggle
+  const sidebar = document.getElementById('sidebar');
+  const toggleBtn = document.getElementById('sidebar-toggle-btn');
+  const closeBtn = document.getElementById('sidebar-close-btn');
+
+  if (toggleBtn && sidebar) {
+    toggleBtn.addEventListener('click', () => {
+      sidebar.classList.toggle('-translate-x-full');
+    });
+  }
+  if (closeBtn && sidebar) {
+    closeBtn.addEventListener('click', () => {
+      sidebar.classList.add('-translate-x-full');
+    });
+  }
+
+  // Audio speed toggle
+  const speedBtn = document.getElementById('speed-toggle-btn');
+  const speedIndicator = document.getElementById('speed-indicator');
+  if (speedBtn) {
+    speedBtn.addEventListener('click', () => {
+      if (window.audioEngine) {
+        const newRate = window.audioEngine.toggleSpeed();
+        if (speedIndicator) speedIndicator.textContent = `${newRate}x`;
+        showToast(`발음 속도: ${newRate}x 로 설정되었습니다`, 'info');
+      }
+    });
+  }
+
+  // Audio mute toggle
+  const muteBtn = document.getElementById('mute-toggle-btn');
+  const muteIndicator = document.getElementById('mute-indicator');
+  if (muteBtn) {
+    muteBtn.addEventListener('click', () => {
+      if (window.audioEngine) {
+        const isMuted = window.audioEngine.toggleMute();
+        if (muteIndicator) {
+          muteIndicator.textContent = isMuted ? '🔇 효과음 OFF' : '🔊 효과음 ON';
+        }
+        showToast(isMuted ? '효과음이 꺼졌습니다' : '효과음이 켜졌습니다', 'info');
+      }
+    });
+  }
+
+  // Turkish character insert buttons
+  document.querySelectorAll('[data-insert-char]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const char = btn.getAttribute('data-insert-char');
+      const activeEl = document.activeElement;
+      if (activeEl && (activeEl.tagName === 'INPUT' || activeEl.tagName === 'TEXTAREA')) {
+        const start = activeEl.selectionStart || 0;
+        const end = activeEl.selectionEnd || 0;
+        const text = activeEl.value;
+        activeEl.value = text.substring(0, start) + char + text.substring(end);
+        activeEl.selectionStart = activeEl.selectionEnd = start + char.length;
+        activeEl.focus();
+        activeEl.dispatchEvent(new Event('input', { bubbles: true }));
+      } else {
+        navigator.clipboard.writeText(char).then(() => {
+          showToast(`터키어 '${char}' 문자가 클립보드에 복사되었습니다!`, 'info');
+        }).catch(() => {});
+      }
+      if (window.audioEngine) window.audioEngine.playClickSound();
     });
   });
 
@@ -588,37 +696,79 @@ document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('scenario-selector-container');
     if (!container) return;
 
-    container.innerHTML = APP_DATA.simulator.scenarios.map(s => {
+    container.innerHTML = APP_DATA.simulator.scenarios.map((s, idx) => {
       const isActive = s.id === state.currentScenarioId;
       return `
         <button onclick="switchScenario('${s.id}')" 
-                class="p-4 rounded-xl text-left transition border ${
+                class="p-3 rounded-lg text-left transition border ${
                   isActive 
-                    ? 'bg-white border-2 border-emerald-600 shadow-md' 
-                    : 'bg-white border border-stone-200 hover:border-stone-300 shadow-sm'
+                    ? 'bg-white border-2 border-[#2A6F5B] shadow-sm' 
+                    : 'card-cream hover:bg-white border-[#CDDCD3] shadow-xs'
                 }">
-          <div class="flex items-center gap-2 mb-1.5">
-            <span class="text-xs px-2 py-0.5 rounded font-bold ${isActive ? 'bg-emerald-700 text-white' : 'bg-stone-100 text-slate-600'}">
-              시나리오
+          <div class="flex items-center gap-1.5 mb-1">
+            <span class="text-[10px] px-1.5 py-0.2 rounded font-extrabold ${isActive ? 'bg-[#2A6F5B] text-white' : 'bg-[#E2ECE6] text-[#1C332A]'}">
+              2.${idx + 1}
             </span>
-            <span class="text-xs text-slate-500 truncate">${s.npc.name}</span>
+            <span class="text-xs text-[#5D776C] font-semibold truncate">${s.npc.name}</span>
           </div>
-          <h4 class="text-sm font-bold text-slate-900 line-clamp-1 mb-1">${s.title}</h4>
-          <p class="text-xs text-slate-500 line-clamp-2">${s.subtitle}</p>
+          <h4 class="text-xs sm:text-sm font-bold text-[#1C332A] line-clamp-1 mb-0.5">${s.title}</h4>
+          <p class="text-[11px] text-[#5D776C] line-clamp-2 leading-tight">${s.subtitle}</p>
         </button>
       `;
     }).join('');
   }
 
-  window.switchScenario = function(scId) {
+  window.switchScenario = function(scId, syncSidebar = true) {
     state.currentScenarioId = scId;
     state.scenarioStep = 0;
     state.scenarioScore = 0;
     state.selectedChoice = null;
     state.scenarioHistory = [];
+
+    const sc = APP_DATA.simulator.scenarios.find(s => s.id === scId);
+    if (sc) {
+      const titleDisplay = document.getElementById('ch2-title-display');
+      const descDisplay = document.getElementById('ch2-desc-display');
+      if (titleDisplay) titleDisplay.textContent = sc.title;
+      if (descDisplay) descDisplay.textContent = sc.subtitle;
+    }
+
+    if (syncSidebar) {
+      const matchLesson = LESSONS.find(l => l.scenarioId === scId);
+      if (matchLesson) {
+        state.currentLessonId = matchLesson.id;
+        state.completedLessons.add(matchLesson.id);
+
+        document.querySelectorAll('.sidebar-sublesson-btn').forEach(btn => {
+          const bId = btn.getAttribute('data-lesson-id');
+          if (bId === matchLesson.id) {
+            btn.classList.add('active');
+          } else {
+            btn.classList.remove('active');
+          }
+          const statusSpan = btn.querySelector('.lesson-status');
+          if (statusSpan && state.completedLessons.has(bId)) {
+            statusSpan.textContent = '✓';
+            statusSpan.classList.add('text-[#2A6F5B]', 'font-bold');
+          }
+        });
+
+        const breadcrumb = document.getElementById('breadcrumb-display');
+        if (breadcrumb) {
+          breadcrumb.innerHTML = `
+            <span class="text-[#5D776C]">Chapter 2: 복음 전도 시뮬레이터</span>
+            <span class="text-[#829D91]">›</span>
+            <span class="text-[#2A6F5B] font-bold">${matchLesson.title}</span>
+          `;
+        }
+
+        updateCurriculumProgress();
+      }
+    }
+
     renderScenarioSelector();
     renderCurrentScenario();
-    window.audioEngine.playClickSound();
+    if (window.audioEngine) window.audioEngine.playClickSound();
   };
 
   function renderCurrentScenario() {
@@ -1336,6 +1486,39 @@ document.addEventListener('DOMContentLoaded', () => {
     initPrayerPresets();
     initPrayerStorage();
     initAmbientAudioPadUI();
+    renderSituationalPrayers();
+  }
+
+  function renderSituationalPrayers() {
+    const container = document.getElementById('situational-prayer-container');
+    if (!container || !APP_DATA.prayer.situationalLibrary) return;
+
+    container.innerHTML = APP_DATA.prayer.situationalLibrary.map((item, idx) => `
+      <div class="card-cream p-5 space-y-3">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-2.5 border-b border-[#CDDCD3]">
+          <div>
+            <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-[#E9F5F0] text-[#2A6F5B] border border-[#CFE6DC] mb-1 inline-block">
+              ${item.category}
+            </span>
+            <h4 class="text-sm sm:text-base font-extrabold text-[#1C332A]">${item.title}</h4>
+          </div>
+          <div class="flex items-center gap-2">
+            <button onclick="window.audioEngine.speakTurkish(\`${item.tr.replace(/[`$\\]/g, '')}\`)" class="px-3 py-1.5 rounded-lg bg-[#2A6F5B] hover:bg-[#1E5343] text-white text-xs font-bold transition flex items-center gap-1 shadow-xs">
+              <span>🔊</span>
+              <span>터키어 낭독</span>
+            </button>
+            <button onclick="navigator.clipboard.writeText(\`${item.tr.replace(/[`$\\]/g, '')}\`); showToast('기도문이 클립보드에 복사되었습니다!', 'success')" class="px-3 py-1.5 rounded-lg bg-white hover:bg-[#E2ECE6] text-[#1C332A] text-xs font-bold border border-[#CDDCD3] transition flex items-center gap-1">
+              <span>📋</span>
+              <span>복사</span>
+            </button>
+          </div>
+        </div>
+        <div class="space-y-2">
+          <p class="text-xs sm:text-sm text-[#1C332A] font-medium leading-relaxed whitespace-pre-line bg-white/70 p-3.5 rounded-lg border border-[#CDDCD3]/70 font-mono">${item.tr}</p>
+          <p class="text-xs text-[#5D776C] leading-relaxed whitespace-pre-line pl-1">${item.ko}</p>
+        </div>
+      </div>
+    `).join('');
   }
 
   function renderPrayerFormulaSteps() {
@@ -1958,6 +2141,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initPrayerWorkshop();
   initOrthographyLab();
 
-  // Initial tab activate
-  switchTab(state.currentTab);
+  // Initial curriculum lesson activate
+  selectLesson(state.currentLessonId);
+  updateCurriculumProgress();
 });
