@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko" class="dark">
+<html lang="ko" class="bg-[#F8F9FA]">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,19 +9,39 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
-      darkMode: 'class',
       theme: {
         extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'Inter', '"Noto Sans KR"', '-apple-system', 'sans-serif'],
+          },
           colors: {
-            spiritual: {
-              50: '#f0fdf4',
-              100: '#dcfce7',
-              500: '#10b981',
-              600: '#059669',
+            canvas: '#F8F9FA',
+            studio: {
+              50: '#F8F9FA',
+              100: '#F1F5F9',
+              200: '#E2E8F0',
+              300: '#CBD5E1',
+              400: '#94A3B8',
+              500: '#64748B',
+              600: '#475569',
+              700: '#334155',
+              800: '#1E293B',
+              900: '#0F172A',
+            },
+            mint: {
+              50: '#ECFDF5',
+              100: '#D1FAE5',
+              200: '#A7F3D0',
               700: '#047857',
-              800: '#065f46',
-              900: '#064e3b',
-              950: '#022c22',
+              800: '#065F46',
+              900: '#064E3B',
+            },
+            sand: {
+              50: '#FFFBEB',
+              100: '#FEF3C7',
+              200: '#FDE68A',
+              800: '#92400E',
+              900: '#78350F',
             }
           }
         }
@@ -32,81 +52,81 @@
   <!-- Google Fonts & Custom CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col selection:bg-emerald-500 selection:text-white">
+<body class="bg-[#F8F9FA] text-slate-800 min-h-screen flex flex-col antialiased selection:bg-emerald-100 selection:text-emerald-900">
 
   <!-- ============================================================ -->
   <!-- TOP NOTIFICATION & TURKISH SPECIAL CHARACTER BAR              -->
   <!-- ============================================================ -->
-  <header class="sticky top-0 z-40 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-stone-200/90 shadow-[0_1px_3px_rgba(0,0,0,0.02)]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Main Brand Bar -->
       <div class="flex items-center justify-between h-16">
         <div class="flex items-center gap-3">
-          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-600 via-teal-500 to-amber-500 flex items-center justify-center text-white shadow-lg shadow-emerald-900/50">
-            <span class="text-xl">🕊️</span>
+          <div class="w-9 h-9 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-800 flex items-center justify-center font-bold text-lg shadow-sm">
+            <span>🕊️</span>
           </div>
           <div>
             <div class="flex items-center gap-2">
-              <h1 class="text-lg font-bold text-white tracking-tight">Spiritual Turkish</h1>
-              <span class="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-emerald-950 text-emerald-300 border border-emerald-800">
+              <h1 class="text-base sm:text-lg font-extrabold text-slate-900 tracking-tight">Spiritual Turkish</h1>
+              <span class="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-emerald-50 text-emerald-800 border border-emerald-200">
                 사역·전도·기도
               </span>
             </div>
-            <p class="text-xs text-slate-400 hidden sm:block">터키어 기독교 사역·전도·기도·발음 종합 학습 플랫폼</p>
+            <p class="text-xs text-slate-500 hidden sm:block">터키어 기독교 사역·전도·기도·발음 종합 학습 플랫폼</p>
           </div>
         </div>
 
         <!-- Right Tooling: Turkish Char Bar -->
         <div class="flex items-center gap-2">
-          <div class="hidden md:flex items-center gap-1 bg-slate-950/80 p-1 rounded-xl border border-slate-800">
-            <span class="text-[11px] text-slate-400 px-2 font-medium">터키어 자판 보조:</span>
-            <button data-insert-char="ç" class="w-7 h-7 rounded bg-slate-800 hover:bg-emerald-600 hover:text-white text-xs font-bold transition">ç</button>
-            <button data-insert-char="ğ" class="w-7 h-7 rounded bg-slate-800 hover:bg-emerald-600 hover:text-white text-xs font-bold transition">ğ</button>
-            <button data-insert-char="ı" class="w-7 h-7 rounded bg-slate-800 hover:bg-emerald-600 hover:text-white text-xs font-bold transition">ı</button>
-            <button data-insert-char="ö" class="w-7 h-7 rounded bg-slate-800 hover:bg-emerald-600 hover:text-white text-xs font-bold transition">ö</button>
-            <button data-insert-char="ş" class="w-7 h-7 rounded bg-slate-800 hover:bg-emerald-600 hover:text-white text-xs font-bold transition">ş</button>
-            <button data-insert-char="ü" class="w-7 h-7 rounded bg-slate-800 hover:bg-emerald-600 hover:text-white text-xs font-bold transition">ü</button>
-            <button data-insert-char="â" class="w-7 h-7 rounded bg-slate-800 hover:bg-amber-600 hover:text-white text-xs font-bold transition">â</button>
-            <button data-insert-char="î" class="w-7 h-7 rounded bg-slate-800 hover:bg-amber-600 hover:text-white text-xs font-bold transition">î</button>
-            <button data-insert-char="û" class="w-7 h-7 rounded bg-slate-800 hover:bg-amber-600 hover:text-white text-xs font-bold transition">û</button>
+          <div class="hidden md:flex items-center gap-1 bg-stone-100/90 p-1 rounded-lg border border-stone-200">
+            <span class="text-[11px] text-slate-500 px-1.5 font-medium">자판 보조:</span>
+            <button data-insert-char="ç" class="w-7 h-7 rounded bg-white hover:bg-emerald-600 hover:text-white text-xs font-semibold text-slate-700 border border-stone-200 transition shadow-sm">ç</button>
+            <button data-insert-char="ğ" class="w-7 h-7 rounded bg-white hover:bg-emerald-600 hover:text-white text-xs font-semibold text-slate-700 border border-stone-200 transition shadow-sm">ğ</button>
+            <button data-insert-char="ı" class="w-7 h-7 rounded bg-white hover:bg-emerald-600 hover:text-white text-xs font-semibold text-slate-700 border border-stone-200 transition shadow-sm">ı</button>
+            <button data-insert-char="ö" class="w-7 h-7 rounded bg-white hover:bg-emerald-600 hover:text-white text-xs font-semibold text-slate-700 border border-stone-200 transition shadow-sm">ö</button>
+            <button data-insert-char="ş" class="w-7 h-7 rounded bg-white hover:bg-emerald-600 hover:text-white text-xs font-semibold text-slate-700 border border-stone-200 transition shadow-sm">ş</button>
+            <button data-insert-char="ü" class="w-7 h-7 rounded bg-white hover:bg-emerald-600 hover:text-white text-xs font-semibold text-slate-700 border border-stone-200 transition shadow-sm">ü</button>
+            <button data-insert-char="â" class="w-7 h-7 rounded bg-white hover:bg-amber-600 hover:text-white text-xs font-semibold text-slate-700 border border-stone-200 transition shadow-sm">â</button>
+            <button data-insert-char="î" class="w-7 h-7 rounded bg-white hover:bg-amber-600 hover:text-white text-xs font-semibold text-slate-700 border border-stone-200 transition shadow-sm">î</button>
+            <button data-insert-char="û" class="w-7 h-7 rounded bg-white hover:bg-amber-600 hover:text-white text-xs font-semibold text-slate-700 border border-stone-200 transition shadow-sm">û</button>
           </div>
 
-          <div class="flex items-center gap-1.5 pl-2 border-l border-slate-800">
-            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            <span class="text-xs text-slate-400 font-mono hidden sm:inline">Web Speech: tr-TR</span>
+          <div class="flex items-center gap-1.5 pl-2 border-l border-stone-200">
+            <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+            <span class="text-xs text-slate-500 font-mono hidden sm:inline">Web Speech: tr-TR</span>
           </div>
         </div>
       </div>
 
       <!-- Navigation Tabs -->
-      <nav class="flex space-x-1 overflow-x-auto py-2 no-scrollbar border-t border-slate-800/80" aria-label="Tabs">
+      <nav class="flex space-x-1 overflow-x-auto py-2 no-scrollbar border-t border-stone-100" aria-label="Tabs">
         <button data-tab-target="tab-pronunciation" 
-                class="px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap transition flex items-center gap-2 tab-active text-emerald-400">
+                class="px-3.5 py-1.5 rounded-lg text-xs sm:text-sm font-semibold whitespace-nowrap transition flex items-center gap-2 tab-active text-emerald-900 bg-white shadow-sm">
           <span>🔊</span>
           <span>1. 발음 클리닉</span>
         </button>
         <button data-tab-target="tab-simulator" 
-                class="px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap transition flex items-center gap-2 text-slate-400 hover:text-slate-200">
+                class="px-3.5 py-1.5 rounded-lg text-xs sm:text-sm font-semibold whitespace-nowrap transition flex items-center gap-2 text-slate-600 hover:text-slate-900 hover:bg-stone-100">
           <span>💬</span>
           <span>2. 복음 전도 시뮬레이터</span>
         </button>
         <button data-tab-target="tab-worldview" 
-                class="px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap transition flex items-center gap-2 text-slate-400 hover:text-slate-200">
+                class="px-3.5 py-1.5 rounded-lg text-xs sm:text-sm font-semibold whitespace-nowrap transition flex items-center gap-2 text-slate-600 hover:text-slate-900 hover:bg-stone-100">
           <span>🕌</span>
           <span>3. 문화 & 세계관 브릿지</span>
         </button>
         <button data-tab-target="tab-syntax" 
-                class="px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap transition flex items-center gap-2 text-slate-400 hover:text-slate-200">
+                class="px-3.5 py-1.5 rounded-lg text-xs sm:text-sm font-semibold whitespace-nowrap transition flex items-center gap-2 text-slate-600 hover:text-slate-900 hover:bg-stone-100">
           <span>📖</span>
           <span>4. 성경 독해 & 문법 클리닉</span>
         </button>
         <button data-tab-target="tab-prayer" 
-                class="px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap transition flex items-center gap-2 text-slate-400 hover:text-slate-200">
+                class="px-3.5 py-1.5 rounded-lg text-xs sm:text-sm font-semibold whitespace-nowrap transition flex items-center gap-2 text-slate-600 hover:text-slate-900 hover:bg-stone-100">
           <span>🙏</span>
           <span>5. 6단계 기도문 빌더</span>
         </button>
         <button data-tab-target="tab-orthography" 
-                class="px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap transition flex items-center gap-2 text-slate-400 hover:text-slate-200">
+                class="px-3.5 py-1.5 rounded-lg text-xs sm:text-sm font-semibold whitespace-nowrap transition flex items-center gap-2 text-slate-600 hover:text-slate-900 hover:bg-stone-100">
           <span>✍️</span>
           <span>6. 종교 표기 규칙 (MEB 2023)</span>
         </button>
@@ -122,33 +142,30 @@
     <!-- ---------------------------------------------------------- -->
     <!-- TAB 1: 발음 클리닉 (Pronunciation Lab)                     -->
     <!-- ---------------------------------------------------------- -->
-    <section id="tab-pronunciation" class="tab-pane space-y-8 animate-fadeIn">
+    <section id="tab-pronunciation" class="tab-pane space-y-7 animate-fadeIn">
       <!-- Intro Banner -->
-      <div class="glass-panel p-6 rounded-3xl border border-slate-800 relative overflow-hidden">
-        <div class="relative z-10 max-w-3xl">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-950/80 border border-emerald-700/60 text-emerald-300 text-xs font-semibold mb-3">
-            <span>🗣️</span> 음성학적 정밀 발음 트레이닝
-          </div>
-          <h2 class="text-2xl sm:text-3xl font-bold text-white mb-2 font-serif-spiritual">
-            터키어 발음 클리닉 (Telaffuz Kliniği)
-          </h2>
-          <p class="text-sm text-slate-300 leading-relaxed">
-            한국인이 가장 혼동하기 쉬운 어두 완전 유성음(B, D, G)과 치조 마찰음(S), 지명 및 차용어 음절 분절 법칙, 그리고 의미를 완전히 바꾸는 Şapka(^) 모음 체계를 완전 정복합니다.
-          </p>
+      <div class="bg-white p-6 sm:p-7 rounded-xl border border-stone-200/90 shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
+        <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-emerald-50 border border-emerald-200 text-emerald-900 text-xs font-semibold mb-2">
+          <span>🗣️</span> 음성학적 정밀 발음 트레이닝
         </div>
-        <div class="absolute -right-8 -bottom-8 w-48 h-48 bg-emerald-600/10 rounded-full blur-3xl pointer-events-none"></div>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+          터키어 발음 클리닉 (Telaffuz Kliniği)
+        </h2>
+        <p class="text-sm text-slate-600 leading-relaxed mt-1.5 max-w-3xl">
+          한국인이 가장 혼동하기 쉬운 어두 완전 유성음(B, D, G)과 치조 마찰음(S), 지명 및 차용어 음절 분절 법칙, 그리고 의미를 완전히 바꾸는 Şapka(^) 모음 체계를 완전 정복합니다.
+        </p>
       </div>
 
       <!-- Module 1: OX Quiz -->
       <div>
-        <div class="flex items-center justify-between mb-4">
+        <div class="flex items-center justify-between mb-3.5">
           <div>
-            <h3 class="text-lg font-bold text-white flex items-center gap-2">
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 tracking-tight flex items-center gap-2">
               <span>🎯</span> 발음 함정 O/X 인터랙티브 퀴즈
             </h3>
-            <p class="text-xs text-slate-400">한국어 음운 체계와의 결정적 차이를 문제를 풀며 체득해 보세요.</p>
+            <p class="text-xs text-slate-500">한국어 음운 체계와의 결정적 차이를 문제를 풀며 체득해 보세요.</p>
           </div>
-          <span id="ox-score-badge" class="px-3 py-1 rounded-full bg-emerald-950 text-emerald-300 border border-emerald-800 text-xs font-bold">
+          <span id="ox-score-badge" class="px-3 py-1 rounded-full bg-emerald-50 text-emerald-900 border border-emerald-200 text-xs font-bold">
             0 / 5 정답
           </span>
         </div>
@@ -159,12 +176,12 @@
 
       <!-- Module 2: Syllable Segmentation (Hece) -->
       <div>
-        <div class="flex items-center justify-between mb-4">
+        <div class="flex items-center justify-between mb-3.5">
           <div>
-            <h3 class="text-lg font-bold text-white flex items-center gap-2">
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 tracking-tight flex items-center gap-2">
               <span>🧩</span> 음절 분절 (Heceleme) 인터랙티브 리듬 카드
             </h3>
-            <p class="text-xs text-slate-400">각 음절 조각을 클릭하면 리듬감 있게 발음을 들을 수 있습니다.</p>
+            <p class="text-xs text-slate-500">각 음절 조각을 클릭하면 리듬감 있게 발음을 들을 수 있습니다.</p>
           </div>
         </div>
 
@@ -173,14 +190,14 @@
         </div>
 
         <!-- Custom Syllable Splitter Tool -->
-        <div class="glass-panel p-5 rounded-2xl border border-slate-800">
-          <h4 class="text-xs font-bold text-slate-300 mb-2 flex items-center gap-2">
+        <div class="bg-white p-5 rounded-xl border border-stone-200 shadow-sm">
+          <h4 class="text-xs font-bold text-slate-700 mb-2 flex items-center gap-2">
             <span>⚡</span> 실시간 터키어 음절 분절 테스터:
           </h4>
           <div class="flex flex-col sm:flex-row gap-2 mb-3">
             <input type="text" id="custom-syllable-input" placeholder="터키어 단어를 입력하세요 (예: Hristiyan, Kurtuluş, İncil)..." 
-                   class="flex-1 bg-slate-900 border border-slate-700 focus:border-emerald-500 rounded-xl px-4 py-2.5 text-sm text-white outline-none">
-            <button id="custom-syllable-btn" class="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs shadow-md transition flex items-center justify-center gap-2">
+                   class="flex-1 bg-stone-50 border border-stone-200 focus:border-emerald-600 rounded-lg px-3.5 py-2 text-sm text-slate-900 outline-none">
+            <button id="custom-syllable-btn" class="px-5 py-2 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white font-semibold text-xs shadow-sm transition flex items-center justify-center gap-1.5">
               <span>분절 검사</span>
             </button>
           </div>
@@ -190,11 +207,11 @@
 
       <!-- Module 3: Şapka (^) Comparator -->
       <div>
-        <div class="mb-4">
-          <h3 class="text-lg font-bold text-white flex items-center gap-2">
+        <div class="mb-3.5">
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 tracking-tight flex items-center gap-2">
             <span>🧢</span> Şapka (^) 장모음 & 구개음화 의미 비교기
           </h3>
-          <p class="text-xs text-slate-400">철자 위의 모자 기호(Düzeltme işareti) 하나로 단어의 뜻이 영적 진리에서 일상 용어로 완전히 달라집니다.</p>
+          <p class="text-xs text-slate-500">철자 위의 모자 기호(Düzeltme işareti) 하나로 단어의 뜻이 영적 진리에서 일상 용어로 완전히 달라집니다.</p>
         </div>
         <div id="sapka-comparator-container" class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <!-- Rendered dynamically -->
@@ -202,61 +219,61 @@
       </div>
 
       <!-- Module 4: Web Speech API Practice Lab -->
-      <div class="glass-panel p-6 rounded-3xl border border-slate-800 glow-emerald">
-        <div class="flex items-center justify-between mb-4 pb-3 border-b border-slate-800">
+      <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm">
+        <div class="flex items-center justify-between mb-4 pb-3 border-b border-stone-100">
           <div>
             <div class="flex items-center gap-2">
-              <span class="text-2xl">🎙️</span>
-              <h3 class="text-lg font-bold text-white">AI 터키어 음성 인식 발음 코칭 랩</h3>
+              <span class="text-xl">🎙️</span>
+              <h3 class="text-base sm:text-lg font-bold text-slate-900 tracking-tight">AI 터키어 음성 인식 발음 코칭 랩</h3>
             </div>
-            <p class="text-xs text-slate-400">Web Speech API(tr-TR)를 통해 직접 마이크로 발음하고 정확도(0-100%) 피드백을 받으세요.</p>
+            <p class="text-xs text-slate-500">Web Speech API(tr-TR)를 통해 직접 마이크로 발음하고 정확도(0-100%) 피드백을 받으세요.</p>
           </div>
-          <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300 font-mono">Chrome / Edge 권장</span>
+          <span class="text-xs px-2.5 py-0.5 rounded bg-stone-100 text-slate-600 border border-stone-200 font-mono">Chrome / Edge 권장</span>
         </div>
 
         <!-- Target Words Selector -->
         <div class="mb-5">
-          <span class="text-xs font-semibold text-slate-400 block mb-2">학습할 사역·신학 핵심 단어를 선택하세요:</span>
+          <span class="text-xs font-semibold text-slate-600 block mb-2">학습할 사역·신학 핵심 단어를 선택하세요:</span>
           <div id="speech-words-container" class="flex flex-wrap gap-2">
             <!-- Rendered dynamically -->
           </div>
         </div>
 
         <!-- Voice Lab Center Panel -->
-        <div class="bg-slate-900/90 p-6 rounded-2xl border border-slate-800 text-center max-w-xl mx-auto">
+        <div class="bg-stone-50/80 p-6 rounded-xl border border-stone-200 text-center max-w-xl mx-auto">
           <div class="mb-4">
-            <span class="text-xs text-slate-400 block mb-1">목표 발음 단어</span>
+            <span class="text-xs text-slate-500 block mb-1">목표 발음 단어</span>
             <div class="flex items-center justify-center gap-3">
-              <span id="target-word-display" class="text-3xl font-extrabold text-emerald-400 tracking-wide font-serif-spiritual">Müjde</span>
-              <button id="target-tts-btn" class="p-2 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-emerald-400 transition" title="원어민 발음 듣기">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+              <span id="target-word-display" class="text-3xl font-extrabold text-slate-900 tracking-tight">Müjde</span>
+              <button id="target-tts-btn" class="p-2 rounded-full bg-white hover:bg-emerald-50 text-slate-600 hover:text-emerald-700 border border-stone-200 transition shadow-sm" title="원어민 발음 듣기">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
               </button>
             </div>
-            <span id="target-korean-display" class="text-xs text-slate-400">복음 (기쁜 소식)</span>
+            <span id="target-korean-display" class="text-xs text-slate-500 font-medium">복음 (기쁜 소식)</span>
           </div>
 
           <!-- Mic button -->
-          <div class="flex flex-col items-center justify-center my-6">
+          <div class="flex flex-col items-center justify-center my-5">
             <button id="mic-record-btn" 
-                    class="w-20 h-20 rounded-full bg-slate-800 hover:bg-emerald-700 border-2 border-slate-600 hover:border-emerald-400 flex items-center justify-center text-white transition-all shadow-xl group">
-              <svg class="w-8 h-8 group-hover:scale-110 transition" fill="currentColor" viewBox="0 0 24 24"><path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3z"/><path d="M17 11c0 2.76-2.24 5-5 5s-5-2.24-5-5H5c0 3.53 2.61 6.43 6 6.92V21h2v-3.08c3.39-.49 6-3.39 6-6.92h-2z"/></svg>
+                    class="w-16 h-16 rounded-full bg-white hover:bg-rose-50 text-slate-700 hover:text-rose-600 border-2 border-stone-300 hover:border-rose-400 flex items-center justify-center transition-all shadow-md group">
+              <svg class="w-7 h-7 group-hover:scale-105 transition" fill="currentColor" viewBox="0 0 24 24"><path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3z"/><path d="M17 11c0 2.76-2.24 5-5 5s-5-2.24-5-5H5c0 3.53 2.61 6.43 6 6.92V21h2v-3.08c3.39-.49 6-3.39 6-6.92h-2z"/></svg>
             </button>
-            <span id="mic-status" class="text-xs text-slate-400 mt-3 font-medium">마이크를 누르고 발음하세요</span>
+            <span id="mic-status" class="text-xs text-slate-500 mt-2.5 font-medium">마이크를 누르고 발음하세요</span>
           </div>
 
           <!-- Recognition Results -->
-          <div class="p-4 rounded-xl bg-slate-950 border border-slate-800 text-left">
+          <div class="p-4 rounded-xl bg-white border border-stone-200 text-left shadow-sm">
             <div class="flex items-center justify-between text-xs mb-1">
-              <span class="text-slate-400">내가 발음한 단어:</span>
-              <span id="speech-score-display" class="font-bold text-emerald-400">0%</span>
+              <span class="text-slate-500">내가 발음한 단어:</span>
+              <span id="speech-score-display" class="font-bold text-emerald-700">0%</span>
             </div>
-            <p id="spoken-transcript" class="text-base font-bold text-white mb-2 font-mono">-</p>
+            <p id="spoken-transcript" class="text-base font-bold text-slate-900 mb-2 font-mono">-</p>
 
-            <div class="w-full bg-slate-800 rounded-full h-2 mb-3">
-              <div id="speech-score-bar" class="bg-gradient-to-r from-emerald-500 to-teal-400 h-2 rounded-full transition-all duration-500" style="width: 0%"></div>
+            <div class="w-full bg-stone-100 rounded-full h-2 mb-3">
+              <div id="speech-score-bar" class="bg-emerald-600 h-2 rounded-full transition-all duration-500" style="width: 0%"></div>
             </div>
 
-            <p id="speech-feedback" class="text-xs text-slate-300 leading-normal">
+            <p id="speech-feedback" class="text-xs text-slate-600 leading-normal">
               마이크 버튼을 누르고 단어를 소리 내어 읽어보세요.
             </p>
           </div>
@@ -269,25 +286,25 @@
     <!-- ---------------------------------------------------------- -->
     <section id="tab-simulator" class="tab-pane hidden space-y-6 animate-fadeIn">
       <!-- Header -->
-      <div class="glass-panel p-6 rounded-3xl border border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div class="bg-white p-6 sm:p-7 rounded-xl border border-stone-200/90 shadow-[0_2px_8px_rgba(0,0,0,0.02)] flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-950/80 border border-emerald-700/60 text-emerald-300 text-xs font-semibold mb-2">
-            <span>💬</span> 비주얼 노벨 대화형 사역 훈련
+          <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-sky-50 border border-sky-200 text-sky-900 text-xs font-semibold mb-2">
+            <span>💬</span> 비주얼 대화형 사역 훈련
           </div>
-          <h2 class="text-2xl sm:text-3xl font-bold text-white font-serif-spiritual">
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
             복음 전도 시뮬레이터 (Müjdeleme Simülatörü)
           </h2>
-          <p class="text-xs text-slate-400 mt-1">현지 무슬림의 실제 질문과 반론에 맞서 사랑과 지혜로 복음의 다리를 놓는 실전 훈련입니다.</p>
+          <p class="text-xs sm:text-sm text-slate-600 mt-1">현지 무슬림의 실제 질문과 반론에 맞서 사랑과 지혜로 복음의 다리를 놓는 실전 훈련입니다.</p>
         </div>
 
-        <button id="sim-ko-toggle" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold border border-slate-700 transition self-start md:self-auto">
+        <button id="sim-ko-toggle" class="px-3.5 py-1.5 rounded-lg bg-stone-100 hover:bg-stone-200 text-slate-700 text-xs font-semibold border border-stone-200 transition self-start md:self-auto">
           한국어 번역 가리기
         </button>
       </div>
 
       <!-- Scenario Selector Buttons -->
       <div>
-        <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3">전도 시나리오 선택 (4가지 핵심 테마):</h3>
+        <h3 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">전도 시나리오 선택 (4가지 핵심 테마):</h3>
         <div id="scenario-selector-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
           <!-- Rendered dynamically -->
         </div>
@@ -302,16 +319,16 @@
     <!-- ---------------------------------------------------------- -->
     <!-- TAB 3: 문화 & 세계관 브릿지 (Worldview Explorer)           -->
     <!-- ---------------------------------------------------------- -->
-    <section id="tab-worldview" class="tab-pane hidden space-y-8 animate-fadeIn">
+    <section id="tab-worldview" class="tab-pane hidden space-y-7 animate-fadeIn">
       <!-- Header -->
-      <div class="glass-panel p-6 rounded-3xl border border-slate-800">
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-950/80 border border-emerald-700/60 text-emerald-300 text-xs font-semibold mb-2">
+      <div class="bg-white p-6 sm:p-7 rounded-xl border border-stone-200/90 shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
+        <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-sand-50 border border-sand-200 text-sand-900 text-xs font-semibold mb-2">
           <span>🕌</span> 이슬람 문화와 성경적 세계관의 접촉점
         </div>
-        <h2 class="text-2xl sm:text-3xl font-bold text-white font-serif-spiritual">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
           문화 & 세계관 브릿지 (Kültür ve Dünya Görüşü)
         </h2>
-        <p class="text-sm text-slate-300 leading-relaxed mt-1">
+        <p class="text-sm text-slate-600 leading-relaxed mt-1">
           터키인의 뼛속 깊이 새겨진 윤리 개념(Kul Hakkı), 사후세계(Ahiret) 8단계 여정, 그리고 종교법 속 대속의 그림자(Fidye/Kefaret)를 이해할 때 진정한 복음의 소통이 시작됩니다.
         </p>
       </div>
@@ -323,11 +340,11 @@
 
       <!-- Sub-module 2: 4-term Matrix -->
       <div>
-        <div class="mb-4">
-          <h3 class="text-lg font-bold text-white flex items-center gap-2">
+        <div class="mb-3.5">
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 tracking-tight flex items-center gap-2">
             <span>🧭</span> 터키 일상 4대 기본 규범: Sevap · Günah · Helal · Haram
           </h3>
-          <p class="text-xs text-slate-400">행위의 점수 누적(Sevap)과 거룩한 은혜(Lütuf)의 결정적 차이를 조명합니다.</p>
+          <p class="text-xs text-slate-500">행위의 점수 누적(Sevap)과 거룩한 은혜(Lütuf)의 결정적 차이를 조명합니다.</p>
         </div>
         <div id="islamic-terms-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <!-- Rendered dynamically -->
@@ -335,16 +352,16 @@
       </div>
 
       <!-- Sub-module 3: Ahiret 8-Stage Journey -->
-      <div class="space-y-4">
+      <div class="space-y-3.5">
         <div>
-          <h3 class="text-lg font-bold text-white flex items-center gap-2">
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 tracking-tight flex items-center gap-2">
             <span>🌌</span> Ahiret (이슬람 사후세계) 8단계 여정 vs 기독교 종말론
           </h3>
-          <p class="text-xs text-slate-400">단계 버튼을 클릭하여 각 과정의 이슬람 전통과 성경의 완전한 구원 약속을 1:1 비교해 보세요.</p>
+          <p class="text-xs text-slate-500">단계 버튼을 클릭하여 각 과정의 이슬람 전통과 성경의 완전한 구원 약속을 1:1 비교해 보세요.</p>
         </div>
 
         <!-- 8-Stage Stepper Buttons -->
-        <div id="ahiret-stepper" class="flex items-center gap-2 overflow-x-auto pb-2 no-scrollbar">
+        <div id="ahiret-stepper" class="flex items-center gap-2 overflow-x-auto pb-1 no-scrollbar">
           <!-- Rendered dynamically -->
         </div>
 
@@ -356,11 +373,11 @@
 
       <!-- Sub-module 4: Fidye vs Kefaret -->
       <div>
-        <div class="mb-4">
-          <h3 class="text-lg font-bold text-white flex items-center gap-2">
+        <div class="mb-3.5">
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 tracking-tight flex items-center gap-2">
             <span>⚖️</span> 이슬람 종교법(Fıkıh): Fidye(피디예) vs Kefaret(케파레트)
           </h3>
-          <p class="text-xs text-slate-400">터키 법학 용어를 통해 예수 그리스도의 영원한 대속(Fidye)과 화목제물(Kefaret)을 변증합니다.</p>
+          <p class="text-xs text-slate-500">터키 법학 용어를 통해 예수 그리스도의 영원한 대속(Fidye)과 화목제물(Kefaret)을 변증합니다.</p>
         </div>
         <div id="fidye-kefaret-content" class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <!-- Rendered dynamically -->
@@ -371,34 +388,34 @@
     <!-- ---------------------------------------------------------- -->
     <!-- TAB 4: 성경 독해 & 문법 클리닉 (Syntax & Catechism)        -->
     <!-- ---------------------------------------------------------- -->
-    <section id="tab-syntax" class="tab-pane hidden space-y-8 animate-fadeIn">
+    <section id="tab-syntax" class="tab-pane hidden space-y-7 animate-fadeIn">
       <!-- Header -->
-      <div class="glass-panel p-6 rounded-3xl border border-slate-800">
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-950/80 border border-emerald-700/60 text-emerald-300 text-xs font-semibold mb-2">
+      <div class="bg-white p-6 sm:p-7 rounded-xl border border-stone-200/90 shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
+        <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-sky-50 border border-sky-200 text-sky-900 text-xs font-semibold mb-2">
           <span>📖</span> 형태소 정밀 분석 & 영적 어휘 대조
         </div>
-        <h2 class="text-2xl sm:text-3xl font-bold text-white font-serif-spiritual">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
           성경 독해 & 문법 클리닉 (Gramer ve Söz Dizimi)
         </h2>
-        <p class="text-sm text-slate-300 leading-relaxed mt-1">
+        <p class="text-sm text-slate-600 leading-relaxed mt-1">
           터키어 성경(Kutsal Kitap)의 핵심 구절을 형태소 단위로 해체 분석하고, 일상어와 신학적 의미의 이중적 깊이를 가진 필수 어휘를 정복합니다.
         </p>
 
         <!-- Quick Switcher to MEB 2023 Orthography Lab -->
-        <div class="mt-4 p-3.5 rounded-2xl bg-gradient-to-r from-emerald-950/70 via-slate-900 to-teal-950/70 border border-emerald-700/60 flex flex-col sm:flex-row items-center justify-between gap-3 shadow-md">
+        <div class="mt-4 p-3.5 rounded-xl bg-stone-50 border border-stone-200 flex flex-col sm:flex-row items-center justify-between gap-3 shadow-sm">
           <div class="flex items-center gap-3">
-            <div class="w-9 h-9 rounded-xl bg-emerald-600/20 border border-emerald-500/50 flex items-center justify-center text-lg text-emerald-400 shrink-0">
+            <div class="w-8 h-8 rounded-lg bg-emerald-50 border border-emerald-200 flex items-center justify-center text-sm text-emerald-800 shrink-0">
               ✍️
             </div>
             <div>
               <div class="flex items-center gap-2">
-                <span class="text-xs font-bold text-emerald-300">MEB 2023 터키 교육부 공식 종교 표기 규정</span>
-                <span class="text-[10px] px-2 py-0.5 rounded-full bg-emerald-900 text-emerald-200">11대 규칙 + 오탈자 교정기</span>
+                <span class="text-xs font-bold text-slate-900">MEB 2023 터키 교육부 공식 종교 표기 규정</span>
+                <span class="text-[10px] px-2 py-0.2 rounded-full bg-emerald-100 text-emerald-800 font-semibold">11대 규칙 + 오탈자 교정기</span>
               </div>
-              <p class="text-xs text-slate-300 mt-0.5">성경 고유명사, 지형 명칭, 'Rab' 아포스트로피 생략 등 사역 맞춤법을 전용 랩에서 집중 학습하세요.</p>
+              <p class="text-xs text-slate-500 mt-0.5">성경 고유명사, 지형 명칭, 'Rab' 아포스트로피 생략 등 사역 맞춤법을 전용 랩에서 집중 학습하세요.</p>
             </div>
           </div>
-          <button onclick="window.switchTab('tab-orthography')" class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition flex items-center gap-1.5 shrink-0 shadow-lg glow-emerald">
+          <button onclick="window.switchTab('tab-orthography')" class="px-3.5 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold transition flex items-center gap-1.5 shrink-0 shadow-sm">
             <span>표기 규칙 랩 바로가기</span>
             <span>→</span>
           </button>
@@ -407,8 +424,8 @@
 
       <!-- Module 1: Scripture Syntax Parsing -->
       <div>
-        <div class="flex items-center justify-between mb-4">
-          <h3 class="text-lg font-bold text-white flex items-center gap-2">
+        <div class="flex items-center justify-between mb-3.5">
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 tracking-tight flex items-center gap-2">
             <span>🔍</span> 성경 구절 형태소 분절 클리닉 (Interactive Morphological Parser)
           </h3>
           <div id="verse-selector-container" class="flex items-center gap-2">
@@ -423,32 +440,32 @@
 
       <!-- Module 2: Vocabulary Dual-Meaning 3D Flip Cards -->
       <div>
-        <div class="mb-4">
-          <h3 class="text-lg font-bold text-white flex items-center gap-2">
+        <div class="mb-3.5">
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 tracking-tight flex items-center gap-2">
             <span>🃏</span> 어휘 이중 의미 3D 플립 카드 (Theology vs Daily Life)
           </h3>
-          <p class="text-xs text-slate-400">카드를 클릭하여 일상 생활 속 용례와 기독교 신학에서의 영적 의미를 입체적으로 전환해 보세요.</p>
+          <p class="text-xs text-slate-500">카드를 클릭하여 일상 생활 속 용례와 기독교 신학에서의 영적 의미를 입체적으로 전환해 보세요.</p>
         </div>
-        <div id="flip-cards-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div id="flip-cards-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           <!-- Rendered dynamically -->
         </div>
       </div>
 
       <!-- Module 3: Grammar Quiz - Ünlü Düşmesi -->
-      <div class="glass-panel p-6 rounded-3xl border border-slate-800">
-        <div class="flex items-center justify-between mb-4 pb-3 border-b border-slate-800">
+      <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm">
+        <div class="flex items-center justify-between mb-4 pb-3 border-b border-stone-100">
           <div>
-            <h3 class="text-lg font-bold text-white flex items-center gap-2">
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 tracking-tight flex items-center gap-2">
               <span>✍️</span> 터키어 음운 법칙: 모음 탈락 (Ünlü Düşmesi) 인터랙티브 퀴즈
             </h3>
-            <p class="text-xs text-slate-400">좁은 모음(ı, i, u, ü)이 모음 접미사와 결합할 때 생기는 탈락 현상을 직접 타이핑해 보세요.</p>
+            <p class="text-xs text-slate-500">좁은 모음(ı, i, u, ü)이 모음 접미사와 결합할 때 생기는 탈락 현상을 직접 타이핑해 보세요.</p>
           </div>
-          <span class="text-xs px-2.5 py-1 rounded bg-amber-950 text-amber-300 border border-amber-800 font-semibold">
+          <span class="text-xs px-2.5 py-0.5 rounded bg-sand-50 text-sand-900 border border-sand-200 font-semibold">
             핵심 문법 7문항
           </span>
         </div>
 
-        <div id="unlu-quiz-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        <div id="unlu-quiz-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5">
           <!-- Rendered dynamically -->
         </div>
       </div>
@@ -457,32 +474,32 @@
     <!-- ---------------------------------------------------------- -->
     <!-- TAB 5: 6단계 기도문 빌더 (Prayer Workshop)                 -->
     <!-- ---------------------------------------------------------- -->
-    <section id="tab-prayer" class="tab-pane hidden space-y-8 animate-fadeIn">
+    <section id="tab-prayer" class="tab-pane hidden space-y-7 animate-fadeIn">
       <!-- Header -->
-      <div class="glass-panel p-6 rounded-3xl border border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div class="bg-white p-6 sm:p-7 rounded-xl border border-stone-200/90 shadow-[0_2px_8px_rgba(0,0,0,0.02)] flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-950/80 border border-emerald-700/60 text-emerald-300 text-xs font-semibold mb-2">
-            <span>🙏</span> 6단계 공식 블록 클릭 조립
+          <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-emerald-50 border border-emerald-200 text-emerald-900 text-xs font-semibold mb-2">
+            <span>🙏</span> 6단계 공식 블록 조립
           </div>
-          <h2 class="text-2xl sm:text-3xl font-bold text-white font-serif-spiritual">
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
             6단계 터키어 기도문 빌더 (Dua Atölyesi)
           </h2>
-          <p class="text-sm text-slate-300 leading-relaxed mt-1">
+          <p class="text-sm text-slate-600 leading-relaxed mt-1">
             호칭(Açılış)부터 경배(Övgü), 감사(Şükran), 회개(Tövbe), 중보(Dilek), 마침(Kapanış)까지 성경적 순서로 기도문을 조립하고 음성으로 낭독합니다.
           </p>
         </div>
 
         <!-- Ambient prayer pad toggle -->
         <div class="flex items-center gap-3">
-          <div id="ambient-visualizer" class="hidden flex items-end gap-1 h-6">
-            <span class="w-1 bg-emerald-400 rounded-full bar-anim-1"></span>
-            <span class="w-1 bg-emerald-400 rounded-full bar-anim-2"></span>
-            <span class="w-1 bg-emerald-400 rounded-full bar-anim-3"></span>
-            <span class="w-1 bg-emerald-400 rounded-full bar-anim-4"></span>
-            <span class="w-1 bg-emerald-400 rounded-full bar-anim-5"></span>
+          <div id="ambient-visualizer" class="hidden flex items-end gap-1 h-5">
+            <span class="w-1 bg-emerald-600 rounded-full bar-anim-1"></span>
+            <span class="w-1 bg-emerald-600 rounded-full bar-anim-2"></span>
+            <span class="w-1 bg-emerald-600 rounded-full bar-anim-3"></span>
+            <span class="w-1 bg-emerald-600 rounded-full bar-anim-4"></span>
+            <span class="w-1 bg-emerald-600 rounded-full bar-anim-5"></span>
           </div>
 
-          <button id="ambient-toggle-btn" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 font-semibold text-xs flex items-center gap-2 border border-slate-700 transition">
+          <button id="ambient-toggle-btn" class="px-3.5 py-1.5 rounded-lg bg-stone-100 hover:bg-stone-200 text-slate-700 font-semibold text-xs flex items-center gap-2 border border-stone-200 transition">
             <span>🎵</span>
             <span>기도 배경음악 켜기 (Ambient Pad)</span>
           </button>
@@ -491,7 +508,7 @@
 
       <!-- Quick Preset Templates -->
       <div>
-        <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">원클릭 추천 기도 템플릿:</h4>
+        <h4 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">원클릭 추천 기도 템플릿:</h4>
         <div id="prayer-presets-container" class="grid grid-cols-1 sm:grid-cols-3 gap-3">
           <!-- Rendered dynamically -->
         </div>
@@ -501,7 +518,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
         <!-- Left: 6-Step Selection Accordion -->
         <div class="lg:col-span-7">
-          <h3 class="text-sm font-bold text-slate-300 mb-3 flex items-center gap-2">
+          <h3 class="text-sm font-bold text-slate-800 mb-3 flex items-center gap-2">
             <span>⚙️</span> 단계별 문장 블록 선택 (클릭하여 기도문에 삽입):
           </h3>
           <div id="prayer-steps-accordion">
@@ -511,9 +528,9 @@
 
         <!-- Right: Assembled Prayer Preview & Audio Controls -->
         <div class="lg:col-span-5 space-y-4">
-          <div class="glass-panel p-5 rounded-2xl border border-slate-700 sticky top-24">
+          <div class="bg-white p-5 rounded-xl border border-stone-200 shadow-sm sticky top-24">
             <div class="flex items-center justify-between mb-3">
-              <h3 class="text-sm font-bold text-emerald-400 flex items-center gap-2">
+              <h3 class="text-sm font-bold text-slate-900 flex items-center gap-2">
                 <span>📜</span> 완성된 터키어 기도문 미리보기
               </h3>
               <span class="text-xs text-slate-400 font-mono">Live Editor</span>
@@ -522,40 +539,40 @@
             <!-- Live Editable Prayer Area -->
             <textarea id="assembled-tr-textarea" 
                       rows="10" 
-                      class="w-full bg-slate-950 p-4 rounded-xl border border-slate-800 focus:border-emerald-500 text-sm text-slate-100 font-serif-spiritual leading-relaxed outline-none resize-none shadow-inner mb-3"></textarea>
+                      class="w-full bg-[#FCFDFD] p-4 rounded-lg border border-stone-200 focus:border-emerald-600 text-sm text-slate-900 leading-relaxed outline-none resize-none shadow-inner mb-3"></textarea>
 
             <!-- Action Buttons Bar -->
             <div class="grid grid-cols-3 gap-2 mb-4">
-              <button id="speak-prayer-btn" class="px-3 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition flex items-center justify-center gap-1.5 shadow">
+              <button id="speak-prayer-btn" class="px-3 py-2 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold transition flex items-center justify-center gap-1.5 shadow-sm">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
                 <span>낭독 (TTS)</span>
               </button>
 
-              <button id="copy-prayer-btn" class="px-3 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold border border-slate-700 transition flex items-center justify-center gap-1.5">
+              <button id="copy-prayer-btn" class="px-3 py-2 rounded-lg bg-stone-100 hover:bg-stone-200 text-slate-700 text-xs font-bold border border-stone-200 transition flex items-center justify-center gap-1.5">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
                 <span>복사하기</span>
               </button>
 
-              <button id="save-prayer-btn" class="px-3 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-white text-xs font-bold transition flex items-center justify-center gap-1.5 shadow">
+              <button id="save-prayer-btn" class="px-3 py-2 rounded-lg bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold transition flex items-center justify-center gap-1.5 shadow-sm">
                 <span>💾 저장</span>
               </button>
             </div>
 
-            <!-- Pre-styled Audio Player Template (For future MP3 sermons / prayer tracks) -->
-            <div class="p-3.5 rounded-xl bg-slate-900 border border-slate-800 mb-4">
-              <div class="flex items-center justify-between mb-2">
-                <span class="text-xs font-semibold text-slate-300">오디오 컨트롤 & 앰비언트 볼륨:</span>
-                <span class="text-[10px] text-emerald-400">Web Audio API</span>
+            <!-- Pre-styled Audio Player Template -->
+            <div class="p-3 rounded-lg bg-stone-50 border border-stone-200 mb-4">
+              <div class="flex items-center justify-between mb-1.5">
+                <span class="text-xs font-semibold text-slate-700">오디오 컨트롤 & 앰비언트 볼륨:</span>
+                <span class="text-[10px] text-emerald-700 font-mono">Web Audio API</span>
               </div>
-              <div class="flex items-center gap-3">
-                <span class="text-xs text-slate-400">🔊</span>
-                <input type="range" id="ambient-volume-slider" min="0" max="1" step="0.05" value="0.25" class="w-full h-1.5 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-emerald-500">
+              <div class="flex items-center gap-2.5">
+                <span class="text-xs text-slate-500">🔊</span>
+                <input type="range" id="ambient-volume-slider" min="0" max="1" step="0.05" value="0.25" class="w-full h-1.5 bg-stone-200 rounded-lg appearance-none cursor-pointer accent-emerald-600">
               </div>
             </div>
 
             <!-- Saved Prayers Storage List -->
             <div>
-              <h5 class="text-xs font-bold text-slate-400 mb-2">저장된 기도문 목록:</h5>
+              <h5 class="text-xs font-bold text-slate-600 mb-2">저장된 기도문 목록:</h5>
               <div id="saved-prayers-list" class="space-y-2 max-h-48 overflow-y-auto pr-1">
                 <!-- Rendered dynamically -->
               </div>
@@ -568,41 +585,38 @@
     <!-- ---------------------------------------------------------- -->
     <!-- TAB 6: 종교 용어 표기 규칙 (Dini Yazım Kuralları - MEB 2023) -->
     <!-- ---------------------------------------------------------- -->
-    <section id="tab-orthography" class="tab-pane hidden space-y-8 animate-fadeIn">
+    <section id="tab-orthography" class="tab-pane hidden space-y-7 animate-fadeIn">
       <!-- Header Banner -->
-      <div class="glass-panel p-6 rounded-3xl border border-slate-800 relative overflow-hidden">
-        <div class="relative z-10 max-w-4xl">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-950/80 border border-emerald-700/60 text-emerald-300 text-xs font-semibold mb-3">
-            <span>📚</span> MEB 2023 터키 교육부 공식 맞춤법 규정
-          </div>
-          <h2 class="text-2xl sm:text-3xl font-bold text-white mb-2 font-serif-spiritual">
-            종교 용어 표기 규칙 (Dini Yazım Kuralları)
-          </h2>
-          <p class="text-sm text-slate-300 leading-relaxed">
-            성경 번역, 설교문, 사역 서신 및 현지 문서 작성 시 한국인 사역자가 가장 실수하기 쉬운 <strong class="text-emerald-400">11대 핵심 종교 표기 규정</strong>과 <strong class="text-amber-400">숫자·기호 표기법</strong>을 학습하고, 인터랙티브 퀴즈 및 <strong class="text-sky-400">실시간 오탈자 교정기 미니게임</strong>으로 완벽히 마스터합니다.
-          </p>
+      <div class="bg-white p-6 sm:p-7 rounded-xl border border-stone-200/90 shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
+        <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-sand-50 border border-sand-200 text-sand-900 text-xs font-semibold mb-2">
+          <span>📚</span> MEB 2023 터키 교육부 공식 맞춤법 규정
         </div>
-        <div class="absolute -right-8 -bottom-8 w-56 h-56 bg-teal-600/10 rounded-full blur-3xl pointer-events-none"></div>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+          종교 용어 표기 규칙 (Dini Yazım Kuralları)
+        </h2>
+        <p class="text-sm text-slate-600 leading-relaxed mt-1">
+          성경 번역, 설교문, 사역 서신 및 현지 문서 작성 시 한국인 사역자가 가장 실수하기 쉬운 <strong class="text-emerald-800">11대 핵심 종교 표기 규정</strong>과 <strong class="text-amber-800">숫자·기호 표기법</strong>을 학습하고, 인터랙티브 퀴즈 및 <strong class="text-sky-800">실시간 오탈자 교정기 미니게임</strong>으로 완벽히 마스터합니다.
+        </p>
       </div>
 
       <!-- Module 1: 11 Rules Category Filter & Cards -->
       <div>
-        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-3.5">
           <div>
-            <h3 class="text-lg font-bold text-white flex items-center gap-2">
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 tracking-tight flex items-center gap-2">
               <span>📋</span> 11대 핵심 종교 표기 규정 인터랙티브 가이드
             </h3>
-            <p class="text-xs text-slate-400">카테고리를 필터링하여 맞춤법 원칙, 대조 용례, 성경 구절 근거를 확인하세요.</p>
+            <p class="text-xs text-slate-500">카테고리를 필터링하여 맞춤법 원칙, 대조 용례, 성경 구절 근거를 확인하세요.</p>
           </div>
 
           <!-- Category filter buttons -->
           <div id="ortho-category-filters" class="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar">
-            <button data-ortho-cat="all" class="px-3 py-1 rounded-lg text-xs font-semibold transition bg-emerald-600 text-white shadow">전체 (11)</button>
-            <button data-ortho-cat="대소문자" class="px-3 py-1 rounded-lg text-xs font-semibold transition bg-slate-800 text-slate-300 hover:bg-slate-700">대소문자</button>
-            <button data-ortho-cat="아포스트로피" class="px-3 py-1 rounded-lg text-xs font-semibold transition bg-slate-800 text-slate-300 hover:bg-slate-700">아포스트로피(')</button>
-            <button data-ortho-cat="철자법" class="px-3 py-1 rounded-lg text-xs font-semibold transition bg-slate-800 text-slate-300 hover:bg-slate-700">외래어 철자</button>
-            <button data-ortho-cat="합성어·기관" class="px-3 py-1 rounded-lg text-xs font-semibold transition bg-slate-800 text-slate-300 hover:bg-slate-700">합성어·기관</button>
-            <button data-ortho-cat="지명·주소" class="px-3 py-1 rounded-lg text-xs font-semibold transition bg-slate-800 text-slate-300 hover:bg-slate-700">지명·주소</button>
+            <button data-ortho-cat="all" class="px-3 py-1 rounded-lg text-xs font-semibold transition bg-emerald-700 text-white shadow-sm">전체 (11)</button>
+            <button data-ortho-cat="대소문자" class="px-3 py-1 rounded-lg text-xs font-semibold transition bg-stone-100 text-slate-700 hover:bg-stone-200">대소문자</button>
+            <button data-ortho-cat="아포스트로피" class="px-3 py-1 rounded-lg text-xs font-semibold transition bg-stone-100 text-slate-700 hover:bg-stone-200">아포스트로피(')</button>
+            <button data-ortho-cat="철자법" class="px-3 py-1 rounded-lg text-xs font-semibold transition bg-stone-100 text-slate-700 hover:bg-stone-200">외래어 철자</button>
+            <button data-ortho-cat="합성어·기관" class="px-3 py-1 rounded-lg text-xs font-semibold transition bg-stone-100 text-slate-700 hover:bg-stone-200">합성어·기관</button>
+            <button data-ortho-cat="지명·주소" class="px-3 py-1 rounded-lg text-xs font-semibold transition bg-stone-100 text-slate-700 hover:bg-stone-200">지명·주소</button>
           </div>
         </div>
 
@@ -613,15 +627,15 @@
       </div>
 
       <!-- Module 2: Appendix - Number and Symbol Rules -->
-      <div class="glass-panel p-6 rounded-3xl border border-slate-800">
-        <div class="mb-4 pb-3 border-b border-slate-800 flex items-center justify-between">
+      <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm">
+        <div class="mb-4 pb-3 border-b border-stone-100 flex items-center justify-between">
           <div>
-            <h3 class="text-lg font-bold text-white flex items-center gap-2">
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 tracking-tight flex items-center gap-2">
               <span>🔢</span> 부록: 터키어 숫자 및 특수 기호 표기법 (Sayılar ve Noktalama)
             </h3>
-            <p class="text-xs text-slate-400">한국 및 영미권과 반대로 쓰이는 퍼센트 기호(%), 소수점(,), 천 단위 구분(.) 표준 규격</p>
+            <p class="text-xs text-slate-500">한국 및 영미권과 반대로 쓰이는 퍼센트 기호(%), 소수점(,), 천 단위 구분(.) 표준 규격</p>
           </div>
-          <span class="text-xs px-2.5 py-1 rounded bg-amber-950 text-amber-300 border border-amber-800 font-semibold font-mono">TDK 표준</span>
+          <span class="text-xs px-2 py-0.5 rounded bg-sand-50 text-sand-900 border border-sand-200 font-semibold font-mono">TDK 표준</span>
         </div>
 
         <div id="orthography-appendix-container" class="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -631,14 +645,14 @@
 
       <!-- Module 3: Interactive Orthography O/X Quiz -->
       <div>
-        <div class="flex items-center justify-between mb-4">
+        <div class="flex items-center justify-between mb-3.5">
           <div>
-            <h3 class="text-lg font-bold text-white flex items-center gap-2">
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 tracking-tight flex items-center gap-2">
               <span>🎯</span> 실전 맞춤법 O/X 및 교정 퀴즈
             </h3>
-            <p class="text-xs text-slate-400">실제 사역 현장에서 가장 많이 틀리는 7가지 표기 함정을 풀어보세요.</p>
+            <p class="text-xs text-slate-500">실제 사역 현장에서 가장 많이 틀리는 7가지 표기 함정을 풀어보세요.</p>
           </div>
-          <span id="ortho-quiz-badge" class="px-3 py-1 rounded-full bg-emerald-950 text-emerald-300 border border-emerald-800 text-xs font-bold">
+          <span id="ortho-quiz-badge" class="px-3 py-1 rounded-full bg-emerald-50 text-emerald-900 border border-emerald-200 text-xs font-bold">
             0 / 7 정답
           </span>
         </div>
@@ -649,22 +663,22 @@
       </div>
 
       <!-- Module 4: Real-time Proofreading Trainer Mini-Game -->
-      <div class="glass-panel p-6 rounded-3xl border border-emerald-500/50 glow-emerald">
-        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4 pb-4 border-b border-slate-800">
+      <div class="bg-white p-6 rounded-xl border border-emerald-200 shadow-sm">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4 pb-4 border-b border-stone-100">
           <div>
-            <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-full bg-emerald-950 text-emerald-300 text-xs font-semibold mb-1">
+            <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded bg-emerald-50 text-emerald-900 border border-emerald-200 text-xs font-semibold mb-1">
               <span>🎮</span> 실시간 오탈자 교정기 미니게임
             </div>
-            <h3 class="text-xl font-bold text-white font-serif-spiritual">
+            <h3 class="text-lg sm:text-xl font-bold text-slate-900 tracking-tight">
               Hata Düzeltme Oyunu (터키어 사역 문서 교정 훈련)
             </h3>
-            <p class="text-xs text-slate-400">문장 속 잘못 표기된 단어를 찾아 클릭하세요! 올바른 MEB 규정 단어로 자동 교정되며 점수를 획득합니다.</p>
+            <p class="text-xs text-slate-500">문장 속 잘못 표기된 단어를 찾아 클릭하세요! 올바른 MEB 규정 단어로 자동 교정되며 점수를 획득합니다.</p>
           </div>
 
           <div class="flex items-center gap-3">
-            <div class="bg-slate-900 px-4 py-2 rounded-xl border border-slate-800 text-center">
-              <span class="text-[10px] text-slate-400 block">교정 획득 점수</span>
-              <span id="proofreading-score-display" class="text-lg font-bold text-emerald-400">0점</span>
+            <div class="bg-stone-50 px-4 py-2 rounded-lg border border-stone-200 text-center">
+              <span class="text-[10px] text-slate-500 block">교정 획득 점수</span>
+              <span id="proofreading-score-display" class="text-lg font-extrabold text-emerald-700">0점</span>
             </div>
           </div>
         </div>
@@ -675,20 +689,20 @@
         </div>
 
         <!-- Main Interactive Sentence Board -->
-        <div class="bg-slate-900/90 p-6 rounded-2xl border border-slate-800 mb-4 text-center">
-          <div class="text-xs text-slate-400 mb-2 flex items-center justify-center gap-2">
+        <div class="bg-stone-50/80 p-6 rounded-xl border border-stone-200 mb-4 text-center">
+          <div class="text-xs text-slate-500 mb-2 flex items-center justify-center gap-2">
             <span>💡</span>
             <span>틀린 표기로 의심되는 단어를 마우스로 직접 클릭하세요:</span>
-            <span id="proofreading-remaining-badge" class="px-2 py-0.5 rounded-full bg-slate-800 text-amber-300 font-semibold text-[11px]"></span>
+            <span id="proofreading-remaining-badge" class="px-2 py-0.5 rounded-full bg-stone-200 text-slate-800 font-semibold text-[11px]"></span>
           </div>
 
           <!-- Clickable Tokens Board -->
-          <div id="proofreading-sentence-board" class="flex flex-wrap items-center justify-center gap-2 py-4">
+          <div id="proofreading-sentence-board" class="flex flex-wrap items-center justify-center gap-2 py-3">
             <!-- Rendered dynamically -->
           </div>
 
           <!-- Sentence Translation -->
-          <p id="proofreading-translation" class="text-xs text-slate-400 italic pt-3 border-t border-slate-800 max-w-2xl mx-auto">
+          <p id="proofreading-translation" class="text-xs text-slate-500 italic pt-3 border-t border-stone-200 max-w-2xl mx-auto">
             <!-- Rendered dynamically -->
           </p>
         </div>
@@ -700,11 +714,11 @@
 
         <!-- Controls: Reset & Next -->
         <div class="flex items-center justify-between pt-2">
-          <button id="proofreading-reset-btn" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold border border-slate-700 transition flex items-center gap-1.5">
+          <button id="proofreading-reset-btn" class="px-3.5 py-1.5 rounded-lg bg-stone-100 hover:bg-stone-200 text-slate-700 text-xs font-semibold border border-stone-200 transition flex items-center gap-1.5">
             <span>🔄</span> 문장 다시 풀기
           </button>
 
-          <button id="proofreading-next-btn" class="px-5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold shadow-md transition flex items-center gap-1.5">
+          <button id="proofreading-next-btn" class="px-4 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold shadow-sm transition flex items-center gap-1.5">
             <span>다음 교정 문장으로</span>
             <span>→</span>
           </button>
@@ -716,13 +730,13 @@
   <!-- ============================================================ -->
   <!-- FOOTER                                                       -->
   <!-- ============================================================ -->
-  <footer class="bg-slate-900 border-t border-slate-800/80 py-6 mt-12 text-slate-400 text-xs">
+  <footer class="bg-white border-t border-stone-200/90 py-6 mt-12 text-slate-500 text-xs">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
       <div class="flex items-center gap-2">
-        <span class="text-emerald-400 text-lg">✝️</span>
-        <span>Spiritual Turkish (터키어 기독교 사역·전도·기도·발음 학습 플랫폼)</span>
+        <span class="text-emerald-700 text-base">✝️</span>
+        <span class="font-medium text-slate-700">Spiritual Turkish (터키어 기독교 사역·전도·기도·발음 학습 플랫폼)</span>
       </div>
-      <div class="flex items-center gap-4 text-[11px]">
+      <div class="flex items-center gap-4 text-[11px] text-slate-500">
         <span>순수 클라이언트 기반 Web Audio & Web Speech (tr-TR)</span>
         <span>•</span>
         <span>로컬 브라우저 저장소 지원</span>

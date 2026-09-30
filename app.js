@@ -1,6 +1,6 @@
 /**
  * Spiritual Turkish - Main Application Controller
- * Handles DOM rendering, Tab switching, Quizzes, Scenarios, Syntax Parsing, and Prayer Builder
+ * Re-architected for Clean Modern Editorial & Warm Pastel Studio Theme
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   // -----------------------------------------------------------
-  // Helper: Toast Notifications
+  // Helper: Toast Notifications (Editorial Warm Style)
   // -----------------------------------------------------------
   function showToast(message, type = 'info') {
     let container = document.getElementById('toast-container');
@@ -62,10 +62,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const toast = document.createElement('div');
-    const bgClass = type === 'success' ? 'bg-emerald-600' : type === 'error' ? 'bg-rose-600' : 'bg-slate-800 border border-slate-700';
-    toast.className = `${bgClass} text-white px-4 py-3 rounded-xl shadow-2xl flex items-center gap-3 text-sm font-medium transition-all duration-300 transform translate-y-3 opacity-0 pointer-events-auto max-w-sm`;
+    const bgClass = type === 'success' 
+      ? 'bg-emerald-50 text-emerald-900 border border-emerald-300' 
+      : type === 'error' 
+      ? 'bg-rose-50 text-rose-900 border border-rose-300' 
+      : 'bg-white text-slate-800 border border-stone-200';
+    
+    toast.className = `${bgClass} px-4 py-3 rounded-lg shadow-lg flex items-center gap-3 text-xs sm:text-sm font-medium transition-all duration-300 transform translate-y-3 opacity-0 pointer-events-auto max-w-sm`;
     toast.innerHTML = `
-      <span>${type === 'success' ? '✓' : type === 'error' ? '✕' : 'ℹ'}</span>
+      <span class="font-bold">${type === 'success' ? '✓' : type === 'error' ? '✕' : 'ℹ'}</span>
       <p class="flex-1">${message}</p>
     `;
 
@@ -92,11 +97,11 @@ document.addEventListener('DOMContentLoaded', () => {
       const isTarget = btn.getAttribute('data-tab-target') === targetId;
       btn.setAttribute('aria-selected', isTarget);
       if (isTarget) {
-        btn.classList.add('tab-active', 'text-emerald-400');
-        btn.classList.remove('text-slate-400', 'hover:text-slate-200');
+        btn.classList.add('tab-active', 'text-emerald-900', 'bg-white');
+        btn.classList.remove('text-slate-600', 'hover:text-slate-900', 'hover:bg-stone-100');
       } else {
-        btn.classList.remove('tab-active', 'text-emerald-400');
-        btn.classList.add('text-slate-400', 'hover:text-slate-200');
+        btn.classList.remove('tab-active', 'text-emerald-900', 'bg-white');
+        btn.classList.add('text-slate-600', 'hover:text-slate-900', 'hover:bg-stone-100');
       }
     });
 
@@ -142,55 +147,57 @@ document.addEventListener('DOMContentLoaded', () => {
       const isCorrect = isAnswered && userAnswer === item.answer;
 
       return `
-        <div class="glass-panel p-5 rounded-2xl transition-all duration-300 hover:border-slate-600">
-          <div class="flex items-start justify-between gap-4">
-            <div class="flex-1">
-              <div class="flex items-center gap-2 mb-1.5">
-                <span class="px-2 py-0.5 text-xs font-semibold rounded bg-slate-700 text-emerald-400">문항 0${idx + 1}</span>
-                <span class="text-xs text-slate-400 font-mono">${item.ipa}</span>
+        <div class="bg-white p-5 rounded-xl border border-stone-200/90 shadow-sm transition-all hover:border-stone-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-start justify-between gap-4 mb-2">
+              <div class="flex-1">
+                <div class="flex items-center gap-2 mb-1">
+                  <span class="px-2 py-0.5 text-xs font-semibold rounded bg-stone-100 text-slate-700">문항 0${idx + 1}</span>
+                  <span class="text-xs text-slate-400 font-mono">${item.ipa}</span>
+                </div>
+                <h4 class="text-sm sm:text-base font-bold text-slate-900 leading-snug mb-1">${item.question}</h4>
+                <p class="text-xs text-slate-500">단어: <span class="text-emerald-800 font-semibold">${item.word}</span> (${item.translation})</p>
               </div>
-              <h4 class="text-base font-semibold text-slate-100 mb-1">${item.question}</h4>
-              <p class="text-xs text-slate-400 mb-3">단어: <span class="text-emerald-400 font-medium">${item.word}</span> (${item.translation})</p>
+              
+              <button onclick="window.audioEngine.speakTurkish('${item.word}')" 
+                      title="터키어 원어민 발음 듣기" 
+                      class="p-2 rounded-lg bg-stone-100 hover:bg-emerald-50 text-slate-600 hover:text-emerald-700 border border-stone-200 transition flex items-center justify-center shrink-0">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+              </button>
             </div>
-            
-            <button onclick="window.audioEngine.speakTurkish('${item.word}')" 
-                    title="터키어 원어민 발음 듣기" 
-                    class="p-2.5 rounded-xl bg-slate-800 text-slate-300 hover:text-emerald-400 hover:bg-slate-700 transition flex items-center justify-center shrink-0">
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
-            </button>
-          </div>
 
-          <!-- OX Buttons -->
-          <div class="flex items-center gap-3 mt-2">
-            <button onclick="handleOXClick(${item.id}, 'O')" 
-                    class="flex-1 py-2.5 px-4 rounded-xl font-bold text-sm transition-all flex items-center justify-center gap-2 ${
-                      userAnswer === 'O' 
-                        ? (item.answer === 'O' ? 'bg-emerald-600 text-white ring-2 ring-emerald-400' : 'bg-rose-600 text-white')
-                        : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
-                    }">
-              <span>⭕</span> 그렇다 (O)
-            </button>
-            <button onclick="handleOXClick(${item.id}, 'X')" 
-                    class="flex-1 py-2.5 px-4 rounded-xl font-bold text-sm transition-all flex items-center justify-center gap-2 ${
-                      userAnswer === 'X' 
-                        ? (item.answer === 'X' ? 'bg-emerald-600 text-white ring-2 ring-emerald-400' : 'bg-rose-600 text-white')
-                        : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
-                    }">
-              <span>❌</span> 아니다 (X)
-            </button>
+            <!-- OX Buttons -->
+            <div class="flex items-center gap-2.5 my-3">
+              <button onclick="handleOXClick(${item.id}, 'O')" 
+                      class="flex-1 py-2 px-3 rounded-lg font-bold text-xs transition-all flex items-center justify-center gap-1.5 ${
+                        userAnswer === 'O' 
+                          ? (item.answer === 'O' ? 'bg-emerald-700 text-white ring-2 ring-emerald-300' : 'bg-rose-600 text-white')
+                          : 'bg-stone-100 text-slate-700 hover:bg-stone-200'
+                      }">
+                <span>⭕</span> 그렇다 (O)
+              </button>
+              <button onclick="handleOXClick(${item.id}, 'X')" 
+                      class="flex-1 py-2 px-3 rounded-lg font-bold text-xs transition-all flex items-center justify-center gap-1.5 ${
+                        userAnswer === 'X' 
+                          ? (item.answer === 'X' ? 'bg-emerald-700 text-white ring-2 ring-emerald-300' : 'bg-rose-600 text-white')
+                          : 'bg-stone-100 text-slate-700 hover:bg-stone-200'
+                      }">
+                <span>❌</span> 아니다 (X)
+              </button>
+            </div>
           </div>
 
           <!-- Feedback & Reason -->
           ${isAnswered ? `
-            <div class="mt-4 pt-3 border-t border-slate-700/60 transition-all duration-300">
-              <div class="flex items-center gap-2 mb-2">
-                <span class="text-xs font-bold px-2 py-0.5 rounded ${isCorrect ? 'bg-emerald-950 text-emerald-300 border border-emerald-700' : 'bg-rose-950 text-rose-300 border border-rose-700'}">
+            <div class="pt-3 border-t border-stone-100 transition-all duration-300">
+              <div class="flex items-center gap-2 mb-1.5">
+                <span class="text-xs font-bold px-2 py-0.5 rounded ${isCorrect ? 'bg-emerald-50 text-emerald-900 border border-emerald-200' : 'bg-rose-50 text-rose-900 border border-rose-200'}">
                   ${isCorrect ? '정답입니다! ✓' : `오답입니다 (정답: ${item.answer}) ✕`}
                 </span>
               </div>
-              <p class="text-sm text-slate-200 leading-relaxed mb-2">${item.reason}</p>
-              <div class="bg-amber-950/40 border border-amber-800/50 p-2.5 rounded-lg text-xs text-amber-200 flex items-start gap-2">
-                <span class="text-amber-400 shrink-0">💡</span>
+              <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-2">${item.reason}</p>
+              <div class="bg-sand-50 border border-sand-200 p-2.5 rounded-lg text-xs text-sand-900 flex items-start gap-2">
+                <span class="shrink-0">💡</span>
                 <span>${item.tip}</span>
               </div>
             </div>
@@ -200,7 +207,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }).join('');
 
     // Update score badge
-    const totalAnswered = Object.keys(state.oxAnswers).length;
     let correctCount = 0;
     APP_DATA.pronunciation.oxQuiz.forEach(q => {
       if (state.oxAnswers[q.id] === q.answer) correctCount++;
@@ -231,28 +237,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
     container.innerHTML = APP_DATA.pronunciation.syllables.map(item => {
       const parts = item.segmented.split('-');
-      const syllablesHtml = parts.map((s, idx) => `
+      const syllablesHtml = parts.map((s) => `
         <button onclick="playSyllableRhythm('${s}')" 
-                class="syllable-chunk px-3 py-1.5 rounded-lg bg-emerald-950/70 border border-emerald-700/60 text-emerald-300 font-bold text-sm tracking-wide shadow-sm hover:bg-emerald-800 hover:text-white transition">
+                class="syllable-chunk px-3 py-1.5 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-800 font-bold text-sm hover:bg-emerald-100 hover:border-emerald-300 transition shadow-sm">
           ${s}
         </button>
-      `).join('<span class="text-slate-500 font-bold mx-0.5">•</span>');
+      `).join('<span class="text-stone-400 font-bold mx-0.5">•</span>');
 
       return `
-        <div class="glass-panel p-4 rounded-xl flex flex-col justify-between">
+        <div class="bg-white p-4 rounded-xl border border-stone-200/90 shadow-sm flex flex-col justify-between">
           <div>
             <div class="flex items-center justify-between mb-2">
-              <span class="text-xs font-semibold px-2 py-0.5 rounded bg-slate-800 text-slate-400">${item.syllableCount}음절 분절</span>
-              <button onclick="window.audioEngine.speakTurkish('${item.word}')" class="text-slate-400 hover:text-emerald-400 transition" title="전체 발음">
+              <span class="text-xs font-semibold px-2 py-0.5 rounded bg-stone-100 text-slate-600">${item.syllableCount}음절 분절</span>
+              <button onclick="window.audioEngine.speakTurkish('${item.word}')" class="text-slate-400 hover:text-emerald-700 transition" title="전체 발음">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
               </button>
             </div>
             <div class="flex items-center gap-1.5 mb-2 flex-wrap">
               ${syllablesHtml}
             </div>
-            <p class="text-xs text-slate-300 mb-2 font-medium">${item.korean}</p>
+            <p class="text-xs text-slate-700 mb-2 font-medium">${item.korean}</p>
           </div>
-          <p class="text-[11px] text-slate-400 bg-slate-900/60 p-2 rounded border border-slate-800 leading-normal">
+          <p class="text-[11px] text-slate-500 bg-stone-50 p-2 rounded-lg border border-stone-200/80 leading-normal">
             ${item.rule}
           </p>
         </div>
@@ -278,13 +284,13 @@ document.addEventListener('DOMContentLoaded', () => {
       const segmented = naiveTurkishHyphenate(val);
       customSyllableResult.classList.remove('hidden');
       customSyllableResult.innerHTML = `
-        <div class="flex items-center justify-between gap-4 p-3 bg-emerald-950/40 border border-emerald-700/50 rounded-xl">
+        <div class="flex items-center justify-between gap-4 p-3 bg-emerald-50 border border-emerald-200 rounded-lg">
           <div>
-            <span class="text-xs text-emerald-400 font-semibold">분절 결과:</span>
-            <span class="text-lg font-bold text-white tracking-widest ml-2">${segmented}</span>
+            <span class="text-xs text-emerald-800 font-semibold">분절 결과:</span>
+            <span class="text-base sm:text-lg font-bold text-emerald-950 tracking-widest ml-2">${segmented}</span>
           </div>
-          <button onclick="window.audioEngine.speakTurkish('${val}')" class="px-3 py-1.5 rounded-lg bg-emerald-600 text-white text-xs font-semibold hover:bg-emerald-500 transition flex items-center gap-1.5">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+          <button onclick="window.audioEngine.speakTurkish('${val}')" class="px-3 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-semibold shadow-sm transition flex items-center gap-1.5">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
             발음 듣기
           </button>
         </div>
@@ -292,7 +298,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Basic Turkish Hyphenation rule approximation
   function naiveTurkishHyphenate(word) {
     const vowels = "aeıioöuüAEIİOÖUÜâîûÂÎÛ";
     let res = "";
@@ -304,11 +309,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const c1 = vowels.includes(word[i + 1]);
         const c2 = vowels.includes(word[i + 2]);
 
-        // V-CV -> V-C
         if (c0 && !c1 && c2) {
           res += "-";
         } else if (!c0 && !c1 && c2 && i > 0 && vowels.includes(word[i - 1])) {
-          // VC-CV -> VC-
           res += "-";
         }
       }
@@ -323,49 +326,49 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!container) return;
 
     container.innerHTML = APP_DATA.pronunciation.sapkaPairs.map(pair => `
-      <div class="glass-panel p-5 rounded-2xl border border-slate-700/70">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+      <div class="bg-white p-5 rounded-xl border border-stone-200/90 shadow-sm flex flex-col justify-between">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5 mb-3.5">
           <!-- Without Şapka -->
-          <div class="p-4 rounded-xl bg-slate-900/80 border border-slate-800">
+          <div class="p-4 rounded-lg bg-stone-50 border border-stone-200">
             <div class="flex items-center justify-between mb-2">
-              <span class="text-xs font-semibold px-2 py-0.5 rounded bg-slate-800 text-slate-400">단모음 (Kısa)</span>
+              <span class="text-xs font-semibold px-2 py-0.5 rounded bg-white text-slate-600 border border-stone-200">단모음 (Kısa)</span>
               <div class="flex items-center gap-1">
-                <button onclick="window.audioEngine.speakTurkish('${pair.without.word}', 0.75)" class="text-xs px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-amber-300" title="느리게">0.75x</button>
-                <button onclick="window.audioEngine.speakTurkish('${pair.without.word}', 1.0)" class="p-1.5 rounded bg-slate-800 hover:bg-slate-700 text-emerald-400" title="보통속도">
-                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                <button onclick="window.audioEngine.speakTurkish('${pair.without.word}', 0.75)" class="text-xs px-2 py-0.5 rounded bg-white hover:bg-stone-100 text-amber-900 border border-stone-200" title="느리게">0.75x</button>
+                <button onclick="window.audioEngine.speakTurkish('${pair.without.word}', 1.0)" class="p-1 rounded bg-white hover:bg-emerald-50 text-emerald-800 border border-stone-200" title="보통속도">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
                 </button>
               </div>
             </div>
             <div class="flex items-baseline gap-2 mb-1">
-              <h4 class="text-2xl font-bold text-slate-100">${pair.without.word}</h4>
+              <h4 class="text-2xl font-bold text-slate-900">${pair.without.word}</h4>
               <span class="text-xs font-mono text-slate-400">${pair.without.ipa}</span>
             </div>
-            <p class="text-sm font-semibold text-emerald-400 mb-2">${pair.without.meaning}</p>
-            <p class="text-xs text-slate-400 italic">${pair.without.context}</p>
+            <p class="text-sm font-semibold text-emerald-800 mb-1.5">${pair.without.meaning}</p>
+            <p class="text-xs text-slate-500 italic">${pair.without.context}</p>
           </div>
 
           <!-- With Şapka -->
-          <div class="p-4 rounded-xl bg-emerald-950/30 border border-emerald-700/50">
+          <div class="p-4 rounded-lg bg-sand-50/70 border border-sand-200">
             <div class="flex items-center justify-between mb-2">
-              <span class="text-xs font-semibold px-2 py-0.5 rounded bg-emerald-900/60 text-emerald-300">장모음 / 구개음화 (Uzun)</span>
+              <span class="text-xs font-semibold px-2 py-0.5 rounded bg-white text-sand-900 border border-sand-200">장모음 / 구개음화 (Uzun)</span>
               <div class="flex items-center gap-1">
-                <button onclick="window.audioEngine.speakTurkish('${pair.with.word}', 0.75)" class="text-xs px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-amber-300" title="느리게">0.75x</button>
-                <button onclick="window.audioEngine.speakTurkish('${pair.with.word}', 1.0)" class="p-1.5 rounded bg-emerald-800 hover:bg-emerald-700 text-white" title="보통속도">
-                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                <button onclick="window.audioEngine.speakTurkish('${pair.with.word}', 0.75)" class="text-xs px-2 py-0.5 rounded bg-white hover:bg-stone-100 text-amber-900 border border-sand-200" title="느리게">0.75x</button>
+                <button onclick="window.audioEngine.speakTurkish('${pair.with.word}', 1.0)" class="p-1 rounded bg-white hover:bg-emerald-50 text-emerald-800 border border-sand-200" title="보통속도">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
                 </button>
               </div>
             </div>
             <div class="flex items-baseline gap-2 mb-1">
-              <h4 class="text-2xl font-bold text-amber-300">${pair.with.word}</h4>
+              <h4 class="text-2xl font-bold text-amber-900">${pair.with.word}</h4>
               <span class="text-xs font-mono text-slate-400">${pair.with.ipa}</span>
             </div>
-            <p class="text-sm font-semibold text-amber-400 mb-2">${pair.with.meaning}</p>
-            <p class="text-xs text-slate-300 italic">${pair.with.context}</p>
+            <p class="text-sm font-semibold text-amber-900 mb-1.5">${pair.with.meaning}</p>
+            <p class="text-xs text-slate-600 italic">${pair.with.context}</p>
           </div>
         </div>
 
-        <div class="text-xs text-slate-300 bg-slate-900/50 p-2.5 rounded-lg border border-slate-800/80 leading-relaxed">
-          <strong class="text-slate-200">구별 포인트:</strong> ${pair.explanation}
+        <div class="text-xs text-slate-700 bg-stone-50 p-3 rounded-lg border border-stone-200 leading-relaxed">
+          <strong class="text-slate-900">구별 포인트:</strong> ${pair.explanation}
         </div>
       </div>
     `).join('');
@@ -386,13 +389,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!wordListContainer) return;
 
-    // Render word chips
     wordListContainer.innerHTML = APP_DATA.pronunciation.speechPracticeWords.map(w => `
       <button data-word="${w.turkish}" 
               class="px-3 py-1.5 rounded-lg text-xs font-medium transition border ${
                 w.turkish === state.activeSpeechTarget 
-                  ? 'bg-emerald-600 text-white border-emerald-500' 
-                  : 'bg-slate-800 text-slate-300 border-slate-700 hover:border-slate-500'
+                  ? 'bg-emerald-700 text-white border-emerald-600 shadow-sm' 
+                  : 'bg-stone-100 text-slate-700 border-stone-200 hover:bg-stone-200'
               }">
         ${w.turkish} <span class="text-[10px] opacity-75">(${w.korean})</span>
       </button>
@@ -411,16 +413,14 @@ document.addEventListener('DOMContentLoaded', () => {
       if (targetWordDisplay) targetWordDisplay.innerText = wordStr;
       if (targetKoreanDisplay && found) targetKoreanDisplay.innerText = found.korean;
 
-      // Update chips UI
       wordListContainer.querySelectorAll('[data-word]').forEach(chip => {
         if (chip.getAttribute('data-word') === wordStr) {
-          chip.className = 'px-3 py-1.5 rounded-lg text-xs font-medium transition border bg-emerald-600 text-white border-emerald-500';
+          chip.className = 'px-3 py-1.5 rounded-lg text-xs font-medium transition border bg-emerald-700 text-white border-emerald-600 shadow-sm';
         } else {
-          chip.className = 'px-3 py-1.5 rounded-lg text-xs font-medium transition border bg-slate-800 text-slate-300 border-slate-700 hover:border-slate-500';
+          chip.className = 'px-3 py-1.5 rounded-lg text-xs font-medium transition border bg-stone-100 text-slate-700 border-stone-200 hover:bg-stone-200';
         }
       });
 
-      // Clear previous test
       if (spokenTranscriptDisplay) spokenTranscriptDisplay.innerText = '-';
       if (speechScoreDisplay) speechScoreDisplay.innerText = '0%';
       if (speechScoreBar) speechScoreBar.style.width = '0%';
@@ -438,27 +438,23 @@ document.addEventListener('DOMContentLoaded', () => {
         if (state.isListening) {
           window.audioEngine.stopListening();
           state.isListening = false;
-          micRecordBtn.classList.remove('mic-recording', 'bg-rose-600');
-          micRecordBtn.classList.add('bg-slate-800');
+          micRecordBtn.classList.remove('mic-recording', 'bg-rose-50', 'text-rose-600');
           if (micStatus) micStatus.innerText = '녹음 중지됨';
           return;
         }
 
         state.isListening = true;
-        micRecordBtn.classList.add('mic-recording', 'bg-rose-600');
-        micRecordBtn.classList.remove('bg-slate-800');
+        micRecordBtn.classList.add('mic-recording', 'bg-rose-50', 'text-rose-600');
         if (micStatus) micStatus.innerText = '듣고 있습니다... 터키어로 말씀하세요 (tr-TR)';
 
         window.audioEngine.startListening(
           (spoken) => {
             state.isListening = false;
-            micRecordBtn.classList.remove('mic-recording', 'bg-rose-600');
-            micRecordBtn.classList.add('bg-slate-800');
+            micRecordBtn.classList.remove('mic-recording', 'bg-rose-50', 'text-rose-600');
             if (micStatus) micStatus.innerText = '음성 인식 완료';
 
             if (spokenTranscriptDisplay) spokenTranscriptDisplay.innerText = `"${spoken}"`;
             
-            // Calculate similarity score
             const score = window.audioEngine.calculateSimilarity(state.activeSpeechTarget, spoken);
             if (speechScoreDisplay) speechScoreDisplay.innerText = `${score}%`;
             if (speechScoreBar) speechScoreBar.style.width = `${score}%`;
@@ -466,36 +462,33 @@ document.addEventListener('DOMContentLoaded', () => {
             if (score >= 85) {
               window.audioEngine.playCorrectSound();
               if (speechFeedbackDisplay) {
-                speechFeedbackDisplay.innerHTML = `<span class="text-emerald-400 font-bold">대단합니다!</span> 원어민 수준의 정확하고 또렷한 발음입니다. (유사도: ${score}%)`;
+                speechFeedbackDisplay.innerHTML = `<span class="text-emerald-800 font-bold">대단합니다!</span> 원어민 수준의 정확하고 또렷한 발음입니다. (유사도: ${score}%)`;
               }
             } else if (score >= 50) {
               if (speechFeedbackDisplay) {
-                speechFeedbackDisplay.innerHTML = `<span class="text-amber-400 font-bold">좋습니다!</span> 뜻이 통하는 발음입니다. 모음의 길이와 유성음을 의식하며 한 번 더 시도해 보세요. (유사도: ${score}%)`;
+                speechFeedbackDisplay.innerHTML = `<span class="text-amber-800 font-bold">좋습니다!</span> 뜻이 통하는 발음입니다. 모음의 길이와 유성음을 의식하며 한 번 더 시도해 보세요. (유사도: ${score}%)`;
               }
             } else {
               window.audioEngine.playWrongSound();
               if (speechFeedbackDisplay) {
-                speechFeedbackDisplay.innerHTML = `<span class="text-rose-400 font-bold">다시 시도해 보세요!</span> '원어민 발음 듣기'를 2~3회 반복해 듣고 천천히 소리 내어 보세요. (유사도: ${score}%)`;
+                speechFeedbackDisplay.innerHTML = `<span class="text-rose-700 font-bold">다시 시도해 보세요!</span> '원어민 발음 듣기'를 2~3회 반복해 듣고 천천히 소리 내어 보세요. (유사도: ${score}%)`;
               }
             }
           },
           (err) => {
             state.isListening = false;
-            micRecordBtn.classList.remove('mic-recording', 'bg-rose-600');
-            micRecordBtn.classList.add('bg-slate-800');
+            micRecordBtn.classList.remove('mic-recording', 'bg-rose-50', 'text-rose-600');
             if (micStatus) micStatus.innerText = '인식 대기 중';
             showToast(err, 'error');
           },
           () => {
             state.isListening = false;
-            micRecordBtn.classList.remove('mic-recording', 'bg-rose-600');
-            micRecordBtn.classList.add('bg-slate-800');
+            micRecordBtn.classList.remove('mic-recording', 'bg-rose-50', 'text-rose-600');
           }
         );
       });
     }
 
-    // Set default target
     setTargetWord('Müjde');
   }
 
@@ -526,17 +519,17 @@ document.addEventListener('DOMContentLoaded', () => {
         <button onclick="switchScenario('${s.id}')" 
                 class="p-4 rounded-xl text-left transition border ${
                   isActive 
-                    ? 'bg-slate-800 border-emerald-500 shadow-lg glow-emerald' 
-                    : 'bg-slate-900/60 border-slate-800 hover:border-slate-700'
+                    ? 'bg-white border-2 border-emerald-600 shadow-md' 
+                    : 'bg-white border border-stone-200 hover:border-stone-300 shadow-sm'
                 }">
-          <div class="flex items-center gap-2 mb-1">
-            <span class="text-xs px-2 py-0.5 rounded font-bold ${isActive ? 'bg-emerald-600 text-white' : 'bg-slate-800 text-slate-400'}">
+          <div class="flex items-center gap-2 mb-1.5">
+            <span class="text-xs px-2 py-0.5 rounded font-bold ${isActive ? 'bg-emerald-700 text-white' : 'bg-stone-100 text-slate-600'}">
               시나리오
             </span>
-            <span class="text-xs text-slate-400 truncate">${s.npc.name}</span>
+            <span class="text-xs text-slate-500 truncate">${s.npc.name}</span>
           </div>
-          <h4 class="text-sm font-bold text-slate-100 line-clamp-1 mb-1">${s.title}</h4>
-          <p class="text-xs text-slate-400 line-clamp-2">${s.subtitle}</p>
+          <h4 class="text-sm font-bold text-slate-900 line-clamp-1 mb-1">${s.title}</h4>
+          <p class="text-xs text-slate-500 line-clamp-2">${s.subtitle}</p>
         </button>
       `;
     }).join('');
@@ -558,7 +551,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('active-scenario-view');
     if (!sc || !container) return;
 
-    // Check if scenario finished
     if (state.scenarioStep >= sc.steps.length) {
       renderScenarioComplete(sc, container);
       return;
@@ -567,19 +559,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const currentStep = sc.steps[state.scenarioStep];
     const isStepAnswered = state.selectedChoice !== null;
 
-    // 5-Color Book Special UI (if Scenario 4)
     let colorBookBanner = '';
     if (sc.id === 'scenario-4') {
       const colors = [
-        { name: 'Altın (금색)', bg: 'bg-amber-400 text-slate-950', desc: '천국 & 영광' },
-        { name: 'Siyah (검은색)', bg: 'bg-slate-950 text-slate-200 border border-slate-700', desc: '죄 & 어둠' },
-        { name: 'Kırmızı (빨간색)', bg: 'bg-red-600 text-white', desc: '보혈 & 대속' },
-        { name: 'Beyaz (흰색)', bg: 'bg-white text-slate-950', desc: '칭의 & 정결' },
-        { name: 'Yeşil (초록색)', bg: 'bg-emerald-600 text-white', desc: '성장 & 새 생명' }
+        { name: 'Altın (금색)', bg: 'bg-amber-100 text-amber-900 border border-amber-300', desc: '천국 & 영광' },
+        { name: 'Siyah (검은색)', bg: 'bg-slate-900 text-white', desc: '죄 & 어둠' },
+        { name: 'Kırmızı (빨간색)', bg: 'bg-rose-100 text-rose-900 border border-rose-300', desc: '보혈 & 대속' },
+        { name: 'Beyaz (흰색)', bg: 'bg-white text-slate-900 border border-stone-300', desc: '칭의 & 정결' },
+        { name: 'Yeşil (초록색)', bg: 'bg-emerald-100 text-emerald-900 border border-emerald-300', desc: '성장 & 새 생명' }
       ];
       colorBookBanner = `
-        <div class="mb-4 p-3 bg-slate-900/80 rounded-xl border border-slate-800">
-          <p class="text-xs font-semibold text-slate-300 mb-2">📖 글 없는 책 (5 Renk) 상징 팔레트:</p>
+        <div class="mb-4 p-3 bg-stone-50 rounded-xl border border-stone-200">
+          <p class="text-xs font-semibold text-slate-700 mb-2">📖 글 없는 책 (5 Renk) 상징 팔레트:</p>
           <div class="grid grid-cols-5 gap-2 text-center text-xs">
             ${colors.map(c => `
               <div class="p-2 rounded-lg ${c.bg} font-bold shadow-sm">
@@ -594,52 +585,52 @@ document.addEventListener('DOMContentLoaded', () => {
 
     container.innerHTML = `
       <!-- Context & NPC Header -->
-      <div class="glass-panel p-5 rounded-2xl mb-4 border border-slate-700/60">
-        <div class="flex items-center justify-between gap-4 mb-3 pb-3 border-b border-slate-800">
+      <div class="bg-white p-5 sm:p-6 rounded-xl mb-4 border border-stone-200/90 shadow-sm">
+        <div class="flex items-center justify-between gap-4 mb-3 pb-3 border-b border-stone-100">
           <div class="flex items-center gap-3">
-            <div class="w-12 h-12 rounded-2xl ${sc.npc.avatarBg} flex items-center justify-center text-white text-xl font-bold shadow-md">
+            <div class="w-11 h-11 rounded-lg ${sc.npc.avatarBg} flex items-center justify-center text-white text-lg font-bold shadow-sm">
               ${sc.npc.name.charAt(0)}
             </div>
             <div>
               <div class="flex items-center gap-2">
-                <h3 class="text-base font-bold text-slate-100">${sc.npc.name}</h3>
-                <span class="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-emerald-400 font-medium">${sc.npc.role}</span>
+                <h3 class="text-base font-bold text-slate-900">${sc.npc.name}</h3>
+                <span class="text-xs px-2 py-0.5 rounded bg-stone-100 text-slate-600 font-medium">${sc.npc.role}</span>
               </div>
-              <p class="text-xs text-slate-400">${sc.npc.desc}</p>
+              <p class="text-xs text-slate-500">${sc.npc.desc}</p>
             </div>
           </div>
           
           <div class="text-right">
             <div class="text-xs text-slate-400">진행 단계</div>
-            <div class="text-lg font-bold text-emerald-400">${state.scenarioStep + 1} / ${sc.steps.length}</div>
+            <div class="text-base font-bold text-emerald-800">${state.scenarioStep + 1} / ${sc.steps.length}</div>
           </div>
         </div>
 
-        <div class="bg-slate-900/60 p-3 rounded-xl border border-slate-800 text-xs text-slate-300 mb-4 flex items-start gap-2">
-          <span class="text-amber-400">📍</span>
+        <div class="bg-stone-50 p-3 rounded-lg border border-stone-200 text-xs text-slate-600 mb-4 flex items-start gap-2">
+          <span class="shrink-0">📍</span>
           <span><strong>상황 배경:</strong> ${sc.context}</span>
         </div>
 
         ${colorBookBanner}
 
         <!-- NPC Speech Bubble -->
-        <div class="relative bg-slate-800/90 p-4 rounded-2xl border border-slate-700">
+        <div class="bg-stone-50 p-5 rounded-xl border border-stone-200">
           <div class="flex items-start justify-between gap-3">
             <div class="flex-1">
-              <span class="text-xs font-semibold text-emerald-400 mb-1 block">${sc.npc.name}의 말:</span>
-              <p class="text-base font-medium text-white leading-relaxed mb-2 font-serif-spiritual">
+              <span class="text-xs font-semibold text-emerald-800 mb-1 block">${sc.npc.name}의 질문:</span>
+              <p class="text-base font-medium text-slate-900 leading-relaxed mb-2 tracking-tight">
                 "${currentStep.npcSpeech}"
               </p>
               ${state.showKoreanInSimulator ? `
-                <p class="text-xs text-slate-300 italic pt-1 border-t border-slate-700/60">
+                <p class="text-xs text-slate-500 italic pt-2 border-t border-stone-200/80">
                   "${currentStep.npcSpeechKo}"
                 </p>
               ` : ''}
             </div>
             <button onclick="window.audioEngine.speakTurkish(\`${currentStep.npcSpeech.replace(/"/g, '')}\`)" 
-                    class="p-2.5 rounded-xl bg-slate-700 text-slate-200 hover:text-emerald-400 hover:bg-slate-600 transition shrink-0" 
+                    class="p-2 rounded-lg bg-white hover:bg-stone-100 text-slate-600 border border-stone-200 transition shrink-0" 
                     title="터키어 음성 듣기">
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
             </button>
           </div>
         </div>
@@ -647,42 +638,42 @@ document.addEventListener('DOMContentLoaded', () => {
 
       <!-- User Choice Options -->
       <div class="mb-4">
-        <h4 class="text-sm font-bold text-slate-300 mb-3 flex items-center gap-2">
+        <h4 class="text-xs sm:text-sm font-bold text-slate-800 mb-2.5 flex items-center gap-1.5">
           <span>✝️</span> 당신의 복음적 응답을 선택하세요 (3가지 옵션):
         </h4>
-        <div class="flex flex-col gap-3">
+        <div class="flex flex-col gap-2.5">
           ${currentStep.choices.map((c, idx) => {
             const isSelected = state.selectedChoice && state.selectedChoice.id === c.id;
-            let choiceStyle = 'bg-slate-800/80 border-slate-700 hover:border-slate-500';
+            let choiceStyle = 'bg-white border-stone-200 hover:border-emerald-600 hover:bg-stone-50/50';
             
             if (isStepAnswered) {
               if (c.feedbackType === 'best') {
-                choiceStyle = 'bg-emerald-950/60 border-emerald-600 text-emerald-200';
+                choiceStyle = 'bg-emerald-50 border-emerald-400 text-emerald-950';
               } else if (isSelected && c.feedbackType !== 'best') {
-                choiceStyle = 'bg-rose-950/60 border-rose-600 text-rose-200';
+                choiceStyle = 'bg-rose-50 border-rose-300 text-rose-950';
               } else {
-                choiceStyle = 'opacity-50 bg-slate-900 border-slate-800';
+                choiceStyle = 'opacity-60 bg-stone-50 border-stone-200';
               }
             }
 
             return `
               <button onclick="handleSimulatorChoice('${c.id}')" 
                       ${isStepAnswered ? 'disabled' : ''}
-                      class="p-4 rounded-xl text-left transition-all border ${choiceStyle} flex flex-col gap-1.5 shadow-sm group">
+                      class="p-4 rounded-xl text-left transition-all border ${choiceStyle} flex flex-col gap-1 shadow-sm group">
                 <div class="flex items-center justify-between gap-2">
-                  <span class="text-xs font-bold px-2 py-0.5 rounded bg-slate-700 text-slate-300 group-hover:bg-emerald-600 group-hover:text-white transition">
+                  <span class="text-xs font-bold px-2 py-0.5 rounded bg-stone-100 text-slate-700 group-hover:bg-emerald-700 group-hover:text-white transition">
                     응답 0${idx + 1}
                   </span>
                   <div class="flex items-center gap-2">
-                    <button type="button" onclick="event.stopPropagation(); window.audioEngine.speakTurkish(\`${c.text.replace(/"/g, '')}\`)" class="text-slate-400 hover:text-emerald-400" title="듣기">
+                    <button type="button" onclick="event.stopPropagation(); window.audioEngine.speakTurkish(\`${c.text.replace(/"/g, '')}\`)" class="text-slate-400 hover:text-emerald-700" title="듣기">
                       <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
                     </button>
-                    ${isStepAnswered ? `<span class="text-xs font-bold ${c.score > 0 ? 'text-emerald-400' : 'text-rose-400'}">${c.score > 0 ? '+' : ''}${c.score}점</span>` : ''}
+                    ${isStepAnswered ? `<span class="text-xs font-bold ${c.score > 0 ? 'text-emerald-800' : 'text-rose-700'}">${c.score > 0 ? '+' : ''}${c.score}점</span>` : ''}
                   </div>
                 </div>
-                <p class="text-sm font-semibold text-slate-100">${c.text}</p>
+                <p class="text-sm font-semibold text-slate-900 leading-snug">${c.text}</p>
                 ${state.showKoreanInSimulator ? `
-                  <p class="text-xs text-slate-400 italic">${c.korean}</p>
+                  <p class="text-xs text-slate-500 italic">${c.korean}</p>
                 ` : ''}
               </button>
             `;
@@ -690,42 +681,42 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
       </div>
 
-      <!-- Feedback Area (Revealed after selection) -->
+      <!-- Feedback Area -->
       ${isStepAnswered ? `
-        <div class="glass-panel p-5 rounded-2xl border border-slate-700 animate-fadeIn">
+        <div class="bg-white p-5 rounded-xl border border-stone-200 shadow-sm animate-fadeIn">
           <div class="flex items-center justify-between mb-3">
             <span class="text-xs font-bold px-2.5 py-1 rounded-full ${
               state.selectedChoice.feedbackType === 'best' 
-                ? 'bg-emerald-600 text-white' 
+                ? 'bg-emerald-100 text-emerald-900 border border-emerald-300' 
                 : state.selectedChoice.feedbackType === 'neutral'
-                ? 'bg-amber-600 text-white'
-                : 'bg-rose-600 text-white'
+                ? 'bg-amber-100 text-amber-900 border border-amber-300'
+                : 'bg-rose-100 text-rose-900 border border-rose-300'
             }">
               ${state.selectedChoice.feedbackType === 'best' ? '탁월한 응답! (최고 점수)' : state.selectedChoice.feedbackType === 'neutral' ? '보통의 응답' : '주의가 필요한 응답'}
             </span>
 
-            <span class="text-sm font-bold text-slate-200">
-              현재 영적 지혜 지수: <span class="text-emerald-400">${state.scenarioScore}점</span>
+            <span class="text-xs sm:text-sm font-bold text-slate-800">
+              현재 영적 지혜 지수: <span class="text-emerald-800">${state.scenarioScore}점</span>
             </span>
           </div>
 
-          <p class="text-sm text-slate-200 leading-relaxed mb-3">
+          <p class="text-sm text-slate-700 leading-relaxed mb-3">
             ${state.selectedChoice.feedback}
           </p>
 
-          <div class="bg-emerald-950/40 border border-emerald-800/60 p-3 rounded-xl text-xs text-emerald-300 mb-4 flex items-start gap-2.5">
-            <span class="text-base shrink-0">📖</span>
+          <div class="bg-sand-50 border border-sand-200 p-3 rounded-lg text-xs text-sand-900 mb-4 flex items-start gap-2">
+            <span class="shrink-0 text-sm">📖</span>
             <div>
-              <strong class="font-bold text-emerald-200">신학 & 사역 팁:</strong>
+              <strong class="font-bold">신학 & 사역 팁:</strong>
               <p class="mt-0.5 leading-normal">${state.selectedChoice.theologyTip}</p>
             </div>
           </div>
 
           <div class="flex justify-end">
             <button onclick="advanceSimulatorStep()" 
-                    class="px-6 py-2.5 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold text-sm shadow-lg flex items-center gap-2 transition">
+                    class="px-5 py-2.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white font-semibold text-xs shadow-sm flex items-center gap-1.5 transition">
               <span>다음 단계 진행하기</span>
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+              <span>→</span>
             </button>
           </div>
         </div>
@@ -779,34 +770,34 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     container.innerHTML = `
-      <div class="glass-panel p-8 rounded-2xl text-center border border-emerald-500/40 glow-emerald animate-fadeIn">
-        <div class="w-20 h-20 rounded-full bg-emerald-600/20 border-2 border-emerald-400 mx-auto flex items-center justify-center text-3xl mb-4">
+      <div class="bg-white p-7 sm:p-8 rounded-xl text-center border border-stone-200 shadow-sm animate-fadeIn">
+        <div class="w-16 h-16 rounded-full bg-emerald-50 border border-emerald-200 mx-auto flex items-center justify-center text-2xl mb-3 text-emerald-800">
           🕊️
         </div>
-        <span class="text-xs font-bold uppercase tracking-widest text-emerald-400 mb-1 block">시나리오 완료</span>
-        <h3 class="text-2xl font-bold text-white mb-2">${sc.title}</h3>
-        <p class="text-sm text-slate-300 max-w-lg mx-auto mb-6">${sc.subtitle}</p>
+        <span class="text-xs font-bold uppercase tracking-wider text-emerald-800 mb-1 block">시나리오 완료</span>
+        <h3 class="text-xl sm:text-2xl font-bold text-slate-900 mb-2">${sc.title}</h3>
+        <p class="text-xs sm:text-sm text-slate-600 max-w-lg mx-auto mb-5">${sc.subtitle}</p>
 
         <!-- Score summary -->
-        <div class="bg-slate-900/80 p-5 rounded-2xl max-w-md mx-auto border border-slate-800 mb-6">
-          <div class="text-xs text-slate-400 mb-1">최종 영적 지혜 지수</div>
-          <div class="text-4xl font-extrabold text-emerald-400 mb-2">${state.scenarioScore}점</div>
-          <div class="w-full bg-slate-800 rounded-full h-2.5 mb-3">
-            <div class="bg-gradient-to-r from-emerald-500 to-teal-400 h-2.5 rounded-full" style="width: ${Math.min(100, Math.max(10, scorePct))}%"></div>
+        <div class="bg-stone-50 p-5 rounded-xl max-w-md mx-auto border border-stone-200 mb-6">
+          <div class="text-xs text-slate-500 mb-1">최종 영적 지혜 지수</div>
+          <div class="text-3xl sm:text-4xl font-extrabold text-emerald-800 mb-2">${state.scenarioScore}점</div>
+          <div class="w-full bg-stone-200 rounded-full h-2 mb-3">
+            <div class="bg-emerald-700 h-2 rounded-full" style="width: ${Math.min(100, Math.max(10, scorePct))}%"></div>
           </div>
-          <div class="inline-block px-3 py-1 rounded-full bg-emerald-950 text-emerald-300 font-bold text-xs border border-emerald-800 mb-2">
+          <div class="inline-block px-3 py-1 rounded-full bg-emerald-100 text-emerald-900 font-bold text-xs border border-emerald-300 mb-2">
             ${rankTitle}
           </div>
-          <p class="text-xs text-slate-300">${rankDesc}</p>
+          <p class="text-xs text-slate-600">${rankDesc}</p>
         </div>
 
         <div class="flex items-center justify-center gap-3">
           <button onclick="switchScenario('${sc.id}')" 
-                  class="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-sm font-semibold transition border border-slate-700">
+                  class="px-4 py-2 rounded-lg bg-stone-100 hover:bg-stone-200 text-slate-700 text-xs font-semibold transition border border-stone-200">
             🔄 시나리오 다시 하기
           </button>
           <button onclick="switchTab('tab-prayer')" 
-                  class="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-sm font-semibold transition shadow-lg flex items-center gap-2">
+                  class="px-4 py-2 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold transition shadow-sm flex items-center gap-1.5">
             <span>기도문 빌더로 영혼 품기</span>
             <span>→</span>
           </button>
@@ -829,66 +820,68 @@ document.addEventListener('DOMContentLoaded', () => {
     const kulHakkiBox = document.getElementById('kul-hakki-content');
     if (kulHakkiData && kulHakkiBox) {
       kulHakkiBox.innerHTML = `
-        <div class="glass-panel p-6 rounded-2xl border border-slate-700">
-          <div class="flex items-center gap-3 mb-4">
-            <span class="text-3xl">${kulHakkiData.icon}</span>
+        <div class="bg-white p-5 sm:p-6 rounded-xl border border-stone-200/90 shadow-sm">
+          <div class="flex items-center gap-3 mb-3.5">
+            <span class="text-2xl">${kulHakkiData.icon}</span>
             <div>
               <div class="flex items-center gap-2">
-                <h3 class="text-lg font-bold text-white">${kulHakkiData.title}</h3>
-                <span class="text-xs px-2 py-0.5 rounded bg-amber-950 text-amber-300 border border-amber-800 font-semibold">${kulHakkiData.badge}</span>
+                <h3 class="text-base sm:text-lg font-bold text-slate-900">${kulHakkiData.title}</h3>
+                <span class="text-xs px-2 py-0.5 rounded bg-sand-50 text-sand-900 border border-sand-200 font-semibold">${kulHakkiData.badge}</span>
               </div>
-              <p class="text-xs text-slate-400">${kulHakkiData.subtitle}</p>
+              <p class="text-xs text-slate-500">${kulHakkiData.subtitle}</p>
             </div>
           </div>
 
-          <p class="text-sm text-slate-200 leading-relaxed mb-4 p-3 bg-slate-900/60 rounded-xl border border-slate-800">
+          <p class="text-sm text-slate-700 leading-relaxed mb-4 p-3 bg-stone-50 rounded-lg border border-stone-200">
             ${kulHakkiData.summary}
           </p>
 
-          <div class="space-y-3 mb-4">
+          <div class="space-y-2.5 mb-4">
             ${kulHakkiData.details.map(d => `
-              <div class="p-3.5 rounded-xl bg-slate-800/70 border border-slate-700/60">
-                <h4 class="text-xs font-bold text-emerald-400 mb-1">${d.heading}</h4>
-                <p class="text-xs text-slate-300 leading-relaxed">${d.text}</p>
+              <div class="p-3.5 rounded-lg bg-stone-50/70 border border-stone-200">
+                <h4 class="text-xs font-bold text-emerald-800 mb-1">${d.heading}</h4>
+                <p class="text-xs text-slate-600 leading-relaxed">${d.text}</p>
               </div>
             `).join('')}
           </div>
 
           <!-- Dialogue Practice -->
-          <div class="p-4 rounded-xl bg-slate-900 border border-slate-800">
+          <div class="p-4 rounded-lg bg-stone-50 border border-stone-200">
             <div class="flex items-center justify-between mb-2">
-              <span class="text-xs font-bold text-slate-300">💬 현지 대화 실습 (Hakkını helal et):</span>
+              <span class="text-xs font-bold text-slate-800">💬 현지 대화 실습 (Hakkını helal et):</span>
               <button onclick="window.audioEngine.speakTurkish(\`${kulHakkiData.sampleDialogue.tr.replace(/\n/g, ' ')}\`)" 
-                      class="px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 text-emerald-400 text-xs flex items-center gap-1.5 transition">
+                      class="px-2.5 py-1 rounded bg-white hover:bg-emerald-50 text-emerald-800 border border-stone-200 text-xs flex items-center gap-1.5 transition">
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
                 대화 듣기
               </button>
             </div>
-            <pre class="text-xs text-emerald-300 font-mono whitespace-pre-wrap leading-relaxed mb-2">${kulHakkiData.sampleDialogue.tr}</pre>
-            <pre class="text-xs text-slate-400 whitespace-pre-wrap leading-relaxed">${kulHakkiData.sampleDialogue.ko}</pre>
+            <pre class="text-xs text-emerald-800 font-mono whitespace-pre-wrap leading-relaxed mb-1.5">${kulHakkiData.sampleDialogue.tr}</pre>
+            <pre class="text-xs text-slate-500 whitespace-pre-wrap leading-relaxed">${kulHakkiData.sampleDialogue.ko}</pre>
           </div>
         </div>
       `;
     }
 
-    // 2. Islamic Terms Matrix (Sevap, Günah, Helal, Haram)
+    // 2. Islamic Terms Matrix
     const termsData = APP_DATA.worldview.concepts.find(c => c.id === 'islamic-terms');
     const termsBox = document.getElementById('islamic-terms-grid');
     if (termsData && termsBox) {
       termsBox.innerHTML = termsData.matrix.map(m => `
-        <div class="glass-panel p-4 rounded-xl border border-slate-700 hover:border-slate-500 transition">
-          <div class="flex items-center justify-between mb-2">
-            <h4 class="text-base font-bold text-white">${m.term}</h4>
-            <span class="text-xs font-semibold px-2 py-0.5 rounded bg-slate-800 text-amber-300">${m.meaning}</span>
-          </div>
-          <div class="space-y-2 text-xs">
-            <div class="p-2.5 rounded-lg bg-slate-900/80 border border-slate-800">
-              <strong class="text-slate-400 block mb-0.5">이슬람 세계관:</strong>
-              <p class="text-slate-300 leading-normal">${m.islamView}</p>
+        <div class="bg-white p-4 rounded-xl border border-stone-200 shadow-sm hover:border-stone-300 transition flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <h4 class="text-base font-bold text-slate-900">${m.term}</h4>
+              <span class="text-xs font-semibold px-2 py-0.5 rounded bg-sand-50 text-sand-900 border border-sand-200">${m.meaning}</span>
             </div>
-            <div class="p-2.5 rounded-lg bg-emerald-950/40 border border-emerald-800/60">
-              <strong class="text-emerald-400 block mb-0.5">복음 브릿지 (Gospel Bridge):</strong>
-              <p class="text-emerald-200 leading-normal">${m.christianBridge}</p>
+            <div class="space-y-2 text-xs">
+              <div class="p-2.5 rounded-lg bg-stone-50 border border-stone-200">
+                <strong class="text-slate-700 block mb-0.5">이슬람 세계관:</strong>
+                <p class="text-slate-600 leading-normal">${m.islamView}</p>
+              </div>
+              <div class="p-2.5 rounded-lg bg-emerald-50 border border-emerald-200">
+                <strong class="text-emerald-800 block mb-0.5">복음 브릿지 (Gospel Bridge):</strong>
+                <p class="text-emerald-950 leading-normal">${m.christianBridge}</p>
+              </div>
             </div>
           </div>
         </div>
@@ -900,19 +893,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const fidyeBox = document.getElementById('fidye-kefaret-content');
     if (fidyeData && fidyeBox) {
       fidyeBox.innerHTML = fidyeData.comparisons.map(item => `
-        <div class="glass-panel p-5 rounded-2xl border border-slate-700">
-          <div class="flex items-center justify-between mb-3 pb-2 border-b border-slate-800">
-            <h4 class="text-lg font-bold text-amber-300">${item.term}</h4>
-            <span class="text-xs text-slate-400">일상 의미: <span class="text-white font-medium">${item.dailyMeaning}</span></span>
-          </div>
-          <div class="space-y-3 text-xs leading-relaxed">
-            <div class="p-3 rounded-xl bg-slate-900/80 border border-slate-800">
-              <strong class="text-slate-400 block mb-1">이슬람 종교법(Fıkıh) 규정:</strong>
-              <p class="text-slate-300">${item.islamicDef}</p>
+        <div class="bg-white p-5 rounded-xl border border-stone-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3 pb-2 border-b border-stone-100">
+              <h4 class="text-base font-bold text-slate-900">${item.term}</h4>
+              <span class="text-xs text-slate-500">일상 의미: <span class="text-slate-800 font-medium">${item.dailyMeaning}</span></span>
             </div>
-            <div class="p-3.5 rounded-xl bg-emerald-950/50 border border-emerald-800/70">
-              <strong class="text-emerald-400 block mb-1">예수 그리스도의 구속 신학 연결:</strong>
-              <p class="text-emerald-200">${item.christianBridge}</p>
+            <div class="space-y-2.5 text-xs leading-relaxed">
+              <div class="p-3 rounded-lg bg-stone-50 border border-stone-200">
+                <strong class="text-slate-700 block mb-1">이슬람 종교법(Fıkıh) 규정:</strong>
+                <p class="text-slate-600">${item.islamicDef}</p>
+              </div>
+              <div class="p-3 rounded-lg bg-emerald-50 border border-emerald-200">
+                <strong class="text-emerald-800 block mb-1">예수 그리스도의 구속 신학 연결:</strong>
+                <p class="text-emerald-950">${item.christianBridge}</p>
+              </div>
             </div>
           </div>
         </div>
@@ -928,15 +923,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!ahiretData || !stepperContainer || !detailsContainer) return;
 
-    // Render stepper buttons
     stepperContainer.innerHTML = ahiretData.stages.map(st => {
       const isActive = st.num === state.activeAhiretStage;
       return `
         <button onclick="selectAhiretStage(${st.num})" 
-                class="flex-1 min-w-[110px] p-2.5 rounded-xl text-center transition border ${
+                class="flex-1 min-w-[105px] p-2 rounded-lg text-center transition border ${
                   isActive 
-                    ? 'bg-emerald-600 text-white border-emerald-400 shadow-md font-bold' 
-                    : 'bg-slate-800/80 text-slate-300 border-slate-700 hover:border-slate-500'
+                    ? 'bg-emerald-700 text-white border-emerald-600 shadow-sm font-bold' 
+                    : 'bg-white text-slate-700 border-stone-200 hover:bg-stone-50'
                 }">
           <div class="text-[10px] opacity-80">단계 0${st.num}</div>
           <div class="text-xs truncate">${st.name.split(' ')[0]}</div>
@@ -944,41 +938,40 @@ document.addEventListener('DOMContentLoaded', () => {
       `;
     }).join('');
 
-    // Render active stage detail card
     const current = ahiretData.stages.find(st => st.num === state.activeAhiretStage) || ahiretData.stages[0];
     detailsContainer.innerHTML = `
-      <div class="glass-panel p-6 rounded-2xl border border-slate-700 animate-fadeIn">
+      <div class="bg-white p-5 sm:p-6 rounded-xl border border-stone-200 shadow-sm animate-fadeIn">
         <div class="flex items-center justify-between mb-4">
           <div>
             <div class="flex items-center gap-2 mb-1">
-              <span class="px-2 py-0.5 rounded text-xs font-bold bg-slate-800 text-emerald-400">8단계 중 0${current.num}단계</span>
-              <button onclick="window.audioEngine.speakTurkish('${current.name}')" class="text-slate-400 hover:text-emerald-400" title="발음 듣기">
+              <span class="px-2 py-0.5 rounded text-xs font-bold bg-stone-100 text-emerald-800">8단계 중 0${current.num}단계</span>
+              <button onclick="window.audioEngine.speakTurkish('${current.name}')" class="text-slate-400 hover:text-emerald-700" title="발음 듣기">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
               </button>
             </div>
-            <h3 class="text-xl font-bold text-white">${current.name}</h3>
-            <p class="text-xs text-slate-400">${current.desc}</p>
+            <h3 class="text-lg sm:text-xl font-bold text-slate-900">${current.name}</h3>
+            <p class="text-xs text-slate-500">${current.desc}</p>
           </div>
 
           <div class="flex items-center gap-1">
-            <button onclick="selectAhiretStage(${Math.max(1, current.num - 1)})" ${current.num === 1 ? 'disabled' : ''} class="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 disabled:opacity-30 text-slate-300">‹ 이전</button>
-            <button onclick="selectAhiretStage(${Math.min(8, current.num + 1)})" ${current.num === 8 ? 'disabled' : ''} class="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 disabled:opacity-30 text-slate-300">다음 ›</button>
+            <button onclick="selectAhiretStage(${Math.max(1, current.num - 1)})" ${current.num === 1 ? 'disabled' : ''} class="px-2.5 py-1.5 rounded-lg bg-stone-100 hover:bg-stone-200 disabled:opacity-40 text-slate-700 text-xs">‹ 이전</button>
+            <button onclick="selectAhiretStage(${Math.min(8, current.num + 1)})" ${current.num === 8 ? 'disabled' : ''} class="px-2.5 py-1.5 rounded-lg bg-stone-100 hover:bg-stone-200 disabled:opacity-40 text-slate-700 text-xs">다음 ›</button>
           </div>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div class="p-4 rounded-xl bg-slate-900/90 border border-slate-800">
-            <h4 class="text-xs font-bold uppercase tracking-wider text-amber-400 mb-2 flex items-center gap-1.5">
+          <div class="p-4 rounded-lg bg-stone-50 border border-stone-200">
+            <h4 class="text-xs font-bold uppercase tracking-wider text-amber-900 mb-2 flex items-center gap-1.5">
               <span>☪️</span> 이슬람 종말관 & 전통 해석:
             </h4>
-            <p class="text-xs text-slate-300 leading-relaxed">${current.islamic}</p>
+            <p class="text-xs text-slate-600 leading-relaxed">${current.islamic}</p>
           </div>
 
-          <div class="p-4 rounded-xl bg-emerald-950/40 border border-emerald-800/60">
-            <h4 class="text-xs font-bold uppercase tracking-wider text-emerald-400 mb-2 flex items-center gap-1.5">
+          <div class="p-4 rounded-lg bg-emerald-50/70 border border-emerald-200">
+            <h4 class="text-xs font-bold uppercase tracking-wider text-emerald-800 mb-2 flex items-center gap-1.5">
               <span>✝️</span> 성경적 구원과 영생의 확신:
             </h4>
-            <p class="text-xs text-emerald-200 leading-relaxed">${current.christian}</p>
+            <p class="text-xs text-emerald-950 leading-relaxed">${current.christian}</p>
           </div>
         </div>
       </div>
@@ -1006,15 +999,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const verseContent = document.getElementById('verse-syntax-display');
     if (!verseSelector || !verseContent) return;
 
-    // Selector buttons
     verseSelector.innerHTML = APP_DATA.syntax.verses.map(v => {
       const isActive = v.id === state.activeVerseId;
       return `
         <button onclick="selectVerse('${v.id}')" 
-                class="px-4 py-2 rounded-xl text-xs font-bold transition border ${
+                class="px-3.5 py-1.5 rounded-lg text-xs font-bold transition border ${
                   isActive 
-                    ? 'bg-emerald-600 text-white border-emerald-400 shadow-md' 
-                    : 'bg-slate-800 text-slate-300 border-slate-700 hover:border-slate-500'
+                    ? 'bg-emerald-700 text-white border-emerald-600 shadow-sm' 
+                    : 'bg-white text-slate-700 border-stone-200 hover:bg-stone-50'
                 }">
           ${v.reference.split(' ')[0]}
         </button>
@@ -1024,15 +1016,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const activeVerse = APP_DATA.syntax.verses.find(v => v.id === state.activeVerseId) || APP_DATA.syntax.verses[0];
     const selectedToken = activeVerse.tokens[state.selectedTokenIndex] || activeVerse.tokens[0];
 
-    // Build interactive token pills
     const tokensHtml = activeVerse.tokens.map((tok, idx) => {
       const isSelected = idx === state.selectedTokenIndex;
       return `
         <button onclick="selectToken(${idx})" 
-                class="px-3 py-1.5 rounded-lg text-sm font-semibold transition border ${
+                class="px-3 py-1.5 rounded-lg text-xs sm:text-sm font-semibold transition border ${
                   isSelected 
-                    ? 'bg-emerald-600 text-white border-emerald-400 ring-2 ring-emerald-300/50 shadow-md' 
-                    : 'bg-slate-800 text-slate-200 border-slate-700 hover:bg-slate-700'
+                    ? 'bg-emerald-700 text-white border-emerald-600 ring-2 ring-emerald-200 shadow-sm' 
+                    : 'bg-stone-100 text-slate-800 border-stone-200 hover:bg-stone-200'
                 }">
           ${tok.word}
         </button>
@@ -1040,48 +1031,48 @@ document.addEventListener('DOMContentLoaded', () => {
     }).join('');
 
     verseContent.innerHTML = `
-      <div class="glass-panel p-6 rounded-2xl border border-slate-700 mb-4">
+      <div class="bg-white p-5 sm:p-6 rounded-xl border border-stone-200 shadow-sm mb-4">
         <div class="flex items-center justify-between mb-2">
-          <span class="text-xs font-bold px-2.5 py-1 rounded bg-slate-800 text-emerald-400">${activeVerse.reference}</span>
+          <span class="text-xs font-bold px-2.5 py-0.5 rounded bg-stone-100 text-slate-700">${activeVerse.reference}</span>
           <button onclick="window.audioEngine.speakTurkish(\`${activeVerse.turkish.replace(/'/g, "\\'")}\`)" 
-                  class="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold flex items-center gap-1.5 shadow transition">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                  class="px-3 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-semibold flex items-center gap-1.5 shadow-sm transition">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
             성경 구절 전체 듣기
           </button>
         </div>
 
-        <p class="text-xl font-bold text-white mb-2 leading-relaxed font-serif-spiritual tracking-wide">
+        <p class="text-lg sm:text-xl font-bold text-slate-900 mb-1 leading-relaxed tracking-tight">
           "${activeVerse.turkish}"
         </p>
-        <p class="text-sm text-slate-300 italic mb-4">${activeVerse.korean}</p>
+        <p class="text-xs sm:text-sm text-slate-500 italic mb-3.5">${activeVerse.korean}</p>
 
-        <div class="p-3 bg-amber-950/30 border border-amber-800/50 rounded-xl mb-4 text-xs text-amber-200">
-          <strong class="text-amber-400">문법 핵심 포인트:</strong> ${activeVerse.focusGrammar} — ${activeVerse.grammarRule}
+        <div class="p-3 bg-sand-50 border border-sand-200 rounded-lg mb-4 text-xs text-sand-900">
+          <strong class="text-amber-900">문법 핵심 포인트:</strong> ${activeVerse.focusGrammar} — ${activeVerse.grammarRule}
         </div>
 
         <div>
-          <span class="text-xs font-bold text-slate-400 block mb-2">단어별 형태소 분절 (클릭하여 상세 문법 분석 확인):</span>
+          <span class="text-xs font-bold text-slate-600 block mb-2">단어별 형태소 분절 (클릭하여 상세 문법 분석 확인):</span>
           <div class="flex flex-wrap gap-2 mb-4">
             ${tokensHtml}
           </div>
         </div>
 
         <!-- Token detail card -->
-        <div class="p-4 rounded-xl bg-slate-900 border border-emerald-500/50 glow-emerald animate-fadeIn">
+        <div class="p-4 rounded-lg bg-stone-50 border border-stone-200 animate-fadeIn">
           <div class="flex items-center justify-between mb-2">
             <div class="flex items-baseline gap-2">
-              <span class="text-lg font-bold text-emerald-300">${selectedToken.word}</span>
-              <button onclick="window.audioEngine.speakTurkish('${selectedToken.word}')" class="text-slate-400 hover:text-emerald-400" title="발음 듣기">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+              <span class="text-base sm:text-lg font-bold text-emerald-800">${selectedToken.word}</span>
+              <button onclick="window.audioEngine.speakTurkish('${selectedToken.word}')" class="text-slate-400 hover:text-emerald-700" title="발음 듣기">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
               </button>
             </div>
-            <span class="text-xs font-semibold px-2 py-0.5 rounded bg-slate-800 text-slate-300">${selectedToken.meaning}</span>
+            <span class="text-xs font-semibold px-2 py-0.5 rounded bg-white text-slate-700 border border-stone-200">${selectedToken.meaning}</span>
           </div>
-          <div class="text-xs font-mono text-emerald-400/90 bg-slate-950 p-2.5 rounded-lg border border-slate-800 mb-2">
+          <div class="text-xs font-mono text-slate-800 bg-white p-2.5 rounded border border-stone-200 mb-2">
             분석: ${selectedToken.grammar}
           </div>
-          <p class="text-xs text-slate-300 leading-normal">
-            <strong class="text-slate-200">신학적 해설:</strong> ${activeVerse.theologyNote}
+          <p class="text-xs text-slate-600 leading-normal">
+            <strong class="text-slate-800">신학적 해설:</strong> ${activeVerse.theologyNote}
           </p>
         </div>
       </div>
@@ -1109,53 +1100,53 @@ document.addEventListener('DOMContentLoaded', () => {
     container.innerHTML = APP_DATA.syntax.flipCards.map((card, idx) => {
       const isFlipped = !!state.flippedCards[idx];
       return `
-        <div class="perspective-1000 h-80 cursor-pointer ${isFlipped ? 'flipped' : ''}" onclick="toggleCardFlip(${idx})">
+        <div class="perspective-1000 h-72 cursor-pointer ${isFlipped ? 'flipped' : ''}" onclick="toggleCardFlip(${idx})">
           <div class="flip-card-inner relative w-full h-full transform-style-3d">
             <!-- Front Face: Daily Life -->
-            <div class="absolute inset-0 w-full h-full backface-hidden glass-panel p-5 rounded-2xl border border-slate-700 flex flex-col justify-between hover:border-slate-500 shadow-xl transition-all">
+            <div class="absolute inset-0 w-full h-full backface-hidden bg-white p-5 rounded-xl border border-stone-200 flex flex-col justify-between hover:border-stone-300 shadow-sm transition-all">
               <div>
-                <div class="flex items-center justify-between mb-2">
-                  <span class="text-xs font-bold px-2 py-0.5 rounded bg-slate-800 text-slate-400">일상 터키어 용례</span>
-                  <button onclick="event.stopPropagation(); window.audioEngine.speakTurkish('${card.word}')" class="text-slate-400 hover:text-emerald-400" title="발음 듣기">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                <div class="flex items-center justify-between mb-1.5">
+                  <span class="text-xs font-bold px-2 py-0.5 rounded bg-stone-100 text-slate-600">일상 터키어 용례</span>
+                  <button onclick="event.stopPropagation(); window.audioEngine.speakTurkish('${card.word}')" class="text-slate-400 hover:text-emerald-700" title="발음 듣기">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
                   </button>
                 </div>
-                <h4 class="text-2xl font-bold text-white mb-1">${card.word}</h4>
-                <p class="text-xs text-slate-400 font-mono mb-3">${card.root}</p>
+                <h4 class="text-2xl font-bold text-slate-900 mb-0.5">${card.word}</h4>
+                <p class="text-xs text-slate-400 font-mono mb-2.5">${card.root}</p>
 
-                <p class="text-xs text-slate-200 mb-2 leading-relaxed">
-                  <strong class="text-amber-400">일상 의미:</strong> ${card.dailyDesc}
+                <p class="text-xs text-slate-700 mb-1.5 leading-relaxed">
+                  <strong class="text-amber-800">일상 의미:</strong> ${card.dailyDesc}
                 </p>
-                <div class="p-2 rounded bg-slate-900/80 border border-slate-800 text-xs text-slate-300 italic">
+                <div class="p-2 rounded bg-stone-50 border border-stone-200 text-xs text-slate-600 italic">
                   "${card.dailyExample}"
                 </div>
               </div>
 
-              <div class="pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-emerald-400 font-semibold">
+              <div class="pt-2 border-t border-stone-100 flex items-center justify-between text-xs text-emerald-800 font-semibold">
                 <span>🔄 클릭하여 기독교 신학적 의미 확인</span>
                 <span>↻</span>
               </div>
             </div>
 
             <!-- Back Face: Christian Theology -->
-            <div class="absolute inset-0 w-full h-full backface-hidden rotate-y-180 glass-panel p-5 rounded-2xl border border-emerald-600/70 bg-emerald-950/40 flex flex-col justify-between shadow-2xl transition-all">
+            <div class="absolute inset-0 w-full h-full backface-hidden rotate-y-180 bg-emerald-50/70 p-5 rounded-xl border border-emerald-200 flex flex-col justify-between shadow-sm transition-all">
               <div>
-                <div class="flex items-center justify-between mb-2">
-                  <span class="text-xs font-bold px-2 py-0.5 rounded bg-emerald-900 text-emerald-300 border border-emerald-700">기독교 영적·신학적 의미</span>
-                  <button onclick="event.stopPropagation(); window.audioEngine.speakTurkish('${card.word}')" class="text-emerald-400 hover:text-white" title="발음 듣기">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                <div class="flex items-center justify-between mb-1.5">
+                  <span class="text-xs font-bold px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 border border-emerald-200">기독교 신학적 의미</span>
+                  <button onclick="event.stopPropagation(); window.audioEngine.speakTurkish('${card.word}')" class="text-emerald-700 hover:text-emerald-900" title="발음 듣기">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
                   </button>
                 </div>
-                <h4 class="text-2xl font-bold text-emerald-300 mb-1">${card.word}</h4>
-                <p class="text-xs text-slate-300 mb-3 leading-relaxed">
-                  <strong class="text-emerald-400">신학 의미:</strong> ${card.theoDesc}
+                <h4 class="text-2xl font-bold text-emerald-950 mb-1">${card.word}</h4>
+                <p class="text-xs text-emerald-950 mb-2 leading-relaxed">
+                  <strong class="text-emerald-800">신학 의미:</strong> ${card.theoDesc}
                 </p>
-                <div class="p-2.5 rounded bg-slate-900/90 border border-emerald-900 text-xs text-emerald-200 italic">
+                <div class="p-2 rounded bg-white/90 border border-emerald-200 text-xs text-emerald-900 italic">
                   "${card.theoExample}"
                 </div>
               </div>
 
-              <div class="pt-3 border-t border-emerald-800/60 flex items-center justify-between text-xs text-slate-400 font-semibold">
+              <div class="pt-2 border-t border-emerald-200 flex items-center justify-between text-xs text-slate-600 font-semibold">
                 <span>↺ 클릭하여 일상 용례로 돌아가기</span>
                 <span>←</span>
               </div>
@@ -1172,7 +1163,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderFlipCards();
   };
 
-  // 3. Grammar Interactive Quiz: Ünlü Düşmesi (모음 탈락 법칙)
+  // 3. Grammar Interactive Quiz: Ünlü Düşmesi
   function renderUnluQuiz() {
     const container = document.getElementById('unlu-quiz-container');
     if (!container) return;
@@ -1180,41 +1171,41 @@ document.addEventListener('DOMContentLoaded', () => {
     container.innerHTML = APP_DATA.syntax.unluDusmesiQuiz.map(q => {
       const stateObj = state.unluAnswers[q.id] || { value: '', isCorrect: null };
       return `
-        <div class="p-4 rounded-xl bg-slate-900/80 border ${
+        <div class="p-4 rounded-xl bg-white border ${
           stateObj.isCorrect === true 
-            ? 'border-emerald-600 bg-emerald-950/20' 
+            ? 'border-emerald-400 bg-emerald-50/40' 
             : stateObj.isCorrect === false 
-            ? 'border-rose-600 bg-rose-950/20' 
-            : 'border-slate-800'
-        } flex flex-col justify-between">
+            ? 'border-rose-300 bg-rose-50/40' 
+            : 'border-stone-200'
+        } shadow-sm flex flex-col justify-between">
           <div>
             <div class="flex items-center justify-between mb-2">
-              <span class="text-xs font-semibold text-slate-400">문항 0${q.id}</span>
-              <span class="text-xs text-slate-400">${q.korean}</span>
+              <span class="text-xs font-semibold text-slate-500">문항 0${q.id}</span>
+              <span class="text-xs text-slate-500">${q.korean}</span>
             </div>
             
-            <div class="flex items-center gap-2 text-lg font-bold text-white mb-3">
-              <span class="text-emerald-400">${q.baseWord}</span>
-              <span class="text-slate-500">${q.suffix}</span>
+            <div class="flex items-center gap-2 text-base font-bold text-slate-900 mb-3">
+              <span class="text-emerald-800">${q.baseWord}</span>
+              <span class="text-slate-400">${q.suffix}</span>
               <span class="text-slate-400">=</span>
-              <span class="text-amber-300">?</span>
+              <span class="text-amber-800">?</span>
             </div>
           </div>
 
           <div>
-            <div class="flex items-center gap-2 mb-2">
+            <div class="flex items-center gap-1.5 mb-2">
               <input type="text" 
                      id="unlu-input-${q.id}" 
                      placeholder="정답 입력..." 
                      value="${stateObj.value}"
-                     class="flex-1 bg-slate-800 border border-slate-700 focus:border-emerald-500 rounded-lg px-3 py-1.5 text-xs text-white outline-none">
-              <button onclick="checkUnluAnswer(${q.id})" class="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition">
+                     class="flex-1 bg-stone-50 border border-stone-200 focus:border-emerald-600 rounded-lg px-3 py-1.5 text-xs text-slate-900 outline-none">
+              <button onclick="checkUnluAnswer(${q.id})" class="px-3 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold transition shadow-sm">
                 확인
               </button>
             </div>
 
             ${stateObj.isCorrect !== null ? `
-              <p class="text-[11px] ${stateObj.isCorrect ? 'text-emerald-400' : 'text-rose-400'} font-medium">
+              <p class="text-[11px] ${stateObj.isCorrect ? 'text-emerald-800' : 'text-rose-700'} font-medium">
                 ${stateObj.isCorrect ? '✓ 정답입니다!' : `✕ 오답입니다 (정답: ${q.correctAnswer})`} - ${q.explanation}
               </p>
             ` : ''}
@@ -1278,34 +1269,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
     container.innerHTML = APP_DATA.prayer.steps.map((st, sIdx) => {
       return `
-        <div class="glass-panel p-4 rounded-xl border border-slate-700/80 mb-3">
+        <div class="bg-white p-4 rounded-xl border border-stone-200 shadow-sm mb-3">
           <div class="flex items-center justify-between mb-2">
             <div>
               <div class="flex items-center gap-2">
-                <span class="w-6 h-6 rounded-full bg-emerald-950 text-emerald-400 border border-emerald-800 text-xs font-bold flex items-center justify-center">0${st.step}</span>
-                <h4 class="text-sm font-bold text-white">${st.koreanName}</h4>
+                <span class="w-6 h-6 rounded bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-bold flex items-center justify-center">0${st.step}</span>
+                <h4 class="text-sm font-bold text-slate-900">${st.koreanName}</h4>
               </div>
-              <p class="text-[11px] text-slate-400 mt-0.5">${st.desc}</p>
+              <p class="text-[11px] text-slate-500 mt-0.5">${st.desc}</p>
             </div>
           </div>
 
-          <!-- Sentence Selection Pills -->
-          <div class="grid grid-cols-1 gap-2 mt-3">
+          <div class="grid grid-cols-1 gap-1.5 mt-2.5">
             ${st.options.map(opt => {
               const isSelected = state.assembledPrayer[sIdx] === opt.tr;
               return `
                 <button onclick="setPrayerFormulaStep(${sIdx}, '${opt.tr.replace(/'/g, "\\'")}')" 
                         class="p-2.5 rounded-lg text-left text-xs transition border flex items-center justify-between gap-2 ${
                           isSelected 
-                            ? 'bg-emerald-600 text-white border-emerald-400 font-semibold shadow-md' 
-                            : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-700 hover:text-white'
+                            ? 'bg-emerald-50 text-emerald-950 border-emerald-400 font-semibold shadow-sm' 
+                            : 'bg-stone-50 text-slate-700 border-stone-200 hover:bg-stone-100'
                         }">
                   <div class="flex-1">
                     <span class="block">${opt.tr}</span>
                     <span class="text-[10px] opacity-75">${opt.ko}</span>
                   </div>
-                  <button type="button" onclick="event.stopPropagation(); window.audioEngine.speakTurkish('${opt.tr.replace(/'/g, "\\'")}')" class="text-slate-400 hover:text-white" title="듣기">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                  <button type="button" onclick="event.stopPropagation(); window.audioEngine.speakTurkish('${opt.tr.replace(/'/g, "\\'")}')" class="text-slate-400 hover:text-emerald-700" title="듣기">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
                   </button>
                 </button>
               `;
@@ -1337,9 +1327,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     container.innerHTML = APP_DATA.prayer.presets.map((preset, idx) => `
       <button onclick="loadPrayerPreset(${idx})" 
-              class="p-3 rounded-xl bg-slate-800/80 border border-slate-700 hover:border-emerald-500 text-left transition flex flex-col gap-1">
-        <span class="text-xs font-bold text-emerald-400">${preset.title}</span>
-        <span class="text-[11px] text-slate-400 line-clamp-1">${preset.desc}</span>
+              class="p-3 rounded-xl bg-white border border-stone-200 hover:border-emerald-500 hover:bg-emerald-50/30 text-left transition flex flex-col gap-1 shadow-sm">
+        <span class="text-xs font-bold text-emerald-800">${preset.title}</span>
+        <span class="text-[11px] text-slate-500 line-clamp-1">${preset.desc}</span>
       </button>
     `).join('');
   }
@@ -1354,7 +1344,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showToast(`'${preset.title}' 템플릿이 로드되었습니다.`, 'success');
   };
 
-  // Copy Prayer to Clipboard
+  // Copy Prayer
   const copyPrayerBtn = document.getElementById('copy-prayer-btn');
   if (copyPrayerBtn) {
     copyPrayerBtn.addEventListener('click', () => {
@@ -1366,7 +1356,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // TTS Read Aloud Full Prayer
+  // TTS Read Aloud
   const speakPrayerBtn = document.getElementById('speak-prayer-btn');
   if (speakPrayerBtn) {
     speakPrayerBtn.addEventListener('click', () => {
@@ -1431,22 +1421,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (state.savedPrayers.length === 0) {
       container.innerHTML = `
-        <p class="text-xs text-slate-500 py-3 text-center">저장된 기도문이 없습니다. 직접 조합한 기도문을 저장해 보세요.</p>
+        <p class="text-xs text-slate-400 py-3 text-center">저장된 기도문이 없습니다. 직접 조합한 기도문을 저장해 보세요.</p>
       `;
       return;
     }
 
     container.innerHTML = state.savedPrayers.map(p => `
-      <div class="p-3 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-between gap-3">
+      <div class="p-2.5 rounded-lg bg-stone-50 border border-stone-200 flex items-center justify-between gap-2">
         <div class="flex-1 min-w-0">
-          <h5 class="text-xs font-bold text-white truncate">${p.title}</h5>
+          <h5 class="text-xs font-bold text-slate-800 truncate">${p.title}</h5>
           <p class="text-[10px] text-slate-400">${p.createdAt}</p>
         </div>
         <div class="flex items-center gap-1.5 shrink-0">
-          <button onclick="loadSavedPrayerById('${p.id}')" class="px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-emerald-400 text-xs font-semibold">
+          <button onclick="loadSavedPrayerById('${p.id}')" class="px-2 py-0.5 rounded bg-white hover:bg-emerald-50 text-emerald-800 border border-stone-200 text-xs font-semibold shadow-sm">
             불러오기
           </button>
-          <button onclick="deleteSavedPrayerById('${p.id}')" class="p-1 rounded bg-slate-800 hover:bg-rose-950 text-slate-400 hover:text-rose-400 text-xs">
+          <button onclick="deleteSavedPrayerById('${p.id}')" class="p-1 rounded bg-white hover:bg-rose-50 text-slate-400 hover:text-rose-600 border border-stone-200 text-xs">
             ✕
           </button>
         </div>
@@ -1479,20 +1469,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (ambientToggleBtn) {
       ambientToggleBtn.addEventListener('click', () => {
-        const isPlaying = window.audioEngine.toggleAmbientPrayerPad((playing) => {
+        window.audioEngine.toggleAmbientPrayerPad((playing) => {
           if (playing) {
             ambientToggleBtn.innerHTML = `
-              <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping"></span>
+              <span class="w-2 h-2 rounded-full bg-emerald-600 animate-ping"></span>
               <span>배경음악 끄기 (Ambient Pad)</span>
             `;
-            ambientToggleBtn.className = "px-4 py-2 rounded-xl bg-emerald-700 text-white font-semibold text-xs flex items-center gap-2 shadow-lg transition";
+            ambientToggleBtn.className = "px-3.5 py-1.5 rounded-lg bg-emerald-100 text-emerald-900 border border-emerald-300 font-semibold text-xs flex items-center gap-2 shadow-sm transition";
             if (ambientVisualizer) ambientVisualizer.classList.remove('hidden');
           } else {
             ambientToggleBtn.innerHTML = `
               <span>🎵</span>
               <span>기도 배경음악 켜기 (Ambient Pad)</span>
             `;
-            ambientToggleBtn.className = "px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 font-semibold text-xs flex items-center gap-2 border border-slate-700 transition";
+            ambientToggleBtn.className = "px-3.5 py-1.5 rounded-lg bg-stone-100 hover:bg-stone-200 text-slate-700 font-semibold text-xs flex items-center gap-2 border border-stone-200 transition";
             if (ambientVisualizer) ambientVisualizer.classList.add('hidden');
           }
         });
@@ -1529,9 +1519,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         filterContainer.querySelectorAll('[data-ortho-cat]').forEach(b => {
           if (b.getAttribute('data-ortho-cat') === cat) {
-            b.className = "px-3 py-1 rounded-lg text-xs font-semibold transition bg-emerald-600 text-white shadow";
+            b.className = "px-3 py-1 rounded-lg text-xs font-semibold transition bg-emerald-700 text-white shadow-sm";
           } else {
-            b.className = "px-3 py-1 rounded-lg text-xs font-semibold transition bg-slate-800 text-slate-300 hover:bg-slate-700";
+            b.className = "px-3 py-1 rounded-lg text-xs font-semibold transition bg-stone-100 text-slate-700 hover:bg-stone-200";
           }
         });
 
@@ -1556,46 +1546,46 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     container.innerHTML = filtered.map(rule => `
-      <div class="glass-panel p-5 rounded-2xl border border-slate-700/70 hover:border-slate-500 transition-all flex flex-col justify-between shadow-lg">
+      <div class="bg-white p-5 rounded-xl border border-stone-200 shadow-sm hover:border-stone-300 transition-all flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between gap-2 mb-2">
-            <span class="px-2.5 py-0.5 rounded text-xs font-bold bg-slate-800 text-emerald-400">규칙 0${rule.id}</span>
-            <span class="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 font-medium">${rule.category}</span>
+            <span class="px-2 py-0.5 rounded text-xs font-bold bg-stone-100 text-slate-700">규칙 0${rule.id}</span>
+            <span class="text-xs px-2 py-0.5 rounded-full bg-stone-100 text-slate-600 border border-stone-200 font-medium">${rule.category}</span>
           </div>
-          <h4 class="text-base font-bold text-white mb-0.5">${rule.title}</h4>
-          <p class="text-xs text-slate-400 italic mb-3 font-mono">${rule.turkishTitle}</p>
+          <h4 class="text-base font-bold text-slate-900 mb-0.5">${rule.title}</h4>
+          <p class="text-xs text-slate-400 italic mb-2.5 font-mono">${rule.turkishTitle}</p>
           
-          <p class="text-xs text-slate-200 mb-3 bg-slate-900/60 p-2.5 rounded-xl border border-slate-800 leading-relaxed">
+          <p class="text-xs text-slate-600 mb-3 bg-stone-50 p-2.5 rounded-lg border border-stone-200/80 leading-relaxed">
             ${rule.summary}
           </p>
 
           <div class="space-y-1.5 mb-3 text-xs">
-            <div class="p-2 rounded-lg bg-emerald-950/40 border border-emerald-800/60 text-emerald-200 flex items-start gap-2">
-              <span class="font-bold text-emerald-400 shrink-0">⭕ 올바른 표기:</span>
+            <div class="p-2 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-950 flex items-start gap-2">
+              <span class="font-bold text-emerald-800 shrink-0">⭕ 올바른 표기:</span>
               <span class="font-semibold">${rule.correct}</span>
             </div>
-            <div class="p-2 rounded-lg bg-rose-950/30 border border-rose-800/50 text-rose-300 flex items-start gap-2">
-              <span class="font-bold text-rose-400 shrink-0">❌ 흔한 오기:</span>
+            <div class="p-2 rounded-lg bg-rose-50 border border-rose-200 text-rose-950 flex items-start gap-2">
+              <span class="font-bold text-rose-700 shrink-0">❌ 흔한 오기:</span>
               <span>${rule.incorrect}</span>
             </div>
             ${rule.contrast ? `
-              <div class="p-2 rounded-lg bg-amber-950/20 border border-amber-800/40 text-amber-200 text-[11px] leading-tight flex items-start gap-1.5">
-                <span class="text-amber-400 shrink-0">⚖️</span>
+              <div class="p-2 rounded-lg bg-sand-50 border border-sand-200 text-sand-900 text-[11px] leading-tight flex items-start gap-1.5">
+                <span class="shrink-0">⚖️</span>
                 <span><strong>대조 분석:</strong> ${rule.contrast}</span>
               </div>
             ` : ''}
           </div>
 
-          <div class="text-[11px] text-slate-300 leading-relaxed mb-3 whitespace-pre-line bg-slate-900/40 p-2.5 rounded-lg border border-slate-800/60">
+          <div class="text-[11px] text-slate-600 leading-relaxed mb-3 whitespace-pre-line bg-stone-50 p-2.5 rounded-lg border border-stone-200/60">
             ${rule.explanation}
           </div>
         </div>
 
-        <div class="pt-3 border-t border-slate-800 flex items-center justify-between gap-2">
-          <span class="text-[11px] text-emerald-400 font-medium line-clamp-1 italic">${rule.biblicalRef}</span>
+        <div class="pt-3 border-t border-stone-100 flex items-center justify-between gap-2">
+          <span class="text-[11px] text-emerald-800 font-medium line-clamp-1 italic">${rule.biblicalRef}</span>
           <button onclick="window.audioEngine.speakTurkish('${rule.correct.split(',')[0].replace(/\[o\]/g, '').replace(/'/g, "\\'")}')" 
-                  class="p-1.5 rounded-lg bg-slate-800 hover:bg-emerald-600 hover:text-white text-slate-300 text-xs shrink-0 transition" title="발음 듣기">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                  class="p-1.5 rounded-lg bg-stone-100 hover:bg-emerald-50 text-slate-600 hover:text-emerald-700 border border-stone-200 text-xs shrink-0 transition" title="발음 듣기">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
           </button>
         </div>
       </div>
@@ -1607,20 +1597,20 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!container || !APP_DATA.orthography || !APP_DATA.orthography.appendix) return;
 
     container.innerHTML = APP_DATA.orthography.appendix.items.map(item => `
-      <div class="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-slate-700 transition flex flex-col justify-between">
+      <div class="p-4 rounded-xl bg-white border border-stone-200 shadow-sm hover:border-stone-300 transition flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between mb-2">
-            <h4 class="text-sm font-bold text-amber-300">${item.rule}</h4>
+            <h4 class="text-sm font-bold text-amber-900">${item.rule}</h4>
             <span class="text-xs font-mono text-slate-400">${item.turkish}</span>
           </div>
-          <div class="text-2xl font-bold text-white mb-2 font-mono tracking-wider">${item.format}</div>
-          <div class="p-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300 mb-2 leading-relaxed">
-            <strong class="text-amber-400">한국어와의 대조:</strong> ${item.koreanComparison}
+          <div class="text-2xl font-bold text-slate-900 mb-2 font-mono tracking-wider">${item.format}</div>
+          <div class="p-2.5 rounded-lg bg-stone-50 border border-stone-200 text-xs text-slate-700 mb-2 leading-relaxed">
+            <strong class="text-amber-900">한국어와의 대조:</strong> ${item.koreanComparison}
           </div>
-          <div class="text-xs text-slate-400 italic">예시: ${item.example}</div>
+          <div class="text-xs text-slate-500 italic">예시: ${item.example}</div>
         </div>
-        <div class="mt-3 pt-2 border-t border-slate-800 flex justify-end">
-          <button onclick="window.audioEngine.speakTurkish('${item.format.split(' ')[0]}')" class="text-xs px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 flex items-center gap-1 transition">
+        <div class="mt-3 pt-2 border-t border-stone-100 flex justify-end">
+          <button onclick="window.audioEngine.speakTurkish('${item.format.split(' ')[0]}')" class="text-xs px-2.5 py-1 rounded bg-stone-100 hover:bg-stone-200 text-slate-700 border border-stone-200 flex items-center gap-1 transition">
             <span>🔊</span> 발음 듣기
           </button>
         </div>
@@ -1638,52 +1628,53 @@ document.addEventListener('DOMContentLoaded', () => {
       const isCorrect = isAnswered && userAnswer === q.answer;
 
       return `
-        <div class="glass-panel p-5 rounded-2xl transition-all duration-300 hover:border-slate-600">
-          <div class="flex items-start justify-between gap-4 mb-2">
-            <div class="flex-1">
-              <div class="flex items-center gap-2 mb-1.5">
-                <span class="px-2 py-0.5 text-xs font-semibold rounded bg-slate-700 text-emerald-400">문제 0${idx + 1}</span>
-                <span class="text-xs text-slate-400">${q.ruleRef}</span>
+        <div class="bg-white p-5 rounded-xl border border-stone-200 shadow-sm transition hover:border-stone-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-start justify-between gap-4 mb-2">
+              <div class="flex-1">
+                <div class="flex items-center gap-2 mb-1.5">
+                  <span class="px-2 py-0.5 text-xs font-semibold rounded bg-stone-100 text-slate-700">문제 0${idx + 1}</span>
+                  <span class="text-xs text-slate-500">${q.ruleRef}</span>
+                </div>
+                <h4 class="text-sm font-semibold text-slate-900 leading-snug">${q.question}</h4>
               </div>
-              <h4 class="text-sm font-semibold text-slate-100 leading-snug">${q.question}</h4>
+            </div>
+
+            <div class="flex items-center gap-2.5 my-3">
+              <button onclick="handleOrthoQuizClick(${q.id}, 'O')" 
+                      class="flex-1 py-2 px-3 rounded-lg font-bold text-xs transition-all flex items-center justify-center gap-1.5 ${
+                        userAnswer === 'O' 
+                          ? (q.answer === 'O' ? 'bg-emerald-700 text-white ring-2 ring-emerald-300' : 'bg-rose-600 text-white')
+                          : 'bg-stone-100 text-slate-800 hover:bg-stone-200'
+                      }">
+                <span>⭕</span> 그렇다 (O)
+              </button>
+              <button onclick="handleOrthoQuizClick(${q.id}, 'X')" 
+                      class="flex-1 py-2 px-3 rounded-lg font-bold text-xs transition-all flex items-center justify-center gap-1.5 ${
+                        userAnswer === 'X' 
+                          ? (q.answer === 'X' ? 'bg-emerald-700 text-white ring-2 ring-emerald-300' : 'bg-rose-600 text-white')
+                          : 'bg-stone-100 text-slate-800 hover:bg-stone-200'
+                      }">
+                <span>❌</span> 아니다 (X)
+              </button>
             </div>
           </div>
 
-          <div class="flex items-center gap-3 mt-3">
-            <button onclick="handleOrthoQuizClick(${q.id}, 'O')" 
-                    class="flex-1 py-2 px-3 rounded-xl font-bold text-xs transition-all flex items-center justify-center gap-1.5 ${
-                      userAnswer === 'O' 
-                        ? (q.answer === 'O' ? 'bg-emerald-600 text-white ring-2 ring-emerald-400' : 'bg-rose-600 text-white')
-                        : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
-                    }">
-              <span>⭕</span> 그렇다 (O)
-            </button>
-            <button onclick="handleOrthoQuizClick(${q.id}, 'X')" 
-                    class="flex-1 py-2 px-3 rounded-xl font-bold text-xs transition-all flex items-center justify-center gap-1.5 ${
-                      userAnswer === 'X' 
-                        ? (q.answer === 'X' ? 'bg-emerald-600 text-white ring-2 ring-emerald-400' : 'bg-rose-600 text-white')
-                        : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
-                    }">
-              <span>❌</span> 아니다 (X)
-            </button>
-          </div>
-
           ${isAnswered ? `
-            <div class="mt-3 pt-3 border-t border-slate-700/60 animate-fadeIn">
+            <div class="pt-3 border-t border-stone-100 animate-fadeIn">
               <div class="flex items-center gap-2 mb-1.5">
-                <span class="text-xs font-bold px-2 py-0.5 rounded ${isCorrect ? 'bg-emerald-950 text-emerald-300 border border-emerald-700' : 'bg-rose-950 text-rose-300 border border-rose-700'}">
+                <span class="text-xs font-bold px-2 py-0.5 rounded ${isCorrect ? 'bg-emerald-50 text-emerald-900 border border-emerald-200' : 'bg-rose-50 text-rose-900 border border-rose-200'}">
                   ${isCorrect ? '정답입니다! ✓' : `오답입니다 (정답: ${q.answer}) ✕`}
                 </span>
-                <span class="text-xs text-emerald-400 font-semibold font-mono">올바른 표기: ${q.correctText}</span>
+                <span class="text-xs text-emerald-800 font-semibold font-mono">올바른 표기: ${q.correctText}</span>
               </div>
-              <p class="text-xs text-slate-300 leading-relaxed">${q.explanation}</p>
+              <p class="text-xs text-slate-600 leading-relaxed">${q.explanation}</p>
             </div>
           ` : ''}
         </div>
       `;
     }).join('');
 
-    // Update score badge
     let correctCount = 0;
     APP_DATA.orthography.quiz.forEach(q => {
       if (state.orthoQuizAnswers[q.id] === q.answer) correctCount++;
@@ -1745,13 +1736,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
       return `
         <button onclick="switchProofreadingSentence(${idx})" 
-                class="px-3.5 py-1.5 rounded-xl text-xs font-bold transition flex items-center gap-2 border ${
+                class="px-3.5 py-1.5 rounded-lg text-xs font-bold transition flex items-center gap-1.5 border ${
                   isActive 
-                    ? 'bg-emerald-600 text-white border-emerald-400 shadow' 
-                    : 'bg-slate-800 text-slate-300 border-slate-700 hover:border-slate-500'
+                    ? 'bg-emerald-700 text-white border-emerald-600 shadow-sm' 
+                    : 'bg-stone-100 text-slate-700 border-stone-200 hover:bg-stone-200'
                 }">
           <span>문장 0${s.id}</span>
-          <span class="text-[10px] px-1.5 py-0.2 rounded-full ${isComplete ? 'bg-emerald-950 text-emerald-300' : 'bg-slate-900 text-amber-300'} font-normal">
+          <span class="text-[10px] px-1.5 py-0.2 rounded-full ${isComplete ? 'bg-white/80 text-emerald-900' : 'bg-white text-slate-700'} font-normal">
             ${isComplete ? '완료 ✓' : `${foundCount}/${totalErrors}`}
           </span>
         </button>
@@ -1788,10 +1779,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (scoreDisplay) scoreDisplay.innerText = `${state.proofreadingScore}점`;
     if (remainingBadge) {
       if (remaining === 0) {
-        remainingBadge.className = "px-2 py-0.5 rounded-full bg-emerald-950 text-emerald-300 border border-emerald-800 font-bold text-[11px]";
+        remainingBadge.className = "px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-900 border border-emerald-200 font-bold text-[11px]";
         remainingBadge.innerText = "모든 오류 교정 완료! 🎉";
       } else {
-        remainingBadge.className = "px-2 py-0.5 rounded-full bg-slate-800 text-amber-300 font-semibold text-[11px]";
+        remainingBadge.className = "px-2.5 py-0.5 rounded-full bg-stone-200 text-slate-700 font-semibold text-[11px]";
         remainingBadge.innerText = `남은 교정 대상: ${remaining}개`;
       }
     }
@@ -1800,46 +1791,44 @@ document.addEventListener('DOMContentLoaded', () => {
       translationEl.innerText = `번역: "${currentSentence.translation}"`;
     }
 
-    // Render tokens
     boardContainer.innerHTML = currentSentence.tokens.map((tok, tokIdx) => {
       const isFound = !!currentFound[tokIdx];
 
       if (tok.isError && isFound) {
         return `
-          <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-950/80 border-2 border-emerald-500 text-emerald-200 text-sm font-bold shadow-md animate-fadeIn">
+          <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-50 border-2 border-emerald-400 text-emerald-950 text-sm font-bold shadow-sm animate-fadeIn">
             <span class="line-through text-slate-400 text-xs">${tok.word}</span>
             <span>➔</span>
-            <span class="text-emerald-300 font-extrabold underline">${tok.correct}</span>
+            <span class="text-emerald-900 font-extrabold underline">${tok.correct}</span>
             <span class="text-xs">✓</span>
           </span>
         `;
       } else {
         return `
           <button onclick="handleProofreadingTokenClick(${state.activeProofreadingSentenceIdx}, ${tokIdx})" 
-                  class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-100 text-sm font-medium border border-slate-700 transition hover:border-emerald-500 hover:scale-105 active:scale-95 shadow-sm">
+                  class="px-3 py-1.5 rounded-lg bg-white hover:bg-stone-100 text-slate-800 text-sm font-medium border border-stone-200 transition hover:border-emerald-600 hover:scale-105 active:scale-95 shadow-sm">
             ${tok.word}
           </button>
         `;
       }
     }).join('');
 
-    // Discovered Rules Log
     if (feedbackBox) {
       const discoveredTokens = currentSentence.tokens.filter((t, idx) => t.isError && currentFound[idx]);
       if (discoveredTokens.length === 0) {
         feedbackBox.innerHTML = `
-          <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800 text-xs text-slate-400 text-center">
+          <div class="p-3 rounded-lg bg-stone-50 border border-stone-200 text-xs text-slate-500 text-center">
             문장 안에서 철자, 아포스트로피, 띄어쓰기, 대소문자 규정이 잘못된 단어를 찾아 클릭하세요.
           </div>
         `;
       } else {
         feedbackBox.innerHTML = `
           <div class="space-y-2">
-            <span class="text-xs font-bold text-emerald-400 block">발견 및 교정된 맞춤법 규정:</span>
+            <span class="text-xs font-bold text-emerald-900 block">발견 및 교정된 맞춤법 규정:</span>
             ${discoveredTokens.map(t => `
-              <div class="p-3 rounded-xl bg-emerald-950/40 border border-emerald-700/60 text-xs text-emerald-200 flex items-start gap-2 animate-fadeIn">
-                <span class="text-emerald-400 font-bold shrink-0">✓ [교정: ${t.word} ➔ ${t.correct}]</span>
-                <span class="text-slate-200">${t.rule}</span>
+              <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 text-xs text-emerald-950 flex items-start gap-2 animate-fadeIn">
+                <span class="text-emerald-800 font-bold shrink-0">✓ [교정: ${t.word} ➔ ${t.correct}]</span>
+                <span class="text-slate-700">${t.rule}</span>
               </div>
             `).join('')}
           </div>
