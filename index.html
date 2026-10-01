@@ -130,7 +130,7 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-surface font-body-md text-on-surface antialiased h-screen flex overflow-hidden" style="background-color: #F4F6F4; color: #1C332A;">
+<body class="bg-surface font-body-md text-on-surface antialiased h-screen flex overflow-hidden" style="background-color: #EEF3F0; color: #1C332A;">
 
   <!-- ============================================================ -->
   <!-- LEFT SIDEBAR: Google Stitch Pine Forest LMS Navigation       -->
@@ -175,13 +175,14 @@
       <nav id="curriculum-nav" class="flex flex-col gap-1 overflow-y-auto pr-1 flex-1 custom-dark-scrollbar">
 
         <!-- CHAPTER 1: Pronunciation Lab -->
-        <div class="chapter-group">
+        <div class="chapter-group expanded" data-chapter="1">
           <div class="chapter-nav-item active flex items-start gap-2.5 px-3 py-2 rounded-xl text-white/90 hover:bg-white/5 hover:text-white transition-all cursor-pointer" data-chapter-nav="1">
             <span class="material-symbols-outlined text-[20px] mt-0.5 chapter-icon text-accent-peach">record_voice_over</span>
-            <div class="flex flex-col">
-              <span class="font-body-sm text-body-sm font-semibold">1. Pronunciation Lab</span>
-              <span class="font-label-sm text-label-sm text-white/60">B/D/G Voicing &amp; Hece Rhythm</span>
+            <div class="flex flex-col flex-1 min-w-0">
+              <span class="font-body-sm text-body-sm font-semibold truncate">1. Pronunciation Lab</span>
+              <span class="font-label-sm text-label-sm text-white/60 truncate">B/D/G Voicing &amp; Hece Rhythm</span>
             </div>
+            <span class="material-symbols-outlined text-[18px] text-white/50 chapter-chevron shrink-0 mt-0.5 transition-transform duration-200">expand_more</span>
           </div>
           <div class="sublessons-tree pl-3 pr-1 py-1 space-y-1">
             <button data-lesson-id="ch1-1" class="sidebar-sublesson-btn active w-full text-left pl-6 pr-2.5 py-1.5 rounded-lg text-xs flex items-center justify-between transition-colors">
@@ -216,13 +217,14 @@
         </div>
 
         <!-- CHAPTER 2: Evangelism Simulator -->
-        <div class="chapter-group mt-1">
+        <div class="chapter-group mt-1" data-chapter="2">
           <div class="chapter-nav-item flex items-start gap-2.5 px-3 py-2 rounded-xl text-white/70 hover:bg-white/5 hover:text-white transition-all cursor-pointer" data-chapter-nav="2">
             <span class="material-symbols-outlined text-[20px] mt-0.5 chapter-icon text-white/70">forum</span>
-            <div class="flex flex-col">
-              <span class="font-body-sm text-body-sm font-medium">2. Evangelism Simulator</span>
-              <span class="font-label-sm text-label-sm text-white/50">200 Lira Analogy &amp; Mizan</span>
+            <div class="flex flex-col flex-1 min-w-0">
+              <span class="font-body-sm text-body-sm font-medium truncate">2. Evangelism Simulator</span>
+              <span class="font-label-sm text-label-sm text-white/50 truncate">200 Lira Analogy &amp; Mizan</span>
             </div>
+            <span class="material-symbols-outlined text-[18px] text-white/40 chapter-chevron shrink-0 mt-0.5 transition-transform duration-200">expand_more</span>
           </div>
           <div class="sublessons-tree pl-3 pr-1 py-1 space-y-1">
             <button data-lesson-id="ch2-1" class="sidebar-sublesson-btn w-full text-left pl-6 pr-2.5 py-1.5 rounded-lg text-xs flex items-center justify-between text-white/70 hover:text-white transition-colors">
@@ -278,13 +280,14 @@
         </div>
 
         <!-- CHAPTER 3: Culture & Worldview -->
-        <div class="chapter-group mt-1">
+        <div class="chapter-group mt-1" data-chapter="3">
           <div class="chapter-nav-item flex items-start gap-2.5 px-3 py-2 rounded-xl text-white/70 hover:bg-white/5 hover:text-white transition-all cursor-pointer" data-chapter-nav="3">
             <span class="material-symbols-outlined text-[20px] mt-0.5 chapter-icon text-white/70">mosque</span>
-            <div class="flex flex-col">
-              <span class="font-body-sm text-body-sm font-medium">3. Culture &amp; Worldview</span>
-              <span class="font-label-sm text-label-sm text-white/50">Kul Hakkı &amp; Ahiret 8 Stages</span>
+            <div class="flex flex-col flex-1 min-w-0">
+              <span class="font-body-sm text-body-sm font-medium truncate">3. Culture &amp; Worldview</span>
+              <span class="font-label-sm text-label-sm text-white/50 truncate">Kul Hakkı &amp; Ahiret 8 Stages</span>
             </div>
+            <span class="material-symbols-outlined text-[18px] text-white/40 chapter-chevron shrink-0 mt-0.5 transition-transform duration-200">expand_more</span>
           </div>
           <div class="sublessons-tree pl-3 pr-1 py-1 space-y-1">
             <button data-lesson-id="ch3-1" class="sidebar-sublesson-btn w-full text-left pl-6 pr-2.5 py-1.5 rounded-lg text-xs flex items-center justify-between text-white/70 hover:text-white transition-colors">
@@ -319,13 +322,14 @@
         </div>
 
         <!-- CHAPTER 4: Scripture Syntax -->
-        <div class="chapter-group mt-1">
+        <div class="chapter-group mt-1" data-chapter="4">
           <div class="chapter-nav-item flex items-start gap-2.5 px-3 py-2 rounded-xl text-white/70 hover:bg-white/5 hover:text-white transition-all cursor-pointer" data-chapter-nav="4">
             <span class="material-symbols-outlined text-[20px] mt-0.5 chapter-icon text-white/70">menu_book</span>
-            <div class="flex flex-col">
-              <span class="font-body-sm text-body-sm font-medium">4. Scripture Syntax</span>
-              <span class="font-label-sm text-label-sm text-white/50">Romans 6:4 Dissection</span>
+            <div class="flex flex-col flex-1 min-w-0">
+              <span class="font-body-sm text-body-sm font-medium truncate">4. Scripture Syntax</span>
+              <span class="font-label-sm text-label-sm text-white/50 truncate">Romans 6:4 Dissection</span>
             </div>
+            <span class="material-symbols-outlined text-[18px] text-white/40 chapter-chevron shrink-0 mt-0.5 transition-transform duration-200">expand_more</span>
           </div>
           <div class="sublessons-tree pl-3 pr-1 py-1 space-y-1">
             <button data-lesson-id="ch4-1" class="sidebar-sublesson-btn w-full text-left pl-6 pr-2.5 py-1.5 rounded-lg text-xs flex items-center justify-between text-white/70 hover:text-white transition-colors">
@@ -353,13 +357,14 @@
         </div>
 
         <!-- CHAPTER 5: 6-Step Prayer Builder -->
-        <div class="chapter-group mt-1">
+        <div class="chapter-group mt-1" data-chapter="5">
           <div class="chapter-nav-item flex items-start gap-2.5 px-3 py-2 rounded-xl text-white/70 hover:bg-white/5 hover:text-white transition-all cursor-pointer" data-chapter-nav="5">
             <span class="material-symbols-outlined text-[20px] mt-0.5 chapter-icon text-white/70">volunteer_activism</span>
-            <div class="flex flex-col">
-              <span class="font-body-sm text-body-sm font-medium">5. 6-Step Prayer Builder</span>
-              <span class="font-label-sm text-label-sm text-white/50">Assembler &amp; TTS Reader</span>
+            <div class="flex flex-col flex-1 min-w-0">
+              <span class="font-body-sm text-body-sm font-medium truncate">5. 6-Step Prayer Builder</span>
+              <span class="font-label-sm text-label-sm text-white/50 truncate">Assembler &amp; TTS Reader</span>
             </div>
+            <span class="material-symbols-outlined text-[18px] text-white/40 chapter-chevron shrink-0 mt-0.5 transition-transform duration-200">expand_more</span>
           </div>
           <div class="sublessons-tree pl-3 pr-1 py-1 space-y-1">
             <button data-lesson-id="ch5-1" class="sidebar-sublesson-btn w-full text-left pl-6 pr-2.5 py-1.5 rounded-lg text-xs flex items-center justify-between text-white/70 hover:text-white transition-colors">
@@ -387,13 +392,14 @@
         </div>
 
         <!-- CHAPTER 6: MEB Spelling Rules -->
-        <div class="chapter-group mt-1">
+        <div class="chapter-group mt-1" data-chapter="6">
           <div class="chapter-nav-item flex items-start gap-2.5 px-3 py-2 rounded-xl text-white/70 hover:bg-white/5 hover:text-white transition-all cursor-pointer" data-chapter-nav="6">
             <span class="material-symbols-outlined text-[20px] mt-0.5 chapter-icon text-white/70">history_edu</span>
-            <div class="flex flex-col">
-              <span class="font-body-sm text-body-sm font-medium">6. MEB Spelling Rules</span>
-              <span class="font-label-sm text-label-sm text-white/50">Orthography &amp; Proofreading</span>
+            <div class="flex flex-col flex-1 min-w-0">
+              <span class="font-body-sm text-body-sm font-medium truncate">6. MEB Spelling Rules</span>
+              <span class="font-label-sm text-label-sm text-white/50 truncate">Orthography &amp; Proofreading</span>
             </div>
+            <span class="material-symbols-outlined text-[18px] text-white/40 chapter-chevron shrink-0 mt-0.5 transition-transform duration-200">expand_more</span>
           </div>
           <div class="sublessons-tree pl-3 pr-1 py-1 space-y-1">
             <button data-lesson-id="ch6-1" class="sidebar-sublesson-btn w-full text-left pl-6 pr-2.5 py-1.5 rounded-lg text-xs flex items-center justify-between text-white/70 hover:text-white transition-colors">
@@ -527,6 +533,26 @@
           <!-- ======================================================== -->
           <div id="section-ch1" class="lesson-section space-y-6">
             
+            <!-- In-Chapter Horizontal Sub-Tab Bar -->
+            <div class="sticky top-0 z-20 -mx-4 sm:-mx-8 px-4 sm:px-8 py-2.5 bg-[#EEF3F0]/95 backdrop-blur-md border-b border-[#9FD3BD]/60 flex items-center gap-2 overflow-x-auto custom-dark-scrollbar mb-2">
+              <span class="font-label-sm text-label-sm font-bold text-[#2D7A5D] uppercase tracking-wider shrink-0 mr-1 flex items-center gap-1">
+                <span class="material-symbols-outlined text-[16px]">tab</span>
+                1. PRONUNCIATION:
+              </span>
+              <button data-subtab-id="ch1-1" class="in-chapter-subtab active px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>1.1 유성음 OX 퀴즈</span>
+              </button>
+              <button data-subtab-id="ch1-2" class="in-chapter-subtab px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>1.2 음절 분절 훈련</span>
+              </button>
+              <button data-subtab-id="ch1-3" class="in-chapter-subtab px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>1.3 모자 부호(Şapka ^)</span>
+              </button>
+              <button data-subtab-id="ch1-4" class="in-chapter-subtab px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>1.4 Web Speech 음성 인식</span>
+              </button>
+            </div>
+
             <!-- Lesson 1.1: OX Quiz -->
             <div id="lesson-ch1-1" class="lesson-block space-y-6">
               <section class="bg-surface-container-lowest rounded-xl p-6 sm:p-8 border border-[#E2E8E5] shadow-2xs space-y-4">
@@ -698,6 +724,35 @@
           <!-- ======================================================== -->
           <div id="section-ch2" class="lesson-section space-y-6 hidden">
             
+            <!-- In-Chapter Horizontal Sub-Tab Bar -->
+            <div class="sticky top-0 z-20 -mx-4 sm:-mx-8 px-4 sm:px-8 py-2.5 bg-[#EEF3F0]/95 backdrop-blur-md border-b border-[#FFC8B8]/60 flex items-center gap-2 overflow-x-auto custom-dark-scrollbar mb-2">
+              <span class="font-label-sm text-label-sm font-bold text-[#EA6843] uppercase tracking-wider shrink-0 mr-1 flex items-center gap-1">
+                <span class="material-symbols-outlined text-[16px]">forum</span>
+                2. EVANGELISM:
+              </span>
+              <button data-subtab-id="ch2-1" class="in-chapter-subtab active px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>2.1 원 비유 (구원 확신)</span>
+              </button>
+              <button data-subtab-id="ch2-2" class="in-chapter-subtab px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>2.2 성경 왜곡설 &amp; Milat</span>
+              </button>
+              <button data-subtab-id="ch2-3" class="in-chapter-subtab px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>2.3 선행 저울(Mizan) vs 은혜</span>
+              </button>
+              <button data-subtab-id="ch2-4" class="in-chapter-subtab px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>2.4 크리스마스 vs 새해</span>
+              </button>
+              <button data-subtab-id="ch2-5" class="in-chapter-subtab px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>2.5 공허함과 하나님 형상</span>
+              </button>
+              <button data-subtab-id="ch2-6" class="in-chapter-subtab px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>2.6 구겨진 200리라</span>
+              </button>
+              <button data-subtab-id="ch2-7" class="in-chapter-subtab px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>2.7 글 없는 책 (5색 복음)</span>
+              </button>
+            </div>
+
             <section class="bg-surface-container-lowest rounded-xl p-6 sm:p-8 border border-[#E2E8E5] shadow-2xs space-y-5">
               <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                 <div class="space-y-1">
@@ -744,6 +799,26 @@
           <!-- ======================================================== -->
           <div id="section-ch3" class="lesson-section space-y-6 hidden">
             
+            <!-- In-Chapter Horizontal Sub-Tab Bar -->
+            <div class="sticky top-0 z-20 -mx-4 sm:-mx-8 px-4 sm:px-8 py-2.5 bg-[#EEF3F0]/95 backdrop-blur-md border-b border-[#ECD7A3]/60 flex items-center gap-2 overflow-x-auto custom-dark-scrollbar mb-2">
+              <span class="font-label-sm text-label-sm font-bold text-[#C88A2E] uppercase tracking-wider shrink-0 mr-1 flex items-center gap-1">
+                <span class="material-symbols-outlined text-[16px]">tab</span>
+                3. WORLDVIEW:
+              </span>
+              <button data-subtab-id="ch3-1" class="in-chapter-subtab active px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>3.1 4대 규범 (Sevap/Günah)</span>
+              </button>
+              <button data-subtab-id="ch3-2" class="in-chapter-subtab px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>3.2 Kul Hakkı &amp; 탕감 문화</span>
+              </button>
+              <button data-subtab-id="ch3-3" class="in-chapter-subtab px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>3.3 Ahiret 8단계 여정</span>
+              </button>
+              <button data-subtab-id="ch3-4" class="in-chapter-subtab px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>3.4 Fidye vs Kefaret (대속)</span>
+              </button>
+            </div>
+
             <!-- Lesson 3.1: Four Norms Matrix -->
             <div id="lesson-ch3-1" class="lesson-block space-y-6">
               <section class="bg-surface-container-lowest rounded-xl p-6 sm:p-8 border border-[#E2E8E5] shadow-2xs space-y-4">
@@ -857,6 +932,23 @@
           <!-- ======================================================== -->
           <div id="section-ch4" class="lesson-section space-y-8 hidden">
             
+            <!-- In-Chapter Horizontal Sub-Tab Bar -->
+            <div class="sticky top-0 z-20 -mx-4 sm:-mx-8 px-4 sm:px-8 py-2.5 bg-[#EEF3F0]/95 backdrop-blur-md border-b border-[#A6D5C7]/60 flex items-center gap-2 overflow-x-auto custom-dark-scrollbar mb-2">
+              <span class="font-label-sm text-label-sm font-bold text-[#1C5E4E] uppercase tracking-wider shrink-0 mr-1 flex items-center gap-1">
+                <span class="material-symbols-outlined text-[16px]">tab</span>
+                4. SCRIPTURE SYNTAX:
+              </span>
+              <button data-subtab-id="ch4-1" class="in-chapter-subtab active px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>4.1 로마서 6:4 세례 형태소 분석</span>
+              </button>
+              <button data-subtab-id="ch4-2" class="in-chapter-subtab px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>4.2 모음 탈락(Ünlü Düşmesi) 퀴즈</span>
+              </button>
+              <button data-subtab-id="ch4-3" class="in-chapter-subtab px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>4.3 신학 어휘 360° 플립 카드</span>
+              </button>
+            </div>
+
             <!-- Lesson 4.1: Romalılar 6:4 Agglutinative Dissection (STITCH EXACT) -->
             <div id="lesson-ch4-1" class="lesson-block space-y-8">
               
@@ -1319,6 +1411,23 @@
           <!-- ======================================================== -->
           <div id="section-ch5" class="lesson-section space-y-6 hidden">
             
+            <!-- In-Chapter Horizontal Sub-Tab Bar -->
+            <div class="sticky top-0 z-20 -mx-4 sm:-mx-8 px-4 sm:px-8 py-2.5 bg-[#EEF3F0]/95 backdrop-blur-md border-b border-[#F8C4C4]/60 flex items-center gap-2 overflow-x-auto custom-dark-scrollbar mb-2">
+              <span class="font-label-sm text-label-sm font-bold text-[#DE5D5D] uppercase tracking-wider shrink-0 mr-1 flex items-center gap-1">
+                <span class="material-symbols-outlined text-[16px]">tab</span>
+                5. PRAYER BUILDER:
+              </span>
+              <button data-subtab-id="ch5-1" class="in-chapter-subtab active px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>5.1 6단계 공식 가이드</span>
+              </button>
+              <button data-subtab-id="ch5-2" class="in-chapter-subtab px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>5.2 실시간 조립기 (TTS)</span>
+              </button>
+              <button data-subtab-id="ch5-3" class="in-chapter-subtab px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>5.3 상황별 기도문 라이브러리</span>
+              </button>
+            </div>
+
             <!-- Lesson 5.1: 6-Step Guide & Presets -->
             <div id="lesson-ch5-1" class="lesson-block space-y-6">
               <section class="bg-surface-container-lowest rounded-xl p-6 sm:p-8 border border-[#E2E8E5] shadow-2xs space-y-4">
@@ -1451,6 +1560,23 @@
           <!-- ======================================================== -->
           <div id="section-ch6" class="lesson-section space-y-6 hidden">
             
+            <!-- In-Chapter Horizontal Sub-Tab Bar -->
+            <div class="sticky top-0 z-20 -mx-4 sm:-mx-8 px-4 sm:px-8 py-2.5 bg-[#EEF3F0]/95 backdrop-blur-md border-b border-[#A2D8BE]/60 flex items-center gap-2 overflow-x-auto custom-dark-scrollbar mb-2">
+              <span class="font-label-sm text-label-sm font-bold text-[#27855E] uppercase tracking-wider shrink-0 mr-1 flex items-center gap-1">
+                <span class="material-symbols-outlined text-[16px]">tab</span>
+                6. ORTHOGRAPHY:
+              </span>
+              <button data-subtab-id="ch6-1" class="in-chapter-subtab active px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>6.1 11대 핵심 맞춤법</span>
+              </button>
+              <button data-subtab-id="ch6-2" class="in-chapter-subtab px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>6.2 실전 O/X 퀴즈</span>
+              </button>
+              <button data-subtab-id="ch6-3" class="in-chapter-subtab px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shadow-2xs border cursor-pointer">
+                <span>6.3 오탈자 교정기 미니게임</span>
+              </button>
+            </div>
+
             <!-- Lesson 6.1: 11 Rules Guide -->
             <div id="lesson-ch6-1" class="lesson-block space-y-6">
               <section class="bg-surface-container-lowest rounded-xl p-6 sm:p-8 border border-[#E2E8E5] shadow-2xs space-y-4">

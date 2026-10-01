@@ -15,7 +15,7 @@
   --color-peach: #FFB695;
   --color-peach-light: #FFECE3;
   --color-peach-border: #FCDFD3;
-  --color-surface: #F4F6F4;
+  --color-surface: #EEF3F0;
   --color-surface-card: #FFFFFF;
   --color-surface-low: #F8FAFC;
   --color-border: #E2E8E5;
@@ -37,6 +37,10 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+}
+
+body, main, #main-canvas {
+  background-color: #EEF3F0 !important;
 }
 
 /* Typography Helpers from Google Stitch */
@@ -219,6 +223,24 @@
   border-color: #FFB695 !important;
 }
 
+/* Sidebar Accordion (Collapsed by default, expanded on active) */
+.sublessons-tree {
+  display: none;
+}
+
+.chapter-group.expanded .sublessons-tree {
+  display: block;
+}
+
+.chapter-chevron {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.chapter-group.expanded .chapter-chevron {
+  transform: rotate(180deg);
+  color: #FFB695 !important;
+}
+
 /* Custom Scrollbars */
 ::-webkit-scrollbar {
   width: 6px;
@@ -324,3 +346,238 @@
 .animate-fadeIn {
   animation: fadeIn 0.25s ease-out forwards;
 }
+
+/* ============================================================ */
+/* IN-CHAPTER HORIZONTAL SUB-TAB BAR                            */
+/* ============================================================ */
+.in-chapter-subtab {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  outline: none;
+}
+
+/* Chapter 1 Sub-tabs */
+#section-ch1 .in-chapter-subtab {
+  background-color: #FFFFFF;
+  color: #2D7A5D;
+  border-color: #9FD3BD;
+}
+#section-ch1 .in-chapter-subtab:hover {
+  background-color: #F0F7F4;
+  border-color: #2D7A5D;
+}
+#section-ch1 .in-chapter-subtab.active {
+  background-color: #2D7A5D !important;
+  color: #FFFFFF !important;
+  border-color: #2D7A5D !important;
+  box-shadow: 0 2px 6px rgba(45, 122, 93, 0.25) !important;
+}
+
+/* Chapter 2 Sub-tabs */
+#section-ch2 .in-chapter-subtab {
+  background-color: #FFFFFF;
+  color: #C24A24;
+  border-color: #FFC8B8;
+}
+#section-ch2 .in-chapter-subtab:hover {
+  background-color: #FFF5F0;
+  border-color: #EA6843;
+}
+#section-ch2 .in-chapter-subtab.active {
+  background-color: #EA6843 !important;
+  color: #FFFFFF !important;
+  border-color: #EA6843 !important;
+  box-shadow: 0 2px 6px rgba(234, 104, 67, 0.25) !important;
+}
+
+/* Chapter 3 Sub-tabs */
+#section-ch3 .in-chapter-subtab {
+  background-color: #FFFFFF;
+  color: #A36B15;
+  border-color: #ECD7A3;
+}
+#section-ch3 .in-chapter-subtab:hover {
+  background-color: #FDF8ED;
+  border-color: #C88A2E;
+}
+#section-ch3 .in-chapter-subtab.active {
+  background-color: #C88A2E !important;
+  color: #FFFFFF !important;
+  border-color: #C88A2E !important;
+  box-shadow: 0 2px 6px rgba(200, 138, 46, 0.25) !important;
+}
+
+/* Chapter 4 Sub-tabs */
+#section-ch4 .in-chapter-subtab {
+  background-color: #FFFFFF;
+  color: #1C5E4E;
+  border-color: #A6D5C7;
+}
+#section-ch4 .in-chapter-subtab:hover {
+  background-color: #EFF8F5;
+  border-color: #1C5E4E;
+}
+#section-ch4 .in-chapter-subtab.active {
+  background-color: #1C5E4E !important;
+  color: #FFFFFF !important;
+  border-color: #1C5E4E !important;
+  box-shadow: 0 2px 6px rgba(28, 94, 78, 0.25) !important;
+}
+
+/* Chapter 5 Sub-tabs */
+#section-ch5 .in-chapter-subtab {
+  background-color: #FFFFFF;
+  color: #BA3434;
+  border-color: #F8C4C4;
+}
+#section-ch5 .in-chapter-subtab:hover {
+  background-color: #FEF5F5;
+  border-color: #DE5D5D;
+}
+#section-ch5 .in-chapter-subtab.active {
+  background-color: #DE5D5D !important;
+  color: #FFFFFF !important;
+  border-color: #DE5D5D !important;
+  box-shadow: 0 2px 6px rgba(222, 93, 93, 0.25) !important;
+}
+
+/* Chapter 6 Sub-tabs */
+#section-ch6 .in-chapter-subtab {
+  background-color: #FFFFFF;
+  color: #1F6C4C;
+  border-color: #A2D8BE;
+}
+#section-ch6 .in-chapter-subtab:hover {
+  background-color: #F0FAF4;
+  border-color: #27855E;
+}
+#section-ch6 .in-chapter-subtab.active {
+  background-color: #27855E !important;
+  color: #FFFFFF !important;
+  border-color: #27855E !important;
+  box-shadow: 0 2px 6px rgba(39, 133, 94, 0.25) !important;
+}
+
+/* ============================================================ */
+/* CHAPTER CARDS: PASTEL BORDERS & 4PX TOP ACCENT STRIPES       */
+/* ============================================================ */
+
+/* CHAPTER 1 (Pronunciation Lab): Mint/Pine Accent */
+#section-ch1 section,
+#section-ch1 #ox-quiz-container > div,
+#section-ch1 #syllables-container > div,
+#section-ch1 #sapka-comparator-container > div,
+#section-ch1 .card-cream,
+#section-ch1 .card-stitch {
+  border: 1.5px solid #9FD3BD !important;
+  border-top: 4px solid #2D7A5D !important;
+  background-color: #FFFFFF !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 0 3px 12px -2px rgba(45, 122, 93, 0.08) !important;
+}
+#section-ch1 .bg-surface-container-low,
+#section-ch1 .bg-stone-50,
+#section-ch1 .bg-stone-50\/80 {
+  background-color: #F0F7F4 !important;
+  border: 1px solid #CDE9DD !important;
+}
+
+/* CHAPTER 2 (Evangelism Simulator): Warm Apricot/Peach Accent */
+#section-ch2 section,
+#section-ch2 #active-scenario-view > div,
+#section-ch2 .scenario-card,
+#section-ch2 .card-cream,
+#section-ch2 .card-stitch {
+  border: 1.5px solid #FFC8B8 !important;
+  border-top: 4px solid #EA6843 !important;
+  background-color: #FFFFFF !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 0 3px 12px -2px rgba(234, 104, 67, 0.08) !important;
+}
+#section-ch2 .bg-stone-50,
+#section-ch2 .bg-stone-50\/80,
+#section-ch2 .bg-surface-container-low {
+  background-color: #FFF5F0 !important;
+  border: 1px solid #FFD9CE !important;
+}
+
+/* CHAPTER 3 (Culture & Worldview): Warm Amber/Ochre Accent */
+#section-ch3 section,
+#section-ch3 #four-norms-container > div,
+#section-ch3 #kul-hakki-container > div,
+#section-ch3 #ahiret-details > div,
+#section-ch3 #fidye-container > div,
+#section-ch3 .card-cream,
+#section-ch3 .card-stitch {
+  border: 1.5px solid #ECD7A3 !important;
+  border-top: 4px solid #C88A2E !important;
+  background-color: #FFFFFF !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 0 3px 12px -2px rgba(200, 138, 46, 0.08) !important;
+}
+#section-ch3 .bg-stone-50,
+#section-ch3 .bg-stone-50\/80,
+#section-ch3 .bg-surface-container-low {
+  background-color: #FDF8ED !important;
+  border: 1px solid #F5E8C9 !important;
+}
+
+/* CHAPTER 4 (Scripture Syntax): Sage/Teal Accent */
+#section-ch4 section,
+#section-ch4 #unlu-quiz-container > div,
+#section-ch4 #vocab-flip-container > div,
+#section-ch4 .card-cream,
+#section-ch4 .card-stitch {
+  border: 1.5px solid #A6D5C7 !important;
+  border-top: 4px solid #1C5E4E !important;
+  background-color: #FFFFFF !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 0 3px 12px -2px rgba(28, 94, 78, 0.08) !important;
+}
+#section-ch4 .bg-stone-50,
+#section-ch4 .bg-stone-50\/80,
+#section-ch4 .bg-surface-container-low {
+  background-color: #EFF8F5 !important;
+  border: 1px solid #CEE9DB !important;
+}
+
+/* CHAPTER 5 (Prayer Builder): Rose/Coral Accent */
+#section-ch5 section,
+#section-ch5 #prayer-steps-container > div,
+#section-ch5 #assembled-prayer-container,
+#section-ch5 #situational-prayers-container > div,
+#section-ch5 .card-cream,
+#section-ch5 .card-stitch {
+  border: 1.5px solid #F8C4C4 !important;
+  border-top: 4px solid #DE5D5D !important;
+  background-color: #FFFFFF !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 0 3px 12px -2px rgba(222, 93, 93, 0.08) !important;
+}
+#section-ch5 .bg-stone-50,
+#section-ch5 .bg-stone-50\/80,
+#section-ch5 .bg-surface-container-low {
+  background-color: #FEF5F5 !important;
+  border: 1px solid #FCD9D9 !important;
+}
+
+/* CHAPTER 6 (MEB Spelling Rules): Emerald/Forest Accent */
+#section-ch6 section,
+#section-ch6 #ortho-rules-container > div,
+#section-ch6 #ortho-quiz-container > div,
+#section-ch6 #proofreading-game-container,
+#section-ch6 .card-cream,
+#section-ch6 .card-stitch {
+  border: 1.5px solid #A2D8BE !important;
+  border-top: 4px solid #27855E !important;
+  background-color: #FFFFFF !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 0 3px 12px -2px rgba(39, 133, 94, 0.08) !important;
+}
+#section-ch6 .bg-stone-50,
+#section-ch6 .bg-stone-50\/80,
+#section-ch6 .bg-surface-container-low {
+  background-color: #F0FAF4 !important;
+  border: 1px solid #C6EBD7 !important;
+}
+

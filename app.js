@@ -131,6 +131,26 @@ document.addEventListener('DOMContentLoaded', () => {
     state.currentLessonId = lessonId;
     state.completedLessons.add(lessonId);
 
+    // Expand active chapter group and collapse all others in sidebar
+    document.querySelectorAll('.chapter-group').forEach(group => {
+      const chapNum = parseInt(group.getAttribute('data-chapter'), 10);
+      if (chapNum === lesson.chapter) {
+        group.classList.add('expanded');
+      } else {
+        group.classList.remove('expanded');
+      }
+    });
+
+    // Update in-chapter horizontal sub-tab bar
+    document.querySelectorAll('.in-chapter-subtab').forEach(tab => {
+      const tId = tab.getAttribute('data-subtab-id');
+      if (tId === lessonId) {
+        tab.classList.add('active');
+      } else {
+        tab.classList.remove('active');
+      }
+    });
+
     // Update Chapter group header active state
     document.querySelectorAll('.chapter-nav-item').forEach(cItem => {
       const cNum = parseInt(cItem.getAttribute('data-chapter-nav'), 10);
@@ -273,11 +293,30 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Chapter group header click listener
+  // In-chapter horizontal sub-tab click listeners
+  document.querySelectorAll('.in-chapter-subtab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      const subtabId = tab.getAttribute('data-subtab-id');
+      if (subtabId) {
+        selectLesson(subtabId);
+      }
+    });
+  });
+
+  // Chapter group header click listener (Accordion toggle & select)
   document.querySelectorAll('.chapter-nav-item').forEach(item => {
-    item.addEventListener('click', () => {
-      const chap = item.getAttribute('data-chapter-nav');
-      if (chap) {
+    item.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const chap = parseInt(item.getAttribute('data-chapter-nav'), 10);
+      if (!chap) return;
+      const group = item.closest('.chapter-group');
+      const isAlreadyActiveChapter = state.currentLessonId && state.currentLessonId.startsWith(`ch${chap}-`);
+
+      if (isAlreadyActiveChapter && group) {
+        // Toggle accordion for already selected chapter
+        group.classList.toggle('expanded');
+      } else {
+        // Select first lesson of the chapter and expand
         selectLesson(`ch${chap}-1`);
       }
     });
@@ -790,6 +829,16 @@ document.addEventListener('DOMContentLoaded', () => {
         state.currentLessonId = matchLesson.id;
         state.completedLessons.add(matchLesson.id);
 
+        // Sync in-chapter horizontal sub-tabs for Chapter 2
+        document.querySelectorAll('#section-ch2 .in-chapter-subtab').forEach(tab => {
+          const tId = tab.getAttribute('data-subtab-id');
+          if (tId === matchLesson.id) {
+            tab.classList.add('active');
+          } else {
+            tab.classList.remove('active');
+          }
+        });
+
         document.querySelectorAll('.sidebar-sublesson-btn').forEach(btn => {
           const bId = btn.getAttribute('data-lesson-id');
           if (bId === matchLesson.id) {
@@ -800,7 +849,7 @@ document.addEventListener('DOMContentLoaded', () => {
           const statusSpan = btn.querySelector('.lesson-status');
           if (statusSpan && state.completedLessons.has(bId)) {
             statusSpan.textContent = '✓';
-            statusSpan.classList.add('text-[#2A6F5B]', 'font-bold');
+            statusSpan.classList.add('text-accent-peach', 'font-bold');
           }
         });
 
