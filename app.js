@@ -4,10 +4,11 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
+  const escapeHTML = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   // State variables
   const state = {
-    currentLessonId: 'ch1-1',
-    completedLessons: new Set(['ch1-1']),
+    currentLessonId: 'ministry-01',
+    completedLessons: new Set(),
     showKoreanInSimulator: true,
 
     // Chapter 1 state
@@ -63,12 +64,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const toast = document.createElement('div');
-    const bgClass = type === 'success' 
-      ? 'bg-emerald-50 text-emerald-900 border border-emerald-300' 
-      : type === 'error' 
-      ? 'bg-rose-50 text-rose-900 border border-rose-300' 
+    const bgClass = type === 'success'
+      ? 'bg-emerald-50 text-emerald-900 border border-emerald-300'
+      : type === 'error'
+      ? 'bg-rose-50 text-rose-900 border border-rose-300'
       : 'bg-white text-slate-800 border border-stone-200';
-    
+
     toast.className = `${bgClass} px-4 py-3 rounded-lg shadow-lg flex items-center gap-3 text-xs sm:text-sm font-medium transition-all duration-300 transform translate-y-3 opacity-0 pointer-events-auto max-w-sm`;
     toast.innerHTML = `
       <span class="font-bold">${type === 'success' ? '✓' : type === 'error' ? '✕' : 'ℹ'}</span>
@@ -116,20 +117,26 @@ document.addEventListener('DOMContentLoaded', () => {
     { id: 'ch5-2', chapter: 5, chapterName: '6단계 기도문 스튜디오', title: '5.2 실시간 블록 조립 에디터 (TTS)' },
     { id: 'ch5-3', chapter: 5, chapterName: '6단계 기도문 스튜디오', title: '5.3 상황별 & 성도 양육 기도문 라이브러리' },
 
-    { id: 'ch6-1', chapter: 6, chapterName: 'MEB 2023 종교 표기 규정', title: '6.1 11대 핵심 맞춤법 규정' },
-    { id: 'ch6-2', chapter: 6, chapterName: 'MEB 2023 종교 표기 규정', title: '6.2 실전 O/X 맞춤법 퀴즈' },
-    { id: 'ch6-3', chapter: 6, chapterName: 'MEB 2023 종교 표기 규정', title: '6.3 실시간 오탈자 교정기 미니게임' },
+    { id: 'ch6-1', chapter: 6, chapterName: 'TDK 종교 표기 규정', title: '6.1 11대 핵심 맞춤법 규정' },
+    { id: 'ch6-2', chapter: 6, chapterName: 'TDK 종교 표기 규정', title: '6.2 실전 O/X 맞춤법 퀴즈' },
+    { id: 'ch6-3', chapter: 6, chapterName: 'TDK 종교 표기 규정', title: '6.3 실시간 오탈자 교정기 미니게임' },
   ];
 
+  LESSONS.push(...EXPANDED_LESSONS.map(l => ({id:l.id,chapter:7,chapterName:course.t('Explained ministry lessons','설명형 사역 수업'),title:course.text(l.title)})));
   window.selectLesson = selectLesson;
 
   function selectLesson(lessonId) {
     const idx = LESSONS.findIndex(l => l.id === lessonId);
     if (idx === -1) return;
     const lesson = LESSONS[idx];
+    if (lesson.chapter === 7) { const content=EXPANDED_LESSONS.find(l=>l.id===lessonId); lesson.title=course.text(content.title); lesson.chapterName=course.t("Explained ministry lessons","설명형 사역 수업"); }
 
     state.currentLessonId = lessonId;
-    state.completedLessons.add(lessonId);
+    course.entry(lessonId).visited = true;
+    course.select(lessonId);
+    course.save();
+
+    if (lesson.chapter !== 7) { lesson.title=window.legacyLessonTitle?.(lessonId) || lesson.title; lesson.chapterName=window.legacyChapterTitle?.(lesson.chapter) || lesson.chapterName; }
 
     // Expand active chapter group and collapse all others in sidebar
     document.querySelectorAll('.chapter-group').forEach(group => {
@@ -185,7 +192,8 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       const statusSpan = btn.querySelector('.lesson-status');
-      if (statusSpan && state.completedLessons.has(bId)) {
+      if (statusSpan) statusSpan.textContent=course.entry(bId).completed?'✓':course.entry(bId).practised?'◐':course.entry(bId).visited?'·':'○';
+      if (statusSpan && course.entry(bId).completed) {
         statusSpan.textContent = '✓';
         statusSpan.classList.add('text-accent-peach', 'font-bold');
         statusSpan.classList.remove('text-white/40');
@@ -196,9 +204,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const breadcrumb = document.getElementById('breadcrumb-display');
     if (breadcrumb) {
       breadcrumb.innerHTML = `
-        <a class="hover:text-primary transition-colors hidden sm:inline" href="#">Curriculum</a>
+        <a class="hover:text-primary transition-colors hidden sm:inline" href="#">${course.t('Curriculum','학습 과정')}</a>
         <span class="text-outline/40 hidden sm:inline">›</span>
-        <span class="text-primary font-medium">Chapter ${lesson.chapter}: ${lesson.chapterName}</span>
+        <span class="text-primary font-medium">${course.t('Chapter','장')} ${lesson.chapter}: ${lesson.chapterName}</span>
         <span class="text-outline/40">›</span>
         <span class="font-semibold text-on-surface truncate max-w-xs sm:max-w-sm">${lesson.title}</span>
       `;
@@ -211,7 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (nextBtn) nextBtn.disabled = idx === LESSONS.length - 1;
 
     // Switch Chapter Section
-    for (let c = 1; c <= 6; c++) {
+    for (let c = 1; c <= 7; c++) {
       const sec = document.getElementById(`section-ch${c}`);
       if (sec) {
         if (c === lesson.chapter) {
@@ -223,7 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Switch Sub-lesson block if applicable
-    if (lesson.chapter !== 2) {
+    if (lesson.chapter !== 2 && lesson.chapter !== 7) {
       document.querySelectorAll(`#section-ch${lesson.chapter} .lesson-block`).forEach(blk => {
         if (blk.id === `lesson-${lessonId}`) {
           blk.classList.remove('hidden');
@@ -233,8 +241,11 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     } else if (lesson.scenarioId) {
       // For Chapter 2, switch directly to the scenario
-      window.switchScenario(lesson.scenarioId, false);
+      if (state.currentScenarioId !== lesson.scenarioId) window.switchScenario(lesson.scenarioId, false);
+      else renderCurrentScenario();
     }
+
+    if (lesson.chapter === 7) requestAnimationFrame(() => document.getElementById('course-title')?.focus({preventScroll:true}));
 
     // Update Overall Progress
     updateCurriculumProgress();
@@ -257,8 +268,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function updateCurriculumProgress() {
-    const total = LESSONS.length;
-    const completed = state.completedLessons.size;
+    const total = EXPANDED_LESSONS.length;
+    const completed = EXPANDED_LESSONS.filter(l => course.entry(l.id).completed).length;
     const pct = Math.min(100, Math.round((completed / total) * 100));
 
     const percentEl = document.getElementById('progress-percent');
@@ -267,8 +278,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (percentEl) percentEl.textContent = `${pct}%`;
     if (barEl) barEl.style.width = `${pct}%`;
-    if (statsEl) statsEl.textContent = `완료 ${completed} / ${total} 레슨`;
+    if (statsEl) statsEl.textContent = course.t(`Completed ${completed} / ${total} ministry tasks`, `사역 과제 완료 ${completed} / ${total}`);
   }
+
+  window.updateCourseProgress = updateCurriculumProgress;
 
   // Prev / Next button listeners
   document.getElementById('prev-lesson-btn')?.addEventListener('click', () => {
@@ -377,11 +390,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  let lastTurkishInput=null;
+  document.addEventListener('focusin',e=>{if(e.target.matches('input[type=text],textarea'))lastTurkishInput=e.target;});
+  document.querySelectorAll('[data-insert-char]').forEach(b=>b.addEventListener('pointerdown',e=>e.preventDefault()));
+
   // Turkish character insert buttons
   document.querySelectorAll('[data-insert-char]').forEach(btn => {
     btn.addEventListener('click', () => {
       const char = btn.getAttribute('data-insert-char');
-      const activeEl = document.activeElement;
+      const activeEl = lastTurkishInput || document.activeElement;
       if (activeEl && (activeEl.tagName === 'INPUT' || activeEl.tagName === 'TEXTAREA')) {
         const start = activeEl.selectionStart || 0;
         const end = activeEl.selectionEnd || 0;
@@ -431,9 +448,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h4 class="text-sm sm:text-base font-bold text-slate-900 leading-snug mb-1">${item.question}</h4>
                 <p class="text-xs text-slate-500">단어: <span class="text-emerald-800 font-semibold">${item.word}</span> (${item.translation})</p>
               </div>
-              
-              <button onclick="window.audioEngine.speakTurkish('${item.word}')" 
-                      title="터키어 원어민 발음 듣기" 
+
+              <button data-speech="${escapeHTML(item.word)}"
+                      title="터키어 합성 음성 발음 듣기"
                       class="p-2 rounded-lg bg-stone-100 hover:bg-emerald-50 text-slate-600 hover:text-emerald-700 border border-stone-200 transition flex items-center justify-center shrink-0">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
               </button>
@@ -441,17 +458,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
             <!-- OX Buttons -->
             <div class="flex items-center gap-2.5 my-3">
-              <button onclick="handleOXClick(${item.id}, 'O')" 
+              <button onclick="handleOXClick(${item.id}, 'O')"
                       class="flex-1 py-2 px-3 rounded-lg font-bold text-xs transition-all flex items-center justify-center gap-1.5 ${
-                        userAnswer === 'O' 
+                        userAnswer === 'O'
                           ? (item.answer === 'O' ? 'bg-emerald-700 text-white ring-2 ring-emerald-300' : 'bg-rose-600 text-white')
                           : 'bg-stone-100 text-slate-700 hover:bg-stone-200'
                       }">
                 <span>⭕</span> 그렇다 (O)
               </button>
-              <button onclick="handleOXClick(${item.id}, 'X')" 
+              <button onclick="handleOXClick(${item.id}, 'X')"
                       class="flex-1 py-2 px-3 rounded-lg font-bold text-xs transition-all flex items-center justify-center gap-1.5 ${
-                        userAnswer === 'X' 
+                        userAnswer === 'X'
                           ? (item.answer === 'X' ? 'bg-emerald-700 text-white ring-2 ring-emerald-300' : 'bg-rose-600 text-white')
                           : 'bg-stone-100 text-slate-700 hover:bg-stone-200'
                       }">
@@ -511,7 +528,7 @@ document.addEventListener('DOMContentLoaded', () => {
     container.innerHTML = APP_DATA.pronunciation.syllables.map(item => {
       const parts = item.segmented.split('-');
       const syllablesHtml = parts.map((s) => `
-        <button onclick="playSyllableRhythm('${s}')" 
+        <button onclick="playSyllableRhythm('${s}')"
                 class="syllable-chunk px-3 py-1.5 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-800 font-bold text-sm hover:bg-emerald-100 hover:border-emerald-300 transition shadow-sm">
           ${s}
         </button>
@@ -522,7 +539,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div>
             <div class="flex items-center justify-between mb-2">
               <span class="text-xs font-semibold px-2 py-0.5 rounded bg-stone-100 text-slate-600">${item.syllableCount}음절 분절</span>
-              <button onclick="window.audioEngine.speakTurkish('${item.word}')" class="text-slate-400 hover:text-emerald-700 transition" title="전체 발음">
+              <button data-speech="${escapeHTML(item.word)}" class="text-slate-400 hover:text-emerald-700 transition" title="전체 발음">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
               </button>
             </div>
@@ -562,7 +579,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <span class="text-xs text-emerald-800 font-semibold">분절 결과:</span>
             <span class="text-base sm:text-lg font-bold text-emerald-950 tracking-widest ml-2">${segmented}</span>
           </div>
-          <button onclick="window.audioEngine.speakTurkish('${val}')" class="px-3 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-semibold shadow-sm transition flex items-center gap-1.5">
+          <button data-speech="${escapeHTML(val)}" class="px-3 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-semibold shadow-sm transition flex items-center gap-1.5">
             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
             발음 듣기
           </button>
@@ -663,10 +680,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!wordListContainer) return;
 
     wordListContainer.innerHTML = APP_DATA.pronunciation.speechPracticeWords.map(w => `
-      <button data-word="${w.turkish}" 
+      <button data-word="${w.turkish}"
               class="px-3 py-1.5 rounded-lg text-xs font-medium transition border ${
-                w.turkish === state.activeSpeechTarget 
-                  ? 'bg-emerald-700 text-white border-emerald-600 shadow-sm' 
+                w.turkish === state.activeSpeechTarget
+                  ? 'bg-emerald-700 text-white border-emerald-600 shadow-sm'
                   : 'bg-stone-100 text-slate-700 border-stone-200 hover:bg-stone-200'
               }">
         ${w.turkish} <span class="text-[10px] opacity-75">(${w.korean})</span>
@@ -727,7 +744,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (micStatus) micStatus.innerText = '음성 인식 완료';
 
             if (spokenTranscriptDisplay) spokenTranscriptDisplay.innerText = `"${spoken}"`;
-            
+
             const score = window.audioEngine.calculateSimilarity(state.activeSpeechTarget, spoken);
             if (speechScoreDisplay) speechScoreDisplay.innerText = `${score}%`;
             if (speechScoreBar) speechScoreBar.style.width = `${score}%`;
@@ -735,16 +752,16 @@ document.addEventListener('DOMContentLoaded', () => {
             if (score >= 85) {
               window.audioEngine.playCorrectSound();
               if (speechFeedbackDisplay) {
-                speechFeedbackDisplay.innerHTML = `<span class="text-emerald-800 font-bold">대단합니다!</span> 원어민 수준의 정확하고 또렷한 발음입니다. (유사도: ${score}%)`;
+                speechFeedbackDisplay.innerHTML = `<span class="text-emerald-800 font-bold">대단합니다!</span> 인식된 텍스트가 목표와 비슷합니다. 발음, 강세나 억양 평가가 아닙니다. (유사도: ${score}%)`;
               }
             } else if (score >= 50) {
               if (speechFeedbackDisplay) {
-                speechFeedbackDisplay.innerHTML = `<span class="text-amber-800 font-bold">좋습니다!</span> 뜻이 통하는 발음입니다. 모음의 길이와 유성음을 의식하며 한 번 더 시도해 보세요. (유사도: ${score}%)`;
+                speechFeedbackDisplay.innerHTML = `<span class="text-amber-800 font-bold">좋습니다!</span> 인식 텍스트가 일부 일치합니다. 실제 이해 가능성은 대화 상대와 확인하세요. (유사도: ${score}%)`;
               }
             } else {
               window.audioEngine.playWrongSound();
               if (speechFeedbackDisplay) {
-                speechFeedbackDisplay.innerHTML = `<span class="text-rose-700 font-bold">다시 시도해 보세요!</span> '원어민 발음 듣기'를 2~3회 반복해 듣고 천천히 소리 내어 보세요. (유사도: ${score}%)`;
+                speechFeedbackDisplay.innerHTML = `<span class="text-rose-700 font-bold">다시 시도해 보세요!</span> '합성 음성 발음 듣기'를 2~3회 반복해 듣고 천천히 소리 내어 보세요. (유사도: ${score}%)`;
               }
             }
           },
@@ -789,10 +806,10 @@ document.addEventListener('DOMContentLoaded', () => {
     container.innerHTML = APP_DATA.simulator.scenarios.map((s, idx) => {
       const isActive = s.id === state.currentScenarioId;
       return `
-        <button onclick="switchScenario('${s.id}')" 
+        <button onclick="switchScenario('${s.id}')"
                 class="p-3 rounded-lg text-left transition border ${
-                  isActive 
-                    ? 'bg-white border-2 border-[#2A6F5B] shadow-sm' 
+                  isActive
+                    ? 'bg-white border-2 border-[#2A6F5B] shadow-sm'
                     : 'card-cream hover:bg-white border-[#CDDCD3] shadow-xs'
                 }">
           <div class="flex items-center gap-1.5 mb-1">
@@ -826,8 +843,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (syncSidebar) {
       const matchLesson = LESSONS.find(l => l.scenarioId === scId);
       if (matchLesson) {
-        state.currentLessonId = matchLesson.id;
-        state.completedLessons.add(matchLesson.id);
+        state.currentLessonId = matchLesson.id; course.select(matchLesson.id);
+        course.entry(matchLesson.id).visited = true; course.save();
 
         // Sync in-chapter horizontal sub-tabs for Chapter 2
         document.querySelectorAll('#section-ch2 .in-chapter-subtab').forEach(tab => {
@@ -847,7 +864,7 @@ document.addEventListener('DOMContentLoaded', () => {
             btn.classList.remove('active');
           }
           const statusSpan = btn.querySelector('.lesson-status');
-          if (statusSpan && state.completedLessons.has(bId)) {
+          if (statusSpan && course.entry(bId).completed) {
             statusSpan.textContent = '✓';
             statusSpan.classList.add('text-accent-peach', 'font-bold');
           }
@@ -882,6 +899,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const currentStep = sc.steps[state.scenarioStep];
+    if (state.selectedChoice) state.selectedChoice = currentStep.choices.find(c => c.id === state.selectedChoice.id) || null;
     const isStepAnswered = state.selectedChoice !== null;
 
     let colorBookBanner = '';
@@ -924,7 +942,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <p class="text-xs text-slate-500">${sc.npc.desc}</p>
             </div>
           </div>
-          
+
           <div class="text-right">
             <div class="text-xs text-slate-400">진행 단계</div>
             <div class="text-base font-bold text-emerald-800">${state.scenarioStep + 1} / ${sc.steps.length}</div>
@@ -952,8 +970,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 </p>
               ` : ''}
             </div>
-            <button onclick="window.audioEngine.speakTurkish(\`${currentStep.npcSpeech.replace(/"/g, '')}\`)" 
-                    class="p-2 rounded-lg bg-white hover:bg-stone-100 text-slate-600 border border-stone-200 transition shrink-0" 
+            <button onclick="window.audioEngine.speakTurkish(\`${currentStep.npcSpeech.replace(/"/g, '')}\`)"
+                    class="p-2 rounded-lg bg-white hover:bg-stone-100 text-slate-600 border border-stone-200 transition shrink-0"
                     title="터키어 음성 듣기">
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
             </button>
@@ -970,11 +988,11 @@ document.addEventListener('DOMContentLoaded', () => {
           ${currentStep.choices.map((c, idx) => {
             const isSelected = state.selectedChoice && state.selectedChoice.id === c.id;
             let choiceStyle = 'bg-white border-stone-200 hover:border-emerald-600 hover:bg-stone-50/50';
-            
+
             if (isStepAnswered) {
               if (c.feedbackType === 'best') {
                 choiceStyle = 'bg-emerald-50 border-emerald-400 text-emerald-950';
-              } else if (isSelected && c.feedbackType !== 'best') {
+              } else if (isSelected && c.feedbackType === 'bad') {
                 choiceStyle = 'bg-rose-50 border-rose-300 text-rose-950';
               } else {
                 choiceStyle = 'opacity-60 bg-stone-50 border-stone-200';
@@ -982,7 +1000,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             return `
-              <button onclick="handleSimulatorChoice('${c.id}')" 
+              <div class="simulator-choice">
+              <button type="button" onclick="handleSimulatorChoice('${c.id}')"
                       ${isStepAnswered ? 'disabled' : ''}
                       class="p-4 rounded-xl text-left transition-all border ${choiceStyle} flex flex-col gap-1 shadow-sm group">
                 <div class="flex items-center justify-between gap-2">
@@ -990,17 +1009,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     응답 0${idx + 1}
                   </span>
                   <div class="flex items-center gap-2">
-                    <button type="button" onclick="event.stopPropagation(); window.audioEngine.speakTurkish(\`${c.text.replace(/"/g, '')}\`)" class="text-slate-400 hover:text-emerald-700" title="듣기">
-                      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
-                    </button>
-                    ${isStepAnswered ? `<span class="text-xs font-bold ${c.score > 0 ? 'text-emerald-800' : 'text-rose-700'}">${c.score > 0 ? '+' : ''}${c.score}점</span>` : ''}
+
+
                   </div>
                 </div>
                 <p class="text-sm font-semibold text-slate-900 leading-snug">${c.text}</p>
                 ${state.showKoreanInSimulator ? `
                   <p class="text-xs text-slate-500 italic">${c.korean}</p>
                 ` : ''}
-              </button>
+              </button><button type="button" data-speech="${escapeHTML(c.text)}" class="px-3 py-2 bg-white border rounded-lg text-sm">${course.t('Play synthetic speech','합성 음성 듣기')}</button></div>
             `;
           }).join('')}
         </div>
@@ -1011,17 +1028,17 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="bg-white p-5 rounded-xl border border-stone-200 shadow-sm animate-fadeIn">
           <div class="flex items-center justify-between mb-3">
             <span class="text-xs font-bold px-2.5 py-1 rounded-full ${
-              state.selectedChoice.feedbackType === 'best' 
-                ? 'bg-emerald-100 text-emerald-900 border border-emerald-300' 
+              state.selectedChoice.feedbackType === 'best'
+                ? 'bg-emerald-100 text-emerald-900 border border-emerald-300'
                 : state.selectedChoice.feedbackType === 'neutral'
                 ? 'bg-amber-100 text-amber-900 border border-amber-300'
                 : 'bg-rose-100 text-rose-900 border border-rose-300'
             }">
-              ${state.selectedChoice.feedbackType === 'best' ? '탁월한 응답! (최고 점수)' : state.selectedChoice.feedbackType === 'neutral' ? '보통의 응답' : '주의가 필요한 응답'}
+              ${state.selectedChoice.feedbackType === 'best' ? course.t('Appropriate response','적절한 답변') : state.selectedChoice.feedbackType === 'neutral' ? course.t('Consider the context','문맥을 확인하세요') : course.t('Review this response','이 답을 검토하세요')}
             </span>
 
             <span class="text-xs sm:text-sm font-bold text-slate-800">
-              현재 영적 지혜 지수: <span class="text-emerald-800">${state.scenarioScore}점</span>
+              현재 대화 연습 기록: <span class="text-emerald-800">${course.t('Practice responses, not outcomes','결과가 아니라 답을 연습하세요')}</span>
             </span>
           </div>
 
@@ -1032,15 +1049,15 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="bg-sand-50 border border-sand-200 p-3 rounded-lg text-xs text-sand-900 mb-4 flex items-start gap-2">
             <span class="shrink-0 text-sm">📖</span>
             <div>
-              <strong class="font-bold">신학 & 사역 팁:</strong>
+              <strong class="font-bold">${course.t('Christian explanation and practice:','기독교 설명과 연습:')}</strong>
               <p class="mt-0.5 leading-normal">${state.selectedChoice.theologyTip}</p>
             </div>
           </div>
 
           <div class="flex justify-end">
-            <button onclick="advanceSimulatorStep()" 
+            <button onclick="advanceSimulatorStep()"
                     class="px-5 py-2.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white font-semibold text-xs shadow-sm flex items-center gap-1.5 transition">
-              <span>다음 단계 진행하기</span>
+              <span>${course.t('Continue conversation','다음 대화 진행')}</span>
               <span>→</span>
             </button>
           </div>
@@ -1057,6 +1074,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!choice) return;
 
     state.selectedChoice = choice;
+    course.entry(state.currentLessonId).practised=true; course.save();
     state.scenarioScore += choice.score;
     state.scenarioHistory.push({
       step: state.scenarioStep,
@@ -1081,19 +1099,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function renderScenarioComplete(sc, container) {
     window.audioEngine.playCorrectSound();
-    const maxScore = sc.steps.length * 35;
-    const scorePct = Math.round((Math.max(0, state.scenarioScore) / maxScore) * 100);
-
-    let rankTitle = "성숙한 복음 전도자 (Müjde Elçisi)";
-    let rankDesc = "무슬림의 문화와 세계관을 깊이 이해하고 성령의 지혜로 복음의 핵심을 선포하셨습니다!";
-    if (scorePct < 60) {
-      rankTitle = "수습 전도자 (Öğrenci)";
-      rankDesc = "진리에 대한 열정은 귀하나 문화적 공감과 적절한 비유 활용을 더 연습해 보세요.";
-    } else if (scorePct < 85) {
-      rankTitle = "지혜로운 변증가 (Savunucu)";
-      rankDesc = "상대방의 마음 문을 열고 복음의 다리를 놓는 훌륭한 대화를 이끌었습니다.";
-    }
-
+    const scorePct = 0;
+    const rankTitle = course.t('Review your conversation','대화 복습');
+    const rankDesc = course.t('Review language, understanding, factual accuracy and appropriateness. Practise an original response; no conversion outcome is scored.','언어, 이해, 사실 정확성과 적절함을 검토하세요. 자신의 답을 연습하세요. 회심 결과는 채점하지 않습니다.');
     container.innerHTML = `
       <div class="bg-white p-7 sm:p-8 rounded-xl text-center border border-stone-200 shadow-sm animate-fadeIn">
         <div class="w-16 h-16 rounded-full bg-emerald-50 border border-emerald-200 mx-auto flex items-center justify-center text-2xl mb-3 text-emerald-800">
@@ -1105,11 +1113,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         <!-- Score summary -->
         <div class="bg-stone-50 p-5 rounded-xl max-w-md mx-auto border border-stone-200 mb-6">
-          <div class="text-xs text-slate-500 mb-1">최종 영적 지혜 지수</div>
-          <div class="text-3xl sm:text-4xl font-extrabold text-emerald-800 mb-2">${state.scenarioScore}점</div>
-          <div class="w-full bg-stone-200 rounded-full h-2 mb-3">
-            <div class="bg-emerald-700 h-2 rounded-full" style="width: ${Math.min(100, Math.max(10, scorePct))}%"></div>
-          </div>
+          <div class="text-xs text-slate-500 mb-1">최종 대화 연습 기록</div>
+          <div class="text-3xl sm:text-4xl font-extrabold text-emerald-800 mb-2">${course.t('Practice responses, not outcomes','결과가 아니라 답을 연습하세요')}</div>
+
           <div class="inline-block px-3 py-1 rounded-full bg-emerald-100 text-emerald-900 font-bold text-xs border border-emerald-300 mb-2">
             ${rankTitle}
           </div>
@@ -1117,11 +1123,11 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
 
         <div class="flex items-center justify-center gap-3">
-          <button onclick="switchScenario('${sc.id}')" 
+          <button onclick="switchScenario('${sc.id}')"
                   class="px-4 py-2 rounded-lg bg-stone-100 hover:bg-stone-200 text-slate-700 text-xs font-semibold transition border border-stone-200">
             🔄 시나리오 다시 하기
           </button>
-          <button onclick="selectLesson('ch5-1')" 
+          <button onclick="selectLesson('ch5-1')"
                   class="px-4 py-2 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold transition shadow-sm flex items-center gap-1.5 cursor-pointer">
             <span>기도문 빌더로 영혼 품기</span>
             <span>→</span>
@@ -1174,7 +1180,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="p-4 rounded-lg bg-stone-50 border border-stone-200">
             <div class="flex items-center justify-between mb-2">
               <span class="text-xs font-bold text-slate-800">💬 현지 대화 실습 (Hakkını helal et):</span>
-              <button onclick="window.audioEngine.speakTurkish(\`${kulHakkiData.sampleDialogue.tr.replace(/\n/g, ' ')}\`)" 
+              <button onclick="window.audioEngine.speakTurkish(\`${kulHakkiData.sampleDialogue.tr.replace(/\n/g, ' ')}\`)"
                       class="px-2.5 py-1 rounded bg-white hover:bg-emerald-50 text-emerald-800 border border-stone-200 text-xs flex items-center gap-1.5 transition">
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
                 대화 듣기
@@ -1251,10 +1257,10 @@ document.addEventListener('DOMContentLoaded', () => {
     stepperContainer.innerHTML = ahiretData.stages.map(st => {
       const isActive = st.num === state.activeAhiretStage;
       return `
-        <button onclick="selectAhiretStage(${st.num})" 
+        <button onclick="selectAhiretStage(${st.num})"
                 class="flex-1 min-w-[105px] p-2 rounded-lg text-center transition border ${
-                  isActive 
-                    ? 'bg-emerald-700 text-white border-emerald-600 shadow-sm font-bold' 
+                  isActive
+                    ? 'bg-emerald-700 text-white border-emerald-600 shadow-sm font-bold'
                     : 'bg-white text-slate-700 border-stone-200 hover:bg-stone-50'
                 }">
           <div class="text-[10px] opacity-80">단계 0${st.num}</div>
@@ -1270,7 +1276,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div>
             <div class="flex items-center gap-2 mb-1">
               <span class="px-2 py-0.5 rounded text-xs font-bold bg-stone-100 text-emerald-800">8단계 중 0${current.num}단계</span>
-              <button onclick="window.audioEngine.speakTurkish('${current.name}')" class="text-slate-400 hover:text-emerald-700" title="발음 듣기">
+              <button data-speech="${escapeHTML(current.name)}" class="text-slate-400 hover:text-emerald-700" title="발음 듣기">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
               </button>
             </div>
@@ -1327,10 +1333,10 @@ document.addEventListener('DOMContentLoaded', () => {
     verseSelector.innerHTML = APP_DATA.syntax.verses.map(v => {
       const isActive = v.id === state.activeVerseId;
       return `
-        <button onclick="selectVerse('${v.id}')" 
+        <button onclick="selectVerse('${v.id}')"
                 class="px-3.5 py-1.5 rounded-lg text-xs font-bold transition border ${
-                  isActive 
-                    ? 'bg-emerald-700 text-white border-emerald-600 shadow-sm' 
+                  isActive
+                    ? 'bg-emerald-700 text-white border-emerald-600 shadow-sm'
                     : 'bg-white text-slate-700 border-stone-200 hover:bg-stone-50'
                 }">
           ${v.reference.split(' ')[0]}
@@ -1344,10 +1350,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const tokensHtml = activeVerse.tokens.map((tok, idx) => {
       const isSelected = idx === state.selectedTokenIndex;
       return `
-        <button onclick="selectToken(${idx})" 
+        <button onclick="selectToken(${idx})"
                 class="px-3 py-1.5 rounded-lg text-xs sm:text-sm font-semibold transition border ${
-                  isSelected 
-                    ? 'bg-emerald-700 text-white border-emerald-600 ring-2 ring-emerald-200 shadow-sm' 
+                  isSelected
+                    ? 'bg-emerald-700 text-white border-emerald-600 ring-2 ring-emerald-200 shadow-sm'
                     : 'bg-stone-100 text-slate-800 border-stone-200 hover:bg-stone-200'
                 }">
           ${tok.word}
@@ -1359,7 +1365,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="bg-white p-5 sm:p-6 rounded-xl border border-stone-200 shadow-sm mb-4">
         <div class="flex items-center justify-between mb-2">
           <span class="text-xs font-bold px-2.5 py-0.5 rounded bg-stone-100 text-slate-700">${activeVerse.reference}</span>
-          <button onclick="window.audioEngine.speakTurkish(\`${activeVerse.turkish.replace(/'/g, "\\'")}\`)" 
+          <button onclick="window.audioEngine.speakTurkish(\`${activeVerse.turkish.replace(/'/g, "\\'")}\`)"
                   class="px-3 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-semibold flex items-center gap-1.5 shadow-sm transition">
             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
             성경 구절 전체 듣기
@@ -1387,7 +1393,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="flex items-center justify-between mb-2">
             <div class="flex items-baseline gap-2">
               <span class="text-base sm:text-lg font-bold text-emerald-800">${selectedToken.word}</span>
-              <button onclick="window.audioEngine.speakTurkish('${selectedToken.word}')" class="text-slate-400 hover:text-emerald-700" title="발음 듣기">
+              <button data-speech="${escapeHTML(selectedToken.word)}" class="text-slate-400 hover:text-emerald-700" title="발음 듣기">
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
               </button>
             </div>
@@ -1497,10 +1503,10 @@ document.addEventListener('DOMContentLoaded', () => {
       const stateObj = state.unluAnswers[q.id] || { value: '', isCorrect: null };
       return `
         <div class="p-4 rounded-xl bg-white border ${
-          stateObj.isCorrect === true 
-            ? 'border-emerald-400 bg-emerald-50/40' 
-            : stateObj.isCorrect === false 
-            ? 'border-rose-300 bg-rose-50/40' 
+          stateObj.isCorrect === true
+            ? 'border-emerald-400 bg-emerald-50/40'
+            : stateObj.isCorrect === false
+            ? 'border-rose-300 bg-rose-50/40'
             : 'border-stone-200'
         } shadow-sm flex flex-col justify-between">
           <div>
@@ -1508,7 +1514,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <span class="text-xs font-semibold text-slate-500">문항 0${q.id}</span>
               <span class="text-xs text-slate-500">${q.korean}</span>
             </div>
-            
+
             <div class="flex items-center gap-2 text-base font-bold text-slate-900 mb-3">
               <span class="text-emerald-800">${q.baseWord}</span>
               <span class="text-slate-400">${q.suffix}</span>
@@ -1519,9 +1525,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
           <div>
             <div class="flex items-center gap-1.5 mb-2">
-              <input type="text" 
-                     id="unlu-input-${q.id}" 
-                     placeholder="정답 입력..." 
+              <input type="text"
+                     id="unlu-input-${q.id}"
+                     placeholder="정답 입력..."
                      value="${stateObj.value}"
                      class="flex-1 bg-stone-50 border border-stone-200 focus:border-emerald-600 rounded-lg px-3 py-1.5 text-xs text-slate-900 outline-none">
               <button onclick="checkUnluAnswer(${q.id})" class="px-3 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold transition shadow-sm">
@@ -1548,7 +1554,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!q) return;
 
     const isCorrect = val === q.correctAnswer.toLowerCase();
-    state.unluAnswers[qId] = { value: val, isCorrect };
+    state.unluAnswers[qId] = { value: val, isCorrect }; course.entry('ch4-2').practised=true; course.save();
 
     if (isCorrect) {
       window.audioEngine.playCorrectSound();
@@ -1559,24 +1565,6 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   // Turkish Special Character Bar clicks
-  document.querySelectorAll('[data-insert-char]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const char = btn.getAttribute('data-insert-char');
-      const activeEl = document.activeElement;
-      if (activeEl && (activeEl.tagName === 'INPUT' || activeEl.tagName === 'TEXTAREA')) {
-        const start = activeEl.selectionStart || 0;
-        const end = activeEl.selectionEnd || 0;
-        const text = activeEl.value;
-        activeEl.value = text.substring(0, start) + char + text.substring(end);
-        activeEl.selectionStart = activeEl.selectionEnd = start + char.length;
-        activeEl.focus();
-      } else {
-        showToast(`'${char}' 문자가 클립보드에 복사되었습니다!`, 'info');
-        navigator.clipboard.writeText(char);
-      }
-    });
-  });
-
   // -----------------------------------------------------------
   // TAB 5: 6단계 기도문 빌더 (Prayer Workshop)
   // -----------------------------------------------------------
@@ -1642,10 +1630,10 @@ document.addEventListener('DOMContentLoaded', () => {
             ${st.options.map(opt => {
               const isSelected = state.assembledPrayer[sIdx] === opt.tr;
               return `
-                <button onclick="setPrayerFormulaStep(${sIdx}, '${opt.tr.replace(/'/g, "\\'")}')" 
+                <button onclick="setPrayerFormulaStep(${sIdx}, '${opt.tr.replace(/'/g, "\\'")}')"
                         class="p-2.5 rounded-lg text-left text-xs transition border flex items-center justify-between gap-2 ${
-                          isSelected 
-                            ? 'bg-emerald-50 text-emerald-950 border-emerald-400 font-semibold shadow-sm' 
+                          isSelected
+                            ? 'bg-emerald-50 text-emerald-950 border-emerald-400 font-semibold shadow-sm'
                             : 'bg-stone-50 text-slate-700 border-stone-200 hover:bg-stone-100'
                         }">
                   <div class="flex-1">
@@ -1684,7 +1672,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!container) return;
 
     container.innerHTML = APP_DATA.prayer.presets.map((preset, idx) => `
-      <button onclick="loadPrayerPreset(${idx})" 
+      <button onclick="loadPrayerPreset(${idx})"
               class="p-3 rounded-xl bg-white border border-stone-200 hover:border-emerald-500 hover:bg-emerald-50/30 text-left transition flex flex-col gap-1 shadow-sm">
         <span class="text-xs font-bold text-emerald-800">${preset.title}</span>
         <span class="text-[11px] text-slate-500 line-clamp-1">${preset.desc}</span>
@@ -1736,7 +1724,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const trTextarea = document.getElementById('assembled-tr-textarea');
         if (!trTextarea || !trTextarea.value.trim()) return;
 
-        const title = prompt("저장할 기도문의 제목을 입력하세요:", "나의 터키어 중보 기도");
+        const title = prompt(course.t('Enter a title for this prayer:', '기도문 제목을 입력하세요:'), course.t('My Turkish prayer','나의 터키어 기도'));
         if (!title) return;
 
         const newPrayer = {
@@ -1758,7 +1746,8 @@ document.addEventListener('DOMContentLoaded', () => {
     try {
       const raw = localStorage.getItem('spiritual_turkish_prayers');
       if (raw) {
-        state.savedPrayers = JSON.parse(raw);
+        const parsed = JSON.parse(raw);
+        state.savedPrayers = Array.isArray(parsed) ? parsed.filter(p => p && typeof p.id === 'string' && typeof p.title === 'string' && typeof p.content === 'string') : [];
       }
     } catch (e) {
       console.warn("Storage load error:", e);
@@ -1787,8 +1776,8 @@ document.addEventListener('DOMContentLoaded', () => {
     container.innerHTML = state.savedPrayers.map(p => `
       <div class="p-2.5 rounded-lg bg-stone-50 border border-stone-200 flex items-center justify-between gap-2">
         <div class="flex-1 min-w-0">
-          <h5 class="text-xs font-bold text-slate-800 truncate">${p.title}</h5>
-          <p class="text-[10px] text-slate-400">${p.createdAt}</p>
+          <h5 data-user-content class="text-xs font-bold text-slate-800 truncate">${escapeHTML(p.title)}</h5>
+          <p data-user-content class="text-[10px] text-slate-400">${escapeHTML(p.createdAt)}</p>
         </div>
         <div class="flex items-center gap-1.5 shrink-0">
           <button onclick="loadSavedPrayerById('${p.id}')" class="px-2 py-0.5 rounded bg-white hover:bg-emerald-50 text-emerald-800 border border-stone-200 text-xs font-semibold shadow-sm">
@@ -1856,7 +1845,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // -----------------------------------------------------------
-  // TAB 6: 종교 용어 표기 규칙 (Dini Yazım Kuralları - MEB 2023)
+  // TAB 6: 종교 용어 표기 규칙 (Dini Yazım Kuralları - TDK)
   // -----------------------------------------------------------
   function initOrthographyLab() {
     renderOrthographyRules(state.orthoCategory);
@@ -1895,11 +1884,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const filtered = APP_DATA.orthography.rules.filter(rule => {
       if (category === 'all') return true;
-      if (category === '대소문자') return rule.category === '대소문자';
-      if (category === '아포스트로피') return rule.category === '아포스트로피';
-      if (category === '철자법') return rule.category === '철자법';
-      if (category === '합성어·기관') return ['띄어쓰기', '기관명', '축제·절기'].includes(rule.category);
-      if (category === '지명·주소') return ['날짜 표기', '지명 표기', '주소 표기'].includes(rule.category);
+      const categoryName=rule.category; const enToKo={Capitalization:'대소문자',Apostrophes:'아포스트로피',Spelling:'철자법','Word spacing':'띄어쓰기',Institutions:'기관명',Festivals:'축제·절기',Dates:'날짜 표기',Places:'지명 표기',Addresses:'주소 표기'};
+      const normalized=enToKo[categoryName] || categoryName;
+      if (category === '대소문자') return normalized === '대소문자';
+      if (category === '아포스트로피') return normalized === '아포스트로피';
+      if (category === '철자법') return normalized === '철자법';
+      if (category === '합성어·기관') return ['띄어쓰기', '기관명', '축제·절기'].includes(normalized);
+      if (category === '지명·주소') return ['날짜 표기', '지명 표기', '주소 표기'].includes(normalized);
       return true;
     });
 
@@ -1912,7 +1903,7 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
           <h4 class="text-base font-bold text-slate-900 mb-0.5">${rule.title}</h4>
           <p class="text-xs text-slate-400 italic mb-2.5 font-mono">${rule.turkishTitle}</p>
-          
+
           <p class="text-xs text-slate-600 mb-3 bg-stone-50 p-2.5 rounded-lg border border-stone-200/80 leading-relaxed">
             ${rule.summary}
           </p>
@@ -1941,7 +1932,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         <div class="pt-3 border-t border-stone-100 flex items-center justify-between gap-2">
           <span class="text-[11px] text-emerald-800 font-medium line-clamp-1 italic">${rule.biblicalRef}</span>
-          <button onclick="window.audioEngine.speakTurkish('${rule.correct.split(',')[0].replace(/\[o\]/g, '').replace(/'/g, "\\'")}')" 
+          <button data-speech="${escapeHTML(rule.correct.split(',')[0].replace(/\[o\]/g, '').replace(/'/g, "\\'"))}"
                   class="p-1.5 rounded-lg bg-stone-100 hover:bg-emerald-50 text-slate-600 hover:text-emerald-700 border border-stone-200 text-xs shrink-0 transition" title="발음 듣기">
             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
           </button>
@@ -1968,7 +1959,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="text-xs text-slate-500 italic">예시: ${item.example}</div>
         </div>
         <div class="mt-3 pt-2 border-t border-stone-100 flex justify-end">
-          <button onclick="window.audioEngine.speakTurkish('${item.format.split(' ')[0]}')" class="text-xs px-2.5 py-1 rounded bg-stone-100 hover:bg-stone-200 text-slate-700 border border-stone-200 flex items-center gap-1 transition">
+          <button data-speech="${escapeHTML(item.format.split(' ')[0])}" class="text-xs px-2.5 py-1 rounded bg-stone-100 hover:bg-stone-200 text-slate-700 border border-stone-200 flex items-center gap-1 transition">
             <span>🔊</span> 발음 듣기
           </button>
         </div>
@@ -1999,17 +1990,17 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
 
             <div class="flex items-center gap-2.5 my-3">
-              <button onclick="handleOrthoQuizClick(${q.id}, 'O')" 
+              <button onclick="handleOrthoQuizClick(${q.id}, 'O')"
                       class="flex-1 py-2 px-3 rounded-lg font-bold text-xs transition-all flex items-center justify-center gap-1.5 ${
-                        userAnswer === 'O' 
+                        userAnswer === 'O'
                           ? (q.answer === 'O' ? 'bg-emerald-700 text-white ring-2 ring-emerald-300' : 'bg-rose-600 text-white')
                           : 'bg-stone-100 text-slate-800 hover:bg-stone-200'
                       }">
                 <span>⭕</span> 그렇다 (O)
               </button>
-              <button onclick="handleOrthoQuizClick(${q.id}, 'X')" 
+              <button onclick="handleOrthoQuizClick(${q.id}, 'X')"
                       class="flex-1 py-2 px-3 rounded-lg font-bold text-xs transition-all flex items-center justify-center gap-1.5 ${
-                        userAnswer === 'X' 
+                        userAnswer === 'X'
                           ? (q.answer === 'X' ? 'bg-emerald-700 text-white ring-2 ring-emerald-300' : 'bg-rose-600 text-white')
                           : 'bg-stone-100 text-slate-800 hover:bg-stone-200'
                       }">
@@ -2093,10 +2084,10 @@ document.addEventListener('DOMContentLoaded', () => {
       const isComplete = foundCount >= totalErrors;
 
       return `
-        <button onclick="switchProofreadingSentence(${idx})" 
+        <button onclick="switchProofreadingSentence(${idx})"
                 class="px-3.5 py-1.5 rounded-lg text-xs font-bold transition flex items-center gap-1.5 border ${
-                  isActive 
-                    ? 'bg-emerald-700 text-white border-emerald-600 shadow-sm' 
+                  isActive
+                    ? 'bg-emerald-700 text-white border-emerald-600 shadow-sm'
                     : 'bg-stone-100 text-slate-700 border-stone-200 hover:bg-stone-200'
                 }">
           <span>문장 0${s.id}</span>
@@ -2163,7 +2154,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
       } else {
         return `
-          <button onclick="handleProofreadingTokenClick(${state.activeProofreadingSentenceIdx}, ${tokIdx})" 
+          <button onclick="handleProofreadingTokenClick(${state.activeProofreadingSentenceIdx}, ${tokIdx})"
                   class="px-3 py-1.5 rounded-lg bg-white hover:bg-stone-100 text-slate-800 text-sm font-medium border border-stone-200 transition hover:border-emerald-600 hover:scale-105 active:scale-95 shadow-sm">
             ${tok.word}
           </button>
@@ -2185,7 +2176,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <span class="text-xs font-bold text-emerald-900 block">발견 및 교정된 맞춤법 규정:</span>
             ${discoveredTokens.map(t => `
               <div class="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200 text-xs text-emerald-950 flex items-start gap-2 animate-fadeIn">
-                <span class="text-emerald-800 font-bold shrink-0">✓ [교정: ${t.word} ➔ ${t.correct}]</span>
+                <span class="text-emerald-800 font-bold shrink-0">✓ [${course.t('Correction','교정')}: ${t.word} ➔ ${t.correct}]</span>
                 <span class="text-slate-700">${t.rule}</span>
               </div>
             `).join('')}
@@ -2212,7 +2203,7 @@ document.addEventListener('DOMContentLoaded', () => {
         state.proofreadingFoundErrors[sentenceIdx][tokIdx] = true;
         state.proofreadingScore += 25;
         window.audioEngine.playCorrectSound();
-        showToast(`오탈자 발견! '${tok.word}' ➔ '${tok.correct}' (+25점)`, "success");
+        showToast(course.t(`Error found! '${tok.word}' ➔ '${tok.correct}' (+25 practice points)`, `오탈자 발견! '${tok.word}' ➔ '${tok.correct}' (+25점)`), "success");
         renderProofreadingTabs();
         renderProofreadingBoard();
 
@@ -2227,11 +2218,23 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     } else {
       window.audioEngine.playWrongSound();
-      showToast(`'${tok.word}'(은)는 MEB 2023 규정상 올바른 표기입니다. 다른 단어를 찾아보세요.`, "info");
+      showToast(`'${tok.word}'(은)는 TDK 규정상 올바른 표기입니다. 다른 단어를 찾아보세요.`, "info");
     }
   };
 
   // -----------------------------------------------------------
+  window.refreshTeachingContent = () => {
+    renderOXQuiz(); renderSyllables(); renderSapkaComparator(); renderCurrentScenario();
+    renderWorldviewConcepts(); renderAhiretTimeline(); renderScriptureSyntaxViewer();
+    renderFlipCards(); renderUnluQuiz(); renderPrayerFormulaSteps(); renderAssembledPrayerPreview();
+    initPrayerPresets(); renderSavedPrayersList();
+    document.querySelectorAll('#speech-words-container [data-word]').forEach(chip=>{const found=APP_DATA.pronunciation.speechPracticeWords.find(w=>w.turkish===chip.dataset.word);if(found)chip.querySelector('span').textContent=`(${found.korean})`;});
+    const target=APP_DATA.pronunciation.speechPracticeWords.find(w=>w.turkish===state.activeSpeechTarget);if(target)document.getElementById('target-korean-display').textContent=target.korean;
+    renderSituationalPrayers(); renderScenarioSelector(); renderOrthographyRules(state.orthoCategory); renderOrthographyAppendix(); renderOrthographyQuiz(); renderProofreadingTabs(); renderProofreadingBoard();
+  };
+
+  document.addEventListener('click', e => {const b=e.target.closest('[data-speech]');if(b)audioEngine.speakTurkish(b.dataset.speech);});
+
   // Initialize All Modules
   // -----------------------------------------------------------
   initPronunciationLab();

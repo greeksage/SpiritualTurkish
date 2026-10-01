@@ -1,0 +1,13 @@
+{
+  "name": "spiritual-turkish",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static bilingual Turkish learning for Christian ministry",
+  "scripts": {
+    "start": "node server.js",
+    "build:css": "tailwindcss -c tailwind.config.cjs -i tailwind-input.css -o tailwind.css --minify",
+    "test": "node --test tests/content.test.cjs",
+    "test:browser": "node tests/browser.cjs"
+  },
+  "devDependencies": {"playwright": "1.62.1", "tailwindcss": "3.4.17"}
+}
