@@ -141,7 +141,7 @@ window.EXPANDED_LESSONS = [
           "ko": "상대가 Cuma değil, cumartesi.라고 했습니다. 날짜를 다시 말하고 확인하세요."
         },
         "answer": {
-          "en": "`Cumartesi görüşeceğiz. Doğru mu anladım?` — We will meet on Saturday. Did I understand correctly? / 토요일에 만나는 거죠? 제가 맞게 이해했나요?",
+          "en": "`Cumartesi görüşeceğiz. Doğru mu anladım?` — We will meet on Saturday. Did I understand correctly?",
           "ko": "Cumartesi görüşeceğiz. Doğru mu anladım? 토요일에 만나는 거죠? 맞게 이해했나요?"
         },
         "choices": null,
@@ -967,7 +967,7 @@ window.EXPANDED_LESSONS = [
       {
         "id": "ministry-06-exercise-1",
         "prompt": {
-          "en": "`Adam ne yaptı?` — What did the man do? / 그 사람은 무엇을 했나요?",
+          "en": "`Adam ne yaptı?` — What did the man do?",
           "ko": "Adam ne yaptı? 그 사람은 무엇을 했나요?"
         },
         "answer": {
@@ -980,7 +980,7 @@ window.EXPANDED_LESSONS = [
       {
         "id": "ministry-06-exercise-2",
         "prompt": {
-          "en": "`“Kaybolan” hangi koyunu anlatıyor?` — Which sheep does “kaybolan” describe? / “Kaybolan”은 어떤 양을 가리키나요?",
+          "en": "`“Kaybolan” hangi koyunu anlatıyor?` — Which sheep does “kaybolan” describe?",
           "ko": "Kaybolan은 어떤 양을 설명하나요?"
         },
         "answer": {
@@ -1021,7 +1021,7 @@ window.EXPANDED_LESSONS = [
       }
     ],
     "transfer": {
-      "en": "retell the story in four sentences, then ask an open question: `Bu hikâyede sizi en çok ne etkiledi?` — What affected you most in this story? / 이 이야기에서 무엇이 가장 인상 깊었나요?",
+      "en": "retell the story in four sentences, then ask an open question: `Bu hikâyede sizi en çok ne etkiledi?` — What affected you most in this story?",
       "ko": "네 문장으로 이야기를 다시 말하고 Bu hikâyede sizi en çok ne etkiledi?라는 열린 질문을 하세요."
     },
     "reviewStatus": "Editorial draft; Turkish/Korean specialist review pending",
@@ -1179,7 +1179,7 @@ window.EXPANDED_LESSONS = [
           "ko": "영어 grace라는 단어 없이 lütuf를 설명하세요."
         },
         "answer": {
-          "en": "`Tanrı bize hak etmediğimiz iyiliği gösterir.` — God shows us kindness we do not deserve. / 하나님은 우리가 받을 자격이 없는 선하심을 베푸십니다.",
+          "en": "`Tanrı bize hak etmediğimiz iyiliği gösterir.` — God shows us kindness we do not deserve.",
           "ko": "Tanrı bize hak etmediğimiz iyiliği gösterir. 하나님은 우리가 받을 자격이 없는 선하심을 베푸십니다."
         },
         "choices": null,
@@ -1768,7 +1768,7 @@ window.EXPANDED_LESSONS = [
           "ko": "구체적인 시간으로 다음 만남을 정하세요."
         },
         "answer": {
-          "en": "`Perşembe saat altıda görüşebilir miyiz?` — Can we meet on Thursday at six? / 목요일 여섯 시에 만날 수 있을까요?",
+          "en": "`Perşembe saat altıda görüşebilir miyiz?` — Can we meet on Thursday at six?",
           "ko": "Perşembe saat altıda görüşebilir miyiz? 목요일 여섯 시에 만날 수 있나요?"
         },
         "choices": null,

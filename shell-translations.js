@@ -4,7 +4,7 @@ window.SHELL_TRANSLATIONS = {
   '터키어 완전 유성음(B/D/G) vs 한국어 무성음 발음 클리닉':['Voicing in Turkish: B, D and G','터키어 B, D, G의 성대 진동'],
   '는 어두에서도 성대가 처음부터 울리는':[' are','는'],
   '완전 유성음(Voiced Plosives)':['voiced stops','유성 파열음입니다'],
-  "입니다. 한국어 초성 'ㅂ, ㄷ, ㄱ'의 무성음 습관을 교정하고 합성 음성 소리를 귀로 분별하세요.":['. Korean stop realization varies with context; do not add extra vowels. Browser models are synthetic speech.','한국어 파열음은 문맥에 따라 달라집니다. 불필요한 모음을 추가하지 마세요. 브라우저 모델은 합성 음성입니다.'],
+  "입니다. 한국어 초성 'ㅂ, ㄷ, ㄱ'의 무성음 습관을 교정하고 합성 음성 소리를 귀로 분별하세요.":['. Practise lip and tongue placement, voicing and syllable rhythm without adding extra vowels. Browser models are synthetic speech.','한국어 파열음은 문맥에 따라 달라집니다. 불필요한 모음을 추가하지 마세요. 브라우저 모델은 합성 음성입니다.'],
   '발음 판별 5문항:':['Five sound-awareness questions:','발음 인식 5문항:'],'단어:':['Word:','단어:'],
   '음절(Hece) 분절 인터랙티브 리듬 카드':['Syllable rhythm cards','음절 리듬 카드'],
   '각 음절 블록을 탭하면 터키어 특유의 명확한 스타카토 음절 리듬을 청취할 수 있습니다. 외래 지명(Trab-zon)과 어근 결합 규칙을 훈련하세요.':['Play the syllables, then the full word. Separately synthesized syllables do not model natural connected speech; syllable boundaries are not suffix boundaries.','음절과 전체 단어를 들어 보세요. 각각 합성된 음절은 자연스러운 연결 발음의 모델이 아닙니다. 음절 경계와 접미사 경계는 다릅니다.'],

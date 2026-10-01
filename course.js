@@ -28,7 +28,7 @@
     if(document.getElementById('expanded-nav'))renderNav();
     const kicker=document.querySelector('#section-ch7 .course-kicker');
     const active=ALL_LESSONS.find(l=>l.id===current), source=active&&SEMINAR.sources.find(s=>s.id===active.track);
-    if(kicker&&active)kicker.textContent=(source?text(source.title):t('Practical ministry','실제 사역'))+' · '+status(entry(current));
+    if(kicker&&active&&!kicker.closest('.lesson-heading'))kicker.textContent=(source?text(source.title):t('Practical ministry','실제 사역'))+' · '+status(entry(current));
   }
   const rubric = [
     ['Understanding: I identified the actual question and clarified when needed.','이해: 실제 질문을 파악하고 필요할 때 확인했습니다.'],

@@ -122,3 +122,12 @@ Alongside the references checked above, [TDV âmentü](https://islamansiklopedis
 ### Release validation and limits
 
 See [VALIDATION.md](VALIDATION.md) for the final checks. Independent Turkish/Korean specialist review, reviewed human audio and actual microphone/installed-voice quality remain outstanding. No account service is implemented, and no merge/deployment is performed. The ten long prayer models are intentionally shortened adaptations rather than full transcripts; full Bible passages beyond the verified inline verses require the external edition.
+
+
+## Lesson-first classroom: English pronunciation review
+
+The retained pronunciation quiz IDs 1–4 and targets Bal, Dede, Gemi and Samsun are unchanged. English questions, answers, reasons and tips now teach bilabial voicing, two-syllable rhythm, the fronted voiced g before e, and avoidance of inserted vowels. Korean comparisons remain only in Korean teaching; answer sets are isolated by teaching language. The English variants make no exact equivalence claim to English sounds.
+
+Phonetic basis: [University of Texas Turkish plosives and fricatives](https://www.laits.utexas.edu/phonology/turkish/turk_plosive1.html), Scott Myers and Megan Crowhurst, documents b/p and d/t voicing contrasts and [g, ɟ] allophony. Written syllable divisions de-de and Sam-sun preserve the two vowels of each target. These are articulation instructions, not automated pronunciation judgments. No source-PDF teaching sections or expansion lesson IDs were removed by the classroom redesign.
+
+English-only review also removed redundant Korean glosses from six English fields in ministry-01, ministry-06, ministry-07 and ministry-10. Their Turkish examples, English translations, Korean alternatives and stable exercise IDs are preserved. Additional retained workshop playback labels, speed labels and wordless-book color captions now translate into English. Personal prayers, notes and drafts are excluded from these translations.

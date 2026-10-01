@@ -22,8 +22,8 @@ test('corrected claims, coherent prayers, and legitimate refusal/uncertainty pat
  }
  assert.equal(lessons[5].quotationStatus,'simplified-paraphrase');
 });
-test('English workshop data contains no untranslated Korean teaching (optional sound comparisons allowed)',()=>{
- function scan(x,p=[]){if(typeof x==='string'&&/[가-힣]/.test(x))assert(p[0]==='pronunciation'&&p[1]==='oxQuiz'&&p.at(-1)==='question',p.join('.'));else if(x&&typeof x==='object')for(const [k,v]of Object.entries(x))scan(v,[...p,k]);}scan(context.LEGACY_EN);
+test('English workshop data contains no Korean teaching text',()=>{
+ function scan(x,p=[]){if(typeof x==='string'&&/[가-힣]/.test(x))assert.fail(p.join('.'));else if(x&&typeof x==='object')for(const [k,v]of Object.entries(x))scan(v,[...p,k]);}scan(context.LEGACY_EN);
 });
 test('every local page asset exists and JavaScript parses',()=>{
  const html=fs.readFileSync(path.join(root,'index.html'),'utf8');for(const m of html.matchAll(/(?:src|href)="([^"#]+)"/g)){if(/^(https?:|data:)/.test(m[1]))continue;assert(fs.existsSync(path.join(root,m[1])),m[1]);}

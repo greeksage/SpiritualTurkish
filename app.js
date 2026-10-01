@@ -428,7 +428,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // 1. OX Quiz
+  const oxByLanguage={en:{},ko:{}};
   function renderOXQuiz() {
+    state.oxAnswers=oxByLanguage[course.language];
     const container = document.getElementById('ox-quiz-container');
     if (!container) return;
 
@@ -443,15 +445,15 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="flex items-start justify-between gap-4 mb-2">
               <div class="flex-1">
                 <div class="flex items-center gap-2 mb-1">
-                  <span class="px-2 py-0.5 text-xs font-semibold rounded bg-stone-100 text-slate-700">문항 0${idx + 1}</span>
+                  <span class="px-2 py-0.5 text-xs font-semibold rounded bg-stone-100 text-slate-700">${course.t('Question','문항')} 0${idx + 1}</span>
                   <span class="text-xs text-slate-400 font-mono">${item.ipa}</span>
                 </div>
                 <h4 class="text-sm sm:text-base font-bold text-slate-900 leading-snug mb-1">${item.question}</h4>
-                <p class="text-xs text-slate-500">단어: <span class="text-emerald-800 font-semibold">${item.word}</span> (${item.translation})</p>
+                <p class="text-xs text-slate-500">${course.t('Word','단어')}: <span class="text-emerald-800 font-semibold">${item.word}</span> (${item.translation})</p>
               </div>
 
               <button data-speech="${escapeHTML(item.word)}"
-                      title="터키어 합성 음성 발음 듣기"
+                      title="${course.t('Play synthetic Turkish speech','터키어 합성 음성 발음 듣기')}"
                       class="p-2 rounded-lg bg-stone-100 hover:bg-emerald-50 text-slate-600 hover:text-emerald-700 border border-stone-200 transition flex items-center justify-center shrink-0">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
               </button>
@@ -465,7 +467,7 @@ document.addEventListener('DOMContentLoaded', () => {
                           ? (item.answer === 'O' ? 'bg-emerald-700 text-white ring-2 ring-emerald-300' : 'bg-rose-600 text-white')
                           : 'bg-stone-100 text-slate-700 hover:bg-stone-200'
                       }">
-                <span>⭕</span> 그렇다 (O)
+                <span>⭕</span> ${course.t('True (O)','그렇다 (O)')}
               </button>
               <button onclick="handleOXClick(${item.id}, 'X')"
                       class="flex-1 py-2 px-3 rounded-lg font-bold text-xs transition-all flex items-center justify-center gap-1.5 ${
@@ -473,7 +475,7 @@ document.addEventListener('DOMContentLoaded', () => {
                           ? (item.answer === 'X' ? 'bg-emerald-700 text-white ring-2 ring-emerald-300' : 'bg-rose-600 text-white')
                           : 'bg-stone-100 text-slate-700 hover:bg-stone-200'
                       }">
-                <span>❌</span> 아니다 (X)
+                <span>❌</span> ${course.t('False (X)','아니다 (X)')}
               </button>
             </div>
           </div>
@@ -483,7 +485,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="pt-3 border-t border-stone-100 transition-all duration-300">
               <div class="flex items-center gap-2 mb-1.5">
                 <span class="text-xs font-bold px-2 py-0.5 rounded ${isCorrect ? 'bg-emerald-50 text-emerald-900 border border-emerald-200' : 'bg-rose-50 text-rose-900 border border-rose-200'}">
-                  ${isCorrect ? '정답입니다! ✓' : `오답입니다 (정답: ${item.answer}) ✕`}
+                  ${isCorrect ? course.t('Correct! ✓','정답입니다! ✓') : course.t(`Try again (answer: ${item.answer}) ✕`,`오답입니다 (정답: ${item.answer}) ✕`)}
                 </span>
               </div>
               <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-2">${item.reason}</p>
@@ -504,7 +506,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     const scoreBadge = document.getElementById('ox-score-badge');
     if (scoreBadge) {
-      scoreBadge.innerText = `${correctCount} / ${APP_DATA.pronunciation.oxQuiz.length} 정답`;
+      scoreBadge.innerText = `${correctCount} / ${APP_DATA.pronunciation.oxQuiz.length} ${course.t('correct','정답')}`;
     }
   }
 

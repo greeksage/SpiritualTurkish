@@ -4,6 +4,7 @@
   'use strict';
   const keys=['spiritual_turkish_language','spiritual_turkish_learning_v2','spiritual_turkish_prayers','spiritual_turkish_notebook','spiritual_turkish_progress','spiritual_turkish_device_v3'];
   const plain=x=>!!x&&typeof x==='object'&&!Array.isArray(x);
+  const validResume=r=>plain(r)&&window.ALL_LESSONS?.some(l=>l.id===r.id)&&['read','understand','practise','use'].includes(r.section);
   const safe=x=>JSON.parse(JSON.stringify(x),(k,v)=>['__proto__','constructor','prototype'].includes(k)?undefined:v);
   class LearningStore {
     constructor(storage){this.storage=storage;this.memory=new Map();this.listeners=new Set();this.available=true;}
@@ -26,6 +27,10 @@
         if(/prayers|notebook/.test(key)&&(!Array.isArray(value)||value.some(v=>!plain(v))))throw new Error('list');
         if(key.endsWith('prayers')&&value.some(p=>typeof p.id!=='string'||typeof p.title!=='string'||typeof p.content!=='string'))throw new Error('prayer');
         if(key.endsWith('device_v3')&&(!plain(value)||value.version!==3||!plain(value.words)||!plain(value.notes)||Object.values(value.notes).some(n=>typeof n!=='string')||Object.values(value.words).some(w=>!plain(w)||!Number.isFinite(w.due)||!Number.isFinite(w.savedAt)||!Number.isInteger(w.step)||w.step<0||w.step>4||w.context!==undefined&&(!plain(w.context)||typeof w.context.tr!=='string'))))throw new Error('device');
+        if(key.endsWith('device_v3')){
+          if(value.studyLast!=null&&!validResume(value.studyLast))throw new Error('study-resume');
+          if(value.courseResume!==undefined&&(!plain(value.courseResume)||Object.entries(value.courseResume).some(([id,r])=>!validResume(r)||window.ALL_LESSONS.find(l=>l.id===r.id).track!==id)))throw new Error('course-resume');
+        }
         incoming[key]=value;
       }
       // Validate every value before mutating anything. Merge into existing data,
@@ -40,7 +45,7 @@
         }else if(/prayers|notebook/.test(key)){
           const existing=Array.isArray(old)?old:[],identity=x=>x?.id||JSON.stringify(x);
           const seen=new Set(existing.map(identity));this.set(key,[...existing,...value.filter(x=>{const id=identity(x);if(seen.has(id))return false;seen.add(id);return true;})]);
-        }else if(key.endsWith('device_v3'))this.set(key,{...value,...(plain(old)?old:{}),version:3,words:{...value.words,...(old?.words||{})},notes:{...value.notes,...(old?.notes||{})}});
+        }else if(key.endsWith('device_v3'))this.set(key,{...value,...(plain(old)?old:{}),version:3,studyLast:validResume(old?.studyLast)?old.studyLast:validResume(value.studyLast)?value.studyLast:null,courseResume:{...(value.courseResume||{}),...(old?.courseResume||{})},words:{...value.words,...(old?.words||{})},notes:{...value.notes,...(old?.notes||{})}});
         else if(old===null)this.set(key,value);
       }
     }
@@ -49,6 +54,10 @@
   const store=new LearningStore(storage);window.LearningStore=LearningStore;window.learningStore=store;
   const loaded=store.get('spiritual_turkish_device_v3');
   const device=loaded?.version===3&&plain(loaded.words)&&plain(loaded.notes)?loaded:{version:3,words:{},notes:{},last:null};
+  if(!validResume(device.studyLast))device.studyLast=validResume(device.last)?{...device.last}:null;
+  if(!plain(device.courseResume))device.courseResume={};
+  for(const [id,r] of Object.entries(device.courseResume))if(!validResume(r)||window.ALL_LESSONS.find(l=>l.id===r.id).track!==id)delete device.courseResume[id];
+  if(device.studyLast&&!device.courseResume[window.ALL_LESSONS.find(l=>l.id===device.studyLast.id).track])device.courseResume[window.ALL_LESSONS.find(l=>l.id===device.studyLast.id).track]={...device.studyLast};
   const save=()=>store.set('spiritual_turkish_device_v3',device);
   // Old notebook entries remain intact under their original key. Import a copy
   // once, including unrecognised personal notes, without inventing analyses.

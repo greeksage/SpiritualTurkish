@@ -21,15 +21,17 @@ The ten practical lessons cover clarification, hospitality, permission to pray, 
 
 ## Study flow
 
-- **Home:** continue the last activity, review due words and find the next lesson.
-- **Learn:** browse the five source courses and practical conversation track.
+- **Study:** open Finding and reading a Bible reference immediately, or resume the last curriculum lesson and section. The course outline is the main navigation.
+- **Courses:** choose among six courses grouped into manageable chapters; resume is saved separately for each course.
+
+The secondary Resources menu contains:
 - **Words:** search in Turkish, English or Korean; inspect meaning, dictionary headword, authored form/suffix analysis, literal gloss, natural meaning and source context; save words for recall.
 - **Bible:** curated passages, context notes, selectable vocabulary, study tasks and linked lessons. Matthew 6:33 and John 13:34–35 are verified inline quotations from **Kutsal Kitap (2001, 2008)**. Other assignments open the named edition externally. English/Korean renderings are original teaching translations. The lost sheep lesson is a simplified paraphrase, not a published quotation.
 - **Practice:** pronunciation/listening, seven conversation simulators, culture, Bible grammar, prayer assembly and spelling/proofreading. Prayer assembly keeps six stages and the original Father/I library, with additional compatible Father/we, Jesus/I and Jesus/we models.
 
-Lessons use **Read → Understand → Practise → Use**. Each has objectives, prerequisites, Turkish text with translations, bilingual meaning/grammar/register teaching, vocabulary, reusable patterns, explained guided practice and an independent task with a model and five-category rubric. Answer options rotate deterministically while retaining stable choice identities. Open writing/speaking uses model comparison and self-assessment, not exact-string grading.
+Lessons are continuous teaching pages with four visible sections: **Read and listen → Understand → Practise → Use it yourself**. Sticky section links scroll without replacing forms or losing answers. Completion checking is separate from next/previous lesson navigation. Each has objectives, prerequisites, Turkish text with translations, bilingual meaning/grammar/register teaching, vocabulary, reusable patterns, explained guided practice and an independent task with a model and five-category rubric. Answer options rotate deterministically while retaining stable choice identities. Open writing/speaking uses model comparison and self-assessment, not exact-string grading.
 
-Hash routes work with GitHub Pages, browser Back and direct links, for example `#/lesson/ministry-04/understand`. Last lesson sections and drafts survive reload. Phones use five labelled bottom destinations and a native lesson-outline dialog; desktop uses a forest-green sidebar and word-inspector panel. The reference-based palette combines dark green navigation, light apricot accents, a gray-green canvas and cool gray borders. Merriweather and Noto Serif KR remain the locally bundled reading fonts.
+Hash routes work with GitHub Pages, browser Back and direct links, for example `#/lesson/ministry-04/understand`. The root, `#/home` and `#/learn` replace their history entry with the resumed curriculum lesson or `foundation-references`. Existing section links open the continuous page at their anchor. `#/courses` opens the course picker. Last sections, per-course resume and drafts survive reload; workshop visits do not replace the study destination. Supporting tools provide Return to lesson. Phones use Contents and Next section/Next lesson controls with a native course-contents drawer; desktop uses a forest-green chapter sidebar and word-inspector panel. Tablets use the drawer to give workshops adequate reading space. The reference-based palette combines dark green navigation, light apricot accents, a gray-green canvas and cool gray borders. Merriweather and Noto Serif KR remain the locally bundled reading fonts.
 
 ## Progress, device backups and future accounts
 
@@ -48,13 +50,13 @@ Settings provide JSON **export/import** for device backups. Import validates bef
 | `spiritual_turkish_prayers` | Existing saved personal prayers, preserved |
 | `spiritual_turkish_notebook` | Original local notebook, retained and copied conservatively into Words |
 | `spiritual_turkish_progress` | Older click-era records, migrated to visits only |
-| `spiritual_turkish_device_v3` | Saved-word contexts/schedules, reading notes, prayer draft, audio preferences and last section |
+| `spiritual_turkish_device_v3` | Saved-word contexts/schedules, reading notes, prayer draft, audio preferences, separate curriculum/workshop history and per-course resume |
 
 Unavailable local storage falls back to session memory and displays its limitation. Clearing browser storage still removes device data; use the backup controls before moving devices.
 
 ## Audio and typography
 
-Playback uses **browser Turkish synthetic speech**, with play/stop/speed controls and a global stop action. A Turkish voice must be installed/available; absent voices/APIs produce readable feedback. There are no human/native recordings or automated pronunciation assessments. Optional recognition compares recognised text, handles empty results, and depends on browser/microphone support. Sound effects and default speech speed are configurable.
+Playback uses **browser Turkish synthetic speech**, with play/stop/speed controls and a global stop action. A Turkish voice must be installed/available; absent voices/APIs produce readable feedback. English pronunciation questions teach Turkish articulation, voicing and syllables without assuming Korean knowledge; English and Korean answers are kept separately. There are no human/native recordings or automated pronunciation assessments. Optional recognition compares recognised text, handles empty results, and depends on browser/microphone support. Sound effects and default speech speed are configurable.
 
 Merriweather, Noto Serif KR and icons are served locally with bundled licenses. The Korean font contains all 11,172 modern Hangul syllables plus Jamo; Turkish diacritics are present. [Font provenance](vendor/README.md).
 
@@ -84,6 +86,6 @@ npm run test:browser
 
 기본 터키어를 아는 외국인 선교사를 위한 학습 사이트입니다. 영어가 기본이며 상단 **학습 언어**에서 한국어를 선택하면 메뉴·수업·설명·연습 피드백·조작이 한국어로 바뀝니다. 다섯 출처의 67개 수업과 열 실용 수업, 499개 어휘와 기존 24개 연습을 제공합니다. 32개 수업 계획은 로드맵입니다.
 
-읽기 → 이해 → 연습 → 사용으로 공부하며 단어를 문맥과 함께 저장·복습합니다. 성경의 검증한 세 절은 직접 인용하고 긴 본문은 표시한 판본으로 연결합니다. 열 확장 기도 모델은 편집·축약한 학습 적용이며 원본 녹취가 아닙니다.
+첫 방문에는 성경 장절 찾고 읽기 수업이 열리고, 다시 방문하면 마지막 과정 수업과 부분을 이어갑니다. 과정별 목차에서 모든 수업을 자유롭게 선택하며, 한 페이지의 읽고 듣기 → 이해 → 연습 → 직접 사용하기로 공부합니다. 단어·성경 읽기·연습 도구는 자료 메뉴에서 열고 수업으로 돌아올 수 있습니다. 단어를 단어를 문맥과 함께 저장·복습합니다. 성경의 검증한 세 절은 직접 인용하고 긴 본문은 표시한 판본으로 연결합니다. 열 확장 기도 모델은 편집·축약한 학습 적용이며 원본 녹취가 아닙니다.
 
 방문·연습·완료는 구별됩니다. 독립 과제와 자기 평가를 포함한 수행 보고이며 공인 숙달 인증이나 영적 점수가 아닙니다. 기록·개인 기도·메모는 기기에 저장되고 설정에서 백업할 수 있습니다. 계정 동기화는 향후 단계입니다. 음성은 합성 음성이며 원어민 녹음·발음 평가가 아닙니다. 터키어·한국어 전문가의 독립 검토는 아직 필요합니다.

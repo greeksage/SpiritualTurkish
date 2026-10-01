@@ -44,3 +44,24 @@ test('the Korean serif font and license are local, and browser code parses',()=>
  assert(fs.statSync(path.join(root,'vendor/NotoSerifKR.woff2')).size>100000);assert(fs.readFileSync(path.join(root,'vendor/NotoSerifKR-OFL.txt'),'utf8').includes('SIL OPEN FONT LICENSE'));
  for(const f of fs.readdirSync(root).filter(x=>x.endsWith('.js')))new vm.Script(fs.readFileSync(path.join(root,f),'utf8'),{filename:f});
 });
+
+vm.runInContext(fs.readFileSync(path.join(root,'study-catalog.js'),'utf8'),c);
+test('declared chapters contain all 77 lessons exactly once and preserve curriculum order',()=>{
+ const catalog=c.studyCatalog, ordered=catalog.courses.flatMap(x=>Array.from(x.lessons));
+ assert.equal(catalog.courses.length,6);assert.equal(ordered.length,77);assert.equal(new Set(ordered).size,77);
+ assert.deepEqual([...ordered].sort(),Array.from(c.ALL_LESSONS,l=>l.id).sort());
+ for(const course of catalog.courses){assert.deepEqual(Array.from(course.lessons),Array.from(c.ALL_LESSONS.filter(l=>l.track===course.id),l=>l.id));for(const id of course.lessons){assert(catalog.chapterFor(id));assert.equal(catalog.forLesson(id).id,course.id);}}
+ assert.equal(catalog.neighbour('foundation-references',1),'foundation-books');assert.equal(catalog.neighbour('ministry-10',1),null);
+});
+test('resume migration ignores workshops and old backups accept defaults atomically',()=>{
+ const load=last=>{const ctx={...c},map=new Map([['spiritual_turkish_device_v3',JSON.stringify({version:3,words:{},notes:{draft:'unchanged'},last})]]);ctx.window=ctx;ctx.localStorage={getItem:k=>map.get(k)||null,setItem:(k,v)=>map.set(k,v)};vm.createContext(ctx);vm.runInContext(fs.readFileSync(path.join(root,'learning-store.js'),'utf8'),ctx);return ctx;};
+ assert.equal(load({id:'ch1-1',section:'read'}).deviceLearning.state.studyLast,null);
+ const ctx=load({id:'prayer-illness',section:'use'});assert.equal(ctx.deviceLearning.state.courseResume.prayer.id,'prayer-illness');
+ const store=ctx.learningStore,backup={format:'spiritual-turkish-device-backup',version:1,values:{spiritual_turkish_device_v3:JSON.stringify({version:3,words:{},notes:{old:'preserved'}})}};
+ store.import(backup);assert.equal(store.get('spiritual_turkish_device_v3').studyLast.id,'prayer-illness');assert.equal(store.get('spiritual_turkish_device_v3').notes.draft,'unchanged');
+ const before=JSON.stringify(store.export().values);backup.values.spiritual_turkish_device_v3=JSON.stringify({version:3,words:{},notes:{},courseResume:{foundation:{id:'prayer-illness',section:'read'}}});assert.throws(()=>store.import(backup));assert.equal(JSON.stringify(store.export().values),before);
+});
+
+test('English-authored curriculum and source labels require no Korean knowledge',()=>{
+ const scan=x=>{if(!x||typeof x!=='object')return;for(const [key,value]of Object.entries(x)){if(key==='en'&&typeof value==='string')assert(!/[가-힣]/.test(value),value);else if(value&&typeof value==='object')scan(value);}};scan(c.ALL_LESSONS);scan(c.SEMINAR.sources);scan(c.SEMINAR.words);scan(c.SEMINAR.passages);
+});

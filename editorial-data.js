@@ -5,43 +5,43 @@ window.LEGACY_EN = {
     "oxQuiz": [
       {
         "id": 1,
-        "question": "Is Turkish bal exactly the same sound as Korean 발?",
-        "answer": "X",
+        "question": "Does bal begin with a voiced consonant made by closing both lips?",
+        "answer": "O",
         "word": "Bal",
         "translation": "honey",
         "ipa": "[bɑl]",
-        "reason": "Turkish b is voiced. Korean stop realization depends on position and context; the sounds are not identical.",
-        "tip": "Feel voicing as the lips release. Do not add an extra vowel."
+        "reason": "Initial b is a voiced bilabial stop: both lips close and release into the vowel. It contrasts with voiceless p.",
+        "tip": "Say bal slowly. Notice the lip closure; move directly into a."
       },
       {
         "id": 2,
-        "question": "Is Turkish dede exactly the same sound as Korean 데데?",
+        "question": "Should dede be pronounced as three syllables: de-de-e?",
         "answer": "X",
         "word": "Dede",
         "translation": "grandfather",
         "ipa": "[deˈde]",
-        "reason": "Turkish d is voiced; do not assume a Korean spelling captures its articulation in every context.",
-        "tip": "Place the tongue at the alveolar ridge and practise the release without an added syllable."
+        "reason": "Dede has two syllables, de-de. Its written d is a voiced stop, made with the tongue near the upper teeth/alveolar ridge.",
+        "tip": "Say de-de in two beats. Do not add another vowel after the final e."
       },
       {
         "id": 3,
-        "question": "Is Turkish gemi exactly the same sound as Korean 게미?",
-        "answer": "X",
+        "question": "Is the initial g in gemi a voiced stop with a fronted articulation before e?",
+        "answer": "O",
         "word": "Gemi",
         "translation": "ship",
         "ipa": "[ɟeˈmi]",
-        "reason": "Turkish g is voiced and is fronted before front vowels. Compare with a proficient speaker rather than treating a Korean cue as identical.",
-        "tip": "Practise the consonant release into e without inserting another vowel."
+        "reason": "The front vowel e accompanies a fronted/palatal pronunciation of g, represented here by [ɟ]. It is still voiced; the spelling alone is not an English sound comparison.",
+        "tip": "Listen to ge-mi in two syllables and release the initial consonant into e."
       },
       {
         "id": 4,
-        "question": "Is the s in Samsun the same as a full Korean 스 syllable?",
+        "question": "Should an extra vowel be inserted between s and a in Samsun?",
         "answer": "X",
         "word": "Samsun",
         "translation": "Samsun, a Black Sea city",
         "ipa": "[sɑmˈsun]",
-        "reason": "Turkish s is a consonant, not a consonant plus the vowel ㅡ.",
-        "tip": "Keep the frication and move directly into the written a."
+        "reason": "The initial s is a voiceless fricative and moves directly into a. The word divides into Sam-sun, with two syllables.",
+        "tip": "Keep the initial airflow continuous, then move into a without an extra syllable."
       },
       {
         "id": 5,
@@ -1962,8 +1962,8 @@ window.LEGACY_EN = {
         "summary": "Use the standard written forms Hristiyan, kral and tren without inserting a written vowel.",
         "correct": "Hristiyan [o], gnostik [o], kral [o], tren [o], psikoloji [o]",
         "incorrect": "Hıristiyan [x], gınostik [x], kıral [x], tiren [x]",
-        "contrast": "Spelling and articulation are distinct; do not equate a Korean pronunciation cue with a target syllable.",
-        "explanation": "Use the standard written forms Hristiyan, kral and tren without inserting a written vowel. Spelling and articulation are distinct; do not equate a Korean pronunciation cue with a target syllable.",
+        "contrast": "Spelling and articulation are distinct; do not confuse a spelling example with a complete pronunciation guide.",
+        "explanation": "Use the standard written forms Hristiyan, kral and tren without inserting a written vowel. Spelling and articulation are distinct; do not confuse a spelling example with a complete pronunciation guide.",
         "biblicalRef": "Source: TDK spelling guide. Teaching examples are not published Bible quotations."
       },
       {
