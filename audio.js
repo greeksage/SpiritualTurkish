@@ -257,11 +257,11 @@ class AudioEngine {
   // Web Speech API: Text-to-Speech (TTS) for Turkish
   // -------------------------------------------------------------
   initVoices() {
-    if (!('speechSynthesis' in window)) return;
+    if (!window.speechSynthesis) return;
     const findVoice = () => {
       const voices = window.speechSynthesis.getVoices();
       // Look for Turkish voices
-      this.turkishVoice = voices.find(v => v.lang.toLowerCase().startsWith('tr')) || null;
+      this.turkishVoice = voices.find(v => v.lang.toLocaleLowerCase('tr').startsWith('tr')) || null;
     };
     findVoice();
     if (window.speechSynthesis.onvoiceschanged !== undefined) {
@@ -270,11 +270,25 @@ class AudioEngine {
   }
 
   speakTurkish(text, rate = null, onStart, onEnd) {
-    if (!('speechSynthesis' in window)) {
-      alert("죄송합니다. 현재 브라우저가 음성 합성(Speech Synthesis)을 지원하지 않습니다.");
+    const report = (en,ko) => {
+      const message=window.course?.t(en,ko) || en;
+      const lessonStatus=document.getElementById('course-audio-status');
+      const status=document.querySelector('#word-inspector[open] #word-audio-status') || (lessonStatus && !lessonStatus.closest('.lesson-section').classList.contains('hidden') && !document.getElementById('lesson-view')?.hidden ? lessonStatus : document.getElementById('global-audio-status'));
+      if(status)status.textContent=message;
+      if(onEnd)onEnd();
+      // onEnd may write its own status; unavailable/error information takes priority.
+      if(status)status.textContent=message;
+    };
+    if (!window.speechSynthesis) {
+      report("Synthetic speech is unavailable in this browser. Read the Turkish text aloud or practise with a partner.","이 브라우저에서는 합성 음성을 사용할 수 없습니다. 터키어를 직접 읽거나 상대와 연습하세요.");
       return;
     }
 
+    this.initVoices();
+    if (!this.turkishVoice) {
+      report('No Turkish synthetic voice is installed. The text remains available; install a Turkish system voice or practise with a partner.','터키어 합성 음성이 설치되어 있지 않습니다. 본문은 읽을 수 있습니다. 터키어 시스템 음성을 설치하거나 상대와 연습하세요.');
+      return;
+    }
     window.speechSynthesis.cancel(); // Stop any ongoing speech
 
     const cleanText = text.replace(/[*_#]/g, '').trim();
@@ -290,15 +304,15 @@ class AudioEngine {
     if (onStart) utterance.onstart = onStart;
     if (onEnd) utterance.onend = onEnd;
     utterance.onerror = (err) => {
-      console.warn("TTS Error:", err);
-      if (onEnd) onEnd();
+      if (err.error === 'canceled' || err.error === 'interrupted') { if(onEnd)onEnd(); return; }
+      report('Synthetic speech could not play. The Turkish text is still available.','합성 음성을 재생할 수 없습니다. 터키어 본문은 읽을 수 있습니다.');
     };
 
     window.speechSynthesis.speak(utterance);
   }
 
   stopSpeaking() {
-    if ('speechSynthesis' in window) {
+    if (window.speechSynthesis) {
       window.speechSynthesis.cancel();
     }
   }
@@ -323,7 +337,7 @@ class AudioEngine {
 
   startListening(onResult, onError, onEnd) {
     if (!this.recognition) {
-      if (onError) onError("브라우저에서 Web Speech API(음성 인식)를 지원하지 않거나 마이크 권한이 필요합니다. Chrome 브라우저를 권장합니다.");
+      if (onError) onError(course.t('Speech recognition is unavailable. You can type and compare a response instead.', '음성 인식을 사용할 수 없습니다. 답을 입력하고 비교할 수 있습니다.'));
       return;
     }
 
@@ -338,20 +352,20 @@ class AudioEngine {
 
     this.recognition.onresult = (event) => {
       this.isListening = false;
-      if (event.results && event.results[0] && event.results[0][0]) {
+      if (event.results && event.results[0] && event.results[0][0] && event.results[0][0].transcript?.trim()) {
         const spoken = event.results[0][0].transcript;
         if (onResult) onResult(spoken);
-      }
+      } else if (onError) onError(course.t('No recognised text was returned. Try again or type a response to compare.','인식된 문자가 없습니다. 다시 시도하거나 답을 입력해 비교하세요.'));
     };
 
     this.recognition.onerror = (event) => {
       this.isListening = false;
       console.warn("Recognition error:", event.error);
-      let msg = "음성을 인식하지 못했습니다. 다시 시도해 주세요.";
+      let msg = course.t('Speech was not recognised. Try again or type your response.', '음성을 인식하지 못했습니다. 다시 시도하거나 답을 입력하세요.');
       if (event.error === 'not-allowed') {
-        msg = "마이크 사용 권한이 거부되었습니다. 브라우저 주소창에서 마이크 권한을 허용해 주세요.";
+        msg = course.t('Microphone permission was denied. Enable it in browser settings if you want to use recognition.', '마이크 권한이 거부되었습니다. 음성 인식을 사용하려면 브라우저 설정에서 허용하세요.');
       } else if (event.error === 'no-speech') {
-        msg = "음성이 감지되지 않았습니다. 마이크에 가까이 대고 터키어로 발음해 보세요.";
+        msg = course.t('No speech detected. Try again or type your response.', '음성이 감지되지 않았습니다. 다시 시도하거나 답을 입력하세요.');
       }
       if (onError) onError(msg);
     };
@@ -365,7 +379,7 @@ class AudioEngine {
       this.recognition.start();
     } catch (e) {
       this.isListening = false;
-      if (onError) onError("마이크 활성화 중 오류가 발생했습니다: " + e.message);
+      if (onError) onError(course.t('Could not start microphone: ', '마이크를 시작할 수 없습니다: ') + e.message);
     }
   }
 
@@ -377,12 +391,12 @@ class AudioEngine {
   }
 
   // -------------------------------------------------------------
-  // Pronunciation Scoring Algorithm (Levenshtein Distance)
+  // Recognised-text match (Levenshtein distance): no phonetic assessment
   // -------------------------------------------------------------
   calculateSimilarity(target, spoken) {
     const normalize = (str) => {
       return str
-        .toLowerCase()
+        .toLocaleLowerCase('tr')
         .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?'"“”]/g, "")
         .trim();
     };
@@ -390,8 +404,8 @@ class AudioEngine {
     const s1 = normalize(target);
     const s2 = normalize(spoken);
 
-    if (s1 === s2) return 100;
     if (s1.length === 0 || s2.length === 0) return 0;
+    if (s1 === s2) return 100;
 
     // Levenshtein Matrix
     const matrix = [];

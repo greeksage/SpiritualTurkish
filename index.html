@@ -1,144 +1,31 @@
 <!DOCTYPE html>
-<html lang="ko" class="h-full">
+<html lang="en" class="h-full">
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="web_dashboard" name="shell-type">
-  <title>Spiritual Turkish | Morphology & Theological LMS Studio</title>
+  <title>Spiritual Turkish | Learn and practise Turkish</title>
 
-  <!-- Google Stitch Fonts & Icons -->
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <!-- Locally bundled original Google Stitch fonts and icons -->
+  <link rel="stylesheet" href="vendor/fonts.css">
 
   <!-- Tailwind CSS with Forms & Container Plugins -->
-  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-  <script id="tailwind-config">
-  tailwind.config = {
-    darkMode: "class",
-    theme: {
-      extend: {
-        "colors": {
-          "on-primary-container": "#1B2C25",
-          "primary-container": "#E3ECE7",
-          "surface-container-highest": "#E2E8E5",
-          "surface-container-low": "#F7F9F8",
-          "outline-variant": "#E2E8E5",
-          "on-secondary-fixed": "#351000",
-          "on-tertiary-fixed-variant": "#344c42",
-          "inverse-surface": "#2B322E",
-          "on-primary": "#FFFFFF",
-          "on-tertiary-fixed": "#082017",
-          "on-tertiary": "#FFFFFF",
-          "on-surface-variant": "#526059",
-          "primary-fixed-dim": "#B1CDC1",
-          "primary": "#637D73",
-          "tertiary-fixed-dim": "#B2CCBF",
-          "secondary-container": "#FFECE3",
-          "surface-container-lowest": "#FFFFFF",
-          "on-secondary": "#FFFFFF",
-          "inverse-primary": "#B1CDC1",
-          "outline": "#8C9993",
-          "inverse-on-surface": "#ECF2EC",
-          "error-container": "#FFDAD6",
-          "on-secondary-container": "#53210C",
-          "on-error-container": "#93000A",
-          "accent-peach-border": "#FCDFD3",
-          "on-surface": "#1C332A",
-          "on-background": "#1C332A",
-          "accent-peach-subtle": "#FFF8F5",
-          "secondary-fixed": "#FFDBCC",
-          "success-border": "#BCE3D2",
-          "secondary": "#B25E3B",
-          "surface": "#F4F6F4",
-          "tertiary-fixed": "#CEE9DB",
-          "error": "#BA1A1A",
-          "surface-variant": "#ECEFEF",
-          "surface-container": "#F7F9F8",
-          "surface-dim": "#ECEFEF",
-          "tertiary-container": "#4A6258",
-          "surface-tint": "#637D73",
-          "tertiary": "#1C332A",
-          "secondary-fixed-dim": "#FFB695",
-          "accent-peach": "#FFB695",
-          "on-secondary-fixed-variant": "#6C3921",
-          "on-error": "#FFFFFF",
-          "success-surface": "#F2F7F4",
-          "background": "#F4F6F4",
-          "success-text": "#1B4D3E",
-          "surface-bright": "#FFFFFF",
-          "primary-fixed": "#CDE9DD",
-          "surface-container-high": "#ECEFEF",
-          "on-tertiary-container": "#F5FFF8",
-          "on-primary-fixed": "#062019",
-          "on-primary-fixed-variant": "#334C43"
-        },
-        "borderRadius": {
-          "DEFAULT": "0.25rem",
-          "lg": "0.5rem",
-          "xl": "0.75rem",
-          "full": "9999px"
-        },
-        "spacing": {
-          "space-md": "1rem",
-          "margin-md": "2rem",
-          "margin-lg": "3rem",
-          "space-lg": "1.5rem",
-          "margin": "1rem",
-          "space-sm": "0.5rem",
-          "space-xs": "0.25rem",
-          "space-xl": "2.5rem",
-          "gutter": "1.25rem",
-          "gutter-lg": "2rem"
-        },
-        "fontFamily": {
-          "label-sm": ["JetBrains Mono"],
-          "body-lg": ["Plus Jakarta Sans"],
-          "headline-sm": ["Plus Jakarta Sans"],
-          "display-lg": ["Plus Jakarta Sans"],
-          "morph-root": ["JetBrains Mono"],
-          "morph-suffix": ["JetBrains Mono"],
-          "body-md": ["Plus Jakarta Sans"],
-          "label-md": ["JetBrains Mono"],
-          "headline-lg": ["Plus Jakarta Sans"],
-          "headline-lg-mobile": ["Plus Jakarta Sans"],
-          "headline-md": ["Plus Jakarta Sans"],
-          "body-sm": ["Plus Jakarta Sans"],
-          "serif": ["Merriweather", "Georgia", "serif"]
-        },
-        "fontSize": {
-          "label-sm": ["0.6875rem", {"lineHeight": "0.875rem", "letterSpacing": "0.06em", "fontWeight": "400"}],
-          "body-lg": ["1.125rem", {"lineHeight": "1.875rem", "letterSpacing": "0.01em", "fontWeight": "400"}],
-          "headline-sm": ["1.125rem", {"lineHeight": "1.625rem", "letterSpacing": "0em", "fontWeight": "500"}],
-          "display-lg": ["3rem", {"lineHeight": "3.5rem", "letterSpacing": "-0.025em", "fontWeight": "600"}],
-          "morph-root": ["0.9375rem", {"lineHeight": "1.375rem", "letterSpacing": "0.02em", "fontWeight": "600"}],
-          "morph-suffix": ["0.875rem", {"lineHeight": "1.375rem", "letterSpacing": "0.03em", "fontWeight": "400"}],
-          "body-md": ["1rem", {"lineHeight": "1.65rem", "letterSpacing": "0.005em", "fontWeight": "400"}],
-          "label-md": ["0.75rem", {"lineHeight": "1rem", "letterSpacing": "0.05em", "fontWeight": "500"}],
-          "headline-lg": ["2rem", {"lineHeight": "2.5rem", "letterSpacing": "-0.015em", "fontWeight": "600"}],
-          "headline-lg-mobile": ["1.625rem", {"lineHeight": "2.125rem", "letterSpacing": "-0.015em", "fontWeight": "600"}],
-          "headline-md": ["1.375rem", {"lineHeight": "1.875rem", "letterSpacing": "-0.01em", "fontWeight": "600"}],
-          "body-sm": ["0.875rem", {"lineHeight": "1.45rem", "letterSpacing": "0.01em", "fontWeight": "400"}]
-        }
-      }
-    }
-  }
-  </script>
+  <link rel="stylesheet" href="tailwind.css">
+
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-surface font-body-md text-on-surface antialiased h-screen flex overflow-hidden" style="background-color: #EEF3F0; color: #1C332A;">
 
+  <div id="legacy-host" hidden>
   <!-- ============================================================ -->
   <!-- LEFT SIDEBAR: Google Stitch Pine Forest LMS Navigation       -->
   <!-- ============================================================ -->
   <aside id="sidebar" class="fixed left-0 top-0 h-screen w-[280px] z-50 flex flex-col justify-between p-5 border-r border-[#E2E8E5] transition-transform duration-300 -translate-x-full lg:translate-x-0" style="background-color: rgb(36, 59, 50); font-family: 'Plus Jakarta Sans', sans-serif; border-right: 1px solid rgb(226, 232, 240);">
-    
+
     <div class="flex flex-col gap-4 overflow-hidden flex-1">
-      
+
       <!-- Brand & Title -->
       <div class="flex items-center justify-between">
         <div class="flex items-center gap-3">
@@ -391,12 +278,12 @@
           </div>
         </div>
 
-        <!-- CHAPTER 6: MEB Spelling Rules -->
+        <!-- CHAPTER 6: Turkish Spelling Rules -->
         <div class="chapter-group mt-1" data-chapter="6">
           <div class="chapter-nav-item flex items-start gap-2.5 px-3 py-2 rounded-xl text-white/70 hover:bg-white/5 hover:text-white transition-all cursor-pointer" data-chapter-nav="6">
             <span class="material-symbols-outlined text-[20px] mt-0.5 chapter-icon text-white/70">history_edu</span>
             <div class="flex flex-col flex-1 min-w-0">
-              <span class="font-body-sm text-body-sm font-medium truncate">6. MEB Spelling Rules</span>
+              <span class="font-body-sm text-body-sm font-medium truncate">6. Turkish Spelling Rules</span>
               <span class="font-label-sm text-label-sm text-white/50 truncate">Orthography &amp; Proofreading</span>
             </div>
             <span class="material-symbols-outlined text-[18px] text-white/40 chapter-chevron shrink-0 mt-0.5 transition-transform duration-200">expand_more</span>
@@ -431,7 +318,7 @@
 
     <!-- Bottom Sidebar Tray: Turkish Diacritics & User / Audio -->
     <div class="pt-4 border-t border-white/10 flex flex-col gap-3">
-      
+
       <!-- Diacritics Box -->
       <div class="bg-white/5 rounded-xl p-3 border border-white/10">
         <span class="font-label-sm text-label-sm text-white/60 block mb-2 font-medium tracking-wider">TURKISH DIACRITICS</span>
@@ -478,10 +365,10 @@
   <!-- RIGHT WORKSPACE: Active Learning Workspace (Google Stitch)   -->
   <!-- ============================================================ -->
   <div class="lg:pl-[280px] w-full h-full flex flex-col overflow-hidden">
-    
+
     <!-- Top Sticky Header -->
     <header class="fixed top-0 left-0 lg:left-[280px] right-0 h-16 bg-surface-container-lowest/90 backdrop-blur-md border-b border-[#E2E8E5] z-40 px-4 sm:px-8 flex items-center justify-between" style="border-bottom: 1px solid rgb(226, 232, 240); font-family: 'Plus Jakarta Sans', sans-serif;">
-      
+
       <div class="flex items-center gap-3 overflow-hidden">
         <!-- Mobile Hamburger -->
         <button id="sidebar-toggle-btn" class="lg:hidden p-2 rounded-lg text-on-surface hover:bg-surface-container transition-colors" aria-label="메뉴 열기">
@@ -532,7 +419,7 @@
           <!-- CHAPTER 1: 조음 & 발음 클리닉 (Pronunciation Lab)          -->
           <!-- ======================================================== -->
           <div id="section-ch1" class="lesson-section space-y-6">
-            
+
             <!-- In-Chapter Horizontal Sub-Tab Bar -->
             <div class="sticky top-0 z-20 -mx-4 sm:-mx-8 px-4 sm:px-8 py-2.5 bg-[#EEF3F0]/95 backdrop-blur-md border-b border-[#9FD3BD]/60 flex items-center gap-2 overflow-x-auto custom-dark-scrollbar mb-2">
               <span class="font-label-sm text-label-sm font-bold text-[#2D7A5D] uppercase tracking-wider shrink-0 mr-1 flex items-center gap-1">
@@ -568,7 +455,7 @@
                     터키어 완전 유성음(B/D/G) vs 한국어 무성음 발음 클리닉
                   </h1>
                   <p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">
-                    터키어 <strong>B, D, G</strong>는 어두에서도 성대가 처음부터 울리는 <em>완전 유성음(Voiced Plosives)</em>입니다. 한국어 초성 'ㅂ, ㄷ, ㄱ'의 무성음 습관을 교정하고 원어민 소리를 귀로 분별하세요.
+                    터키어 <strong>B, D, G</strong>는 어두에서도 성대가 처음부터 울리는 <em>완전 유성음(Voiced Plosives)</em>입니다. 한국어 초성 'ㅂ, ㄷ, ㄱ'의 무성음 습관을 교정하고 합성 음성 소리를 귀로 분별하세요.
                   </p>
                 </div>
                 <div class="flex items-center justify-between pt-2 border-t border-[#E2E8E5]">
@@ -615,7 +502,7 @@
                   실시간 터키어 단어 음절 분절기:
                 </h4>
                 <div class="flex flex-col sm:flex-row gap-2">
-                  <input type="text" id="custom-syllable-input" placeholder="터키어 단어를 입력하세요 (예: Hristiyan, Kurtuluş, İncil)..." 
+                  <input type="text" id="custom-syllable-input" placeholder="터키어 단어를 입력하세요 (예: Hristiyan, Kurtuluş, İncil)..."
                          class="flex-1 bg-white border border-[#E2E8E5] focus:border-primary rounded-lg px-4 py-2.5 text-sm text-on-surface outline-none">
                   <button id="custom-syllable-btn" class="px-5 py-2.5 rounded-lg bg-[#1C332A] hover:bg-primary text-white font-semibold text-xs transition shadow-2xs">
                     분절 검사
@@ -658,7 +545,7 @@
                     <span class="material-symbols-outlined text-[15px]">mic</span>
                     Web Speech Recognition (tr-TR)
                   </span>
-                  <span class="font-label-sm text-label-sm text-on-surface-variant">Chapter 1.4 • Real-Time AI Evaluator</span>
+                  <span class="font-label-sm text-label-sm text-on-surface-variant">Chapter 1.4 • Recognised-text Match</span>
                 </div>
                 <div class="space-y-1">
                   <h1 class="font-headline-lg text-headline-lg font-semibold text-on-surface tracking-tight" style="font-family: 'Merriweather', Georgia, serif;">
@@ -683,7 +570,7 @@
                 <span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">목표 단어</span>
                 <div class="flex items-center justify-center gap-3">
                   <span id="target-word-display" class="font-display-lg text-3xl sm:text-4xl font-extrabold text-on-surface tracking-tight font-serif">Müjde</span>
-                  <button id="target-tts-btn" class="w-9 h-9 rounded-full bg-white text-primary hover:bg-surface-container border border-[#E2E8E5] flex items-center justify-center transition shadow-2xs cursor-pointer" title="원어민 발음 듣기">
+                  <button id="target-tts-btn" class="w-9 h-9 rounded-full bg-white text-primary hover:bg-surface-container border border-[#E2E8E5] flex items-center justify-center transition shadow-2xs cursor-pointer" title="합성 음성 발음 듣기">
                     <span class="material-symbols-outlined text-[18px]">record_voice_over</span>
                   </button>
                 </div>
@@ -691,7 +578,7 @@
 
                 <!-- Mic Record Button -->
                 <div class="flex flex-col items-center justify-center py-4">
-                  <button id="mic-record-btn" 
+                  <button id="mic-record-btn"
                           class="w-16 h-16 rounded-full bg-[#1C332A] hover:bg-primary text-white flex items-center justify-center transition shadow-2xs cursor-pointer">
                     <span class="material-symbols-outlined text-[30px]">mic</span>
                   </button>
@@ -723,7 +610,7 @@
           <!-- CHAPTER 2: 복음 전도 시뮬레이터 (Evangelism Simulator)     -->
           <!-- ======================================================== -->
           <div id="section-ch2" class="lesson-section space-y-6 hidden">
-            
+
             <!-- In-Chapter Horizontal Sub-Tab Bar -->
             <div class="sticky top-0 z-20 -mx-4 sm:-mx-8 px-4 sm:px-8 py-2.5 bg-[#EEF3F0]/95 backdrop-blur-md border-b border-[#FFC8B8]/60 flex items-center gap-2 overflow-x-auto custom-dark-scrollbar mb-2">
               <span class="font-label-sm text-label-sm font-bold text-[#EA6843] uppercase tracking-wider shrink-0 mr-1 flex items-center gap-1">
@@ -798,7 +685,7 @@
           <!-- CHAPTER 3: 문화 & 세계관 브릿지 (Culture & Worldview)      -->
           <!-- ======================================================== -->
           <div id="section-ch3" class="lesson-section space-y-6 hidden">
-            
+
             <!-- In-Chapter Horizontal Sub-Tab Bar -->
             <div class="sticky top-0 z-20 -mx-4 sm:-mx-8 px-4 sm:px-8 py-2.5 bg-[#EEF3F0]/95 backdrop-blur-md border-b border-[#ECD7A3]/60 flex items-center gap-2 overflow-x-auto custom-dark-scrollbar mb-2">
               <span class="font-label-sm text-label-sm font-bold text-[#C88A2E] uppercase tracking-wider shrink-0 mr-1 flex items-center gap-1">
@@ -931,7 +818,7 @@
           <!-- CHAPTER 4: 성경 구문 & 문법 (Scripture Syntax - STITCH)    -->
           <!-- ======================================================== -->
           <div id="section-ch4" class="lesson-section space-y-8 hidden">
-            
+
             <!-- In-Chapter Horizontal Sub-Tab Bar -->
             <div class="sticky top-0 z-20 -mx-4 sm:-mx-8 px-4 sm:px-8 py-2.5 bg-[#EEF3F0]/95 backdrop-blur-md border-b border-[#A6D5C7]/60 flex items-center gap-2 overflow-x-auto custom-dark-scrollbar mb-2">
               <span class="font-label-sm text-label-sm font-bold text-[#1C5E4E] uppercase tracking-wider shrink-0 mr-1 flex items-center gap-1">
@@ -949,412 +836,20 @@
               </button>
             </div>
 
-            <!-- Lesson 4.1: Romalılar 6:4 Agglutinative Dissection (STITCH EXACT) -->
-            <div id="lesson-ch4-1" class="lesson-block space-y-8">
-              
-              <!-- Pedagogical Header & Scripture Callout -->
-              <section class="bg-surface-container-lowest rounded-xl p-8 border border-[#E2E8E5] shadow-2xs relative" style="border: 2px solid rgb(99, 125, 115); box-shadow: rgba(99, 125, 115, 0.12) 0px 2px 8px;">
-                <div class="relative z-10 flex flex-col gap-5 max-w-4xl">
-                  <div class="flex items-center gap-3">
-                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface text-primary font-label-md text-label-md uppercase tracking-wider font-semibold border border-[#E2E8E5]">
-                      <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">schema</span>
-                      Advanced Syntax &amp; Suffix Analysis
-                    </span>
-                    <span class="font-label-sm text-label-sm text-on-surface-variant tracking-normal">Chapter 4.1 • Pauline Epistle Corpus</span>
-                  </div>
-                  <div class="space-y-2">
-                    <h1 class="font-headline-lg text-headline-lg font-semibold text-on-surface tracking-tight" style="font-family: 'Merriweather', Georgia, serif; letter-spacing: -0.01em;">
-                      Romans 6:4 (Romalılar 6:4) — Agglutinative Dissection
-                    </h1>
-                    <p class="font-body-md text-body-md text-on-surface-variant max-w-2xl" style="font-family: 'Plus Jakarta Sans', sans-serif;">
-                      Linguistic isolation of agglutinative verb stems, passive divine agency (<span class="font-morph-root text-on-surface font-medium">edilgen çatı</span>), and participial chaining in formal Anatolian theological discourse.
-                    </p>
-                  </div>
-                  <!-- Scripture Primary Slate -->
-                  <div class="bg-surface-container-low rounded-xl p-6 border border-[#E2E8E5] flex flex-col gap-4" style="background-color: rgb(248, 250, 252); border: 1px solid rgb(226, 232, 240);">
-                    <div class="flex items-start justify-between gap-4">
-                      <div class="space-y-2">
-                        <span class="font-label-sm text-label-sm text-on-surface-variant font-semibold uppercase tracking-wider block">Kitab-ı Mukaddes • Yeni Çeviri (TCL02)</span>
-                        <blockquote class="font-body-lg text-body-lg text-on-surface font-medium italic tracking-wide leading-relaxed" style="font-family: 'Merriweather', Georgia, serif; line-height: 2.1rem;">
-                          “Demek ki, O'nun ölümüyle vaftiz edilerek O'nunla birlikte mezara <mark class="bg-[#FFECE3] text-[#1C332A] px-1.5 py-0.5 rounded font-semibold not-italic border border-accent-peach-border">gömüldük</mark>...”
-                        </blockquote>
-                      </div>
-                      <div class="w-10 h-10 rounded-xl bg-white border border-[#E2E8E5] flex items-center justify-center shrink-0 text-primary shadow-2xs">
-                        <span class="material-symbols-outlined text-[20px]">auto_stories</span>
-                      </div>
-                    </div>
-                    <div class="pt-3 border-t border-[#E2E8E5] flex flex-wrap items-center justify-between gap-2" style="border-top: 1px solid rgb(226, 232, 240);">
-                      <p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-2" style="font-family: 'Plus Jakarta Sans', sans-serif;">
-                        <span class="material-symbols-outlined text-[17px] text-primary">translate</span>
-                        <span class="italic text-on-surface">Literal Gloss:</span> “Therefore we were buried with Him through baptism into death...”
-                      </p>
-                      <div class="flex items-center gap-2">
-                        <span class="font-label-sm text-label-sm text-on-surface-variant bg-white border border-[#E2E8E5] px-2.5 py-1 rounded-full" style="border: 1px solid rgb(203, 213, 225); background-color: rgb(255, 255, 255);">Greek: συνετάφημεν (Aorist Passive 1st Plural)</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+
+            <div id="lesson-ch4-1" class="lesson-block space-y-6">
+              <section class="course-card">
+                <h1 data-en="Scripture and suffix analysis" data-ko="성경과 접미사 분석">Scripture and suffix analysis</h1>
+                <p data-en="Teaching adaptations, not published Bible quotations. Compare the full passage in a named edition; grammar and doctrinal interpretation are distinct." data-ko="학습용 재서술이며 출판된 성경 직접 인용이 아닙니다. 이름이 있는 판본의 전체 문맥을 확인하세요. 문법과 교리 해석은 구별됩니다.">Teaching adaptations, not published Bible quotations.</p>
+                <a href="https://www.bible.com/bible/170/ROM.6.TCL02" target="_blank" rel="noopener" data-en="Read Romans 6 in TCL02 (external edition)" data-ko="TCL02 로마서 6장 읽기 (외부 판본)">Read Romans 6 in TCL02 (external edition)</a>
+                <div id="verse-selector-container" class="flex flex-wrap gap-2 my-4"></div>
+                <div id="verse-syntax-display"></div>
+                <div class="course-controls"><button type="button" id="audio-play-toggle" data-en="Play / stop synthetic speech" data-ko="합성 음성 재생 / 정지">Play / stop synthetic speech</button><button type="button" id="speed-slow">0.8×</button><button type="button" id="speed-normal">1×</button><button type="button" id="add-lexicon-btn" data-en="Save gömüldük to notebook" data-ko="gömüldük를 노트에 저장">Save gömüldük to notebook</button><button type="button" id="anki-export-btn" data-en="Export vocabulary TSV" data-ko="어휘 TSV 내보내기">Export vocabulary TSV</button></div>
+                <p id="legacy-syntax-status" role="status"></p>
+                <fieldset><legend data-en="In gömüldük, what does -ül- mark?" data-ko="gömüldük에서 -ül-은 무엇을 나타내나요?">In gömüldük, what does -ül- mark?</legend><div class="course-controls"><button type="button" data-passive="no" data-en="Reflexive" data-ko="재귀">Reflexive</button><button type="button" data-passive="yes" data-en="Passive" data-ko="피동">Passive</button><button type="button" data-passive="no" data-en="Causative" data-ko="사동">Causative</button><button type="button" data-passive="no" data-en="Reciprocal" data-ko="상호">Reciprocal</button></div><p id="passive-feedback" role="status"></p></fieldset>
               </section>
-
-              <!-- Audio Player Strip & Acoustic Visualizer -->
-              <section class="bg-surface-container-lowest rounded-xl p-5 border border-[#E2E8E5] shadow-2xs" style="border: 1px solid rgb(226, 232, 240); font-family: 'Plus Jakarta Sans', sans-serif; box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 3px;">
-                <div class="flex flex-col md:flex-row md:items-center justify-between gap-5">
-                  <!-- Controls & Meta -->
-                  <div class="flex items-center gap-4 min-w-[240px]">
-                    <button class="w-10 h-10 rounded-lg bg-[#1C332A] text-white flex items-center justify-center transition-all hover:bg-primary shadow-2xs active:scale-95 cursor-pointer" id="audio-play-toggle" type="button" style="border: medium; outline: none;">
-                      <span class="material-symbols-outlined text-[22px]" id="play-icon" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
-                    </button>
-                    <div class="flex flex-col">
-                      <span class="font-body-sm text-body-sm font-semibold text-on-surface">Ecclesiastical Cadence</span>
-                      <span class="font-label-sm text-label-sm text-on-surface-variant">Native Istanbul Lexicon Speaker</span>
-                    </div>
-                  </div>
-                  <!-- Scrubber & Waveform Mockup -->
-                  <div class="flex-1 max-w-xl flex flex-col gap-1.5">
-                    <div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
-                      <span id="time-current" class="">0:04</span>
-                      <span class="font-label-sm text-on-surface-variant font-medium tracking-wider uppercase">Vowel Cadence Scrub</span>
-                      <span class="">0:18</span>
-                    </div>
-                    <div class="h-8 w-full bg-surface-container-low rounded-lg p-1.5 flex items-center gap-1 cursor-pointer overflow-hidden border border-[#E2E8E5]" style="background-color: rgb(241, 245, 249); border: 1px solid rgb(203, 213, 225);">
-                      <div class="h-3 w-1 bg-primary rounded-full"></div>
-                      <div class="h-5 w-1 bg-primary rounded-full"></div>
-                      <div class="h-6 w-1 bg-primary rounded-full"></div>
-                      <div class="h-4 w-1 bg-primary rounded-full"></div>
-                      <div class="h-6 w-1 bg-primary rounded-full"></div>
-                      <div class="h-7 w-1 bg-primary rounded-full"></div>
-                      <div class="h-5 w-1 bg-primary rounded-full"></div>
-                      <div class="h-3 w-1 bg-primary rounded-full"></div>
-                      <div class="h-6 w-0.5 bg-[#1C332A] mx-0.5"></div>
-                      <div class="h-4 w-1 bg-outline-variant rounded-full"></div>
-                      <div class="h-6 w-1 bg-outline-variant rounded-full"></div>
-                      <div class="h-7 w-1 bg-outline-variant rounded-full"></div>
-                      <div class="h-5 w-1 bg-outline-variant rounded-full"></div>
-                      <div class="h-7 w-1 bg-outline-variant rounded-full"></div>
-                      <div class="h-6 w-1 bg-outline-variant rounded-full"></div>
-                      <div class="h-3 w-1 bg-outline-variant rounded-full"></div>
-                      <div class="h-5 w-1 bg-outline-variant rounded-full"></div>
-                      <div class="h-6 w-1 bg-outline-variant rounded-full"></div>
-                      <div class="h-4 w-1 bg-outline-variant rounded-full"></div>
-                      <div class="h-5 w-1 bg-outline-variant rounded-full"></div>
-                      <div class="h-6 w-1 bg-outline-variant rounded-full"></div>
-                      <div class="h-2 w-1 bg-outline-variant rounded-full"></div>
-                      <div class="h-5 w-1 bg-outline-variant rounded-full"></div>
-                      <div class="h-4 w-1 bg-outline-variant rounded-full"></div>
-                      <div class="h-3 w-1 bg-outline-variant rounded-full"></div>
-                    </div>
-                  </div>
-                  <!-- Speed & Record Interaction -->
-                  <div class="flex items-center gap-2 self-end md:self-center">
-                    <div class="flex items-center bg-surface-container-low rounded-lg p-0.5 border border-[#E2E8E5]" style="background-color: rgb(241, 245, 249); border: 1px solid rgb(226, 232, 240);">
-                      <button class="px-2.5 py-1 text-on-surface-variant font-label-md text-label-md rounded hover:bg-white transition-colors cursor-pointer" id="speed-slow" type="button">0.8x</button>
-                      <button class="px-2.5 py-1 bg-white text-on-surface font-label-md text-label-md font-semibold rounded shadow-2xs cursor-pointer" id="speed-normal" type="button">1.0x</button>
-                    </div>
-                    <button onclick="window.audioEngine.speakTurkish('Demek ki, Onun ölümüyle vaftiz edilerek Onunla birlikte mezara gömüldük.')" class="px-3.5 py-1.5 rounded-lg border-[#E2E8E5] bg-white text-on-surface font-body-sm text-body-sm font-medium flex items-center gap-1.5 transition-all hover:bg-surface-container shadow-2xs cursor-pointer" type="button" style="border: 1px solid rgb(226, 232, 240);">
-                      <span class="material-symbols-outlined text-[18px] text-primary">record_voice_over</span>
-                      TTS 낭독 듣기
-                    </button>
-                  </div>
-                </div>
-              </section>
-
-              <!-- Morphological Focus Card: Gömüldük -->
-              <section class="bg-surface-container-lowest rounded-xl p-8 border border-[#E2E8E5] shadow-2xs space-y-7" style="border: 1px solid rgb(226, 232, 240); box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 3px;">
-                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                  <div class="space-y-1">
-                    <span class="font-label-sm text-label-sm text-on-surface-variant font-semibold uppercase tracking-wider">Agglutinative Anchor</span>
-                    <h2 class="font-headline-md text-headline-md font-semibold text-on-surface" style="font-family: 'Merriweather', Georgia, serif; letter-spacing: -0.01em;">Micro-Morphological Chain: “Gömüldük”</h2>
-                  </div>
-                  <div class="flex items-center gap-2">
-                    <span class="w-2 h-2 rounded-full bg-accent-peach"></span>
-                    <span class="font-label-sm text-label-sm text-on-surface-variant font-medium uppercase tracking-wider">Passive Predicate Synthesis</span>
-                  </div>
-                </div>
-                <!-- Segmented Agglutinative Pill Chain -->
-                <div class="bg-surface-container-low p-6 rounded-xl border border-[#E2E8E5] flex flex-col gap-6" style="background-color: rgb(248, 250, 252); border: 1px solid rgb(226, 232, 240);">
-                  <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-3 py-4">
-                    <!-- Stem -->
-                    <div class="group relative flex flex-col items-center">
-                      <div class="px-5 py-2.5 rounded-lg bg-[#1C332A] text-white font-morph-root text-morph-root shadow-2xs flex items-center gap-1.5 cursor-pointer transform group-hover:-translate-y-0.5 transition-transform">
-                        <span class="">göm-</span>
-                      </div>
-                      <div class="mt-2 text-center">
-                        <span class="font-label-sm text-label-sm font-semibold text-on-surface block">Root Verb</span>
-                        <span class="font-label-sm text-label-sm text-on-surface-variant italic">‘to bury / entomb’</span>
-                      </div>
-                    </div>
-                    <span class="font-morph-root text-morph-root text-outline/50 font-light text-xl mt-[-24px]">+</span>
-                    <!-- Focus morpheme with refined accent badge -->
-                    <div class="group relative flex flex-col items-center">
-                      <div class="px-5 py-2.5 rounded-lg bg-white text-[#1C332A] font-morph-root text-morph-root shadow-2xs flex items-center gap-1.5 cursor-pointer transform group-hover:-translate-y-0.5 transition-transform border border-accent-peach-border ring-1 ring-accent-peach/50">
-                        <span class="font-bold text-[#1C332A]">-ül-</span>
-                        <span class="w-1.5 h-1.5 rounded-full bg-accent-peach"></span>
-                      </div>
-                      <div class="mt-2 text-center">
-                        <span class="font-label-sm text-label-sm font-semibold text-[#1C332A] block">Passive Voice Marker</span>
-                        <span class="font-label-sm text-label-sm text-on-surface-variant italic">‘was / were’ (4-way ül)</span>
-                      </div>
-                    </div>
-                    <span class="font-morph-root text-morph-root text-outline/50 font-light text-xl mt-[-24px]">+</span>
-                    <!-- Past Tense -->
-                    <div class="group relative flex flex-col items-center">
-                      <div class="px-5 py-2.5 rounded-lg bg-white text-on-surface font-morph-root text-morph-root shadow-2xs flex items-center gap-1.5 cursor-pointer transform group-hover:-translate-y-0.5 transition-transform border border-[#E2E8E5]">
-                        <span class="">-dü-</span>
-                      </div>
-                      <div class="mt-2 text-center">
-                        <span class="font-label-sm text-label-sm font-semibold text-on-surface block">Definite Past Tense</span>
-                        <span class="font-label-sm text-label-sm text-on-surface-variant italic">Görülen Geçmiş Zaman</span>
-                      </div>
-                    </div>
-                    <span class="font-morph-root text-morph-root text-outline/50 font-light text-xl mt-[-24px]">+</span>
-                    <!-- Person -->
-                    <div class="group relative flex flex-col items-center">
-                      <div class="px-5 py-2.5 rounded-lg bg-white text-on-surface font-morph-root text-morph-root shadow-2xs flex items-center gap-1.5 cursor-pointer transform group-hover:-translate-y-0.5 transition-transform border border-[#E2E8E5]">
-                        <span class="">-k</span>
-                      </div>
-                      <div class="mt-2 text-center">
-                        <span class="font-label-sm text-label-sm font-semibold text-on-surface block">1st Person Plural</span>
-                        <span class="font-label-sm text-label-sm text-on-surface-variant italic">‘Biz’ (We)</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="flex flex-wrap items-center justify-center gap-6 pt-3 border-t border-[#E2E8E5] font-label-sm text-label-sm text-on-surface-variant" style="border-top: 1px solid rgb(226, 232, 240);">
-                    <div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded bg-[#1C332A]"></span><span class="">Verbal Root</span></div>
-                    <div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded border border-accent-peach bg-white"></span><span class="">Edilgen Çatı (Passive Focus)</span></div>
-                    <div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded border border-[#E2E8E5] bg-white"></span><span class="">Kip Eki (Tense)</span></div>
-                    <div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded border border-[#E2E8E5] bg-white"></span><span class="">Şahıs Eki (Person)</span></div>
-                  </div>
-                </div>
-                <!-- Grammatical Commentary Tabs & Deep Dive -->
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                  <div class="bg-surface-container-low rounded-xl p-6 space-y-3 border border-[#E2E8E5]" style="background-color: rgb(248, 250, 252); border: 1px solid rgb(203, 213, 225);">
-                    <div class="flex items-center gap-2 text-primary">
-                      <span class="material-symbols-outlined text-[20px]">spellcheck</span>
-                      <h3 class="font-headline-sm text-headline-sm font-semibold text-on-surface" style="font-family: 'Merriweather', Georgia, serif;">Phonological Reason: Why ‘-ül-’ not ‘-il-’ or ‘-in-’?</h3>
-                    </div>
-                    <p class="font-body-sm text-body-sm text-on-surface leading-relaxed" style="font-family: 'Plus Jakarta Sans', sans-serif;">
-                      Turkish vowel harmony operates under the strict <strong class="text-on-surface font-semibold">Dörtlü Vokal Uyumu (4-Way Vowel Harmony)</strong>. The verbal stem vowel in <span class="font-morph-root text-morph-root font-semibold text-on-surface">göm-</span> is an <strong class="text-on-surface font-semibold">Ö</strong> (a rounded, front open vowel).
-                    </p>
-                    <ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant" style="font-family: 'Plus Jakarta Sans', sans-serif;">
-                      <li class="flex items-start gap-2">
-                        <span class="material-symbols-outlined text-[16px] text-primary shrink-0 mt-0.5">check_circle</span>
-                        <span class="">Stems with <strong>Ö</strong> and <strong>Ü</strong> require the high front rounded allomorph <span class="font-morph-root text-morph-root font-semibold text-on-surface">-ül-</span>.</span>
-                      </li>
-                      <li class="flex items-start gap-2">
-                        <span class="material-symbols-outlined text-[16px] text-primary shrink-0 mt-0.5">check_circle</span>
-                        <span class="">Because the root ends in a consonant (<span class="font-morph-root text-morph-root text-on-surface font-semibold">m</span>) rather than <span class="font-morph-root text-morph-root">L</span> or a vowel, the passive voice takes <span class="font-morph-root text-morph-root font-semibold text-on-surface">-il / -ül / -ul / -ıl</span> instead of <span class="font-morph-root text-morph-root font-semibold text-on-surface">-in</span>.</span>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="bg-surface-container-low rounded-xl p-6 space-y-3 border border-[#E2E8E5]" style="background-color: rgb(248, 250, 252); border: 1px solid rgb(203, 213, 225);">
-                    <div class="flex items-center gap-2 text-primary">
-                      <span class="material-symbols-outlined text-[20px]">lightbulb</span>
-                      <h3 class="font-headline-sm text-headline-sm font-semibold text-on-surface" style="font-family: 'Merriweather', Georgia, serif;">Theological Semantic Shift (Divine Passive)</h3>
-                    </div>
-                    <p class="font-body-sm text-body-sm text-on-surface leading-relaxed" style="font-family: 'Plus Jakarta Sans', sans-serif;">
-                      In Hellenistic biblical hermeneutics, the passive voice often denotes the <em class="font-semibold text-on-surface">Passivum Divinum</em> (God as the unstated transcendent agent).
-                    </p>
-                    <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed" style="font-family: 'Plus Jakarta Sans', sans-serif;">
-                      The believer does not bury oneself (<span class="font-morph-root text-morph-root italic text-on-surface">gömün-</span>, reflexive), nor do believers bury each other (<span class="font-morph-root text-morph-root italic text-on-surface">gömüş-</span>, reciprocal). The passive marker <span class="font-morph-root text-morph-root font-semibold text-on-surface">-ül-</span> explicitly mirrors the believer being acted upon through baptismal solidarity with Christ.
-                    </p>
-                  </div>
-                </div>
-              </section>
-
-              <!-- Morphological Analysis Table -->
-              <section class="bg-surface-container-lowest rounded-xl p-8 border border-[#E2E8E5] shadow-2xs space-y-6" style="border: 1px solid rgb(226, 232, 240); box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 3px;">
-                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                  <div>
-                    <span class="font-label-sm text-label-sm text-on-surface-variant font-semibold uppercase tracking-wider">Comparative Exegesis</span>
-                    <h2 class="font-headline-md text-headline-md font-semibold text-on-surface" style="font-family: 'Merriweather', Georgia, serif; letter-spacing: -0.01em;">Verbal &amp; Syntactic Inventory (Romans 6:4)</h2>
-                  </div>
-                  <span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container-low border border-[#E2E8E5] px-3 py-1.5 rounded-lg flex items-center gap-1.5">
-                    <span class="material-symbols-outlined text-[16px] text-primary">sort_by_alpha</span>
-                    Strict Agglutination Sequence
-                  </span>
-                </div>
-                <!-- Data Table -->
-                <div class="overflow-x-auto rounded-xl border border-[#E2E8E5]" style="border: 1px solid rgb(203, 213, 225);">
-                  <table class="w-full text-left font-body-sm text-body-sm">
-                    <thead class="bg-surface-container-low text-on-surface border-b border-[#E2E8E5] font-label-md text-label-md uppercase tracking-wider" style="background-color: rgb(248, 250, 252); border-bottom: 1px solid rgb(203, 213, 225); font-family: 'Plus Jakarta Sans', sans-serif;">
-                      <tr>
-                        <th class="py-3 px-4" scope="col">Scripture Word</th>
-                        <th class="py-3 px-4" scope="col">Root &amp; Etymology</th>
-                        <th class="py-3 px-4" scope="col">Affix Chain &amp; Function</th>
-                        <th class="py-3 px-4" scope="col">Theological Nuance</th>
-                        <th class="py-3 px-4" scope="col">Stress Guide</th>
-                      </tr>
-                    </thead>
-                    <tbody class="divide-y divide-[#E2E8E5] text-on-surface">
-                      <!-- Row 1 -->
-                      <tr class="hover:bg-surface-container-low/60 transition-colors">
-                        <td class="py-3.5 px-4 font-morph-root text-morph-root font-semibold text-on-surface whitespace-nowrap" style="font-family: 'Merriweather', Georgia, serif;">
-                          gömüldük
-                        </td>
-                        <td class="py-3.5 px-4 font-morph-root text-morph-root text-on-surface-variant">
-                          göm- <span class="font-body-sm text-body-sm text-on-surface block mt-0.5">Old Turkic köm- (to bury)</span>
-                        </td>
-                        <td class="py-3.5 px-4">
-                          <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-white text-on-surface font-morph-suffix text-morph-suffix border border-accent-peach-border font-medium">-ül- <span class="text-[10px] text-accent-peach">●</span></span> (Passive) + 
-                          <span class="inline-block px-2 py-0.5 bg-surface text-on-surface font-morph-suffix text-morph-suffix rounded border border-[#E2E8E5] mr-1">-dü-</span> (Past) + 
-                          <span class="inline-block px-2 py-0.5 bg-surface text-on-surface font-morph-suffix text-morph-suffix rounded border border-[#E2E8E5]">-k</span> (1st Plural)
-                        </td>
-                        <td class="py-3.5 px-4 text-on-surface-variant" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 0.875rem; line-height: 1.5;">
-                          Federal solidarity: Believers undergo passive mortification in union with Christ's entombment.
-                        </td>
-                        <td class="py-3.5 px-4 font-label-sm text-label-sm text-on-surface-variant whitespace-nowrap">
-                          gö-mül-<strong class="text-on-surface">DÜK</strong> <span class="text-on-surface-variant/70 block text-[11px]">Penultimate → Ultimate</span>
-                        </td>
-                      </tr>
-                      <!-- Row 2 -->
-                      <tr class="bg-surface-container-low/30 hover:bg-surface-container-low/60 transition-colors">
-                        <td class="py-3.5 px-4 font-morph-root text-morph-root font-semibold text-on-surface whitespace-nowrap" style="font-family: 'Merriweather', Georgia, serif;">
-                          edilerek
-                        </td>
-                        <td class="py-3.5 px-4 font-morph-root text-morph-root text-on-surface-variant">
-                          et- <span class="font-body-sm text-body-sm text-on-surface block mt-0.5">Auxiliary verb (to make / do)</span>
-                        </td>
-                        <td class="py-3.5 px-4">
-                          <span class="inline-block px-2 py-0.5 bg-surface text-on-surface font-morph-suffix text-morph-suffix rounded border border-[#E2E8E5] mr-1">t → d</span> + 
-                          <span class="inline-block px-2 py-0.5 bg-surface text-on-surface font-morph-suffix text-morph-suffix rounded border border-[#E2E8E5] mr-1">-il-</span> (Passive) + 
-                          <span class="inline-block px-2 py-0.5 bg-surface text-on-surface font-morph-suffix text-morph-suffix rounded border border-[#E2E8E5]">-erek</span> (Gerund)
-                        </td>
-                        <td class="py-3.5 px-4 text-on-surface-variant" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 0.875rem; line-height: 1.5;">
-                          Instrumental conjunction: Baptism is not the saving cause, but the passive ritual envelope of death.
-                        </td>
-                        <td class="py-3.5 px-4 font-label-sm text-label-sm text-on-surface-variant whitespace-nowrap">
-                          e-di-le-<strong class="text-on-surface">REK</strong> <span class="text-on-surface-variant/70 block text-[11px]">Stem-softening voicing</span>
-                        </td>
-                      </tr>
-                      <!-- Row 3 -->
-                      <tr class="hover:bg-surface-container-low/60 transition-colors">
-                        <td class="py-3.5 px-4 font-morph-root text-morph-root font-semibold text-on-surface whitespace-nowrap" style="font-family: 'Merriweather', Georgia, serif;">
-                          ölümüyle
-                        </td>
-                        <td class="py-3.5 px-4 font-morph-root text-morph-root text-on-surface-variant">
-                          öl- <span class="font-body-sm text-body-sm text-on-surface block mt-0.5">Proto-Turkic stem (to die)</span>
-                        </td>
-                        <td class="py-3.5 px-4">
-                          <span class="inline-block px-2 py-0.5 bg-surface text-on-surface font-morph-suffix text-morph-suffix rounded border border-[#E2E8E5] mr-1">-üm</span> + 
-                          <span class="inline-block px-2 py-0.5 bg-surface text-on-surface font-morph-suffix text-morph-suffix rounded border border-[#E2E8E5] mr-1">-ü</span> (3rd Poss.) + 
-                          <span class="inline-block px-2 py-0.5 bg-surface text-on-surface font-morph-suffix text-morph-suffix rounded border border-[#E2E8E5]">-yle</span> (Instrumental)
-                        </td>
-                        <td class="py-3.5 px-4 text-on-surface-variant" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 0.875rem; line-height: 1.5;">
-                          Covenantal participation: Christ's historical death as the means and realm of baptism.
-                        </td>
-                        <td class="py-3.5 px-4 font-label-sm text-label-sm text-on-surface-variant whitespace-nowrap">
-                          ö-lü-<strong class="text-on-surface">MÜY</strong>-le <span class="text-on-surface-variant/70 block text-[11px]">Instrumental clitic unaccented</span>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </section>
-
-              <!-- Interactive Practice & Syntax Quiz Module -->
-              <section class="bg-surface-container-lowest rounded-xl p-8 border border-[#E2E8E5] shadow-2xs space-y-6" style="border: 1px solid rgb(226, 232, 240); box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 3px;">
-                <div class="flex items-center justify-between border-b border-[#E2E8E5] pb-4" style="border-bottom: 1px solid rgb(226, 232, 240);">
-                  <div class="space-y-1">
-                    <span class="font-label-sm text-label-sm text-on-surface-variant font-semibold uppercase tracking-wider">Concept Check 04.1</span>
-                    <h2 class="font-headline-md text-headline-md font-semibold text-on-surface" style="font-family: 'Merriweather', Georgia, serif; letter-spacing: -0.01em;">Syntax Mastery &amp; Morphology Validation</h2>
-                  </div>
-                  <div class="hidden sm:flex items-center gap-1.5 font-label-md text-label-md text-on-surface-variant">
-                    <span class="material-symbols-outlined text-[18px] text-primary">keyboard</span>
-                    Select keys [A - D]
-                  </div>
-                </div>
-                <div class="space-y-4">
-                  <p class="font-body-lg text-body-lg text-on-surface font-medium" style="font-family: 'Merriweather', Georgia, serif;">
-                    Select the grammatical and semantic function of the morpheme token <span class="inline-block px-2.5 py-0.5 rounded bg-surface border border-accent-peach-border font-morph-root text-[#1C332A] font-semibold">“-ül-”</span> in the word <span class="font-morph-root text-morph-root text-on-surface font-semibold">“gömüldük”</span>:
-                  </p>
-                  <!-- Quiz Choice Grid -->
-                  <div class="grid grid-cols-1 md:grid-cols-2 gap-3" id="concept-quiz-grid" style="font-family: 'Plus Jakarta Sans', sans-serif;">
-                    <!-- Option A -->
-                    <div class="quiz-option p-4 rounded-xl bg-surface-container-low hover:bg-surface border border-[#E2E8E5] transition-all cursor-pointer flex items-start gap-3" data-quiz-choice="A" style="background-color: rgb(248, 250, 252); border: 1px solid rgb(203, 213, 225);">
-                      <span class="w-6 h-6 rounded bg-white text-on-surface font-label-md text-label-md flex items-center justify-center shrink-0 border border-[#E2E8E5]">A</span>
-                      <div class="flex flex-col">
-                        <span class="font-body-sm text-body-sm font-semibold text-on-surface">Reflexive voice marker (Dönüşlü Çatı)</span>
-                        <span class="font-label-sm text-label-sm text-on-surface-variant">Self-action performed by the subject (kendi kendine yapma)</span>
-                      </div>
-                    </div>
-                    <!-- Option B (Correct) -->
-                    <div class="quiz-option active p-4 rounded-xl bg-white border border-[#1C332A]/30 shadow-2xs transition-all cursor-pointer flex items-start gap-3 relative ring-1 ring-[#1C332A]/20" data-quiz-choice="B" style="border: 1px solid rgb(28, 51, 42); box-shadow: rgba(28, 51, 42, 0.08) 0px 2px 6px;">
-                      <span class="w-6 h-6 rounded bg-[#1C332A] text-white font-label-md text-label-md flex items-center justify-center shrink-0">B</span>
-                      <div class="flex flex-col pr-6">
-                        <span class="font-body-sm text-body-sm font-semibold text-on-surface flex items-center gap-1.5">Passive voice under 4-way vowel harmony <span class="material-symbols-outlined text-[17px] text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span></span>
-                        <span class="font-label-sm text-label-sm text-on-surface-variant">Subject is receiver of divine action (Başkası tarafından yapılma)</span>
-                      </div>
-                      <span class="absolute top-4 right-4 font-label-sm text-label-sm bg-surface-container-low text-on-surface border border-[#E2E8E5] px-2 py-0.5 rounded font-medium uppercase tracking-wider">Correct</span>
-                    </div>
-                    <!-- Option C -->
-                    <div class="quiz-option p-4 rounded-xl bg-surface-container-low hover:bg-surface border border-[#E2E8E5] transition-all cursor-pointer flex items-start gap-3" data-quiz-choice="C" style="background-color: rgb(248, 250, 252); border: 1px solid rgb(203, 213, 225);">
-                      <span class="w-6 h-6 rounded bg-white text-on-surface font-label-md text-label-md flex items-center justify-center shrink-0 border border-[#E2E8E5]">C</span>
-                      <div class="flex flex-col">
-                        <span class="font-body-sm text-body-sm font-semibold text-on-surface">Reciprocal voice marker (İşteş Çatı)</span>
-                        <span class="font-label-sm text-label-sm text-on-surface-variant">Mutual action conducted cooperatively (birlikte 또는 karşılıklı)</span>
-                      </div>
-                    </div>
-                    <!-- Option D -->
-                    <div class="quiz-option p-4 rounded-xl bg-surface-container-low hover:bg-surface border border-[#E2E8E5] transition-all cursor-pointer flex items-start gap-3" data-quiz-choice="D" style="background-color: rgb(248, 250, 252); border: 1px solid rgb(203, 213, 225);">
-                      <span class="w-6 h-6 rounded bg-white text-on-surface font-label-md text-label-md flex items-center justify-center shrink-0 border border-[#E2E8E5]">D</span>
-                      <div class="flex flex-col">
-                        <span class="font-body-sm text-body-sm font-semibold text-on-surface">Causative affix (Ettirgenlik / Oldurganlık eki)</span>
-                        <span class="font-label-sm text-label-sm text-on-surface-variant">Subject causes another party to perform burial</span>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Correct Feedback Explanation Panel -->
-                  <div id="concept-feedback-panel" class="bg-surface-container-low rounded-xl p-5 space-y-2 border border-[#E2E8E5]" style="background-color: rgb(248, 250, 252); border: 1px solid rgb(203, 213, 225); font-family: 'Plus Jakarta Sans', sans-serif;">
-                    <div class="flex items-center gap-2 text-primary">
-                      <span class="material-symbols-outlined text-[18px]">verified</span>
-                      <h4 class="font-body-md text-body-md font-semibold text-on-surface">Morphological Confirmation &amp; Cross-Reference</h4>
-                    </div>
-                    <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-                      The affix <strong class="font-morph-root text-on-surface">-ül-</strong> is an allomorph of the passive marker (<span class="font-morph-root text-on-surface">-il / -ıl / -ul / -ül</span>), required here by the front-rounded root vowel <strong class="font-morph-root text-on-surface">ö</strong> in <span class="font-morph-root text-on-surface">göm-</span>. Compare this with <span class="font-morph-root text-on-surface">vaftiz edilerek</span> earlier in the same verse, where <span class="font-morph-root text-on-surface">et-</span> takes <span class="font-morph-root text-on-surface">-il-</span> because <strong class="font-morph-root text-on-surface">e</strong> is an unrounded front vowel.
-                    </p>
-                  </div>
-                </div>
-                <!-- Quick Action Utilities -->
-                <div class="pt-4 flex flex-wrap items-center justify-between gap-3 border-t border-[#E2E8E5]">
-                  <div class="flex items-center gap-2">
-                    <button class="px-4 py-2 rounded-lg bg-white border border-[#E2E8E5] text-on-surface font-body-sm text-body-sm font-medium hover:bg-surface-container transition-colors flex items-center gap-2 shadow-2xs cursor-pointer" id="add-lexicon-btn" type="button">
-                      <span class="material-symbols-outlined text-[18px] text-primary">bookmark_add</span>
-                      Add to My Lexicon Notebook
-                    </button>
-                    <button class="px-4 py-2 rounded-lg bg-white border border-[#E2E8E5] text-on-surface font-body-sm text-body-sm font-medium hover:bg-surface-container transition-colors flex items-center gap-2 shadow-2xs cursor-pointer" id="anki-export-btn" type="button">
-                      <span class="material-symbols-outlined text-[18px] text-primary">file_download</span>
-                      Export Anki Deck (.tsv)
-                    </button>
-                  </div>
-                  <button onclick="selectToken(1)" class="px-5 py-2.5 rounded-lg bg-[#1C332A] text-white font-body-sm text-body-sm font-semibold hover:bg-primary transition-all flex items-center gap-2 shadow-2xs cursor-pointer" type="button">
-                    Practice Next Suffix (-erek)
-                    <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
-                  </button>
-                </div>
-              </section>
-
-              <!-- Dynamic Multi-Verse Syntax Explorer -->
-              <section class="bg-surface-container-lowest rounded-xl p-8 border border-[#E2E8E5] shadow-2xs space-y-6">
-                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-[#E2E8E5] pb-4">
-                  <div>
-                    <span class="font-label-sm text-label-sm text-on-surface-variant font-semibold uppercase tracking-wider">Corpus Selector</span>
-                    <h3 class="font-headline-md text-headline-md font-semibold text-on-surface" style="font-family: 'Merriweather', Georgia, serif;">
-                      신약 성경 주요 본문 형태소 분석기 (Corpus Explorer)
-                    </h3>
-                  </div>
-                  <div id="verse-selector-container" class="flex flex-wrap items-center gap-2">
-                    <!-- Rendered dynamically in app.js -->
-                  </div>
-                </div>
-
-                <div id="verse-syntax-display">
-                  <!-- Rendered dynamically in app.js -->
-                </div>
-              </section>
-
             </div>
 
-            <!-- Lesson 4.2: Ünlü Düşmesi Quiz -->
             <div id="lesson-ch4-2" class="lesson-block space-y-6 hidden">
               <section class="bg-surface-container-lowest rounded-xl p-6 sm:p-8 border border-[#E2E8E5] shadow-2xs space-y-4">
                 <div class="flex items-center gap-3">
@@ -1410,7 +905,7 @@
           <!-- CHAPTER 5: 6단계 기도문 스튜디오 (Prayer Builder)         -->
           <!-- ======================================================== -->
           <div id="section-ch5" class="lesson-section space-y-6 hidden">
-            
+
             <!-- In-Chapter Horizontal Sub-Tab Bar -->
             <div class="sticky top-0 z-20 -mx-4 sm:-mx-8 px-4 sm:px-8 py-2.5 bg-[#EEF3F0]/95 backdrop-blur-md border-b border-[#F8C4C4]/60 flex items-center gap-2 overflow-x-auto custom-dark-scrollbar mb-2">
               <span class="font-label-sm text-label-sm font-bold text-[#DE5D5D] uppercase tracking-wider shrink-0 mr-1 flex items-center gap-1">
@@ -1470,7 +965,7 @@
                     조립형 기도문 스튜디오 &amp; 음성 낭독 (TTS)
                   </h1>
                   <p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">
-                    원하는 문장 블록을 클릭하여 나만의 터키어 기도문을 완성하고, 원어민 음성(TTS)으로 들으며 로컬에 저장하세요.
+                    원하는 문장 블록을 클릭하여 나만의 터키어 기도문을 완성하고, 합성 음성 음성(TTS)으로 들으며 로컬에 저장하세요.
                   </p>
                 </div>
               </section>
@@ -1492,8 +987,8 @@
                       <span class="font-label-sm text-label-sm text-primary font-mono">Live Editor</span>
                     </div>
 
-                    <textarea id="assembled-tr-textarea" 
-                              rows="8" 
+                    <textarea id="assembled-tr-textarea"
+                              rows="8"
                               class="w-full bg-surface-container-low p-3.5 rounded-lg border border-[#E2E8E5] focus:border-primary text-xs sm:text-sm text-on-surface leading-relaxed outline-none resize-none shadow-inner"></textarea>
 
                     <div class="grid grid-cols-3 gap-2">
@@ -1513,7 +1008,7 @@
 
                     <!-- Ambient Volume Slider inside editor -->
                     <div class="p-3 rounded-lg bg-surface-container-low border border-[#E2E8E5] flex items-center justify-between">
-                      <span class="font-label-sm text-label-sm font-semibold text-on-surface">묵상음 볼륨:</span>
+                      <label for="ambient-volume-slider" class="font-label-sm text-label-sm font-semibold text-on-surface">묵상음 볼륨:</label>
                       <input type="range" id="ambient-volume-slider" min="0" max="1" step="0.05" value="0.25" class="w-32 h-1 bg-[#E2E8E5] rounded-lg appearance-none cursor-pointer accent-[#637D73]">
                     </div>
 
@@ -1536,7 +1031,7 @@
                     <span class="material-symbols-outlined text-[15px]">library_books</span>
                     Situational Pastoral Prayers
                   </span>
-                  <span class="font-label-sm text-label-sm text-on-surface-variant">Chapter 5.3 • 5 Ministry Standard Prayers</span>
+                  <span class="font-label-sm text-label-sm text-on-surface-variant">Chapter 5.3 • 5 Teaching Prayers</span>
                 </div>
                 <div class="space-y-1">
                   <h1 class="font-headline-lg text-headline-lg font-semibold text-on-surface tracking-tight" style="font-family: 'Merriweather', Georgia, serif;">
@@ -1556,10 +1051,10 @@
           </div>
 
           <!-- ======================================================== -->
-          <!-- CHAPTER 6: MEB 2023 종교 표기 규정 (MEB Spelling Rules)   -->
+          <!-- CHAPTER 6: TDK 종교 표기 규정 (Turkish Spelling Rules)   -->
           <!-- ======================================================== -->
           <div id="section-ch6" class="lesson-section space-y-6 hidden">
-            
+
             <!-- In-Chapter Horizontal Sub-Tab Bar -->
             <div class="sticky top-0 z-20 -mx-4 sm:-mx-8 px-4 sm:px-8 py-2.5 bg-[#EEF3F0]/95 backdrop-blur-md border-b border-[#A2D8BE]/60 flex items-center gap-2 overflow-x-auto custom-dark-scrollbar mb-2">
               <span class="font-label-sm text-label-sm font-bold text-[#27855E] uppercase tracking-wider shrink-0 mr-1 flex items-center gap-1">
@@ -1583,7 +1078,7 @@
                 <div class="flex items-center gap-3">
                   <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface text-secondary font-label-md text-label-md uppercase tracking-wider font-semibold border border-[#E2E8E5]">
                     <span class="material-symbols-outlined text-[15px]">history_edu</span>
-                    Official MEB 2023 Orthography
+                    Official TDK Orthography
                   </span>
                   <span class="font-label-sm text-label-sm text-on-surface-variant">Chapter 6.1 • 11 Core Orthography Rules</span>
                 </div>
@@ -1728,166 +1223,31 @@
 
   </div>
 
+  <p id="global-audio-status" role="status" class="fixed bottom-2 left-2 bg-white p-2 rounded text-sm max-w-xs z-50"></p>
+
+  </div>
   <!-- Scripts -->
   <script src="data.js"></script>
+  <script src="lessons.js"></script>
+  <script src="editorial-data.js"></script>
+  <script src="source-curriculum.js"></script>
+  <script src="prayer-curriculum.js"></script>
+  <script src="context-curriculum.js"></script>
+  <script src="reading-curriculum.js"></script>
+  <script src="curriculum-index.js"></script>
+  <script src="study-catalog.js"></script>
+  <script src="learning-store.js"></script>
   <script src="audio.js"></script>
+  <script src="course.js"></script>
+  <script src="shell-translations.js"></script>
+  <script src="teaching-language.js"></script>
   <script src="app.js"></script>
+  <script src="prayer-modes.js"></script>
+  <link rel="stylesheet" href="course.css">
 
-  <!-- Google Stitch Workspace Micro-Interactions -->
-  <script>
-    (function initStitchInteractions() {
-      // Audio play toggle micro-interaction
-      const playToggle = document.getElementById('audio-play-toggle');
-      const playIcon = document.getElementById('play-icon');
-      const timeCurrent = document.getElementById('time-current');
-      let isPlaying = false;
-      let timer = null;
-      let seconds = 4;
-
-      if (playToggle && playIcon) {
-        playToggle.addEventListener('click', () => {
-          isPlaying = !isPlaying;
-          if (isPlaying) {
-            playIcon.textContent = 'pause';
-            if (window.audioEngine) {
-              window.audioEngine.speakTurkish("Demek ki, Onun ölümüyle vaftiz edilerek Onunla birlikte mezara gömüldük.");
-            }
-            timer = setInterval(() => {
-              if (seconds < 18) {
-                seconds++;
-                timeCurrent.textContent = '0:' + (seconds < 10 ? '0' + seconds : seconds);
-              } else {
-                seconds = 0;
-                playIcon.textContent = 'play_arrow';
-                isPlaying = false;
-                clearInterval(timer);
-              }
-            }, 1000);
-          } else {
-            playIcon.textContent = 'play_arrow';
-            clearInterval(timer);
-            if ('speechSynthesis' in window) {
-              window.speechSynthesis.cancel();
-            }
-          }
-        });
-      }
-
-      // Audio speed switches
-      const speedSlow = document.getElementById('speed-slow');
-      const speedNormal = document.getElementById('speed-normal');
-
-      if (speedSlow && speedNormal) {
-        speedSlow.addEventListener('click', () => {
-          speedSlow.className = 'px-2.5 py-1 bg-white text-on-surface font-label-md text-label-md font-semibold rounded shadow-2xs';
-          speedNormal.className = 'px-2.5 py-1 text-on-surface-variant font-label-md text-label-md rounded hover:bg-white transition-colors';
-          if (window.audioEngine) window.audioEngine.playbackRate = 0.8;
-          const indicator = document.getElementById('speed-indicator');
-          if (indicator) indicator.textContent = '0.8x';
-        });
-
-        speedNormal.addEventListener('click', () => {
-          speedNormal.className = 'px-2.5 py-1 bg-white text-on-surface font-label-md text-label-md font-semibold rounded shadow-2xs';
-          speedSlow.className = 'px-2.5 py-1 text-on-surface-variant font-label-md text-label-md rounded hover:bg-white transition-colors';
-          if (window.audioEngine) window.audioEngine.playbackRate = 1.0;
-          const indicator = document.getElementById('speed-indicator');
-          if (indicator) indicator.textContent = '1.0x';
-        });
-      }
-
-      // Lexicon toast feedback
-      const lexiconBtn = document.getElementById('add-lexicon-btn');
-      if (lexiconBtn) {
-        lexiconBtn.addEventListener('click', () => {
-          const original = lexiconBtn.innerHTML;
-          lexiconBtn.innerHTML = '<span class="material-symbols-outlined text-[18px] text-primary">check</span> Added to Notebook';
-          setTimeout(() => {
-            lexiconBtn.innerHTML = original;
-          }, 2400);
-        });
-      }
-
-      // Anki export feedback
-      const ankiBtn = document.getElementById('anki-export-btn');
-      if (ankiBtn) {
-        ankiBtn.addEventListener('click', () => {
-          const original = ankiBtn.innerHTML;
-          ankiBtn.innerHTML = '<span class="material-symbols-outlined text-[18px] text-primary">download_done</span> Exported Romans6_4.tsv';
-          
-          // Generate actual TSV file for user download
-          const tsvContent = "Word\tRoot\tAffix Chain\tTheological Nuance\tTranslation\n" +
-            "gömüldük\tgöm- (to bury)\t-ül- (Passive) + -dü- (Past) + -k (1st Plural)\tBelievers undergo passive mortification in union with Christ's entombment\twe were buried\n" +
-            "edilerek\tet- (auxiliary)\tt→d + -il- (Passive) + -erek (Gerund)\tBaptism as the passive ritual envelope of death\tbeing baptized\n" +
-            "ölümüyle\töl- (to die)\t-üm + -ü (3rd Poss) + -yle (Instrumental)\tCovenantal participation in Christ's historical death\tthrough His death\n";
-          
-          const blob = new Blob([tsvContent], { type: 'text/tab-separated-values;charset=utf-8;' });
-          const url = URL.createObjectURL(blob);
-          const link = document.createElement('a');
-          link.setAttribute('href', url);
-          link.setAttribute('download', 'Romans6_4_Morphology.tsv');
-          document.body.appendChild(link);
-          link.click();
-          document.body.removeChild(link);
-
-          setTimeout(() => {
-            ankiBtn.innerHTML = original;
-          }, 2400);
-        });
-      }
-
-      // Interactive Concept Check 04.1 Quiz
-      const quizOptions = document.querySelectorAll('#concept-quiz-grid .quiz-option');
-      const feedbackPanel = document.getElementById('concept-feedback-panel');
-      quizOptions.forEach(opt => {
-        opt.addEventListener('click', () => {
-          const choice = opt.getAttribute('data-quiz-choice');
-          quizOptions.forEach(o => {
-            o.classList.remove('active', 'ring-1', 'ring-[#1C332A]/20', 'bg-white', 'border-[#1C332A]/30');
-            o.classList.add('bg-surface-container-low');
-          });
-          opt.classList.add('active', 'bg-white', 'border-[#1C332A]/30', 'ring-1', 'ring-[#1C332A]/20');
-          opt.classList.remove('bg-surface-container-low');
-
-          if (choice === 'B') {
-            if (window.audioEngine) window.audioEngine.playCorrectSound();
-            if (feedbackPanel) {
-              feedbackPanel.innerHTML = `
-                <div class="flex items-center gap-2 text-primary">
-                  <span class="material-symbols-outlined text-[18px]">verified</span>
-                  <h4 class="font-body-md text-body-md font-semibold text-on-surface">정답입니다! (Correct - Passivum Divinum)</h4>
-                </div>
-                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-                  접미사 <strong class="font-morph-root text-on-surface">-ül-</strong>은 4단 전설원순모음(ö)의 조화에 의해 선택된 피동 접미사(Passivum)입니다. 신자가 스스로 묻거나(재귀) 서로를 묻는 것이 아니라, 그리스도의 장사되심에 전적인 은혜로 수동적 연합을 이루었음을 뜻합니다.
-                </p>
-              `;
-            }
-          } else {
-            if (window.audioEngine) window.audioEngine.playWrongSound();
-            if (feedbackPanel) {
-              feedbackPanel.innerHTML = `
-                <div class="flex items-center gap-2 text-rose-700">
-                  <span class="material-symbols-outlined text-[18px]">cancel</span>
-                  <h4 class="font-body-md text-body-md font-semibold text-rose-900">오답입니다. 정답은 [B] 피동태(Passivum)입니다.</h4>
-                </div>
-                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-                  [${choice}]는 잘못된 문법 기능입니다. 터키어에서 재귀는 <span class="font-mono">-in-</span>, 사동은 <span class="font-mono">-dür-/-t-</span>, 상호는 <span class="font-mono">-iş-</span>를 사용합니다. <strong class="text-on-surface">-ül-</strong>은 자음 끝 어근에 결합하는 대표적 피동 표지입니다.
-                </p>
-              `;
-            }
-          }
-        });
-      });
-
-      // Chapter navigation click handler to expand and jump
-      document.querySelectorAll('.chapter-nav-item').forEach(item => {
-        item.addEventListener('click', () => {
-          const chap = item.getAttribute('data-chapter-nav');
-          if (chap && window.selectLesson) {
-            window.selectLesson(`ch${chap}-1`);
-          }
-        });
-      });
-    })();
-  </script>
+  <script src="legacy-shell.js"></script>
+  <link rel="stylesheet" href="learning.css">
+  <link rel="stylesheet" href="classroom.css">
+  <script src="learning-app.js"></script>
 </body>
 </html>
