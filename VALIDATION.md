@@ -26,3 +26,5 @@ The browser suite uses speech stubs rather than an actual microphone or installe
 The responsive check found a legacy pronunciation tab bar extending beyond the tablet reading area. Its negative margins and per-chapter colouring were replaced with contained, wrapping tabs; the complete suite was rerun. The prayer builder’s nested playback button was separated into valid sibling buttons. Empty recognition results and unfinished prayer drafts received targeted fixes and regression checks.
 
 Independent Turkish/Korean specialist review remains pending. The ten extended source prayers are shortened adaptations, not full transcripts. Only three newly verified Turkish verses are reproduced inline; longer reading assignments use external edition links. No original PDF images, hymns or recordings are bundled. There is no account sync/backend, and this release is submitted for review without merging or deployment.
+
+Initial Linux CI exposed an asynchronous test timing assumption after selecting a backup file. The regression test now waits for file validation feedback before asserting; application backup validation still precedes mutation.
