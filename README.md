@@ -29,7 +29,7 @@ The ten practical lessons cover clarification, hospitality, permission to pray, 
 
 Lessons use **Read → Understand → Practise → Use**. Each has objectives, prerequisites, Turkish text with translations, bilingual meaning/grammar/register teaching, vocabulary, reusable patterns, explained guided practice and an independent task with a model and five-category rubric. Answer options rotate deterministically while retaining stable choice identities. Open writing/speaking uses model comparison and self-assessment, not exact-string grading.
 
-Hash routes work with GitHub Pages, browser Back and direct links, for example `#/lesson/ministry-04/understand`. Last lesson sections and drafts survive reload. Phones use five labelled bottom destinations and a native lesson-outline dialog; desktop uses a light sidebar and word-inspector panel.
+Hash routes work with GitHub Pages, browser Back and direct links, for example `#/lesson/ministry-04/understand`. Last lesson sections and drafts survive reload. Phones use five labelled bottom destinations and a native lesson-outline dialog; desktop uses a forest-green sidebar and word-inspector panel. The reference-based palette combines dark green navigation, light apricot accents, a gray-green canvas and cool gray borders. Merriweather and Noto Serif KR remain the locally bundled reading fonts.
 
 ## Progress, device backups and future accounts
 

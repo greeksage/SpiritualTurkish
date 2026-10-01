@@ -28,3 +28,9 @@ The responsive check found a legacy pronunciation tab bar extending beyond the t
 Independent Turkish/Korean specialist review remains pending. The ten extended source prayers are shortened adaptations, not full transcripts. Only three newly verified Turkish verses are reproduced inline; longer reading assignments use external edition links. No original PDF images, hymns or recordings are bundled. There is no account sync/backend, and this release is submitted for review without merging or deployment.
 
 Initial Linux CI exposed an asynchronous test timing assumption after selecting a backup file. The regression test now waits for file validation feedback before asserting; application backup validation still precedes mutation.
+
+## Forest/apricot reference update
+
+The user-requested color revision was checked against the supplied screenshot in the in-app browser. Desktop navigation and phone header/bottom navigation now use forest green; apricot marks selected states and review actions; reading panels and gray borders improve surface separation. Existing fonts and learning content remain intact. Manual review covered Home, a reference-sized Scripture workshop, lesson reading, the word inspector, Bible cards and Korean phone Learn. A legacy dark-button contrast issue was corrected. Rendered navigation/action text sampled between 7.21:1 and 12.11:1 contrast.
+
+After the final stylesheet change, `npm test` (12 checks), `npm run build:css`, `git diff --check` and the full `npm run test:browser` suite passed again. All 77 lessons/four stages in both languages at 360/390/768/1440px, 82 readings and 24 workshops remain functional without document overflow, unexpected console errors or missing assets. See [design-qa.md](design-qa.md) for reference comparison and captured evidence.
