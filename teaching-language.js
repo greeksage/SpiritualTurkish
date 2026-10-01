@@ -11,6 +11,7 @@
   for(const [key,pair] of Object.entries(window.SHELL_TRANSLATIONS))dictionary.set(key,pair[0]);
   const sorted=[...dictionary].sort((a,b)=>b[0].length-a[0].length);
   const englishShell={
+    '1. PRONUNCIATION:':'1. 발음:', '2. EVANGELISM:':'2. 사역 대화:', '3. WORLDVIEW:':'3. 세계관:', '4. SCRIPTURE SYNTAX:':'4. 성경 문법:', '5. PRAYER BUILDER:':'5. 기도 조립:', '6. ORTHOGRAPHY:':'6. 표기 규칙:',
     'Overall Progress':'사역 과제 진행률','LMS Studio':'학습 스튜디오','Morphology & Theological LMS':'형태와 신학 학습','TURKISH DIACRITICS':'터키어 특수 문자','Anatolian Ministry':'아나톨리아 사역','Curriculum':'학습 과정',
     '1. Pronunciation Lab':'1. 발음 클리닉','B/D/G Voicing & Hece Rhythm':'B/D/G 성대 진동과 음절 리듬','2. Evangelism Simulator':'2. 사역 대화 시뮬레이터','3. Culture & Worldview':'3. 문화와 세계관','4. Scripture Syntax':'4. 성경 문장과 문법','Romans 6:4 Dissection':'로마서 6:4 문법 연습','5. Prayer Workshop':'5. 기도 워크숍','6-Step Prayer Builder':'여섯 단계 기도 조립','6. Turkish Spelling Rules':'6. 터키어 표기 규칙',
     'Chapter 1.1 • Voiced Plosives':'1.1장 · 유성 파열음','Chapter 1.2 • Heceleme':'1.2장 · 음절 분절','Chapter 1.3 • Düzeltme İşareti':'1.3장 · 곡절 부호','Chapter 1.4 • Recognised-text Match':'1.4장 · 인식된 텍스트 비교','Chapter 2 • 7 Evangelism Scenarios':'2장 · 일곱 사역 대화','Chapter 3.1 • Sevap vs Grace':'3.1장 · Sevap와 은혜','Chapter 3.2 • Kul Hakkı':'3.2장 · Kul Hakkı','Chapter 3.3 • 8 Stages of Afterlife':'3.3장 · 내세 용어 여덟 항목','Chapter 3.4 • Fıkıh Terminology':'3.4장 · 종교법 용어','Chapter 4.2 • Ünlü Düşmesi':'4.2장 · 모음 탈락','Chapter 4.3 • 3D Flip Cards':'4.3장 · 의미 비교 카드','Chapter 5.1 • 6-Step Flow':'5.1장 · 여섯 단계 기도','Chapter 5.2 • Live Builder & TTS':'5.2장 · 조립과 합성 음성','Chapter 5.3 • 5 Teaching Prayers':'5.3장 · 학습 기도문 다섯 개','Chapter 6.1 • 11 Core Orthography Rules':'6.1장 · 표기 규칙 열한 개','Chapter 6.2 • 7 Pitfalls':'6.2장 · 표기 연습 일곱 개','Chapter 6.3 • Hata Düzeltme':'6.3장 · 교정 연습'
@@ -38,6 +39,7 @@
     document.querySelectorAll('[data-aria-en][data-aria-ko]').forEach(el=>el.setAttribute('aria-label',course.language==='en'?el.dataset.ariaEn:el.dataset.ariaKo));
     document.querySelectorAll('[placeholder],[title],[aria-label]').forEach(el=>{for(const a of ['placeholder','title','aria-label']){const val=el.getAttribute(a);if(dictionary.has(val)){el.dataset['original'+a.replace('-','')]=val;el.setAttribute(a,course.language==='en'?dictionary.get(val):val);}else if(course.language==='ko'&&el.dataset['original'+a.replace('-','')])el.setAttribute(a,el.dataset['original'+a.replace('-','')]);}});
     document.querySelectorAll('.sidebar-sublesson-btn[data-lesson-id^="ch"]').forEach((btn,i)=>{const label=btn.querySelector('.flex span:not(.lesson-badge)');if(label){if(!label.dataset.ko)label.dataset.ko=label.textContent;label.textContent=course.language==='en'?titlesEn[i]:label.dataset.ko;}});
+    document.querySelectorAll('.in-chapter-subtab[data-subtab-id]').forEach(btn=>{const id=btn.dataset.subtabId;const label=btn.querySelector('span');if(label)label.textContent=id.replace(/^ch/,'').replace('-','.')+' '+window.legacyLessonTitle(id);});
   }
   function apply() {
     const customPrayer=document.getElementById('assembled-tr-textarea')?.value;
