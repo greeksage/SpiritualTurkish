@@ -121,6 +121,8 @@ document.addEventListener('DOMContentLoaded', () => {
     { id: 'ch6-3', chapter: 6, chapterName: 'MEB 2023 종교 표기 규정', title: '6.3 실시간 오탈자 교정기 미니게임' },
   ];
 
+  window.selectLesson = selectLesson;
+
   function selectLesson(lessonId) {
     const idx = LESSONS.findIndex(l => l.id === lessonId);
     if (idx === -1) return;
@@ -128,6 +130,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
     state.currentLessonId = lessonId;
     state.completedLessons.add(lessonId);
+
+    // Update Chapter group header active state
+    document.querySelectorAll('.chapter-nav-item').forEach(cItem => {
+      const cNum = parseInt(cItem.getAttribute('data-chapter-nav'), 10);
+      const icon = cItem.querySelector('.chapter-icon');
+      if (cNum === lesson.chapter) {
+        cItem.classList.add('active');
+        cItem.classList.remove('text-white/70');
+        cItem.classList.add('text-white');
+        if (icon) {
+          icon.classList.add('text-accent-peach');
+          icon.classList.remove('text-white/70');
+        }
+      } else {
+        cItem.classList.remove('active');
+        cItem.classList.remove('text-white');
+        cItem.classList.add('text-white/70');
+        if (icon) {
+          icon.classList.remove('text-accent-peach');
+          icon.classList.add('text-white/70');
+        }
+      }
+    });
 
     // Update Sidebar active state & completion checkmark
     document.querySelectorAll('.sidebar-sublesson-btn').forEach(btn => {
@@ -142,7 +167,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const statusSpan = btn.querySelector('.lesson-status');
       if (statusSpan && state.completedLessons.has(bId)) {
         statusSpan.textContent = '✓';
-        statusSpan.classList.add('text-[#2A6F5B]', 'font-bold');
+        statusSpan.classList.add('text-accent-peach', 'font-bold');
+        statusSpan.classList.remove('text-white/40');
       }
     });
 
@@ -150,9 +176,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const breadcrumb = document.getElementById('breadcrumb-display');
     if (breadcrumb) {
       breadcrumb.innerHTML = `
-        <span class="text-[#5D776C]">Chapter ${lesson.chapter}: ${lesson.chapterName}</span>
-        <span class="text-[#829D91]">›</span>
-        <span class="text-[#2A6F5B] font-bold">${lesson.title}</span>
+        <a class="hover:text-primary transition-colors hidden sm:inline" href="#">Curriculum</a>
+        <span class="text-outline/40 hidden sm:inline">›</span>
+        <span class="text-primary font-medium">Chapter ${lesson.chapter}: ${lesson.chapterName}</span>
+        <span class="text-outline/40">›</span>
+        <span class="font-semibold text-on-surface truncate max-w-xs sm:max-w-sm">${lesson.title}</span>
       `;
     }
 
@@ -197,8 +225,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Mobile sidebar close
     const sidebar = document.getElementById('sidebar');
+    const backdrop = document.getElementById('sidebar-backdrop');
     if (sidebar && window.innerWidth < 1024) {
       sidebar.classList.add('-translate-x-full');
+      if (backdrop) backdrop.classList.add('hidden');
     }
 
     if (window.audioEngine) {
@@ -243,19 +273,40 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Mobile sidebar toggle
+  // Chapter group header click listener
+  document.querySelectorAll('.chapter-nav-item').forEach(item => {
+    item.addEventListener('click', () => {
+      const chap = item.getAttribute('data-chapter-nav');
+      if (chap) {
+        selectLesson(`ch${chap}-1`);
+      }
+    });
+  });
+
+  // Mobile sidebar toggle & backdrop
   const sidebar = document.getElementById('sidebar');
   const toggleBtn = document.getElementById('sidebar-toggle-btn');
   const closeBtn = document.getElementById('sidebar-close-btn');
+  const backdrop = document.getElementById('sidebar-backdrop');
 
   if (toggleBtn && sidebar) {
     toggleBtn.addEventListener('click', () => {
       sidebar.classList.toggle('-translate-x-full');
+      if (backdrop) {
+        backdrop.classList.toggle('hidden', sidebar.classList.contains('-translate-x-full'));
+      }
     });
   }
   if (closeBtn && sidebar) {
     closeBtn.addEventListener('click', () => {
       sidebar.classList.add('-translate-x-full');
+      if (backdrop) backdrop.classList.add('hidden');
+    });
+  }
+  if (backdrop && sidebar) {
+    backdrop.addEventListener('click', () => {
+      sidebar.classList.add('-translate-x-full');
+      backdrop.classList.add('hidden');
     });
   }
 
@@ -1021,8 +1072,8 @@ document.addEventListener('DOMContentLoaded', () => {
                   class="px-4 py-2 rounded-lg bg-stone-100 hover:bg-stone-200 text-slate-700 text-xs font-semibold transition border border-stone-200">
             🔄 시나리오 다시 하기
           </button>
-          <button onclick="switchTab('tab-prayer')" 
-                  class="px-4 py-2 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold transition shadow-sm flex items-center gap-1.5">
+          <button onclick="selectLesson('ch5-1')" 
+                  class="px-4 py-2 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold transition shadow-sm flex items-center gap-1.5 cursor-pointer">
             <span>기도문 빌더로 영혼 품기</span>
             <span>→</span>
           </button>

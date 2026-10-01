@@ -1,105 +1,225 @@
 /* ============================================================ */
-/* SPIRITUAL TURKISH - LMS & LEARNING STUDIO STYLES              */
-/* Palette: Pale Mint-Stone, Soft Sage, Warm Cream, Apricot, Aqua*/
+/* SPIRITUAL TURKISH - Google Stitch Editorial LMS Theme        */
+/* Palette: Pine Green (#243B32), Sage (#637D73),               */
+/* Surface (#F4F6F4), White (#FFFFFF), Peach Accent (#FFB695)   */
 /* ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
 
 :root {
-  --font-sans: 'Plus Jakarta Sans', 'Inter', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  
-  --bg-workspace: #EFF5F1;
-  --bg-sidebar: #DEE9E3;
-  --border-sidebar: #CDDCD3;
-  
-  --card-cream: #FDFBF7;
-  --border-cream: #EBE5DA;
-  
-  --card-peach: #FFF4EF;
-  --border-peach: #FCDFD3;
-  
-  --card-aqua: #E9F5F0;
-  --border-aqua: #CFE6DC;
-  
-  --card-amber: #FEF9E7;
-  --border-amber: #F9E9B8;
-  
-  --text-header: #1C332A;
-  --text-body: #2D453C;
-  --text-muted: #5D776C;
-  --text-subtle: #829D91;
-  
-  --color-primary: #2A6F5B;
-  --color-accent: #EA5D3B;
-  --color-amber: #D48B38;
+  --color-pine: #243B32;
+  --color-pine-dark: #1C332A;
+  --color-sage: #637D73;
+  --color-sage-light: #CDE9DD;
+  --color-peach: #FFB695;
+  --color-peach-light: #FFECE3;
+  --color-peach-border: #FCDFD3;
+  --color-surface: #F4F6F4;
+  --color-surface-card: #FFFFFF;
+  --color-surface-low: #F8FAFC;
+  --color-border: #E2E8E5;
+  --color-text-main: #1C332A;
+  --color-text-variant: #526059;
 }
 
-* {
-  box-sizing: border-box;
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  body {
+    overscroll-behavior: none;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--color-surface);
+    color: var(--color-text-main);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 }
 
-body {
-  font-family: var(--font-sans);
-  background-color: var(--bg-workspace);
-  color: var(--text-body);
+/* Typography Helpers from Google Stitch */
+.font-serif {
+  font-family: 'Merriweather', Georgia, serif;
+}
+
+.font-morph-root {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.9375rem;
+  line-height: 1.375rem;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+
+.font-morph-suffix {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+}
+
+.font-headline-lg {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 2rem;
+  line-height: 2.5rem;
   letter-spacing: -0.015em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
-  height: 100vh;
+  font-weight: 600;
 }
 
-/* Card Surface Classes */
-.card-cream {
-  background-color: var(--card-cream);
-  border: 1px solid var(--border-cream);
-  border-radius: 0.625rem; /* 10px */
+.font-headline-md {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.01em;
+  font-weight: 600;
 }
 
-.card-peach {
-  background-color: var(--card-peach);
-  border: 1px solid var(--border-peach);
-  border-radius: 0.625rem;
+.font-headline-sm {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  letter-spacing: 0em;
+  font-weight: 500;
 }
 
-.card-aqua {
-  background-color: var(--card-aqua);
-  border: 1px solid var(--border-aqua);
-  border-radius: 0.625rem;
+.font-body-lg {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  letter-spacing: 0.01em;
+  font-weight: 400;
 }
 
-.card-amber {
-  background-color: var(--card-amber);
-  border: 1px solid var(--border-amber);
-  border-radius: 0.625rem;
+.font-body-md {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.65rem;
+  letter-spacing: 0.005em;
+  font-weight: 400;
 }
 
-/* Sidebar Item Active / Inactive */
+.font-body-sm {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.45rem;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+
+.font-label-md {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+.font-label-sm {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6875rem;
+  line-height: 0.875rem;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+}
+
+/* Shadows */
+.shadow-2xs {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* Stitch Card Harmonizers */
+.card-cream, .card-stitch {
+  background-color: #FFFFFF !important;
+  border: 1px solid #E2E8E5 !important;
+  border-radius: 0.75rem !important; /* 12px */
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04);
+}
+
+.card-peach, .card-stitch-peach {
+  background-color: #FFECE3 !important;
+  border: 1px solid #FCDFD3 !important;
+  border-radius: 0.75rem !important;
+}
+
+.card-aqua, .card-stitch-aqua {
+  background-color: #F2F7F4 !important;
+  border: 1px solid #BCE3D2 !important;
+  border-radius: 0.75rem !important;
+}
+
+.card-amber, .card-stitch-amber {
+  background-color: #FFF8F5 !important;
+  border: 1px solid #FCDFD3 !important;
+  border-radius: 0.75rem !important;
+}
+
+/* Harmonize generic border and background utility classes */
+.border-stone-200, .border-stone-200\/90, .border-\[\#CDDCD3\] {
+  border-color: #E2E8E5 !important;
+}
+
+.bg-stone-50, .bg-stone-50\/80 {
+  background-color: #F8FAFC !important;
+}
+
+.bg-stone-100, .bg-stone-100\/90 {
+  background-color: #F1F5F9 !important;
+}
+
+.bg-emerald-700, .bg-emerald-800 {
+  background-color: #1C332A !important;
+}
+.hover\:bg-emerald-800:hover, .hover\:bg-emerald-900:hover {
+  background-color: #243B32 !important;
+}
+
+/* Sidebar Item Interactions */
+.chapter-nav-item {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.chapter-nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #FFFFFF;
+}
+
+.chapter-nav-item.active {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+  color: #FFFFFF !important;
+  border-left: 2px solid #FFB695 !important;
+  font-weight: 600;
+}
+
+.chapter-nav-item.active .chapter-icon {
+  color: #FFB695 !important;
+}
+
 .sidebar-sublesson-btn {
   transition: all 0.16s ease;
-  border: 1px solid transparent;
+  border-left: 2px solid transparent;
 }
 
 .sidebar-sublesson-btn:hover {
-  background-color: rgba(255, 255, 255, 0.7);
-  border-color: #CDDCD3;
-  color: var(--text-header);
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #FFFFFF;
 }
 
 .sidebar-sublesson-btn.active {
-  background-color: #FFFFFF !important;
-  border-color: #2A6F5B !important;
-  color: #1C332A !important;
-  font-weight: 700 !important;
-  box-shadow: 0 1px 4px rgba(28, 51, 42, 0.06);
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  border-left-color: #FFB695 !important;
+  color: #FFFFFF !important;
+  font-weight: 600 !important;
 }
 
 .sidebar-sublesson-btn.active .lesson-badge {
-  background-color: #2A6F5B !important;
-  color: #FFFFFF !important;
+  background-color: #FFB695 !important;
+  color: #1C332A !important;
+  border-color: #FFB695 !important;
 }
 
-/* Refined Custom Scrollbars */
+/* Custom Scrollbars */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
@@ -108,11 +228,18 @@ body {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: #C4D6CC;
+  background: #CBD5E1;
   border-radius: 9999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #A9C2B4;
+  background: #94A3B8;
+}
+
+.custom-dark-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+}
+.custom-dark-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
 }
 
 /* 3D Flip Card Effect */
@@ -156,13 +283,13 @@ body {
 /* Mic Pulse for Active Recording */
 @keyframes mic-pulse-lms {
   0% {
-    box-shadow: 0 0 0 0 rgba(234, 93, 59, 0.5);
+    box-shadow: 0 0 0 0 rgba(255, 182, 149, 0.7);
   }
   70% {
-    box-shadow: 0 0 0 12px rgba(234, 93, 59, 0);
+    box-shadow: 0 0 0 12px rgba(255, 182, 149, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(234, 93, 59, 0);
+    box-shadow: 0 0 0 0 rgba(255, 182, 149, 0);
   }
 }
 
@@ -178,13 +305,22 @@ body {
   transform: translateY(-2px);
 }
 
-/* Dynamic Harmonizers */
-.border-stone-200, .border-stone-200\/90 {
-  border-color: #EBE5DA !important;
+/* Quiz Option Hover & Active */
+.quiz-option {
+  transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
 }
-.bg-stone-50, .bg-stone-50\/80 {
-  background-color: #FDFBF7 !important;
+.quiz-option:hover {
+  border-color: #637D73;
 }
-.bg-stone-100, .bg-stone-100\/90 {
-  background-color: #F4EFE6 !important;
+.quiz-option.active {
+  border-color: #1C332A !important;
+  box-shadow: 0 2px 6px rgba(28, 51, 42, 0.08);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeIn {
+  animation: fadeIn 0.25s ease-out forwards;
 }
