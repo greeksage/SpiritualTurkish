@@ -257,7 +257,7 @@ class AudioEngine {
   // Web Speech API: Text-to-Speech (TTS) for Turkish
   // -------------------------------------------------------------
   initVoices() {
-    if (!('speechSynthesis' in window)) return;
+    if (!window.speechSynthesis) return;
     const findVoice = () => {
       const voices = window.speechSynthesis.getVoices();
       // Look for Turkish voices
@@ -273,13 +273,13 @@ class AudioEngine {
     const report = (en,ko) => {
       const message=window.course?.t(en,ko) || en;
       const lessonStatus=document.getElementById('course-audio-status');
-      const status=lessonStatus && !lessonStatus.closest('.lesson-section').classList.contains('hidden') ? lessonStatus : document.getElementById('global-audio-status');
+      const status=document.querySelector('#word-inspector[open] #word-audio-status') || (lessonStatus && !lessonStatus.closest('.lesson-section').classList.contains('hidden') && !document.getElementById('lesson-view')?.hidden ? lessonStatus : document.getElementById('global-audio-status'));
       if(status)status.textContent=message;
       if(onEnd)onEnd();
       // onEnd may write its own status; unavailable/error information takes priority.
       if(status)status.textContent=message;
     };
-    if (!('speechSynthesis' in window)) {
+    if (!window.speechSynthesis) {
       report("Synthetic speech is unavailable in this browser. Read the Turkish text aloud or practise with a partner.","이 브라우저에서는 합성 음성을 사용할 수 없습니다. 터키어를 직접 읽거나 상대와 연습하세요.");
       return;
     }
@@ -312,7 +312,7 @@ class AudioEngine {
   }
 
   stopSpeaking() {
-    if ('speechSynthesis' in window) {
+    if (window.speechSynthesis) {
       window.speechSynthesis.cancel();
     }
   }
@@ -352,10 +352,10 @@ class AudioEngine {
 
     this.recognition.onresult = (event) => {
       this.isListening = false;
-      if (event.results && event.results[0] && event.results[0][0]) {
+      if (event.results && event.results[0] && event.results[0][0] && event.results[0][0].transcript?.trim()) {
         const spoken = event.results[0][0].transcript;
         if (onResult) onResult(spoken);
-      }
+      } else if (onError) onError(course.t('No recognised text was returned. Try again or type a response to compare.','인식된 문자가 없습니다. 다시 시도하거나 답을 입력해 비교하세요.'));
     };
 
     this.recognition.onerror = (event) => {

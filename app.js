@@ -122,14 +122,14 @@ document.addEventListener('DOMContentLoaded', () => {
     { id: 'ch6-3', chapter: 6, chapterName: 'TDK 종교 표기 규정', title: '6.3 실시간 오탈자 교정기 미니게임' },
   ];
 
-  LESSONS.push(...EXPANDED_LESSONS.map(l => ({id:l.id,chapter:7,chapterName:course.t('Explained ministry lessons','설명형 사역 수업'),title:course.text(l.title)})));
+  LESSONS.push(...ALL_LESSONS.map(l => ({id:l.id,chapter:7,chapterName:course.t('Explained ministry lessons','설명형 사역 수업'),title:course.text(l.title)})));
   window.selectLesson = selectLesson;
 
   function selectLesson(lessonId) {
     const idx = LESSONS.findIndex(l => l.id === lessonId);
     if (idx === -1) return;
     const lesson = LESSONS[idx];
-    if (lesson.chapter === 7) { const content=EXPANDED_LESSONS.find(l=>l.id===lessonId); lesson.title=course.text(content.title); lesson.chapterName=course.t("Explained ministry lessons","설명형 사역 수업"); }
+    if (lesson.chapter === 7) { const content=ALL_LESSONS.find(l=>l.id===lessonId); lesson.title=course.text(content.title); lesson.chapterName=course.t("Explained ministry lessons","설명형 사역 수업"); }
 
     state.currentLessonId = lessonId;
     course.entry(lessonId).visited = true;
@@ -247,6 +247,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (lesson.chapter === 7) requestAnimationFrame(() => document.getElementById('course-title')?.focus({preventScroll:true}));
 
+    window.onLegacySelect?.(lessonId);
     // Update Overall Progress
     updateCurriculumProgress();
 
@@ -768,7 +769,7 @@ document.addEventListener('DOMContentLoaded', () => {
           (err) => {
             state.isListening = false;
             micRecordBtn.classList.remove('mic-recording', 'bg-rose-50', 'text-rose-600');
-            if (micStatus) micStatus.innerText = '인식 대기 중';
+            if (micStatus) {micStatus.innerText = err;micStatus.setAttribute('role','status');}
             showToast(err, 'error');
           },
           () => {
@@ -1630,7 +1631,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ${st.options.map(opt => {
               const isSelected = state.assembledPrayer[sIdx] === opt.tr;
               return `
-                <button onclick="setPrayerFormulaStep(${sIdx}, '${opt.tr.replace(/'/g, "\\'")}')"
+                <div class="prayer-option-row"><button type="button" onclick="setPrayerFormulaStep(${sIdx}, '${opt.tr.replace(/'/g, "\\'")}')"
                         class="p-2.5 rounded-lg text-left text-xs transition border flex items-center justify-between gap-2 ${
                           isSelected
                             ? 'bg-emerald-50 text-emerald-950 border-emerald-400 font-semibold shadow-sm'
@@ -1640,10 +1641,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     <span class="block">${opt.tr}</span>
                     <span class="text-[10px] opacity-75">${opt.ko}</span>
                   </div>
-                  <button type="button" onclick="event.stopPropagation(); window.audioEngine.speakTurkish('${opt.tr.replace(/'/g, "\\'")}')" class="text-slate-400 hover:text-emerald-700" title="듣기">
+                </button><button type="button" onclick="window.audioEngine.speakTurkish('${opt.tr.replace(/'/g, "\\'")}')" aria-label="${course.t('Play synthetic speech','합성 음성 듣기')}" class="text-slate-400 hover:text-emerald-700" title="듣기">
                     <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
                   </button>
-                </button>
+                </div>
               `;
             }).join('')}
           </div>
@@ -1657,6 +1658,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.audioEngine.playClickSound();
     renderPrayerFormulaSteps();
     renderAssembledPrayerPreview();
+    window.persistPrayerDraft?.();
   };
 
   function renderAssembledPrayerPreview() {
@@ -1686,6 +1688,7 @@ document.addEventListener('DOMContentLoaded', () => {
     state.assembledPrayer = [...preset.parts];
     renderPrayerFormulaSteps();
     renderAssembledPrayerPreview();
+    window.persistPrayerDraft?.();
     window.audioEngine.playCorrectSound();
     showToast(`'${preset.title}' 템플릿이 로드되었습니다.`, 'success');
   };
@@ -1744,7 +1747,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function loadSavedPrayersFromStorage() {
     try {
-      const raw = localStorage.getItem('spiritual_turkish_prayers');
+      const raw = learningStore.getRaw('spiritual_turkish_prayers');
       if (raw) {
         const parsed = JSON.parse(raw);
         state.savedPrayers = Array.isArray(parsed) ? parsed.filter(p => p && typeof p.id === 'string' && typeof p.title === 'string' && typeof p.content === 'string') : [];
@@ -1756,7 +1759,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function savePrayersToStorage() {
     try {
-      localStorage.setItem('spiritual_turkish_prayers', JSON.stringify(state.savedPrayers));
+      learningStore.set('spiritual_turkish_prayers', state.savedPrayers);
     } catch (e) {
       console.warn("Storage save error:", e);
     }
@@ -1797,6 +1800,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const trTextarea = document.getElementById('assembled-tr-textarea');
     if (trTextarea) {
       trTextarea.value = item.content;
+      window.persistPrayerDraft?.();
       showToast(`'${item.title}' 기도문을 불러왔습니다.`, 'success');
     }
   };
@@ -1817,17 +1821,18 @@ document.addEventListener('DOMContentLoaded', () => {
     if (ambientToggleBtn) {
       ambientToggleBtn.addEventListener('click', () => {
         window.audioEngine.toggleAmbientPrayerPad((playing) => {
+          ambientToggleBtn.setAttribute('aria-pressed',String(playing));
           if (playing) {
             ambientToggleBtn.innerHTML = `
               <span class="w-2 h-2 rounded-full bg-emerald-600 animate-ping"></span>
-              <span>배경음악 끄기 (Ambient Pad)</span>
+              <span>${course.t('Stop prayer background','기도 배경음 정지')}</span>
             `;
             ambientToggleBtn.className = "px-3.5 py-1.5 rounded-lg bg-emerald-100 text-emerald-900 border border-emerald-300 font-semibold text-xs flex items-center gap-2 shadow-sm transition";
             if (ambientVisualizer) ambientVisualizer.classList.remove('hidden');
           } else {
             ambientToggleBtn.innerHTML = `
               <span>🎵</span>
-              <span>기도 배경음악 켜기 (Ambient Pad)</span>
+              <span>${course.t('Play quiet prayer background','조용한 기도 배경음 재생')}</span>
             `;
             ambientToggleBtn.className = "px-3.5 py-1.5 rounded-lg bg-stone-100 hover:bg-stone-200 text-slate-700 font-semibold text-xs flex items-center gap-2 border border-stone-200 transition";
             if (ambientVisualizer) ambientVisualizer.classList.add('hidden');
@@ -2233,7 +2238,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderSituationalPrayers(); renderScenarioSelector(); renderOrthographyRules(state.orthoCategory); renderOrthographyAppendix(); renderOrthographyQuiz(); renderProofreadingTabs(); renderProofreadingBoard();
   };
 
-  document.addEventListener('click', e => {const b=e.target.closest('[data-speech]');if(b)audioEngine.speakTurkish(b.dataset.speech);});
+  document.addEventListener('click', e => {const b=e.target.closest('[data-speech]');if(b&&!b.closest('#learning-app'))audioEngine.speakTurkish(b.dataset.speech);});
 
   // Initialize All Modules
   // -----------------------------------------------------------

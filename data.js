@@ -1348,7 +1348,7 @@ const APP_DATA = {
         "id": "rom-6-4",
         "reference": "Romalılar 6:4 (로마서 6:4) · 학습용 재서술 (직접 인용 아님)",
         "turkish": "Vaftiz yoluyla O'nunla birlikte ölüme gömüldük.",
-        "korean": "세례를 통하여 우리는 그분과 함께 죽음에 장사되었습니다.",
+        "korean": "세례를 받으면서 우리는 그분과 함께 죽음에 묻혔습니다.",
         "focusGrammar": "피동 접미사 -ül- (Passivum) 분석",
         "grammarRule": "이 예문에서 göm- + -ül-은 피동입니다. 터키어 피동 표지는 어간에 따라 -Il 또는 -n 등이 쓰이므로 모든 자음 끝 동사에 한 규칙만 적용하지 마세요.",
         "tokens": [
@@ -1390,7 +1390,7 @@ const APP_DATA = {
         "id": "2cor-5-17",
         "reference": "2. Korintliler 5:17 (고린도후서 5:17) · 학습용 재서술 (직접 인용 아님)",
         "turkish": "Bir kimse Mesih'teyse, yeni yaratıktır; eski şeyler geçmiş, her şey yeni olmuştur.",
-        "korean": "누구든지 그리스도 안에 있으면 새로운 피조물이라. 이전 것은 지나갔으니 보라 새 것이 되었도다.",
+        "korean": "그리스도 안에 있는 이는 새 피조물입니다. 예전 것은 지나고 모든 것이 새로워졌습니다.",
         "focusGrammar": "조건법 접미사 -yse (Kip) 및 명사화 -ık 분석",
         "grammarRule": "명사/처격 뒤에 매개자음 '-y-'와 조건법 어미 '-se / -sa'가 결합하여 '~안에 있다면(If in)'을 나타냅니다.",
         "tokens": [
@@ -1447,7 +1447,7 @@ const APP_DATA = {
         "id": "rom-6-23",
         "reference": "Romalılar 6:23 (로마서 6:23) · 학습용 재서술 (직접 인용 아님)",
         "turkish": "Çünkü günahın ücreti ölüm, Tanrı'nın armağanı ise Mesih İsa Rabbimizde sonsuz yaşamdır.",
-        "korean": "죄의 삯은 사망이요 하나님의 은사는 그리스도 예수 우리 주 안에 있는 영생이니라.",
+        "korean": "죄의 대가는 죽음이지만 하나님이 주시는 선물은 우리 주 그리스도 예수 안의 영원한 삶입니다.",
         "focusGrammar": "한정 명사 결합(Belirtili İsim Tamlaması / İzâfet) 분석",
         "grammarRule": "소유자 명사에는 '-ın/-in/-un/-ün', 피소유자 명사에는 '-ı/-i/-u/-ü'가 붙어 'A의 B'라는 확정된 결합을 이룹니다.",
         "tokens": [

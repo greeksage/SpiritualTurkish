@@ -61,3 +61,64 @@ Sources inform scoped terminology and factual corrections, not predictions about
 Automated content checks cover all ten lesson/exercise IDs and bilingual fields, Turkish-script integrity, corrected claims/coherent prayer metadata, English workshop coverage and local assets/JavaScript syntax. Chromium checks cover the ten lessons in both languages at 375/390/768/1440 px, keyboard menu/focus, explanations/retry/multiple answers, independent task completion, persistence/reload/migration, unchanged saved prayers, all retained workshops, synthetic playback arguments/fallbacks, and failed assets/browser errors. Desktop/phone screenshots were reviewed.
 
 Actual microphone accuracy and real installed Turkish voice quality are not certified by browser stubs. Human/native recordings, expert Turkish/Korean review and a full beginner foundation course remain future editorial/audio work. Completion is self-reported performance, not a proficiency certificate. The branch/PR is for review; no merge or deployment is performed.
+
+## Redesign and five-source curriculum (2026-10-01)
+
+This release incorporates the full unmerged content-expansion branch/PR #1 explicitly, then replaces its shell with Home/Learn/Words/Bible/Practice. The earlier record above describes that preceding implementation; this section records the additional source review and supersedes its statements about no new Bible quotation. All ten expansion IDs and authored teaching remain. The five distinct supplied PDFs were read in full, including image-based pages. Their 148 pages map to 67 source units and reference assignments in [SOURCE-COVERAGE.md](SOURCE-COVERAGE.md). Covers and referenced external works are identified rather than turned into available lessons.
+
+The two spelling files have identical SHA-256 `ef14db5efa3d57d53779cc0e721a64ee802e996274e1ce8807c9cad702efcfed`; only one supplies curriculum. Attachments supply teaching substance, not instructions overriding the user’s scope. Originals and rendered review images remain outside the public repository.
+
+### Material PDF editorial changes
+
+| Source/page | Reviewed treatment |
+| --- | --- |
+| Foundation 2–4, 8 | Distinguish named editions, Christian canon terminology and the source’s attributed religious account. `Hz.` means the honorific Hazreti, not literally “prophet.” `Kutsal Yazı` is Scripture, not invariably Law. |
+| Foundation 7, 13–17 | Include the source chart’s 25 names alongside biblical people/places; omit unverified frequency counts and the third-party chart. Normalise Şuayp to Şuayb. Corresponding names do not establish identical narratives. Correct the source’s Lehva to Levha. |
+| Foundation 12 | `1 Corinthians 5:16–17` is invalid. Link the related new-creation reading to 2 Corinthians 5:17; this is an editorial choice, not proof of the author’s intended citation. |
+| Foundation 18–20, 28–34 | Preserve passage assignments externally, with original study-language examples, grammatical focus and contextual tasks. Do not invent Scripture text for an inaccessible reading. |
+| Foundation 21, 35–38 | Preserve blessing vocabulary and character words without promising guaranteed healing or awarding spiritual ratings. Correct `Bağ Kiracıları` to vineyard tenants rather than hired workers. Full apostle/parable/fruit readings are linked. |
+| Foundation 22–24 | Distinguish worship (`tapınma`) from only singing and sermon (`vaaz`) from “word”; `ayartılmak` is being tempted, not automatically committing sin. Doctrinal meanings are labelled context, not literal glosses. |
+| Foundation 25 | Fidye/kefaret/kaza terminology is contextual and sourced; amounts and arithmetic in the 2026 seminar are dated examples, not evergreen financial requirements. |
+| Foundation 26–27 | Vowel loss is lexically conditioned, not a rule for every two-syllable noun. Distinguish active/passive/reflexive interpretations through the subject/action, not the suffix alone. |
+| Dua 2–9 | Preserve six stages and request/wish/purpose constructions. Prayer speaker/addressee remain consistent; selected words separate dictionary headword, surface form and suffix breakdown. |
+| Dua 11 | Retain hymn title/reference as reference-only; do not copy lyrics, screenshots or recordings without their own permissions. |
+| Dua 12–19 | All eight prayer situations are included. Requests during illness/support avoid guarantees, pressure or replacing practical care. Correct yücellik to yücelik. |
+| Dua 20–22 | Confession/salvation-prayer examples remain Christian models, offered voluntarily rather than compulsory formulas. |
+| Dua 23–33 | Preserve all eleven verse/prayer pair aims; read the named verse separately. Original teaching prayer applications are not identical to Scripture. Jeremiah’s context does not promise immediate prosperity. |
+| Dua 34–43 | Ten extended prayers become **shortened edited models** with bilingual teaching and source/timestamp links where supplied. Preserve their topic and useful forms while removing repetitive transcript material and mixed addressees/person. A prayer addressed to the Father does not call the Father crucified or the high priest. These are not full verbatim video transcriptions. |
+| Müjde 2–23 | Seven scenario tracks incorporate the prior manuscript/calendar/uncertainty corrections. Circle, banknote, scales and five-colour book remain illustrations, not proof or Scripture. Consent, refusal and honest uncertainty are valid responses. Suffering language allows continuing difficulty and practical support. |
+| Müjde 16, 19, 23 | Cover the article/human-worth/wordless-book learning aims in original teaching text; omit article screenshot, watermarked stock image and bracelet photo. |
+| Din 2–12 | Expressions and honorifics are contextual. `kul hakkı` includes rights, restitution and repentance; neither a formula nor permission automatically repairs harm. The nut-taking story is adapted without its illustration. |
+| Din 13–18 | Include six belief articles, book/prophet pairings, five major prophets and all five angel-role rows as **attributed classroom material**. Do not identify these as every Muslim’s personal beliefs or silently merge them with Christian categories. |
+| Din 19–31 | Preserve diagram categories, kader/kaza distinctions, five practices, ablution/wiping/opening formulas, fasting and pilgrimage vocabulary, and the beliefs/practices comparison. Timetables are dated examples. The zakat fraction is not an unconditional rule for all property. Learners recognise formulas without being asked to profess them. |
+| Din 32–33 | Attribute the textbook’s unchanged-book answer; it is not independent historical manuscript evidence. Resource links remain references. |
+| Spelling 2–10 | All eleven rules plus numbers are covered. Proper/common/metaphorical names, sentence-initial exceptions, derived forms and institutional names remain distinct. Fix Alevlilik to Alevilik. Established `ev` compounds do not imply every `ev` phrase joins. |
+| Spelling 9 | Correct impossible `Matthew 4:29` to **Matthew 15:29**, matching the described Galilee setting. Calendar dates remain source examples, not current-year claims. |
+| Retained grammar | Keep three Turkish grammar teaching adaptations visibly distinct from verified quotations. Rewrite archaic Korean Bible-like lines as natural original teaching translations; keep the analysed forms and Christian meaning. |
+
+The spelling guide’s special `Rabbin` convention is attributed to the religious writing guide. A named Bible edition’s punctuation is never silently rewritten to match it. Selected word analyses are authored entries, not a general morphological parser. Uninflected reference words are labelled as such; complete phrase entries are not passed off as word-by-word parsing.
+
+### Quotation and third-party reuse ledger
+
+The named edition is **Kutsal Kitap (2001, 2008)**, © The Bible Society in Turkey and The Translation Trust / Yeni Yaşam Yayınları. The [edition copyright notice](https://gssbibles.com/media/26/04/6a/1733098522/9783438081667_Leseprobe_01.pdf.pdf?ts=1770181339) permits attributed quotation of up to 100 verses under its stated conditions, without a complete Bible book. This release stays below that limit; longer assignments link to the edition. No permission for a complete embedded Bible is claimed.
+
+| Material | Status and site-wide accounting |
+| --- | --- |
+| [Matthew 6:33](https://kutsalkitap.info.tr/?q=Mat.6:33) | One exact Turkish verse, verified against the named edition, displayed with attribution |
+| [John 13:34–35](https://kutsalkitap.info.tr/?q=Yu.13:34-35) | Two exact Turkish verses, including the edition’s closing quotation mark; verified and attributed |
+| Retained Romans 6:4, 2 Corinthians 5:17, Romans 6:23 grammar text | Three labelled teaching adaptations, not exact verified quotations. Conservatively count the three underlying verse locations as well: **six distinct verse locations** including the new quotations, with repeated appearances deduplicated. |
+| Lost sheep lesson | Original simplified paraphrase of Luke 15:3–7, explicitly labelled; surrounding context linked |
+| Other source readings | References and external reading assignments; no full published passage reproduced |
+| English/Korean teaching translations | Original explanatory translations, not quotations attributed to a published EN/KO edition |
+| Seminar prayers/dialogues | Edited teaching adaptations, not human audio recordings or native-speaker-certified speech |
+| Hymns, videos, photographs and diagrams | Reference links only; no original assets or lyrics redistributed and no wider permissions assumed |
+
+The Bible view has inline attribution; the retained grammar view identifies adaptations and links to the edition. Do not add future quotations without updating this ledger and checking the full-site count, exact wording and permission conditions. Page links alone do not license third-party images or hymn lyrics.
+
+### Additional authoritative terminology references
+
+Alongside the references checked above, [TDV âmentü](https://islamansiklopedisi.org.tr/amentu), [melek](https://islamansiklopedisi.org.tr/melek), [zekât](https://islamansiklopedisi.org.tr/zekat) and [oruç](https://islamansiklopedisi.org.tr/oruc) were consulted on 2026-10-01 for the source’s belief/practice terminology. These support attributed comprehension teaching, not a universal description of individuals. The inline edition passages were checked separately from its commentary; commentary is not presented as Scripture.
+
+### Release validation and limits
+
+See [VALIDATION.md](VALIDATION.md) for the final checks. Independent Turkish/Korean specialist review, reviewed human audio and actual microphone/installed-voice quality remain outstanding. No account service is implemented, and no merge/deployment is performed. The ten long prayer models are intentionally shortened adaptations rather than full transcripts; full Bible passages beyond the verified inline verses require the external edition.

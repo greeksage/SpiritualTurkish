@@ -20,7 +20,8 @@
     const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);const updates=[];
     while(walker.nextNode()) {
       const n=walker.currentNode;
-      if(n.parentElement.closest('script,style,#section-ch7,#expanded-nav,.course-language,textarea,[data-user-content]'))continue;
+      if(n.parentElement.closest('#learning-app')&&!n.parentElement.closest('#legacy-view'))continue;
+      if(n.parentElement.closest('script,style,#word-inspector,#section-ch7,#expanded-nav,.course-language,textarea,[data-user-content]'))continue;
       let base=nodeOriginal.get(n);if(base===undefined){base=n.nodeValue;nodeOriginal.set(n,base);}
       let result=base;
       if(course.language==='en') {
