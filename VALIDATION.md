@@ -10,7 +10,7 @@ Validated with Node.js 24.16.0 and headless Chromium/Playwright. Screenshots of 
 | `npm run test:browser` | Complete classroom, existing regression and Bible-study suites passed; all **77 lessons, 82 source readings and 24 workshops** remain functional |
 | New passage coverage | All **60 passages in English and Korean**, exact Scripture DOM text, all four visible sections and all **240 explained correct exercise answers per language** |
 | Learning state | Incorrect answer/reason/retry, independent notes, manual Studied/unmark, reload, section DOM preservation, curriculum-resume isolation, source-reading return, old-backup defaults and atomic validation |
-| Additional focused browser run | Verified new backup export/import/reload, selected-rate synthetic-speech stub, and unavailable-speech feedback inside the inspector after final polish |
+| Additional focused browser run | Verified new backup export/import/reload, selected-rate synthetic-speech stub, unavailable-speech feedback inside the inspector, English `isaiah` reference search and Korean `은혜` search after final polish |
 | Responsive/accessibility | EN/KO at **360, 390, 768 and 1440px**, long Titus teaching, Scripture visible in initial phone viewport, no overflow, 200% CSS zoom and reduced motion; keyboard word opening, Escape/focus return, contents drawer/heading focus, semantic sections and labelled choices |
 | Failure cases | Unavailable speech API/storage, failed passage fetch with Retry and no substitute Scripture, late request cannot overwrite newer curriculum route |
 | Diagnostics | No unexpected console/page errors or missing assets in normal browser flows. Deliberate aborted requests are isolated in failure-test contexts |
