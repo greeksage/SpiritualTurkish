@@ -18,8 +18,14 @@
   const t = (en, ko) => language === 'en' ? en : ko;
   const rich = value => esc(text(value)).replace(/`([^`]+)`/g, '<code lang="tr">$1</code>').replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').split(/\n\n/).map(p => `<p>${p}</p>`).join('');
   const entry = id => {
-    if (!progress.lessons[id] || typeof progress.lessons[id] !== 'object') progress.lessons[id] = {};
-    return progress.lessons[id];
+    if (!progress.lessons[id] || typeof progress.lessons[id] !== 'object' || Array.isArray(progress.lessons[id])) progress.lessons[id] = {};
+    const p=progress.lessons[id];
+    for(const field of ['answers','drafts'])if(!p[field]||typeof p[field]!=='object'||Array.isArray(p[field]))p[field]={};
+    if(!Array.isArray(p.rubric))p.rubric=[];
+    if(p.response!==undefined&&typeof p.response!=='string')delete p.response;
+    for(const [key,value]of Object.entries(p.drafts))if(typeof value!=='string')delete p.drafts[key];
+    for(const [key,value]of Object.entries(p.answers))if(!value||typeof value!=='object'||Array.isArray(value))delete p.answers[key];
+    return p;
   };
   function save() {
     try { learningStore.set(key, progress); }
@@ -69,7 +75,7 @@
     bind(panel,lesson,p); renderNav(); window.decorateLesson?.(lesson,p);
   }
   function feedback(e,p) {
-    const a=p.answers[e.id]; if (!a) return '';
+    const a=p.answers[e.id]; if (!a || a.checked===false) return '';
     return `<p>${a.correct ? t('Reviewed successfully.','성공적으로 검토했습니다.') : t('Try again. Read the reason before retrying.','다시 해 보세요. 이유를 읽고 재시도하세요.')}</p>${rich(e.answer)}${!e.choices ? `<label class="course-choice"><input type="checkbox" data-reviewed="${e.id}" ${a.correct?'checked':''}>${t('I compared my response and can explain why it works.','답을 비교했고 왜 적절한지 설명할 수 있습니다.')}</label>` : ''}`;
   }
   const models = ['Cumartesi görüşeceğiz. Doğru mu anladım?', 'Hoş bulduk. Şekersiz çay, lütfen. Şimdilik yeterli. Gelecek hafta uğrayabilir miyim?', "Ben Hristiyanım. İsa Mesih'in adıyla dua ediyorum. Dua etmem uygun olur mu? Tabii, anlıyorum.", "Göksel Babamız, Mehmet için sana dua ediyoruz. Ona güç ve esenlik ver. İsa Mesih'in adıyla dua ediyoruz. Size yemek getirmemi ister misiniz?", 'Eskiden gelecek hakkında kaygılanıyordum. Kutsal Kitap okumaya başladım. Hâlâ zor günlerim oluyor.', 'Bir adamın yüz koyunu vardı. Biri kayboldu. Adam onu aradı. Bulunca sevindi. Bu hikâyede sizi en çok ne etkiledi?', 'Tanrı bize hak etmediğimiz iyiliği gösterir. İyi işler sevgisine verdiğimiz karşılığın bir parçasıdır.', "Fiziksel bir ilişkiden söz etmiyoruz. İsa'nın Baba'yla eşsiz ilişkisini anlatıyoruz. Hristiyanlar İsa'nın ezelden beri var olan Oğul olduğuna inanır.", 'Bu el yazmasının tarihini şu anda bilmiyorum. Araştırıp size döneyim.', "İsterseniz birlikte gidebiliriz. Bizim topluluğumuzda dua ediyor ve Kutsal Kitap okuyoruz. Markos 1:1–8 okuyalım. Perşembe saat altıda görüşebilir miyiz?"];
@@ -84,20 +90,23 @@
     panel.querySelectorAll('[data-play]').forEach(b=>b.onclick=()=>speak(l.lines[Number(b.dataset.play)].tr.replace(/^[AB][12]?(?:, if declined)?:\s*/,'')));
     panel.querySelector('[data-play-all]').onclick=()=>speak(l.lines.map(x=>x.tr.replace(/^[AB][12]?(?:, if declined)?:\s*/,'')).join(' '));
     panel.querySelector('[data-stop]').onclick=()=>{ window.audioEngine.stopSpeaking(); document.getElementById('course-audio-status').textContent=t('Stopped.','정지했습니다.'); };
-    panel.querySelectorAll('[data-draft]').forEach(el=>el.oninput=()=>{p.drafts[el.dataset.draft]=el.value; const a=p.answers[el.dataset.draft]; if(a) a.correct=false; p.completed=false; save();});
+    const invalidate=id=>{delete p.answers[id];p.completed=false;panel.querySelector('#feedback-'+id).textContent='';panel.querySelector('#course-completion-status').textContent='';save();};
+    panel.querySelectorAll('fieldset input[type=radio]').forEach(el=>el.onchange=()=>{invalidate(el.name);p.answers[el.name]={choice:Number(el.value),correct:false,checked:false};save();});
+    panel.querySelectorAll('[data-draft]').forEach(el=>el.oninput=()=>{p.drafts[el.dataset.draft]=el.value;invalidate(el.dataset.draft);});
     panel.querySelectorAll('[data-check]').forEach(b=>b.onclick=()=>{
       const e=l.exercises[Number(b.dataset.check)];
       if (e.choices) { const chosen=panel.querySelector(`input[name="${e.id}"]:checked`); if(!chosen) {document.getElementById(`feedback-${e.id}`).textContent=t('Choose an answer first.','답을 먼저 선택하세요.');return;} const choice=Number(chosen.value); p.answers[e.id]={choice,correct:e.valid.includes(choice)}; }
       else { if(!p.drafts[e.id]?.trim()) {document.getElementById(`feedback-${e.id}`).textContent=t('Write or transcribe your response first.','먼저 답을 쓰거나 말한 내용을 적으세요.');return;} p.answers[e.id]={correct:false}; }
       p.practised=true; p.completed=false; save(); document.getElementById(`feedback-${e.id}`).innerHTML=feedback(e,p); bindReviews(panel,p); renderNav();
     });
-    panel.querySelectorAll('[data-retry]').forEach(b=>b.onclick=()=>{const e=l.exercises[Number(b.dataset.retry)]; delete p.answers[e.id]; p.completed=false; save(); render();document.getElementById(e.id).querySelector('input,textarea').focus();});
+    panel.querySelectorAll('[data-retry]').forEach(b=>b.onclick=()=>{const e=l.exercises[Number(b.dataset.retry)];invalidate(e.id);const field=panel.querySelector('#'+e.id);field.querySelectorAll('input[type=radio]').forEach(el=>el.checked=false);field.querySelector('input,textarea').focus();});
     bindReviews(panel,p);
-    panel.querySelector('#course-response').oninput=e=>{p.response=e.target.value;p.completed=false;save();};
-    panel.querySelectorAll('[data-rubric]').forEach(el=>el.onchange=()=>{p.rubric[Number(el.dataset.rubric)]=Number(el.value);p.completed=false;save();});
-    panel.querySelector('#course-independent').onchange=e=>{p.independent=e.target.checked;p.completed=false;save();};
+    const invalidateCompletion=()=>{p.completed=false;panel.querySelector('#course-completion-status').textContent='';save();};
+    panel.querySelector('#course-response').oninput=e=>{p.response=e.target.value;invalidateCompletion();};
+    panel.querySelectorAll('[data-rubric]').forEach(el=>el.onchange=()=>{p.rubric[Number(el.dataset.rubric)]=Number(el.value);invalidateCompletion();});
+    panel.querySelector('#course-independent').onchange=e=>{p.independent=e.target.checked;invalidateCompletion();};
     panel.querySelector('#course-complete').onclick=()=>{
-      const ok=l.exercises.every(e=>p.answers[e.id]?.correct) && !!p.response?.trim() && p.independent && rubric.every((_,i)=>p.rubric[i]===2);
+      const ok=l.exercises.every(e=>p.answers[e.id]?.correct===true&&(e.choices?e.valid.includes(p.answers[e.id].choice):!!p.drafts[e.id]?.trim())) && !!p.response?.trim() && p.independent && rubric.every((_,i)=>p.rubric[i]===2);
       p.completed=!!ok; save();renderNav();panel.querySelector('#course-completion-status').textContent=ok ? t('Completed on your self-assessment. Revisit the task to retain it.','자기 평가에 따라 완료했습니다. 복습하세요.') : t('Keep practising: review every guided answer, add an original response, perform the independent task, and assess every category at 2.','계속 연습하세요. 모든 답을 검토하고 자신의 답을 쓰고 독립 과제를 수행하며 모든 항목에서 2를 충족하세요.');
     };
   }

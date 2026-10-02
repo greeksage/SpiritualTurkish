@@ -1,5 +1,13 @@
 # Validation evidence — redesign release
 
+## Final deployed-site audit — 2026-10-02
+
+Started from merged main 40e4a31e556b4accbc813b5175dfc7ea3240b51f and inspected GitHub Pages before local fixes. [Full findings and ten-step screenshot walkthrough](docs/audit/FINAL-AUDIT.md). Earlier suites passed, but new edge-case regressions reproduced unsafe markup, stale answers, partial-state crashes and recovery failures.
+
+Final results: **21/21 unit checks**, **all five browser suites passed**, including **21 targeted audit scenarios**. Existing 77 lessons, 82 reading routes, 24 workshops, 60 Bible-study passages and 240 explained Bible exercises remain functional. Both languages, four widths, keyboard/focus, zoom, reload/resume, backups, speech/storage/fetch fallback and assets pass. CSS build, coverage and diff check pass. No curriculum/Scripture text changed. New HTTP checks cover preview path/private-file/malformed-request boundaries and font MIME.
+
+Production screenshots cover lesson entry, Bible/word analysis, prayer, Words, Settings and Korean phone contents. Local screenshots verify keyboard vocabulary and spaced workshop returns after refresh. Real audio, screen-reader use, other engines/physical phones and independent specialist editorial review remain unverified. Existing rights limitations remain. Fixes are delivered for review; this audit does not merge or deploy.
+
 ## Direct activity navigation — 2026-10-02
 
 Validation passed after replacing Resources with visible Lessons, Bible study, Words and Practice links and contextual outlines. The lesson-first entry, six courses, content IDs, fonts and palette remain intact. Independent activity resume is optional in storage and older backups still import.
