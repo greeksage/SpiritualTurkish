@@ -9,7 +9,8 @@ document.addEventListener('DOMContentLoaded',()=>{
   audioEngine.isMuted=state.notes['audio-effects']==='off';audioEngine.playbackRate=state.notes['audio-rate']==='0.8'?.8:1;
   const sections=['read','understand','practise','use'];
   const labels={read:['Read','읽기'],understand:['Understand','이해'],practise:['Practise','연습'],use:['Use','사용']};
-  const nav=[['words','Words','단어'],['bible','Bible study','성경 학습'],['practice','Practice tools','연습 도구'],['settings','Backup & settings','백업·설정']];
+  const modes=[['lessons','Lessons','수업'],['bible','Bible study','성경 학습'],['words','Words','단어'],['practice','Practice','연습']];
+  const workshopGroups=[[1,'Pronunciation and listening','발음과 듣기'],[2,'Conversation rehearsal','대화 역할극'],[3,'Culture and vocabulary','문화와 어휘'],[4,'Grammar workshop','문법 연습'],[5,'Prayer workshop','기도 연습'],[6,'Spelling and proofreading','표기와 교정']];
   let routeVersion=0;
   let renderedLesson=null,renderedLanguage=null,sectionLockUntil=0,scrollScheduled=false;
   const resume=()=>studyCatalog.validResume(state.studyLast)?state.studyLast:{id:studyCatalog.first,section:'read'};
@@ -26,9 +27,18 @@ document.addEventListener('DOMContentLoaded',()=>{
   window.selectLesson=id=>go(`lesson/${id}/${course.entry(id).section||'read'}`);
   window.onLegacySelect=id=>{if(!routing&&/^ch/.test(id)&&route[0]==='lesson'){go(`lesson/${id}/read`);}};
   const isKnown=id=>ALL_LESSONS.some(l=>l.id===id)||/^ch[1-6]-\d+$/.test(id)&&!!document.querySelector(`#legacy-host [data-lesson-id="${id}"]`);
+  const mode=()=>route[0]==='lesson'&&!studyCatalog.lesson(route[1])?'practice':['lesson','courses','course'].includes(route[0])?'lessons':route[0];
+  const modePath=id=>id==='lessons'?`lesson/${resume().id}/${resume().section}`:id==='bible'?(state.bibleStudy?.last?`bible/study/${state.bibleStudy.last.id}/${state.bibleStudy.last.section}`:'bible'):id==='practice'?(state.activityResume.practice?.startsWith('lesson/')&&isKnown(state.activityResume.practice.split('/')[1])?state.activityResume.practice:'practice'):state.activityResume.words||'words';
+  const sideLink=(path,en,ko,current=false)=>`<a href="#/${path}" ${current?'aria-current="page"':''}>${t(en,ko)}</a>`;
   const wordById=id=>{const found=SEMINAR.words.find(w=>w.id===id);return found?{...found,example:state.words[id]?.context||found.example}:(()=>{const old=state.words[id]?.legacy;return old?{id,tr:old.word||'',lemma:old.word||'',meaning:old.meaning||{en:'Imported personal note',ko:'가져온 개인 메모'},breakdown:old.breakdown||'',literalGloss:{en:'Imported note; analysis has not been independently verified.',ko:'가져온 메모이며 분석을 별도 검증하지 않았습니다.'},role:{en:'Personal notebook entry',ko:'개인 노트 항목'},example:{tr:old.word,translation:old.meaning}}:null;})();};
   function contents(id,drawer=false){
+    const current=mode(),close=heading=>drawer?`<h2 id="outline-title">${heading}</h2><button class="dialog-close" type="button">${t('Close','닫기')} ×</button>`:'';
     if(route[0]==='bible'&&bibleStudy.outline(route,drawer))return bibleStudy.outline(route,drawer);
+    if(current==='bible')return close(t('Bible study contents','성경 학습 목차'))+`<p class="outline-label">${t('Bible study','성경 학습')}</p><nav class="activity-outline">${sideLink('bible','Browse topics','주제 둘러보기',!route[1])}${returnBibleLink()}${sideLink('bible/readings','Source readings','출처 본문',route[1]==='readings')}${sideLink('bible/about','Sources & permissions','출처·이용 조건',route[1]==='about')}</nav>`;
+    if(current==='words')return close(t('Words','단어'))+`<p class="outline-label">${t('Words in context','문맥 속 단어')}</p><nav class="activity-outline">${sideLink('words','All words','모든 단어',!route[1])}${sideLink('words/saved','Saved words','저장한 단어',route[1]==='saved')}${sideLink('words/review','Review saved words','저장 단어 복습',route[1]==='review')}</nav>`;
+    if(current==='practice')return close(t('Practice tools','연습 도구'))+`<a class="course-picker" href="#/practice">${t('Practice tools','연습 도구')}<span>${t('Browse all workshops','모든 연습 둘러보기')} →</span></a><nav aria-label="${t('Practice workshops','연습 활동')}">${workshopGroups.map(([n,en,ko])=>`<details class="chapter-outline" ${route[1]?.startsWith(`ch${n}-`)?'open':''}><summary>${t(en,ko)}</summary>${[...document.querySelectorAll(`#legacy-host [data-lesson-id^="ch${n}-"]`)].map(b=>`<a href="#/lesson/${b.dataset.lessonId}/read" ${route[1]===b.dataset.lessonId?'aria-current="page"':''}><span class="lesson-number">${b.dataset.lessonId.split('-')[1]}</span><span>${esc(window.legacyLessonTitle(b.dataset.lessonId))}</span></a>`).join('')}</details>`).join('')}</nav>`;
+    if(route[0]==='settings')return close(t('Settings','설정'))+`<p class="outline-label">${t('Your device','사용 중인 기기')}</p><nav class="activity-outline">${sideLink('settings','Backup & audio settings','백업·음성 설정',true)}${returnLink()}${returnBibleLink()}</nav>`;
+    if(route[0]==='courses')return close(t('Choose a course','과정 선택'))+`<p class="outline-label">${t('Six courses','여섯 과정')}</p><nav class="activity-outline">${studyCatalog.courses.map(c=>`<a href="#/course/${c.id}">${esc(tx(c.title))}</a>`).join('')}</nav>`;
     const c=studyCatalog.forLesson(id)||studyCatalog.courses[0];
     return `${drawer?`<h2 id="outline-title">${t('Course contents','과정 목차')}</h2><button class="dialog-close" type="button">${t('Close','닫기')} ×</button>`:''}<a class="course-picker" href="#/courses">${esc(tx(c.title))}<span>${t('Change course','과정 바꾸기')} →</span></a><nav aria-label="${t('Course lessons','과정 수업')}">${c.chapters.map((ch,i)=>`<details class="chapter-outline" ${ch.lessons.includes(id)?'open':''}><summary>${i+1}. ${esc(tx(ch.title))}</summary>${ch.lessons.map(lid=>`<a href="#/lesson/${lid}/${course.entry(lid).section||'read'}" ${lid===id?'aria-current="page"':''}><span class="lesson-number">${c.lessons.indexOf(lid)+1}</span><span>${esc(tx(studyCatalog.lesson(lid).title))}</span>${course.entry(lid).completed?`<span class="material-symbols-outlined completion-mark" aria-label="${t('Completed','완료됨')}">check</span>`:''}</a>`).join('')}</details>`).join('')}</nav>`;
   }
@@ -38,6 +48,8 @@ document.addEventListener('DOMContentLoaded',()=>{
   }
   const returnBibleLink=()=>state.bibleStudy?.last?`<a class="return-to-bible" href="#/bible/study/${state.bibleStudy.last.id}/${state.bibleStudy.last.section}">← ${t('Return to Bible study','성경 학습으로 돌아가기')}</a>`:'';
   const returnLink=()=>`<a class="return-to-lesson" href="#/lesson/${resume().id}/${resume().section}">← ${t('Return to lesson','수업으로 돌아가기')}: ${esc(tx(studyCatalog.lesson(resume().id).title))}</a>`;
+  const supportReturn=()=>state.activityResume.returnTo==='bible'&&state.bibleStudy?.last?returnBibleLink():returnLink();
+  function refreshModeTargets(){document.querySelectorAll('#mode-nav [data-mode]').forEach(a=>a.href='#/'+modePath(a.dataset.mode));}
   function updateActivity(section){
     if(route[0]==='bible'){const mobile=document.getElementById('mobile-nav');mobile.innerHTML=bibleStudy.controls(route)||returnLink();mobile.querySelector('button')?.addEventListener('click',openContents);return;}
     const id=route[1],index=sections.indexOf(section),next=studyCatalog.neighbour(id,1);
@@ -50,16 +62,18 @@ document.addEventListener('DOMContentLoaded',()=>{
     app.querySelector('.skip-link').textContent=t('Skip to study content','학습 본문으로 건너뛰기');
     document.documentElement.lang=course.language;ambientButton.textContent=audioEngine.isAmbientPlaying?t('Stop prayer background','기도 배경음 정지'):t('Play quiet prayer background','조용한 기도 배경음 재생');
     document.getElementById('brand-subtitle').textContent=t('Study Turkish, lesson by lesson.','수업을 따라 터키어 배우기');
-    const id=route[0]==='lesson'&&studyCatalog.lesson(route[1])?route[1]:resume().id,c=studyCatalog.forLesson(id);
+    const id=route[0]==='lesson'&&studyCatalog.lesson(route[1])?route[1]:resume().id;
     document.getElementById('study-nav').innerHTML=contents(id);
     document.getElementById('device-label').innerHTML=`<p>${store.available?t('Saved on this device','이 기기에 저장됨'):t('Session only · storage unavailable','세션만 유지 · 저장소 사용 불가')}</p><a href="#/settings">${t('Backup & settings','백업·설정')}</a>`;
-    document.getElementById('study-header').innerHTML=`<a class="mobile-brand" href="#/learn">Spiritual Turkish</a><p class="desktop-header-label">${esc(tx(c.title))}</p><div class="header-controls"><button type="button" id="open-outline" class="contents-trigger">${route[0]==='bible'?t('Study contents','학습 목차'):t('Course contents','과정 목차')}</button><label for="study-language">${t('Teaching language','학습 언어')}</label><select id="study-language" aria-label="${t('Teaching language','학습 언어')}"><option value="en">English</option><option value="ko">한국어</option></select><details class="resource-menu"><summary>${t('Resources','자료')}</summary><nav aria-label="${t('Study resources','학습 자료')}">${nav.map(([id,en,ko])=>`<a href="#/${id}">${t(en,ko)}</a>`).join('')}${returnLink()}${returnBibleLink()}</nav></details><button type="button" id="global-stop" aria-label="${t('Stop synthetic speech','합성 음성 정지')}"><span class="material-symbols-outlined" aria-hidden="true">stop_circle</span></button></div>`;
+    const contentsLabel=mode()==='bible'?t('Bible study contents','성경 학습 목차'):mode()==='words'?t('Word tools','단어 도구'):mode()==='practice'?t('Practice contents','연습 목차'):route[0]==='settings'?t('Settings contents','설정 목차'):t('Course contents','과정 목차');
+    document.getElementById('study-nav').setAttribute('aria-label',contentsLabel);
+    document.getElementById('mobile-nav').setAttribute('aria-label',t('Activity controls','활동 조작'));
+    document.getElementById('study-header').innerHTML=`<a class="mobile-brand" href="#/learn">Spiritual Turkish</a><nav id="mode-nav" aria-label="${t('Learning activities','학습 활동')}">${modes.map(([id,en,ko])=>`<a href="#/${modePath(id)}" data-mode="${id}" ${mode()===id?'aria-current="page"':''}>${t(en,ko)}</a>`).join('')}</nav><div class="header-controls"><button type="button" id="open-outline" class="contents-trigger" aria-label="${contentsLabel}"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="contents-text">${t('Contents','목차')}</span></button><label for="study-language">${t('Teaching language','학습 언어')}</label><select id="study-language" aria-label="${t('Teaching language','학습 언어')}"><option value="en">English</option><option value="ko">한국어</option></select><a class="settings-link" href="#/settings" aria-label="${t('Backup & settings','백업·설정')}" ${route[0]==='settings'?'aria-current="page"':''}><span class="material-symbols-outlined" aria-hidden="true">settings</span></a><button type="button" id="global-stop" aria-label="${t('Stop synthetic speech','합성 음성 정지')}"><span class="material-symbols-outlined" aria-hidden="true">stop_circle</span></button></div>`;
     document.getElementById('open-outline').onclick=openContents;
     document.getElementById('global-stop').onclick=()=>{audioEngine.stopSpeaking();audioStatus.textContent=t('Stopped.','정지했습니다.');};
     const select=document.getElementById('study-language');select.value=course.language;select.onchange=async()=>{const d=document.getElementById('word-inspector'),word=d.open?d.dataset.word:null,bibleWord=d.open?d.dataset.bibleWord:null;course.setLanguage(select.value);document.getElementById('teaching-language').value=course.language;await renderRoute(false);document.getElementById('study-language').focus({preventScroll:true});if(word)openWord(word);else if(bibleWord&&route[0]==='bible'&&route[1]==='study')bibleStudy.openWord(bibleWord,document.querySelector(`[data-bible-word="${bibleWord}"]`));};
-    if(route[0]==='bible')document.querySelector('.desktop-header-label').textContent=t('Bible study','성경 학습');
     document.body.classList.toggle('studying',route[0]==='lesson'&&!!studyCatalog.lesson(route[1])||route[0]==='bible'&&route[1]==='study'&&!!bibleStudy.meta(route[2]));
-    if(document.body.classList.contains('studying'))updateActivity(route[2]||'read');else document.getElementById('mobile-nav').innerHTML=returnLink();
+    if(document.body.classList.contains('studying'))updateActivity(route[2]||'read');else{const mobile=document.getElementById('mobile-nav');mobile.innerHTML=`<button type="button" id="mobile-contents">${t('Contents','목차')}</button>${supportReturn()}`;mobile.querySelector('button').onclick=openContents;}
   }
   const linkLesson=(l,extra='')=>`<a class="lesson-row" href="#/lesson/${l.id}/${course.entry(l.id).section||'read'}"><span><strong>${esc(tx(l.title))}</strong>${extra?`<small>${extra}</small>`:''}</span><span class="lesson-state">${course.status(course.entry(l.id))}<span aria-hidden="true"> →</span></span></a>`;
   const title=(kicker,heading,description='')=>`<header class="page-title"><p class="eyebrow">${kicker}</p><h1 id="page-heading" tabindex="-1">${heading}</h1>${description?`<p>${description}</p>`:''}</header>`;
@@ -96,7 +110,7 @@ document.addEventListener('DOMContentLoaded',()=>{
       <section class="reading-notes"><h2>${t('Understand the reading','읽기 이해하기')}</h2>${rich(p.explanation)}<h3>${t('Words to notice','살펴볼 단어')}</h3>${wordButtons(ws)}<h3>${t('Use it independently','독립 사용')}</h3>${rich(p.task)}<label for="reading-note">${t('Your Turkish summary or study notes','자신의 터키어 요약·학습 메모')}</label><textarea id="reading-note" lang="tr">${esc(state.notes[p.id]||'')}</textarea><p class="muted">${t('Private device notes. Label your own summaries separately from Scripture.','개인 기기 메모입니다. 자신의 요약을 성경과 구별해 표시하세요.')}</p></section><section><h2>${t('Related study','연결 학습')}</h2>${p.relatedLessons.map(id=>ALL_LESSONS.find(l=>l.id===id)).filter(Boolean).map(l=>linkLesson(l)).join('')}</section>`;
   }
   function practice(){
-    const groups=[[1,'Pronunciation and listening','발음과 듣기'],[2,'Conversation rehearsal','대화 역할극'],[3,'Culture and vocabulary','문화와 어휘'],[4,'Grammar workshop','문법 연습'],[5,'Prayer workshop','기도 연습'],[6,'Spelling and proofreading','표기와 교정']];
+    const groups=workshopGroups;
     return title(t('Practice','연습'),t('Try the language out.','언어를 사용해 보세요.'),t('Keep practising the existing workshops, alongside the new source lessons. Opening an activity records a visit, not mastery.','새 출처 수업과 함께 기존 연습을 계속하세요. 활동을 열면 방문을 기록하며 숙달을 부여하지 않습니다.'))+groups.map(([n,en,ko])=>`<details class="course-group" ${n===5?'open':''}><summary>${t(en,ko)}</summary>${[...document.querySelectorAll(`#legacy-host [data-lesson-id^="ch${n}-"]`)].map(b=>{const id=b.dataset.lessonId;return `<a class="lesson-row" href="#/lesson/${id}/read"><strong>${esc(window.legacyLessonTitle(id))}</strong><span>${course.status(course.entry(id))} →</span></a>`;}).join('')}</details>`).join('');
   }
   function settings(){return title(t('Your learning data','학습 데이터'),t('Saved on this device','이 기기에 저장됨'),t('No account is required. Back up progress, notes and prayers before changing browsers or devices.','계정이 필요하지 않습니다. 브라우저나 기기를 바꾸기 전에 진행·메모·기도를 백업하세요.'))+`<section class="settings-panel"><h2>${t('Device backup','기기 백업')}</h2><p>${t('Export a JSON backup. Import merges it with this device and preserves existing records when they conflict. It does not upload your data.','JSON 백업을 내보냅니다. 가져오기는 이 기기와 합치며 충돌 시 기존 항목을 유지합니다. 데이터를 업로드하지 않습니다.')}</p><button type="button" id="export-backup" class="primary-action">${t('Export backup','백업 내보내기')}</button><label class="import-label" for="import-backup">${t('Import backup','백업 가져오기')}<input id="import-backup" type="file" accept="application/json,.json"></label><p role="status" id="backup-status"></p><h2>${t('About audio','음성 안내')}</h2><label class="course-choice"><input type="checkbox" id="sound-effects" ${audioEngine.isMuted?'':'checked'}>${t('Play activity sound effects','활동 효과음 재생')}</label><label for="default-rate">${t('Default synthetic speech speed','기본 합성 음성 속도')}</label><select id="default-rate"><option value="1" ${audioEngine.playbackRate===1?'selected':''}>1×</option><option value="0.8" ${audioEngine.playbackRate===.8?'selected':''}>0.8×</option></select><p>${t('Playback uses browser Turkish synthetic speech when a Turkish voice exists. Speech recognition compares recognised text; it does not assess native pronunciation.','터키어 음성이 있는 브라우저의 합성 음성을 사용합니다. 음성 인식은 인식된 문자를 비교하며 원어민 발음을 평가하지 않습니다.')}</p><h2>${t('Accounts later','향후 계정')}</h2><p>${t('This release stores data locally. Future accounts will use a separate private storage adapter with explicit import of your device progress.','이번 버전은 기기에 저장합니다. 향후 계정은 별도의 개인 저장 어댑터와 명시적인 기기 기록 가져오기를 사용합니다.')}</p></section>`;}
@@ -111,6 +125,11 @@ document.addEventListener('DOMContentLoaded',()=>{
     if(route[0]==='lesson'&&!sections.includes(route[2]))route[2]='read';
     if(route[0]==='bible'&&route[1]==='study'&&!sections.includes(route[3]))route[3]='read';
     if(location.hash!=='#/'+route.join('/'))history.replaceState(null,'','#/'+route.join('/'));
+    if(route[0]==='words'){route=['words',...(['saved','review'].includes(route[1])?[route[1]]:[])];history.replaceState(null,'','#/'+route.join('/'));state.activityResume.words=route.join('/');}
+    if(mode()==='practice')state.activityResume.practice=route[0]==='practice'?'practice':route.join('/');
+    if(route[0]==='lesson'&&studyCatalog.lesson(route[1]))state.activityResume.returnTo='lessons';
+    if(route[0]==='bible'&&route[1]==='study')state.activityResume.returnTo='bible';
+    deviceLearning.save();
     if(route[0]==='lesson'&&renderedLesson===route[1]&&renderedLanguage===course.language&&studyCatalog.lesson(route[1])){setSection(route[2],focus);return;}
     if(route[0]==='bible'&&bibleStudy.isRendered(route)){header();bibleStudy.section(route,focus);return;}
     if(route[0]!=='bible'||route[1]!=='study')bibleStudy.deactivate();
@@ -135,7 +154,7 @@ document.addEventListener('DOMContentLoaded',()=>{
       if(route[0]==='bible'&&(!route[1]||['study','topic','about'].includes(route[1]))){
         const requested=[...route];view.innerHTML=returnLink()+`<p role="status">${t('Loading Bible study…','성경 학습 자료를 불러오는 중…')}</p>`;header();
         try{const html=await bibleStudy.render(requested);if(version!==routeVersion)return;view.innerHTML=returnLink()+html;bibleStudy.bind(view,requested);}catch{if(version!==routeVersion)return;view.innerHTML=returnLink()+`<h1 tabindex="-1">${t('Bible study could not load','성경 학습을 불러오지 못했습니다')}</h1><p>${t('Check your connection and try again. No substitute Scripture is displayed.','연결을 확인하고 다시 시도하세요. 성경 본문을 대신 지어내서 표시하지 않습니다.')}</p><button type="button" id="bible-load-retry">${t('Retry','다시 시도')}</button><a href="#/bible">${t('Return to topics','주제로 돌아가기')}</a>`;view.querySelector('button').onclick=()=>renderRoute(false);}
-      }else{view.innerHTML=returnLink()+(views[route[0]]||courses)();bindView(view);}
+      }else{view.innerHTML=supportReturn()+(views[route[0]]||courses)();bindView(view);}
     }
     header();bindWords(app);if(route[0]==='lesson'&&studyCatalog.lesson(route[1]))requestAnimationFrame(()=>setSection(route[2],focus));else if(focus){window.scrollTo(0,0);document.getElementById('study-main').focus({preventScroll:true});}
     document.getElementById('study-footer').firstElementChild?.classList.add('global-status');
@@ -143,11 +162,11 @@ document.addEventListener('DOMContentLoaded',()=>{
     if(route[0]==='bible'&&route[1]==='study')requestAnimationFrame(()=>bibleStudy.section(route,focus));
   }
   window.refreshBibleOutline=()=>{document.getElementById('study-nav').innerHTML=contents(resume().id);};
-  window.refreshBibleControls=r=>{route=[...r];updateActivity(r[3]);};
+  window.refreshBibleControls=r=>{route=[...r];updateActivity(r[3]);refreshModeTargets();};
   function rememberSection(section){
     if(!studyCatalog.lesson(route[1]))return;
     const r={id:route[1],section};state.studyLast=r;state.courseResume[studyCatalog.forLesson(r.id).id]=r;
-    course.entry(r.id).section=section;course.save();deviceLearning.save();updateActivity(section);
+    course.entry(r.id).section=section;course.save();deviceLearning.save();updateActivity(section);refreshModeTargets();
   }
   function setSection(section,focus=true){
     sectionLockUntil=performance.now()+300;

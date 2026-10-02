@@ -24,7 +24,10 @@ The ten practical lessons cover clarification, hospitality, permission to pray, 
 - **Study:** open Finding and reading a Bible reference immediately, or resume the last curriculum lesson and section. The course outline is the main navigation.
 - **Courses:** choose among six courses grouped into manageable chapters; resume is saved separately for each course.
 
-The secondary Resources menu contains:
+Four persistent activity links—**Lessons, Bible study, Words, Practice**—make switching available directly on desktop and phones. The selected activity is highlighted. Its sidebar or contents drawer shows relevant course chapters, Bible topics, vocabulary tools, or workshops; it no longer displays an unrelated course outline. Settings and backup remain directly accessible beside the language selector.
+
+The supporting activities are:
+
 - **Words:** search in Turkish, English or Korean; inspect meaning, dictionary headword, authored form/suffix analysis, literal gloss, natural meaning and source context; save words for recall.
 - **Bible study / 성경 학습:** 60 curated passages grouped into five categories and 30 paired topics. Complete **Kutsal Kitap — Yeni Çeviri (TCL02)** text, original English/Korean teaching meanings, clause/literal explanations, contextual word/suffix inspection, vocabulary, grammar and curriculum links. Reference ↔ passage matching, vocabulary and grammar choices provide explained feedback; independent writing/speaking uses models and self-assessment. This section teaches Turkish comprehension, with no new SRS, memory grading or flashcards. The existing 82 assignments remain under **Seminar source readings**, including all original URLs and notes. The lost sheep lesson remains a labelled simplified paraphrase.
 - **Practice:** pronunciation/listening, seven conversation simulators, culture, Bible grammar, prayer assembly and spelling/proofreading. Prayer assembly keeps six stages and the original Father/I library, with additional compatible Father/we, Jesus/I and Jesus/we models.
@@ -39,7 +42,9 @@ Opening records a **visit**. Answering/rehearsing records **practice**. Completi
 
 Saved words preserve the meaning and sentence context encountered. Recall is self-reported: **Remembered** intervals progress through 1, 3, 7, 14 and 30 days; **Again** returns the word tomorrow. Unknown imported notebook entries stay personal notes without invented morphology.
 
-Settings provide JSON **export/import** for device backups. Import validates before mutation and merges, preserving existing records on collision. Reload applies imported state. No data is uploaded.
+Each activity keeps its own place: the last curriculum lesson/section, Bible passage/section, Words view, and Practice workshop. Switching does not replace curriculum resume or award completion. Tools opened after a Bible passage offer Return to Bible study; those opened after a curriculum lesson offer Return to lesson.
+
+Settings provide JSON **export/import** for device backups, including activity destinations. Older backups remain importable. Import validates before mutation and merges, preserving existing records on collision. Reload applies imported state. No data is uploaded.
 
 `LearningStore` separates browser persistence from curriculum data and exposes `get`, `set`, `subscribe`, `export` and `import` for a future private account adapter. Authentication, provider selection, sync and backend deployment are outside this release.
 
@@ -64,7 +69,7 @@ The 60 selections cover **74 numbered verses**, but complete TCL02 combined unit
 
 `content/bible-study/` separates ordered metadata, immutable Scripture/provenance and one teaching JSON file per passage. Shared Scripture/options are referenced by ID rather than copied. The manifest and registry load on entering Bible study; detailed teaching loads on demand with retry and stale-request protection. Total teaching data is approximately 1.82 MB, with approximately 132 KB of collection metadata/Scripture (uncompressed UTF-8). See [the data contract](content/bible-study/README.md). No backend, runtime AI, automatic parser or offline/service-worker guarantee is added.
 
-Routes: `#/bible`, `#/bible/topic/<id>`, `#/bible/study/<id>/<read|understand|practise|use>`, `#/bible/about`, and `#/bible/readings`. Existing `#/bible/<reading-id>` links remain valid. Section anchors preserve forms and focus; related readings and Resources provide a return to Bible study.
+Routes: `#/bible`, `#/bible/topic/<id>`, `#/bible/study/<id>/<read|understand|practise|use>`, `#/bible/about`, and `#/bible/readings`. Existing `#/bible/<reading-id>` links remain valid. Section anchors preserve forms and focus; related readings and the persistent Bible study link provide a return to the passage.
 
 ## Audio and typography
 
