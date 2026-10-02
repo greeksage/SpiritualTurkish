@@ -1,0 +1,697 @@
+{
+  "id": "study-heb-12-3",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Hebrews 12:3 through its clause structure and the forms Yorulup / cesaretinizi.",
+    "ko": "히브리서 12:3의 절 구조와 Yorulup / cesaretinizi 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Consider the one who endured such opposition from sinners, so that you do not grow weary and lose courage.",
+    "ko": "지치고 용기를 잃지 않도록 죄인들의 큰 반대를 견디신 분을 생각하세요."
+  },
+  "clauses": [
+    {
+      "id": "study-heb-12-3-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "HEB.12.3",
+          "start": 0,
+          "end": 99
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Considering his endurance serves the purpose of not losing courage.",
+        "ko": "그분의 인내를 생각함은 용기를 잃지 않기 위한 것입니다."
+      },
+      "literalGloss": {
+        "en": "growing-tired and courage-your-object not-lose-infinitive for / sinners’ this-much opposing-to endured One-object consider",
+        "ko": "지쳐서 여러분 용기를 잃지 않기 위해 / 죄인들의 이만큼 맞섬에 견디신 분을 생각하라"
+      },
+      "explanation": {
+        "en": "Yorulup joins tiring with losing courage. Yitirmemek is a negative infinitive before için. Günahkârların karşı koymasına names what was endured using a genitive subject and dative verbal noun. Capitalized Olan names the person in context, not a new grammatical category.",
+        "ko": "yorulup는 지침을 용기를 잃음과 연결합니다. yitirmemek은 için 앞의 부정 부정사입니다. günahkârların karşı koymasına는 속격 주어·여격 동사 명사형으로 견딘 대상을 밝힙니다. 대문자 Olan은 문맥상 인물을 가리키며 새 문법 범주는 아닙니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-heb-12-3-word-1",
+      "verseId": "HEB.12.3",
+      "start": 0,
+      "end": 7,
+      "surface": "Yorulup",
+      "lemma": "yorulmak",
+      "meaning": {
+        "en": "becoming tired and …",
+        "ko": "지쳐서"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "Yorul",
+          "meaning": {
+            "en": "become tired",
+            "ko": "지치다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "up",
+          "meaning": {
+            "en": "linked action converb -Ip",
+            "ko": "행위를 잇는 연결형 -Ip"
+          },
+          "function": "IP"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {},
+      "role": {
+        "en": "Linked preceding action",
+        "ko": "앞 행위의 연결"
+      },
+      "contextualExplanation": {
+        "en": "It has the same understood subject as losing courage.",
+        "ko": "용기를 잃음과 동일한 생략 주어를 갖습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "become tired",
+        "ko": "지치다"
+      }
+    },
+    {
+      "id": "study-heb-12-3-word-2",
+      "verseId": "HEB.12.3",
+      "start": 8,
+      "end": 20,
+      "surface": "cesaretinizi",
+      "lemma": "cesaret",
+      "meaning": {
+        "en": "your courage (object)",
+        "ko": "여러분의 용기를"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "cesaret",
+          "meaning": {
+            "en": "courage",
+            "ko": "용기"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "iniz",
+          "meaning": {
+            "en": "second-person plural possessive",
+            "ko": "2인칭 복수 소유"
+          },
+          "function": "P2P"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "2pl/polite",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Possessed object",
+        "ko": "소유 목적어"
+      },
+      "contextualExplanation": {
+        "en": "The object is courage, not the listeners themselves.",
+        "ko": "목적어는 청자 자신이 아니라 용기입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "courage",
+        "ko": "용기"
+      }
+    },
+    {
+      "id": "study-heb-12-3-word-3",
+      "verseId": "HEB.12.3",
+      "start": 21,
+      "end": 31,
+      "surface": "yitirmemek",
+      "lemma": "yitirmek",
+      "meaning": {
+        "en": "not to lose",
+        "ko": "잃지 않음"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yitir",
+          "meaning": {
+            "en": "lose",
+            "ko": "잃다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "me",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "mek",
+          "meaning": {
+            "en": "infinitive",
+            "ko": "부정사"
+          },
+          "function": "INF"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "nonfinite": "infinitive"
+      },
+      "role": {
+        "en": "Negative infinitive of purpose",
+        "ko": "목적의 부정 부정사"
+      },
+      "contextualExplanation": {
+        "en": "Compare yitirmek, to lose, with yitirmemek, not to lose.",
+        "ko": "잃다 yitirmek과 잃지 않다 yitirmemek을 비교하세요."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "lose",
+        "ko": "잃다"
+      }
+    },
+    {
+      "id": "study-heb-12-3-word-4",
+      "verseId": "HEB.12.3",
+      "start": 64,
+      "end": 73,
+      "surface": "koymasına",
+      "lemma": "koymak",
+      "meaning": {
+        "en": "to their opposing",
+        "ko": "그들의 맞섬에"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "koy",
+          "meaning": {
+            "en": "put / place",
+            "ko": "놓다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ma",
+          "meaning": {
+            "en": "verbal noun",
+            "ko": "동사 명사형"
+          },
+          "function": "VN"
+        },
+        {
+          "form": "sı",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "a",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "verbal noun",
+        "possessive": "3",
+        "case": "dative"
+      },
+      "role": {
+        "en": "Dative verbal noun in karşı koymak",
+        "ko": "karşı koymak의 여격 동사 명사형"
+      },
+      "contextualExplanation": {
+        "en": "The nominalized opposition is a complement of katlanmak, endure.",
+        "ko": "명사화한 반대는 견디다 katlanmak의 보어입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "put / place",
+        "ko": "놓다"
+      }
+    },
+    {
+      "id": "study-heb-12-3-word-5",
+      "verseId": "HEB.12.3",
+      "start": 74,
+      "end": 83,
+      "surface": "katlanmış",
+      "lemma": "katlanmak",
+      "meaning": {
+        "en": "who has endured",
+        "ko": "견딘"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "katlan",
+          "meaning": {
+            "en": "endure / bear",
+            "ko": "견디다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "mış",
+          "meaning": {
+            "en": "past/resultative -mIş form",
+            "ko": "-mIş 과거·결과 형태"
+          },
+          "function": "RESULT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "resultative -mIş"
+      },
+      "role": {
+        "en": "Resultative modifier of Olan",
+        "ko": "Olan의 결과 수식"
+      },
+      "contextualExplanation": {
+        "en": "In katlanmış Olan the completed endurance modifies the named person.",
+        "ko": "katlanmış Olan에서 완료된 인내가 인물을 꾸밉니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "endure / bear",
+        "ko": "견디다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-heb-12-3-word-1-vocab",
+      "analysisId": "study-heb-12-3-word-1",
+      "lemma": "yorulmak",
+      "classification": "general",
+      "definitions": {
+        "en": "become tired",
+        "ko": "지치다"
+      },
+      "usageNotes": {
+        "en": "It has the same understood subject as losing courage.",
+        "ko": "용기를 잃음과 동일한 생략 주어를 갖습니다."
+      }
+    },
+    {
+      "id": "study-heb-12-3-word-2-vocab",
+      "analysisId": "study-heb-12-3-word-2",
+      "lemma": "cesaret",
+      "classification": "general",
+      "definitions": {
+        "en": "courage",
+        "ko": "용기"
+      },
+      "usageNotes": {
+        "en": "The object is courage, not the listeners themselves.",
+        "ko": "목적어는 청자 자신이 아니라 용기입니다."
+      }
+    },
+    {
+      "id": "study-heb-12-3-word-3-vocab",
+      "analysisId": "study-heb-12-3-word-3",
+      "lemma": "yitirmek",
+      "classification": "general",
+      "definitions": {
+        "en": "lose",
+        "ko": "잃다"
+      },
+      "usageNotes": {
+        "en": "Compare yitirmek, to lose, with yitirmemek, not to lose.",
+        "ko": "잃다 yitirmek과 잃지 않다 yitirmemek을 비교하세요."
+      }
+    },
+    {
+      "id": "study-heb-12-3-word-4-vocab",
+      "analysisId": "study-heb-12-3-word-4",
+      "lemma": "koymak",
+      "classification": "general",
+      "definitions": {
+        "en": "put / place",
+        "ko": "놓다"
+      },
+      "usageNotes": {
+        "en": "The nominalized opposition is a complement of katlanmak, endure.",
+        "ko": "명사화한 반대는 견디다 katlanmak의 보어입니다."
+      }
+    },
+    {
+      "id": "study-heb-12-3-word-5-vocab",
+      "analysisId": "study-heb-12-3-word-5",
+      "lemma": "katlanmak",
+      "classification": "general",
+      "definitions": {
+        "en": "endure / bear",
+        "ko": "견디다"
+      },
+      "usageNotes": {
+        "en": "In katlanmış Olan the completed endurance modifies the named person.",
+        "ko": "katlanmış Olan에서 완료된 인내가 인물을 꾸밉니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-heb-12-3-grammar-1",
+      "title": {
+        "en": "Negation before infinitive",
+        "ko": "부정사 앞 부정"
+      },
+      "explanation": {
+        "en": "Yitir-me-mek keeps both the negative -me and infinitive -mek. Do not remove one merely because their sounds overlap.",
+        "ko": "yitir-me-mek은 부정 -me와 부정사 -mek을 둘 다 유지합니다. 소리가 겹친다고 하나를 없애지 마세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "HEB.12.3",
+          "start": 0,
+          "end": 99
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-heb-12-3-grammar-2",
+      "title": {
+        "en": "Katlanmak plus dative",
+        "ko": "katlanmak·여격"
+      },
+      "explanation": {
+        "en": "Katlanmak takes the thing endured in dative; here an entire nominalized action carries that case.",
+        "ko": "katlanmak은 견디는 대상을 여격으로 취하며 여기서는 전체 명사화 행위에 그 격이 붙습니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "HEB.12.3",
+          "start": 0,
+          "end": 99
+        }
+      ],
+      "relatedLessonIds": []
+    }
+  ],
+  "independentTask": {
+    "en": "Express a purpose with a negative infinitive and offer supportive, non-coercive encouragement.",
+    "ko": "부정 부정사로 목적을 표현하고 강요하지 않는 격려를 제안하세요."
+  },
+  "modelResponse": {
+    "tr": "Yorulmamak için ara verelim. İsterseniz birlikte konuşabiliriz.",
+    "meaning": {
+      "en": "Let us take a break so we do not get tired. If you wish, we can talk together.",
+      "ko": "지치지 않도록 쉬어갑시다. 원하시면 함께 이야기할 수 있습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-heb-12-3-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Hebrews 12:3? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 히브리서 12:3인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-heb-12-3",
+          "passageId": "study-heb-12-3",
+          "explanation": {
+            "en": "This is the passage. Consider the one who endured such opposition from sinners, so that you do not grow weary and lose courage. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 지치고 용기를 잃지 않도록 죄인들의 큰 반대를 견디신 분을 생각하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-15-58",
+          "passageId": "study-1co-15-58",
+          "explanation": {
+            "en": "This is a different passage. Stand firm, remain unshaken, and always work earnestly in the Lord’s work, knowing your labor in the Lord is not in vain. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 주 안에서 수고가 헛되지 않음을 알고 굳게 서며 흔들리지 말고 언제나 주의 일에 힘쓰세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-6-33",
+          "passageId": "study-mat-6-33",
+          "explanation": {
+            "en": "This is a different passage. Seek his kingdom and righteousness first; then all these things will also be given to you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 먼저 그분의 나라와 의를 구하세요. 그러면 이 모든 것도 여러분에게 주어질 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-luk-9-23",
+          "passageId": "study-luk-9-23",
+          "explanation": {
+            "en": "This is a different passage. Jesus said that whoever wants to follow him should deny themselves, take up their cross every day, and follow him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 예수님은 자신을 따르려는 사람은 자기를 부인하고 매일 자기 십자가를 지며 자신을 따르라고 말씀하셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-heb-12-3"
+      ],
+      "explanations": {
+        "en": "This is the passage. Consider the one who endured such opposition from sinners, so that you do not grow weary and lose courage. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 지치고 용기를 잃지 않도록 죄인들의 큰 반대를 견디신 분을 생각하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-heb-12-3-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-heb-12-3",
+          "referenceId": "study-heb-12-3",
+          "explanation": {
+            "en": "This is the passage. Consider the one who endured such opposition from sinners, so that you do not grow weary and lose courage. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 지치고 용기를 잃지 않도록 죄인들의 큰 반대를 견디신 분을 생각하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-15-58",
+          "referenceId": "study-1co-15-58",
+          "explanation": {
+            "en": "This is a different passage. Stand firm, remain unshaken, and always work earnestly in the Lord’s work, knowing your labor in the Lord is not in vain. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 주 안에서 수고가 헛되지 않음을 알고 굳게 서며 흔들리지 말고 언제나 주의 일에 힘쓰세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-6-33",
+          "referenceId": "study-mat-6-33",
+          "explanation": {
+            "en": "This is a different passage. Seek his kingdom and righteousness first; then all these things will also be given to you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 먼저 그분의 나라와 의를 구하세요. 그러면 이 모든 것도 여러분에게 주어질 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-luk-9-23",
+          "referenceId": "study-luk-9-23",
+          "explanation": {
+            "en": "This is a different passage. Jesus said that whoever wants to follow him should deny themselves, take up their cross every day, and follow him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 예수님은 자신을 따르려는 사람은 자기를 부인하고 매일 자기 십자가를 지며 자신을 따르라고 말씀하셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-heb-12-3"
+      ],
+      "explanations": {
+        "en": "This is the passage. Consider the one who endured such opposition from sinners, so that you do not grow weary and lose courage. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 지치고 용기를 잃지 않도록 죄인들의 큰 반대를 견디신 분을 생각하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-heb-12-3-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “yorulmak” in this passage?",
+        "ko": "이 본문에서 “yorulmak”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-heb-12-3-word-1-vocab",
+          "label": {
+            "en": "become tired",
+            "ko": "지치다"
+          },
+          "explanation": {
+            "en": "become tired. It has the same understood subject as losing courage.",
+            "ko": "지치다. 용기를 잃음과 동일한 생략 주어를 갖습니다."
+          }
+        },
+        {
+          "id": "study-heb-12-3-word-2-vocab",
+          "label": {
+            "en": "courage",
+            "ko": "용기"
+          },
+          "explanation": {
+            "en": "That definition belongs to cesaret. yorulmak means become tired here. It has the same understood subject as losing courage.",
+            "ko": "그 뜻은 cesaret입니다. 여기 yorulmak는 지치다입니다. 용기를 잃음과 동일한 생략 주어를 갖습니다."
+          }
+        },
+        {
+          "id": "study-heb-12-3-word-3-vocab",
+          "label": {
+            "en": "lose",
+            "ko": "잃다"
+          },
+          "explanation": {
+            "en": "That definition belongs to yitirmek. yorulmak means become tired here. It has the same understood subject as losing courage.",
+            "ko": "그 뜻은 yitirmek입니다. 여기 yorulmak는 지치다입니다. 용기를 잃음과 동일한 생략 주어를 갖습니다."
+          }
+        },
+        {
+          "id": "study-heb-12-3-word-4-vocab",
+          "label": {
+            "en": "put / place",
+            "ko": "놓다"
+          },
+          "explanation": {
+            "en": "That definition belongs to koymak. yorulmak means become tired here. It has the same understood subject as losing courage.",
+            "ko": "그 뜻은 koymak입니다. 여기 yorulmak는 지치다입니다. 용기를 잃음과 동일한 생략 주어를 갖습니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-heb-12-3-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "It has the same understood subject as losing courage.",
+        "ko": "용기를 잃음과 동일한 생략 주어를 갖습니다."
+      }
+    },
+    {
+      "id": "study-heb-12-3-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “cesaretinizi”, what is the function of “-i” here?",
+        "ko": "“cesaretinizi”에서 “-i”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "Possessed object. The object is courage, not the listeners themselves.",
+            "ko": "소유 목적어. 목적어는 청자 자신이 아니라 용기입니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed object. The object is courage, not the listeners themselves.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 목적어. 목적어는 청자 자신이 아니라 용기입니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed object. The object is courage, not the listeners themselves.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 목적어. 목적어는 청자 자신이 아니라 용기입니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed object. The object is courage, not the listeners themselves.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 목적어. 목적어는 청자 자신이 아니라 용기입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ACC"
+      ],
+      "explanations": {
+        "en": "The object is courage, not the listeners themselves.",
+        "ko": "목적어는 청자 자신이 아니라 용기입니다."
+      }
+    }
+  ]
+}

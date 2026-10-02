@@ -1,0 +1,649 @@
+{
+  "id": "study-heb-2-18",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Hebrews 2:18 through its clause structure and the forms denenip / çektiği.",
+    "ko": "히브리서 2:18의 절 구조와 denenip / çektiği 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Because he himself suffered through being tested, he can help those who are tested.",
+    "ko": "그분 자신이 시험받아 고난을 겪으셨기 때문에 시험받는 사람들을 도울 수 있습니다."
+  },
+  "clauses": [
+    {
+      "id": "study-heb-2-18-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "HEB.2.18",
+          "start": 0,
+          "end": 67
+        }
+      ],
+      "naturalMeaning": {
+        "en": "His experience of testing and suffering grounds his help for others under testing.",
+        "ko": "시험·고난을 겪으신 경험이 시험받는 사람들을 돕는 근거가 됩니다."
+      },
+      "literalGloss": {
+        "en": "because / self tested-and pain suffered-that / because / tested-people-to / help can-do",
+        "ko": "왜냐하면 / 자신이 시험받고 고난 겪었음 / 때문에 / 시험받는 사람들에게 / 도움을 줄 수 있다"
+      },
+      "explanation": {
+        "en": "Denenip links the passive testing to acı çekmek, the idiom suffer. Çektiği için states cause; denenenlere is a plural participial noun in the dative after yardım etmek.",
+        "ko": "denenip는 피동 시험을 고난받다라는 acı çekmek과 잇습니다. çektiği için은 원인이고 denenenlere는 yardım etmek의 여격인 복수 명사적 관계형입니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-heb-2-18-word-1",
+      "verseId": "HEB.2.18",
+      "start": 14,
+      "end": 21,
+      "surface": "denenip",
+      "lemma": "denemek",
+      "meaning": {
+        "en": "being tested and",
+        "ko": "시험받고"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "dene",
+          "meaning": {
+            "en": "try / test",
+            "ko": "시험하다·시도하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "passive",
+            "ko": "피동"
+          },
+          "function": "PASS"
+        },
+        {
+          "form": "ip",
+          "meaning": {
+            "en": "linked action converb -Ip",
+            "ko": "행위를 잇는 연결형 -Ip"
+          },
+          "function": "IP"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "voice": "passive"
+      },
+      "role": {
+        "en": "Passive linked action",
+        "ko": "피동 연결 행위"
+      },
+      "contextualExplanation": {
+        "en": "The person undergoes testing; he is not the one testing others in this phrase.",
+        "ko": "시험을 받는 사람이며 이 구에서 남을 시험하는 사람이 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "try / test",
+        "ko": "시험하다·시도하다"
+      }
+    },
+    {
+      "id": "study-heb-2-18-word-2",
+      "verseId": "HEB.2.18",
+      "start": 26,
+      "end": 33,
+      "surface": "çektiği",
+      "lemma": "çekmek",
+      "meaning": {
+        "en": "that he suffered",
+        "ko": "그분이 고난 겪었음"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "çek",
+          "meaning": {
+            "en": "draw / pull; suffer with acı",
+            "ko": "당기다; acı와 함께 고통받다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "tiğ",
+          "meaning": {
+            "en": "nominalizing/participial -DIK",
+            "ko": "명사화·관계형 -DIK"
+          },
+          "function": "DIK"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-tik → -tiğ before a vowel",
+          "ko": "모음 앞에서 -tik가 -tiğ로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "-DIK nominal/participial",
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Nominalized causal clause",
+        "ko": "명사화 원인절"
+      },
+      "contextualExplanation": {
+        "en": "Acı çekmek is suffer; -DIK with possession precedes için.",
+        "ko": "acı çekmek은 고난받다이며 소유가 붙은 -DIK 뒤에 için이 옵니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "draw / pull; suffer with acı",
+        "ko": "당기다; acı와 함께 고통받다"
+      }
+    },
+    {
+      "id": "study-heb-2-18-word-3",
+      "verseId": "HEB.2.18",
+      "start": 39,
+      "end": 50,
+      "surface": "denenenlere",
+      "lemma": "denemek",
+      "meaning": {
+        "en": "to those being tested",
+        "ko": "시험받는 사람들에게"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "dene",
+          "meaning": {
+            "en": "try / test",
+            "ko": "시험하다·시도하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "passive",
+            "ko": "피동"
+          },
+          "function": "PASS"
+        },
+        {
+          "form": "en",
+          "meaning": {
+            "en": "subject participle -An",
+            "ko": "주어 관계형 -An"
+          },
+          "function": "PART"
+        },
+        {
+          "form": "ler",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "e",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "voice": "passive",
+        "nonfinite": "subject participle",
+        "number": "plural",
+        "case": "dative"
+      },
+      "role": {
+        "en": "Passive nominal participle",
+        "ko": "피동 명사적 관계형"
+      },
+      "contextualExplanation": {
+        "en": "Passive, participle, plural, dative follow in that order.",
+        "ko": "피동·관계형·복수·여격이 차례로 붙습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "try / test",
+        "ko": "시험하다·시도하다"
+      }
+    },
+    {
+      "id": "study-heb-2-18-word-4",
+      "verseId": "HEB.2.18",
+      "start": 58,
+      "end": 66,
+      "surface": "edebilir",
+      "lemma": "etmek",
+      "meaning": {
+        "en": "can help / do",
+        "ko": "도울 수 있다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ed",
+          "meaning": {
+            "en": "do / make (auxiliary)",
+            "ko": "하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ebil",
+          "meaning": {
+            "en": "ability / possibility",
+            "ko": "능력·가능성"
+          },
+          "function": "CAN"
+        },
+        {
+          "form": "ir",
+          "meaning": {
+            "en": "aorist: general / habitual",
+            "ko": "일반·습관 현재"
+          },
+          "function": "AOR"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "et- → ed- before -ebil",
+          "ko": "-ebil 앞에서 et-가 ed-로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "modality": "ability",
+        "tenseAspect": "aorist"
+      },
+      "role": {
+        "en": "Ability in yardım etmek",
+        "ko": "yardım etmek의 가능"
+      },
+      "contextualExplanation": {
+        "en": "Et- voices to ed- before -ebil; the dative recipients are outside the compound.",
+        "ko": "-ebil 앞에서 et-가 ed-가 되고 여격 청자는 결합 동사 밖에 있습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "do / make (auxiliary)",
+        "ko": "하다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-heb-2-18-word-1-vocab",
+      "analysisId": "study-heb-2-18-word-1",
+      "lemma": "denemek",
+      "classification": "general",
+      "definitions": {
+        "en": "try / test",
+        "ko": "시험하다·시도하다"
+      },
+      "usageNotes": {
+        "en": "The person undergoes testing; he is not the one testing others in this phrase.",
+        "ko": "시험을 받는 사람이며 이 구에서 남을 시험하는 사람이 아닙니다."
+      }
+    },
+    {
+      "id": "study-heb-2-18-word-2-vocab",
+      "analysisId": "study-heb-2-18-word-2",
+      "lemma": "çekmek",
+      "classification": "general",
+      "definitions": {
+        "en": "draw / pull; suffer with acı",
+        "ko": "당기다; acı와 함께 고통받다"
+      },
+      "usageNotes": {
+        "en": "Acı çekmek is suffer; -DIK with possession precedes için.",
+        "ko": "acı çekmek은 고난받다이며 소유가 붙은 -DIK 뒤에 için이 옵니다."
+      }
+    },
+    {
+      "id": "study-heb-2-18-word-3-vocab",
+      "analysisId": "study-heb-2-18-word-3",
+      "lemma": "denemek",
+      "classification": "general",
+      "definitions": {
+        "en": "try / test",
+        "ko": "시험하다·시도하다"
+      },
+      "usageNotes": {
+        "en": "Passive, participle, plural, dative follow in that order.",
+        "ko": "피동·관계형·복수·여격이 차례로 붙습니다."
+      }
+    },
+    {
+      "id": "study-heb-2-18-word-4-vocab",
+      "analysisId": "study-heb-2-18-word-4",
+      "lemma": "etmek",
+      "classification": "general",
+      "definitions": {
+        "en": "do / make (auxiliary)",
+        "ko": "하다"
+      },
+      "usageNotes": {
+        "en": "Et- voices to ed- before -ebil; the dative recipients are outside the compound.",
+        "ko": "-ebil 앞에서 et-가 ed-가 되고 여격 청자는 결합 동사 밖에 있습니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-heb-2-18-grammar-1",
+      "title": {
+        "en": "Passive participants",
+        "ko": "피동 참여자"
+      },
+      "explanation": {
+        "en": "Denenip describes the subject’s own testing; denenenlere describes those he helps. Their similar stems have different clause roles.",
+        "ko": "denenip는 주어 자신의 시험이고 denenenlere는 도움받는 사람입니다. 비슷한 어간이어도 절 역할이 다릅니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "HEB.2.18",
+          "start": 0,
+          "end": 67
+        }
+      ],
+      "relatedLessonIds": [
+        "foundation-voice"
+      ]
+    },
+    {
+      "id": "study-heb-2-18-grammar-2",
+      "title": {
+        "en": "A causal experience",
+        "ko": "원인이 되는 경험"
+      },
+      "explanation": {
+        "en": "Çektiği için gives a reason, while yardım edebilir expresses ability. It does not claim sufferers should accept harm without seeking support.",
+        "ko": "çektiği için은 이유, yardım edebilir는 능력입니다. 고난받는 사람이 도움을 구하지 않고 해를 참아야 한다는 뜻이 아닙니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "HEB.2.18",
+          "start": 0,
+          "end": 67
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-04"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Write a supportive offer with yardım edebilirim, acknowledging a difficulty without claiming to fully understand another person’s experience.",
+    "ko": "상대 경험을 완전히 안다고 주장하지 말고 어려움을 인정하며 yardım edebilirim으로 도우세요."
+  },
+  "modelResponse": {
+    "tr": "Bu durumun zor olduğunu görüyorum. Size nasıl yardım edebilirim?",
+    "meaning": {
+      "en": "I see that this situation is difficult. How can I help you?",
+      "ko": "상황이 어렵다는 것을 압니다. 어떻게 도와드릴까요?"
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "foundation-voice",
+    "ministry-04"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-heb-2-18-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Hebrews 2:18? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 히브리서 2:18인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-heb-2-18",
+          "passageId": "study-heb-2-18",
+          "explanation": {
+            "en": "This is the passage. Because he himself suffered through being tested, he can help those who are tested. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 그분 자신이 시험받아 고난을 겪으셨기 때문에 시험받는 사람들을 도울 수 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-3-16",
+          "passageId": "study-1co-3-16",
+          "explanation": {
+            "en": "This is a different passage. Do you not know that you are God’s temple and that God’s Spirit lives in you? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분이 하나님의 성전이며 하나님의 영이 여러분 안에 사신다는 것을 모르나요? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-5-7",
+          "passageId": "study-1pe-5-7",
+          "explanation": {
+            "en": "This is a different passage. Place all your anxieties on him, because he cares for you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 모든 염려를 그분께 맡기세요. 그분이 여러분을 돌보시기 때문입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-isa-26-3",
+          "passageId": "study-isa-26-3",
+          "explanation": {
+            "en": "This is a different passage. You protect in complete peace the one whose thoughts are steadfast, because that person trusts you. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 주님을 신뢰하기 때문에 생각이 흔들리지 않는 사람을 완전한 평강 가운데 지키십니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-heb-2-18"
+      ],
+      "explanations": {
+        "en": "This is the passage. Because he himself suffered through being tested, he can help those who are tested. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 그분 자신이 시험받아 고난을 겪으셨기 때문에 시험받는 사람들을 도울 수 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-heb-2-18-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-heb-2-18",
+          "referenceId": "study-heb-2-18",
+          "explanation": {
+            "en": "This is the passage. Because he himself suffered through being tested, he can help those who are tested. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 그분 자신이 시험받아 고난을 겪으셨기 때문에 시험받는 사람들을 도울 수 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-3-16",
+          "referenceId": "study-1co-3-16",
+          "explanation": {
+            "en": "This is a different passage. Do you not know that you are God’s temple and that God’s Spirit lives in you? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분이 하나님의 성전이며 하나님의 영이 여러분 안에 사신다는 것을 모르나요? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-5-7",
+          "referenceId": "study-1pe-5-7",
+          "explanation": {
+            "en": "This is a different passage. Place all your anxieties on him, because he cares for you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 모든 염려를 그분께 맡기세요. 그분이 여러분을 돌보시기 때문입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-isa-26-3",
+          "referenceId": "study-isa-26-3",
+          "explanation": {
+            "en": "This is a different passage. You protect in complete peace the one whose thoughts are steadfast, because that person trusts you. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 주님을 신뢰하기 때문에 생각이 흔들리지 않는 사람을 완전한 평강 가운데 지키십니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-heb-2-18"
+      ],
+      "explanations": {
+        "en": "This is the passage. Because he himself suffered through being tested, he can help those who are tested. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 그분 자신이 시험받아 고난을 겪으셨기 때문에 시험받는 사람들을 도울 수 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-heb-2-18-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “denemek” in this passage?",
+        "ko": "이 본문에서 “denemek”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-heb-2-18-word-1-vocab",
+          "label": {
+            "en": "try / test",
+            "ko": "시험하다·시도하다"
+          },
+          "explanation": {
+            "en": "try / test. The person undergoes testing; he is not the one testing others in this phrase.",
+            "ko": "시험하다·시도하다. 시험을 받는 사람이며 이 구에서 남을 시험하는 사람이 아닙니다."
+          }
+        },
+        {
+          "id": "study-heb-2-18-word-2-vocab",
+          "label": {
+            "en": "draw / pull; suffer with acı",
+            "ko": "당기다; acı와 함께 고통받다"
+          },
+          "explanation": {
+            "en": "That definition belongs to çekmek. denemek means try / test here. The person undergoes testing; he is not the one testing others in this phrase.",
+            "ko": "그 뜻은 çekmek입니다. 여기 denemek는 시험하다·시도하다입니다. 시험을 받는 사람이며 이 구에서 남을 시험하는 사람이 아닙니다."
+          }
+        },
+        {
+          "id": "study-heb-2-18-word-4-vocab",
+          "label": {
+            "en": "do / make (auxiliary)",
+            "ko": "하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to etmek. denemek means try / test here. The person undergoes testing; he is not the one testing others in this phrase.",
+            "ko": "그 뜻은 etmek입니다. 여기 denemek는 시험하다·시도하다입니다. 시험을 받는 사람이며 이 구에서 남을 시험하는 사람이 아닙니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-heb-2-18-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "The person undergoes testing; he is not the one testing others in this phrase.",
+        "ko": "시험을 받는 사람이며 이 구에서 남을 시험하는 사람이 아닙니다."
+      }
+    },
+    {
+      "id": "study-heb-2-18-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “denenip”, what is the function of “-n” here?",
+        "ko": "“denenip”에서 “-n”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "PASS",
+          "label": {
+            "en": "passive",
+            "ko": "피동"
+          },
+          "explanation": {
+            "en": "Passive linked action. The person undergoes testing; he is not the one testing others in this phrase.",
+            "ko": "피동 연결 행위. 시험을 받는 사람이며 이 구에서 남을 시험하는 사람이 아닙니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Passive linked action. The person undergoes testing; he is not the one testing others in this phrase.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 피동 연결 행위. 시험을 받는 사람이며 이 구에서 남을 시험하는 사람이 아닙니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Passive linked action. The person undergoes testing; he is not the one testing others in this phrase.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 피동 연결 행위. 시험을 받는 사람이며 이 구에서 남을 시험하는 사람이 아닙니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Passive linked action. The person undergoes testing; he is not the one testing others in this phrase.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 피동 연결 행위. 시험을 받는 사람이며 이 구에서 남을 시험하는 사람이 아닙니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "PASS"
+      ],
+      "explanations": {
+        "en": "The person undergoes testing; he is not the one testing others in this phrase.",
+        "ko": "시험을 받는 사람이며 이 구에서 남을 시험하는 사람이 아닙니다."
+      }
+    }
+  ]
+}

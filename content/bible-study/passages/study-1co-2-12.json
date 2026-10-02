@@ -1,0 +1,789 @@
+{
+  "id": "study-1co-2-12",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand 1 Corinthians 2:12 through its clause structure and the forms lütfettiklerini / bilelim.",
+    "ko": "고린도전서 2:12의 절 구조와 lütfettiklerini / bilelim 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "We received the Spirit who comes from God rather than this world’s spirit, so that we may know what God has graciously given us.",
+    "ko": "우리는 이 세상의 영이 아니라 하나님께로부터 온 영을 받았습니다. 하나님이 우리에게 은혜로 주신 것을 알기 위해서입니다."
+  },
+  "clauses": [
+    {
+      "id": "study-1co-2-12-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "1CO.2.12",
+          "start": 0,
+          "end": 99
+        }
+      ],
+      "naturalMeaning": {
+        "en": "We received God’s Spirit in order to understand his gracious gifts.",
+        "ko": "하나님의 은혜로운 선물을 알도록 하나님의 영을 받았습니다."
+      },
+      "literalGloss": {
+        "en": "God’s to-us gracious-givings-object / let-us-know so / this world’s spirit not / from God coming Spirit-object / received-we",
+        "ko": "하나님의 우리에게 주신 것들을 / 알자고 / 이 세상의 영 아닌 / 하나님으로부터 오는 영을 / 받았다 우리"
+      },
+      "explanation": {
+        "en": "Lütfettiklerini uses a participle as a plural noun meaning what God grants. Bilelim diye supplies purpose; değil contrasts the two objects of aldık. Gelen modifies Ruh, with Tanrı’dan as origin.",
+        "ko": "lütfettiklerini는 관계형을 복수 명사처럼 써서 하나님이 주신 것들을 뜻합니다. bilelim diye는 목적이고 değil은 aldık의 두 대상을 대조합니다. gelen이 Ruh를 꾸미고 Tanrı’dan이 출처입니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-1co-2-12-word-1",
+      "verseId": "1CO.2.12",
+      "start": 15,
+      "end": 30,
+      "surface": "lütfettiklerini",
+      "lemma": "lütfetmek",
+      "meaning": {
+        "en": "what he granted graciously (object)",
+        "ko": "그분이 은혜로 주신 것들을"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "lütfet",
+          "meaning": {
+            "en": "grant graciously",
+            "ko": "은혜로 베풀다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "tik",
+          "meaning": {
+            "en": "nominalizing/participial -DIK",
+            "ko": "명사화·관계형 -DIK"
+          },
+          "function": "DIK"
+        },
+        {
+          "form": "ler",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "-DIK nominal/participial",
+        "number": "plural",
+        "possessive": "3",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Nominalized plural object",
+        "ko": "명사적 복수 목적어"
+      },
+      "contextualExplanation": {
+        "en": "Here -leri identifies the things granted in a nominalized -DIK construction; God supplies their subject.",
+        "ko": "여기서 -leri는 -DIK 명사적 구문의 주어진 것들을 가리키며 하나님이 주어입니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "grant graciously",
+        "ko": "은혜로 베풀다"
+      }
+    },
+    {
+      "id": "study-1co-2-12-word-2",
+      "verseId": "1CO.2.12",
+      "start": 31,
+      "end": 38,
+      "surface": "bilelim",
+      "lemma": "bilmek",
+      "meaning": {
+        "en": "let us know",
+        "ko": "알도록 합시다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "bil",
+          "meaning": {
+            "en": "know",
+            "ko": "알다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "elim",
+          "meaning": {
+            "en": "hortative / first-person plural suggestion",
+            "ko": "청유·1인칭 복수 제안"
+          },
+          "function": "HORT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "mood": "hortative"
+      },
+      "role": {
+        "en": "First-person plural purpose",
+        "ko": "1인칭 복수 목적"
+      },
+      "contextualExplanation": {
+        "en": "With diye, the form gives the aim of receiving the Spirit.",
+        "ko": "diye와 함께 성령을 받은 목적을 나타냅니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "know",
+        "ko": "알다"
+      }
+    },
+    {
+      "id": "study-1co-2-12-word-3",
+      "verseId": "1CO.2.12",
+      "start": 48,
+      "end": 56,
+      "surface": "dünyanın",
+      "lemma": "dünya",
+      "meaning": {
+        "en": "of the world",
+        "ko": "세상의"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "dünya",
+          "meaning": {
+            "en": "world",
+            "ko": "세상"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "nın",
+          "meaning": {
+            "en": "genitive: possessor / dependent subject",
+            "ko": "속격: 소유자·내포절 주어"
+          },
+          "function": "GEN"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "case": "genitive"
+      },
+      "role": {
+        "en": "Genitive possessor",
+        "ko": "속격 소유자"
+      },
+      "contextualExplanation": {
+        "en": "It pairs with ruhunu to form the contrasted object phrase.",
+        "ko": "ruhunu와 결합해 대조 목적어 구를 만듭니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "world",
+        "ko": "세상"
+      }
+    },
+    {
+      "id": "study-1co-2-12-word-4",
+      "verseId": "1CO.2.12",
+      "start": 57,
+      "end": 63,
+      "surface": "ruhunu",
+      "lemma": "ruh",
+      "meaning": {
+        "en": "its spirit (object)",
+        "ko": "그 영을"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "ruh",
+          "meaning": {
+            "en": "spirit",
+            "ko": "영"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "u",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "u",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Possessed contrasted object",
+        "ko": "대조하는 소유 목적어"
+      },
+      "contextualExplanation": {
+        "en": "The first u is possession and the second is accusative.",
+        "ko": "앞 u는 소유이고 뒤 u는 대격입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "spirit",
+        "ko": "영"
+      }
+    },
+    {
+      "id": "study-1co-2-12-word-5",
+      "verseId": "1CO.2.12",
+      "start": 81,
+      "end": 86,
+      "surface": "gelen",
+      "lemma": "gelmek",
+      "meaning": {
+        "en": "coming from",
+        "ko": "~에서 오는"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "gel",
+          "meaning": {
+            "en": "come",
+            "ko": "오다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "en",
+          "meaning": {
+            "en": "subject participle -An",
+            "ko": "주어 관계형 -An"
+          },
+          "function": "PART"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "subject participle"
+      },
+      "role": {
+        "en": "Modifier of Ruh",
+        "ko": "Ruh의 수식어"
+      },
+      "contextualExplanation": {
+        "en": "Tanrı’dan expresses origin; the Spirit is the participant who comes.",
+        "ko": "Tanrı’dan은 출처이고 오는 주체는 성령입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "come",
+        "ko": "오다"
+      }
+    },
+    {
+      "id": "study-1co-2-12-word-6",
+      "verseId": "1CO.2.12",
+      "start": 93,
+      "end": 98,
+      "surface": "aldık",
+      "lemma": "almak",
+      "meaning": {
+        "en": "we received",
+        "ko": "우리는 받았다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "al",
+          "meaning": {
+            "en": "take / receive",
+            "ko": "받다·취하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "dı",
+          "meaning": {
+            "en": "definite past",
+            "ko": "확정 과거"
+          },
+          "function": "PAST"
+        },
+        {
+          "form": "k",
+          "meaning": {
+            "en": "first-person plural",
+            "ko": "1인칭 복수"
+          },
+          "function": "PERSON1P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "past",
+        "person": "1pl"
+      },
+      "role": {
+        "en": "Plural past predicate",
+        "ko": "복수 과거 술어"
+      },
+      "contextualExplanation": {
+        "en": "The -k makes the subject we.",
+        "ko": "-k가 우리라는 주어를 나타냅니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "take / receive",
+        "ko": "받다·취하다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-1co-2-12-word-1-vocab",
+      "analysisId": "study-1co-2-12-word-1",
+      "lemma": "lütfetmek",
+      "classification": "biblical",
+      "definitions": {
+        "en": "grant graciously",
+        "ko": "은혜로 베풀다"
+      },
+      "usageNotes": {
+        "en": "Here -leri identifies the things granted in a nominalized -DIK construction; God supplies their subject.",
+        "ko": "여기서 -leri는 -DIK 명사적 구문의 주어진 것들을 가리키며 하나님이 주어입니다."
+      },
+      "wordFamily": [
+        "lütuf",
+        "lütfetmek"
+      ]
+    },
+    {
+      "id": "study-1co-2-12-word-2-vocab",
+      "analysisId": "study-1co-2-12-word-2",
+      "lemma": "bilmek",
+      "classification": "general",
+      "definitions": {
+        "en": "know",
+        "ko": "알다"
+      },
+      "usageNotes": {
+        "en": "With diye, the form gives the aim of receiving the Spirit.",
+        "ko": "diye와 함께 성령을 받은 목적을 나타냅니다."
+      }
+    },
+    {
+      "id": "study-1co-2-12-word-3-vocab",
+      "analysisId": "study-1co-2-12-word-3",
+      "lemma": "dünya",
+      "classification": "general",
+      "definitions": {
+        "en": "world",
+        "ko": "세상"
+      },
+      "usageNotes": {
+        "en": "It pairs with ruhunu to form the contrasted object phrase.",
+        "ko": "ruhunu와 결합해 대조 목적어 구를 만듭니다."
+      }
+    },
+    {
+      "id": "study-1co-2-12-word-4-vocab",
+      "analysisId": "study-1co-2-12-word-4",
+      "lemma": "ruh",
+      "classification": "general",
+      "definitions": {
+        "en": "spirit",
+        "ko": "영"
+      },
+      "usageNotes": {
+        "en": "The first u is possession and the second is accusative.",
+        "ko": "앞 u는 소유이고 뒤 u는 대격입니다."
+      }
+    },
+    {
+      "id": "study-1co-2-12-word-5-vocab",
+      "analysisId": "study-1co-2-12-word-5",
+      "lemma": "gelmek",
+      "classification": "general",
+      "definitions": {
+        "en": "come",
+        "ko": "오다"
+      },
+      "usageNotes": {
+        "en": "Tanrı’dan expresses origin; the Spirit is the participant who comes.",
+        "ko": "Tanrı’dan은 출처이고 오는 주체는 성령입니다."
+      }
+    },
+    {
+      "id": "study-1co-2-12-word-6-vocab",
+      "analysisId": "study-1co-2-12-word-6",
+      "lemma": "almak",
+      "classification": "general",
+      "definitions": {
+        "en": "take / receive",
+        "ko": "받다·취하다"
+      },
+      "usageNotes": {
+        "en": "The -k makes the subject we.",
+        "ko": "-k가 우리라는 주어를 나타냅니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-1co-2-12-grammar-1",
+      "title": {
+        "en": "Not X but Y as a shared object",
+        "ko": "공유 목적어의 대조"
+      },
+      "explanation": {
+        "en": "Ruhunu değil … Ruh’u aldık contrasts two noun phrases governed by the same received verb.",
+        "ko": "ruhunu değil … Ruh’u aldık는 같은 받다 동사의 두 명사 구를 대조합니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "1CO.2.12",
+          "start": 0,
+          "end": 99
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-1co-2-12-grammar-2",
+      "title": {
+        "en": "Purpose and source",
+        "ko": "목적과 출처"
+      },
+      "explanation": {
+        "en": "Bilelim diye gives why; Tanrı’dan gives where the Spirit comes from. Ablative origin is not the source of the act of knowing.",
+        "ko": "bilelim diye는 이유·목적이고 Tanrı’dan은 영의 출처입니다. 탈격은 아는 행위의 출처가 아닙니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "1CO.2.12",
+          "start": 0,
+          "end": 99
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-07"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Use “… bilelim diye” in a practical group request and give a source with -den.",
+    "ko": "“… bilelim diye”로 실용적인 공동 요청을 하고 -den으로 출처를 말하세요."
+  },
+  "modelResponse": {
+    "tr": "Saati bilelim diye bize yazın. Haberi arkadaşımızdan aldık.",
+    "meaning": {
+      "en": "Write to us so that we know the time. We got the news from our friend.",
+      "ko": "시간을 알도록 연락해주세요. 친구에게서 소식을 받았습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "ministry-07"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-1co-2-12-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to 1 Corinthians 2:12? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 고린도전서 2:12인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-1co-2-12",
+          "passageId": "study-1co-2-12",
+          "explanation": {
+            "en": "This is the passage. We received the Spirit who comes from God rather than this world’s spirit, so that we may know what God has graciously given us. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 우리는 이 세상의 영이 아니라 하나님께로부터 온 영을 받았습니다. 하나님이 우리에게 은혜로 주신 것을 알기 위해서입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-3-16",
+          "passageId": "study-1co-3-16",
+          "explanation": {
+            "en": "This is a different passage. Do you not know that you are God’s temple and that God’s Spirit lives in you? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분이 하나님의 성전이며 하나님의 영이 여러분 안에 사신다는 것을 모르나요? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-lam-3-22-23",
+          "passageId": "study-lam-3-22-23",
+          "explanation": {
+            "en": "This is a different passage. The LORD’s love never runs out and his mercy never ends. They are renewed every morning; your faithfulness is great. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 주님의 사랑은 다하지 않고 자비는 끝나지 않습니다. 날마다 아침 새로워지며 주님의 신실하심은 큽니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-php-4-19",
+          "passageId": "study-php-4-19",
+          "explanation": {
+            "en": "This is a different passage. My God will also meet every need of yours according to his riches, in a glorious way in Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 나의 하나님은 자신의 풍성함에 따라 그리스도 예수 안에서 영광스럽게 여러분의 모든 필요를 채우실 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-1co-2-12"
+      ],
+      "explanations": {
+        "en": "This is the passage. We received the Spirit who comes from God rather than this world’s spirit, so that we may know what God has graciously given us. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 우리는 이 세상의 영이 아니라 하나님께로부터 온 영을 받았습니다. 하나님이 우리에게 은혜로 주신 것을 알기 위해서입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-1co-2-12-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-1co-2-12",
+          "referenceId": "study-1co-2-12",
+          "explanation": {
+            "en": "This is the passage. We received the Spirit who comes from God rather than this world’s spirit, so that we may know what God has graciously given us. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 우리는 이 세상의 영이 아니라 하나님께로부터 온 영을 받았습니다. 하나님이 우리에게 은혜로 주신 것을 알기 위해서입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-3-16",
+          "referenceId": "study-1co-3-16",
+          "explanation": {
+            "en": "This is a different passage. Do you not know that you are God’s temple and that God’s Spirit lives in you? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분이 하나님의 성전이며 하나님의 영이 여러분 안에 사신다는 것을 모르나요? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-lam-3-22-23",
+          "referenceId": "study-lam-3-22-23",
+          "explanation": {
+            "en": "This is a different passage. The LORD’s love never runs out and his mercy never ends. They are renewed every morning; your faithfulness is great. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 주님의 사랑은 다하지 않고 자비는 끝나지 않습니다. 날마다 아침 새로워지며 주님의 신실하심은 큽니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-php-4-19",
+          "referenceId": "study-php-4-19",
+          "explanation": {
+            "en": "This is a different passage. My God will also meet every need of yours according to his riches, in a glorious way in Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 나의 하나님은 자신의 풍성함에 따라 그리스도 예수 안에서 영광스럽게 여러분의 모든 필요를 채우실 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-1co-2-12"
+      ],
+      "explanations": {
+        "en": "This is the passage. We received the Spirit who comes from God rather than this world’s spirit, so that we may know what God has graciously given us. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 우리는 이 세상의 영이 아니라 하나님께로부터 온 영을 받았습니다. 하나님이 우리에게 은혜로 주신 것을 알기 위해서입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-1co-2-12-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “lütfetmek” in this passage?",
+        "ko": "이 본문에서 “lütfetmek”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-1co-2-12-word-1-vocab",
+          "label": {
+            "en": "grant graciously",
+            "ko": "은혜로 베풀다"
+          },
+          "explanation": {
+            "en": "grant graciously. Here -leri identifies the things granted in a nominalized -DIK construction; God supplies their subject.",
+            "ko": "은혜로 베풀다. 여기서 -leri는 -DIK 명사적 구문의 주어진 것들을 가리키며 하나님이 주어입니다."
+          }
+        },
+        {
+          "id": "study-1co-2-12-word-2-vocab",
+          "label": {
+            "en": "know",
+            "ko": "알다"
+          },
+          "explanation": {
+            "en": "That definition belongs to bilmek. lütfetmek means grant graciously here. Here -leri identifies the things granted in a nominalized -DIK construction; God supplies their subject.",
+            "ko": "그 뜻은 bilmek입니다. 여기 lütfetmek는 은혜로 베풀다입니다. 여기서 -leri는 -DIK 명사적 구문의 주어진 것들을 가리키며 하나님이 주어입니다."
+          }
+        },
+        {
+          "id": "study-1co-2-12-word-3-vocab",
+          "label": {
+            "en": "world",
+            "ko": "세상"
+          },
+          "explanation": {
+            "en": "That definition belongs to dünya. lütfetmek means grant graciously here. Here -leri identifies the things granted in a nominalized -DIK construction; God supplies their subject.",
+            "ko": "그 뜻은 dünya입니다. 여기 lütfetmek는 은혜로 베풀다입니다. 여기서 -leri는 -DIK 명사적 구문의 주어진 것들을 가리키며 하나님이 주어입니다."
+          }
+        },
+        {
+          "id": "study-1co-2-12-word-4-vocab",
+          "label": {
+            "en": "spirit",
+            "ko": "영"
+          },
+          "explanation": {
+            "en": "That definition belongs to ruh. lütfetmek means grant graciously here. Here -leri identifies the things granted in a nominalized -DIK construction; God supplies their subject.",
+            "ko": "그 뜻은 ruh입니다. 여기 lütfetmek는 은혜로 베풀다입니다. 여기서 -leri는 -DIK 명사적 구문의 주어진 것들을 가리키며 하나님이 주어입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-1co-2-12-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Here -leri identifies the things granted in a nominalized -DIK construction; God supplies their subject.",
+        "ko": "여기서 -leri는 -DIK 명사적 구문의 주어진 것들을 가리키며 하나님이 주어입니다."
+      }
+    },
+    {
+      "id": "study-1co-2-12-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “lütfettiklerini”, what is the function of “-i” here?",
+        "ko": "“lütfettiklerini”에서 “-i”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "Nominalized plural object. Here -leri identifies the things granted in a nominalized -DIK construction; God supplies their subject.",
+            "ko": "명사적 복수 목적어. 여기서 -leri는 -DIK 명사적 구문의 주어진 것들을 가리키며 하나님이 주어입니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Nominalized plural object. Here -leri identifies the things granted in a nominalized -DIK construction; God supplies their subject.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 명사적 복수 목적어. 여기서 -leri는 -DIK 명사적 구문의 주어진 것들을 가리키며 하나님이 주어입니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Nominalized plural object. Here -leri identifies the things granted in a nominalized -DIK construction; God supplies their subject.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 명사적 복수 목적어. 여기서 -leri는 -DIK 명사적 구문의 주어진 것들을 가리키며 하나님이 주어입니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Nominalized plural object. Here -leri identifies the things granted in a nominalized -DIK construction; God supplies their subject.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 명사적 복수 목적어. 여기서 -leri는 -DIK 명사적 구문의 주어진 것들을 가리키며 하나님이 주어입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ACC"
+      ],
+      "explanations": {
+        "en": "Here -leri identifies the things granted in a nominalized -DIK construction; God supplies their subject.",
+        "ko": "여기서 -leri는 -DIK 명사적 구문의 주어진 것들을 가리키며 하나님이 주어입니다."
+      }
+    }
+  ]
+}

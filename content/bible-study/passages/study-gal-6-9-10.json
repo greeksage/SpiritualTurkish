@@ -1,0 +1,756 @@
+{
+  "id": "study-gal-6-9-10",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Galatians 6:9, 10 through its clause structure and the forms yapmaktan / usanmayalım.",
+    "ko": "갈라디아서 6:9, 10의 절 구조와 yapmaktan / usanmayalım 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Let us not grow weary in doing good; if we do not give up, we will reap in season. While we have opportunity, let us do good to everyone, especially members of the family of faith.",
+    "ko": "선을 행하다 지치지 맙시다. 포기하지 않으면 때가 되어 거둘 것입니다. 기회가 있을 때 모든 이에게 특히 믿음의 가족에게 선을 행합시다."
+  },
+  "clauses": [
+    {
+      "id": "study-gal-6-9-10-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "GAL.6.9",
+          "start": 0,
+          "end": 61
+        }
+      ],
+      "naturalMeaning": {
+        "en": "An inclusive exhortation is followed by a conditional harvest image.",
+        "ko": "함께하는 권면 뒤에 조건부 수확 이미지가 옵니다."
+      },
+      "literalGloss": {
+        "en": "good doing-from do-not-grow-weary-let-us / if-do-not-relax-we season-its-in reap-we",
+        "ko": "선을 행함에서 지치지 말자 / 우리가 느슨해지지 않으면 그 철에 거둔다"
+      },
+      "explanation": {
+        "en": "Usanmak takes ablative, here on a verbal noun. Usanmayalım is negative inclusive exhortation. Gevşemezsek combines negative aorist, conditional, and first-person plural. Biçeriz supplies the conditional result; the agricultural image does not grade conversion outcomes.",
+        "ko": "usanmak은 탈격을 취하며 여기서는 동사 명사형에 붙습니다. usanmayalım은 부정 포함 권면입니다. gevşemezsek은 부정 일반 현재·조건·1인칭 복수이고 biçeriz는 결과입니다. 농사 이미지는 회심 결과를 채점하지 않습니다."
+      }
+    },
+    {
+      "id": "study-gal-6-9-10-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "GAL.6.10",
+          "start": 0,
+          "end": 88
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Available opportunity frames doing good to all, with particular attention to the faith community.",
+        "ko": "기회가 있을 때 모두에게 선을 행하며 믿음 공동체를 특별히 살핍니다."
+      },
+      "literalGloss": {
+        "en": "opportunity-our while-existing / everyone-to especially faith family’s members-to good let-us-do",
+        "ko": "우리 기회가 있는 동안 / 모두에게 특히 믿음 가족의 구성원에게 선을 행하자"
+      },
+      "explanation": {
+        "en": "Varken is var plus -ken. Üyelerine follows the nested possession iman ailesinin; herkese and üyelerine are both dative recipients. Özellikle highlights a subgroup without erasing herkese.",
+        "ko": "varken은 var·-ken입니다. üyelerine는 중첩 소유 iman ailesinin 뒤에 오고 herkese·üyelerine는 여격 수혜자입니다. özellikle는 한 집단을 강조하지만 herkese를 없애지 않습니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-gal-6-9-10-word-1",
+      "verseId": "GAL.6.9",
+      "start": 7,
+      "end": 16,
+      "surface": "yapmaktan",
+      "lemma": "yapmak",
+      "meaning": {
+        "en": "from doing",
+        "ko": "행함에서"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yap",
+          "meaning": {
+            "en": "do / make",
+            "ko": "하다·만들다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "mak",
+          "meaning": {
+            "en": "infinitive",
+            "ko": "부정사"
+          },
+          "function": "INF"
+        },
+        {
+          "form": "tan",
+          "meaning": {
+            "en": "ablative: from / away from",
+            "ko": "탈격: ~에서·~로부터"
+          },
+          "function": "ABL"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "infinitive",
+        "case": "ablative"
+      },
+      "role": {
+        "en": "Infinitive with ablative",
+        "ko": "탈격 부정사"
+      },
+      "contextualExplanation": {
+        "en": "Usanmak governs the ablative on the whole act of doing good.",
+        "ko": "usanmak이 선을 행하는 전체 행위의 탈격을 정합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "do / make",
+        "ko": "하다·만들다"
+      }
+    },
+    {
+      "id": "study-gal-6-9-10-word-2",
+      "verseId": "GAL.6.9",
+      "start": 17,
+      "end": 28,
+      "surface": "usanmayalım",
+      "lemma": "usanmak",
+      "meaning": {
+        "en": "let us not tire / lose heart",
+        "ko": "지치지 맙시다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "usan",
+          "meaning": {
+            "en": "tire of / lose heart",
+            "ko": "싫증나다·낙심하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ma",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "alım",
+          "meaning": {
+            "en": "hortative / first-person plural suggestion",
+            "ko": "청유·1인칭 복수 제안"
+          },
+          "function": "HORT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "mood": "hortative"
+      },
+      "role": {
+        "en": "Negative inclusive exhortation",
+        "ko": "부정 포함 권면"
+      },
+      "contextualExplanation": {
+        "en": "The speaker is included; this is not a judgment on someone experiencing exhaustion.",
+        "ko": "화자가 포함되며 지친 사람에 대한 판단으로 쓰지 마세요."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "tire of / lose heart",
+        "ko": "싫증나다·낙심하다"
+      }
+    },
+    {
+      "id": "study-gal-6-9-10-word-3",
+      "verseId": "GAL.6.9",
+      "start": 30,
+      "end": 41,
+      "surface": "Gevşemezsek",
+      "lemma": "gevşemek",
+      "meaning": {
+        "en": "if we do not slacken / give up",
+        "ko": "우리가 포기하지 않으면"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "Gevşe",
+          "meaning": {
+            "en": "slacken / relax / give up in context",
+            "ko": "느슨해지다·쉬다·문맥상 포기하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "mez",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "se",
+          "meaning": {
+            "en": "conditional",
+            "ko": "조건"
+          },
+          "function": "COND"
+        },
+        {
+          "form": "k",
+          "meaning": {
+            "en": "first-person plural",
+            "ko": "1인칭 복수"
+          },
+          "function": "PERSON1P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "mood": "conditional",
+        "person": "1pl",
+        "tenseAspect": "negative aorist"
+      },
+      "role": {
+        "en": "Negative conditional",
+        "ko": "부정 조건"
+      },
+      "contextualExplanation": {
+        "en": "-mez is negative aorist; -se condition; -k marks we in this conditional paradigm.",
+        "ko": "-mez는 부정 일반 현재, -se는 조건, -k는 이 조건 활용의 우리입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "slacken / relax / give up in context",
+        "ko": "느슨해지다·쉬다·문맥상 포기하다"
+      }
+    },
+    {
+      "id": "study-gal-6-9-10-word-4",
+      "verseId": "GAL.6.10",
+      "start": 22,
+      "end": 28,
+      "surface": "varken",
+      "lemma": "var",
+      "meaning": {
+        "en": "while there is",
+        "ko": "~이 있는 동안"
+      },
+      "partOfSpeech": {
+        "en": "Existential predicate",
+        "ko": "존재 술어"
+      },
+      "segments": [
+        {
+          "form": "var",
+          "meaning": {
+            "en": "existent / there is",
+            "ko": "있는·있다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ken",
+          "meaning": {
+            "en": "while / when",
+            "ko": "~하는 동안·~할 때"
+          },
+          "function": "KEN"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {},
+      "role": {
+        "en": "Temporal existential phrase",
+        "ko": "시간 존재구"
+      },
+      "contextualExplanation": {
+        "en": "Fırsatımız is what exists, not the subject of a finite present verb.",
+        "ko": "fırsatımız는 존재하는 것이며 독립 현재 동사의 주어로 바꾸지 마세요."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "existent / there is",
+        "ko": "있는·있다"
+      }
+    },
+    {
+      "id": "study-gal-6-9-10-word-5",
+      "verseId": "GAL.6.10",
+      "start": 63,
+      "end": 72,
+      "surface": "üyelerine",
+      "lemma": "üye",
+      "meaning": {
+        "en": "to its members",
+        "ko": "그 구성원들에게"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "üye",
+          "meaning": {
+            "en": "member",
+            "ko": "구성원"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ler",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "e",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "number": "plural",
+        "possessive": "3",
+        "case": "dative"
+      },
+      "role": {
+        "en": "Possessed plural recipient",
+        "ko": "소유 복수 수혜자"
+      },
+      "contextualExplanation": {
+        "en": "İman ailesinin is the genitive possessor of members.",
+        "ko": "iman ailesinin이 구성원들의 속격 소유자입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "member",
+        "ko": "구성원"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-gal-6-9-10-word-1-vocab",
+      "analysisId": "study-gal-6-9-10-word-1",
+      "lemma": "yapmak",
+      "classification": "general",
+      "definitions": {
+        "en": "do / make",
+        "ko": "하다·만들다"
+      },
+      "usageNotes": {
+        "en": "Usanmak governs the ablative on the whole act of doing good.",
+        "ko": "usanmak이 선을 행하는 전체 행위의 탈격을 정합니다."
+      }
+    },
+    {
+      "id": "study-gal-6-9-10-word-2-vocab",
+      "analysisId": "study-gal-6-9-10-word-2",
+      "lemma": "usanmak",
+      "classification": "general",
+      "definitions": {
+        "en": "tire of / lose heart",
+        "ko": "싫증나다·낙심하다"
+      },
+      "usageNotes": {
+        "en": "The speaker is included; this is not a judgment on someone experiencing exhaustion.",
+        "ko": "화자가 포함되며 지친 사람에 대한 판단으로 쓰지 마세요."
+      }
+    },
+    {
+      "id": "study-gal-6-9-10-word-3-vocab",
+      "analysisId": "study-gal-6-9-10-word-3",
+      "lemma": "gevşemek",
+      "classification": "general",
+      "definitions": {
+        "en": "slacken / relax / give up in context",
+        "ko": "느슨해지다·쉬다·문맥상 포기하다"
+      },
+      "usageNotes": {
+        "en": "-mez is negative aorist; -se condition; -k marks we in this conditional paradigm.",
+        "ko": "-mez는 부정 일반 현재, -se는 조건, -k는 이 조건 활용의 우리입니다."
+      }
+    },
+    {
+      "id": "study-gal-6-9-10-word-4-vocab",
+      "analysisId": "study-gal-6-9-10-word-4",
+      "lemma": "var",
+      "classification": "general",
+      "definitions": {
+        "en": "existent / there is",
+        "ko": "있는·있다"
+      },
+      "usageNotes": {
+        "en": "Fırsatımız is what exists, not the subject of a finite present verb.",
+        "ko": "fırsatımız는 존재하는 것이며 독립 현재 동사의 주어로 바꾸지 마세요."
+      }
+    },
+    {
+      "id": "study-gal-6-9-10-word-5-vocab",
+      "analysisId": "study-gal-6-9-10-word-5",
+      "lemma": "üye",
+      "classification": "general",
+      "definitions": {
+        "en": "member",
+        "ko": "구성원"
+      },
+      "usageNotes": {
+        "en": "İman ailesinin is the genitive possessor of members.",
+        "ko": "iman ailesinin이 구성원들의 속격 소유자입니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-gal-6-9-10-grammar-1",
+      "title": {
+        "en": "Negative condition with first-person plural",
+        "ko": "1인칭 복수 부정 조건"
+      },
+      "explanation": {
+        "en": "Gevşe-mez-se-k is not a present continuous. The result biçeriz is aorist, naturally translated prospectively here.",
+        "ko": "gevşe-mez-se-k은 현재 진행이 아닙니다. 결과 biçeriz는 일반 현재지만 여기 자연 번역은 앞으로의 결과입니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "GAL.6.9",
+          "start": 0,
+          "end": 61
+        },
+        {
+          "verseId": "GAL.6.10",
+          "start": 0,
+          "end": 88
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-gal-6-9-10-grammar-2",
+      "title": {
+        "en": "Nested family possession",
+        "ko": "중첩 가족 소유"
+      },
+      "explanation": {
+        "en": "İman ailesi is a noun compound; iman ailesinin üyeleri adds a genitive and another possessed head. Dative then turns the whole phrase into a recipient.",
+        "ko": "iman ailesi는 명사 합성이고 iman ailesinin üyeleri는 속격과 다른 소유 중심어를 더합니다. 그 뒤 여격이 전체를 수혜자로 만듭니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "GAL.6.9",
+          "start": 0,
+          "end": 61
+        },
+        {
+          "verseId": "GAL.6.10",
+          "start": 0,
+          "end": 88
+        }
+      ],
+      "relatedLessonIds": []
+    }
+  ],
+  "independentTask": {
+    "en": "Propose a manageable act of kindness with -alım, respecting rest and available opportunity.",
+    "ko": "휴식·기회를 존중하며 -alım으로 감당할 수 있는 친절을 제안하세요."
+  },
+  "modelResponse": {
+    "tr": "Fırsatımız varken komşumuza yardım edelim. Yorulursak ara verelim.",
+    "meaning": {
+      "en": "While we have the opportunity, let us help our neighbor. If we tire, let us take a break.",
+      "ko": "기회가 있을 때 이웃을 돕고 지치면 쉬어갑시다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-gal-6-9-10-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Galatians 6:9, 10? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 갈라디아서 6:9, 10인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-gal-6-9-10",
+          "passageId": "study-gal-6-9-10",
+          "explanation": {
+            "en": "This is the passage. Let us not grow weary in doing good; if we do not give up, we will reap in season. While we have opportunity, let us do good to everyone, especially members of the family of faith. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 선을 행하다 지치지 맙시다. 포기하지 않으면 때가 되어 거둘 것입니다. 기회가 있을 때 모든 이에게 특히 믿음의 가족에게 선을 행합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-5-16",
+          "passageId": "study-mat-5-16",
+          "explanation": {
+            "en": "This is a different passage. Let your light shine before people so that, seeing your good deeds, they may glorify your Father in heaven. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사람들 앞에서 여러분의 빛이 비치게 하여 그들이 선한 일을 보고 하늘의 아버지를 높이게 하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-11-6",
+          "passageId": "study-heb-11-6",
+          "explanation": {
+            "en": "This is a different passage. Without faith it is impossible to please God. Whoever approaches him must believe that he exists and will reward those who seek him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 믿음 없이 하나님을 기쁘게 하는 것은 불가능합니다. 그분께 나아가는 이는 그분이 계시고 찾는 이들에게 상 주심을 믿어야 합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-2-11",
+          "passageId": "study-1pe-2-11",
+          "explanation": {
+            "en": "This is a different passage. Dear friends, as foreigners and guests in this world, avoid the desires of the self that wage war against the soul. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사랑하는 여러분, 이 세상에서 외국인·나그네인 여러분에게 영혼을 거슬러 싸우는 본성의 욕망을 피하라고 부탁합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-gal-6-9-10"
+      ],
+      "explanations": {
+        "en": "This is the passage. Let us not grow weary in doing good; if we do not give up, we will reap in season. While we have opportunity, let us do good to everyone, especially members of the family of faith. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 선을 행하다 지치지 맙시다. 포기하지 않으면 때가 되어 거둘 것입니다. 기회가 있을 때 모든 이에게 특히 믿음의 가족에게 선을 행합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-gal-6-9-10-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-gal-6-9-10",
+          "referenceId": "study-gal-6-9-10",
+          "explanation": {
+            "en": "This is the passage. Let us not grow weary in doing good; if we do not give up, we will reap in season. While we have opportunity, let us do good to everyone, especially members of the family of faith. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 선을 행하다 지치지 맙시다. 포기하지 않으면 때가 되어 거둘 것입니다. 기회가 있을 때 모든 이에게 특히 믿음의 가족에게 선을 행합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-5-16",
+          "referenceId": "study-mat-5-16",
+          "explanation": {
+            "en": "This is a different passage. Let your light shine before people so that, seeing your good deeds, they may glorify your Father in heaven. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사람들 앞에서 여러분의 빛이 비치게 하여 그들이 선한 일을 보고 하늘의 아버지를 높이게 하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-11-6",
+          "referenceId": "study-heb-11-6",
+          "explanation": {
+            "en": "This is a different passage. Without faith it is impossible to please God. Whoever approaches him must believe that he exists and will reward those who seek him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 믿음 없이 하나님을 기쁘게 하는 것은 불가능합니다. 그분께 나아가는 이는 그분이 계시고 찾는 이들에게 상 주심을 믿어야 합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-2-11",
+          "referenceId": "study-1pe-2-11",
+          "explanation": {
+            "en": "This is a different passage. Dear friends, as foreigners and guests in this world, avoid the desires of the self that wage war against the soul. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사랑하는 여러분, 이 세상에서 외국인·나그네인 여러분에게 영혼을 거슬러 싸우는 본성의 욕망을 피하라고 부탁합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-gal-6-9-10"
+      ],
+      "explanations": {
+        "en": "This is the passage. Let us not grow weary in doing good; if we do not give up, we will reap in season. While we have opportunity, let us do good to everyone, especially members of the family of faith. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 선을 행하다 지치지 맙시다. 포기하지 않으면 때가 되어 거둘 것입니다. 기회가 있을 때 모든 이에게 특히 믿음의 가족에게 선을 행합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-gal-6-9-10-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “yapmak” in this passage?",
+        "ko": "이 본문에서 “yapmak”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-gal-6-9-10-word-1-vocab",
+          "label": {
+            "en": "do / make",
+            "ko": "하다·만들다"
+          },
+          "explanation": {
+            "en": "do / make. Usanmak governs the ablative on the whole act of doing good.",
+            "ko": "하다·만들다. usanmak이 선을 행하는 전체 행위의 탈격을 정합니다."
+          }
+        },
+        {
+          "id": "study-gal-6-9-10-word-2-vocab",
+          "label": {
+            "en": "tire of / lose heart",
+            "ko": "싫증나다·낙심하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to usanmak. yapmak means do / make here. Usanmak governs the ablative on the whole act of doing good.",
+            "ko": "그 뜻은 usanmak입니다. 여기 yapmak는 하다·만들다입니다. usanmak이 선을 행하는 전체 행위의 탈격을 정합니다."
+          }
+        },
+        {
+          "id": "study-gal-6-9-10-word-3-vocab",
+          "label": {
+            "en": "slacken / relax / give up in context",
+            "ko": "느슨해지다·쉬다·문맥상 포기하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to gevşemek. yapmak means do / make here. Usanmak governs the ablative on the whole act of doing good.",
+            "ko": "그 뜻은 gevşemek입니다. 여기 yapmak는 하다·만들다입니다. usanmak이 선을 행하는 전체 행위의 탈격을 정합니다."
+          }
+        },
+        {
+          "id": "study-gal-6-9-10-word-4-vocab",
+          "label": {
+            "en": "existent / there is",
+            "ko": "있는·있다"
+          },
+          "explanation": {
+            "en": "That definition belongs to var. yapmak means do / make here. Usanmak governs the ablative on the whole act of doing good.",
+            "ko": "그 뜻은 var입니다. 여기 yapmak는 하다·만들다입니다. usanmak이 선을 행하는 전체 행위의 탈격을 정합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-gal-6-9-10-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Usanmak governs the ablative on the whole act of doing good.",
+        "ko": "usanmak이 선을 행하는 전체 행위의 탈격을 정합니다."
+      }
+    },
+    {
+      "id": "study-gal-6-9-10-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “yapmaktan”, what is the function of “-tan” here?",
+        "ko": "“yapmaktan”에서 “-tan”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from",
+            "ko": "탈격: ~에서·~로부터"
+          },
+          "explanation": {
+            "en": "Infinitive with ablative. Usanmak governs the ablative on the whole act of doing good.",
+            "ko": "탈격 부정사. usanmak이 선을 행하는 전체 행위의 탈격을 정합니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Infinitive with ablative. Usanmak governs the ablative on the whole act of doing good.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 탈격 부정사. usanmak이 선을 행하는 전체 행위의 탈격을 정합니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Infinitive with ablative. Usanmak governs the ablative on the whole act of doing good.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 탈격 부정사. usanmak이 선을 행하는 전체 행위의 탈격을 정합니다."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Infinitive with ablative. Usanmak governs the ablative on the whole act of doing good.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 탈격 부정사. usanmak이 선을 행하는 전체 행위의 탈격을 정합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ABL"
+      ],
+      "explanations": {
+        "en": "Usanmak governs the ablative on the whole act of doing good.",
+        "ko": "usanmak이 선을 행하는 전체 행위의 탈격을 정합니다."
+      }
+    }
+  ]
+}

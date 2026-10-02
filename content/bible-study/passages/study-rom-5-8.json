@@ -1,0 +1,711 @@
+{
+  "id": "study-rom-5-8",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Romans 5:8 through its clause structure and the forms sevdiğini / şununla.",
+    "ko": "로마서 5:8의 절 구조와 sevdiğini / şununla 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "God demonstrates his love for us in this: while we were still sinners, Christ died for us.",
+    "ko": "하나님은 우리가 아직 죄인이었을 때 그리스도께서 우리를 위해 죽으셨다는 사실로 우리를 향한 사랑을 보여주십니다."
+  },
+  "clauses": [
+    {
+      "id": "study-rom-5-8-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "ROM.5.8",
+          "start": 0,
+          "end": 89
+        }
+      ],
+      "naturalMeaning": {
+        "en": "God proves his love by Christ’s death for us while we were still sinners.",
+        "ko": "하나님은 우리가 아직 죄인이었을 때 그리스도께서 우리를 위해 죽으신 일로 사랑을 보여주십니다."
+      },
+      "literalGloss": {
+        "en": "God however / us loving-that / by this / proves: we still sinner-while / Christ / for us / died",
+        "ko": "하나님은 / 우리를 사랑함을 / 이것으로 / 증명한다: 우리가 아직 죄인일 때 / 그리스도 / 우리를 위해 / 죽었다"
+      },
+      "explanation": {
+        "en": "Sevdiğini is the nominalized object of kanıtlıyor, with God as its understood subject. Şununla points ahead to the explanation after the colon. Günahkârken describes the condition at the time of death.",
+        "ko": "sevdiğini는 kanıtlıyor의 명사절 목적어이며 사랑의 주체는 하나님입니다. şununla는 콜론 뒤 설명을 미리 가리킵니다. günahkârken은 죽음 당시의 상태를 나타냅니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-rom-5-8-word-1",
+      "verseId": "ROM.5.8",
+      "start": 15,
+      "end": 24,
+      "surface": "sevdiğini",
+      "lemma": "sevmek",
+      "meaning": {
+        "en": "that he loves (object)",
+        "ko": "그분이 사랑함을"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "sev",
+          "meaning": {
+            "en": "love (verb)",
+            "ko": "사랑하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "diğ",
+          "meaning": {
+            "en": "nominalizing/participial -DIK",
+            "ko": "명사화·관계형 -DIK"
+          },
+          "function": "DIK"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-dik → -diğ before a vowel",
+          "ko": "모음 앞에서 -dik가 -diğ로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "-DIK nominal/participial",
+        "possessive": "3",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Nominalized object clause",
+        "ko": "명사절 목적어"
+      },
+      "contextualExplanation": {
+        "en": "Bizi is inside the loving clause; final -i marks that whole clause as the thing demonstrated.",
+        "ko": "bizi는 사랑 절 안의 목적어이며 마지막 -i는 그 전체를 증명하는 대상으로 표시합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "love (verb)",
+        "ko": "사랑하다"
+      }
+    },
+    {
+      "id": "study-rom-5-8-word-2",
+      "verseId": "ROM.5.8",
+      "start": 25,
+      "end": 32,
+      "surface": "şununla",
+      "lemma": "şu",
+      "meaning": {
+        "en": "by this",
+        "ko": "이것으로"
+      },
+      "partOfSpeech": {
+        "en": "Pronoun / pronominal expression",
+        "ko": "대명사·대명 표현"
+      },
+      "segments": [
+        {
+          "form": "şu",
+          "meaning": {
+            "en": "this / that (pointed out)",
+            "ko": "이것·저것 (가리킴)"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "un",
+          "meaning": {
+            "en": "genitive: possessor / dependent subject",
+            "ko": "속격: 소유자·내포절 주어"
+          },
+          "function": "GEN"
+        },
+        {
+          "form": "la",
+          "meaning": {
+            "en": "with / by",
+            "ko": "~와 함께·~로"
+          },
+          "function": "WITH"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "case": "genitive"
+      },
+      "role": {
+        "en": "Forward-pointing means",
+        "ko": "뒤 설명을 가리키는 수단"
+      },
+      "contextualExplanation": {
+        "en": "The pronoun takes its genitive-shaped form before ile; şununla introduces the evidence after the colon.",
+        "ko": "대명사가 ile 앞에서 속격 형태를 취하고 콜론 뒤 증거를 가리킵니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "this / that (pointed out)",
+        "ko": "이것·저것 (가리킴)"
+      }
+    },
+    {
+      "id": "study-rom-5-8-word-3",
+      "verseId": "ROM.5.8",
+      "start": 33,
+      "end": 43,
+      "surface": "kanıtlıyor",
+      "lemma": "kanıtlamak",
+      "meaning": {
+        "en": "demonstrates / proves",
+        "ko": "보여준다·증명한다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "kanıtl",
+          "meaning": {
+            "en": "demonstrate / prove",
+            "ko": "입증하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ıyor",
+          "meaning": {
+            "en": "present continuous",
+            "ko": "현재 진행"
+          },
+          "function": "PROG"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "The final vowel of kanıtla- is dropped before -ıyor: kanıtl-ıyor.",
+          "ko": "-ıyor 앞에서 kanıtla-의 끝 모음이 탈락합니다: kanıtl-ıyor."
+        }
+      ],
+      "grammaticalFeatures": {
+        "tenseAspect": "present continuous"
+      },
+      "role": {
+        "en": "Present evidence predicate",
+        "ko": "현재 증거 술어"
+      },
+      "contextualExplanation": {
+        "en": "The final a of kanıtla- drops before -ıyor.",
+        "ko": "-ıyor 앞에서 kanıtla-의 마지막 a가 탈락합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "demonstrate / prove",
+        "ko": "입증하다"
+      }
+    },
+    {
+      "id": "study-rom-5-8-word-4",
+      "verseId": "ROM.5.8",
+      "start": 54,
+      "end": 65,
+      "surface": "günahkârken",
+      "lemma": "günahkâr",
+      "meaning": {
+        "en": "while sinners",
+        "ko": "죄인이었을 때"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "günahkâr",
+          "meaning": {
+            "en": "sinner / sinful",
+            "ko": "죄인·죄 있는"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ken",
+          "meaning": {
+            "en": "while / when",
+            "ko": "~하는 동안·~할 때"
+          },
+          "function": "KEN"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {},
+      "role": {
+        "en": "Time/state expression",
+        "ko": "시간·상태 표현"
+      },
+      "contextualExplanation": {
+        "en": "-ken attaches to the nominal predicate without a separate finite verb. The circumflex belongs to the source spelling.",
+        "ko": "별도의 유한 동사 없이 명사 술어에 -ken이 붙습니다. 곡절 부호는 본문 철자입니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "sinner / sinful",
+        "ko": "죄인·죄 있는"
+      }
+    },
+    {
+      "id": "study-rom-5-8-word-5",
+      "verseId": "ROM.5.8",
+      "start": 84,
+      "end": 88,
+      "surface": "öldü",
+      "lemma": "ölmek",
+      "meaning": {
+        "en": "died",
+        "ko": "죽었다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "öl",
+          "meaning": {
+            "en": "die",
+            "ko": "죽다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "dü",
+          "meaning": {
+            "en": "definite past",
+            "ko": "확정 과거"
+          },
+          "function": "PAST"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "past"
+      },
+      "role": {
+        "en": "Past main event",
+        "ko": "주 사건의 과거"
+      },
+      "contextualExplanation": {
+        "en": "The subject is Christ; bizim için explains for whom the death occurred.",
+        "ko": "주어는 그리스도이고 bizim için은 누구를 위한 죽음인지 설명합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "die",
+        "ko": "죽다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-rom-5-8-word-1-vocab",
+      "analysisId": "study-rom-5-8-word-1",
+      "lemma": "sevmek",
+      "classification": "general",
+      "definitions": {
+        "en": "love (verb)",
+        "ko": "사랑하다"
+      },
+      "usageNotes": {
+        "en": "Bizi is inside the loving clause; final -i marks that whole clause as the thing demonstrated.",
+        "ko": "bizi는 사랑 절 안의 목적어이며 마지막 -i는 그 전체를 증명하는 대상으로 표시합니다."
+      }
+    },
+    {
+      "id": "study-rom-5-8-word-2-vocab",
+      "analysisId": "study-rom-5-8-word-2",
+      "lemma": "şu",
+      "classification": "general",
+      "definitions": {
+        "en": "this / that (pointed out)",
+        "ko": "이것·저것 (가리킴)"
+      },
+      "usageNotes": {
+        "en": "The pronoun takes its genitive-shaped form before ile; şununla introduces the evidence after the colon.",
+        "ko": "대명사가 ile 앞에서 속격 형태를 취하고 콜론 뒤 증거를 가리킵니다."
+      }
+    },
+    {
+      "id": "study-rom-5-8-word-3-vocab",
+      "analysisId": "study-rom-5-8-word-3",
+      "lemma": "kanıtlamak",
+      "classification": "general",
+      "definitions": {
+        "en": "demonstrate / prove",
+        "ko": "입증하다"
+      },
+      "usageNotes": {
+        "en": "The final a of kanıtla- drops before -ıyor.",
+        "ko": "-ıyor 앞에서 kanıtla-의 마지막 a가 탈락합니다."
+      }
+    },
+    {
+      "id": "study-rom-5-8-word-4-vocab",
+      "analysisId": "study-rom-5-8-word-4",
+      "lemma": "günahkâr",
+      "classification": "biblical",
+      "definitions": {
+        "en": "sinner / sinful",
+        "ko": "죄인·죄 있는"
+      },
+      "usageNotes": {
+        "en": "-ken attaches to the nominal predicate without a separate finite verb. The circumflex belongs to the source spelling.",
+        "ko": "별도의 유한 동사 없이 명사 술어에 -ken이 붙습니다. 곡절 부호는 본문 철자입니다."
+      }
+    },
+    {
+      "id": "study-rom-5-8-word-5-vocab",
+      "analysisId": "study-rom-5-8-word-5",
+      "lemma": "ölmek",
+      "classification": "general",
+      "definitions": {
+        "en": "die",
+        "ko": "죽다"
+      },
+      "usageNotes": {
+        "en": "The subject is Christ; bizim için explains for whom the death occurred.",
+        "ko": "주어는 그리스도이고 bizim için은 누구를 위한 죽음인지 설명합니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-rom-5-8-grammar-1",
+      "title": {
+        "en": "The demonstrated fact as an object",
+        "ko": "증명되는 사실을 목적어로"
+      },
+      "explanation": {
+        "en": "Tanrı bizi sevdiğini kanıtlıyor embeds a clause under the main verb. Its understood subject follows the main-clause context.",
+        "ko": "Tanrı bizi sevdiğini kanıtlıyor는 주동사 아래에 절을 넣습니다. 내포절의 주어는 주절 문맥으로 이해합니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ROM.5.8",
+          "start": 0,
+          "end": 89
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-rom-5-8-grammar-2",
+      "title": {
+        "en": "Nominal -ken",
+        "ko": "명사 술어의 -ken"
+      },
+      "explanation": {
+        "en": "Biz … günahkârken means while we were sinners. -ken itself does not fix past versus present; the main event supplies the temporal frame.",
+        "ko": "Biz … günahkârken은 우리가 죄인이었을 때입니다. -ken 자체가 과거·현재를 정하는 것이 아니라 주 사건이 시간 틀을 줍니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ROM.5.8",
+          "start": 0,
+          "end": 89
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-05"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Describe a helpful action with “…-ken” and “benim için,” using a true or clearly imagined example.",
+    "ko": "사실 또는 명확히 가정한 도움의 예를 “…-ken”·“benim için”으로 말하세요."
+  },
+  "modelResponse": {
+    "tr": "Ben hastayken arkadaşım benim için yemek getirdi.",
+    "meaning": {
+      "en": "When I was ill, my friend brought food for me.",
+      "ko": "내가 아팠을 때 친구가 음식을 가져다주었습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "ministry-05"
+  ],
+  "relatedReadingIds": [
+    "reading-Rom-5-8"
+  ],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-rom-5-8-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Romans 5:8? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 로마서 5:8인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-rom-5-8",
+          "passageId": "study-rom-5-8",
+          "explanation": {
+            "en": "This is the passage. God demonstrates his love for us in this: while we were still sinners, Christ died for us. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 하나님은 우리가 아직 죄인이었을 때 그리스도께서 우리를 위해 죽으셨다는 사실로 우리를 향한 사랑을 보여주십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-6-23",
+          "passageId": "study-rom-6-23",
+          "explanation": {
+            "en": "This is a different passage. The wage of sin is death; God’s gift, however, is eternal life in our Lord Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 죄의 삯은 죽음이지만 하나님의 선물은 우리 주 그리스도 예수 안의 영원한 생명입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-1-12",
+          "passageId": "study-jhn-1-12",
+          "explanation": {
+            "en": "This is a different passage. He gave everyone who received him and believed in his name the right to become God’s children. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 그분을 받아들이고 그 이름을 믿는 모든 사람에게 하나님의 자녀가 될 권리를 주셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1jn-5-13",
+          "passageId": "study-1jn-5-13",
+          "explanation": {
+            "en": "This is a different passage. I wrote these things to you who believe in the name of God’s Son so that you may know you have eternal life. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 하나님의 아들의 이름을 믿는 여러분이 영원한 생명을 가지고 있음을 알도록 이것을 썼습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-5-8"
+      ],
+      "explanations": {
+        "en": "This is the passage. God demonstrates his love for us in this: while we were still sinners, Christ died for us. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 하나님은 우리가 아직 죄인이었을 때 그리스도께서 우리를 위해 죽으셨다는 사실로 우리를 향한 사랑을 보여주십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-rom-5-8-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-rom-5-8",
+          "referenceId": "study-rom-5-8",
+          "explanation": {
+            "en": "This is the passage. God demonstrates his love for us in this: while we were still sinners, Christ died for us. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 하나님은 우리가 아직 죄인이었을 때 그리스도께서 우리를 위해 죽으셨다는 사실로 우리를 향한 사랑을 보여주십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-6-23",
+          "referenceId": "study-rom-6-23",
+          "explanation": {
+            "en": "This is a different passage. The wage of sin is death; God’s gift, however, is eternal life in our Lord Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 죄의 삯은 죽음이지만 하나님의 선물은 우리 주 그리스도 예수 안의 영원한 생명입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-1-12",
+          "referenceId": "study-jhn-1-12",
+          "explanation": {
+            "en": "This is a different passage. He gave everyone who received him and believed in his name the right to become God’s children. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 그분을 받아들이고 그 이름을 믿는 모든 사람에게 하나님의 자녀가 될 권리를 주셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1jn-5-13",
+          "referenceId": "study-1jn-5-13",
+          "explanation": {
+            "en": "This is a different passage. I wrote these things to you who believe in the name of God’s Son so that you may know you have eternal life. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 하나님의 아들의 이름을 믿는 여러분이 영원한 생명을 가지고 있음을 알도록 이것을 썼습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-5-8"
+      ],
+      "explanations": {
+        "en": "This is the passage. God demonstrates his love for us in this: while we were still sinners, Christ died for us. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 하나님은 우리가 아직 죄인이었을 때 그리스도께서 우리를 위해 죽으셨다는 사실로 우리를 향한 사랑을 보여주십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-rom-5-8-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “günahkâr” in this passage?",
+        "ko": "이 본문에서 “günahkâr”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-rom-5-8-word-4-vocab",
+          "label": {
+            "en": "sinner / sinful",
+            "ko": "죄인·죄 있는"
+          },
+          "explanation": {
+            "en": "sinner / sinful. -ken attaches to the nominal predicate without a separate finite verb. The circumflex belongs to the source spelling.",
+            "ko": "죄인·죄 있는. 별도의 유한 동사 없이 명사 술어에 -ken이 붙습니다. 곡절 부호는 본문 철자입니다."
+          }
+        },
+        {
+          "id": "study-rom-5-8-word-1-vocab",
+          "label": {
+            "en": "love (verb)",
+            "ko": "사랑하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to sevmek. günahkâr means sinner / sinful here. -ken attaches to the nominal predicate without a separate finite verb. The circumflex belongs to the source spelling.",
+            "ko": "그 뜻은 sevmek입니다. 여기 günahkâr는 죄인·죄 있는입니다. 별도의 유한 동사 없이 명사 술어에 -ken이 붙습니다. 곡절 부호는 본문 철자입니다."
+          }
+        },
+        {
+          "id": "study-rom-5-8-word-2-vocab",
+          "label": {
+            "en": "this / that (pointed out)",
+            "ko": "이것·저것 (가리킴)"
+          },
+          "explanation": {
+            "en": "That definition belongs to şu. günahkâr means sinner / sinful here. -ken attaches to the nominal predicate without a separate finite verb. The circumflex belongs to the source spelling.",
+            "ko": "그 뜻은 şu입니다. 여기 günahkâr는 죄인·죄 있는입니다. 별도의 유한 동사 없이 명사 술어에 -ken이 붙습니다. 곡절 부호는 본문 철자입니다."
+          }
+        },
+        {
+          "id": "study-rom-5-8-word-3-vocab",
+          "label": {
+            "en": "demonstrate / prove",
+            "ko": "입증하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to kanıtlamak. günahkâr means sinner / sinful here. -ken attaches to the nominal predicate without a separate finite verb. The circumflex belongs to the source spelling.",
+            "ko": "그 뜻은 kanıtlamak입니다. 여기 günahkâr는 죄인·죄 있는입니다. 별도의 유한 동사 없이 명사 술어에 -ken이 붙습니다. 곡절 부호는 본문 철자입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-5-8-word-4-vocab"
+      ],
+      "explanations": {
+        "en": "-ken attaches to the nominal predicate without a separate finite verb. The circumflex belongs to the source spelling.",
+        "ko": "별도의 유한 동사 없이 명사 술어에 -ken이 붙습니다. 곡절 부호는 본문 철자입니다."
+      }
+    },
+    {
+      "id": "study-rom-5-8-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “sevdiğini”, what is the function of “-i” here?",
+        "ko": "“sevdiğini”에서 “-i”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "Nominalized object clause. Bizi is inside the loving clause; final -i marks that whole clause as the thing demonstrated.",
+            "ko": "명사절 목적어. bizi는 사랑 절 안의 목적어이며 마지막 -i는 그 전체를 증명하는 대상으로 표시합니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Nominalized object clause. Bizi is inside the loving clause; final -i marks that whole clause as the thing demonstrated.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 명사절 목적어. bizi는 사랑 절 안의 목적어이며 마지막 -i는 그 전체를 증명하는 대상으로 표시합니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Nominalized object clause. Bizi is inside the loving clause; final -i marks that whole clause as the thing demonstrated.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 명사절 목적어. bizi는 사랑 절 안의 목적어이며 마지막 -i는 그 전체를 증명하는 대상으로 표시합니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Nominalized object clause. Bizi is inside the loving clause; final -i marks that whole clause as the thing demonstrated.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 명사절 목적어. bizi는 사랑 절 안의 목적어이며 마지막 -i는 그 전체를 증명하는 대상으로 표시합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ACC"
+      ],
+      "explanations": {
+        "en": "Bizi is inside the loving clause; final -i marks that whole clause as the thing demonstrated.",
+        "ko": "bizi는 사랑 절 안의 목적어이며 마지막 -i는 그 전체를 증명하는 대상으로 표시합니다."
+      }
+    }
+  ]
+}

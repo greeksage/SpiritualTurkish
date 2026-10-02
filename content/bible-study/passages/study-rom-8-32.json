@@ -1,0 +1,724 @@
+{
+  "id": "study-rom-8-32",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Romans 8:32 through its clause structure and the forms Oğlu'nu / esirgemeyip.",
+    "ko": "로마서 8:32의 절 구조와 Oğlu'nu / esirgemeyip 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "God did not even spare his own Son, but handed him over to death for us all. Will he not also graciously give us everything together with him?",
+    "ko": "하나님은 자신의 아들도 아끼지 않고 우리 모두를 위해 죽음에 넘겨주셨습니다. 그분과 함께 모든 것도 우리에게 은혜로 주시지 않겠습니까?"
+  },
+  "clauses": [
+    {
+      "id": "study-rom-8-32-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "ROM.8.32",
+          "start": 0,
+          "end": 120
+        }
+      ],
+      "naturalMeaning": {
+        "en": "The God who gave his Son will also give graciously with him.",
+        "ko": "아들을 내어주신 하나님은 그분과 함께 은혜로 주실 것입니다."
+      },
+      "literalGloss": {
+        "en": "own Son-object even / not sparing-and / him all-of-us for death-to handing-over God / with him / to us everything / will-not-grant?",
+        "ko": "자기 아들조차 / 아끼지 않고 / 그를 우리 모두를 위해 죽음에 넘긴 하나님 / 그와 함께 / 우리에게 모든 것을 / 주지 않겠느냐"
+      },
+      "explanation": {
+        "en": "The long subject ends at Tanrı and includes esirgemeyip and teslim eden. O’nunla refers to the Son, while the final verb’s subject is God. The negative future question is rhetorical.",
+        "ko": "긴 주어는 Tanrı에서 끝나며 esirgemeyip·teslim eden을 포함합니다. O’nunla는 아들을 가리키고 마지막 동사의 주어는 하나님입니다. 부정 미래 의문은 수사적입니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-rom-8-32-word-1",
+      "verseId": "ROM.8.32",
+      "start": 3,
+      "end": 10,
+      "surface": "Oğlu'nu",
+      "lemma": "oğul",
+      "meaning": {
+        "en": "his Son (object)",
+        "ko": "그분의 아들을"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "Oğl",
+          "meaning": {
+            "en": "son",
+            "ko": "아들"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "u",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "'",
+          "meaning": {
+            "en": "apostrophe separating a proper name from a suffix",
+            "ko": "고유 명사와 접사를 구별하는 아포스트로피"
+          },
+          "function": "APOST"
+        },
+        {
+          "form": "n",
+          "function": "BUF",
+          "meaning": {
+            "en": "pronominal linking consonant after third-person possession",
+            "ko": "3인칭 소유 뒤 대명 연결 자음"
+          }
+        },
+        {
+          "form": "u",
+          "function": "ACC",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          }
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "oğul → oğl- before the possessive vowel",
+          "ko": "소유 모음 앞에서 oğul이 oğl-로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Possessed marked object",
+        "ko": "소유 대격 목적어"
+      },
+      "contextualExplanation": {
+        "en": "Oğul loses the second vowel before possession; the source apostrophe is preserved.",
+        "ko": "oğul은 소유 모음 앞에서 두 번째 모음이 탈락합니다. 판본의 아포스트로피를 유지합니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "son",
+        "ko": "아들"
+      }
+    },
+    {
+      "id": "study-rom-8-32-word-2",
+      "verseId": "ROM.8.32",
+      "start": 16,
+      "end": 27,
+      "surface": "esirgemeyip",
+      "lemma": "esirgemek",
+      "meaning": {
+        "en": "without sparing / not sparing and",
+        "ko": "아끼지 않고"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "esirge",
+          "meaning": {
+            "en": "withhold / spare",
+            "ko": "아끼다·면하게 하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "me",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "ip",
+          "meaning": {
+            "en": "linked action converb -Ip",
+            "ko": "행위를 잇는 연결형 -Ip"
+          },
+          "function": "IP"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative"
+      },
+      "role": {
+        "en": "Negative linked action",
+        "ko": "부정 연결 행위"
+      },
+      "contextualExplanation": {
+        "en": "The same God is subject of the sparing/handing-over pair.",
+        "ko": "아끼지 않음·넘김의 공통 주어는 하나님입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "withhold / spare",
+        "ko": "아끼다·면하게 하다"
+      }
+    },
+    {
+      "id": "study-rom-8-32-word-3",
+      "verseId": "ROM.8.32",
+      "start": 33,
+      "end": 40,
+      "surface": "hepimiz",
+      "lemma": "hep",
+      "meaning": {
+        "en": "all of us",
+        "ko": "우리 모두"
+      },
+      "partOfSpeech": {
+        "en": "Pronoun / pronominal expression",
+        "ko": "대명사·대명 표현"
+      },
+      "segments": [
+        {
+          "form": "hep",
+          "meaning": {
+            "en": "always / all along",
+            "ko": "항상"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "imiz",
+          "meaning": {
+            "en": "first-person plural possessive",
+            "ko": "1인칭 복수 소유"
+          },
+          "function": "P1P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "1pl"
+      },
+      "role": {
+        "en": "Beneficiaries before için",
+        "ko": "için 앞의 수혜자"
+      },
+      "contextualExplanation": {
+        "en": "The speaker includes himself in the group.",
+        "ko": "화자는 자신을 그 집단에 포함합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "always / all along",
+        "ko": "항상"
+      }
+    },
+    {
+      "id": "study-rom-8-32-word-4",
+      "verseId": "ROM.8.32",
+      "start": 46,
+      "end": 51,
+      "surface": "ölüme",
+      "lemma": "ölüm",
+      "meaning": {
+        "en": "to death",
+        "ko": "죽음으로"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "ölüm",
+          "meaning": {
+            "en": "death",
+            "ko": "죽음"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "e",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "case": "dative"
+      },
+      "role": {
+        "en": "Goal of teslim etmek",
+        "ko": "teslim etmek의 목적지"
+      },
+      "contextualExplanation": {
+        "en": "This dative names the fate/destination, not the beneficiaries.",
+        "ko": "여격은 운명·목적지를 가리키며 수혜자가 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "death",
+        "ko": "죽음"
+      }
+    },
+    {
+      "id": "study-rom-8-32-word-5",
+      "verseId": "ROM.8.32",
+      "start": 102,
+      "end": 116,
+      "surface": "bağışlamayacak",
+      "lemma": "bağışlamak",
+      "meaning": {
+        "en": "will not grant",
+        "ko": "주시지 않을 것이다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "bağışla",
+          "meaning": {
+            "en": "forgive / give freely",
+            "ko": "용서하다·거저 주다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ma",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "acak",
+          "meaning": {
+            "en": "future",
+            "ko": "미래"
+          },
+          "function": "FUT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "tenseAspect": "future"
+      },
+      "role": {
+        "en": "Negative future before question",
+        "ko": "의문 앞의 부정 미래"
+      },
+      "contextualExplanation": {
+        "en": "With mı it expects the positive inference that God will grant.",
+        "ko": "mı와 함께 하나님이 주실 것이라는 긍정 추론을 기대합니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "forgive / give freely",
+        "ko": "용서하다·거저 주다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-rom-8-32-word-1-vocab",
+      "analysisId": "study-rom-8-32-word-1",
+      "lemma": "oğul",
+      "classification": "biblical",
+      "definitions": {
+        "en": "son",
+        "ko": "아들"
+      },
+      "usageNotes": {
+        "en": "Oğul loses the second vowel before possession; the source apostrophe is preserved.",
+        "ko": "oğul은 소유 모음 앞에서 두 번째 모음이 탈락합니다. 판본의 아포스트로피를 유지합니다."
+      }
+    },
+    {
+      "id": "study-rom-8-32-word-2-vocab",
+      "analysisId": "study-rom-8-32-word-2",
+      "lemma": "esirgemek",
+      "classification": "general",
+      "definitions": {
+        "en": "withhold / spare",
+        "ko": "아끼다·면하게 하다"
+      },
+      "usageNotes": {
+        "en": "The same God is subject of the sparing/handing-over pair.",
+        "ko": "아끼지 않음·넘김의 공통 주어는 하나님입니다."
+      }
+    },
+    {
+      "id": "study-rom-8-32-word-3-vocab",
+      "analysisId": "study-rom-8-32-word-3",
+      "lemma": "hep",
+      "classification": "general",
+      "definitions": {
+        "en": "always / all along",
+        "ko": "항상"
+      },
+      "usageNotes": {
+        "en": "The speaker includes himself in the group.",
+        "ko": "화자는 자신을 그 집단에 포함합니다."
+      }
+    },
+    {
+      "id": "study-rom-8-32-word-4-vocab",
+      "analysisId": "study-rom-8-32-word-4",
+      "lemma": "ölüm",
+      "classification": "general",
+      "definitions": {
+        "en": "death",
+        "ko": "죽음"
+      },
+      "usageNotes": {
+        "en": "This dative names the fate/destination, not the beneficiaries.",
+        "ko": "여격은 운명·목적지를 가리키며 수혜자가 아닙니다."
+      }
+    },
+    {
+      "id": "study-rom-8-32-word-5-vocab",
+      "analysisId": "study-rom-8-32-word-5",
+      "lemma": "bağışlamak",
+      "classification": "biblical",
+      "definitions": {
+        "en": "forgive / give freely",
+        "ko": "용서하다·거저 주다"
+      },
+      "usageNotes": {
+        "en": "With mı it expects the positive inference that God will grant.",
+        "ko": "mı와 함께 하나님이 주실 것이라는 긍정 추론을 기대합니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-rom-8-32-grammar-1",
+      "title": {
+        "en": "A long subject ending in its head noun",
+        "ko": "중심 명사로 끝나는 긴 주어"
+      },
+      "explanation": {
+        "en": "Tanrı is modified by a chain describing the giving of the Son. Do not assign Tanrı as an object just because it comes late.",
+        "ko": "Tanrı는 아들을 내어주심을 설명하는 수식 연결을 받습니다. 뒤에 나온다고 목적어로 판단하지 마세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ROM.8.32",
+          "start": 0,
+          "end": 120
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-rom-8-32-grammar-2",
+      "title": {
+        "en": "Rhetorical future negation",
+        "ko": "미래 부정의 수사 의문"
+      },
+      "explanation": {
+        "en": "Bağışlamayacak mı uses a negative future question to invite confidence, not to assert God’s refusal to give.",
+        "ko": "bağışlamayacak mı는 거절을 진술하는 것이 아니라 확신을 이끄는 부정 미래 의문입니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ROM.8.32",
+          "start": 0,
+          "end": 120
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-08"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Identify a long subject and write a short sentence with bağışlamak, noting whether it means grant or forgive.",
+    "ko": "긴 주어를 찾고 bağışlamak으로 짧은 문장을 써서 주다·용서하다 중 뜻을 밝히세요."
+  },
+  "modelResponse": {
+    "tr": "Arkadaşım kütüphaneye bir kitap bağışladı. Burada bağışlamak, vermek demektir.",
+    "meaning": {
+      "en": "My friend donated a book to the library. Here bağışlamak means give.",
+      "ko": "친구가 도서관에 책을 기증했습니다. 여기서 bağışlamak은 주다라는 뜻입니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "ministry-08"
+  ],
+  "relatedReadingIds": [
+    "reading-Rom-8-32"
+  ],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-rom-8-32-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Romans 8:32? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 로마서 8:32인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-rom-8-32",
+          "passageId": "study-rom-8-32",
+          "explanation": {
+            "en": "This is the passage. God did not even spare his own Son, but handed him over to death for us all. Will he not also graciously give us everything together with him? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 하나님은 자신의 아들도 아끼지 않고 우리 모두를 위해 죽음에 넘겨주셨습니다. 그분과 함께 모든 것도 우리에게 은혜로 주시지 않겠습니까? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-php-4-19",
+          "passageId": "study-php-4-19",
+          "explanation": {
+            "en": "This is a different passage. My God will also meet every need of yours according to his riches, in a glorious way in Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 나의 하나님은 자신의 풍성함에 따라 그리스도 예수 안에서 영광스럽게 여러분의 모든 필요를 채우실 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-psa-119-9-11",
+          "passageId": "study-psa-119-9-11",
+          "explanation": {
+            "en": "This is a different passage. How does a young person keep their way clean? By keeping your word. I do not let your word leave my mind, so that I may not sin against you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 젊은 사람이 어떻게 자기 길을 깨끗하게 지킬까요? 주님의 말씀을 지킴으로입니다. 주님께 죄를 짓지 않으려고 말씀을 마음에서 떠나게 하지 않습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-isa-41-10",
+          "passageId": "study-isa-41-10",
+          "explanation": {
+            "en": "This is a different passage. Do not fear or lose heart: I am with you and I am your God. I will strengthen you, help you, and uphold you with my victorious right hand. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 두려워하거나 낙심하지 마세요. 나는 너와 함께하며 너의 하나님입니다. 힘을 주고 돕고 승리하는 오른손으로 붙들겠습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-8-32"
+      ],
+      "explanations": {
+        "en": "This is the passage. God did not even spare his own Son, but handed him over to death for us all. Will he not also graciously give us everything together with him? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 하나님은 자신의 아들도 아끼지 않고 우리 모두를 위해 죽음에 넘겨주셨습니다. 그분과 함께 모든 것도 우리에게 은혜로 주시지 않겠습니까? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-rom-8-32-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-rom-8-32",
+          "referenceId": "study-rom-8-32",
+          "explanation": {
+            "en": "This is the passage. God did not even spare his own Son, but handed him over to death for us all. Will he not also graciously give us everything together with him? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 하나님은 자신의 아들도 아끼지 않고 우리 모두를 위해 죽음에 넘겨주셨습니다. 그분과 함께 모든 것도 우리에게 은혜로 주시지 않겠습니까? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-php-4-19",
+          "referenceId": "study-php-4-19",
+          "explanation": {
+            "en": "This is a different passage. My God will also meet every need of yours according to his riches, in a glorious way in Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 나의 하나님은 자신의 풍성함에 따라 그리스도 예수 안에서 영광스럽게 여러분의 모든 필요를 채우실 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-psa-119-9-11",
+          "referenceId": "study-psa-119-9-11",
+          "explanation": {
+            "en": "This is a different passage. How does a young person keep their way clean? By keeping your word. I do not let your word leave my mind, so that I may not sin against you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 젊은 사람이 어떻게 자기 길을 깨끗하게 지킬까요? 주님의 말씀을 지킴으로입니다. 주님께 죄를 짓지 않으려고 말씀을 마음에서 떠나게 하지 않습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-isa-41-10",
+          "referenceId": "study-isa-41-10",
+          "explanation": {
+            "en": "This is a different passage. Do not fear or lose heart: I am with you and I am your God. I will strengthen you, help you, and uphold you with my victorious right hand. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 두려워하거나 낙심하지 마세요. 나는 너와 함께하며 너의 하나님입니다. 힘을 주고 돕고 승리하는 오른손으로 붙들겠습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-8-32"
+      ],
+      "explanations": {
+        "en": "This is the passage. God did not even spare his own Son, but handed him over to death for us all. Will he not also graciously give us everything together with him? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 하나님은 자신의 아들도 아끼지 않고 우리 모두를 위해 죽음에 넘겨주셨습니다. 그분과 함께 모든 것도 우리에게 은혜로 주시지 않겠습니까? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-rom-8-32-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “oğul” in this passage?",
+        "ko": "이 본문에서 “oğul”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-rom-8-32-word-1-vocab",
+          "label": {
+            "en": "son",
+            "ko": "아들"
+          },
+          "explanation": {
+            "en": "son. Oğul loses the second vowel before possession; the source apostrophe is preserved.",
+            "ko": "아들. oğul은 소유 모음 앞에서 두 번째 모음이 탈락합니다. 판본의 아포스트로피를 유지합니다."
+          }
+        },
+        {
+          "id": "study-rom-8-32-word-2-vocab",
+          "label": {
+            "en": "withhold / spare",
+            "ko": "아끼다·면하게 하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to esirgemek. oğul means son here. Oğul loses the second vowel before possession; the source apostrophe is preserved.",
+            "ko": "그 뜻은 esirgemek입니다. 여기 oğul는 아들입니다. oğul은 소유 모음 앞에서 두 번째 모음이 탈락합니다. 판본의 아포스트로피를 유지합니다."
+          }
+        },
+        {
+          "id": "study-rom-8-32-word-3-vocab",
+          "label": {
+            "en": "always / all along",
+            "ko": "항상"
+          },
+          "explanation": {
+            "en": "That definition belongs to hep. oğul means son here. Oğul loses the second vowel before possession; the source apostrophe is preserved.",
+            "ko": "그 뜻은 hep입니다. 여기 oğul는 아들입니다. oğul은 소유 모음 앞에서 두 번째 모음이 탈락합니다. 판본의 아포스트로피를 유지합니다."
+          }
+        },
+        {
+          "id": "study-rom-8-32-word-4-vocab",
+          "label": {
+            "en": "death",
+            "ko": "죽음"
+          },
+          "explanation": {
+            "en": "That definition belongs to ölüm. oğul means son here. Oğul loses the second vowel before possession; the source apostrophe is preserved.",
+            "ko": "그 뜻은 ölüm입니다. 여기 oğul는 아들입니다. oğul은 소유 모음 앞에서 두 번째 모음이 탈락합니다. 판본의 아포스트로피를 유지합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-8-32-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Oğul loses the second vowel before possession; the source apostrophe is preserved.",
+        "ko": "oğul은 소유 모음 앞에서 두 번째 모음이 탈락합니다. 판본의 아포스트로피를 유지합니다."
+      }
+    },
+    {
+      "id": "study-rom-8-32-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “Oğlu'nu”, what is the function of “-nu” here?",
+        "ko": "“Oğlu'nu”에서 “-nu”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "Possessed marked object. Oğul loses the second vowel before possession; the source apostrophe is preserved.",
+            "ko": "소유 대격 목적어. oğul은 소유 모음 앞에서 두 번째 모음이 탈락합니다. 판본의 아포스트로피를 유지합니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed marked object. Oğul loses the second vowel before possession; the source apostrophe is preserved.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 대격 목적어. oğul은 소유 모음 앞에서 두 번째 모음이 탈락합니다. 판본의 아포스트로피를 유지합니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed marked object. Oğul loses the second vowel before possession; the source apostrophe is preserved.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 대격 목적어. oğul은 소유 모음 앞에서 두 번째 모음이 탈락합니다. 판본의 아포스트로피를 유지합니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed marked object. Oğul loses the second vowel before possession; the source apostrophe is preserved.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 대격 목적어. oğul은 소유 모음 앞에서 두 번째 모음이 탈락합니다. 판본의 아포스트로피를 유지합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ACC"
+      ],
+      "explanations": {
+        "en": "Oğul loses the second vowel before possession; the source apostrophe is preserved.",
+        "ko": "oğul은 소유 모음 앞에서 두 번째 모음이 탈락합니다. 판본의 아포스트로피를 유지합니다."
+      }
+    }
+  ]
+}

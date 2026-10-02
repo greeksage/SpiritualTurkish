@@ -1,0 +1,676 @@
+{
+  "id": "study-1co-15-58",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand 1 Corinthians 15:58 through its clause structure and the forms verdiğiniz / gitmeyeceğini.",
+    "ko": "고린도전서 15:58의 절 구조와 verdiğiniz / gitmeyeceğini 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Stand firm, remain unshaken, and always work earnestly in the Lord’s work, knowing your labor in the Lord is not in vain.",
+    "ko": "주 안에서 수고가 헛되지 않음을 알고 굳게 서며 흔들리지 말고 언제나 주의 일에 힘쓰세요."
+  },
+  "clauses": [
+    {
+      "id": "study-1co-15-58-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "1CO.15.58",
+          "start": 0,
+          "end": 151
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Knowing the value of their labor supports the commands to persevere.",
+        "ko": "수고의 가치를 앎이 인내하라는 명령의 근거입니다."
+      },
+      "literalGloss": {
+        "en": "your labor’s to-waste not-go-will-object knowing / endure / do-not-be-shaken / diligent be",
+        "ko": "여러분 수고의 헛되이 가지 않을 것임을 알며 / 견뎌라 / 흔들리지 마라 / 부지런하라"
+      },
+      "explanation": {
+        "en": "Emeğin is the subject of gitmeyeceğini. The future nominalized clause is an object of bilerek, a manner converb. Dayanın, sarsılmayın, olun address plural listeners. Gayretli is an adjective, so olun supplies the imperative verb.",
+        "ko": "emeğin은 gitmeyeceğini의 주어입니다. 미래 명사절이 방식 연결형 bilerek의 목적어입니다. dayanın·sarsılmayın·olun은 복수 청자에게 합니다. gayretli는 형용사이므로 olun이 명령 동사를 제공합니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-1co-15-58-word-1",
+      "verseId": "1CO.15.58",
+      "start": 45,
+      "end": 55,
+      "surface": "verdiğiniz",
+      "lemma": "vermek",
+      "meaning": {
+        "en": "that you give",
+        "ko": "여러분이 들이는"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ver",
+          "meaning": {
+            "en": "give",
+            "ko": "주다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "diğ",
+          "meaning": {
+            "en": "nominalizing/participial -DIK",
+            "ko": "명사화·관계형 -DIK"
+          },
+          "function": "DIK"
+        },
+        {
+          "form": "iniz",
+          "meaning": {
+            "en": "second-person plural possessive",
+            "ko": "2인칭 복수 소유"
+          },
+          "function": "P2P"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-dik → -diğ before a vowel",
+          "ko": "모음 앞에서 -dik가 -diğ로 변합니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "-DIK nominal/participial",
+        "possessive": "2pl/polite"
+      },
+      "role": {
+        "en": "Modifier of emek",
+        "ko": "emek의 수식"
+      },
+      "contextualExplanation": {
+        "en": "Emek vermek means put effort into something; the embedded subject is you.",
+        "ko": "emek vermek은 노력을 들이다이고 내포 주어는 여러분입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "give",
+        "ko": "주다"
+      }
+    },
+    {
+      "id": "study-1co-15-58-word-2",
+      "verseId": "1CO.15.58",
+      "start": 68,
+      "end": 81,
+      "surface": "gitmeyeceğini",
+      "lemma": "gitmek",
+      "meaning": {
+        "en": "that it will not go (object)",
+        "ko": "그것이 가지 않을 것임을"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "git",
+          "meaning": {
+            "en": "go",
+            "ko": "가다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "me",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "eceğ",
+          "meaning": {
+            "en": "future participle / nominalizer",
+            "ko": "미래 관계형·명사화"
+          },
+          "function": "FUTPART"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-ecek → -eceğ before a vowel",
+          "ko": "모음 앞에서 -ecek가 -eceğ로 변합니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "nonfinite": "future nominal/participial",
+        "possessive": "3",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Negative future object clause",
+        "ko": "부정 미래 목적어절"
+      },
+      "contextualExplanation": {
+        "en": "Boşa gitmek means be wasted. The possessive ending tracks emek, not the listeners.",
+        "ko": "boşa gitmek은 낭비되다입니다. 소유 어미는 청자가 아니라 emek을 가리킵니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "go",
+        "ko": "가다"
+      }
+    },
+    {
+      "id": "study-1co-15-58-word-3",
+      "verseId": "1CO.15.58",
+      "start": 82,
+      "end": 89,
+      "surface": "bilerek",
+      "lemma": "bilmek",
+      "meaning": {
+        "en": "knowing / in awareness",
+        "ko": "알며"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "bil",
+          "meaning": {
+            "en": "know",
+            "ko": "알다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "erek",
+          "meaning": {
+            "en": "manner converb -ArAk",
+            "ko": "방식 연결형 -ArAk"
+          },
+          "function": "ARAK"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {},
+      "role": {
+        "en": "Manner converb",
+        "ko": "방식 연결형"
+      },
+      "contextualExplanation": {
+        "en": "It connects awareness to the main commands without a separate person ending.",
+        "ko": "별도 인칭 어미 없이 앎을 핵심 명령에 연결합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "know",
+        "ko": "알다"
+      }
+    },
+    {
+      "id": "study-1co-15-58-word-4",
+      "verseId": "1CO.15.58",
+      "start": 99,
+      "end": 110,
+      "surface": "sarsılmayın",
+      "lemma": "sarsılmak",
+      "meaning": {
+        "en": "do not be shaken",
+        "ko": "흔들리지 마세요"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "sars",
+          "meaning": {
+            "en": "be shaken",
+            "ko": "흔들리다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ıl",
+          "meaning": {
+            "en": "passive",
+            "ko": "피동"
+          },
+          "function": "PASS"
+        },
+        {
+          "form": "ma",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "ın",
+          "meaning": {
+            "en": "plural / polite imperative",
+            "ko": "복수·공손한 명령"
+          },
+          "function": "IMP2P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "voice": "passive",
+        "polarity": "negative",
+        "mood": "plural/polite imperative"
+      },
+      "role": {
+        "en": "Negative passive command",
+        "ko": "부정 피동 명령"
+      },
+      "contextualExplanation": {
+        "en": "Compare active sarsmak, to shake something.",
+        "ko": "능동 sarsmak은 무언가를 흔들다입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "be shaken",
+        "ko": "흔들리다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-1co-15-58-word-1-vocab",
+      "analysisId": "study-1co-15-58-word-1",
+      "lemma": "vermek",
+      "classification": "general",
+      "definitions": {
+        "en": "give",
+        "ko": "주다"
+      },
+      "usageNotes": {
+        "en": "Emek vermek means put effort into something; the embedded subject is you.",
+        "ko": "emek vermek은 노력을 들이다이고 내포 주어는 여러분입니다."
+      }
+    },
+    {
+      "id": "study-1co-15-58-word-2-vocab",
+      "analysisId": "study-1co-15-58-word-2",
+      "lemma": "gitmek",
+      "classification": "general",
+      "definitions": {
+        "en": "go",
+        "ko": "가다"
+      },
+      "usageNotes": {
+        "en": "Boşa gitmek means be wasted. The possessive ending tracks emek, not the listeners.",
+        "ko": "boşa gitmek은 낭비되다입니다. 소유 어미는 청자가 아니라 emek을 가리킵니다."
+      }
+    },
+    {
+      "id": "study-1co-15-58-word-3-vocab",
+      "analysisId": "study-1co-15-58-word-3",
+      "lemma": "bilmek",
+      "classification": "general",
+      "definitions": {
+        "en": "know",
+        "ko": "알다"
+      },
+      "usageNotes": {
+        "en": "It connects awareness to the main commands without a separate person ending.",
+        "ko": "별도 인칭 어미 없이 앎을 핵심 명령에 연결합니다."
+      }
+    },
+    {
+      "id": "study-1co-15-58-word-4-vocab",
+      "analysisId": "study-1co-15-58-word-4",
+      "lemma": "sarsılmak",
+      "classification": "general",
+      "definitions": {
+        "en": "be shaken",
+        "ko": "흔들리다"
+      },
+      "usageNotes": {
+        "en": "Compare active sarsmak, to shake something.",
+        "ko": "능동 sarsmak은 무언가를 흔들다입니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-1co-15-58-grammar-1",
+      "title": {
+        "en": "Future content under knowing",
+        "ko": "앎 아래의 미래 내용"
+      },
+      "explanation": {
+        "en": "A future participial clause can appear under a present command: know that the labor will not be wasted. The matrix and embedded time are separate.",
+        "ko": "현재 명령 아래 미래 관계절이 올 수 있습니다. 수고가 헛되지 않을 것임을 알라는 뜻으로 상위·내포 시간은 별개입니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "1CO.15.58",
+          "start": 0,
+          "end": 151
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-1co-15-58-grammar-2",
+      "title": {
+        "en": "Idiomatic boşa gitmek",
+        "ko": "관용 boşa gitmek"
+      },
+      "explanation": {
+        "en": "Literally “go to emptiness,” naturally “be wasted / come to nothing.” It is a language expression, not a measurement of ministry success.",
+        "ko": "문자상 빈 데로 가다이고 자연스럽게 헛되다입니다. 언어 표현이며 사역 성과의 측정값이 아닙니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "1CO.15.58",
+          "start": 0,
+          "end": 151
+        }
+      ],
+      "relatedLessonIds": []
+    }
+  ],
+  "independentTask": {
+    "en": "Describe effort and encouragement with emek vermek and boşa gitmek.",
+    "ko": "emek vermek·boşa gitmek으로 노력과 격려를 표현하세요."
+  },
+  "modelResponse": {
+    "tr": "Bu çalışmaya emek veriyoruz. Birlikte öğrenmeye devam edelim.",
+    "meaning": {
+      "en": "We are putting effort into this study. Let us keep learning together.",
+      "ko": "이 학습에 노력하고 있습니다. 함께 계속 배웁시다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-1co-15-58-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to 1 Corinthians 15:58? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 고린도전서 15:58인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-1co-15-58",
+          "passageId": "study-1co-15-58",
+          "explanation": {
+            "en": "This is the passage. Stand firm, remain unshaken, and always work earnestly in the Lord’s work, knowing your labor in the Lord is not in vain. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 주 안에서 수고가 헛되지 않음을 알고 굳게 서며 흔들리지 말고 언제나 주의 일에 힘쓰세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-12-3",
+          "passageId": "study-heb-12-3",
+          "explanation": {
+            "en": "This is a different passage. Consider the one who endured such opposition from sinners, so that you do not grow weary and lose courage. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 지치고 용기를 잃지 않도록 죄인들의 큰 반대를 견디신 분을 생각하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-act-1-8",
+          "passageId": "study-act-1-8",
+          "explanation": {
+            "en": "This is a different passage. When the Holy Spirit comes upon you, you will receive power and be my witnesses in Jerusalem, throughout Judea and Samaria, and to the ends of the earth. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 성령이 여러분에게 임하시면 능력을 받고 예루살렘·유대·사마리아와 온 땅에서 나의 증인이 될 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-12-2",
+          "passageId": "study-rom-12-2",
+          "explanation": {
+            "en": "This is a different passage. Do not conform to this age’s pattern; instead be transformed through the renewing of your thinking, so you can discern God’s good, pleasing, and perfect will. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 이 시대의 흐름에 맞추지 말고 생각이 새로워짐으로 변화되어 하나님의 선하고 기쁘고 온전한 뜻이 무엇인지 분별하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-1co-15-58"
+      ],
+      "explanations": {
+        "en": "This is the passage. Stand firm, remain unshaken, and always work earnestly in the Lord’s work, knowing your labor in the Lord is not in vain. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 주 안에서 수고가 헛되지 않음을 알고 굳게 서며 흔들리지 말고 언제나 주의 일에 힘쓰세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-1co-15-58-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-1co-15-58",
+          "referenceId": "study-1co-15-58",
+          "explanation": {
+            "en": "This is the passage. Stand firm, remain unshaken, and always work earnestly in the Lord’s work, knowing your labor in the Lord is not in vain. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 주 안에서 수고가 헛되지 않음을 알고 굳게 서며 흔들리지 말고 언제나 주의 일에 힘쓰세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-12-3",
+          "referenceId": "study-heb-12-3",
+          "explanation": {
+            "en": "This is a different passage. Consider the one who endured such opposition from sinners, so that you do not grow weary and lose courage. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 지치고 용기를 잃지 않도록 죄인들의 큰 반대를 견디신 분을 생각하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-act-1-8",
+          "referenceId": "study-act-1-8",
+          "explanation": {
+            "en": "This is a different passage. When the Holy Spirit comes upon you, you will receive power and be my witnesses in Jerusalem, throughout Judea and Samaria, and to the ends of the earth. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 성령이 여러분에게 임하시면 능력을 받고 예루살렘·유대·사마리아와 온 땅에서 나의 증인이 될 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-12-2",
+          "referenceId": "study-rom-12-2",
+          "explanation": {
+            "en": "This is a different passage. Do not conform to this age’s pattern; instead be transformed through the renewing of your thinking, so you can discern God’s good, pleasing, and perfect will. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 이 시대의 흐름에 맞추지 말고 생각이 새로워짐으로 변화되어 하나님의 선하고 기쁘고 온전한 뜻이 무엇인지 분별하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-1co-15-58"
+      ],
+      "explanations": {
+        "en": "This is the passage. Stand firm, remain unshaken, and always work earnestly in the Lord’s work, knowing your labor in the Lord is not in vain. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 주 안에서 수고가 헛되지 않음을 알고 굳게 서며 흔들리지 말고 언제나 주의 일에 힘쓰세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-1co-15-58-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “vermek” in this passage?",
+        "ko": "이 본문에서 “vermek”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-1co-15-58-word-1-vocab",
+          "label": {
+            "en": "give",
+            "ko": "주다"
+          },
+          "explanation": {
+            "en": "give. Emek vermek means put effort into something; the embedded subject is you.",
+            "ko": "주다. emek vermek은 노력을 들이다이고 내포 주어는 여러분입니다."
+          }
+        },
+        {
+          "id": "study-1co-15-58-word-2-vocab",
+          "label": {
+            "en": "go",
+            "ko": "가다"
+          },
+          "explanation": {
+            "en": "That definition belongs to gitmek. vermek means give here. Emek vermek means put effort into something; the embedded subject is you.",
+            "ko": "그 뜻은 gitmek입니다. 여기 vermek는 주다입니다. emek vermek은 노력을 들이다이고 내포 주어는 여러분입니다."
+          }
+        },
+        {
+          "id": "study-1co-15-58-word-3-vocab",
+          "label": {
+            "en": "know",
+            "ko": "알다"
+          },
+          "explanation": {
+            "en": "That definition belongs to bilmek. vermek means give here. Emek vermek means put effort into something; the embedded subject is you.",
+            "ko": "그 뜻은 bilmek입니다. 여기 vermek는 주다입니다. emek vermek은 노력을 들이다이고 내포 주어는 여러분입니다."
+          }
+        },
+        {
+          "id": "study-1co-15-58-word-4-vocab",
+          "label": {
+            "en": "be shaken",
+            "ko": "흔들리다"
+          },
+          "explanation": {
+            "en": "That definition belongs to sarsılmak. vermek means give here. Emek vermek means put effort into something; the embedded subject is you.",
+            "ko": "그 뜻은 sarsılmak입니다. 여기 vermek는 주다입니다. emek vermek은 노력을 들이다이고 내포 주어는 여러분입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-1co-15-58-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Emek vermek means put effort into something; the embedded subject is you.",
+        "ko": "emek vermek은 노력을 들이다이고 내포 주어는 여러분입니다."
+      }
+    },
+    {
+      "id": "study-1co-15-58-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “gitmeyeceğini”, what is the function of “-i” here?",
+        "ko": "“gitmeyeceğini”에서 “-i”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "Negative future object clause. Boşa gitmek means be wasted. The possessive ending tracks emek, not the listeners.",
+            "ko": "부정 미래 목적어절. boşa gitmek은 낭비되다입니다. 소유 어미는 청자가 아니라 emek을 가리킵니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Negative future object clause. Boşa gitmek means be wasted. The possessive ending tracks emek, not the listeners.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 부정 미래 목적어절. boşa gitmek은 낭비되다입니다. 소유 어미는 청자가 아니라 emek을 가리킵니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Negative future object clause. Boşa gitmek means be wasted. The possessive ending tracks emek, not the listeners.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 부정 미래 목적어절. boşa gitmek은 낭비되다입니다. 소유 어미는 청자가 아니라 emek을 가리킵니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Negative future object clause. Boşa gitmek means be wasted. The possessive ending tracks emek, not the listeners.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 부정 미래 목적어절. boşa gitmek은 낭비되다입니다. 소유 어미는 청자가 아니라 emek을 가리킵니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ACC"
+      ],
+      "explanations": {
+        "en": "Boşa gitmek means be wasted. The possessive ending tracks emek, not the listeners.",
+        "ko": "boşa gitmek은 낭비되다입니다. 소유 어미는 청자가 아니라 emek을 가리킵니다."
+      }
+    }
+  ]
+}

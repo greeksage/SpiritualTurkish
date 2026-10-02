@@ -1,0 +1,809 @@
+{
+  "id": "study-1co-3-16",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand 1 Corinthians 3:16 through its clause structure and the forms tapınağı / olduğunuzu.",
+    "ko": "고린도전서 3:16의 절 구조와 tapınağı / olduğunuzu 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Do you not know that you are God’s temple and that God’s Spirit lives in you?",
+    "ko": "여러분이 하나님의 성전이며 하나님의 영이 여러분 안에 사신다는 것을 모르나요?"
+  },
+  "clauses": [
+    {
+      "id": "study-1co-3-16-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "1CO.3.16",
+          "start": 0,
+          "end": 84
+        }
+      ],
+      "naturalMeaning": {
+        "en": "You are God’s temple and his Spirit dwells in you; surely you know this.",
+        "ko": "여러분이 하나님의 성전이고 하나님의 영이 안에 계심을 알고 있지 않나요?"
+      },
+      "literalGloss": {
+        "en": "God’s temple / your-being-object / God’s Spirit’s / in you living-object / do you not know",
+        "ko": "하나님의 성전 / 여러분이 ~임을 / 하나님의 영의 / 여러분 안에 사심을 / 모르나요"
+      },
+      "explanation": {
+        "en": "Two nominalized clauses are objects of bilmiyor musunuz. The first has you as its subject through -unuz; the second has Tanrı’nın Ruhu’nun as an explicit genitive subject. The question expects recognition, rather than requesting pronunciation scoring.",
+        "ko": "두 명사절이 bilmiyor musunuz의 목적어입니다. 앞은 -unuz로 여러분을 주어로 표시하고 뒤는 Tanrı’nın Ruhu’nun을 속격 주어로 밝힙니다. 알고 있음을 일깨우는 질문입니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-1co-3-16-word-1",
+      "verseId": "1CO.3.16",
+      "start": 10,
+      "end": 18,
+      "surface": "tapınağı",
+      "lemma": "tapınak",
+      "meaning": {
+        "en": "his temple",
+        "ko": "그분의 성전"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "tapınağ",
+          "meaning": {
+            "en": "temple",
+            "ko": "성전"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "tapınak → tapınağ- before a vowel",
+          "ko": "모음 앞에서 tapınak가 tapınağ-로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Possessed predicate noun",
+        "ko": "소유 술어 명사"
+      },
+      "contextualExplanation": {
+        "en": "Tanrı’nın identifies the possessor; the k softens before the vowel.",
+        "ko": "Tanrı’nın이 소유자이고 모음 앞에서 k가 ğ로 변합니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "temple",
+        "ko": "성전"
+      }
+    },
+    {
+      "id": "study-1co-3-16-word-2",
+      "verseId": "1CO.3.16",
+      "start": 19,
+      "end": 29,
+      "surface": "olduğunuzu",
+      "lemma": "olmak",
+      "meaning": {
+        "en": "that you are (object)",
+        "ko": "여러분이 ~임을"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ol",
+          "meaning": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "duğ",
+          "meaning": {
+            "en": "nominalizing/participial -DIK",
+            "ko": "명사화·관계형 -DIK"
+          },
+          "function": "DIK"
+        },
+        {
+          "form": "unuz",
+          "meaning": {
+            "en": "second-person plural possessive",
+            "ko": "2인칭 복수 소유"
+          },
+          "function": "P2P"
+        },
+        {
+          "form": "u",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-duk → -duğ before a vowel",
+          "ko": "모음 앞에서 -duk가 -duğ로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "-DIK nominal/participial",
+        "possessive": "2pl/polite",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Nominalized clause object",
+        "ko": "명사절 목적어"
+      },
+      "contextualExplanation": {
+        "en": "The embedded subject is you; final accusative marks the whole clause as what is known.",
+        "ko": "내포 주어는 여러분이고 마지막 대격이 전체 절을 아는 대상으로 표시합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      }
+    },
+    {
+      "id": "study-1co-3-16-word-3",
+      "verseId": "1CO.3.16",
+      "start": 41,
+      "end": 49,
+      "surface": "Ruhu'nun",
+      "lemma": "ruh",
+      "meaning": {
+        "en": "of his Spirit",
+        "ko": "그분의 영의"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "Ruh",
+          "meaning": {
+            "en": "spirit",
+            "ko": "영"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "u",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "'",
+          "meaning": {
+            "en": "apostrophe separating a proper name from a suffix",
+            "ko": "고유 명사와 접사를 구별하는 아포스트로피"
+          },
+          "function": "APOST"
+        },
+        {
+          "form": "nun",
+          "meaning": {
+            "en": "genitive: possessor / dependent subject",
+            "ko": "속격: 소유자·내포절 주어"
+          },
+          "function": "GEN"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "genitive"
+      },
+      "role": {
+        "en": "Genitive subject inside the clause",
+        "ko": "내포절의 속격 주어"
+      },
+      "contextualExplanation": {
+        "en": "Tanrı’nın Ruhu is already possessed; the extra genitive marks that Spirit as the subject of yaşadığını.",
+        "ko": "Tanrı’nın Ruhu는 이미 소유 구문이고 추가 속격이 yaşadığını의 주어를 표시합니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "spirit",
+        "ko": "영"
+      }
+    },
+    {
+      "id": "study-1co-3-16-word-4",
+      "verseId": "1CO.3.16",
+      "start": 56,
+      "end": 66,
+      "surface": "yaşadığını",
+      "lemma": "yaşamak",
+      "meaning": {
+        "en": "that he lives (object)",
+        "ko": "그분이 사심을"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yaşa",
+          "meaning": {
+            "en": "live",
+            "ko": "살다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "dığ",
+          "meaning": {
+            "en": "nominalizing/participial -DIK",
+            "ko": "명사화·관계형 -DIK"
+          },
+          "function": "DIK"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-dık → -dığ before a vowel",
+          "ko": "모음 앞에서 -dık가 -dığ로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "-DIK nominal/participial",
+        "possessive": "3",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Nominalized object clause",
+        "ko": "명사절 목적어"
+      },
+      "contextualExplanation": {
+        "en": "The Spirit is the subject, not the plural listeners.",
+        "ko": "주어는 복수 청자가 아니라 성령입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "live",
+        "ko": "살다"
+      }
+    },
+    {
+      "id": "study-1co-3-16-word-5",
+      "verseId": "1CO.3.16",
+      "start": 67,
+      "end": 75,
+      "surface": "bilmiyor",
+      "lemma": "bilmek",
+      "meaning": {
+        "en": "does not know",
+        "ko": "알지 않는다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "bil",
+          "meaning": {
+            "en": "know",
+            "ko": "알다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "mi",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "yor",
+          "meaning": {
+            "en": "present continuous",
+            "ko": "현재 진행"
+          },
+          "function": "PROG"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "tenseAspect": "present continuous"
+      },
+      "role": {
+        "en": "Negative verb before a question particle",
+        "ko": "의문 조사 앞의 부정 동사"
+      },
+      "contextualExplanation": {
+        "en": "The person ending is on the following question word musunuz rather than this verb.",
+        "ko": "인칭 어미는 이 동사가 아니라 뒤 의문어 musunuz에 있습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "know",
+        "ko": "알다"
+      }
+    },
+    {
+      "id": "study-1co-3-16-word-6",
+      "verseId": "1CO.3.16",
+      "start": 76,
+      "end": 83,
+      "surface": "musunuz",
+      "lemma": "mi",
+      "meaning": {
+        "en": "do you?",
+        "ko": "~나요 여러분"
+      },
+      "partOfSpeech": {
+        "en": "Question particle",
+        "ko": "의문 조사"
+      },
+      "segments": [
+        {
+          "form": "mu",
+          "meaning": {
+            "en": "do you?",
+            "ko": "~나요 여러분"
+          },
+          "function": "QUESTION"
+        },
+        {
+          "form": "sunuz",
+          "meaning": {
+            "en": "second-person plural / polite address",
+            "ko": "2인칭 복수·공손한 청자"
+          },
+          "function": "PERSON2P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "person": "2pl/polite"
+      },
+      "role": {
+        "en": "Plural question expression",
+        "ko": "복수 의문 표현"
+      },
+      "contextualExplanation": {
+        "en": "The question particle is written separately and follows vowel harmony.",
+        "ko": "의문 조사는 띄어 쓰며 모음 조화를 따릅니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "question particle",
+        "ko": "의문 조사"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-1co-3-16-word-1-vocab",
+      "analysisId": "study-1co-3-16-word-1",
+      "lemma": "tapınak",
+      "classification": "biblical",
+      "definitions": {
+        "en": "temple",
+        "ko": "성전"
+      },
+      "usageNotes": {
+        "en": "Tanrı’nın identifies the possessor; the k softens before the vowel.",
+        "ko": "Tanrı’nın이 소유자이고 모음 앞에서 k가 ğ로 변합니다."
+      }
+    },
+    {
+      "id": "study-1co-3-16-word-2-vocab",
+      "analysisId": "study-1co-3-16-word-2",
+      "lemma": "olmak",
+      "classification": "general",
+      "definitions": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      },
+      "usageNotes": {
+        "en": "The embedded subject is you; final accusative marks the whole clause as what is known.",
+        "ko": "내포 주어는 여러분이고 마지막 대격이 전체 절을 아는 대상으로 표시합니다."
+      }
+    },
+    {
+      "id": "study-1co-3-16-word-3-vocab",
+      "analysisId": "study-1co-3-16-word-3",
+      "lemma": "ruh",
+      "classification": "biblical",
+      "definitions": {
+        "en": "spirit",
+        "ko": "영"
+      },
+      "usageNotes": {
+        "en": "Tanrı’nın Ruhu is already possessed; the extra genitive marks that Spirit as the subject of yaşadığını.",
+        "ko": "Tanrı’nın Ruhu는 이미 소유 구문이고 추가 속격이 yaşadığını의 주어를 표시합니다."
+      }
+    },
+    {
+      "id": "study-1co-3-16-word-4-vocab",
+      "analysisId": "study-1co-3-16-word-4",
+      "lemma": "yaşamak",
+      "classification": "general",
+      "definitions": {
+        "en": "live",
+        "ko": "살다"
+      },
+      "usageNotes": {
+        "en": "The Spirit is the subject, not the plural listeners.",
+        "ko": "주어는 복수 청자가 아니라 성령입니다."
+      }
+    },
+    {
+      "id": "study-1co-3-16-word-5-vocab",
+      "analysisId": "study-1co-3-16-word-5",
+      "lemma": "bilmek",
+      "classification": "general",
+      "definitions": {
+        "en": "know",
+        "ko": "알다"
+      },
+      "usageNotes": {
+        "en": "The person ending is on the following question word musunuz rather than this verb.",
+        "ko": "인칭 어미는 이 동사가 아니라 뒤 의문어 musunuz에 있습니다."
+      }
+    },
+    {
+      "id": "study-1co-3-16-word-6-vocab",
+      "analysisId": "study-1co-3-16-word-6",
+      "lemma": "mi",
+      "classification": "general",
+      "definitions": {
+        "en": "question particle",
+        "ko": "의문 조사"
+      },
+      "usageNotes": {
+        "en": "The question particle is written separately and follows vowel harmony.",
+        "ko": "의문 조사는 띄어 쓰며 모음 조화를 따릅니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-1co-3-16-grammar-1",
+      "title": {
+        "en": "Nested genitives",
+        "ko": "중첩 속격"
+      },
+      "explanation": {
+        "en": "Tanrı’nın Ruhu’nun contains possession plus the genitive needed by an embedded subject. Do not discard the second relationship as redundant.",
+        "ko": "Tanrı’nın Ruhu’nun에는 소유 관계와 내포절 주어의 속격이 있습니다. 뒤 관계를 불필요하다고 버리지 마세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "1CO.3.16",
+          "start": 0,
+          "end": 84
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-1co-3-16-grammar-2",
+      "title": {
+        "en": "Rhetorical negative questions",
+        "ko": "수사적 부정 의문"
+      },
+      "explanation": {
+        "en": "Bilmiyor musunuz asks whether the listeners know, with an expectation of acknowledgment. Its negative form is not a claim that they definitely know nothing.",
+        "ko": "bilmiyor musunuz는 청자의 인정을 기대하는 질문입니다. 부정 형태라고 청자가 아무것도 모른다는 확정 진술은 아닙니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "1CO.3.16",
+          "start": 0,
+          "end": 84
+        }
+      ],
+      "relatedLessonIds": [
+        "foundation-church"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Ask a gentle factual question with “… bilmiyor musunuz?” or a less pointed “Biliyor musunuz?” and identify an embedded clause.",
+    "ko": "“… bilmiyor musunuz?” 또는 더 부드러운 “Biliyor musunuz?”로 사실을 물어보고 내포절을 찾으세요."
+  },
+  "modelResponse": {
+    "tr": "Toplantının nerede olduğunu biliyor musunuz?",
+    "meaning": {
+      "en": "Do you know where the meeting is?",
+      "ko": "모임이 어디인지 아세요?"
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "foundation-church"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-1co-3-16-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to 1 Corinthians 3:16? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 고린도전서 3:16인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-1co-3-16",
+          "passageId": "study-1co-3-16",
+          "explanation": {
+            "en": "This is the passage. Do you not know that you are God’s temple and that God’s Spirit lives in you? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 여러분이 하나님의 성전이며 하나님의 영이 여러분 안에 사신다는 것을 모르나요? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-2-12",
+          "passageId": "study-1co-2-12",
+          "explanation": {
+            "en": "This is a different passage. We received the Spirit who comes from God rather than this world’s spirit, so that we may know what God has graciously given us. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 우리는 이 세상의 영이 아니라 하나님께로부터 온 영을 받았습니다. 하나님이 우리에게 은혜로 주신 것을 알기 위해서입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-2-18",
+          "passageId": "study-heb-2-18",
+          "explanation": {
+            "en": "This is a different passage. Because he himself suffered through being tested, he can help those who are tested. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 그분 자신이 시험받아 고난을 겪으셨기 때문에 시험받는 사람들을 도울 수 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-5-7",
+          "passageId": "study-1pe-5-7",
+          "explanation": {
+            "en": "This is a different passage. Place all your anxieties on him, because he cares for you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 모든 염려를 그분께 맡기세요. 그분이 여러분을 돌보시기 때문입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-1co-3-16"
+      ],
+      "explanations": {
+        "en": "This is the passage. Do you not know that you are God’s temple and that God’s Spirit lives in you? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 여러분이 하나님의 성전이며 하나님의 영이 여러분 안에 사신다는 것을 모르나요? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-1co-3-16-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-1co-3-16",
+          "referenceId": "study-1co-3-16",
+          "explanation": {
+            "en": "This is the passage. Do you not know that you are God’s temple and that God’s Spirit lives in you? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 여러분이 하나님의 성전이며 하나님의 영이 여러분 안에 사신다는 것을 모르나요? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-2-12",
+          "referenceId": "study-1co-2-12",
+          "explanation": {
+            "en": "This is a different passage. We received the Spirit who comes from God rather than this world’s spirit, so that we may know what God has graciously given us. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 우리는 이 세상의 영이 아니라 하나님께로부터 온 영을 받았습니다. 하나님이 우리에게 은혜로 주신 것을 알기 위해서입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-2-18",
+          "referenceId": "study-heb-2-18",
+          "explanation": {
+            "en": "This is a different passage. Because he himself suffered through being tested, he can help those who are tested. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 그분 자신이 시험받아 고난을 겪으셨기 때문에 시험받는 사람들을 도울 수 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-5-7",
+          "referenceId": "study-1pe-5-7",
+          "explanation": {
+            "en": "This is a different passage. Place all your anxieties on him, because he cares for you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 모든 염려를 그분께 맡기세요. 그분이 여러분을 돌보시기 때문입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-1co-3-16"
+      ],
+      "explanations": {
+        "en": "This is the passage. Do you not know that you are God’s temple and that God’s Spirit lives in you? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 여러분이 하나님의 성전이며 하나님의 영이 여러분 안에 사신다는 것을 모르나요? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-1co-3-16-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “tapınak” in this passage?",
+        "ko": "이 본문에서 “tapınak”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-1co-3-16-word-1-vocab",
+          "label": {
+            "en": "temple",
+            "ko": "성전"
+          },
+          "explanation": {
+            "en": "temple. Tanrı’nın identifies the possessor; the k softens before the vowel.",
+            "ko": "성전. Tanrı’nın이 소유자이고 모음 앞에서 k가 ğ로 변합니다."
+          }
+        },
+        {
+          "id": "study-1co-3-16-word-2-vocab",
+          "label": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "explanation": {
+            "en": "That definition belongs to olmak. tapınak means temple here. Tanrı’nın identifies the possessor; the k softens before the vowel.",
+            "ko": "그 뜻은 olmak입니다. 여기 tapınak는 성전입니다. Tanrı’nın이 소유자이고 모음 앞에서 k가 ğ로 변합니다."
+          }
+        },
+        {
+          "id": "study-1co-3-16-word-3-vocab",
+          "label": {
+            "en": "spirit",
+            "ko": "영"
+          },
+          "explanation": {
+            "en": "That definition belongs to ruh. tapınak means temple here. Tanrı’nın identifies the possessor; the k softens before the vowel.",
+            "ko": "그 뜻은 ruh입니다. 여기 tapınak는 성전입니다. Tanrı’nın이 소유자이고 모음 앞에서 k가 ğ로 변합니다."
+          }
+        },
+        {
+          "id": "study-1co-3-16-word-4-vocab",
+          "label": {
+            "en": "live",
+            "ko": "살다"
+          },
+          "explanation": {
+            "en": "That definition belongs to yaşamak. tapınak means temple here. Tanrı’nın identifies the possessor; the k softens before the vowel.",
+            "ko": "그 뜻은 yaşamak입니다. 여기 tapınak는 성전입니다. Tanrı’nın이 소유자이고 모음 앞에서 k가 ğ로 변합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-1co-3-16-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Tanrı’nın identifies the possessor; the k softens before the vowel.",
+        "ko": "Tanrı’nın이 소유자이고 모음 앞에서 k가 ğ로 변합니다."
+      }
+    },
+    {
+      "id": "study-1co-3-16-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “olduğunuzu”, what is the function of “-u” here?",
+        "ko": "“olduğunuzu”에서 “-u”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "Nominalized clause object. The embedded subject is you; final accusative marks the whole clause as what is known.",
+            "ko": "명사절 목적어. 내포 주어는 여러분이고 마지막 대격이 전체 절을 아는 대상으로 표시합니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Nominalized clause object. The embedded subject is you; final accusative marks the whole clause as what is known.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 명사절 목적어. 내포 주어는 여러분이고 마지막 대격이 전체 절을 아는 대상으로 표시합니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Nominalized clause object. The embedded subject is you; final accusative marks the whole clause as what is known.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 명사절 목적어. 내포 주어는 여러분이고 마지막 대격이 전체 절을 아는 대상으로 표시합니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Nominalized clause object. The embedded subject is you; final accusative marks the whole clause as what is known.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 명사절 목적어. 내포 주어는 여러분이고 마지막 대격이 전체 절을 아는 대상으로 표시합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ACC"
+      ],
+      "explanations": {
+        "en": "The embedded subject is you; final accusative marks the whole clause as what is known.",
+        "ko": "내포 주어는 여러분이고 마지막 대격이 전체 절을 아는 대상으로 표시합니다."
+      }
+    }
+  ]
+}

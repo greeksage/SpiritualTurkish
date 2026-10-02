@@ -1,0 +1,686 @@
+{
+  "id": "study-eph-5-3",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Ephesians 5:3 through its clause structure and the forms Aranızda / açgözlülük.",
+    "ko": "에베소서 5:3의 절 구조와 Aranızda / açgözlülük 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Sexual immorality, impurity, or greed should not even be mentioned among you; such things do not suit holy people.",
+    "ko": "여러분 사이에서 성적 부도덕·불결함·탐욕이 언급조차 되지 않게 하세요. 거룩한 이들에게 어울리지 않습니다."
+  },
+  "clauses": [
+    {
+      "id": "study-eph-5-3-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "EPH.5.3",
+          "start": 0,
+          "end": 84
+        }
+      ],
+      "naturalMeaning": {
+        "en": "A negative passive command is followed by an inverted explanation of fitting conduct.",
+        "ko": "부정 피동 명령 뒤에 적합한 행동에 관한 도치 설명이 옵니다."
+      },
+      "literalGloss": {
+        "en": "among-you immorality impurity or greed let-not-be-mentioned even / holy-ones-to not-befits this",
+        "ko": "여러분 사이에서 부도덕·불결·탐욕이 언급되지 않게조차 / 거룩한 이들에게 맞지 않는다 이것은"
+      },
+      "explanation": {
+        "en": "Anılmasın is passive, negative, third-person imperative. Bile adds even. Kutsallara is dative after yaraşmak; bu comes after the predicate for emphasis. Do not treat the sentence as a prohibition on reporting harm or asking for help.",
+        "ko": "anılmasın은 피동·부정·3인칭 명령이고 bile는 조차입니다. kutsallara는 yaraşmak의 여격이고 bu는 강조로 술어 뒤에 옵니다. 피해 신고·도움 요청을 금지하는 말로 취급하지 마세요."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-eph-5-3-word-1",
+      "verseId": "EPH.5.3",
+      "start": 0,
+      "end": 8,
+      "surface": "Aranızda",
+      "lemma": "ara",
+      "meaning": {
+        "en": "among you",
+        "ko": "여러분 사이에"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "Ara",
+          "meaning": {
+            "en": "space / interval / between",
+            "ko": "사이·간격"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "nız",
+          "meaning": {
+            "en": "second-person plural possessive",
+            "ko": "2인칭 복수 소유"
+          },
+          "function": "P2P"
+        },
+        {
+          "form": "da",
+          "meaning": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "function": "LOC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "2pl/polite",
+        "case": "locative"
+      },
+      "role": {
+        "en": "Possessed location",
+        "ko": "소유 위치"
+      },
+      "contextualExplanation": {
+        "en": "The noun ara takes your plural possession before the locative.",
+        "ko": "ara에 복수 청자 소유가 붙은 뒤 처소격이 옵니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "space / interval / between",
+        "ko": "사이·간격"
+      }
+    },
+    {
+      "id": "study-eph-5-3-word-2",
+      "verseId": "EPH.5.3",
+      "start": 34,
+      "end": 44,
+      "surface": "açgözlülük",
+      "lemma": "açgözlülük",
+      "meaning": {
+        "en": "greed",
+        "ko": "탐욕"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "açgözlülük",
+          "meaning": {
+            "en": "greed",
+            "ko": "탐욕"
+          },
+          "function": "ROOT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {},
+      "role": {
+        "en": "Abstract coordinated subject",
+        "ko": "추상 나열 주어"
+      },
+      "contextualExplanation": {
+        "en": "The established compound describes greed, not physical open eyes.",
+        "ko": "정착된 복합어는 탐욕이며 실제 눈을 뜸이 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "greed",
+        "ko": "탐욕"
+      }
+    },
+    {
+      "id": "study-eph-5-3-word-3",
+      "verseId": "EPH.5.3",
+      "start": 45,
+      "end": 54,
+      "surface": "anılmasın",
+      "lemma": "anmak",
+      "meaning": {
+        "en": "let it not be mentioned",
+        "ko": "언급되지 않게 하라"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "an",
+          "meaning": {
+            "en": "mention / remember",
+            "ko": "언급하다·기억하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ıl",
+          "meaning": {
+            "en": "passive",
+            "ko": "피동"
+          },
+          "function": "PASS"
+        },
+        {
+          "form": "ma",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "sın",
+          "meaning": {
+            "en": "third-person imperative: let …",
+            "ko": "3인칭 명령: ~하게 하라"
+          },
+          "function": "IMP3"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "voice": "passive",
+        "polarity": "negative",
+        "mood": "third-person imperative"
+      },
+      "role": {
+        "en": "Negative passive command",
+        "ko": "부정 피동 명령"
+      },
+      "contextualExplanation": {
+        "en": "Compare anmak, mention, with anılmak, be mentioned.",
+        "ko": "언급하다 anmak과 언급되다 anılmak을 비교하세요."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "mention / remember",
+        "ko": "언급하다·기억하다"
+      }
+    },
+    {
+      "id": "study-eph-5-3-word-4",
+      "verseId": "EPH.5.3",
+      "start": 61,
+      "end": 71,
+      "surface": "Kutsallara",
+      "lemma": "kutsal",
+      "meaning": {
+        "en": "to holy people / saints",
+        "ko": "거룩한 이들에게"
+      },
+      "partOfSpeech": {
+        "en": "Adjective (may be used as a noun)",
+        "ko": "형용사 (명사로도 사용)"
+      },
+      "segments": [
+        {
+          "form": "Kutsal",
+          "meaning": {
+            "en": "holy / sacred",
+            "ko": "거룩한"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "lar",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "a",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "number": "plural",
+        "case": "dative"
+      },
+      "role": {
+        "en": "Substantivized adjective in dative",
+        "ko": "명사화 형용사의 여격"
+      },
+      "contextualExplanation": {
+        "en": "Kutsal normally is an adjective; plural and case let it stand for people.",
+        "ko": "kutsal은 보통 형용사이고 복수·격이 사람을 대신하게 합니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "holy / sacred",
+        "ko": "거룩한"
+      }
+    },
+    {
+      "id": "study-eph-5-3-word-5",
+      "verseId": "EPH.5.3",
+      "start": 72,
+      "end": 80,
+      "surface": "yaraşmaz",
+      "lemma": "yaraşmak",
+      "meaning": {
+        "en": "does not befit",
+        "ko": "어울리지 않는다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yaraş",
+          "meaning": {
+            "en": "befit / suit",
+            "ko": "어울리다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "maz",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "tenseAspect": "negative aorist"
+      },
+      "role": {
+        "en": "Negative aorist predicate",
+        "ko": "부정 일반 현재 술어"
+      },
+      "contextualExplanation": {
+        "en": "-maz is the third-person negative aorist, not a negative command.",
+        "ko": "-maz는 3인칭 부정 일반 현재이며 부정 명령이 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "befit / suit",
+        "ko": "어울리다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-eph-5-3-word-1-vocab",
+      "analysisId": "study-eph-5-3-word-1",
+      "lemma": "ara",
+      "classification": "general",
+      "definitions": {
+        "en": "space / interval / between",
+        "ko": "사이·간격"
+      },
+      "usageNotes": {
+        "en": "The noun ara takes your plural possession before the locative.",
+        "ko": "ara에 복수 청자 소유가 붙은 뒤 처소격이 옵니다."
+      }
+    },
+    {
+      "id": "study-eph-5-3-word-2-vocab",
+      "analysisId": "study-eph-5-3-word-2",
+      "lemma": "açgözlülük",
+      "classification": "general",
+      "definitions": {
+        "en": "greed",
+        "ko": "탐욕"
+      },
+      "usageNotes": {
+        "en": "The established compound describes greed, not physical open eyes.",
+        "ko": "정착된 복합어는 탐욕이며 실제 눈을 뜸이 아닙니다."
+      }
+    },
+    {
+      "id": "study-eph-5-3-word-3-vocab",
+      "analysisId": "study-eph-5-3-word-3",
+      "lemma": "anmak",
+      "classification": "general",
+      "definitions": {
+        "en": "mention / remember",
+        "ko": "언급하다·기억하다"
+      },
+      "usageNotes": {
+        "en": "Compare anmak, mention, with anılmak, be mentioned.",
+        "ko": "언급하다 anmak과 언급되다 anılmak을 비교하세요."
+      }
+    },
+    {
+      "id": "study-eph-5-3-word-4-vocab",
+      "analysisId": "study-eph-5-3-word-4",
+      "lemma": "kutsal",
+      "classification": "biblical",
+      "definitions": {
+        "en": "holy / sacred",
+        "ko": "거룩한"
+      },
+      "usageNotes": {
+        "en": "Kutsal normally is an adjective; plural and case let it stand for people.",
+        "ko": "kutsal은 보통 형용사이고 복수·격이 사람을 대신하게 합니다."
+      }
+    },
+    {
+      "id": "study-eph-5-3-word-5-vocab",
+      "analysisId": "study-eph-5-3-word-5",
+      "lemma": "yaraşmak",
+      "classification": "general",
+      "definitions": {
+        "en": "befit / suit",
+        "ko": "어울리다"
+      },
+      "usageNotes": {
+        "en": "-maz is the third-person negative aorist, not a negative command.",
+        "ko": "-maz는 3인칭 부정 일반 현재이며 부정 명령이 아닙니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-eph-5-3-grammar-1",
+      "title": {
+        "en": "Three layers in anılmasın",
+        "ko": "anılmasın의 세 층"
+      },
+      "explanation": {
+        "en": "An-ıl-ma-sın: voice changes first, then negation, then command mood. Avoid reading -ma here as a verbal noun.",
+        "ko": "an-ıl-ma-sın은 먼저 태가 변하고 부정·명령법이 이어집니다. 여기 -ma를 동사 명사형으로 읽지 마세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "EPH.5.3",
+          "start": 0,
+          "end": 84
+        }
+      ],
+      "relatedLessonIds": [
+        "foundation-voice"
+      ]
+    },
+    {
+      "id": "study-eph-5-3-grammar-2",
+      "title": {
+        "en": "Inverted nominal subject",
+        "ko": "뒤로 간 명사 주어"
+      },
+      "explanation": {
+        "en": "Kutsallara yaraşmaz bu has bu after the verb. Natural English/Korean usually move “this” earlier, while the literal gloss preserves Turkish order.",
+        "ko": "Kutsallara yaraşmaz bu는 bu가 동사 뒤에 있습니다. 자연 영어·한국어는 보통 이것을 앞에 옮기지만 직역은 터키어 순서를 보존합니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "EPH.5.3",
+          "start": 0,
+          "end": 84
+        }
+      ],
+      "relatedLessonIds": []
+    }
+  ],
+  "independentTask": {
+    "en": "Compare a passive negative command with a negative aorist using a neutral everyday example.",
+    "ko": "일상 중립 예로 피동 부정 명령과 부정 일반 현재를 비교하세요."
+  },
+  "modelResponse": {
+    "tr": "Bu bilgi paylaşılmasın. Bu davranış bize yaraşmaz.",
+    "meaning": {
+      "en": "Let this information not be shared. This behavior does not suit us.",
+      "ko": "이 정보는 공유되지 않게 합시다. 이 행동은 우리에게 어울리지 않습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "foundation-voice"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-eph-5-3-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Ephesians 5:3? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 에베소서 5:3인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-eph-5-3",
+          "passageId": "study-eph-5-3",
+          "explanation": {
+            "en": "This is the passage. Sexual immorality, impurity, or greed should not even be mentioned among you; such things do not suit holy people. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 여러분 사이에서 성적 부도덕·불결함·탐욕이 언급조차 되지 않게 하세요. 거룩한 이들에게 어울리지 않습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-2-11",
+          "passageId": "study-1pe-2-11",
+          "explanation": {
+            "en": "This is a different passage. Dear friends, as foreigners and guests in this world, avoid the desires of the self that wage war against the soul. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사랑하는 여러분, 이 세상에서 외국인·나그네인 여러분에게 영혼을 거슬러 싸우는 본성의 욕망을 피하라고 부탁합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1jn-3-18",
+          "passageId": "study-1jn-3-18",
+          "explanation": {
+            "en": "This is a different passage. Dear children, let us love through action and sincerity rather than only words and speech. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사랑하는 자녀들아, 말과 혀만이 아니라 행동과 진실함으로 사랑합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-5-16",
+          "passageId": "study-mat-5-16",
+          "explanation": {
+            "en": "This is a different passage. Let your light shine before people so that, seeing your good deeds, they may glorify your Father in heaven. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사람들 앞에서 여러분의 빛이 비치게 하여 그들이 선한 일을 보고 하늘의 아버지를 높이게 하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-eph-5-3"
+      ],
+      "explanations": {
+        "en": "This is the passage. Sexual immorality, impurity, or greed should not even be mentioned among you; such things do not suit holy people. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 여러분 사이에서 성적 부도덕·불결함·탐욕이 언급조차 되지 않게 하세요. 거룩한 이들에게 어울리지 않습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-eph-5-3-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-eph-5-3",
+          "referenceId": "study-eph-5-3",
+          "explanation": {
+            "en": "This is the passage. Sexual immorality, impurity, or greed should not even be mentioned among you; such things do not suit holy people. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 여러분 사이에서 성적 부도덕·불결함·탐욕이 언급조차 되지 않게 하세요. 거룩한 이들에게 어울리지 않습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-2-11",
+          "referenceId": "study-1pe-2-11",
+          "explanation": {
+            "en": "This is a different passage. Dear friends, as foreigners and guests in this world, avoid the desires of the self that wage war against the soul. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사랑하는 여러분, 이 세상에서 외국인·나그네인 여러분에게 영혼을 거슬러 싸우는 본성의 욕망을 피하라고 부탁합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1jn-3-18",
+          "referenceId": "study-1jn-3-18",
+          "explanation": {
+            "en": "This is a different passage. Dear children, let us love through action and sincerity rather than only words and speech. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사랑하는 자녀들아, 말과 혀만이 아니라 행동과 진실함으로 사랑합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-5-16",
+          "referenceId": "study-mat-5-16",
+          "explanation": {
+            "en": "This is a different passage. Let your light shine before people so that, seeing your good deeds, they may glorify your Father in heaven. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사람들 앞에서 여러분의 빛이 비치게 하여 그들이 선한 일을 보고 하늘의 아버지를 높이게 하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-eph-5-3"
+      ],
+      "explanations": {
+        "en": "This is the passage. Sexual immorality, impurity, or greed should not even be mentioned among you; such things do not suit holy people. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 여러분 사이에서 성적 부도덕·불결함·탐욕이 언급조차 되지 않게 하세요. 거룩한 이들에게 어울리지 않습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-eph-5-3-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “kutsal” in this passage?",
+        "ko": "이 본문에서 “kutsal”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-eph-5-3-word-4-vocab",
+          "label": {
+            "en": "holy / sacred",
+            "ko": "거룩한"
+          },
+          "explanation": {
+            "en": "holy / sacred. Kutsal normally is an adjective; plural and case let it stand for people.",
+            "ko": "거룩한. kutsal은 보통 형용사이고 복수·격이 사람을 대신하게 합니다."
+          }
+        },
+        {
+          "id": "study-eph-5-3-word-1-vocab",
+          "label": {
+            "en": "space / interval / between",
+            "ko": "사이·간격"
+          },
+          "explanation": {
+            "en": "That definition belongs to ara. kutsal means holy / sacred here. Kutsal normally is an adjective; plural and case let it stand for people.",
+            "ko": "그 뜻은 ara입니다. 여기 kutsal는 거룩한입니다. kutsal은 보통 형용사이고 복수·격이 사람을 대신하게 합니다."
+          }
+        },
+        {
+          "id": "study-eph-5-3-word-2-vocab",
+          "label": {
+            "en": "greed",
+            "ko": "탐욕"
+          },
+          "explanation": {
+            "en": "That definition belongs to açgözlülük. kutsal means holy / sacred here. Kutsal normally is an adjective; plural and case let it stand for people.",
+            "ko": "그 뜻은 açgözlülük입니다. 여기 kutsal는 거룩한입니다. kutsal은 보통 형용사이고 복수·격이 사람을 대신하게 합니다."
+          }
+        },
+        {
+          "id": "study-eph-5-3-word-3-vocab",
+          "label": {
+            "en": "mention / remember",
+            "ko": "언급하다·기억하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to anmak. kutsal means holy / sacred here. Kutsal normally is an adjective; plural and case let it stand for people.",
+            "ko": "그 뜻은 anmak입니다. 여기 kutsal는 거룩한입니다. kutsal은 보통 형용사이고 복수·격이 사람을 대신하게 합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-eph-5-3-word-4-vocab"
+      ],
+      "explanations": {
+        "en": "Kutsal normally is an adjective; plural and case let it stand for people.",
+        "ko": "kutsal은 보통 형용사이고 복수·격이 사람을 대신하게 합니다."
+      }
+    },
+    {
+      "id": "study-eph-5-3-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “Aranızda”, what is the function of “-da” here?",
+        "ko": "“Aranızda”에서 “-da”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "Possessed location. The noun ara takes your plural possession before the locative.",
+            "ko": "소유 위치. ara에 복수 청자 소유가 붙은 뒤 처소격이 옵니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed location. The noun ara takes your plural possession before the locative.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 위치. ara에 복수 청자 소유가 붙은 뒤 처소격이 옵니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed location. The noun ara takes your plural possession before the locative.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 위치. ara에 복수 청자 소유가 붙은 뒤 처소격이 옵니다."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed location. The noun ara takes your plural possession before the locative.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 위치. ara에 복수 청자 소유가 붙은 뒤 처소격이 옵니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "LOC"
+      ],
+      "explanations": {
+        "en": "The noun ara takes your plural possession before the locative.",
+        "ko": "ara에 복수 청자 소유가 붙은 뒤 처소격이 옵니다."
+      }
+    }
+  ]
+}

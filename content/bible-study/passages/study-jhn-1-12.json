@@ -1,0 +1,779 @@
+{
+  "id": "study-jhn-1-12",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand John 1:12 through its clause structure and the forms kabul / edip.",
+    "ko": "요한복음 1:12의 절 구조와 kabul / edip 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "He gave everyone who received him and believed in his name the right to become God’s children.",
+    "ko": "그분을 받아들이고 그 이름을 믿는 모든 사람에게 하나님의 자녀가 될 권리를 주셨습니다."
+  },
+  "clauses": [
+    {
+      "id": "study-jhn-1-12-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "JHN.1.12",
+          "start": 0,
+          "end": 89
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Those who receive and trust him are given the right to become God’s children.",
+        "ko": "그분을 받아들이고 믿는 사람들에게 하나님의 자녀가 될 권리가 주어집니다."
+      },
+      "literalGloss": {
+        "en": "self-object receiving-and / his name-to believing people’s all-to / God’s children becoming right-object / gave",
+        "ko": "그분을 받아들이고 / 그 이름을 믿는 사람들 모두에게 / 하나님 자녀 되기 권리를 / 주었다"
+      },
+      "explanation": {
+        "en": "The recipient phrase ends in hepsine. Kabul edip and iman eden share that group as subject; kendisini is the received person. Olma modifies hakkını as the content of the right.",
+        "ko": "받는 사람 구는 hepsine에서 끝납니다. kabul edip·iman eden의 주체는 같은 집단이고 kendisini는 받아들이는 대상입니다. olma는 hakkını의 내용인 ~될 권리입니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-jhn-1-12-word-1",
+      "verseId": "JHN.1.12",
+      "start": 10,
+      "end": 15,
+      "surface": "kabul",
+      "lemma": "kabul",
+      "meaning": {
+        "en": "acceptance",
+        "ko": "받아들임"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "kabul",
+          "meaning": {
+            "en": "acceptance",
+            "ko": "받아들임"
+          },
+          "function": "ROOT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {},
+      "role": {
+        "en": "Noun in kabul etmek",
+        "ko": "kabul etmek의 명사"
+      },
+      "contextualExplanation": {
+        "en": "Use the compound kabul etmek for receive/accept; the noun alone does not carry the action’s tense.",
+        "ko": "받아들이다는 kabul etmek을 쓰며 명사만으로 시제를 나타내지 않습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "acceptance",
+        "ko": "받아들임"
+      }
+    },
+    {
+      "id": "study-jhn-1-12-word-2",
+      "verseId": "JHN.1.12",
+      "start": 16,
+      "end": 20,
+      "surface": "edip",
+      "lemma": "etmek",
+      "meaning": {
+        "en": "having accepted / and accepting",
+        "ko": "받아들이고"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ed",
+          "meaning": {
+            "en": "do / make (auxiliary)",
+            "ko": "하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ip",
+          "meaning": {
+            "en": "linked action converb -Ip",
+            "ko": "행위를 잇는 연결형 -Ip"
+          },
+          "function": "IP"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "et- → ed- before -ip",
+          "ko": "-ip 앞에서 et-가 ed-로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {},
+      "role": {
+        "en": "Linked converb in kabul edip",
+        "ko": "kabul edip의 연결형"
+      },
+      "contextualExplanation": {
+        "en": "Et- changes to ed- before -ip, linking acceptance with belief.",
+        "ko": "-ip 앞에서 et-가 ed-로 변하며 영접과 믿음을 잇습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "do / make (auxiliary)",
+        "ko": "하다"
+      }
+    },
+    {
+      "id": "study-jhn-1-12-word-3",
+      "verseId": "JHN.1.12",
+      "start": 32,
+      "end": 41,
+      "surface": "edenlerin",
+      "lemma": "etmek",
+      "meaning": {
+        "en": "of the people who do / believe",
+        "ko": "믿는 사람들의"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ed",
+          "meaning": {
+            "en": "do / make (auxiliary)",
+            "ko": "하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "en",
+          "meaning": {
+            "en": "subject participle -An",
+            "ko": "주어 관계형 -An"
+          },
+          "function": "PART"
+        },
+        {
+          "form": "ler",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "in",
+          "meaning": {
+            "en": "genitive: possessor / dependent subject",
+            "ko": "속격: 소유자·내포절 주어"
+          },
+          "function": "GEN"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "et- → ed- before -en",
+          "ko": "-en 앞에서 et-가 ed-로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "subject participle",
+        "number": "plural",
+        "case": "genitive"
+      },
+      "role": {
+        "en": "Nominal participle in recipient phrase",
+        "ko": "받는 사람 구의 명사적 관계형"
+      },
+      "contextualExplanation": {
+        "en": "İman edenlerin pairs with hepsine: “to all of those who believe.”",
+        "ko": "iman edenlerin이 hepsine과 호응해 믿는 사람 모두에게가 됩니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "do / make (auxiliary)",
+        "ko": "하다"
+      }
+    },
+    {
+      "id": "study-jhn-1-12-word-4",
+      "verseId": "JHN.1.12",
+      "start": 42,
+      "end": 49,
+      "surface": "hepsine",
+      "lemma": "hep",
+      "meaning": {
+        "en": "to all of them",
+        "ko": "그들 모두에게"
+      },
+      "partOfSpeech": {
+        "en": "Pronoun / pronominal expression",
+        "ko": "대명사·대명 표현"
+      },
+      "segments": [
+        {
+          "form": "hep",
+          "meaning": {
+            "en": "always / all along",
+            "ko": "항상"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "si",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "e",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "dative"
+      },
+      "role": {
+        "en": "Recipient of verdi",
+        "ko": "verdi의 여격 대상"
+      },
+      "contextualExplanation": {
+        "en": "This is dative, not the object being given.",
+        "ko": "주는 물건이라는 목적어가 아니라 받는 사람의 여격입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "always / all along",
+        "ko": "항상"
+      }
+    },
+    {
+      "id": "study-jhn-1-12-word-5",
+      "verseId": "JHN.1.12",
+      "start": 70,
+      "end": 74,
+      "surface": "olma",
+      "lemma": "olmak",
+      "meaning": {
+        "en": "becoming",
+        "ko": "되기"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ol",
+          "meaning": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ma",
+          "meaning": {
+            "en": "verbal noun",
+            "ko": "동사 명사형"
+          },
+          "function": "VN"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "verbal noun"
+      },
+      "role": {
+        "en": "Content of a right",
+        "ko": "권리의 내용"
+      },
+      "contextualExplanation": {
+        "en": "Olma is a verbal noun here, not the negative imperative “do not be.” Hakkı supplies the noun context.",
+        "ko": "여기서 olma는 명사형이며 ~이지 마라는 부정 명령이 아닙니다. hakkı가 명사 문맥을 줍니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      }
+    },
+    {
+      "id": "study-jhn-1-12-word-6",
+      "verseId": "JHN.1.12",
+      "start": 75,
+      "end": 82,
+      "surface": "hakkını",
+      "lemma": "hak",
+      "meaning": {
+        "en": "the right (object)",
+        "ko": "권리를"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "hakk",
+          "meaning": {
+            "en": "right / entitlement",
+            "ko": "권리"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "hak → hakk- before a vowel",
+          "ko": "모음 앞에서 hak가 hakk-로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Marked possessed object",
+        "ko": "표시된 소유 목적어"
+      },
+      "contextualExplanation": {
+        "en": "The first -ı is compound possession in olma hakkı; final -ı is the object ending. Hak doubles k before the vowel.",
+        "ko": "앞 -ı는 olma hakkı의 결합 소유이며 마지막 -ı는 대격입니다. hak는 모음 앞에서 k를 겹칩니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "right / entitlement",
+        "ko": "권리"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-jhn-1-12-word-1-vocab",
+      "analysisId": "study-jhn-1-12-word-1",
+      "lemma": "kabul",
+      "classification": "general",
+      "definitions": {
+        "en": "acceptance",
+        "ko": "받아들임"
+      },
+      "usageNotes": {
+        "en": "Use the compound kabul etmek for receive/accept; the noun alone does not carry the action’s tense.",
+        "ko": "받아들이다는 kabul etmek을 쓰며 명사만으로 시제를 나타내지 않습니다."
+      }
+    },
+    {
+      "id": "study-jhn-1-12-word-2-vocab",
+      "analysisId": "study-jhn-1-12-word-2",
+      "lemma": "etmek",
+      "classification": "general",
+      "definitions": {
+        "en": "do / make (auxiliary)",
+        "ko": "하다"
+      },
+      "usageNotes": {
+        "en": "Et- changes to ed- before -ip, linking acceptance with belief.",
+        "ko": "-ip 앞에서 et-가 ed-로 변하며 영접과 믿음을 잇습니다."
+      }
+    },
+    {
+      "id": "study-jhn-1-12-word-3-vocab",
+      "analysisId": "study-jhn-1-12-word-3",
+      "lemma": "etmek",
+      "classification": "general",
+      "definitions": {
+        "en": "do / make (auxiliary)",
+        "ko": "하다"
+      },
+      "usageNotes": {
+        "en": "İman edenlerin pairs with hepsine: “to all of those who believe.”",
+        "ko": "iman edenlerin이 hepsine과 호응해 믿는 사람 모두에게가 됩니다."
+      }
+    },
+    {
+      "id": "study-jhn-1-12-word-4-vocab",
+      "analysisId": "study-jhn-1-12-word-4",
+      "lemma": "hep",
+      "classification": "general",
+      "definitions": {
+        "en": "always / all along",
+        "ko": "항상"
+      },
+      "usageNotes": {
+        "en": "This is dative, not the object being given.",
+        "ko": "주는 물건이라는 목적어가 아니라 받는 사람의 여격입니다."
+      }
+    },
+    {
+      "id": "study-jhn-1-12-word-5-vocab",
+      "analysisId": "study-jhn-1-12-word-5",
+      "lemma": "olmak",
+      "classification": "general",
+      "definitions": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      },
+      "usageNotes": {
+        "en": "Olma is a verbal noun here, not the negative imperative “do not be.” Hakkı supplies the noun context.",
+        "ko": "여기서 olma는 명사형이며 ~이지 마라는 부정 명령이 아닙니다. hakkı가 명사 문맥을 줍니다."
+      }
+    },
+    {
+      "id": "study-jhn-1-12-word-6-vocab",
+      "analysisId": "study-jhn-1-12-word-6",
+      "lemma": "hak",
+      "classification": "general",
+      "definitions": {
+        "en": "right / entitlement",
+        "ko": "권리"
+      },
+      "usageNotes": {
+        "en": "The first -ı is compound possession in olma hakkı; final -ı is the object ending. Hak doubles k before the vowel.",
+        "ko": "앞 -ı는 olma hakkı의 결합 소유이며 마지막 -ı는 대격입니다. hak는 모음 앞에서 k를 겹칩니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-jhn-1-12-grammar-1",
+      "title": {
+        "en": "Recipients are not the gift",
+        "ko": "청자와 선물을 구별하기"
+      },
+      "explanation": {
+        "en": "Hepsine is dative recipient; hakkını is accusative gift/right given. The sentence’s giver is supplied from the surrounding narrative.",
+        "ko": "hepsine는 여격 청자이고 hakkını는 대격인 주어진 권리입니다. 주는 분은 앞뒤 서술 문맥에서 이해합니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "JHN.1.12",
+          "start": 0,
+          "end": 89
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-jhn-1-12-grammar-2",
+      "title": {
+        "en": "The content of a right",
+        "ko": "권리의 내용"
+      },
+      "explanation": {
+        "en": "… olma hakkı is “the right to become ….” The -ma verbal noun sits before the possessed noun hakkı.",
+        "ko": "… olma hakkı는 ~이 될 권리입니다. -ma 동사 명사형이 소유 명사 hakkı 앞에 놓입니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "JHN.1.12",
+          "start": 0,
+          "end": 89
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-08"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Write about an ordinary right using “…-ma hakkı,” without changing the quoted text.",
+    "ko": "인용을 바꾸지 않고 “…-ma hakkı”로 일상 권리를 말하세요."
+  },
+  "modelResponse": {
+    "tr": "Herkesin soru sorma hakkı vardır.",
+    "meaning": {
+      "en": "Everyone has the right to ask questions.",
+      "ko": "모든 사람에게 질문할 권리가 있습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "ministry-08"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-jhn-1-12-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to John 1:12? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 요한복음 1:12인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-jhn-1-12",
+          "passageId": "study-jhn-1-12",
+          "explanation": {
+            "en": "This is the passage. He gave everyone who received him and believed in his name the right to become God’s children. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 그분을 받아들이고 그 이름을 믿는 모든 사람에게 하나님의 자녀가 될 권리를 주셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-6-23",
+          "passageId": "study-rom-6-23",
+          "explanation": {
+            "en": "This is a different passage. The wage of sin is death; God’s gift, however, is eternal life in our Lord Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 죄의 삯은 죽음이지만 하나님의 선물은 우리 주 그리스도 예수 안의 영원한 생명입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-5-8",
+          "passageId": "study-rom-5-8",
+          "explanation": {
+            "en": "This is a different passage. God demonstrates his love for us in this: while we were still sinners, Christ died for us. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 하나님은 우리가 아직 죄인이었을 때 그리스도께서 우리를 위해 죽으셨다는 사실로 우리를 향한 사랑을 보여주십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1jn-5-13",
+          "passageId": "study-1jn-5-13",
+          "explanation": {
+            "en": "This is a different passage. I wrote these things to you who believe in the name of God’s Son so that you may know you have eternal life. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 하나님의 아들의 이름을 믿는 여러분이 영원한 생명을 가지고 있음을 알도록 이것을 썼습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-jhn-1-12"
+      ],
+      "explanations": {
+        "en": "This is the passage. He gave everyone who received him and believed in his name the right to become God’s children. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 그분을 받아들이고 그 이름을 믿는 모든 사람에게 하나님의 자녀가 될 권리를 주셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-jhn-1-12-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-jhn-1-12",
+          "referenceId": "study-jhn-1-12",
+          "explanation": {
+            "en": "This is the passage. He gave everyone who received him and believed in his name the right to become God’s children. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 그분을 받아들이고 그 이름을 믿는 모든 사람에게 하나님의 자녀가 될 권리를 주셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-6-23",
+          "referenceId": "study-rom-6-23",
+          "explanation": {
+            "en": "This is a different passage. The wage of sin is death; God’s gift, however, is eternal life in our Lord Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 죄의 삯은 죽음이지만 하나님의 선물은 우리 주 그리스도 예수 안의 영원한 생명입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-5-8",
+          "referenceId": "study-rom-5-8",
+          "explanation": {
+            "en": "This is a different passage. God demonstrates his love for us in this: while we were still sinners, Christ died for us. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 하나님은 우리가 아직 죄인이었을 때 그리스도께서 우리를 위해 죽으셨다는 사실로 우리를 향한 사랑을 보여주십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1jn-5-13",
+          "referenceId": "study-1jn-5-13",
+          "explanation": {
+            "en": "This is a different passage. I wrote these things to you who believe in the name of God’s Son so that you may know you have eternal life. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 하나님의 아들의 이름을 믿는 여러분이 영원한 생명을 가지고 있음을 알도록 이것을 썼습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-jhn-1-12"
+      ],
+      "explanations": {
+        "en": "This is the passage. He gave everyone who received him and believed in his name the right to become God’s children. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 그분을 받아들이고 그 이름을 믿는 모든 사람에게 하나님의 자녀가 될 권리를 주셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-jhn-1-12-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “kabul” in this passage?",
+        "ko": "이 본문에서 “kabul”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-jhn-1-12-word-1-vocab",
+          "label": {
+            "en": "acceptance",
+            "ko": "받아들임"
+          },
+          "explanation": {
+            "en": "acceptance. Use the compound kabul etmek for receive/accept; the noun alone does not carry the action’s tense.",
+            "ko": "받아들임. 받아들이다는 kabul etmek을 쓰며 명사만으로 시제를 나타내지 않습니다."
+          }
+        },
+        {
+          "id": "study-jhn-1-12-word-2-vocab",
+          "label": {
+            "en": "do / make (auxiliary)",
+            "ko": "하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to etmek. kabul means acceptance here. Use the compound kabul etmek for receive/accept; the noun alone does not carry the action’s tense.",
+            "ko": "그 뜻은 etmek입니다. 여기 kabul는 받아들임입니다. 받아들이다는 kabul etmek을 쓰며 명사만으로 시제를 나타내지 않습니다."
+          }
+        },
+        {
+          "id": "study-jhn-1-12-word-3-vocab",
+          "label": {
+            "en": "do / make (auxiliary)",
+            "ko": "하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to etmek. kabul means acceptance here. Use the compound kabul etmek for receive/accept; the noun alone does not carry the action’s tense.",
+            "ko": "그 뜻은 etmek입니다. 여기 kabul는 받아들임입니다. 받아들이다는 kabul etmek을 쓰며 명사만으로 시제를 나타내지 않습니다."
+          }
+        },
+        {
+          "id": "study-jhn-1-12-word-4-vocab",
+          "label": {
+            "en": "always / all along",
+            "ko": "항상"
+          },
+          "explanation": {
+            "en": "That definition belongs to hep. kabul means acceptance here. Use the compound kabul etmek for receive/accept; the noun alone does not carry the action’s tense.",
+            "ko": "그 뜻은 hep입니다. 여기 kabul는 받아들임입니다. 받아들이다는 kabul etmek을 쓰며 명사만으로 시제를 나타내지 않습니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-jhn-1-12-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Use the compound kabul etmek for receive/accept; the noun alone does not carry the action’s tense.",
+        "ko": "받아들이다는 kabul etmek을 쓰며 명사만으로 시제를 나타내지 않습니다."
+      }
+    },
+    {
+      "id": "study-jhn-1-12-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “edenlerin”, what is the function of “-in” here?",
+        "ko": "“edenlerin”에서 “-in”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "GEN",
+          "label": {
+            "en": "genitive: possessor / dependent subject",
+            "ko": "속격: 소유자·내포절 주어"
+          },
+          "explanation": {
+            "en": "Nominal participle in recipient phrase. İman edenlerin pairs with hepsine: “to all of those who believe.”",
+            "ko": "받는 사람 구의 명사적 관계형. iman edenlerin이 hepsine과 호응해 믿는 사람 모두에게가 됩니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Nominal participle in recipient phrase. İman edenlerin pairs with hepsine: “to all of those who believe.”",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 받는 사람 구의 명사적 관계형. iman edenlerin이 hepsine과 호응해 믿는 사람 모두에게가 됩니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Nominal participle in recipient phrase. İman edenlerin pairs with hepsine: “to all of those who believe.”",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 받는 사람 구의 명사적 관계형. iman edenlerin이 hepsine과 호응해 믿는 사람 모두에게가 됩니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Nominal participle in recipient phrase. İman edenlerin pairs with hepsine: “to all of those who believe.”",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 받는 사람 구의 명사적 관계형. iman edenlerin이 hepsine과 호응해 믿는 사람 모두에게가 됩니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "GEN"
+      ],
+      "explanations": {
+        "en": "İman edenlerin pairs with hepsine: “to all of those who believe.”",
+        "ko": "iman edenlerin이 hepsine과 호응해 믿는 사람 모두에게가 됩니다."
+      }
+    }
+  ]
+}

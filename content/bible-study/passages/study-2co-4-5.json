@@ -1,0 +1,654 @@
+{
+  "id": "study-2co-4-5",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand 2 Corinthians 4:5 through its clause structure and the forms kendimizi / etmiyoruz.",
+    "ko": "고린도후서 4:5의 절 구조와 kendimizi / etmiyoruz 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "We proclaim not ourselves but Jesus Christ as Lord, and ourselves as your servants for Jesus’s sake.",
+    "ko": "우리는 자신이 아니라 예수 그리스도를 주로 선포하며 예수님을 위해 우리를 여러분의 종으로 말합니다."
+  },
+  "clauses": [
+    {
+      "id": "study-2co-4-5-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "2CO.4.5",
+          "start": 0,
+          "end": 101
+        }
+      ],
+      "naturalMeaning": {
+        "en": "The two proclamations distinguish Christ’s role from the speakers’ service.",
+        "ko": "두 선포는 그리스도의 역할과 화자들의 섬김을 구별합니다."
+      },
+      "literalGloss": {
+        "en": "ourselves proclaim do-not-we / but Christ Jesus-object Lord / ourselves also for-Jesus servants-your proclaim do-we",
+        "ko": "우리 자신을 선포하지 않는다 / 그러나 그리스도 예수를 주로 / 우리 자신도 예수를 위해 여러분의 종으로 선포한다"
+      },
+      "explanation": {
+        "en": "İlan etmek is a compound verb. Rab and kullarınız function as object complements: what they proclaim Christ and themselves to be. Uğruna expresses for someone’s sake. No extra olarak is needed, though English naturally adds “as.”",
+        "ko": "ilan etmek은 복합 동사입니다. Rab·kullarınız는 그리스도와 자신들을 어떤 존재로 선포하는지 밝히는 목적 보어입니다. uğruna는 ~를 위해입니다. 영어가 자연스럽게 as를 넣어도 터키어에 추가 olarak이 필요하지 않습니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-2co-4-5-word-1",
+      "verseId": "2CO.4.5",
+      "start": 4,
+      "end": 13,
+      "surface": "kendimizi",
+      "lemma": "kendi",
+      "meaning": {
+        "en": "ourselves (object)",
+        "ko": "우리 자신을"
+      },
+      "partOfSpeech": {
+        "en": "Pronoun / pronominal expression",
+        "ko": "대명사·대명 표현"
+      },
+      "segments": [
+        {
+          "form": "kendi",
+          "meaning": {
+            "en": "self",
+            "ko": "자신"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "miz",
+          "meaning": {
+            "en": "first-person plural possessive",
+            "ko": "1인칭 복수 소유"
+          },
+          "function": "P1P"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "1pl",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Reflexive object",
+        "ko": "재귀 목적어"
+      },
+      "contextualExplanation": {
+        "en": "The possessive-like person ending gives the reflexive its first-person plural reference.",
+        "ko": "소유형 같은 인칭 어미가 재귀 대명사의 1인칭 복수 대상을 정합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "self",
+        "ko": "자신"
+      }
+    },
+    {
+      "id": "study-2co-4-5-word-2",
+      "verseId": "2CO.4.5",
+      "start": 19,
+      "end": 28,
+      "surface": "etmiyoruz",
+      "lemma": "etmek",
+      "meaning": {
+        "en": "we are not doing",
+        "ko": "우리는 하지 않는다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "et",
+          "meaning": {
+            "en": "do / make (auxiliary)",
+            "ko": "하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "mi",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "yor",
+          "meaning": {
+            "en": "present continuous",
+            "ko": "현재 진행"
+          },
+          "function": "PROG"
+        },
+        {
+          "form": "uz",
+          "meaning": {
+            "en": "first-person plural",
+            "ko": "1인칭 복수"
+          },
+          "function": "PERSON1P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "tenseAspect": "present continuous",
+        "person": "1pl"
+      },
+      "role": {
+        "en": "Negative first-person plural predicate",
+        "ko": "부정 1인칭 복수 술어"
+      },
+      "contextualExplanation": {
+        "en": "İlan supplies the proclamation meaning.",
+        "ko": "ilan이 선포 의미를 제공합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "do / make (auxiliary)",
+        "ko": "하다"
+      }
+    },
+    {
+      "id": "study-2co-4-5-word-3",
+      "verseId": "2CO.4.5",
+      "start": 69,
+      "end": 75,
+      "surface": "uğruna",
+      "lemma": "uğur",
+      "meaning": {
+        "en": "for the sake of",
+        "ko": "~을 위해"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "uğr",
+          "meaning": {
+            "en": "luck; uğruna: for the sake of",
+            "ko": "행운; uğruna: ~을 위해"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "u",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "a",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "uğur loses its second vowel in this possessed expression",
+          "ko": "소유형 표현에서 uğur의 두 번째 모음이 탈락합니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "dative"
+      },
+      "role": {
+        "en": "Postpositional purpose expression",
+        "ko": "후치 목적 표현"
+      },
+      "contextualExplanation": {
+        "en": "The conventional expression İsa uğruna means for Jesus’s sake, not literally luck.",
+        "ko": "정착된 İsa uğruna는 예수를 위해이며 문자상 행운이라는 뜻이 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "luck; uğruna: for the sake of",
+        "ko": "행운; uğruna: ~을 위해"
+      }
+    },
+    {
+      "id": "study-2co-4-5-word-4",
+      "verseId": "2CO.4.5",
+      "start": 76,
+      "end": 86,
+      "surface": "kullarınız",
+      "lemma": "kul",
+      "meaning": {
+        "en": "your servants",
+        "ko": "여러분의 종들"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "kul",
+          "meaning": {
+            "en": "servant / bondservant",
+            "ko": "종"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "lar",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "ınız",
+          "meaning": {
+            "en": "second-person plural possessive",
+            "ko": "2인칭 복수 소유"
+          },
+          "function": "P2P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "number": "plural",
+        "possessive": "2pl/polite"
+      },
+      "role": {
+        "en": "Object complement with possession",
+        "ko": "소유 목적 보어"
+      },
+      "contextualExplanation": {
+        "en": "The speakers describe their relationship to the listeners, not a numerical spiritual score.",
+        "ko": "화자들이 청자와의 관계를 말하며 영적 점수가 아닙니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "servant / bondservant",
+        "ko": "종"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-2co-4-5-word-1-vocab",
+      "analysisId": "study-2co-4-5-word-1",
+      "lemma": "kendi",
+      "classification": "general",
+      "definitions": {
+        "en": "self",
+        "ko": "자신"
+      },
+      "usageNotes": {
+        "en": "The possessive-like person ending gives the reflexive its first-person plural reference.",
+        "ko": "소유형 같은 인칭 어미가 재귀 대명사의 1인칭 복수 대상을 정합니다."
+      }
+    },
+    {
+      "id": "study-2co-4-5-word-2-vocab",
+      "analysisId": "study-2co-4-5-word-2",
+      "lemma": "etmek",
+      "classification": "general",
+      "definitions": {
+        "en": "do / make (auxiliary)",
+        "ko": "하다"
+      },
+      "usageNotes": {
+        "en": "İlan supplies the proclamation meaning.",
+        "ko": "ilan이 선포 의미를 제공합니다."
+      }
+    },
+    {
+      "id": "study-2co-4-5-word-3-vocab",
+      "analysisId": "study-2co-4-5-word-3",
+      "lemma": "uğur",
+      "classification": "general",
+      "definitions": {
+        "en": "luck; uğruna: for the sake of",
+        "ko": "행운; uğruna: ~을 위해"
+      },
+      "usageNotes": {
+        "en": "The conventional expression İsa uğruna means for Jesus’s sake, not literally luck.",
+        "ko": "정착된 İsa uğruna는 예수를 위해이며 문자상 행운이라는 뜻이 아닙니다."
+      }
+    },
+    {
+      "id": "study-2co-4-5-word-4-vocab",
+      "analysisId": "study-2co-4-5-word-4",
+      "lemma": "kul",
+      "classification": "biblical",
+      "definitions": {
+        "en": "servant / bondservant",
+        "ko": "종"
+      },
+      "usageNotes": {
+        "en": "The speakers describe their relationship to the listeners, not a numerical spiritual score.",
+        "ko": "화자들이 청자와의 관계를 말하며 영적 점수가 아닙니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-2co-4-5-grammar-1",
+      "title": {
+        "en": "Objects and object complements",
+        "ko": "목적어·목적 보어"
+      },
+      "explanation": {
+        "en": "Mesih İsa’yı is marked accusative; Rab describes the role proclaimed. Kendimizi is the other object and kullarınız its complement.",
+        "ko": "Mesih İsa’yı는 대격 목적어이고 Rab는 선포하는 역할입니다. kendimizi는 다른 목적어이고 kullarınız가 그 보어입니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "2CO.4.5",
+          "start": 0,
+          "end": 101
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-2co-4-5-grammar-2",
+      "title": {
+        "en": "Reflexive pronouns with person",
+        "ko": "인칭 재귀 대명사"
+      },
+      "explanation": {
+        "en": "Compare kendimi, kendimizi, kendinizi. Person marking belongs to the reflexive, while final accusative marks its sentence role.",
+        "ko": "kendimi·kendimizi·kendinizi를 비교하세요. 인칭은 재귀 대상이고 마지막 대격은 문장 역할입니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "2CO.4.5",
+          "start": 0,
+          "end": 101
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-05"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Introduce your role modestly using kendimizi and a purpose phrase with uğruna.",
+    "ko": "kendimizi와 uğruna 목적구로 자신의 역할을 겸손히 소개하세요."
+  },
+  "modelResponse": {
+    "tr": "Kendimizi öğretmen değil, birlikte öğrenen kişiler olarak görüyoruz.",
+    "meaning": {
+      "en": "We see ourselves as people learning together rather than as teachers.",
+      "ko": "우리를 교사보다 함께 배우는 사람들로 봅니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "ministry-05"
+  ],
+  "relatedReadingIds": [
+    "reading-2Ko-4-1-6"
+  ],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-2co-4-5-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to 2 Corinthians 4:5? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 고린도후서 4:5인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-2co-4-5",
+          "passageId": "study-2co-4-5",
+          "explanation": {
+            "en": "This is the passage. We proclaim not ourselves but Jesus Christ as Lord, and ourselves as your servants for Jesus’s sake. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 우리는 자신이 아니라 예수 그리스도를 주로 선포하며 예수님을 위해 우리를 여러분의 종으로 말합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mrk-10-45",
+          "passageId": "study-mrk-10-45",
+          "explanation": {
+            "en": "This is a different passage. The Son of Man came to serve rather than to be served, and to give his life as a ransom for many. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 인자는 섬김을 받기보다 섬기고 많은 사람을 위한 대속물로 자기 생명을 주려고 오셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-6-33",
+          "passageId": "study-mat-6-33",
+          "explanation": {
+            "en": "This is a different passage. Seek his kingdom and righteousness first; then all these things will also be given to you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 먼저 그분의 나라와 의를 구하세요. 그러면 이 모든 것도 여러분에게 주어질 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-luk-9-23",
+          "passageId": "study-luk-9-23",
+          "explanation": {
+            "en": "This is a different passage. Jesus said that whoever wants to follow him should deny themselves, take up their cross every day, and follow him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 예수님은 자신을 따르려는 사람은 자기를 부인하고 매일 자기 십자가를 지며 자신을 따르라고 말씀하셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-2co-4-5"
+      ],
+      "explanations": {
+        "en": "This is the passage. We proclaim not ourselves but Jesus Christ as Lord, and ourselves as your servants for Jesus’s sake. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 우리는 자신이 아니라 예수 그리스도를 주로 선포하며 예수님을 위해 우리를 여러분의 종으로 말합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-2co-4-5-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-2co-4-5",
+          "referenceId": "study-2co-4-5",
+          "explanation": {
+            "en": "This is the passage. We proclaim not ourselves but Jesus Christ as Lord, and ourselves as your servants for Jesus’s sake. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 우리는 자신이 아니라 예수 그리스도를 주로 선포하며 예수님을 위해 우리를 여러분의 종으로 말합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mrk-10-45",
+          "referenceId": "study-mrk-10-45",
+          "explanation": {
+            "en": "This is a different passage. The Son of Man came to serve rather than to be served, and to give his life as a ransom for many. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 인자는 섬김을 받기보다 섬기고 많은 사람을 위한 대속물로 자기 생명을 주려고 오셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-6-33",
+          "referenceId": "study-mat-6-33",
+          "explanation": {
+            "en": "This is a different passage. Seek his kingdom and righteousness first; then all these things will also be given to you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 먼저 그분의 나라와 의를 구하세요. 그러면 이 모든 것도 여러분에게 주어질 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-luk-9-23",
+          "referenceId": "study-luk-9-23",
+          "explanation": {
+            "en": "This is a different passage. Jesus said that whoever wants to follow him should deny themselves, take up their cross every day, and follow him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 예수님은 자신을 따르려는 사람은 자기를 부인하고 매일 자기 십자가를 지며 자신을 따르라고 말씀하셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-2co-4-5"
+      ],
+      "explanations": {
+        "en": "This is the passage. We proclaim not ourselves but Jesus Christ as Lord, and ourselves as your servants for Jesus’s sake. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 우리는 자신이 아니라 예수 그리스도를 주로 선포하며 예수님을 위해 우리를 여러분의 종으로 말합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-2co-4-5-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “kul” in this passage?",
+        "ko": "이 본문에서 “kul”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-2co-4-5-word-4-vocab",
+          "label": {
+            "en": "servant / bondservant",
+            "ko": "종"
+          },
+          "explanation": {
+            "en": "servant / bondservant. The speakers describe their relationship to the listeners, not a numerical spiritual score.",
+            "ko": "종. 화자들이 청자와의 관계를 말하며 영적 점수가 아닙니다."
+          }
+        },
+        {
+          "id": "study-2co-4-5-word-1-vocab",
+          "label": {
+            "en": "self",
+            "ko": "자신"
+          },
+          "explanation": {
+            "en": "That definition belongs to kendi. kul means servant / bondservant here. The speakers describe their relationship to the listeners, not a numerical spiritual score.",
+            "ko": "그 뜻은 kendi입니다. 여기 kul는 종입니다. 화자들이 청자와의 관계를 말하며 영적 점수가 아닙니다."
+          }
+        },
+        {
+          "id": "study-2co-4-5-word-2-vocab",
+          "label": {
+            "en": "do / make (auxiliary)",
+            "ko": "하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to etmek. kul means servant / bondservant here. The speakers describe their relationship to the listeners, not a numerical spiritual score.",
+            "ko": "그 뜻은 etmek입니다. 여기 kul는 종입니다. 화자들이 청자와의 관계를 말하며 영적 점수가 아닙니다."
+          }
+        },
+        {
+          "id": "study-2co-4-5-word-3-vocab",
+          "label": {
+            "en": "luck; uğruna: for the sake of",
+            "ko": "행운; uğruna: ~을 위해"
+          },
+          "explanation": {
+            "en": "That definition belongs to uğur. kul means servant / bondservant here. The speakers describe their relationship to the listeners, not a numerical spiritual score.",
+            "ko": "그 뜻은 uğur입니다. 여기 kul는 종입니다. 화자들이 청자와의 관계를 말하며 영적 점수가 아닙니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-2co-4-5-word-4-vocab"
+      ],
+      "explanations": {
+        "en": "The speakers describe their relationship to the listeners, not a numerical spiritual score.",
+        "ko": "화자들이 청자와의 관계를 말하며 영적 점수가 아닙니다."
+      }
+    },
+    {
+      "id": "study-2co-4-5-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “kendimizi”, what is the function of “-i” here?",
+        "ko": "“kendimizi”에서 “-i”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "Reflexive object. The possessive-like person ending gives the reflexive its first-person plural reference.",
+            "ko": "재귀 목적어. 소유형 같은 인칭 어미가 재귀 대명사의 1인칭 복수 대상을 정합니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Reflexive object. The possessive-like person ending gives the reflexive its first-person plural reference.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 재귀 목적어. 소유형 같은 인칭 어미가 재귀 대명사의 1인칭 복수 대상을 정합니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Reflexive object. The possessive-like person ending gives the reflexive its first-person plural reference.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 재귀 목적어. 소유형 같은 인칭 어미가 재귀 대명사의 1인칭 복수 대상을 정합니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Reflexive object. The possessive-like person ending gives the reflexive its first-person plural reference.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 재귀 목적어. 소유형 같은 인칭 어미가 재귀 대명사의 1인칭 복수 대상을 정합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ACC"
+      ],
+      "explanations": {
+        "en": "The possessive-like person ending gives the reflexive its first-person plural reference.",
+        "ko": "소유형 같은 인칭 어미가 재귀 대명사의 1인칭 복수 대상을 정합니다."
+      }
+    }
+  ]
+}

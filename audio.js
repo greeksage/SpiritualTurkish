@@ -269,17 +269,17 @@ class AudioEngine {
     }
   }
 
-  speakTurkish(text, rate = null, onStart, onEnd) {
+  speakTurkish(text, rate = null, onStart, onEnd, statusTarget = null) {
     const report = (en,ko) => {
       const message=window.course?.t(en,ko) || en;
       const lessonStatus=document.getElementById('course-audio-status');
-      const status=document.querySelector('#word-inspector[open] #word-audio-status') || (lessonStatus && !lessonStatus.closest('.lesson-section').classList.contains('hidden') && !document.getElementById('lesson-view')?.hidden ? lessonStatus : document.getElementById('global-audio-status'));
+      const status=statusTarget || document.querySelector('#word-inspector[open] #word-audio-status') || (lessonStatus && !lessonStatus.closest('.lesson-section').classList.contains('hidden') && !document.getElementById('lesson-view')?.hidden ? lessonStatus : document.getElementById('global-audio-status'));
       if(status)status.textContent=message;
       if(onEnd)onEnd();
       // onEnd may write its own status; unavailable/error information takes priority.
       if(status)status.textContent=message;
     };
-    if (!window.speechSynthesis) {
+    if (!window.speechSynthesis || !window.SpeechSynthesisUtterance) {
       report("Synthetic speech is unavailable in this browser. Read the Turkish text aloud or practise with a partner.","이 브라우저에서는 합성 음성을 사용할 수 없습니다. 터키어를 직접 읽거나 상대와 연습하세요.");
       return;
     }

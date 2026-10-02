@@ -1,0 +1,638 @@
+{
+  "id": "study-php-4-13",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Philippians 4:13 through its clause structure and the forms güçlendirenin / aracılığıyla.",
+    "ko": "빌립보서 4:13의 절 구조와 güçlendirenin / aracılığıyla 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Through the one who strengthens me, I can do everything.",
+    "ko": "나를 강하게 하시는 분을 통해 모든 일을 할 수 있습니다."
+  },
+  "clauses": [
+    {
+      "id": "study-php-4-13-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "PHP.4.13",
+          "start": 0,
+          "end": 53
+        }
+      ],
+      "naturalMeaning": {
+        "en": "I can do everything through the one who gives me strength.",
+        "ko": "나를 강하게 하시는 분을 통해 모든 일을 할 수 있습니다."
+      },
+      "literalGloss": {
+        "en": "me strengthening-one’s / through / every thing-object / can-do-I",
+        "ko": "나를 강하게 하는 분의 / 매개로 / 모든 것을 / 할 수 있다 나"
+      },
+      "explanation": {
+        "en": "Güçlendirenin is a nominalized participle in the genitive before aracılığıyla. Her şeyi is the object of yapabilirim. Read the surrounding passage’s contentment in need and abundance; this is not a guarantee of unlimited achievement.",
+        "ko": "güçlendirenin은 aracılığıyla 앞의 속격 명사적 관계형입니다. her şeyi는 yapabilirim의 목적어입니다. 앞뒤의 궁핍·풍요 속 자족 문맥을 읽으며 무제한 성취 보장으로 바꾸지 마세요."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-php-4-13-word-1",
+      "verseId": "PHP.4.13",
+      "start": 5,
+      "end": 18,
+      "surface": "güçlendirenin",
+      "lemma": "güçlendirmek",
+      "meaning": {
+        "en": "of the one who strengthens",
+        "ko": "강하게 하시는 분의"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "güçlendir",
+          "meaning": {
+            "en": "strengthen",
+            "ko": "강하게 하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "en",
+          "meaning": {
+            "en": "subject participle -An",
+            "ko": "주어 관계형 -An"
+          },
+          "function": "PART"
+        },
+        {
+          "form": "in",
+          "meaning": {
+            "en": "genitive: possessor / dependent subject",
+            "ko": "속격: 소유자·내포절 주어"
+          },
+          "function": "GEN"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "subject participle",
+        "case": "genitive"
+      },
+      "role": {
+        "en": "Genitive nominal participle",
+        "ko": "속격 명사적 관계형"
+      },
+      "contextualExplanation": {
+        "en": "Beni is the object inside the modifier; the one who strengthens is the means/source.",
+        "ko": "beni는 수식 안의 목적어이고 힘을 주는 분이 매개·근거입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "strengthen",
+        "ko": "강하게 하다"
+      }
+    },
+    {
+      "id": "study-php-4-13-word-2",
+      "verseId": "PHP.4.13",
+      "start": 19,
+      "end": 31,
+      "surface": "aracılığıyla",
+      "lemma": "aracılık",
+      "meaning": {
+        "en": "through / by the agency of",
+        "ko": "~을 통해"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "aracılığ",
+          "meaning": {
+            "en": "mediation / agency",
+            "ko": "매개"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "la",
+          "meaning": {
+            "en": "with / by",
+            "ko": "~와 함께·~로"
+          },
+          "function": "WITH"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "aracılık → aracılığ- before a vowel",
+          "ko": "모음 앞에서 aracılık가 aracılığ-로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Means expression",
+        "ko": "매개 표현"
+      },
+      "contextualExplanation": {
+        "en": "The genitive phrase supplies whose agency. This formal expression corresponds to through.",
+        "ko": "속격 구가 누구를 통한 것인지 나타내며 격식 있는 통해라는 표현입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "mediation / agency",
+        "ko": "매개"
+      }
+    },
+    {
+      "id": "study-php-4-13-word-3",
+      "verseId": "PHP.4.13",
+      "start": 36,
+      "end": 40,
+      "surface": "şeyi",
+      "lemma": "şey",
+      "meaning": {
+        "en": "thing (object)",
+        "ko": "것을"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "şey",
+          "meaning": {
+            "en": "thing",
+            "ko": "것"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Accusative object after her",
+        "ko": "her 뒤의 대격 목적어"
+      },
+      "contextualExplanation": {
+        "en": "Her şey is singular in form; -i marks this total object.",
+        "ko": "her şey는 형태상 단수이고 -i가 전체 목적어를 표시합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "thing",
+        "ko": "것"
+      }
+    },
+    {
+      "id": "study-php-4-13-word-4",
+      "verseId": "PHP.4.13",
+      "start": 41,
+      "end": 52,
+      "surface": "yapabilirim",
+      "lemma": "yapmak",
+      "meaning": {
+        "en": "I can do",
+        "ko": "나는 할 수 있다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yap",
+          "meaning": {
+            "en": "do / make",
+            "ko": "하다·만들다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "abil",
+          "meaning": {
+            "en": "ability / possibility",
+            "ko": "능력·가능성"
+          },
+          "function": "CAN"
+        },
+        {
+          "form": "ir",
+          "meaning": {
+            "en": "aorist: general / habitual",
+            "ko": "일반·습관 현재"
+          },
+          "function": "AOR"
+        },
+        {
+          "form": "im",
+          "meaning": {
+            "en": "first-person singular",
+            "ko": "1인칭 단수"
+          },
+          "function": "PERSON1"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "modality": "ability",
+        "tenseAspect": "aorist",
+        "person": "1sg"
+      },
+      "role": {
+        "en": "Ability predicate",
+        "ko": "가능 술어"
+      },
+      "contextualExplanation": {
+        "en": "Ability -abil is followed by aorist and first-person singular.",
+        "ko": "가능 -abil 뒤에 일반 현재와 1인칭 단수가 붙습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "do / make",
+        "ko": "하다·만들다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-php-4-13-word-1-vocab",
+      "analysisId": "study-php-4-13-word-1",
+      "lemma": "güçlendirmek",
+      "classification": "general",
+      "definitions": {
+        "en": "strengthen",
+        "ko": "강하게 하다"
+      },
+      "usageNotes": {
+        "en": "Beni is the object inside the modifier; the one who strengthens is the means/source.",
+        "ko": "beni는 수식 안의 목적어이고 힘을 주는 분이 매개·근거입니다."
+      }
+    },
+    {
+      "id": "study-php-4-13-word-2-vocab",
+      "analysisId": "study-php-4-13-word-2",
+      "lemma": "aracılık",
+      "classification": "general",
+      "definitions": {
+        "en": "mediation / agency",
+        "ko": "매개"
+      },
+      "usageNotes": {
+        "en": "The genitive phrase supplies whose agency. This formal expression corresponds to through.",
+        "ko": "속격 구가 누구를 통한 것인지 나타내며 격식 있는 통해라는 표현입니다."
+      }
+    },
+    {
+      "id": "study-php-4-13-word-3-vocab",
+      "analysisId": "study-php-4-13-word-3",
+      "lemma": "şey",
+      "classification": "general",
+      "definitions": {
+        "en": "thing",
+        "ko": "것"
+      },
+      "usageNotes": {
+        "en": "Her şey is singular in form; -i marks this total object.",
+        "ko": "her şey는 형태상 단수이고 -i가 전체 목적어를 표시합니다."
+      }
+    },
+    {
+      "id": "study-php-4-13-word-4-vocab",
+      "analysisId": "study-php-4-13-word-4",
+      "lemma": "yapmak",
+      "classification": "general",
+      "definitions": {
+        "en": "do / make",
+        "ko": "하다·만들다"
+      },
+      "usageNotes": {
+        "en": "Ability -abil is followed by aorist and first-person singular.",
+        "ko": "가능 -abil 뒤에 일반 현재와 1인칭 단수가 붙습니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-php-4-13-grammar-1",
+      "title": {
+        "en": "A person described by an action",
+        "ko": "행동으로 묘사한 사람"
+      },
+      "explanation": {
+        "en": "Güçlendiren has no following noun; it means the one who strengthens. Genitive -in links that person to aracılığıyla.",
+        "ko": "güçlendiren 뒤에 명사가 없어 강하게 하는 분이라는 명사 용법입니다. 속격 -in이 aracılığıyla에 연결합니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "PHP.4.13",
+          "start": 0,
+          "end": 53
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-php-4-13-grammar-2",
+      "title": {
+        "en": "Ability, not simple future",
+        "ko": "미래가 아닌 가능"
+      },
+      "explanation": {
+        "en": "Yapabilirim states capacity or possibility. It does not grammatically assert “I will certainly accomplish every imaginable goal.”",
+        "ko": "yapabilirim은 능력·가능성을 말합니다. 상상하는 모든 목표를 반드시 이룰 것이라는 미래 확정 문장은 아닙니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "PHP.4.13",
+          "start": 0,
+          "end": 53
+        }
+      ],
+      "relatedLessonIds": []
+    }
+  ],
+  "independentTask": {
+    "en": "Write an attainable ability statement and a realistic limitation using yapabilirim / yapamam.",
+    "ko": "yapabilirim·yapamam으로 가능한 일과 실제 한계를 쓰세요."
+  },
+  "modelResponse": {
+    "tr": "Bu metni sözlükle okuyabilirim. Her soruyu hemen cevaplayamam.",
+    "meaning": {
+      "en": "I can read this text with a dictionary. I cannot answer every question immediately.",
+      "ko": "사전으로 이 글을 읽을 수 있습니다. 모든 질문에 바로 답할 수는 없습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-php-4-13-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Philippians 4:13? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 빌립보서 4:13인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-php-4-13",
+          "passageId": "study-php-4-13",
+          "explanation": {
+            "en": "This is the passage. Through the one who strengthens me, I can do everything. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 나를 강하게 하시는 분을 통해 모든 일을 할 수 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-5-7",
+          "passageId": "study-1pe-5-7",
+          "explanation": {
+            "en": "This is a different passage. Place all your anxieties on him, because he cares for you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 모든 염려를 그분께 맡기세요. 그분이 여러분을 돌보시기 때문입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-3-16",
+          "passageId": "study-1co-3-16",
+          "explanation": {
+            "en": "This is a different passage. Do you not know that you are God’s temple and that God’s Spirit lives in you? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분이 하나님의 성전이며 하나님의 영이 여러분 안에 사신다는 것을 모르나요? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-2-18",
+          "passageId": "study-heb-2-18",
+          "explanation": {
+            "en": "This is a different passage. Because he himself suffered through being tested, he can help those who are tested. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 그분 자신이 시험받아 고난을 겪으셨기 때문에 시험받는 사람들을 도울 수 있습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-php-4-13"
+      ],
+      "explanations": {
+        "en": "This is the passage. Through the one who strengthens me, I can do everything. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 나를 강하게 하시는 분을 통해 모든 일을 할 수 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-php-4-13-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-php-4-13",
+          "referenceId": "study-php-4-13",
+          "explanation": {
+            "en": "This is the passage. Through the one who strengthens me, I can do everything. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 나를 강하게 하시는 분을 통해 모든 일을 할 수 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-5-7",
+          "referenceId": "study-1pe-5-7",
+          "explanation": {
+            "en": "This is a different passage. Place all your anxieties on him, because he cares for you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 모든 염려를 그분께 맡기세요. 그분이 여러분을 돌보시기 때문입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-3-16",
+          "referenceId": "study-1co-3-16",
+          "explanation": {
+            "en": "This is a different passage. Do you not know that you are God’s temple and that God’s Spirit lives in you? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분이 하나님의 성전이며 하나님의 영이 여러분 안에 사신다는 것을 모르나요? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-2-18",
+          "referenceId": "study-heb-2-18",
+          "explanation": {
+            "en": "This is a different passage. Because he himself suffered through being tested, he can help those who are tested. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 그분 자신이 시험받아 고난을 겪으셨기 때문에 시험받는 사람들을 도울 수 있습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-php-4-13"
+      ],
+      "explanations": {
+        "en": "This is the passage. Through the one who strengthens me, I can do everything. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 나를 강하게 하시는 분을 통해 모든 일을 할 수 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-php-4-13-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “güçlendirmek” in this passage?",
+        "ko": "이 본문에서 “güçlendirmek”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-php-4-13-word-1-vocab",
+          "label": {
+            "en": "strengthen",
+            "ko": "강하게 하다"
+          },
+          "explanation": {
+            "en": "strengthen. Beni is the object inside the modifier; the one who strengthens is the means/source.",
+            "ko": "강하게 하다. beni는 수식 안의 목적어이고 힘을 주는 분이 매개·근거입니다."
+          }
+        },
+        {
+          "id": "study-php-4-13-word-2-vocab",
+          "label": {
+            "en": "mediation / agency",
+            "ko": "매개"
+          },
+          "explanation": {
+            "en": "That definition belongs to aracılık. güçlendirmek means strengthen here. Beni is the object inside the modifier; the one who strengthens is the means/source.",
+            "ko": "그 뜻은 aracılık입니다. 여기 güçlendirmek는 강하게 하다입니다. beni는 수식 안의 목적어이고 힘을 주는 분이 매개·근거입니다."
+          }
+        },
+        {
+          "id": "study-php-4-13-word-3-vocab",
+          "label": {
+            "en": "thing",
+            "ko": "것"
+          },
+          "explanation": {
+            "en": "That definition belongs to şey. güçlendirmek means strengthen here. Beni is the object inside the modifier; the one who strengthens is the means/source.",
+            "ko": "그 뜻은 şey입니다. 여기 güçlendirmek는 강하게 하다입니다. beni는 수식 안의 목적어이고 힘을 주는 분이 매개·근거입니다."
+          }
+        },
+        {
+          "id": "study-php-4-13-word-4-vocab",
+          "label": {
+            "en": "do / make",
+            "ko": "하다·만들다"
+          },
+          "explanation": {
+            "en": "That definition belongs to yapmak. güçlendirmek means strengthen here. Beni is the object inside the modifier; the one who strengthens is the means/source.",
+            "ko": "그 뜻은 yapmak입니다. 여기 güçlendirmek는 강하게 하다입니다. beni는 수식 안의 목적어이고 힘을 주는 분이 매개·근거입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-php-4-13-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Beni is the object inside the modifier; the one who strengthens is the means/source.",
+        "ko": "beni는 수식 안의 목적어이고 힘을 주는 분이 매개·근거입니다."
+      }
+    },
+    {
+      "id": "study-php-4-13-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “güçlendirenin”, what is the function of “-in” here?",
+        "ko": "“güçlendirenin”에서 “-in”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "GEN",
+          "label": {
+            "en": "genitive: possessor / dependent subject",
+            "ko": "속격: 소유자·내포절 주어"
+          },
+          "explanation": {
+            "en": "Genitive nominal participle. Beni is the object inside the modifier; the one who strengthens is the means/source.",
+            "ko": "속격 명사적 관계형. beni는 수식 안의 목적어이고 힘을 주는 분이 매개·근거입니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Genitive nominal participle. Beni is the object inside the modifier; the one who strengthens is the means/source.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 속격 명사적 관계형. beni는 수식 안의 목적어이고 힘을 주는 분이 매개·근거입니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Genitive nominal participle. Beni is the object inside the modifier; the one who strengthens is the means/source.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 속격 명사적 관계형. beni는 수식 안의 목적어이고 힘을 주는 분이 매개·근거입니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Genitive nominal participle. Beni is the object inside the modifier; the one who strengthens is the means/source.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 속격 명사적 관계형. beni는 수식 안의 목적어이고 힘을 주는 분이 매개·근거입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "GEN"
+      ],
+      "explanations": {
+        "en": "Beni is the object inside the modifier; the one who strengthens is the means/source.",
+        "ko": "beni는 수식 안의 목적어이고 힘을 주는 분이 매개·근거입니다."
+      }
+    }
+  ]
+}

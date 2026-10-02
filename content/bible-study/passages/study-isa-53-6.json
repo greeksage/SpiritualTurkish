@@ -1,0 +1,775 @@
+{
+  "id": "study-isa-53-6",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Isaiah 53:6 through its clause structure and the forms Hepimiz / yoldan.",
+    "ko": "이사야 53:6의 절 구조와 Hepimiz / yoldan 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "We all had strayed from the path like sheep; each turned to their own way. Yet the LORD placed all our punishment on him.",
+    "ko": "우리는 모두 양처럼 길을 벗어났고 각자 자기 길로 돌아섰습니다. 그러나 주님은 우리 모두의 형벌을 그에게 지우셨습니다."
+  },
+  "clauses": [
+    {
+      "id": "study-isa-53-6-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "ISA.53.6",
+          "start": 0,
+          "end": 112
+        }
+      ],
+      "naturalMeaning": {
+        "en": "All of us went astray, but the LORD laid our punishment on him.",
+        "ko": "우리는 모두 길을 잃었으나 주님은 우리의 형벌을 그에게 지우셨습니다."
+      },
+      "literalGloss": {
+        "en": "all-of-us / sheep like / from road had-strayed; each / own road-to / turned; yet LORD / all-of-us’s punishment / on him loaded",
+        "ko": "우리 모두 / 양처럼 / 길에서 벗어난 상태였다; 각자 / 자기 길로 / 돌았다; 그러나 주님 / 우리 모두의 형벌을 / 그에게 지웠다"
+      },
+      "explanation": {
+        "en": "Sapmıştık combines a prior/resultative -mış form with past -tı and “we.” Kendi yoluna has possessed direction. Yükledi has cezasını as object and ona as recipient. RAB is the edition’s divine-name convention, not an abbreviation to expand or respell.",
+        "ko": "sapmıştık는 이전·결과의 -mış와 과거 -tı·우리를 결합합니다. kendi yoluna는 소유와 방향을 표시합니다. yükledi의 목적어는 cezasını, 여격 대상은 ona입니다. RAB는 판본의 신명 표기이며 약자로 풀거나 철자를 바꾸지 않습니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-isa-53-6-word-1",
+      "verseId": "ISA.53.6",
+      "start": 0,
+      "end": 7,
+      "surface": "Hepimiz",
+      "lemma": "hep",
+      "meaning": {
+        "en": "all of us",
+        "ko": "우리 모두"
+      },
+      "partOfSpeech": {
+        "en": "Pronoun / pronominal expression",
+        "ko": "대명사·대명 표현"
+      },
+      "segments": [
+        {
+          "form": "Hep",
+          "meaning": {
+            "en": "always / all along",
+            "ko": "항상"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "imiz",
+          "meaning": {
+            "en": "first-person plural possessive",
+            "ko": "1인칭 복수 소유"
+          },
+          "function": "P1P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "1pl"
+      },
+      "role": {
+        "en": "Inclusive total subject",
+        "ko": "우리를 포함하는 전체 주어"
+      },
+      "contextualExplanation": {
+        "en": "The ending identifies the whole group including the speaker.",
+        "ko": "어미가 화자를 포함한 집단 전체를 나타냅니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "always / all along",
+        "ko": "항상"
+      }
+    },
+    {
+      "id": "study-isa-53-6-word-2",
+      "verseId": "ISA.53.6",
+      "start": 19,
+      "end": 25,
+      "surface": "yoldan",
+      "lemma": "yol",
+      "meaning": {
+        "en": "from the path",
+        "ko": "길에서"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "yol",
+          "meaning": {
+            "en": "road / way",
+            "ko": "길"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "dan",
+          "meaning": {
+            "en": "ablative: from / away from",
+            "ko": "탈격: ~에서·~로부터"
+          },
+          "function": "ABL"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "case": "ablative"
+      },
+      "role": {
+        "en": "Source / deviation",
+        "ko": "이탈의 출발점"
+      },
+      "contextualExplanation": {
+        "en": "Sapmak takes the path departed from in the ablative.",
+        "ko": "sapmak은 벗어난 길을 탈격으로 표시합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "road / way",
+        "ko": "길"
+      }
+    },
+    {
+      "id": "study-isa-53-6-word-3",
+      "verseId": "ISA.53.6",
+      "start": 26,
+      "end": 35,
+      "surface": "sapmıştık",
+      "lemma": "sapmak",
+      "meaning": {
+        "en": "we had strayed",
+        "ko": "우리는 벗어났었다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "sap",
+          "meaning": {
+            "en": "stray / deviate",
+            "ko": "빗나가다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "mış",
+          "meaning": {
+            "en": "past/resultative -mIş form",
+            "ko": "-mIş 과거·결과 형태"
+          },
+          "function": "RESULT"
+        },
+        {
+          "form": "tı",
+          "meaning": {
+            "en": "definite past",
+            "ko": "확정 과거"
+          },
+          "function": "PAST"
+        },
+        {
+          "form": "k",
+          "meaning": {
+            "en": "first-person plural",
+            "ko": "1인칭 복수"
+          },
+          "function": "PERSON1P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "past",
+        "person": "1pl"
+      },
+      "role": {
+        "en": "Past-of-result predicate",
+        "ko": "결과형의 과거 술어"
+      },
+      "contextualExplanation": {
+        "en": "The -k is first-person plural after past -tı; it is not plural -lar.",
+        "ko": "-tı 뒤의 -k는 1인칭 복수이며 명사 복수 -lar가 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "stray / deviate",
+        "ko": "빗나가다"
+      }
+    },
+    {
+      "id": "study-isa-53-6-word-4",
+      "verseId": "ISA.53.6",
+      "start": 55,
+      "end": 61,
+      "surface": "yoluna",
+      "lemma": "yol",
+      "meaning": {
+        "en": "to their own way",
+        "ko": "자기 길로"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "yol",
+          "meaning": {
+            "en": "road / way",
+            "ko": "길"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "u",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "a",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "dative"
+      },
+      "role": {
+        "en": "Possessed directional noun",
+        "ko": "소유 방향 명사"
+      },
+      "contextualExplanation": {
+        "en": "Kendi establishes the reflexive possessor; buffer n precedes the dative.",
+        "ko": "kendi가 재귀 소유자를 밝히고 여격 앞에 n이 옵니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "road / way",
+        "ko": "길"
+      }
+    },
+    {
+      "id": "study-isa-53-6-word-5",
+      "verseId": "ISA.53.6",
+      "start": 91,
+      "end": 99,
+      "surface": "cezasını",
+      "lemma": "ceza",
+      "meaning": {
+        "en": "their punishment (object)",
+        "ko": "그들의 형벌을"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "ceza",
+          "meaning": {
+            "en": "punishment / penalty",
+            "ko": "벌·형벌"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "sı",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Possessed object",
+        "ko": "소유 목적어"
+      },
+      "contextualExplanation": {
+        "en": "Hepimizin is the genitive possessor. -sı is possession; final -ı is accusative.",
+        "ko": "hepimizin이 속격 소유자입니다. -sı는 소유이고 마지막 -ı는 대격입니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "punishment / penalty",
+        "ko": "벌·형벌"
+      }
+    },
+    {
+      "id": "study-isa-53-6-word-6",
+      "verseId": "ISA.53.6",
+      "start": 104,
+      "end": 111,
+      "surface": "yükledi",
+      "lemma": "yüklemek",
+      "meaning": {
+        "en": "placed / laid upon",
+        "ko": "지웠다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yükle",
+          "meaning": {
+            "en": "load / place upon",
+            "ko": "싣다·지우다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "di",
+          "meaning": {
+            "en": "definite past",
+            "ko": "확정 과거"
+          },
+          "function": "PAST"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "past"
+      },
+      "role": {
+        "en": "Past transitive verb",
+        "ko": "과거 타동사"
+      },
+      "contextualExplanation": {
+        "en": "Ona identifies whom the burden is laid upon. Do not interpret it as the subject.",
+        "ko": "ona는 짐을 지우는 대상이며 주어가 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "load / place upon",
+        "ko": "싣다·지우다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-isa-53-6-word-1-vocab",
+      "analysisId": "study-isa-53-6-word-1",
+      "lemma": "hep",
+      "classification": "general",
+      "definitions": {
+        "en": "always / all along",
+        "ko": "항상"
+      },
+      "usageNotes": {
+        "en": "The ending identifies the whole group including the speaker.",
+        "ko": "어미가 화자를 포함한 집단 전체를 나타냅니다."
+      }
+    },
+    {
+      "id": "study-isa-53-6-word-2-vocab",
+      "analysisId": "study-isa-53-6-word-2",
+      "lemma": "yol",
+      "classification": "general",
+      "definitions": {
+        "en": "road / way",
+        "ko": "길"
+      },
+      "usageNotes": {
+        "en": "Sapmak takes the path departed from in the ablative.",
+        "ko": "sapmak은 벗어난 길을 탈격으로 표시합니다."
+      }
+    },
+    {
+      "id": "study-isa-53-6-word-3-vocab",
+      "analysisId": "study-isa-53-6-word-3",
+      "lemma": "sapmak",
+      "classification": "general",
+      "definitions": {
+        "en": "stray / deviate",
+        "ko": "빗나가다"
+      },
+      "usageNotes": {
+        "en": "The -k is first-person plural after past -tı; it is not plural -lar.",
+        "ko": "-tı 뒤의 -k는 1인칭 복수이며 명사 복수 -lar가 아닙니다."
+      }
+    },
+    {
+      "id": "study-isa-53-6-word-4-vocab",
+      "analysisId": "study-isa-53-6-word-4",
+      "lemma": "yol",
+      "classification": "general",
+      "definitions": {
+        "en": "road / way",
+        "ko": "길"
+      },
+      "usageNotes": {
+        "en": "Kendi establishes the reflexive possessor; buffer n precedes the dative.",
+        "ko": "kendi가 재귀 소유자를 밝히고 여격 앞에 n이 옵니다."
+      }
+    },
+    {
+      "id": "study-isa-53-6-word-5-vocab",
+      "analysisId": "study-isa-53-6-word-5",
+      "lemma": "ceza",
+      "classification": "biblical",
+      "definitions": {
+        "en": "punishment / penalty",
+        "ko": "벌·형벌"
+      },
+      "usageNotes": {
+        "en": "Hepimizin is the genitive possessor. -sı is possession; final -ı is accusative.",
+        "ko": "hepimizin이 속격 소유자입니다. -sı는 소유이고 마지막 -ı는 대격입니다."
+      }
+    },
+    {
+      "id": "study-isa-53-6-word-6-vocab",
+      "analysisId": "study-isa-53-6-word-6",
+      "lemma": "yüklemek",
+      "classification": "general",
+      "definitions": {
+        "en": "load / place upon",
+        "ko": "싣다·지우다"
+      },
+      "usageNotes": {
+        "en": "Ona identifies whom the burden is laid upon. Do not interpret it as the subject.",
+        "ko": "ona는 짐을 지우는 대상이며 주어가 아닙니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-isa-53-6-grammar-1",
+      "title": {
+        "en": "Prior state and later events",
+        "ko": "이전 상태와 뒤의 사건"
+      },
+      "explanation": {
+        "en": "Sapmıştık places straying in a prior state; döndü and yükledi narrate past events. Poetry may shift persons from all of us to each one.",
+        "ko": "sapmıştık는 이전 상태를 나타내며 döndü·yükledi는 과거 사건을 말합니다. 시에서는 우리 모두에서 각자로 인칭 초점이 이동합니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ISA.53.6",
+          "start": 0,
+          "end": 112
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-isa-53-6-grammar-2",
+      "title": {
+        "en": "Metaphor and Christian interpretation",
+        "ko": "비유와 기독교 해석"
+      },
+      "explanation": {
+        "en": "Sheep, paths, and burden express imagery. Christian interpretation relates the servant passage to Christ; label that interpretation rather than treating “him” as a grammatical proper name.",
+        "ko": "양·길·짐은 비유입니다. 기독교 해석은 종의 본문을 그리스도와 연결하지만 “그”를 문법상 고유 이름이라고 설명하지 마세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ISA.53.6",
+          "start": 0,
+          "end": 112
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-06"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Write a sentence about straying from a literal route and ask for directions politely.",
+    "ko": "실제로 길을 벗어난 상황을 말하고 정중히 방향을 물으세요."
+  },
+  "modelResponse": {
+    "tr": "Yanlış yola döndüm. Doğru yolu gösterebilir misiniz?",
+    "meaning": {
+      "en": "I turned onto the wrong road. Could you show me the right way?",
+      "ko": "잘못된 길로 돌아섰습니다. 바른길을 알려주시겠어요?"
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "ministry-06"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-isa-53-6-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Isaiah 53:6? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 이사야 53:6인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-isa-53-6",
+          "passageId": "study-isa-53-6",
+          "explanation": {
+            "en": "This is the passage. We all had strayed from the path like sheep; each turned to their own way. Yet the LORD placed all our punishment on him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 우리는 모두 양처럼 길을 벗어났고 각자 자기 길로 돌아섰습니다. 그러나 주님은 우리 모두의 형벌을 그에게 지우셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-eph-2-8-9",
+          "passageId": "study-eph-2-8-9",
+          "explanation": {
+            "en": "This is a different passage. You were saved by grace through faith. This is not your achievement; it is God’s gift, not the reward of good deeds, so that no one should boast. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분은 믿음을 통해 은혜로 구원받았습니다. 이는 여러분의 성취가 아니라 하나님의 선물이며 누구도 자랑하지 못하도록 선행의 보상이 아닙니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-5-24",
+          "passageId": "study-jhn-5-24",
+          "explanation": {
+            "en": "This is a different passage. I tell you truly: whoever hears my word and believes the one who sent me has eternal life. Such a person is not judged but has passed from death into life. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 진실로 말합니다. 내 말을 듣고 나를 보내신 분을 믿는 사람은 영원한 생명이 있습니다. 그런 사람은 심판받지 않고 죽음에서 생명으로 옮겨졌습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1jn-5-13",
+          "passageId": "study-1jn-5-13",
+          "explanation": {
+            "en": "This is a different passage. I wrote these things to you who believe in the name of God’s Son so that you may know you have eternal life. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 하나님의 아들의 이름을 믿는 여러분이 영원한 생명을 가지고 있음을 알도록 이것을 썼습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-isa-53-6"
+      ],
+      "explanations": {
+        "en": "This is the passage. We all had strayed from the path like sheep; each turned to their own way. Yet the LORD placed all our punishment on him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 우리는 모두 양처럼 길을 벗어났고 각자 자기 길로 돌아섰습니다. 그러나 주님은 우리 모두의 형벌을 그에게 지우셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-isa-53-6-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-isa-53-6",
+          "referenceId": "study-isa-53-6",
+          "explanation": {
+            "en": "This is the passage. We all had strayed from the path like sheep; each turned to their own way. Yet the LORD placed all our punishment on him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 우리는 모두 양처럼 길을 벗어났고 각자 자기 길로 돌아섰습니다. 그러나 주님은 우리 모두의 형벌을 그에게 지우셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-eph-2-8-9",
+          "referenceId": "study-eph-2-8-9",
+          "explanation": {
+            "en": "This is a different passage. You were saved by grace through faith. This is not your achievement; it is God’s gift, not the reward of good deeds, so that no one should boast. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분은 믿음을 통해 은혜로 구원받았습니다. 이는 여러분의 성취가 아니라 하나님의 선물이며 누구도 자랑하지 못하도록 선행의 보상이 아닙니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-5-24",
+          "referenceId": "study-jhn-5-24",
+          "explanation": {
+            "en": "This is a different passage. I tell you truly: whoever hears my word and believes the one who sent me has eternal life. Such a person is not judged but has passed from death into life. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 진실로 말합니다. 내 말을 듣고 나를 보내신 분을 믿는 사람은 영원한 생명이 있습니다. 그런 사람은 심판받지 않고 죽음에서 생명으로 옮겨졌습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1jn-5-13",
+          "referenceId": "study-1jn-5-13",
+          "explanation": {
+            "en": "This is a different passage. I wrote these things to you who believe in the name of God’s Son so that you may know you have eternal life. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 하나님의 아들의 이름을 믿는 여러분이 영원한 생명을 가지고 있음을 알도록 이것을 썼습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-isa-53-6"
+      ],
+      "explanations": {
+        "en": "This is the passage. We all had strayed from the path like sheep; each turned to their own way. Yet the LORD placed all our punishment on him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 우리는 모두 양처럼 길을 벗어났고 각자 자기 길로 돌아섰습니다. 그러나 주님은 우리 모두의 형벌을 그에게 지우셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-isa-53-6-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “ceza” in this passage?",
+        "ko": "이 본문에서 “ceza”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-isa-53-6-word-5-vocab",
+          "label": {
+            "en": "punishment / penalty",
+            "ko": "벌·형벌"
+          },
+          "explanation": {
+            "en": "punishment / penalty. Hepimizin is the genitive possessor. -sı is possession; final -ı is accusative.",
+            "ko": "벌·형벌. hepimizin이 속격 소유자입니다. -sı는 소유이고 마지막 -ı는 대격입니다."
+          }
+        },
+        {
+          "id": "study-isa-53-6-word-1-vocab",
+          "label": {
+            "en": "always / all along",
+            "ko": "항상"
+          },
+          "explanation": {
+            "en": "That definition belongs to hep. ceza means punishment / penalty here. Hepimizin is the genitive possessor. -sı is possession; final -ı is accusative.",
+            "ko": "그 뜻은 hep입니다. 여기 ceza는 벌·형벌입니다. hepimizin이 속격 소유자입니다. -sı는 소유이고 마지막 -ı는 대격입니다."
+          }
+        },
+        {
+          "id": "study-isa-53-6-word-2-vocab",
+          "label": {
+            "en": "road / way",
+            "ko": "길"
+          },
+          "explanation": {
+            "en": "That definition belongs to yol. ceza means punishment / penalty here. Hepimizin is the genitive possessor. -sı is possession; final -ı is accusative.",
+            "ko": "그 뜻은 yol입니다. 여기 ceza는 벌·형벌입니다. hepimizin이 속격 소유자입니다. -sı는 소유이고 마지막 -ı는 대격입니다."
+          }
+        },
+        {
+          "id": "study-isa-53-6-word-3-vocab",
+          "label": {
+            "en": "stray / deviate",
+            "ko": "빗나가다"
+          },
+          "explanation": {
+            "en": "That definition belongs to sapmak. ceza means punishment / penalty here. Hepimizin is the genitive possessor. -sı is possession; final -ı is accusative.",
+            "ko": "그 뜻은 sapmak입니다. 여기 ceza는 벌·형벌입니다. hepimizin이 속격 소유자입니다. -sı는 소유이고 마지막 -ı는 대격입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-isa-53-6-word-5-vocab"
+      ],
+      "explanations": {
+        "en": "Hepimizin is the genitive possessor. -sı is possession; final -ı is accusative.",
+        "ko": "hepimizin이 속격 소유자입니다. -sı는 소유이고 마지막 -ı는 대격입니다."
+      }
+    },
+    {
+      "id": "study-isa-53-6-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “yoldan”, what is the function of “-dan” here?",
+        "ko": "“yoldan”에서 “-dan”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from",
+            "ko": "탈격: ~에서·~로부터"
+          },
+          "explanation": {
+            "en": "Source / deviation. Sapmak takes the path departed from in the ablative.",
+            "ko": "이탈의 출발점. sapmak은 벗어난 길을 탈격으로 표시합니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Source / deviation. Sapmak takes the path departed from in the ablative.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 이탈의 출발점. sapmak은 벗어난 길을 탈격으로 표시합니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Source / deviation. Sapmak takes the path departed from in the ablative.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 이탈의 출발점. sapmak은 벗어난 길을 탈격으로 표시합니다."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Source / deviation. Sapmak takes the path departed from in the ablative.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 이탈의 출발점. sapmak은 벗어난 길을 탈격으로 표시합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ABL"
+      ],
+      "explanations": {
+        "en": "Sapmak takes the path departed from in the ablative.",
+        "ko": "sapmak은 벗어난 길을 탈격으로 표시합니다."
+      }
+    }
+  ]
+}

@@ -1,0 +1,710 @@
+{
+  "id": "study-php-4-19",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Philippians 4:19 through its clause structure and the forms Tanrım / ihtiyacınızı.",
+    "ko": "빌립보서 4:19의 절 구조와 Tanrım / ihtiyacınızı 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "My God will also meet every need of yours according to his riches, in a glorious way in Christ Jesus.",
+    "ko": "나의 하나님은 자신의 풍성함에 따라 그리스도 예수 안에서 영광스럽게 여러분의 모든 필요를 채우실 것입니다."
+  },
+  "clauses": [
+    {
+      "id": "study-php-4-19-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "PHP.4.19",
+          "start": 0,
+          "end": 97
+        }
+      ],
+      "naturalMeaning": {
+        "en": "God will meet your needs through his richness in Christ.",
+        "ko": "하나님은 그리스도 안의 풍성함으로 여러분의 필요를 채우실 것입니다."
+      },
+      "literalGloss": {
+        "en": "my God also / each need-your-object / own richness-with / in Christ Jesus / glorious a manner-in / will meet",
+        "ko": "나의 하나님도 / 여러분 모든 필요를 / 자신의 풍성함으로 / 그리스도 예수 안에서 / 영광스러운 방식으로 / 채울 것이다"
+      },
+      "explanation": {
+        "en": "Tanrım is the subject and ihtiyacınızı the object. Kendi refers to God. Görkemli bir biçimde is a manner phrase, not another object. Read the generosity context rather than turning “need” into a guarantee of every desired luxury.",
+        "ko": "Tanrım이 주어이고 ihtiyacınızı가 목적어입니다. kendi는 하나님을 가리킵니다. görkemli bir biçimde는 방식이며 추가 목적어가 아닙니다. 나눔의 문맥을 읽고 필요를 모든 사치의 보장으로 바꾸지 마세요."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-php-4-19-word-1",
+      "verseId": "PHP.4.19",
+      "start": 0,
+      "end": 6,
+      "surface": "Tanrım",
+      "lemma": "Tanrı",
+      "meaning": {
+        "en": "my God",
+        "ko": "나의 하나님"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "Tanrı",
+          "meaning": {
+            "en": "God",
+            "ko": "하나님"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "m",
+          "meaning": {
+            "en": "first-person singular possessive",
+            "ko": "1인칭 단수 소유"
+          },
+          "function": "P1"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "1sg"
+      },
+      "role": {
+        "en": "Possessed subject",
+        "ko": "소유 주어"
+      },
+      "contextualExplanation": {
+        "en": "Here it describes God as subject rather than directly addressing God in prayer.",
+        "ko": "여기서는 기도의 직접 호칭이 아니라 주어인 하나님을 묘사합니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "God",
+        "ko": "하나님"
+      }
+    },
+    {
+      "id": "study-php-4-19-word-2",
+      "verseId": "PHP.4.19",
+      "start": 14,
+      "end": 26,
+      "surface": "ihtiyacınızı",
+      "lemma": "ihtiyaç",
+      "meaning": {
+        "en": "your need (object)",
+        "ko": "여러분의 필요를"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "ihtiyac",
+          "meaning": {
+            "en": "need",
+            "ko": "필요"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ınız",
+          "meaning": {
+            "en": "second-person plural possessive",
+            "ko": "2인칭 복수 소유"
+          },
+          "function": "P2P"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "ihtiyaç → ihtiyac- before a vowel",
+          "ko": "모음 앞에서 ihtiyaç가 ihtiyac-로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "possessive": "2pl/polite",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Possessed definite object",
+        "ko": "소유 특정 목적어"
+      },
+      "contextualExplanation": {
+        "en": "Her uses a singular noun for every need; ç softens to c before possession.",
+        "ko": "her 뒤에서 각 필요를 단수로 표현하고 소유 모음 앞에서 ç가 c로 변합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "need",
+        "ko": "필요"
+      }
+    },
+    {
+      "id": "study-php-4-19-word-3",
+      "verseId": "PHP.4.19",
+      "start": 33,
+      "end": 46,
+      "surface": "zenginliğiyle",
+      "lemma": "zenginlik",
+      "meaning": {
+        "en": "by his richness",
+        "ko": "그분의 풍성함으로"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "zenginliğ",
+          "meaning": {
+            "en": "riches / wealth",
+            "ko": "풍성함·부"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "le",
+          "meaning": {
+            "en": "with / by",
+            "ko": "~와 함께·~로"
+          },
+          "function": "WITH"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "zenginlik → zenginliğ- before a vowel",
+          "ko": "모음 앞에서 zenginlik가 zenginliğ-로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Possessed means",
+        "ko": "소유 수단"
+      },
+      "contextualExplanation": {
+        "en": "The possessor is God, not the listeners.",
+        "ko": "소유자는 청자가 아니라 하나님입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "riches / wealth",
+        "ko": "풍성함·부"
+      }
+    },
+    {
+      "id": "study-php-4-19-word-4",
+      "verseId": "PHP.4.19",
+      "start": 73,
+      "end": 80,
+      "surface": "biçimde",
+      "lemma": "biçim",
+      "meaning": {
+        "en": "in a manner",
+        "ko": "방식으로"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "biçim",
+          "meaning": {
+            "en": "form / manner",
+            "ko": "형태·방식"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "de",
+          "meaning": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "function": "LOC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "case": "locative"
+      },
+      "role": {
+        "en": "Manner expression",
+        "ko": "방식 표현"
+      },
+      "contextualExplanation": {
+        "en": "In bir biçimde, locative contributes manner rather than a physical location.",
+        "ko": "bir biçimde의 처소격은 물리적 장소가 아니라 방식입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "form / manner",
+        "ko": "형태·방식"
+      }
+    },
+    {
+      "id": "study-php-4-19-word-5",
+      "verseId": "PHP.4.19",
+      "start": 81,
+      "end": 96,
+      "surface": "karşılayacaktır",
+      "lemma": "karşılamak",
+      "meaning": {
+        "en": "will meet / provide for",
+        "ko": "채울 것이다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "karşıla",
+          "meaning": {
+            "en": "meet / fulfill (a need)",
+            "ko": "맞이하다·충족하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "acak",
+          "meaning": {
+            "en": "future",
+            "ko": "미래"
+          },
+          "function": "FUT"
+        },
+        {
+          "form": "tır",
+          "meaning": {
+            "en": "copular/assertive ending",
+            "ko": "계사·단정 어미"
+          },
+          "function": "COP"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "future"
+      },
+      "role": {
+        "en": "Assertive future",
+        "ko": "단정 미래"
+      },
+      "contextualExplanation": {
+        "en": "İhtiyaç karşılamak means meet a need; karşılamak also means greet in other contexts.",
+        "ko": "ihtiyaç karşılamak은 필요를 채우다이며 다른 문맥에서는 맞이하다도 됩니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "meet / fulfill (a need)",
+        "ko": "맞이하다·충족하다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-php-4-19-word-1-vocab",
+      "analysisId": "study-php-4-19-word-1",
+      "lemma": "Tanrı",
+      "classification": "biblical",
+      "definitions": {
+        "en": "God",
+        "ko": "하나님"
+      },
+      "usageNotes": {
+        "en": "Here it describes God as subject rather than directly addressing God in prayer.",
+        "ko": "여기서는 기도의 직접 호칭이 아니라 주어인 하나님을 묘사합니다."
+      }
+    },
+    {
+      "id": "study-php-4-19-word-2-vocab",
+      "analysisId": "study-php-4-19-word-2",
+      "lemma": "ihtiyaç",
+      "classification": "general",
+      "definitions": {
+        "en": "need",
+        "ko": "필요"
+      },
+      "usageNotes": {
+        "en": "Her uses a singular noun for every need; ç softens to c before possession.",
+        "ko": "her 뒤에서 각 필요를 단수로 표현하고 소유 모음 앞에서 ç가 c로 변합니다."
+      }
+    },
+    {
+      "id": "study-php-4-19-word-3-vocab",
+      "analysisId": "study-php-4-19-word-3",
+      "lemma": "zenginlik",
+      "classification": "general",
+      "definitions": {
+        "en": "riches / wealth",
+        "ko": "풍성함·부"
+      },
+      "usageNotes": {
+        "en": "The possessor is God, not the listeners.",
+        "ko": "소유자는 청자가 아니라 하나님입니다."
+      }
+    },
+    {
+      "id": "study-php-4-19-word-4-vocab",
+      "analysisId": "study-php-4-19-word-4",
+      "lemma": "biçim",
+      "classification": "general",
+      "definitions": {
+        "en": "form / manner",
+        "ko": "형태·방식"
+      },
+      "usageNotes": {
+        "en": "In bir biçimde, locative contributes manner rather than a physical location.",
+        "ko": "bir biçimde의 처소격은 물리적 장소가 아니라 방식입니다."
+      }
+    },
+    {
+      "id": "study-php-4-19-word-5-vocab",
+      "analysisId": "study-php-4-19-word-5",
+      "lemma": "karşılamak",
+      "classification": "general",
+      "definitions": {
+        "en": "meet / fulfill (a need)",
+        "ko": "맞이하다·충족하다"
+      },
+      "usageNotes": {
+        "en": "İhtiyaç karşılamak means meet a need; karşılamak also means greet in other contexts.",
+        "ko": "ihtiyaç karşılamak은 필요를 채우다이며 다른 문맥에서는 맞이하다도 됩니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-php-4-19-grammar-1",
+      "title": {
+        "en": "Every with a singular noun",
+        "ko": "her와 단수 명사"
+      },
+      "explanation": {
+        "en": "Her ihtiyacınızı refers to each need; the possessive -ınız addresses plural readers. That plural ending does not pluralize the need itself.",
+        "ko": "her ihtiyacınızı는 각 필요이고 소유 -ınız는 복수 독자를 가리킵니다. 이 어미가 필요 자체를 복수화하는 것은 아닙니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "PHP.4.19",
+          "start": 0,
+          "end": 97
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-php-4-19-grammar-2",
+      "title": {
+        "en": "Location used for manner",
+        "ko": "방식을 나타내는 처소격"
+      },
+      "explanation": {
+        "en": "Bir biçimde can be rendered “in a way.” Choose the contextual function rather than forcing a place meaning for -de.",
+        "ko": "bir biçimde는 어떤 방식으로입니다. -de를 언제나 장소로 해석하지 마세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "PHP.4.19",
+          "start": 0,
+          "end": 97
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-04"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Ask what practical need you can help meet, using ihtiyaç and karşılamak.",
+    "ko": "ihtiyaç·karşılamak으로 도울 수 있는 실제 필요를 물으세요."
+  },
+  "modelResponse": {
+    "tr": "Hangi ihtiyacınızı karşılayabilirim? Size yemek getirebilirim.",
+    "meaning": {
+      "en": "What need can I help meet? I can bring food for you.",
+      "ko": "어떤 필요를 도와드릴까요? 음식을 가져다드릴 수 있습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "ministry-04"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-php-4-19-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Philippians 4:19? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 빌립보서 4:19인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-php-4-19",
+          "passageId": "study-php-4-19",
+          "explanation": {
+            "en": "This is the passage. My God will also meet every need of yours according to his riches, in a glorious way in Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 나의 하나님은 자신의 풍성함에 따라 그리스도 예수 안에서 영광스럽게 여러분의 모든 필요를 채우실 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-8-32",
+          "passageId": "study-rom-8-32",
+          "explanation": {
+            "en": "This is a different passage. God did not even spare his own Son, but handed him over to death for us all. Will he not also graciously give us everything together with him? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 하나님은 자신의 아들도 아끼지 않고 우리 모두를 위해 죽음에 넘겨주셨습니다. 그분과 함께 모든 것도 우리에게 은혜로 주시지 않겠습니까? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-2-12",
+          "passageId": "study-1co-2-12",
+          "explanation": {
+            "en": "This is a different passage. We received the Spirit who comes from God rather than this world’s spirit, so that we may know what God has graciously given us. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 우리는 이 세상의 영이 아니라 하나님께로부터 온 영을 받았습니다. 하나님이 우리에게 은혜로 주신 것을 알기 위해서입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-isa-26-3",
+          "passageId": "study-isa-26-3",
+          "explanation": {
+            "en": "This is a different passage. You protect in complete peace the one whose thoughts are steadfast, because that person trusts you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 주님을 신뢰하기 때문에 생각이 흔들리지 않는 사람을 완전한 평강 가운데 지키십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-php-4-19"
+      ],
+      "explanations": {
+        "en": "This is the passage. My God will also meet every need of yours according to his riches, in a glorious way in Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 나의 하나님은 자신의 풍성함에 따라 그리스도 예수 안에서 영광스럽게 여러분의 모든 필요를 채우실 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-php-4-19-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-php-4-19",
+          "referenceId": "study-php-4-19",
+          "explanation": {
+            "en": "This is the passage. My God will also meet every need of yours according to his riches, in a glorious way in Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 나의 하나님은 자신의 풍성함에 따라 그리스도 예수 안에서 영광스럽게 여러분의 모든 필요를 채우실 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-8-32",
+          "referenceId": "study-rom-8-32",
+          "explanation": {
+            "en": "This is a different passage. God did not even spare his own Son, but handed him over to death for us all. Will he not also graciously give us everything together with him? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 하나님은 자신의 아들도 아끼지 않고 우리 모두를 위해 죽음에 넘겨주셨습니다. 그분과 함께 모든 것도 우리에게 은혜로 주시지 않겠습니까? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-2-12",
+          "referenceId": "study-1co-2-12",
+          "explanation": {
+            "en": "This is a different passage. We received the Spirit who comes from God rather than this world’s spirit, so that we may know what God has graciously given us. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 우리는 이 세상의 영이 아니라 하나님께로부터 온 영을 받았습니다. 하나님이 우리에게 은혜로 주신 것을 알기 위해서입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-isa-26-3",
+          "referenceId": "study-isa-26-3",
+          "explanation": {
+            "en": "This is a different passage. You protect in complete peace the one whose thoughts are steadfast, because that person trusts you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 주님을 신뢰하기 때문에 생각이 흔들리지 않는 사람을 완전한 평강 가운데 지키십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-php-4-19"
+      ],
+      "explanations": {
+        "en": "This is the passage. My God will also meet every need of yours according to his riches, in a glorious way in Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 나의 하나님은 자신의 풍성함에 따라 그리스도 예수 안에서 영광스럽게 여러분의 모든 필요를 채우실 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-php-4-19-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “Tanrı” in this passage?",
+        "ko": "이 본문에서 “Tanrı”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-php-4-19-word-1-vocab",
+          "label": {
+            "en": "God",
+            "ko": "하나님"
+          },
+          "explanation": {
+            "en": "God. Here it describes God as subject rather than directly addressing God in prayer.",
+            "ko": "하나님. 여기서는 기도의 직접 호칭이 아니라 주어인 하나님을 묘사합니다."
+          }
+        },
+        {
+          "id": "study-php-4-19-word-2-vocab",
+          "label": {
+            "en": "need",
+            "ko": "필요"
+          },
+          "explanation": {
+            "en": "That definition belongs to ihtiyaç. Tanrı means God here. Here it describes God as subject rather than directly addressing God in prayer.",
+            "ko": "그 뜻은 ihtiyaç입니다. 여기 Tanrı는 하나님입니다. 여기서는 기도의 직접 호칭이 아니라 주어인 하나님을 묘사합니다."
+          }
+        },
+        {
+          "id": "study-php-4-19-word-3-vocab",
+          "label": {
+            "en": "riches / wealth",
+            "ko": "풍성함·부"
+          },
+          "explanation": {
+            "en": "That definition belongs to zenginlik. Tanrı means God here. Here it describes God as subject rather than directly addressing God in prayer.",
+            "ko": "그 뜻은 zenginlik입니다. 여기 Tanrı는 하나님입니다. 여기서는 기도의 직접 호칭이 아니라 주어인 하나님을 묘사합니다."
+          }
+        },
+        {
+          "id": "study-php-4-19-word-4-vocab",
+          "label": {
+            "en": "form / manner",
+            "ko": "형태·방식"
+          },
+          "explanation": {
+            "en": "That definition belongs to biçim. Tanrı means God here. Here it describes God as subject rather than directly addressing God in prayer.",
+            "ko": "그 뜻은 biçim입니다. 여기 Tanrı는 하나님입니다. 여기서는 기도의 직접 호칭이 아니라 주어인 하나님을 묘사합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-php-4-19-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Here it describes God as subject rather than directly addressing God in prayer.",
+        "ko": "여기서는 기도의 직접 호칭이 아니라 주어인 하나님을 묘사합니다."
+      }
+    },
+    {
+      "id": "study-php-4-19-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “ihtiyacınızı”, what is the function of “-ı” here?",
+        "ko": "“ihtiyacınızı”에서 “-ı”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "Possessed definite object. Her uses a singular noun for every need; ç softens to c before possession.",
+            "ko": "소유 특정 목적어. her 뒤에서 각 필요를 단수로 표현하고 소유 모음 앞에서 ç가 c로 변합니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed definite object. Her uses a singular noun for every need; ç softens to c before possession.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 특정 목적어. her 뒤에서 각 필요를 단수로 표현하고 소유 모음 앞에서 ç가 c로 변합니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed definite object. Her uses a singular noun for every need; ç softens to c before possession.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 특정 목적어. her 뒤에서 각 필요를 단수로 표현하고 소유 모음 앞에서 ç가 c로 변합니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed definite object. Her uses a singular noun for every need; ç softens to c before possession.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 특정 목적어. her 뒤에서 각 필요를 단수로 표현하고 소유 모음 앞에서 ç가 c로 변합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ACC"
+      ],
+      "explanations": {
+        "en": "Her uses a singular noun for every need; ç softens to c before possession.",
+        "ko": "her 뒤에서 각 필요를 단수로 표현하고 소유 모음 앞에서 ç가 c로 변합니다."
+      }
+    }
+  ]
+}

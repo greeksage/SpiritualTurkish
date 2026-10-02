@@ -1,0 +1,683 @@
+{
+  "id": "study-jhn-13-34-35",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand John 13:34, 35 through its clause structure and the forms Birbirinizi / sevdiğim.",
+    "ko": "요한복음 13:34, 35의 절 구조와 Birbirinizi / sevdiğim 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "I give you a new command: love one another as I have loved you. By your love for one another, everyone will recognize that you are my disciples.",
+    "ko": "새 계명을 줍니다. 내가 여러분을 사랑한 것처럼 서로 사랑하세요. 서로 사랑하면 모든 사람이 여러분이 나의 제자임을 알 것입니다."
+  },
+  "clauses": [
+    {
+      "id": "study-jhn-13-34-35-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "JHN.13.34",
+          "start": 0,
+          "end": 95
+        }
+      ],
+      "naturalMeaning": {
+        "en": "The love already given becomes the comparison for the command.",
+        "ko": "이미 주신 사랑이 명령의 비교 기준이 됩니다."
+      },
+      "literalGloss": {
+        "en": "to-you new command give-I / each-other-object love / you-object loved-my as / you also each-other-object love",
+        "ko": "여러분에게 새 계명을 준다 / 서로를 사랑하라 / 내가 여러분을 사랑한 대로 / 여러분도 서로를 사랑하라"
+      },
+      "explanation": {
+        "en": "Birbirinizi has second-person plural reference plus accusative. Sevdiğim gibi uses a participle with I as its embedded subject, not a finite verb. Siz de adds “you too.”",
+        "ko": "birbirinizi는 2인칭 복수 대상과 대격입니다. sevdiğim gibi는 내포 주어가 나인 관계형이며 독립 동사가 아닙니다. siz de는 여러분도입니다."
+      }
+    },
+    {
+      "id": "study-jhn-13-34-35-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "JHN.13.35",
+          "start": 0,
+          "end": 88
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Their mutual love makes their discipleship recognizable.",
+        "ko": "서로의 사랑이 제자임을 알아보게 합니다."
+      },
+      "literalGloss": {
+        "en": "to-each-other love-your if-be / everyone by-this my disciples being-your-object will-understand",
+        "ko": "서로를 향한 여러분 사랑이 있으면 / 모두 이것으로 나의 제자임을 알 것이다"
+      },
+      "explanation": {
+        "en": "Sevginiz olursa is a condition, not a required quiz result. Birbirinize is dative, expressing love’s direction. Öğrencilerim olduğunuzu is the accusative content clause of anlayacaktır.",
+        "ko": "sevginiz olursa는 조건이며 필수 퀴즈 결과가 아닙니다. birbirinize는 사랑의 방향인 여격입니다. öğrencilerim olduğunuzu는 anlayacaktır의 대격 내용절입니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-jhn-13-34-35-word-1",
+      "verseId": "JHN.13.34",
+      "start": 32,
+      "end": 43,
+      "surface": "Birbirinizi",
+      "lemma": "birbiri",
+      "meaning": {
+        "en": "one another (object)",
+        "ko": "서로를"
+      },
+      "partOfSpeech": {
+        "en": "Pronoun / pronominal expression",
+        "ko": "대명사·대명 표현"
+      },
+      "segments": [
+        {
+          "form": "Birbir",
+          "meaning": {
+            "en": "one another",
+            "ko": "서로"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "iniz",
+          "meaning": {
+            "en": "second-person plural possessive",
+            "ko": "2인칭 복수 소유"
+          },
+          "function": "P2P"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "2pl/polite",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Reciprocal object",
+        "ko": "상호 대명사 목적어"
+      },
+      "contextualExplanation": {
+        "en": "Compare birbirinize, to one another, in the next verse. Case depends on the construction, not reciprocal meaning alone.",
+        "ko": "다음 절의 서로에게 birbirinize와 비교하세요. 격은 상호 의미 자체가 아니라 구문이 정합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "one another",
+        "ko": "서로"
+      }
+    },
+    {
+      "id": "study-jhn-13-34-35-word-2",
+      "verseId": "JHN.13.34",
+      "start": 56,
+      "end": 64,
+      "surface": "sevdiğim",
+      "lemma": "sevmek",
+      "meaning": {
+        "en": "as I loved",
+        "ko": "내가 사랑한"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "sev",
+          "meaning": {
+            "en": "love (verb)",
+            "ko": "사랑하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "diğ",
+          "meaning": {
+            "en": "nominalizing/participial -DIK",
+            "ko": "명사화·관계형 -DIK"
+          },
+          "function": "DIK"
+        },
+        {
+          "form": "im",
+          "meaning": {
+            "en": "first-person singular possessive",
+            "ko": "1인칭 단수 소유"
+          },
+          "function": "P1"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-dik → -diğ before a vowel",
+          "ko": "모음 앞에서 -dik가 -diğ로 변합니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "-DIK nominal/participial",
+        "possessive": "1sg"
+      },
+      "role": {
+        "en": "First-person embedded modifier",
+        "ko": "1인칭 내포 수식"
+      },
+      "contextualExplanation": {
+        "en": "Gibi follows the clause and gives the comparison.",
+        "ko": "gibi가 절 뒤에서 비교를 줍니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "love (verb)",
+        "ko": "사랑하다"
+      }
+    },
+    {
+      "id": "study-jhn-13-34-35-word-3",
+      "verseId": "JHN.13.35",
+      "start": 21,
+      "end": 27,
+      "surface": "olursa",
+      "lemma": "olmak",
+      "meaning": {
+        "en": "if there is / if it is",
+        "ko": "~이 있으면"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ol",
+          "meaning": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ur",
+          "meaning": {
+            "en": "aorist: general / habitual",
+            "ko": "일반·습관 현재"
+          },
+          "function": "AOR"
+        },
+        {
+          "form": "sa",
+          "meaning": {
+            "en": "conditional",
+            "ko": "조건"
+          },
+          "function": "COND"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "aorist",
+        "mood": "conditional"
+      },
+      "role": {
+        "en": "Aorist conditional",
+        "ko": "일반 현재 조건"
+      },
+      "contextualExplanation": {
+        "en": "Sevginiz is the subject; no second-person verb ending is needed for that noun.",
+        "ko": "sevginiz가 주어이며 그 명사에 맞춰 2인칭 동사 어미를 넣지 않습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      }
+    },
+    {
+      "id": "study-jhn-13-34-35-word-4",
+      "verseId": "JHN.13.35",
+      "start": 63,
+      "end": 73,
+      "surface": "olduğunuzu",
+      "lemma": "olmak",
+      "meaning": {
+        "en": "that you are (object)",
+        "ko": "여러분이 ~임을"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ol",
+          "meaning": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "duğ",
+          "meaning": {
+            "en": "nominalizing/participial -DIK",
+            "ko": "명사화·관계형 -DIK"
+          },
+          "function": "DIK"
+        },
+        {
+          "form": "unuz",
+          "meaning": {
+            "en": "second-person plural possessive",
+            "ko": "2인칭 복수 소유"
+          },
+          "function": "P2P"
+        },
+        {
+          "form": "u",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-duk → -duğ before a vowel",
+          "ko": "모음 앞에서 -duk가 -duğ로 변합니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "-DIK nominal/participial",
+        "possessive": "2pl/polite",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Content clause object",
+        "ko": "내용절 목적어"
+      },
+      "contextualExplanation": {
+        "en": "-unuz identifies the embedded subject you; final -u marks what everyone understands.",
+        "ko": "-unuz는 내포 주어 여러분이고 마지막 -u는 모두가 이해하는 내용을 표시합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-jhn-13-34-35-word-1-vocab",
+      "analysisId": "study-jhn-13-34-35-word-1",
+      "lemma": "birbiri",
+      "classification": "general",
+      "definitions": {
+        "en": "one another",
+        "ko": "서로"
+      },
+      "usageNotes": {
+        "en": "Compare birbirinize, to one another, in the next verse. Case depends on the construction, not reciprocal meaning alone.",
+        "ko": "다음 절의 서로에게 birbirinize와 비교하세요. 격은 상호 의미 자체가 아니라 구문이 정합니다."
+      }
+    },
+    {
+      "id": "study-jhn-13-34-35-word-2-vocab",
+      "analysisId": "study-jhn-13-34-35-word-2",
+      "lemma": "sevmek",
+      "classification": "general",
+      "definitions": {
+        "en": "love (verb)",
+        "ko": "사랑하다"
+      },
+      "usageNotes": {
+        "en": "Gibi follows the clause and gives the comparison.",
+        "ko": "gibi가 절 뒤에서 비교를 줍니다."
+      }
+    },
+    {
+      "id": "study-jhn-13-34-35-word-3-vocab",
+      "analysisId": "study-jhn-13-34-35-word-3",
+      "lemma": "olmak",
+      "classification": "general",
+      "definitions": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      },
+      "usageNotes": {
+        "en": "Sevginiz is the subject; no second-person verb ending is needed for that noun.",
+        "ko": "sevginiz가 주어이며 그 명사에 맞춰 2인칭 동사 어미를 넣지 않습니다."
+      }
+    },
+    {
+      "id": "study-jhn-13-34-35-word-4-vocab",
+      "analysisId": "study-jhn-13-34-35-word-4",
+      "lemma": "olmak",
+      "classification": "general",
+      "definitions": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      },
+      "usageNotes": {
+        "en": "-unuz identifies the embedded subject you; final -u marks what everyone understands.",
+        "ko": "-unuz는 내포 주어 여러분이고 마지막 -u는 모두가 이해하는 내용을 표시합니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-jhn-13-34-35-grammar-1",
+      "title": {
+        "en": "Reciprocity with different cases",
+        "ko": "서로의 다른 격"
+      },
+      "explanation": {
+        "en": "Birbirinizi sevin uses accusative; birbirinize sevginiz uses dative. Learn the noun/verb frame around the reciprocal.",
+        "ko": "birbirinizi sevin은 대격이고 birbirinize sevginiz는 여격입니다. 상호 대명사 주변의 명사·동사 틀을 익히세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "JHN.13.34",
+          "start": 0,
+          "end": 95
+        },
+        {
+          "verseId": "JHN.13.35",
+          "start": 0,
+          "end": 88
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-jhn-13-34-35-grammar-2",
+      "title": {
+        "en": "Comparison versus content clause",
+        "ko": "비교절·내용절"
+      },
+      "explanation": {
+        "en": "Sevdiğim gibi means as I loved; olduğunuzu means that you are. Both use -DIK plus person/possessive morphology but have different external functions.",
+        "ko": "sevdiğim gibi는 내가 사랑한 대로이고 olduğunuzu는 여러분이 ~임을입니다. 둘 다 -DIK와 인칭·소유 형태를 쓰지만 바깥 역할이 다릅니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "JHN.13.34",
+          "start": 0,
+          "end": 95
+        },
+        {
+          "verseId": "JHN.13.35",
+          "start": 0,
+          "end": 88
+        }
+      ],
+      "relatedLessonIds": [
+        "foundation-church"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Write a practical mutual-support statement using birbirimize and a comparison with gibi.",
+    "ko": "birbirimize와 gibi 비교로 실제 상호 지지를 말하세요."
+  },
+  "modelResponse": {
+    "tr": "Birbirimize yardım edelim. Konuştuğumuz gibi yarın buluşalım.",
+    "meaning": {
+      "en": "Let us help one another. Let us meet tomorrow as we discussed.",
+      "ko": "서로 돕고 이야기한 대로 내일 만납시다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "foundation-church"
+  ],
+  "relatedReadingIds": [
+    "reading-Yu-13-34-35"
+  ],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-jhn-13-34-35-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to John 13:34, 35? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 요한복음 13:34, 35인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-jhn-13-34-35",
+          "passageId": "study-jhn-13-34-35",
+          "explanation": {
+            "en": "This is the passage. I give you a new command: love one another as I have loved you. By your love for one another, everyone will recognize that you are my disciples. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 새 계명을 줍니다. 내가 여러분을 사랑한 것처럼 서로 사랑하세요. 서로 사랑하면 모든 사람이 여러분이 나의 제자임을 알 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-php-2-3-4",
+          "passageId": "study-php-2-3-4",
+          "explanation": {
+            "en": "This is a different passage. Do nothing out of selfish ambition or empty boasting. In humility, regard another as above oneself; care for others’ interests as well as one’s own. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 이기적 욕심이나 헛된 자랑으로 아무것도 하지 마세요. 겸손히 다른 이를 자신보다 높게 여기며 자기 이익만이 아니라 다른 이의 이익도 돌보세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-4-20-21",
+          "passageId": "study-rom-4-20-21",
+          "explanation": {
+            "en": "This is a different passage. Abraham did not doubt God’s promise through unbelief; rather his faith grew strong and he gave glory to God, fully trusting that God had the power to fulfill his promise. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 아브라함은 불신으로 하나님의 약속을 의심하지 않았고 믿음이 강해져 하나님을 높였으며 그분이 약속을 이룰 능력이 있음을 온전히 신뢰했습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-11-6",
+          "passageId": "study-heb-11-6",
+          "explanation": {
+            "en": "This is a different passage. Without faith it is impossible to please God. Whoever approaches him must believe that he exists and will reward those who seek him. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 믿음 없이 하나님을 기쁘게 하는 것은 불가능합니다. 그분께 나아가는 이는 그분이 계시고 찾는 이들에게 상 주심을 믿어야 합니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-jhn-13-34-35"
+      ],
+      "explanations": {
+        "en": "This is the passage. I give you a new command: love one another as I have loved you. By your love for one another, everyone will recognize that you are my disciples. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 새 계명을 줍니다. 내가 여러분을 사랑한 것처럼 서로 사랑하세요. 서로 사랑하면 모든 사람이 여러분이 나의 제자임을 알 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-jhn-13-34-35-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-jhn-13-34-35",
+          "referenceId": "study-jhn-13-34-35",
+          "explanation": {
+            "en": "This is the passage. I give you a new command: love one another as I have loved you. By your love for one another, everyone will recognize that you are my disciples. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 새 계명을 줍니다. 내가 여러분을 사랑한 것처럼 서로 사랑하세요. 서로 사랑하면 모든 사람이 여러분이 나의 제자임을 알 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-php-2-3-4",
+          "referenceId": "study-php-2-3-4",
+          "explanation": {
+            "en": "This is a different passage. Do nothing out of selfish ambition or empty boasting. In humility, regard another as above oneself; care for others’ interests as well as one’s own. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 이기적 욕심이나 헛된 자랑으로 아무것도 하지 마세요. 겸손히 다른 이를 자신보다 높게 여기며 자기 이익만이 아니라 다른 이의 이익도 돌보세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-4-20-21",
+          "referenceId": "study-rom-4-20-21",
+          "explanation": {
+            "en": "This is a different passage. Abraham did not doubt God’s promise through unbelief; rather his faith grew strong and he gave glory to God, fully trusting that God had the power to fulfill his promise. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 아브라함은 불신으로 하나님의 약속을 의심하지 않았고 믿음이 강해져 하나님을 높였으며 그분이 약속을 이룰 능력이 있음을 온전히 신뢰했습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-11-6",
+          "referenceId": "study-heb-11-6",
+          "explanation": {
+            "en": "This is a different passage. Without faith it is impossible to please God. Whoever approaches him must believe that he exists and will reward those who seek him. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 믿음 없이 하나님을 기쁘게 하는 것은 불가능합니다. 그분께 나아가는 이는 그분이 계시고 찾는 이들에게 상 주심을 믿어야 합니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-jhn-13-34-35"
+      ],
+      "explanations": {
+        "en": "This is the passage. I give you a new command: love one another as I have loved you. By your love for one another, everyone will recognize that you are my disciples. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 새 계명을 줍니다. 내가 여러분을 사랑한 것처럼 서로 사랑하세요. 서로 사랑하면 모든 사람이 여러분이 나의 제자임을 알 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-jhn-13-34-35-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “birbiri” in this passage?",
+        "ko": "이 본문에서 “birbiri”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-jhn-13-34-35-word-1-vocab",
+          "label": {
+            "en": "one another",
+            "ko": "서로"
+          },
+          "explanation": {
+            "en": "one another. Compare birbirinize, to one another, in the next verse. Case depends on the construction, not reciprocal meaning alone.",
+            "ko": "서로. 다음 절의 서로에게 birbirinize와 비교하세요. 격은 상호 의미 자체가 아니라 구문이 정합니다."
+          }
+        },
+        {
+          "id": "study-jhn-13-34-35-word-2-vocab",
+          "label": {
+            "en": "love (verb)",
+            "ko": "사랑하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to sevmek. birbiri means one another here. Compare birbirinize, to one another, in the next verse. Case depends on the construction, not reciprocal meaning alone.",
+            "ko": "그 뜻은 sevmek입니다. 여기 birbiri는 서로입니다. 다음 절의 서로에게 birbirinize와 비교하세요. 격은 상호 의미 자체가 아니라 구문이 정합니다."
+          }
+        },
+        {
+          "id": "study-jhn-13-34-35-word-3-vocab",
+          "label": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "explanation": {
+            "en": "That definition belongs to olmak. birbiri means one another here. Compare birbirinize, to one another, in the next verse. Case depends on the construction, not reciprocal meaning alone.",
+            "ko": "그 뜻은 olmak입니다. 여기 birbiri는 서로입니다. 다음 절의 서로에게 birbirinize와 비교하세요. 격은 상호 의미 자체가 아니라 구문이 정합니다."
+          }
+        },
+        {
+          "id": "study-jhn-13-34-35-word-4-vocab",
+          "label": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "explanation": {
+            "en": "That definition belongs to olmak. birbiri means one another here. Compare birbirinize, to one another, in the next verse. Case depends on the construction, not reciprocal meaning alone.",
+            "ko": "그 뜻은 olmak입니다. 여기 birbiri는 서로입니다. 다음 절의 서로에게 birbirinize와 비교하세요. 격은 상호 의미 자체가 아니라 구문이 정합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-jhn-13-34-35-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Compare birbirinize, to one another, in the next verse. Case depends on the construction, not reciprocal meaning alone.",
+        "ko": "다음 절의 서로에게 birbirinize와 비교하세요. 격은 상호 의미 자체가 아니라 구문이 정합니다."
+      }
+    },
+    {
+      "id": "study-jhn-13-34-35-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “Birbirinizi”, what is the function of “-i” here?",
+        "ko": "“Birbirinizi”에서 “-i”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "Reciprocal object. Compare birbirinize, to one another, in the next verse. Case depends on the construction, not reciprocal meaning alone.",
+            "ko": "상호 대명사 목적어. 다음 절의 서로에게 birbirinize와 비교하세요. 격은 상호 의미 자체가 아니라 구문이 정합니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Reciprocal object. Compare birbirinize, to one another, in the next verse. Case depends on the construction, not reciprocal meaning alone.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 상호 대명사 목적어. 다음 절의 서로에게 birbirinize와 비교하세요. 격은 상호 의미 자체가 아니라 구문이 정합니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Reciprocal object. Compare birbirinize, to one another, in the next verse. Case depends on the construction, not reciprocal meaning alone.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 상호 대명사 목적어. 다음 절의 서로에게 birbirinize와 비교하세요. 격은 상호 의미 자체가 아니라 구문이 정합니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Reciprocal object. Compare birbirinize, to one another, in the next verse. Case depends on the construction, not reciprocal meaning alone.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 상호 대명사 목적어. 다음 절의 서로에게 birbirinize와 비교하세요. 격은 상호 의미 자체가 아니라 구문이 정합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ACC"
+      ],
+      "explanations": {
+        "en": "Compare birbirinize, to one another, in the next verse. Case depends on the construction, not reciprocal meaning alone.",
+        "ko": "다음 절의 서로에게 birbirinize와 비교하세요. 격은 상호 의미 자체가 아니라 구문이 정합니다."
+      }
+    }
+  ]
+}

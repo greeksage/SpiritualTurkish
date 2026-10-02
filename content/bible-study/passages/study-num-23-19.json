@@ -1,0 +1,691 @@
+{
+  "id": "study-num-23-19",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Numbers 23:19 through its clause structure and the forms söylesin / soyundan.",
+    "ko": "민수기 23:19의 절 구조와 söylesin / soyundan 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "God is not human, that he should lie or change his mind. Does he say something and not do it, or promise and not fulfil it?",
+    "ko": "하나님은 사람이 아니시므로 거짓말하거나 생각을 바꾸는 분이 아닙니다. 말씀하고 행하지 않으시거나 약속하고 지키지 않으시겠습니까?"
+  },
+  "clauses": [
+    {
+      "id": "study-num-23-19-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "NUM.23.19",
+          "start": 0,
+          "end": 143
+        }
+      ],
+      "naturalMeaning": {
+        "en": "God’s words and promises are trustworthy rather than humanly unreliable.",
+        "ko": "하나님의 말씀과 약속은 인간의 불신실함과 달리 신뢰할 수 있습니다."
+      },
+      "literalGloss": {
+        "en": "God human not-that / lie let-say; human stock-from not-that / thought-his-object let-change; he says and does-not? / promise gives and fulfils-not?",
+        "ko": "하나님 사람이 아니니 / 거짓을 말하랴; 사람의 계통에서 아니니 / 생각을 바꾸랴; 말하고 안 하랴 / 약속하고 안 지키랴"
+      },
+      "explanation": {
+        "en": "Ki links the denial of humanity with what would follow. Söylesin and değiştirsin are third-person imperative/wish forms in a rhetorical construction, not commands for God to lie. The questions use aorist and negative aorist, expecting no.",
+        "ko": "ki는 사람이 아니라는 부정과 그 결과를 잇습니다. söylesin·değiştirsin은 수사적 구문의 3인칭 명령·희구형이지 하나님께 거짓을 말하라는 명령이 아닙니다. 일반 현재·부정 일반 현재 의문은 아니오를 기대합니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-num-23-19-word-1",
+      "verseId": "NUM.23.19",
+      "start": 28,
+      "end": 36,
+      "surface": "söylesin",
+      "lemma": "söylemek",
+      "meaning": {
+        "en": "that he should say",
+        "ko": "그분이 말하랴"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "söyle",
+          "meaning": {
+            "en": "say / tell",
+            "ko": "말하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "sin",
+          "meaning": {
+            "en": "third-person imperative: let …",
+            "ko": "3인칭 명령: ~하게 하라"
+          },
+          "function": "IMP3"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "mood": "third-person imperative"
+      },
+      "role": {
+        "en": "Third-person form in rhetoric",
+        "ko": "수사적 3인칭 형태"
+      },
+      "contextualExplanation": {
+        "en": "Yalan söylemek is tell a lie; context changes the rhetorical force of -sin.",
+        "ko": "yalan söylemek은 거짓말하다이며 문맥이 -sin의 수사적 힘을 정합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "say / tell",
+        "ko": "말하다"
+      }
+    },
+    {
+      "id": "study-num-23-19-word-2",
+      "verseId": "NUM.23.19",
+      "start": 44,
+      "end": 52,
+      "surface": "soyundan",
+      "lemma": "soy",
+      "meaning": {
+        "en": "from human ancestry",
+        "ko": "인간 계통에서"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "soy",
+          "meaning": {
+            "en": "lineage / kind / offspring",
+            "ko": "혈통·종류·자손"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "u",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "dan",
+          "meaning": {
+            "en": "ablative: from / away from",
+            "ko": "탈격: ~에서·~로부터"
+          },
+          "function": "ABL"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "ablative"
+      },
+      "role": {
+        "en": "Compound noun with origin",
+        "ko": "명사 결합·출처"
+      },
+      "contextualExplanation": {
+        "en": "İnsan soyu is a compound; ablative follows the possessed ending and buffer n.",
+        "ko": "insan soyu는 명사 결합이고 소유·완충 n 뒤에 탈격이 붙습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "lineage / kind / offspring",
+        "ko": "혈통·종류·자손"
+      }
+    },
+    {
+      "id": "study-num-23-19-word-3",
+      "verseId": "NUM.23.19",
+      "start": 63,
+      "end": 74,
+      "surface": "Düşüncesini",
+      "lemma": "düşünce",
+      "meaning": {
+        "en": "his thought (object)",
+        "ko": "그분의 생각을"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "Düşünce",
+          "meaning": {
+            "en": "thought / thinking",
+            "ko": "생각"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "si",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Possessed object",
+        "ko": "소유 목적어"
+      },
+      "contextualExplanation": {
+        "en": "The object is his thought/intention; possession is not the final object ending.",
+        "ko": "목적어는 그분의 생각·뜻이며 소유와 마지막 대격을 구별합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "thought / thinking",
+        "ko": "생각"
+      }
+    },
+    {
+      "id": "study-num-23-19-word-4",
+      "verseId": "NUM.23.19",
+      "start": 100,
+      "end": 106,
+      "surface": "yapmaz",
+      "lemma": "yapmak",
+      "meaning": {
+        "en": "does not do",
+        "ko": "행하지 않는다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yap",
+          "meaning": {
+            "en": "do / make",
+            "ko": "하다·만들다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "maz",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "tenseAspect": "negative aorist"
+      },
+      "role": {
+        "en": "Negative aorist in a question",
+        "ko": "의문 안의 부정 일반 현재"
+      },
+      "contextualExplanation": {
+        "en": "The separate mı turns this into a rhetorical question.",
+        "ko": "띄어 쓴 mı가 수사 의문을 만듭니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "do / make",
+        "ko": "하다·만들다"
+      }
+    },
+    {
+      "id": "study-num-23-19-word-5",
+      "verseId": "NUM.23.19",
+      "start": 131,
+      "end": 139,
+      "surface": "getirmez",
+      "lemma": "getirmek",
+      "meaning": {
+        "en": "does not fulfil",
+        "ko": "이행하지 않는다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "getir",
+          "meaning": {
+            "en": "bring",
+            "ko": "가져오다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "mez",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "tenseAspect": "negative aorist"
+      },
+      "role": {
+        "en": "Negative aorist in an idiom",
+        "ko": "관용구의 부정 일반 현재"
+      },
+      "contextualExplanation": {
+        "en": "Yerine getirmek means fulfil; its object is the promise from söz verir.",
+        "ko": "yerine getirmek은 이행하다이며 앞 söz verir의 약속을 목적어로 이해합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "bring",
+        "ko": "가져오다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-num-23-19-word-1-vocab",
+      "analysisId": "study-num-23-19-word-1",
+      "lemma": "söylemek",
+      "classification": "general",
+      "definitions": {
+        "en": "say / tell",
+        "ko": "말하다"
+      },
+      "usageNotes": {
+        "en": "Yalan söylemek is tell a lie; context changes the rhetorical force of -sin.",
+        "ko": "yalan söylemek은 거짓말하다이며 문맥이 -sin의 수사적 힘을 정합니다."
+      }
+    },
+    {
+      "id": "study-num-23-19-word-2-vocab",
+      "analysisId": "study-num-23-19-word-2",
+      "lemma": "soy",
+      "classification": "general",
+      "definitions": {
+        "en": "lineage / kind / offspring",
+        "ko": "혈통·종류·자손"
+      },
+      "usageNotes": {
+        "en": "İnsan soyu is a compound; ablative follows the possessed ending and buffer n.",
+        "ko": "insan soyu는 명사 결합이고 소유·완충 n 뒤에 탈격이 붙습니다."
+      }
+    },
+    {
+      "id": "study-num-23-19-word-3-vocab",
+      "analysisId": "study-num-23-19-word-3",
+      "lemma": "düşünce",
+      "classification": "general",
+      "definitions": {
+        "en": "thought / thinking",
+        "ko": "생각"
+      },
+      "usageNotes": {
+        "en": "The object is his thought/intention; possession is not the final object ending.",
+        "ko": "목적어는 그분의 생각·뜻이며 소유와 마지막 대격을 구별합니다."
+      }
+    },
+    {
+      "id": "study-num-23-19-word-4-vocab",
+      "analysisId": "study-num-23-19-word-4",
+      "lemma": "yapmak",
+      "classification": "general",
+      "definitions": {
+        "en": "do / make",
+        "ko": "하다·만들다"
+      },
+      "usageNotes": {
+        "en": "The separate mı turns this into a rhetorical question.",
+        "ko": "띄어 쓴 mı가 수사 의문을 만듭니다."
+      }
+    },
+    {
+      "id": "study-num-23-19-word-5-vocab",
+      "analysisId": "study-num-23-19-word-5",
+      "lemma": "getirmek",
+      "classification": "general",
+      "definitions": {
+        "en": "bring",
+        "ko": "가져오다"
+      },
+      "usageNotes": {
+        "en": "Yerine getirmek means fulfil; its object is the promise from söz verir.",
+        "ko": "yerine getirmek은 이행하다이며 앞 söz verir의 약속을 목적어로 이해합니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-num-23-19-grammar-1",
+      "title": {
+        "en": "Rhetorical -sin and ki",
+        "ko": "수사적 -sin과 ki"
+      },
+      "explanation": {
+        "en": "Tanrı insan değil ki yalan söylesin denies the condition under which lying would be expected. Do not translate -sin as a literal command.",
+        "ko": "Tanrı insan değil ki yalan söylesin은 거짓말이 예상될 조건을 부정합니다. -sin을 문자적 명령으로 옮기지 마세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "NUM.23.19",
+          "start": 0,
+          "end": 143
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-num-23-19-grammar-2",
+      "title": {
+        "en": "Questions with shared actions",
+        "ko": "나란한 행동의 의문"
+      },
+      "explanation": {
+        "en": "Söyler de yapmaz mı and söz verir de yerine getirmez mi use additive de between actions; neither de is locative.",
+        "ko": "söyler de yapmaz mı·söz verir de yerine getirmez mi의 de는 행동을 잇는 첨가이며 처소격이 아닙니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "NUM.23.19",
+          "start": 0,
+          "end": 143
+        }
+      ],
+      "relatedLessonIds": []
+    }
+  ],
+  "independentTask": {
+    "en": "Write a polite question about fulfilling a promise without assuming the other person is dishonest.",
+    "ko": "상대가 불성실하다고 단정하지 말고 약속 이행을 정중히 물으세요."
+  },
+  "modelResponse": {
+    "tr": "Verdiğiniz sözü ne zaman yerine getirebilirsiniz?",
+    "meaning": {
+      "en": "When could you fulfil the promise you made?",
+      "ko": "하신 약속을 언제 이행하실 수 있나요?"
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-num-23-19-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Numbers 23:19? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 민수기 23:19인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-num-23-19",
+          "passageId": "study-num-23-19",
+          "explanation": {
+            "en": "This is the passage. God is not human, that he should lie or change his mind. Does he say something and not do it, or promise and not fulfil it? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 하나님은 사람이 아니시므로 거짓말하거나 생각을 바꾸는 분이 아닙니다. 말씀하고 행하지 않으시거나 약속하고 지키지 않으시겠습니까? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-lam-3-22-23",
+          "passageId": "study-lam-3-22-23",
+          "explanation": {
+            "en": "This is a different passage. The LORD’s love never runs out and his mercy never ends. They are renewed every morning; your faithfulness is great. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 주님의 사랑은 다하지 않고 자비는 끝나지 않습니다. 날마다 아침 새로워지며 주님의 신실하심은 큽니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-isa-41-10",
+          "passageId": "study-isa-41-10",
+          "explanation": {
+            "en": "This is a different passage. Do not fear or lose heart: I am with you and I am your God. I will strengthen you, help you, and uphold you with my victorious right hand. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 두려워하거나 낙심하지 마세요. 나는 너와 함께하며 너의 하나님입니다. 힘을 주고 돕고 승리하는 오른손으로 붙들겠습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-8-32",
+          "passageId": "study-rom-8-32",
+          "explanation": {
+            "en": "This is a different passage. God did not even spare his own Son, but handed him over to death for us all. Will he not also graciously give us everything together with him? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 하나님은 자신의 아들도 아끼지 않고 우리 모두를 위해 죽음에 넘겨주셨습니다. 그분과 함께 모든 것도 우리에게 은혜로 주시지 않겠습니까? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-num-23-19"
+      ],
+      "explanations": {
+        "en": "This is the passage. God is not human, that he should lie or change his mind. Does he say something and not do it, or promise and not fulfil it? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 하나님은 사람이 아니시므로 거짓말하거나 생각을 바꾸는 분이 아닙니다. 말씀하고 행하지 않으시거나 약속하고 지키지 않으시겠습니까? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-num-23-19-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-num-23-19",
+          "referenceId": "study-num-23-19",
+          "explanation": {
+            "en": "This is the passage. God is not human, that he should lie or change his mind. Does he say something and not do it, or promise and not fulfil it? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 하나님은 사람이 아니시므로 거짓말하거나 생각을 바꾸는 분이 아닙니다. 말씀하고 행하지 않으시거나 약속하고 지키지 않으시겠습니까? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-lam-3-22-23",
+          "referenceId": "study-lam-3-22-23",
+          "explanation": {
+            "en": "This is a different passage. The LORD’s love never runs out and his mercy never ends. They are renewed every morning; your faithfulness is great. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 주님의 사랑은 다하지 않고 자비는 끝나지 않습니다. 날마다 아침 새로워지며 주님의 신실하심은 큽니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-isa-41-10",
+          "referenceId": "study-isa-41-10",
+          "explanation": {
+            "en": "This is a different passage. Do not fear or lose heart: I am with you and I am your God. I will strengthen you, help you, and uphold you with my victorious right hand. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 두려워하거나 낙심하지 마세요. 나는 너와 함께하며 너의 하나님입니다. 힘을 주고 돕고 승리하는 오른손으로 붙들겠습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-8-32",
+          "referenceId": "study-rom-8-32",
+          "explanation": {
+            "en": "This is a different passage. God did not even spare his own Son, but handed him over to death for us all. Will he not also graciously give us everything together with him? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 하나님은 자신의 아들도 아끼지 않고 우리 모두를 위해 죽음에 넘겨주셨습니다. 그분과 함께 모든 것도 우리에게 은혜로 주시지 않겠습니까? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-num-23-19"
+      ],
+      "explanations": {
+        "en": "This is the passage. God is not human, that he should lie or change his mind. Does he say something and not do it, or promise and not fulfil it? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 하나님은 사람이 아니시므로 거짓말하거나 생각을 바꾸는 분이 아닙니다. 말씀하고 행하지 않으시거나 약속하고 지키지 않으시겠습니까? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-num-23-19-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “söylemek” in this passage?",
+        "ko": "이 본문에서 “söylemek”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-num-23-19-word-1-vocab",
+          "label": {
+            "en": "say / tell",
+            "ko": "말하다"
+          },
+          "explanation": {
+            "en": "say / tell. Yalan söylemek is tell a lie; context changes the rhetorical force of -sin.",
+            "ko": "말하다. yalan söylemek은 거짓말하다이며 문맥이 -sin의 수사적 힘을 정합니다."
+          }
+        },
+        {
+          "id": "study-num-23-19-word-2-vocab",
+          "label": {
+            "en": "lineage / kind / offspring",
+            "ko": "혈통·종류·자손"
+          },
+          "explanation": {
+            "en": "That definition belongs to soy. söylemek means say / tell here. Yalan söylemek is tell a lie; context changes the rhetorical force of -sin.",
+            "ko": "그 뜻은 soy입니다. 여기 söylemek는 말하다입니다. yalan söylemek은 거짓말하다이며 문맥이 -sin의 수사적 힘을 정합니다."
+          }
+        },
+        {
+          "id": "study-num-23-19-word-3-vocab",
+          "label": {
+            "en": "thought / thinking",
+            "ko": "생각"
+          },
+          "explanation": {
+            "en": "That definition belongs to düşünce. söylemek means say / tell here. Yalan söylemek is tell a lie; context changes the rhetorical force of -sin.",
+            "ko": "그 뜻은 düşünce입니다. 여기 söylemek는 말하다입니다. yalan söylemek은 거짓말하다이며 문맥이 -sin의 수사적 힘을 정합니다."
+          }
+        },
+        {
+          "id": "study-num-23-19-word-4-vocab",
+          "label": {
+            "en": "do / make",
+            "ko": "하다·만들다"
+          },
+          "explanation": {
+            "en": "That definition belongs to yapmak. söylemek means say / tell here. Yalan söylemek is tell a lie; context changes the rhetorical force of -sin.",
+            "ko": "그 뜻은 yapmak입니다. 여기 söylemek는 말하다입니다. yalan söylemek은 거짓말하다이며 문맥이 -sin의 수사적 힘을 정합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-num-23-19-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Yalan söylemek is tell a lie; context changes the rhetorical force of -sin.",
+        "ko": "yalan söylemek은 거짓말하다이며 문맥이 -sin의 수사적 힘을 정합니다."
+      }
+    },
+    {
+      "id": "study-num-23-19-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “soyundan”, what is the function of “-dan” here?",
+        "ko": "“soyundan”에서 “-dan”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from",
+            "ko": "탈격: ~에서·~로부터"
+          },
+          "explanation": {
+            "en": "Compound noun with origin. İnsan soyu is a compound; ablative follows the possessed ending and buffer n.",
+            "ko": "명사 결합·출처. insan soyu는 명사 결합이고 소유·완충 n 뒤에 탈격이 붙습니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Compound noun with origin. İnsan soyu is a compound; ablative follows the possessed ending and buffer n.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 명사 결합·출처. insan soyu는 명사 결합이고 소유·완충 n 뒤에 탈격이 붙습니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Compound noun with origin. İnsan soyu is a compound; ablative follows the possessed ending and buffer n.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 명사 결합·출처. insan soyu는 명사 결합이고 소유·완충 n 뒤에 탈격이 붙습니다."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Compound noun with origin. İnsan soyu is a compound; ablative follows the possessed ending and buffer n.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 명사 결합·출처. insan soyu는 명사 결합이고 소유·완충 n 뒤에 탈격이 붙습니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ABL"
+      ],
+      "explanations": {
+        "en": "İnsan soyu is a compound; ablative follows the possessed ending and buffer n.",
+        "ko": "insan soyu는 명사 결합이고 소유·완충 n 뒤에 탈격이 붙습니다."
+      }
+    }
+  ]
+}

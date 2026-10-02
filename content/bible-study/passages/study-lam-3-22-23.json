@@ -1,0 +1,760 @@
+{
+  "id": "study-lam-3-22-23",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Lamentations 3:22, 23 through its clause structure and the forms sevgisi / tükenmez.",
+    "ko": "예레미야애가 3:22, 23의 절 구조와 sevgisi / tükenmez 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "The LORD’s love never runs out and his mercy never ends. They are renewed every morning; your faithfulness is great.",
+    "ko": "주님의 사랑은 다하지 않고 자비는 끝나지 않습니다. 날마다 아침 새로워지며 주님의 신실하심은 큽니다."
+  },
+  "clauses": [
+    {
+      "id": "study-lam-3-22-23-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "LAM.3.22",
+          "start": 0,
+          "end": 55
+        }
+      ],
+      "naturalMeaning": {
+        "en": "The LORD’s love and mercy do not come to an end.",
+        "ko": "주님의 사랑과 자비는 끝나지 않습니다."
+      },
+      "literalGloss": {
+        "en": "LORD’s love / never exhausts / mercy-his / never end finds",
+        "ko": "주님의 사랑 / 결코 다하지 않는다 / 그분 자비 / 결코 끝나지 않는다"
+      },
+      "explanation": {
+        "en": "Sevgisi and merhameti are possessed subjects. Hiç and asla intensify the negative aorist. Son bulmak is “come to an end,” not discover an ending.",
+        "ko": "sevgisi·merhameti는 소유 주어입니다. hiç·asla는 부정 일반 현재를 강조합니다. son bulmak은 끝나다라는 결합이며 끝을 발견한다가 아닙니다."
+      }
+    },
+    {
+      "id": "study-lam-3-22-23-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "LAM.3.23",
+          "start": 0,
+          "end": 46
+        }
+      ],
+      "naturalMeaning": {
+        "en": "They are renewed every morning; your faithfulness is great.",
+        "ko": "그것들은 아침마다 새로워지며 주님의 신실하심은 큽니다."
+      },
+      "literalGloss": {
+        "en": "every morning / are-renewed / they; your faithfulness / great-is",
+        "ko": "아침마다 / 새로워진다 / 그것들; 너의 신실함 / 크다"
+      },
+      "explanation": {
+        "en": "Poetic onlar follows the verb and refers to love/mercy. Sadakatin switches to direct second-person address to God. Büyük is a nominal adjective predicate.",
+        "ko": "시적 onlar는 동사 뒤에 오며 사랑·자비를 가리킵니다. Sadakatin은 하나님께 직접 말하는 2인칭으로 바뀝니다. büyük는 형용사 술어입니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-lam-3-22-23-word-1",
+      "verseId": "LAM.3.22",
+      "start": 8,
+      "end": 15,
+      "surface": "sevgisi",
+      "lemma": "sevgi",
+      "meaning": {
+        "en": "his love",
+        "ko": "그분의 사랑"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "sevgi",
+          "meaning": {
+            "en": "love (noun)",
+            "ko": "사랑 (명사)"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "si",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Possessed subject",
+        "ko": "소유 주어"
+      },
+      "contextualExplanation": {
+        "en": "RAB’bin identifies whose love is described.",
+        "ko": "RAB’bin이 누구의 사랑인지 밝힙니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "love (noun)",
+        "ko": "사랑 (명사)"
+      }
+    },
+    {
+      "id": "study-lam-3-22-23-word-2",
+      "verseId": "LAM.3.22",
+      "start": 20,
+      "end": 28,
+      "surface": "tükenmez",
+      "lemma": "tükenmek",
+      "meaning": {
+        "en": "never runs out",
+        "ko": "다하지 않는다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "tüken",
+          "meaning": {
+            "en": "run out / be exhausted",
+            "ko": "다하다·소진되다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "mez",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "tenseAspect": "negative aorist"
+      },
+      "role": {
+        "en": "Negative aorist",
+        "ko": "부정 일반 현재"
+      },
+      "contextualExplanation": {
+        "en": "The ending expresses a general negative statement; hiç reinforces it.",
+        "ko": "어미가 일반적 부정을 나타내며 hiç가 강화합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "run out / be exhausted",
+        "ko": "다하다·소진되다"
+      }
+    },
+    {
+      "id": "study-lam-3-22-23-word-3",
+      "verseId": "LAM.3.22",
+      "start": 30,
+      "end": 39,
+      "surface": "Merhameti",
+      "lemma": "merhamet",
+      "meaning": {
+        "en": "his mercy",
+        "ko": "그분의 자비"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "Merhamet",
+          "meaning": {
+            "en": "mercy / compassion",
+            "ko": "긍휼·자비"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Possessed subject",
+        "ko": "소유 주어"
+      },
+      "contextualExplanation": {
+        "en": "Its possessor remains the LORD from the preceding line.",
+        "ko": "소유자는 앞줄의 주님으로 이어집니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "mercy / compassion",
+        "ko": "긍휼·자비"
+      }
+    },
+    {
+      "id": "study-lam-3-22-23-word-4",
+      "verseId": "LAM.3.23",
+      "start": 10,
+      "end": 19,
+      "surface": "tazelenir",
+      "lemma": "tazelenmek",
+      "meaning": {
+        "en": "is renewed",
+        "ko": "새로워진다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "tazelen",
+          "meaning": {
+            "en": "be refreshed / renewed",
+            "ko": "새로워지다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ir",
+          "meaning": {
+            "en": "aorist: general / habitual",
+            "ko": "일반·습관 현재"
+          },
+          "function": "AOR"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "aorist"
+      },
+      "role": {
+        "en": "General recurring renewal",
+        "ko": "일반적 반복 새로움"
+      },
+      "contextualExplanation": {
+        "en": "Her sabah supplies recurrence; the lexical tazelenmek is become fresh/be renewed.",
+        "ko": "her sabah가 반복을 주며 tazelenmek은 새로워지다라는 어휘 동사입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "be refreshed / renewed",
+        "ko": "새로워지다"
+      }
+    },
+    {
+      "id": "study-lam-3-22-23-word-5",
+      "verseId": "LAM.3.23",
+      "start": 27,
+      "end": 36,
+      "surface": "Sadakatin",
+      "lemma": "sadakat",
+      "meaning": {
+        "en": "your faithfulness",
+        "ko": "당신의 신실하심"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "Sadakat",
+          "meaning": {
+            "en": "faithfulness / loyalty",
+            "ko": "신실함·충실함"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "in",
+          "meaning": {
+            "en": "second-person singular possessive",
+            "ko": "2인칭 단수 소유"
+          },
+          "function": "P2"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "2sg"
+      },
+      "role": {
+        "en": "Direct-address possessed subject",
+        "ko": "직접 호칭 소유 주어"
+      },
+      "contextualExplanation": {
+        "en": "The second-person possessor is God, not the reader or the plural mercies.",
+        "ko": "2인칭 소유자는 독자나 자비들이 아니라 하나님입니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "faithfulness / loyalty",
+        "ko": "신실함·충실함"
+      }
+    },
+    {
+      "id": "study-lam-3-22-23-word-6",
+      "verseId": "LAM.3.23",
+      "start": 37,
+      "end": 45,
+      "surface": "büyüktür",
+      "lemma": "büyük",
+      "meaning": {
+        "en": "is great",
+        "ko": "크다"
+      },
+      "partOfSpeech": {
+        "en": "Adjective (may be used as a noun)",
+        "ko": "형용사 (명사로도 사용)"
+      },
+      "segments": [
+        {
+          "form": "büyük",
+          "meaning": {
+            "en": "big / great",
+            "ko": "큰"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "tür",
+          "meaning": {
+            "en": "copular/assertive ending",
+            "ko": "계사·단정 어미"
+          },
+          "function": "COP"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {},
+      "role": {
+        "en": "Assertive adjective predicate",
+        "ko": "단정 형용사 술어"
+      },
+      "contextualExplanation": {
+        "en": "The voiceless final k selects -tür.",
+        "ko": "마지막 무성음 k에 따라 -tür가 붙습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "big / great",
+        "ko": "큰"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-lam-3-22-23-word-1-vocab",
+      "analysisId": "study-lam-3-22-23-word-1",
+      "lemma": "sevgi",
+      "classification": "biblical",
+      "definitions": {
+        "en": "love (noun)",
+        "ko": "사랑 (명사)"
+      },
+      "usageNotes": {
+        "en": "RAB’bin identifies whose love is described.",
+        "ko": "RAB’bin이 누구의 사랑인지 밝힙니다."
+      },
+      "wordFamily": [
+        "sevmek",
+        "sevgi",
+        "sevgili"
+      ]
+    },
+    {
+      "id": "study-lam-3-22-23-word-2-vocab",
+      "analysisId": "study-lam-3-22-23-word-2",
+      "lemma": "tükenmek",
+      "classification": "general",
+      "definitions": {
+        "en": "run out / be exhausted",
+        "ko": "다하다·소진되다"
+      },
+      "usageNotes": {
+        "en": "The ending expresses a general negative statement; hiç reinforces it.",
+        "ko": "어미가 일반적 부정을 나타내며 hiç가 강화합니다."
+      }
+    },
+    {
+      "id": "study-lam-3-22-23-word-3-vocab",
+      "analysisId": "study-lam-3-22-23-word-3",
+      "lemma": "merhamet",
+      "classification": "biblical",
+      "definitions": {
+        "en": "mercy / compassion",
+        "ko": "긍휼·자비"
+      },
+      "usageNotes": {
+        "en": "Its possessor remains the LORD from the preceding line.",
+        "ko": "소유자는 앞줄의 주님으로 이어집니다."
+      }
+    },
+    {
+      "id": "study-lam-3-22-23-word-4-vocab",
+      "analysisId": "study-lam-3-22-23-word-4",
+      "lemma": "tazelenmek",
+      "classification": "general",
+      "definitions": {
+        "en": "be refreshed / renewed",
+        "ko": "새로워지다"
+      },
+      "usageNotes": {
+        "en": "Her sabah supplies recurrence; the lexical tazelenmek is become fresh/be renewed.",
+        "ko": "her sabah가 반복을 주며 tazelenmek은 새로워지다라는 어휘 동사입니다."
+      }
+    },
+    {
+      "id": "study-lam-3-22-23-word-5-vocab",
+      "analysisId": "study-lam-3-22-23-word-5",
+      "lemma": "sadakat",
+      "classification": "biblical",
+      "definitions": {
+        "en": "faithfulness / loyalty",
+        "ko": "신실함·충실함"
+      },
+      "usageNotes": {
+        "en": "The second-person possessor is God, not the reader or the plural mercies.",
+        "ko": "2인칭 소유자는 독자나 자비들이 아니라 하나님입니다."
+      }
+    },
+    {
+      "id": "study-lam-3-22-23-word-6-vocab",
+      "analysisId": "study-lam-3-22-23-word-6",
+      "lemma": "büyük",
+      "classification": "general",
+      "definitions": {
+        "en": "big / great",
+        "ko": "큰"
+      },
+      "usageNotes": {
+        "en": "The voiceless final k selects -tür.",
+        "ko": "마지막 무성음 k에 따라 -tür가 붙습니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-lam-3-22-23-grammar-1",
+      "title": {
+        "en": "Third-person description to direct address",
+        "ko": "3인칭 묘사에서 직접 호칭으로"
+      },
+      "explanation": {
+        "en": "Sevgisi and merhameti describe God in third person; sadakatin addresses God directly. Preserve the speaker/addressee shift in prayer adaptations.",
+        "ko": "sevgisi·merhameti는 하나님을 3인칭으로 묘사하고 sadakatin은 직접 호칭입니다. 기도에 적용할 때 화자·대상 전환을 유지하세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "LAM.3.22",
+          "start": 0,
+          "end": 55
+        },
+        {
+          "verseId": "LAM.3.23",
+          "start": 0,
+          "end": 46
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-lam-3-22-23-grammar-2",
+      "title": {
+        "en": "Poetic word order",
+        "ko": "시적 어순"
+      },
+      "explanation": {
+        "en": "Tazelenir onlar places the subject after the predicate. The clause remains comprehensible through its morphology and context.",
+        "ko": "tazelenir onlar는 주어가 술어 뒤에 옵니다. 형태와 문맥으로 관계를 이해하세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "LAM.3.22",
+          "start": 0,
+          "end": 55
+        },
+        {
+          "verseId": "LAM.3.23",
+          "start": 0,
+          "end": 46
+        }
+      ],
+      "relatedLessonIds": [
+        "prayer-hardship"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Write a personal statement of gratitude with second-person possession and label it as your own prayer.",
+    "ko": "2인칭 소유형으로 감사하고 자신의 기도임을 표시하세요."
+  },
+  "modelResponse": {
+    "tr": "Tanrım, sevgin ve merhametin için sana teşekkür ederim.",
+    "meaning": {
+      "en": "My God, thank you for your love and mercy.",
+      "ko": "하나님, 사랑과 자비에 감사드립니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "prayer-hardship"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-lam-3-22-23-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Lamentations 3:22, 23? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 예레미야애가 3:22, 23인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-lam-3-22-23",
+          "passageId": "study-lam-3-22-23",
+          "explanation": {
+            "en": "This is the passage. The LORD’s love never runs out and his mercy never ends. They are renewed every morning; your faithfulness is great. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 주님의 사랑은 다하지 않고 자비는 끝나지 않습니다. 날마다 아침 새로워지며 주님의 신실하심은 큽니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-num-23-19",
+          "passageId": "study-num-23-19",
+          "explanation": {
+            "en": "This is a different passage. God is not human, that he should lie or change his mind. Does he say something and not do it, or promise and not fulfil it? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 하나님은 사람이 아니시므로 거짓말하거나 생각을 바꾸는 분이 아닙니다. 말씀하고 행하지 않으시거나 약속하고 지키지 않으시겠습니까? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-2-12",
+          "passageId": "study-1co-2-12",
+          "explanation": {
+            "en": "This is a different passage. We received the Spirit who comes from God rather than this world’s spirit, so that we may know what God has graciously given us. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 우리는 이 세상의 영이 아니라 하나님께로부터 온 영을 받았습니다. 하나님이 우리에게 은혜로 주신 것을 알기 위해서입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-php-4-19",
+          "passageId": "study-php-4-19",
+          "explanation": {
+            "en": "This is a different passage. My God will also meet every need of yours according to his riches, in a glorious way in Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 나의 하나님은 자신의 풍성함에 따라 그리스도 예수 안에서 영광스럽게 여러분의 모든 필요를 채우실 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-lam-3-22-23"
+      ],
+      "explanations": {
+        "en": "This is the passage. The LORD’s love never runs out and his mercy never ends. They are renewed every morning; your faithfulness is great. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 주님의 사랑은 다하지 않고 자비는 끝나지 않습니다. 날마다 아침 새로워지며 주님의 신실하심은 큽니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-lam-3-22-23-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-lam-3-22-23",
+          "referenceId": "study-lam-3-22-23",
+          "explanation": {
+            "en": "This is the passage. The LORD’s love never runs out and his mercy never ends. They are renewed every morning; your faithfulness is great. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 주님의 사랑은 다하지 않고 자비는 끝나지 않습니다. 날마다 아침 새로워지며 주님의 신실하심은 큽니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-num-23-19",
+          "referenceId": "study-num-23-19",
+          "explanation": {
+            "en": "This is a different passage. God is not human, that he should lie or change his mind. Does he say something and not do it, or promise and not fulfil it? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 하나님은 사람이 아니시므로 거짓말하거나 생각을 바꾸는 분이 아닙니다. 말씀하고 행하지 않으시거나 약속하고 지키지 않으시겠습니까? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-2-12",
+          "referenceId": "study-1co-2-12",
+          "explanation": {
+            "en": "This is a different passage. We received the Spirit who comes from God rather than this world’s spirit, so that we may know what God has graciously given us. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 우리는 이 세상의 영이 아니라 하나님께로부터 온 영을 받았습니다. 하나님이 우리에게 은혜로 주신 것을 알기 위해서입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-php-4-19",
+          "referenceId": "study-php-4-19",
+          "explanation": {
+            "en": "This is a different passage. My God will also meet every need of yours according to his riches, in a glorious way in Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 나의 하나님은 자신의 풍성함에 따라 그리스도 예수 안에서 영광스럽게 여러분의 모든 필요를 채우실 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-lam-3-22-23"
+      ],
+      "explanations": {
+        "en": "This is the passage. The LORD’s love never runs out and his mercy never ends. They are renewed every morning; your faithfulness is great. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 주님의 사랑은 다하지 않고 자비는 끝나지 않습니다. 날마다 아침 새로워지며 주님의 신실하심은 큽니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-lam-3-22-23-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “sevgi” in this passage?",
+        "ko": "이 본문에서 “sevgi”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-lam-3-22-23-word-1-vocab",
+          "label": {
+            "en": "love (noun)",
+            "ko": "사랑 (명사)"
+          },
+          "explanation": {
+            "en": "love (noun). RAB’bin identifies whose love is described.",
+            "ko": "사랑 (명사). RAB’bin이 누구의 사랑인지 밝힙니다."
+          }
+        },
+        {
+          "id": "study-lam-3-22-23-word-2-vocab",
+          "label": {
+            "en": "run out / be exhausted",
+            "ko": "다하다·소진되다"
+          },
+          "explanation": {
+            "en": "That definition belongs to tükenmek. sevgi means love (noun) here. RAB’bin identifies whose love is described.",
+            "ko": "그 뜻은 tükenmek입니다. 여기 sevgi는 사랑 (명사)입니다. RAB’bin이 누구의 사랑인지 밝힙니다."
+          }
+        },
+        {
+          "id": "study-lam-3-22-23-word-3-vocab",
+          "label": {
+            "en": "mercy / compassion",
+            "ko": "긍휼·자비"
+          },
+          "explanation": {
+            "en": "That definition belongs to merhamet. sevgi means love (noun) here. RAB’bin identifies whose love is described.",
+            "ko": "그 뜻은 merhamet입니다. 여기 sevgi는 사랑 (명사)입니다. RAB’bin이 누구의 사랑인지 밝힙니다."
+          }
+        },
+        {
+          "id": "study-lam-3-22-23-word-4-vocab",
+          "label": {
+            "en": "be refreshed / renewed",
+            "ko": "새로워지다"
+          },
+          "explanation": {
+            "en": "That definition belongs to tazelenmek. sevgi means love (noun) here. RAB’bin identifies whose love is described.",
+            "ko": "그 뜻은 tazelenmek입니다. 여기 sevgi는 사랑 (명사)입니다. RAB’bin이 누구의 사랑인지 밝힙니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-lam-3-22-23-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "RAB’bin identifies whose love is described.",
+        "ko": "RAB’bin이 누구의 사랑인지 밝힙니다."
+      }
+    },
+    {
+      "id": "study-lam-3-22-23-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “sevgisi”, what is the function of “-si” here?",
+        "ko": "“sevgisi”에서 “-si”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "P3",
+          "label": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "explanation": {
+            "en": "Possessed subject. RAB’bin identifies whose love is described.",
+            "ko": "소유 주어. RAB’bin이 누구의 사랑인지 밝힙니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed subject. RAB’bin identifies whose love is described.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 주어. RAB’bin이 누구의 사랑인지 밝힙니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed subject. RAB’bin identifies whose love is described.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 주어. RAB’bin이 누구의 사랑인지 밝힙니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed subject. RAB’bin identifies whose love is described.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 주어. RAB’bin이 누구의 사랑인지 밝힙니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "P3"
+      ],
+      "explanations": {
+        "en": "RAB’bin identifies whose love is described.",
+        "ko": "RAB’bin이 누구의 사랑인지 밝힙니다."
+      }
+    }
+  ]
+}

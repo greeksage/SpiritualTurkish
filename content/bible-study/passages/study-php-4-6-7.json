@@ -1,0 +1,887 @@
+{
+  "id": "study-php-4-6-7",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Philippians 4:6, 7 through its clause structure and the forms kaygılanmayın / konudaki.",
+    "ko": "빌립보서 4:6, 7의 절 구조와 kaygılanmayın / konudaki 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Do not be anxious about anything. In every matter, make your requests known to God through prayer and appeal, with thanksgiving. Then God’s peace, exceeding every kind of understanding, will protect your hearts and thoughts through Christ Jesus.",
+    "ko": "아무것도 염려하지 마세요. 모든 일에서 기도하고 간구하며 감사로 하나님께 바라는 것을 아뢰세요. 그러면 모든 이해를 넘어서는 하나님의 평강이 그리스도 예수를 통해 여러분의 마음과 생각을 지킬 것입니다."
+  },
+  "clauses": [
+    {
+      "id": "study-php-4-6-7-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "PHP.4.6",
+          "start": 0,
+          "end": 94
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Make your requests known to God with prayer, appeal, and thanksgiving rather than anxiety.",
+        "ko": "염려 대신 기도·간구·감사로 하나님께 요청을 아뢰세요."
+      },
+      "literalGloss": {
+        "en": "not at all be-anxious-command; each matter-in-related requests-your-object / to God / pray-and / appealing / with gratitude / report",
+        "ko": "전혀 염려하지 마라; 모든 일에 속한 요청들을 / 하나님께 / 기도하고 / 간구하며 / 감사로 / 알려라"
+      },
+      "explanation": {
+        "en": "Hiç strengthens negation. Dua edip links praying to the next action; yalvararak explains the manner of bildirin. The comma does not break dileklerinizi away from its governing verb.",
+        "ko": "hiç는 부정을 강화합니다. dua edip은 기도를 다음 행위와 잇고 yalvararak은 bildirin의 방식을 설명합니다. 쉼표가 있어도 dileklerinizi는 bildirin의 목적어입니다."
+      }
+    },
+    {
+      "id": "study-php-4-6-7-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "PHP.4.7",
+          "start": 0,
+          "end": 115
+        }
+      ],
+      "naturalMeaning": {
+        "en": "God’s peace beyond all understanding will protect your hearts and thoughts through Christ Jesus.",
+        "ko": "모든 이해를 넘어서는 하나님의 평강이 그리스도 예수를 통해 여러분의 마음과 생각을 지킬 것입니다."
+      },
+      "literalGloss": {
+        "en": "then God’s / every understanding exceeding / peace-his / through Christ Jesus / your hearts and thoughts-object / will guard",
+        "ko": "그때 하나님의 / 모든 이해를 넘는 / 평강 / 그리스도 예수를 통해 / 여러분 마음·생각을 / 지킬 것이다"
+      },
+      "explanation": {
+        "en": "The long subject ends at esenliği. Her kavrayışı is the object of aşan, not of koruyacaktır. Yüreklerinizi and düşüncelerinizi are the two objects of the main verb.",
+        "ko": "긴 주어는 esenliği에서 끝납니다. her kavrayışı는 aşan의 목적어이지 koruyacaktır의 목적어가 아닙니다. yüreklerinizi·düşüncelerinizi가 주동사의 두 목적어입니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-php-4-6-7-word-1",
+      "verseId": "PHP.4.6",
+      "start": 4,
+      "end": 17,
+      "surface": "kaygılanmayın",
+      "lemma": "kaygılanmak",
+      "meaning": {
+        "en": "do not be anxious",
+        "ko": "염려하지 마세요"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "kaygılan",
+          "meaning": {
+            "en": "worry",
+            "ko": "걱정하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ma",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "ın",
+          "meaning": {
+            "en": "plural / polite imperative",
+            "ko": "복수·공손한 명령"
+          },
+          "function": "IMP2P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "mood": "plural/polite imperative"
+      },
+      "role": {
+        "en": "Negative plural imperative",
+        "ko": "부정 복수 명령"
+      },
+      "contextualExplanation": {
+        "en": "The negative -ma precedes the buffer and imperative ending.",
+        "ko": "부정 -ma 뒤에 완충 자음과 명령 어미가 옵니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "worry",
+        "ko": "걱정하다"
+      }
+    },
+    {
+      "id": "study-php-4-6-7-word-2",
+      "verseId": "PHP.4.6",
+      "start": 23,
+      "end": 31,
+      "surface": "konudaki",
+      "lemma": "konu",
+      "meaning": {
+        "en": "in / concerning the matter",
+        "ko": "그 일에 관한"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "konu",
+          "meaning": {
+            "en": "subject / matter",
+            "ko": "주제·일"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "da",
+          "meaning": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "function": "LOC"
+        },
+        {
+          "form": "ki",
+          "meaning": {
+            "en": "modifier -ki: associated with this location/matter",
+            "ko": "수식 -ki: 이 장소·일에 관련된"
+          },
+          "function": "KI"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "case": "locative"
+      },
+      "role": {
+        "en": "Locative-derived modifier",
+        "ko": "처소격에서 만든 수식어"
+      },
+      "contextualExplanation": {
+        "en": "-ki turns the locative expression into a modifier of dilekler. Here it is not a possessive suffix.",
+        "ko": "-ki는 처소 표현을 dilekler의 수식어로 만듭니다. 여기서는 소유 어미가 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "subject / matter",
+        "ko": "주제·일"
+      }
+    },
+    {
+      "id": "study-php-4-6-7-word-3",
+      "verseId": "PHP.4.6",
+      "start": 32,
+      "end": 45,
+      "surface": "dileklerinizi",
+      "lemma": "dilek",
+      "meaning": {
+        "en": "your requests (object)",
+        "ko": "여러분의 요청들을"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "dilek",
+          "meaning": {
+            "en": "wish / request",
+            "ko": "바람·요청"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ler",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "iniz",
+          "meaning": {
+            "en": "second-person plural possessive",
+            "ko": "2인칭 복수 소유"
+          },
+          "function": "P2P"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "number": "plural",
+        "possessive": "2pl/polite",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Main verb’s object",
+        "ko": "주동사의 목적어"
+      },
+      "contextualExplanation": {
+        "en": "Requests are plural and belong to the listeners, then receive accusative.",
+        "ko": "요청은 복수이고 청자의 소유이며 대격이 마지막에 붙습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "wish / request",
+        "ko": "바람·요청"
+      }
+    },
+    {
+      "id": "study-php-4-6-7-word-4",
+      "verseId": "PHP.4.6",
+      "start": 65,
+      "end": 75,
+      "surface": "yalvararak",
+      "lemma": "yalvarmak",
+      "meaning": {
+        "en": "by appealing / pleading",
+        "ko": "간구하며"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yalvar",
+          "meaning": {
+            "en": "plead / urge",
+            "ko": "간청하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "arak",
+          "meaning": {
+            "en": "manner converb -ArAk",
+            "ko": "방식 연결형 -ArAk"
+          },
+          "function": "ARAK"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {},
+      "role": {
+        "en": "Manner converb",
+        "ko": "방식 연결형"
+      },
+      "contextualExplanation": {
+        "en": "The understood subject is the same listeners who make their requests known.",
+        "ko": "생략된 주어는 요청을 아뢰는 동일한 청자입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "plead / urge",
+        "ko": "간청하다"
+      }
+    },
+    {
+      "id": "study-php-4-6-7-word-5",
+      "verseId": "PHP.4.7",
+      "start": 32,
+      "end": 36,
+      "surface": "aşan",
+      "lemma": "aşmak",
+      "meaning": {
+        "en": "that exceeds",
+        "ko": "넘어서는"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "aş",
+          "meaning": {
+            "en": "exceed / surpass",
+            "ko": "넘다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "an",
+          "meaning": {
+            "en": "subject participle -An",
+            "ko": "주어 관계형 -An"
+          },
+          "function": "PART"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "subject participle"
+      },
+      "role": {
+        "en": "Modifier of esenliği",
+        "ko": "esenliği의 수식어"
+      },
+      "contextualExplanation": {
+        "en": "God’s peace is the subject of exceeding; kavrayışı is the marked object.",
+        "ko": "평강이 넘어서는 주체이고 kavrayışı는 표시된 목적어입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "exceed / surpass",
+        "ko": "넘다"
+      }
+    },
+    {
+      "id": "study-php-4-6-7-word-6",
+      "verseId": "PHP.4.7",
+      "start": 37,
+      "end": 45,
+      "surface": "esenliği",
+      "lemma": "esenlik",
+      "meaning": {
+        "en": "his peace / well-being",
+        "ko": "그분의 평강"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "esenliğ",
+          "meaning": {
+            "en": "peace / well-being",
+            "ko": "평안"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "esenlik → esenliğ- before the vowel",
+          "ko": "모음 앞에서 esenlik가 esenliğ-로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Possessed main subject",
+        "ko": "소유형 주어"
+      },
+      "contextualExplanation": {
+        "en": "The genitive Tanrı’nın identifies the possessor. This -i is possession, not accusative, despite the similar shape.",
+        "ko": "Tanrı’nın이 소유자입니다. 형태가 비슷해도 이 -i는 대격이 아니라 소유입니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "peace / well-being",
+        "ko": "평안"
+      }
+    },
+    {
+      "id": "study-php-4-6-7-word-7",
+      "verseId": "PHP.4.7",
+      "start": 102,
+      "end": 114,
+      "surface": "koruyacaktır",
+      "lemma": "korumak",
+      "meaning": {
+        "en": "will protect",
+        "ko": "지킬 것이다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "koru",
+          "meaning": {
+            "en": "protect / preserve",
+            "ko": "지키다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "acak",
+          "meaning": {
+            "en": "future",
+            "ko": "미래"
+          },
+          "function": "FUT"
+        },
+        {
+          "form": "tır",
+          "meaning": {
+            "en": "copular/assertive ending",
+            "ko": "계사·단정 어미"
+          },
+          "function": "COP"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "future"
+      },
+      "role": {
+        "en": "Main future predicate",
+        "ko": "주절 미래 술어"
+      },
+      "contextualExplanation": {
+        "en": "The singular subject is peace. Hearts and thoughts are what is protected.",
+        "ko": "단수 주어는 평강입니다. 마음과 생각은 보호받는 대상입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "protect / preserve",
+        "ko": "지키다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-php-4-6-7-word-1-vocab",
+      "analysisId": "study-php-4-6-7-word-1",
+      "lemma": "kaygılanmak",
+      "classification": "general",
+      "definitions": {
+        "en": "worry",
+        "ko": "걱정하다"
+      },
+      "usageNotes": {
+        "en": "The negative -ma precedes the buffer and imperative ending.",
+        "ko": "부정 -ma 뒤에 완충 자음과 명령 어미가 옵니다."
+      }
+    },
+    {
+      "id": "study-php-4-6-7-word-2-vocab",
+      "analysisId": "study-php-4-6-7-word-2",
+      "lemma": "konu",
+      "classification": "general",
+      "definitions": {
+        "en": "subject / matter",
+        "ko": "주제·일"
+      },
+      "usageNotes": {
+        "en": "-ki turns the locative expression into a modifier of dilekler. Here it is not a possessive suffix.",
+        "ko": "-ki는 처소 표현을 dilekler의 수식어로 만듭니다. 여기서는 소유 어미가 아닙니다."
+      }
+    },
+    {
+      "id": "study-php-4-6-7-word-3-vocab",
+      "analysisId": "study-php-4-6-7-word-3",
+      "lemma": "dilek",
+      "classification": "general",
+      "definitions": {
+        "en": "wish / request",
+        "ko": "바람·요청"
+      },
+      "usageNotes": {
+        "en": "Requests are plural and belong to the listeners, then receive accusative.",
+        "ko": "요청은 복수이고 청자의 소유이며 대격이 마지막에 붙습니다."
+      }
+    },
+    {
+      "id": "study-php-4-6-7-word-4-vocab",
+      "analysisId": "study-php-4-6-7-word-4",
+      "lemma": "yalvarmak",
+      "classification": "general",
+      "definitions": {
+        "en": "plead / urge",
+        "ko": "간청하다"
+      },
+      "usageNotes": {
+        "en": "The understood subject is the same listeners who make their requests known.",
+        "ko": "생략된 주어는 요청을 아뢰는 동일한 청자입니다."
+      }
+    },
+    {
+      "id": "study-php-4-6-7-word-5-vocab",
+      "analysisId": "study-php-4-6-7-word-5",
+      "lemma": "aşmak",
+      "classification": "general",
+      "definitions": {
+        "en": "exceed / surpass",
+        "ko": "넘다"
+      },
+      "usageNotes": {
+        "en": "God’s peace is the subject of exceeding; kavrayışı is the marked object.",
+        "ko": "평강이 넘어서는 주체이고 kavrayışı는 표시된 목적어입니다."
+      }
+    },
+    {
+      "id": "study-php-4-6-7-word-6-vocab",
+      "analysisId": "study-php-4-6-7-word-6",
+      "lemma": "esenlik",
+      "classification": "biblical",
+      "definitions": {
+        "en": "peace / well-being",
+        "ko": "평안"
+      },
+      "usageNotes": {
+        "en": "The genitive Tanrı’nın identifies the possessor. This -i is possession, not accusative, despite the similar shape.",
+        "ko": "Tanrı’nın이 소유자입니다. 형태가 비슷해도 이 -i는 대격이 아니라 소유입니다."
+      },
+      "modernEquivalent": {
+        "en": "Modern equivalents: huzur / barış; choose according to context.",
+        "ko": "현대 대응어: huzur·barış. 문맥에 따라 선택하세요."
+      }
+    },
+    {
+      "id": "study-php-4-6-7-word-7-vocab",
+      "analysisId": "study-php-4-6-7-word-7",
+      "lemma": "korumak",
+      "classification": "general",
+      "definitions": {
+        "en": "protect / preserve",
+        "ko": "지키다"
+      },
+      "usageNotes": {
+        "en": "The singular subject is peace. Hearts and thoughts are what is protected.",
+        "ko": "단수 주어는 평강입니다. 마음과 생각은 보호받는 대상입니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-php-4-6-7-grammar-1",
+      "title": {
+        "en": "Three linked ways of presenting requests",
+        "ko": "요청을 아뢰는 연결 표현"
+      },
+      "explanation": {
+        "en": "Dua edip links actions; yalvararak supplies manner; şükranla is a noun with ile. These are different structures even if English uses “with” for several.",
+        "ko": "dua edip은 행위 연결, yalvararak은 방식, şükranla는 ile가 붙은 명사입니다. 한국어로 모두 ~하며라고 옮기더라도 구조가 다릅니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "PHP.4.6",
+          "start": 0,
+          "end": 94
+        },
+        {
+          "verseId": "PHP.4.7",
+          "start": 0,
+          "end": 115
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-php-4-6-7-grammar-2",
+      "title": {
+        "en": "A participle inside a possessed subject",
+        "ko": "소유 주어 안의 관계형"
+      },
+      "explanation": {
+        "en": "Tanrı’nın … esenliği is the main subject. Inside it, her kavrayışı aşan modifies the peace. Read outward from the head noun to avoid assigning the wrong object.",
+        "ko": "Tanrı’nın … esenliği가 주어입니다. 그 안의 her kavrayışı aşan이 평강을 꾸밉니다. 중심 명사에서 바깥으로 읽어 목적어 관계를 구별하세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "PHP.4.6",
+          "start": 0,
+          "end": 94
+        },
+        {
+          "verseId": "PHP.4.7",
+          "start": 0,
+          "end": 115
+        }
+      ],
+      "relatedLessonIds": [
+        "prayer-hardship"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Write a short request and a sentence of thanks using one manner expression. Do not promise immediate relief from illness or distress.",
+    "ko": "방식 표현 하나를 사용해 짧은 요청과 감사 문장을 쓰세요. 질병·괴로움이 곧 사라진다고 약속하지 마세요."
+  },
+  "modelResponse": {
+    "tr": "Tanrım, sana dua ederek yardım istiyorum. Beni dinlediğin için teşekkür ederim.",
+    "meaning": {
+      "en": "My God, I ask for help as I pray to you. Thank you for listening to me.",
+      "ko": "하나님, 기도하며 도움을 구합니다. 제 말을 들어주셔서 감사합니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "prayer-hardship"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-php-4-6-7-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Philippians 4:6, 7? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 빌립보서 4:6, 7인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-php-4-6-7",
+          "passageId": "study-php-4-6-7",
+          "explanation": {
+            "en": "This is the passage. Do not be anxious about anything. In every matter, make your requests known to God through prayer and appeal, with thanksgiving. Then God’s peace, exceeding every kind of understanding, will protect your hearts and thoughts through Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 아무것도 염려하지 마세요. 모든 일에서 기도하고 간구하며 감사로 하나님께 바라는 것을 아뢰세요. 그러면 모든 이해를 넘어서는 하나님의 평강이 그리스도 예수를 통해 여러분의 마음과 생각을 지킬 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-gal-2-20",
+          "passageId": "study-gal-2-20",
+          "explanation": {
+            "en": "This is a different passage. I have been crucified with Christ. It is no longer I who live; Christ lives in me. I now live this bodily life by faith in the Son of God, who loves me and gave himself for me. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 나는 그리스도와 함께 십자가에 못 박혔습니다. 이제 내가 사는 것이 아니라 그리스도께서 내 안에 사십니다. 지금 육체 안에서 이어가는 삶은 나를 사랑하고 나를 위해 자신을 내어주신 하나님의 아들을 믿는 믿음으로 삽니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-10-24-25",
+          "passageId": "study-heb-10-24-25",
+          "explanation": {
+            "en": "This is a different passage. Let us consider how we can encourage one another toward love and good deeds. Instead of abandoning meeting together as some are accustomed to doing, let us encourage each other even more as we see that day approaching. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 서로 사랑과 선행을 북돋울 방법을 생각합시다. 어떤 사람들의 습관처럼 모이기를 그만두지 말고 그날이 가까워짐을 볼수록 서로 더욱 격려합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-14-21",
+          "passageId": "study-jhn-14-21",
+          "explanation": {
+            "en": "This is a different passage. The person who knows and carries out my commands is the one who loves me. My Father will love that person; I too will love them and reveal myself to them. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 내 명령을 알고 실행하는 사람이 나를 사랑하는 사람입니다. 아버지도 그 사람을 사랑하실 것입니다. 나도 그를 사랑하고 그에게 나 자신을 나타내겠습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-php-4-6-7"
+      ],
+      "explanations": {
+        "en": "This is the passage. Do not be anxious about anything. In every matter, make your requests known to God through prayer and appeal, with thanksgiving. Then God’s peace, exceeding every kind of understanding, will protect your hearts and thoughts through Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 아무것도 염려하지 마세요. 모든 일에서 기도하고 간구하며 감사로 하나님께 바라는 것을 아뢰세요. 그러면 모든 이해를 넘어서는 하나님의 평강이 그리스도 예수를 통해 여러분의 마음과 생각을 지킬 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-php-4-6-7-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-php-4-6-7",
+          "referenceId": "study-php-4-6-7",
+          "explanation": {
+            "en": "This is the passage. Do not be anxious about anything. In every matter, make your requests known to God through prayer and appeal, with thanksgiving. Then God’s peace, exceeding every kind of understanding, will protect your hearts and thoughts through Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 아무것도 염려하지 마세요. 모든 일에서 기도하고 간구하며 감사로 하나님께 바라는 것을 아뢰세요. 그러면 모든 이해를 넘어서는 하나님의 평강이 그리스도 예수를 통해 여러분의 마음과 생각을 지킬 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-gal-2-20",
+          "referenceId": "study-gal-2-20",
+          "explanation": {
+            "en": "This is a different passage. I have been crucified with Christ. It is no longer I who live; Christ lives in me. I now live this bodily life by faith in the Son of God, who loves me and gave himself for me. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 나는 그리스도와 함께 십자가에 못 박혔습니다. 이제 내가 사는 것이 아니라 그리스도께서 내 안에 사십니다. 지금 육체 안에서 이어가는 삶은 나를 사랑하고 나를 위해 자신을 내어주신 하나님의 아들을 믿는 믿음으로 삽니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-10-24-25",
+          "referenceId": "study-heb-10-24-25",
+          "explanation": {
+            "en": "This is a different passage. Let us consider how we can encourage one another toward love and good deeds. Instead of abandoning meeting together as some are accustomed to doing, let us encourage each other even more as we see that day approaching. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 서로 사랑과 선행을 북돋울 방법을 생각합시다. 어떤 사람들의 습관처럼 모이기를 그만두지 말고 그날이 가까워짐을 볼수록 서로 더욱 격려합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-14-21",
+          "referenceId": "study-jhn-14-21",
+          "explanation": {
+            "en": "This is a different passage. The person who knows and carries out my commands is the one who loves me. My Father will love that person; I too will love them and reveal myself to them. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 내 명령을 알고 실행하는 사람이 나를 사랑하는 사람입니다. 아버지도 그 사람을 사랑하실 것입니다. 나도 그를 사랑하고 그에게 나 자신을 나타내겠습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-php-4-6-7"
+      ],
+      "explanations": {
+        "en": "This is the passage. Do not be anxious about anything. In every matter, make your requests known to God through prayer and appeal, with thanksgiving. Then God’s peace, exceeding every kind of understanding, will protect your hearts and thoughts through Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 아무것도 염려하지 마세요. 모든 일에서 기도하고 간구하며 감사로 하나님께 바라는 것을 아뢰세요. 그러면 모든 이해를 넘어서는 하나님의 평강이 그리스도 예수를 통해 여러분의 마음과 생각을 지킬 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-php-4-6-7-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “esenlik” in this passage?",
+        "ko": "이 본문에서 “esenlik”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-php-4-6-7-word-6-vocab",
+          "label": {
+            "en": "peace / well-being",
+            "ko": "평안"
+          },
+          "explanation": {
+            "en": "peace / well-being. The genitive Tanrı’nın identifies the possessor. This -i is possession, not accusative, despite the similar shape.",
+            "ko": "평안. Tanrı’nın이 소유자입니다. 형태가 비슷해도 이 -i는 대격이 아니라 소유입니다."
+          }
+        },
+        {
+          "id": "study-php-4-6-7-word-1-vocab",
+          "label": {
+            "en": "worry",
+            "ko": "걱정하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to kaygılanmak. esenlik means peace / well-being here. The genitive Tanrı’nın identifies the possessor. This -i is possession, not accusative, despite the similar shape.",
+            "ko": "그 뜻은 kaygılanmak입니다. 여기 esenlik는 평안입니다. Tanrı’nın이 소유자입니다. 형태가 비슷해도 이 -i는 대격이 아니라 소유입니다."
+          }
+        },
+        {
+          "id": "study-php-4-6-7-word-2-vocab",
+          "label": {
+            "en": "subject / matter",
+            "ko": "주제·일"
+          },
+          "explanation": {
+            "en": "That definition belongs to konu. esenlik means peace / well-being here. The genitive Tanrı’nın identifies the possessor. This -i is possession, not accusative, despite the similar shape.",
+            "ko": "그 뜻은 konu입니다. 여기 esenlik는 평안입니다. Tanrı’nın이 소유자입니다. 형태가 비슷해도 이 -i는 대격이 아니라 소유입니다."
+          }
+        },
+        {
+          "id": "study-php-4-6-7-word-3-vocab",
+          "label": {
+            "en": "wish / request",
+            "ko": "바람·요청"
+          },
+          "explanation": {
+            "en": "That definition belongs to dilek. esenlik means peace / well-being here. The genitive Tanrı’nın identifies the possessor. This -i is possession, not accusative, despite the similar shape.",
+            "ko": "그 뜻은 dilek입니다. 여기 esenlik는 평안입니다. Tanrı’nın이 소유자입니다. 형태가 비슷해도 이 -i는 대격이 아니라 소유입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-php-4-6-7-word-6-vocab"
+      ],
+      "explanations": {
+        "en": "The genitive Tanrı’nın identifies the possessor. This -i is possession, not accusative, despite the similar shape.",
+        "ko": "Tanrı’nın이 소유자입니다. 형태가 비슷해도 이 -i는 대격이 아니라 소유입니다."
+      }
+    },
+    {
+      "id": "study-php-4-6-7-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “konudaki”, what is the function of “-da” here?",
+        "ko": "“konudaki”에서 “-da”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "Locative-derived modifier. -ki turns the locative expression into a modifier of dilekler. Here it is not a possessive suffix.",
+            "ko": "처소격에서 만든 수식어. -ki는 처소 표현을 dilekler의 수식어로 만듭니다. 여기서는 소유 어미가 아닙니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Locative-derived modifier. -ki turns the locative expression into a modifier of dilekler. Here it is not a possessive suffix.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 처소격에서 만든 수식어. -ki는 처소 표현을 dilekler의 수식어로 만듭니다. 여기서는 소유 어미가 아닙니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Locative-derived modifier. -ki turns the locative expression into a modifier of dilekler. Here it is not a possessive suffix.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 처소격에서 만든 수식어. -ki는 처소 표현을 dilekler의 수식어로 만듭니다. 여기서는 소유 어미가 아닙니다."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Locative-derived modifier. -ki turns the locative expression into a modifier of dilekler. Here it is not a possessive suffix.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 처소격에서 만든 수식어. -ki는 처소 표현을 dilekler의 수식어로 만듭니다. 여기서는 소유 어미가 아닙니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "LOC"
+      ],
+      "explanations": {
+        "en": "-ki turns the locative expression into a modifier of dilekler. Here it is not a possessive suffix.",
+        "ko": "-ki는 처소 표현을 dilekler의 수식어로 만듭니다. 여기서는 소유 어미가 아닙니다."
+      }
+    }
+  ]
+}

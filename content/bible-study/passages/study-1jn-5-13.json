@@ -1,0 +1,791 @@
+{
+  "id": "study-1jn-5-13",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand 1 John 5:13 through its clause structure and the forms adına / sizlere.",
+    "ko": "요한일서 5:13의 절 구조와 adına / sizlere 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "I wrote these things to you who believe in the name of God’s Son so that you may know you have eternal life.",
+    "ko": "하나님의 아들의 이름을 믿는 여러분이 영원한 생명을 가지고 있음을 알도록 이것을 썼습니다."
+  },
+  "clauses": [
+    {
+      "id": "study-1jn-5-13-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "1JN.5.13",
+          "start": 0,
+          "end": 101
+        }
+      ],
+      "naturalMeaning": {
+        "en": "The writing is addressed to believers so they may know they possess eternal life.",
+        "ko": "이 글은 믿는 독자들이 영원한 생명을 가지고 있음을 알도록 쓴 것입니다."
+      },
+      "literalGloss": {
+        "en": "God Son’s name-to believing you-to / eternal life-to possessing-that-you / may know / so / these-object wrote-I",
+        "ko": "하나님 아들의 이름을 믿는 여러분에게 / 영원한 생명을 가지고 있음을 / 알도록 / 이 것들을 썼다 나"
+      },
+      "explanation": {
+        "en": "The first long phrase is the recipient, ending in sizlere. Sahip olduğunuzu is the object of bilesiniz; diye introduces the purpose of yazdım. The narrator is I, while the purpose-clause subject is you.",
+        "ko": "첫 긴 구는 sizlere로 끝나는 여격 청자입니다. sahip olduğunuzu는 bilesiniz의 목적어이고 diye는 yazdım의 목적입니다. 서술자는 나이며 목적절 주어는 여러분입니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-1jn-5-13-word-1",
+      "verseId": "1JN.5.13",
+      "start": 15,
+      "end": 20,
+      "surface": "adına",
+      "lemma": "ad",
+      "meaning": {
+        "en": "in / to his name",
+        "ko": "그 이름을 향해"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "ad",
+          "meaning": {
+            "en": "name",
+            "ko": "이름"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "a",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "dative"
+      },
+      "role": {
+        "en": "Dative complement of iman etmek",
+        "ko": "iman etmek의 여격 대상"
+      },
+      "contextualExplanation": {
+        "en": "Tanrı Oğlu’nun is the genitive possessor; the name stands for the person trusted.",
+        "ko": "Tanrı Oğlu’nun이 속격 소유자이며 이름이 믿는 사람을 가리킵니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "name",
+        "ko": "이름"
+      }
+    },
+    {
+      "id": "study-1jn-5-13-word-2",
+      "verseId": "1JN.5.13",
+      "start": 31,
+      "end": 38,
+      "surface": "sizlere",
+      "lemma": "siz",
+      "meaning": {
+        "en": "to you",
+        "ko": "여러분에게"
+      },
+      "partOfSpeech": {
+        "en": "Pronoun / pronominal expression",
+        "ko": "대명사·대명 표현"
+      },
+      "segments": [
+        {
+          "form": "siz",
+          "meaning": {
+            "en": "you (plural / polite)",
+            "ko": "여러분·공손한 당신"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ler",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "e",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "number": "plural",
+        "case": "dative"
+      },
+      "role": {
+        "en": "Recipients of writing",
+        "ko": "글의 여격 청자"
+      },
+      "contextualExplanation": {
+        "en": "The -ler makes the group explicit; -e is dative.",
+        "ko": "-ler는 집단을 드러내고 -e는 여격입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "you (plural / polite)",
+        "ko": "여러분·공손한 당신"
+      }
+    },
+    {
+      "id": "study-1jn-5-13-word-3",
+      "verseId": "1JN.5.13",
+      "start": 47,
+      "end": 53,
+      "surface": "yaşama",
+      "lemma": "yaşam",
+      "meaning": {
+        "en": "to / possessing life",
+        "ko": "생명을 향해·소유하는"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "yaşam",
+          "meaning": {
+            "en": "life",
+            "ko": "삶·생명"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "a",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "case": "dative"
+      },
+      "role": {
+        "en": "Complement of sahip olmak",
+        "ko": "sahip olmak의 대상"
+      },
+      "contextualExplanation": {
+        "en": "Sahip olmak takes a dative complement: yaşama sahip. This is not yaşamak with a negative imperative.",
+        "ko": "sahip olmak은 여격 대상을 취하므로 yaşama sahip입니다. yaşamak의 부정 명령이 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "life",
+        "ko": "삶·생명"
+      }
+    },
+    {
+      "id": "study-1jn-5-13-word-4",
+      "verseId": "1JN.5.13",
+      "start": 60,
+      "end": 70,
+      "surface": "olduğunuzu",
+      "lemma": "olmak",
+      "meaning": {
+        "en": "that you are / have (object)",
+        "ko": "여러분이 ~임을"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ol",
+          "meaning": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "duğ",
+          "meaning": {
+            "en": "nominalizing/participial -DIK",
+            "ko": "명사화·관계형 -DIK"
+          },
+          "function": "DIK"
+        },
+        {
+          "form": "unuz",
+          "meaning": {
+            "en": "second-person plural possessive",
+            "ko": "2인칭 복수 소유"
+          },
+          "function": "P2P"
+        },
+        {
+          "form": "u",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-duk → -duğ before a vowel",
+          "ko": "모음 앞에서 -duk가 -duğ로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "-DIK nominal/participial",
+        "possessive": "2pl/polite",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Nominalized object of knowing",
+        "ko": "아는 동사의 명사절 목적어"
+      },
+      "contextualExplanation": {
+        "en": "The possessive-looking -unuz gives the embedded clause’s second-person plural subject.",
+        "ko": "소유형처럼 생긴 -unuz가 내포절의 2인칭 복수 주어를 줍니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      }
+    },
+    {
+      "id": "study-1jn-5-13-word-5",
+      "verseId": "1JN.5.13",
+      "start": 71,
+      "end": 80,
+      "surface": "bilesiniz",
+      "lemma": "bilmek",
+      "meaning": {
+        "en": "so that you may know",
+        "ko": "여러분이 알도록"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "bil",
+          "meaning": {
+            "en": "know",
+            "ko": "알다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "e",
+          "meaning": {
+            "en": "optative mood",
+            "ko": "기원·의지법"
+          },
+          "function": "OPT"
+        },
+        {
+          "form": "siniz",
+          "meaning": {
+            "en": "second-person plural / polite address",
+            "ko": "2인칭 복수·공손한 청자"
+          },
+          "function": "PERSON2P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "mood": "optative",
+        "person": "2pl/polite"
+      },
+      "role": {
+        "en": "Purpose/wish form",
+        "ko": "목적·희구 형태"
+      },
+      "contextualExplanation": {
+        "en": "This literary -e form with second-person ending is not an ordinary imperative bilin.",
+        "ko": "2인칭 어미가 붙은 문어 -e형이며 일반 명령 bilin과 다릅니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "know",
+        "ko": "알다"
+      }
+    },
+    {
+      "id": "study-1jn-5-13-word-6",
+      "verseId": "1JN.5.13",
+      "start": 94,
+      "end": 100,
+      "surface": "yazdım",
+      "lemma": "yazmak",
+      "meaning": {
+        "en": "I wrote",
+        "ko": "나는 썼다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yaz",
+          "meaning": {
+            "en": "write",
+            "ko": "쓰다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "dı",
+          "meaning": {
+            "en": "definite past",
+            "ko": "확정 과거"
+          },
+          "function": "PAST"
+        },
+        {
+          "form": "m",
+          "meaning": {
+            "en": "first-person singular",
+            "ko": "1인칭 단수"
+          },
+          "function": "PERSON1"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "past",
+        "person": "1sg"
+      },
+      "role": {
+        "en": "Past main verb",
+        "ko": "주절 과거 동사"
+      },
+      "contextualExplanation": {
+        "en": "The speaker writes; readers are the recipients and knowers.",
+        "ko": "화자는 쓰는 사람이고 독자는 글을 받으며 아는 사람입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "write",
+        "ko": "쓰다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-1jn-5-13-word-1-vocab",
+      "analysisId": "study-1jn-5-13-word-1",
+      "lemma": "ad",
+      "classification": "biblical",
+      "definitions": {
+        "en": "name",
+        "ko": "이름"
+      },
+      "usageNotes": {
+        "en": "Tanrı Oğlu’nun is the genitive possessor; the name stands for the person trusted.",
+        "ko": "Tanrı Oğlu’nun이 속격 소유자이며 이름이 믿는 사람을 가리킵니다."
+      }
+    },
+    {
+      "id": "study-1jn-5-13-word-2-vocab",
+      "analysisId": "study-1jn-5-13-word-2",
+      "lemma": "siz",
+      "classification": "general",
+      "definitions": {
+        "en": "you (plural / polite)",
+        "ko": "여러분·공손한 당신"
+      },
+      "usageNotes": {
+        "en": "The -ler makes the group explicit; -e is dative.",
+        "ko": "-ler는 집단을 드러내고 -e는 여격입니다."
+      }
+    },
+    {
+      "id": "study-1jn-5-13-word-3-vocab",
+      "analysisId": "study-1jn-5-13-word-3",
+      "lemma": "yaşam",
+      "classification": "general",
+      "definitions": {
+        "en": "life",
+        "ko": "삶·생명"
+      },
+      "usageNotes": {
+        "en": "Sahip olmak takes a dative complement: yaşama sahip. This is not yaşamak with a negative imperative.",
+        "ko": "sahip olmak은 여격 대상을 취하므로 yaşama sahip입니다. yaşamak의 부정 명령이 아닙니다."
+      }
+    },
+    {
+      "id": "study-1jn-5-13-word-4-vocab",
+      "analysisId": "study-1jn-5-13-word-4",
+      "lemma": "olmak",
+      "classification": "general",
+      "definitions": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      },
+      "usageNotes": {
+        "en": "The possessive-looking -unuz gives the embedded clause’s second-person plural subject.",
+        "ko": "소유형처럼 생긴 -unuz가 내포절의 2인칭 복수 주어를 줍니다."
+      }
+    },
+    {
+      "id": "study-1jn-5-13-word-5-vocab",
+      "analysisId": "study-1jn-5-13-word-5",
+      "lemma": "bilmek",
+      "classification": "general",
+      "definitions": {
+        "en": "know",
+        "ko": "알다"
+      },
+      "usageNotes": {
+        "en": "This literary -e form with second-person ending is not an ordinary imperative bilin.",
+        "ko": "2인칭 어미가 붙은 문어 -e형이며 일반 명령 bilin과 다릅니다."
+      }
+    },
+    {
+      "id": "study-1jn-5-13-word-6-vocab",
+      "analysisId": "study-1jn-5-13-word-6",
+      "lemma": "yazmak",
+      "classification": "general",
+      "definitions": {
+        "en": "write",
+        "ko": "쓰다"
+      },
+      "usageNotes": {
+        "en": "The speaker writes; readers are the recipients and knowers.",
+        "ko": "화자는 쓰는 사람이고 독자는 글을 받으며 아는 사람입니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-1jn-5-13-grammar-1",
+      "title": {
+        "en": "Dative possessions and embedded knowledge",
+        "ko": "여격 소유와 내포된 앎"
+      },
+      "explanation": {
+        "en": "Yaşama sahip olmak expresses possessing life. Olduğunuzu packages that claim as what the readers should know.",
+        "ko": "yaşama sahip olmak은 생명을 가지고 있음입니다. olduğunuzu는 독자가 알아야 하는 내용을 명사절로 만듭니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "1JN.5.13",
+          "start": 0,
+          "end": 101
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-1jn-5-13-grammar-2",
+      "title": {
+        "en": "A purpose clause with diye",
+        "ko": "diye 목적절"
+      },
+      "explanation": {
+        "en": "Bilesiniz diye gives why the author wrote. It is not a direct quotation introduced by “said.”",
+        "ko": "bilesiniz diye는 왜 썼는지를 말합니다. “말했다”에 연결되는 직접 인용이 아닙니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "1JN.5.13",
+          "start": 0,
+          "end": 101
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-10"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Explain why you wrote a message using “… bilesiniz diye,” or use modern “… bilmeniz için.”",
+    "ko": "“… bilesiniz diye” 또는 현대적인 “… bilmeniz için”으로 메시지를 쓴 목적을 말하세요."
+  },
+  "modelResponse": {
+    "tr": "Toplantı saatini bilmeniz için size yazdım.",
+    "meaning": {
+      "en": "I wrote to you so you would know the meeting time.",
+      "ko": "모임 시간을 아시도록 글을 썼습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "ministry-10"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-1jn-5-13-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to 1 John 5:13? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 요한일서 5:13인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-1jn-5-13",
+          "passageId": "study-1jn-5-13",
+          "explanation": {
+            "en": "This is the passage. I wrote these things to you who believe in the name of God’s Son so that you may know you have eternal life. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 하나님의 아들의 이름을 믿는 여러분이 영원한 생명을 가지고 있음을 알도록 이것을 썼습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-5-24",
+          "passageId": "study-jhn-5-24",
+          "explanation": {
+            "en": "This is a different passage. I tell you truly: whoever hears my word and believes the one who sent me has eternal life. Such a person is not judged but has passed from death into life. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 진실로 말합니다. 내 말을 듣고 나를 보내신 분을 믿는 사람은 영원한 생명이 있습니다. 그런 사람은 심판받지 않고 죽음에서 생명으로 옮겨졌습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-5-8",
+          "passageId": "study-rom-5-8",
+          "explanation": {
+            "en": "This is a different passage. God demonstrates his love for us in this: while we were still sinners, Christ died for us. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 하나님은 우리가 아직 죄인이었을 때 그리스도께서 우리를 위해 죽으셨다는 사실로 우리를 향한 사랑을 보여주십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-6-23",
+          "passageId": "study-rom-6-23",
+          "explanation": {
+            "en": "This is a different passage. The wage of sin is death; God’s gift, however, is eternal life in our Lord Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 죄의 삯은 죽음이지만 하나님의 선물은 우리 주 그리스도 예수 안의 영원한 생명입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-1jn-5-13"
+      ],
+      "explanations": {
+        "en": "This is the passage. I wrote these things to you who believe in the name of God’s Son so that you may know you have eternal life. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 하나님의 아들의 이름을 믿는 여러분이 영원한 생명을 가지고 있음을 알도록 이것을 썼습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-1jn-5-13-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-1jn-5-13",
+          "referenceId": "study-1jn-5-13",
+          "explanation": {
+            "en": "This is the passage. I wrote these things to you who believe in the name of God’s Son so that you may know you have eternal life. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 하나님의 아들의 이름을 믿는 여러분이 영원한 생명을 가지고 있음을 알도록 이것을 썼습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-5-24",
+          "referenceId": "study-jhn-5-24",
+          "explanation": {
+            "en": "This is a different passage. I tell you truly: whoever hears my word and believes the one who sent me has eternal life. Such a person is not judged but has passed from death into life. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 진실로 말합니다. 내 말을 듣고 나를 보내신 분을 믿는 사람은 영원한 생명이 있습니다. 그런 사람은 심판받지 않고 죽음에서 생명으로 옮겨졌습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-5-8",
+          "referenceId": "study-rom-5-8",
+          "explanation": {
+            "en": "This is a different passage. God demonstrates his love for us in this: while we were still sinners, Christ died for us. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 하나님은 우리가 아직 죄인이었을 때 그리스도께서 우리를 위해 죽으셨다는 사실로 우리를 향한 사랑을 보여주십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-6-23",
+          "referenceId": "study-rom-6-23",
+          "explanation": {
+            "en": "This is a different passage. The wage of sin is death; God’s gift, however, is eternal life in our Lord Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 죄의 삯은 죽음이지만 하나님의 선물은 우리 주 그리스도 예수 안의 영원한 생명입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-1jn-5-13"
+      ],
+      "explanations": {
+        "en": "This is the passage. I wrote these things to you who believe in the name of God’s Son so that you may know you have eternal life. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 하나님의 아들의 이름을 믿는 여러분이 영원한 생명을 가지고 있음을 알도록 이것을 썼습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-1jn-5-13-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “ad” in this passage?",
+        "ko": "이 본문에서 “ad”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-1jn-5-13-word-1-vocab",
+          "label": {
+            "en": "name",
+            "ko": "이름"
+          },
+          "explanation": {
+            "en": "name. Tanrı Oğlu’nun is the genitive possessor; the name stands for the person trusted.",
+            "ko": "이름. Tanrı Oğlu’nun이 속격 소유자이며 이름이 믿는 사람을 가리킵니다."
+          }
+        },
+        {
+          "id": "study-1jn-5-13-word-2-vocab",
+          "label": {
+            "en": "you (plural / polite)",
+            "ko": "여러분·공손한 당신"
+          },
+          "explanation": {
+            "en": "That definition belongs to siz. ad means name here. Tanrı Oğlu’nun is the genitive possessor; the name stands for the person trusted.",
+            "ko": "그 뜻은 siz입니다. 여기 ad는 이름입니다. Tanrı Oğlu’nun이 속격 소유자이며 이름이 믿는 사람을 가리킵니다."
+          }
+        },
+        {
+          "id": "study-1jn-5-13-word-3-vocab",
+          "label": {
+            "en": "life",
+            "ko": "삶·생명"
+          },
+          "explanation": {
+            "en": "That definition belongs to yaşam. ad means name here. Tanrı Oğlu’nun is the genitive possessor; the name stands for the person trusted.",
+            "ko": "그 뜻은 yaşam입니다. 여기 ad는 이름입니다. Tanrı Oğlu’nun이 속격 소유자이며 이름이 믿는 사람을 가리킵니다."
+          }
+        },
+        {
+          "id": "study-1jn-5-13-word-4-vocab",
+          "label": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "explanation": {
+            "en": "That definition belongs to olmak. ad means name here. Tanrı Oğlu’nun is the genitive possessor; the name stands for the person trusted.",
+            "ko": "그 뜻은 olmak입니다. 여기 ad는 이름입니다. Tanrı Oğlu’nun이 속격 소유자이며 이름이 믿는 사람을 가리킵니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-1jn-5-13-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Tanrı Oğlu’nun is the genitive possessor; the name stands for the person trusted.",
+        "ko": "Tanrı Oğlu’nun이 속격 소유자이며 이름이 믿는 사람을 가리킵니다."
+      }
+    },
+    {
+      "id": "study-1jn-5-13-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “adına”, what is the function of “-a” here?",
+        "ko": "“adına”에서 “-a”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "explanation": {
+            "en": "Dative complement of iman etmek. Tanrı Oğlu’nun is the genitive possessor; the name stands for the person trusted.",
+            "ko": "iman etmek의 여격 대상. Tanrı Oğlu’nun이 속격 소유자이며 이름이 믿는 사람을 가리킵니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Dative complement of iman etmek. Tanrı Oğlu’nun is the genitive possessor; the name stands for the person trusted.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. iman etmek의 여격 대상. Tanrı Oğlu’nun이 속격 소유자이며 이름이 믿는 사람을 가리킵니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Dative complement of iman etmek. Tanrı Oğlu’nun is the genitive possessor; the name stands for the person trusted.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. iman etmek의 여격 대상. Tanrı Oğlu’nun이 속격 소유자이며 이름이 믿는 사람을 가리킵니다."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Dative complement of iman etmek. Tanrı Oğlu’nun is the genitive possessor; the name stands for the person trusted.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. iman etmek의 여격 대상. Tanrı Oğlu’nun이 속격 소유자이며 이름이 믿는 사람을 가리킵니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "DAT"
+      ],
+      "explanations": {
+        "en": "Tanrı Oğlu’nun is the genitive possessor; the name stands for the person trusted.",
+        "ko": "Tanrı Oğlu’nun이 속격 소유자이며 이름이 믿는 사람을 가리킵니다."
+      }
+    }
+  ]
+}

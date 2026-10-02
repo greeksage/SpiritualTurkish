@@ -1,0 +1,718 @@
+{
+  "id": "study-isa-26-3",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Isaiah 26:3 through its clause structure and the forms güvendiği / Düşüncelerinde.",
+    "ko": "이사야 26:3의 절 구조와 güvendiği / Düşüncelerinde 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "You protect in complete peace the one whose thoughts are steadfast, because that person trusts you.",
+    "ko": "주님을 신뢰하기 때문에 생각이 흔들리지 않는 사람을 완전한 평강 가운데 지키십니다."
+  },
+  "clauses": [
+    {
+      "id": "study-isa-26-3-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "ISA.26.3",
+          "start": 0,
+          "end": 83
+        }
+      ],
+      "naturalMeaning": {
+        "en": "You guard the steadfast person in peace because they trust you.",
+        "ko": "주님을 신뢰하는 흔들리지 않는 사람을 평강으로 지키십니다."
+      },
+      "literalGloss": {
+        "en": "to you trusting-because / in thoughts-his unshaken being-one-object / complete peace inside / you protect",
+        "ko": "당신을 신뢰하기 때문에 / 그 생각에서 흔들리지 않는 사람을 / 완전한 평강 안에 / 지킨다 당신"
+      },
+      "explanation": {
+        "en": "The object is sarsılmaz olanı. Güvendiği supplies a third-person nominalized clause before için, while korursun has God as second-person subject. Poetry puts the cause first.",
+        "ko": "목적어는 sarsılmaz olanı입니다. güvendiği는 için 앞의 3인칭 명사절이고 korursun의 2인칭 주어는 하나님입니다. 시에서 원인이 앞에 놓입니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-isa-26-3-word-1",
+      "verseId": "ISA.26.3",
+      "start": 5,
+      "end": 14,
+      "surface": "güvendiği",
+      "lemma": "güvenmek",
+      "meaning": {
+        "en": "because he trusts",
+        "ko": "그 사람이 신뢰함"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "güven",
+          "meaning": {
+            "en": "trust",
+            "ko": "신뢰하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "diğ",
+          "meaning": {
+            "en": "nominalizing/participial -DIK",
+            "ko": "명사화·관계형 -DIK"
+          },
+          "function": "DIK"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-dik → -diğ before a vowel",
+          "ko": "모음 앞에서 -dik가 -diğ로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "-DIK nominal/participial",
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Nominalized causal clause",
+        "ko": "명사화 원인절"
+      },
+      "contextualExplanation": {
+        "en": "Sana is the dative target of trust; the subject is the person protected.",
+        "ko": "sana는 신뢰의 여격 대상이고 주어는 보호받는 사람입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "trust",
+        "ko": "신뢰하다"
+      }
+    },
+    {
+      "id": "study-isa-26-3-word-2",
+      "verseId": "ISA.26.3",
+      "start": 20,
+      "end": 34,
+      "surface": "Düşüncelerinde",
+      "lemma": "düşünce",
+      "meaning": {
+        "en": "in his thoughts",
+        "ko": "그 생각들에서"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "Düşünce",
+          "meaning": {
+            "en": "thought / thinking",
+            "ko": "생각"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ler",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "de",
+          "meaning": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "function": "LOC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "number": "plural",
+        "possessive": "3",
+        "case": "locative"
+      },
+      "role": {
+        "en": "Possessed locative",
+        "ko": "소유 처소격"
+      },
+      "contextualExplanation": {
+        "en": "Context identifies the protected person’s thoughts, not a new plural addressee.",
+        "ko": "문맥상 보호받는 사람의 생각이며 새 복수 청자가 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "thought / thinking",
+        "ko": "생각"
+      }
+    },
+    {
+      "id": "study-isa-26-3-word-3",
+      "verseId": "ISA.26.3",
+      "start": 35,
+      "end": 44,
+      "surface": "sarsılmaz",
+      "lemma": "sarsılmak",
+      "meaning": {
+        "en": "unshaken",
+        "ko": "흔들리지 않는"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "sarsıl",
+          "meaning": {
+            "en": "be shaken",
+            "ko": "흔들리다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "maz",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "tenseAspect": "negative aorist"
+      },
+      "role": {
+        "en": "Negative aorist used adjectivally",
+        "ko": "형용사적 부정 일반 현재"
+      },
+      "contextualExplanation": {
+        "en": "Sarsılmak is be shaken; sarsılmaz characterizes the person before olanı.",
+        "ko": "sarsılmak은 흔들리다이고 sarsılmaz가 olanı 앞에서 사람을 묘사합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "be shaken",
+        "ko": "흔들리다"
+      }
+    },
+    {
+      "id": "study-isa-26-3-word-4",
+      "verseId": "ISA.26.3",
+      "start": 45,
+      "end": 50,
+      "surface": "olanı",
+      "lemma": "olmak",
+      "meaning": {
+        "en": "the one who is (object)",
+        "ko": "~인 사람을"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ol",
+          "meaning": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "an",
+          "meaning": {
+            "en": "subject participle -An",
+            "ko": "주어 관계형 -An"
+          },
+          "function": "PART"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "subject participle",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Nominalized participial object",
+        "ko": "명사적 관계형 목적어"
+      },
+      "contextualExplanation": {
+        "en": "The accusative points to the person whom God protects.",
+        "ko": "대격이 하나님이 보호하는 사람을 나타냅니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      }
+    },
+    {
+      "id": "study-isa-26-3-word-5",
+      "verseId": "ISA.26.3",
+      "start": 74,
+      "end": 82,
+      "surface": "korursun",
+      "lemma": "korumak",
+      "meaning": {
+        "en": "you protect",
+        "ko": "당신이 지킨다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "koru",
+          "meaning": {
+            "en": "protect / preserve",
+            "ko": "지키다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "r",
+          "meaning": {
+            "en": "aorist: general / habitual",
+            "ko": "일반·습관 현재"
+          },
+          "function": "AOR"
+        },
+        {
+          "form": "sun",
+          "meaning": {
+            "en": "second-person singular",
+            "ko": "2인칭 단수"
+          },
+          "function": "PERSON2"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "aorist",
+        "person": "2sg"
+      },
+      "role": {
+        "en": "Second-person aorist",
+        "ko": "2인칭 일반 현재"
+      },
+      "contextualExplanation": {
+        "en": "The speaker addresses God directly; person differs from the trusting human.",
+        "ko": "화자가 하나님께 직접 말하며 신뢰하는 사람과 인칭이 다릅니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "protect / preserve",
+        "ko": "지키다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-isa-26-3-word-1-vocab",
+      "analysisId": "study-isa-26-3-word-1",
+      "lemma": "güvenmek",
+      "classification": "general",
+      "definitions": {
+        "en": "trust",
+        "ko": "신뢰하다"
+      },
+      "usageNotes": {
+        "en": "Sana is the dative target of trust; the subject is the person protected.",
+        "ko": "sana는 신뢰의 여격 대상이고 주어는 보호받는 사람입니다."
+      }
+    },
+    {
+      "id": "study-isa-26-3-word-2-vocab",
+      "analysisId": "study-isa-26-3-word-2",
+      "lemma": "düşünce",
+      "classification": "general",
+      "definitions": {
+        "en": "thought / thinking",
+        "ko": "생각"
+      },
+      "usageNotes": {
+        "en": "Context identifies the protected person’s thoughts, not a new plural addressee.",
+        "ko": "문맥상 보호받는 사람의 생각이며 새 복수 청자가 아닙니다."
+      }
+    },
+    {
+      "id": "study-isa-26-3-word-3-vocab",
+      "analysisId": "study-isa-26-3-word-3",
+      "lemma": "sarsılmak",
+      "classification": "general",
+      "definitions": {
+        "en": "be shaken",
+        "ko": "흔들리다"
+      },
+      "usageNotes": {
+        "en": "Sarsılmak is be shaken; sarsılmaz characterizes the person before olanı.",
+        "ko": "sarsılmak은 흔들리다이고 sarsılmaz가 olanı 앞에서 사람을 묘사합니다."
+      }
+    },
+    {
+      "id": "study-isa-26-3-word-4-vocab",
+      "analysisId": "study-isa-26-3-word-4",
+      "lemma": "olmak",
+      "classification": "general",
+      "definitions": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      },
+      "usageNotes": {
+        "en": "The accusative points to the person whom God protects.",
+        "ko": "대격이 하나님이 보호하는 사람을 나타냅니다."
+      }
+    },
+    {
+      "id": "study-isa-26-3-word-5-vocab",
+      "analysisId": "study-isa-26-3-word-5",
+      "lemma": "korumak",
+      "classification": "general",
+      "definitions": {
+        "en": "protect / preserve",
+        "ko": "지키다"
+      },
+      "usageNotes": {
+        "en": "The speaker addresses God directly; person differs from the trusting human.",
+        "ko": "화자가 하나님께 직접 말하며 신뢰하는 사람과 인칭이 다릅니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-isa-26-3-grammar-1",
+      "title": {
+        "en": "Different subjects in a causal sentence",
+        "ko": "원인 문장의 서로 다른 주어"
+      },
+      "explanation": {
+        "en": "Güvendiği is third person; korursun is second person. The one who trusts is the object of God’s protection, not the protecting agent.",
+        "ko": "güvendiği는 3인칭, korursun은 2인칭입니다. 신뢰하는 사람은 보호의 대상이지 보호 행위자가 아닙니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ISA.26.3",
+          "start": 0,
+          "end": 83
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-isa-26-3-grammar-2",
+      "title": {
+        "en": "For versus because",
+        "ko": "목적과 원인의 için"
+      },
+      "explanation": {
+        "en": "After güvendiği, için supplies because; after an infinitive it can supply purpose. Identify the nominalized form before choosing the translation.",
+        "ko": "güvendiği 뒤 için은 원인이고 부정사 뒤에서는 목적일 수 있습니다. 앞 형태를 확인하고 번역을 정하세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ISA.26.3",
+          "start": 0,
+          "end": 83
+        }
+      ],
+      "relatedLessonIds": [
+        "prayer-hardship"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Use “…-dığı için” for an ordinary cause and distinguish its subject from the main clause’s subject.",
+    "ko": "“…-dığı için”으로 일상 원인을 말하고 주절과 원인절의 주어를 구별하세요."
+  },
+  "modelResponse": {
+    "tr": "Arkadaşım bana güvendiği için ona yardım ediyorum.",
+    "meaning": {
+      "en": "Because my friend trusts me, I am helping them.",
+      "ko": "친구가 나를 믿기 때문에 도와주고 있습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "prayer-hardship"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-isa-26-3-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Isaiah 26:3? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 이사야 26:3인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-isa-26-3",
+          "passageId": "study-isa-26-3",
+          "explanation": {
+            "en": "This is the passage. You protect in complete peace the one whose thoughts are steadfast, because that person trusts you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 주님을 신뢰하기 때문에 생각이 흔들리지 않는 사람을 완전한 평강 가운데 지키십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-5-7",
+          "passageId": "study-1pe-5-7",
+          "explanation": {
+            "en": "This is a different passage. Place all your anxieties on him, because he cares for you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 모든 염려를 그분께 맡기세요. 그분이 여러분을 돌보시기 때문입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-php-4-19",
+          "passageId": "study-php-4-19",
+          "explanation": {
+            "en": "This is a different passage. My God will also meet every need of yours according to his riches, in a glorious way in Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 나의 하나님은 자신의 풍성함에 따라 그리스도 예수 안에서 영광스럽게 여러분의 모든 필요를 채우실 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-3-16",
+          "passageId": "study-1co-3-16",
+          "explanation": {
+            "en": "This is a different passage. Do you not know that you are God’s temple and that God’s Spirit lives in you? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분이 하나님의 성전이며 하나님의 영이 여러분 안에 사신다는 것을 모르나요? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-isa-26-3"
+      ],
+      "explanations": {
+        "en": "This is the passage. You protect in complete peace the one whose thoughts are steadfast, because that person trusts you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 주님을 신뢰하기 때문에 생각이 흔들리지 않는 사람을 완전한 평강 가운데 지키십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-isa-26-3-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-isa-26-3",
+          "referenceId": "study-isa-26-3",
+          "explanation": {
+            "en": "This is the passage. You protect in complete peace the one whose thoughts are steadfast, because that person trusts you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 주님을 신뢰하기 때문에 생각이 흔들리지 않는 사람을 완전한 평강 가운데 지키십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-5-7",
+          "referenceId": "study-1pe-5-7",
+          "explanation": {
+            "en": "This is a different passage. Place all your anxieties on him, because he cares for you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 모든 염려를 그분께 맡기세요. 그분이 여러분을 돌보시기 때문입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-php-4-19",
+          "referenceId": "study-php-4-19",
+          "explanation": {
+            "en": "This is a different passage. My God will also meet every need of yours according to his riches, in a glorious way in Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 나의 하나님은 자신의 풍성함에 따라 그리스도 예수 안에서 영광스럽게 여러분의 모든 필요를 채우실 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-3-16",
+          "referenceId": "study-1co-3-16",
+          "explanation": {
+            "en": "This is a different passage. Do you not know that you are God’s temple and that God’s Spirit lives in you? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분이 하나님의 성전이며 하나님의 영이 여러분 안에 사신다는 것을 모르나요? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-isa-26-3"
+      ],
+      "explanations": {
+        "en": "This is the passage. You protect in complete peace the one whose thoughts are steadfast, because that person trusts you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 주님을 신뢰하기 때문에 생각이 흔들리지 않는 사람을 완전한 평강 가운데 지키십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-isa-26-3-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “güvenmek” in this passage?",
+        "ko": "이 본문에서 “güvenmek”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-isa-26-3-word-1-vocab",
+          "label": {
+            "en": "trust",
+            "ko": "신뢰하다"
+          },
+          "explanation": {
+            "en": "trust. Sana is the dative target of trust; the subject is the person protected.",
+            "ko": "신뢰하다. sana는 신뢰의 여격 대상이고 주어는 보호받는 사람입니다."
+          }
+        },
+        {
+          "id": "study-isa-26-3-word-2-vocab",
+          "label": {
+            "en": "thought / thinking",
+            "ko": "생각"
+          },
+          "explanation": {
+            "en": "That definition belongs to düşünce. güvenmek means trust here. Sana is the dative target of trust; the subject is the person protected.",
+            "ko": "그 뜻은 düşünce입니다. 여기 güvenmek는 신뢰하다입니다. sana는 신뢰의 여격 대상이고 주어는 보호받는 사람입니다."
+          }
+        },
+        {
+          "id": "study-isa-26-3-word-3-vocab",
+          "label": {
+            "en": "be shaken",
+            "ko": "흔들리다"
+          },
+          "explanation": {
+            "en": "That definition belongs to sarsılmak. güvenmek means trust here. Sana is the dative target of trust; the subject is the person protected.",
+            "ko": "그 뜻은 sarsılmak입니다. 여기 güvenmek는 신뢰하다입니다. sana는 신뢰의 여격 대상이고 주어는 보호받는 사람입니다."
+          }
+        },
+        {
+          "id": "study-isa-26-3-word-4-vocab",
+          "label": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "explanation": {
+            "en": "That definition belongs to olmak. güvenmek means trust here. Sana is the dative target of trust; the subject is the person protected.",
+            "ko": "그 뜻은 olmak입니다. 여기 güvenmek는 신뢰하다입니다. sana는 신뢰의 여격 대상이고 주어는 보호받는 사람입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-isa-26-3-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Sana is the dative target of trust; the subject is the person protected.",
+        "ko": "sana는 신뢰의 여격 대상이고 주어는 보호받는 사람입니다."
+      }
+    },
+    {
+      "id": "study-isa-26-3-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “Düşüncelerinde”, what is the function of “-de” here?",
+        "ko": "“Düşüncelerinde”에서 “-de”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "Possessed locative. Context identifies the protected person’s thoughts, not a new plural addressee.",
+            "ko": "소유 처소격. 문맥상 보호받는 사람의 생각이며 새 복수 청자가 아닙니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed locative. Context identifies the protected person’s thoughts, not a new plural addressee.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 처소격. 문맥상 보호받는 사람의 생각이며 새 복수 청자가 아닙니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed locative. Context identifies the protected person’s thoughts, not a new plural addressee.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 처소격. 문맥상 보호받는 사람의 생각이며 새 복수 청자가 아닙니다."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed locative. Context identifies the protected person’s thoughts, not a new plural addressee.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 처소격. 문맥상 보호받는 사람의 생각이며 새 복수 청자가 아닙니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "LOC"
+      ],
+      "explanations": {
+        "en": "Context identifies the protected person’s thoughts, not a new plural addressee.",
+        "ko": "문맥상 보호받는 사람의 생각이며 새 복수 청자가 아닙니다."
+      }
+    }
+  ]
+}

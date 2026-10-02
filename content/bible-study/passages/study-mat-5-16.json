@@ -1,0 +1,688 @@
+{
+  "id": "study-mat-5-16",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Matthew 5:16 through its clause structure and the forms ışığınız / parlasın.",
+    "ko": "마태복음 5:16의 절 구조와 ışığınız / parlasın 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Let your light shine before people so that, seeing your good deeds, they may glorify your Father in heaven.",
+    "ko": "사람들 앞에서 여러분의 빛이 비치게 하여 그들이 선한 일을 보고 하늘의 아버지를 높이게 하세요."
+  },
+  "clauses": [
+    {
+      "id": "study-mat-5-16-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "MAT.5.16",
+          "start": 0,
+          "end": 109
+        }
+      ],
+      "naturalMeaning": {
+        "en": "The shining image leads to others seeing the actions and honoring the Father.",
+        "ko": "빛 비유가 타인들이 행위를 보고 아버지를 높임으로 이어집니다."
+      },
+      "literalGloss": {
+        "en": "your light people’s before so let-shine that / good deeds-your-object seeing / in-heavens Father-your-object glorify-let-they",
+        "ko": "여러분 빛이 사람들 앞에서 그렇게 비치게 하라 / 선한 일들을 보며 / 하늘의 여러분 아버지를 높이게 하라"
+      },
+      "explanation": {
+        "en": "Öyle … ki creates a manner/result relation. Işığınız is subject of parlasın, so the verb is third-person singular despite plural your. Görerek shares the viewers as subject with yüceltsinler. Göklerdeki modifies Babanız; final accusative marks the Father as object.",
+        "ko": "öyle … ki는 방식·결과 관계입니다. ışığınız는 복수 여러분의 빛이지만 parlasın의 단수 주어입니다. görerek은 보는 이들을 yüceltsinler와 주어로 공유합니다. göklerdeki는 Babanız를 꾸미고 마지막 대격이 아버지를 목적어로 표시합니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-mat-5-16-word-1",
+      "verseId": "MAT.5.16",
+      "start": 6,
+      "end": 14,
+      "surface": "ışığınız",
+      "lemma": "ışık",
+      "meaning": {
+        "en": "your light",
+        "ko": "여러분의 빛"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "ışığ",
+          "meaning": {
+            "en": "light",
+            "ko": "빛"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ınız",
+          "meaning": {
+            "en": "second-person plural possessive",
+            "ko": "2인칭 복수 소유"
+          },
+          "function": "P2P"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "ışık → ışığ- before a vowel",
+          "ko": "모음 앞에서 ışık가 ışığ-로 변합니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "possessive": "2pl/polite"
+      },
+      "role": {
+        "en": "Possessed subject",
+        "ko": "소유 주어"
+      },
+      "contextualExplanation": {
+        "en": "Plural possession does not make the possessed singular light plural.",
+        "ko": "복수 소유자라고 소유된 단수 빛이 복수가 되지는 않습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "light",
+        "ko": "빛"
+      }
+    },
+    {
+      "id": "study-mat-5-16-word-2",
+      "verseId": "MAT.5.16",
+      "start": 38,
+      "end": 46,
+      "surface": "parlasın",
+      "lemma": "parlamak",
+      "meaning": {
+        "en": "let it shine",
+        "ko": "비치게 하라"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "parla",
+          "meaning": {
+            "en": "shine",
+            "ko": "빛나다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "sın",
+          "meaning": {
+            "en": "third-person imperative: let …",
+            "ko": "3인칭 명령: ~하게 하라"
+          },
+          "function": "IMP3"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "mood": "third-person imperative"
+      },
+      "role": {
+        "en": "Third-person command",
+        "ko": "3인칭 명령"
+      },
+      "contextualExplanation": {
+        "en": "Its subject is light, not directly you.",
+        "ko": "직접 주어는 여러분이 아니라 빛입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "shine",
+        "ko": "빛나다"
+      }
+    },
+    {
+      "id": "study-mat-5-16-word-3",
+      "verseId": "MAT.5.16",
+      "start": 66,
+      "end": 73,
+      "surface": "görerek",
+      "lemma": "görmek",
+      "meaning": {
+        "en": "by seeing / seeing",
+        "ko": "보며"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "gör",
+          "meaning": {
+            "en": "see",
+            "ko": "보다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "erek",
+          "meaning": {
+            "en": "manner converb -ArAk",
+            "ko": "방식 연결형 -ArAk"
+          },
+          "function": "ARAK"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {},
+      "role": {
+        "en": "Manner converb",
+        "ko": "방식 연결형"
+      },
+      "contextualExplanation": {
+        "en": "The understood subject is people who see and glorify.",
+        "ko": "생략 주어는 보고 높이는 사람들입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "see",
+        "ko": "보다"
+      }
+    },
+    {
+      "id": "study-mat-5-16-word-4",
+      "verseId": "MAT.5.16",
+      "start": 74,
+      "end": 84,
+      "surface": "göklerdeki",
+      "lemma": "gök",
+      "meaning": {
+        "en": "who is in heaven",
+        "ko": "하늘에 계신"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "gök",
+          "meaning": {
+            "en": "sky / heaven",
+            "ko": "하늘"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ler",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "de",
+          "meaning": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "function": "LOC"
+        },
+        {
+          "form": "ki",
+          "meaning": {
+            "en": "modifier -ki: located in / associated with",
+            "ko": "수식 -ki: ~에 있는·관련된"
+          },
+          "function": "KI"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "number": "plural",
+        "case": "locative"
+      },
+      "role": {
+        "en": "Locative modifier",
+        "ko": "처소 수식"
+      },
+      "contextualExplanation": {
+        "en": "-ki lets a location modify a noun; it is not the separate conjunction ki.",
+        "ko": "-ki가 장소를 명사 수식으로 만들며 띄어 쓰는 접속사 ki가 아닙니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "sky / heaven",
+        "ko": "하늘"
+      }
+    },
+    {
+      "id": "study-mat-5-16-word-5",
+      "verseId": "MAT.5.16",
+      "start": 95,
+      "end": 107,
+      "surface": "yüceltsinler",
+      "lemma": "yüceltmek",
+      "meaning": {
+        "en": "let them glorify",
+        "ko": "그들이 높이게 하라"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yücelt",
+          "meaning": {
+            "en": "exalt / glorify",
+            "ko": "높이다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "sin",
+          "meaning": {
+            "en": "third-person imperative: let …",
+            "ko": "3인칭 명령: ~하게 하라"
+          },
+          "function": "IMP3"
+        },
+        {
+          "form": "ler",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "mood": "third-person plural imperative",
+        "number": "plural"
+      },
+      "role": {
+        "en": "Third-person plural command",
+        "ko": "3인칭 복수 명령"
+      },
+      "contextualExplanation": {
+        "en": "The plural viewers are the subject; Babanız’ı is the object.",
+        "ko": "복수 보는 이들이 주어이고 Babanız’ı가 목적어입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "exalt / glorify",
+        "ko": "높이다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-mat-5-16-word-1-vocab",
+      "analysisId": "study-mat-5-16-word-1",
+      "lemma": "ışık",
+      "classification": "general",
+      "definitions": {
+        "en": "light",
+        "ko": "빛"
+      },
+      "usageNotes": {
+        "en": "Plural possession does not make the possessed singular light plural.",
+        "ko": "복수 소유자라고 소유된 단수 빛이 복수가 되지는 않습니다."
+      }
+    },
+    {
+      "id": "study-mat-5-16-word-2-vocab",
+      "analysisId": "study-mat-5-16-word-2",
+      "lemma": "parlamak",
+      "classification": "general",
+      "definitions": {
+        "en": "shine",
+        "ko": "빛나다"
+      },
+      "usageNotes": {
+        "en": "Its subject is light, not directly you.",
+        "ko": "직접 주어는 여러분이 아니라 빛입니다."
+      }
+    },
+    {
+      "id": "study-mat-5-16-word-3-vocab",
+      "analysisId": "study-mat-5-16-word-3",
+      "lemma": "görmek",
+      "classification": "general",
+      "definitions": {
+        "en": "see",
+        "ko": "보다"
+      },
+      "usageNotes": {
+        "en": "The understood subject is people who see and glorify.",
+        "ko": "생략 주어는 보고 높이는 사람들입니다."
+      }
+    },
+    {
+      "id": "study-mat-5-16-word-4-vocab",
+      "analysisId": "study-mat-5-16-word-4",
+      "lemma": "gök",
+      "classification": "biblical",
+      "definitions": {
+        "en": "sky / heaven",
+        "ko": "하늘"
+      },
+      "usageNotes": {
+        "en": "-ki lets a location modify a noun; it is not the separate conjunction ki.",
+        "ko": "-ki가 장소를 명사 수식으로 만들며 띄어 쓰는 접속사 ki가 아닙니다."
+      }
+    },
+    {
+      "id": "study-mat-5-16-word-5-vocab",
+      "analysisId": "study-mat-5-16-word-5",
+      "lemma": "yüceltmek",
+      "classification": "general",
+      "definitions": {
+        "en": "exalt / glorify",
+        "ko": "높이다"
+      },
+      "usageNotes": {
+        "en": "The plural viewers are the subject; Babanız’ı is the object.",
+        "ko": "복수 보는 이들이 주어이고 Babanız’ı가 목적어입니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-mat-5-16-grammar-1",
+      "title": {
+        "en": "Possessor number versus subject number",
+        "ko": "소유자 수·주어 수"
+      },
+      "explanation": {
+        "en": "Işığınız contains your plural/formal ending, but parlasın agrees with singular light. Keep possession and predicate agreement distinct.",
+        "ko": "ışığınız에는 복수·공손한 소유가 있지만 parlasın은 단수 빛과 호응합니다. 소유와 술어 호응을 구별하세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "MAT.5.16",
+          "start": 0,
+          "end": 109
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-mat-5-16-grammar-2",
+      "title": {
+        "en": "Two different ki forms",
+        "ko": "두 ki 형태"
+      },
+      "explanation": {
+        "en": "Öyle … ki uses a separate conjunction. Göklerdeki attaches -ki to a locative phrase to form a modifier. Their spelling and jobs differ.",
+        "ko": "öyle … ki는 별도 접속사를 쓰고 göklerdeki는 처소구에 -ki를 붙여 수식을 만듭니다. 철자·역할이 다릅니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "MAT.5.16",
+          "start": 0,
+          "end": 109
+        }
+      ],
+      "relatedLessonIds": [
+        "spelling-institutions"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Make a locative -ki modifier and an öyle … ki sentence about clear communication, without scoring another person’s religious response.",
+    "ko": "처소 -ki 수식과 명확한 소통에 관한 öyle … ki 문장을 만들고 타인의 종교 반응을 점수화하지 마세요."
+  },
+  "modelResponse": {
+    "tr": "Masadaki kitabı okuyalım. Öyle açık konuşalım ki herkes anlayabilsin.",
+    "meaning": {
+      "en": "Let us read the book on the table. Let us speak so clearly that everyone can understand.",
+      "ko": "탁자 위 책을 읽읍시다. 모두 이해할 수 있게 분명히 말합시다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "spelling-institutions"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-mat-5-16-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Matthew 5:16? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 마태복음 5:16인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-mat-5-16",
+          "passageId": "study-mat-5-16",
+          "explanation": {
+            "en": "This is the passage. Let your light shine before people so that, seeing your good deeds, they may glorify your Father in heaven. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 사람들 앞에서 여러분의 빛이 비치게 하여 그들이 선한 일을 보고 하늘의 아버지를 높이게 하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-gal-6-9-10",
+          "passageId": "study-gal-6-9-10",
+          "explanation": {
+            "en": "This is a different passage. Let us not grow weary in doing good; if we do not give up, we will reap in season. While we have opportunity, let us do good to everyone, especially members of the family of faith. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 선을 행하다 지치지 맙시다. 포기하지 않으면 때가 되어 거둘 것입니다. 기회가 있을 때 모든 이에게 특히 믿음의 가족에게 선을 행합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-eph-5-3",
+          "passageId": "study-eph-5-3",
+          "explanation": {
+            "en": "This is a different passage. Sexual immorality, impurity, or greed should not even be mentioned among you; such things do not suit holy people. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분 사이에서 성적 부도덕·불결함·탐욕이 언급조차 되지 않게 하세요. 거룩한 이들에게 어울리지 않습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-act-24-16",
+          "passageId": "study-act-24-16",
+          "explanation": {
+            "en": "This is a different passage. Therefore I always take care to keep my conscience clear before God and people. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 그러므로 하나님과 사람들 앞에서 양심을 깨끗하게 유지하려 늘 힘씁니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-mat-5-16"
+      ],
+      "explanations": {
+        "en": "This is the passage. Let your light shine before people so that, seeing your good deeds, they may glorify your Father in heaven. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 사람들 앞에서 여러분의 빛이 비치게 하여 그들이 선한 일을 보고 하늘의 아버지를 높이게 하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-mat-5-16-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-mat-5-16",
+          "referenceId": "study-mat-5-16",
+          "explanation": {
+            "en": "This is the passage. Let your light shine before people so that, seeing your good deeds, they may glorify your Father in heaven. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 사람들 앞에서 여러분의 빛이 비치게 하여 그들이 선한 일을 보고 하늘의 아버지를 높이게 하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-gal-6-9-10",
+          "referenceId": "study-gal-6-9-10",
+          "explanation": {
+            "en": "This is a different passage. Let us not grow weary in doing good; if we do not give up, we will reap in season. While we have opportunity, let us do good to everyone, especially members of the family of faith. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 선을 행하다 지치지 맙시다. 포기하지 않으면 때가 되어 거둘 것입니다. 기회가 있을 때 모든 이에게 특히 믿음의 가족에게 선을 행합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-eph-5-3",
+          "referenceId": "study-eph-5-3",
+          "explanation": {
+            "en": "This is a different passage. Sexual immorality, impurity, or greed should not even be mentioned among you; such things do not suit holy people. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분 사이에서 성적 부도덕·불결함·탐욕이 언급조차 되지 않게 하세요. 거룩한 이들에게 어울리지 않습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-act-24-16",
+          "referenceId": "study-act-24-16",
+          "explanation": {
+            "en": "This is a different passage. Therefore I always take care to keep my conscience clear before God and people. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 그러므로 하나님과 사람들 앞에서 양심을 깨끗하게 유지하려 늘 힘씁니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-mat-5-16"
+      ],
+      "explanations": {
+        "en": "This is the passage. Let your light shine before people so that, seeing your good deeds, they may glorify your Father in heaven. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 사람들 앞에서 여러분의 빛이 비치게 하여 그들이 선한 일을 보고 하늘의 아버지를 높이게 하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-mat-5-16-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “gök” in this passage?",
+        "ko": "이 본문에서 “gök”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-mat-5-16-word-4-vocab",
+          "label": {
+            "en": "sky / heaven",
+            "ko": "하늘"
+          },
+          "explanation": {
+            "en": "sky / heaven. -ki lets a location modify a noun; it is not the separate conjunction ki.",
+            "ko": "하늘. -ki가 장소를 명사 수식으로 만들며 띄어 쓰는 접속사 ki가 아닙니다."
+          }
+        },
+        {
+          "id": "study-mat-5-16-word-1-vocab",
+          "label": {
+            "en": "light",
+            "ko": "빛"
+          },
+          "explanation": {
+            "en": "That definition belongs to ışık. gök means sky / heaven here. -ki lets a location modify a noun; it is not the separate conjunction ki.",
+            "ko": "그 뜻은 ışık입니다. 여기 gök는 하늘입니다. -ki가 장소를 명사 수식으로 만들며 띄어 쓰는 접속사 ki가 아닙니다."
+          }
+        },
+        {
+          "id": "study-mat-5-16-word-2-vocab",
+          "label": {
+            "en": "shine",
+            "ko": "빛나다"
+          },
+          "explanation": {
+            "en": "That definition belongs to parlamak. gök means sky / heaven here. -ki lets a location modify a noun; it is not the separate conjunction ki.",
+            "ko": "그 뜻은 parlamak입니다. 여기 gök는 하늘입니다. -ki가 장소를 명사 수식으로 만들며 띄어 쓰는 접속사 ki가 아닙니다."
+          }
+        },
+        {
+          "id": "study-mat-5-16-word-3-vocab",
+          "label": {
+            "en": "see",
+            "ko": "보다"
+          },
+          "explanation": {
+            "en": "That definition belongs to görmek. gök means sky / heaven here. -ki lets a location modify a noun; it is not the separate conjunction ki.",
+            "ko": "그 뜻은 görmek입니다. 여기 gök는 하늘입니다. -ki가 장소를 명사 수식으로 만들며 띄어 쓰는 접속사 ki가 아닙니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-mat-5-16-word-4-vocab"
+      ],
+      "explanations": {
+        "en": "-ki lets a location modify a noun; it is not the separate conjunction ki.",
+        "ko": "-ki가 장소를 명사 수식으로 만들며 띄어 쓰는 접속사 ki가 아닙니다."
+      }
+    },
+    {
+      "id": "study-mat-5-16-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “göklerdeki”, what is the function of “-de” here?",
+        "ko": "“göklerdeki”에서 “-de”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "Locative modifier. -ki lets a location modify a noun; it is not the separate conjunction ki.",
+            "ko": "처소 수식. -ki가 장소를 명사 수식으로 만들며 띄어 쓰는 접속사 ki가 아닙니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Locative modifier. -ki lets a location modify a noun; it is not the separate conjunction ki.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 처소 수식. -ki가 장소를 명사 수식으로 만들며 띄어 쓰는 접속사 ki가 아닙니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Locative modifier. -ki lets a location modify a noun; it is not the separate conjunction ki.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 처소 수식. -ki가 장소를 명사 수식으로 만들며 띄어 쓰는 접속사 ki가 아닙니다."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Locative modifier. -ki lets a location modify a noun; it is not the separate conjunction ki.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 처소 수식. -ki가 장소를 명사 수식으로 만들며 띄어 쓰는 접속사 ki가 아닙니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "LOC"
+      ],
+      "explanations": {
+        "en": "-ki lets a location modify a noun; it is not the separate conjunction ki.",
+        "ko": "-ki가 장소를 명사 수식으로 만들며 띄어 쓰는 접속사 ki가 아닙니다."
+      }
+    }
+  ]
+}

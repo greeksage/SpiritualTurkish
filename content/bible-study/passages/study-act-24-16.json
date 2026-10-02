@@ -1,0 +1,642 @@
+{
+  "id": "study-act-24-16",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Acts 24:16 through its clause structure and the forms önünde / vicdanımı.",
+    "ko": "사도행전 24:16의 절 구조와 önünde / vicdanımı 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Therefore I always take care to keep my conscience clear before God and people.",
+    "ko": "그러므로 하나님과 사람들 앞에서 양심을 깨끗하게 유지하려 늘 힘씁니다."
+  },
+  "clauses": [
+    {
+      "id": "study-act-24-16-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "ACT.24.16",
+          "start": 0,
+          "end": 102
+        }
+      ],
+      "naturalMeaning": {
+        "en": "The ongoing effort has an infinitive goal and two witnesses to conduct.",
+        "ko": "지속적인 노력은 부정사 목표와 행동을 보는 두 대상을 가집니다."
+      },
+      "literalGloss": {
+        "en": "both God and people before / conscience-my-object clean keeping-to / always care show-I",
+        "ko": "하나님과 사람들 앞에서 모두 / 내 양심을 깨끗이 유지함에 / 늘 정성을 보인다 나"
+      },
+      "explanation": {
+        "en": "Gerek … gerek pairs both parties. Önünde is a possessed locative positional expression. Temiz is an object complement with vicdanımı tutmak. Tutmaya is dative after özen göstermek; gösteriyorum is the matrix predicate.",
+        "ko": "gerek … gerek이 두 대상을 짝짓습니다. önünde는 소유 처소 위치 표현입니다. temiz는 vicdanımı tutmak의 목적 보어입니다. tutmaya는 özen göstermek 뒤 여격이고 gösteriyorum이 상위 술어입니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-act-24-16-word-1",
+      "verseId": "ACT.24.16",
+      "start": 43,
+      "end": 49,
+      "surface": "önünde",
+      "lemma": "ön",
+      "meaning": {
+        "en": "before / in front of",
+        "ko": "앞에서"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "ön",
+          "meaning": {
+            "en": "front",
+            "ko": "앞"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ü",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "de",
+          "meaning": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "function": "LOC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "locative"
+      },
+      "role": {
+        "en": "Positional expression",
+        "ko": "위치 표현"
+      },
+      "contextualExplanation": {
+        "en": "Here “before” concerns accountability, not a chronological earlier time.",
+        "ko": "여기 앞에서는 책임을 보는 관계이며 시간상 이전이 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "front",
+        "ko": "앞"
+      }
+    },
+    {
+      "id": "study-act-24-16-word-2",
+      "verseId": "ACT.24.16",
+      "start": 50,
+      "end": 59,
+      "surface": "vicdanımı",
+      "lemma": "vicdan",
+      "meaning": {
+        "en": "my conscience (object)",
+        "ko": "내 양심을"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "vicdan",
+          "meaning": {
+            "en": "conscience",
+            "ko": "양심"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ım",
+          "meaning": {
+            "en": "first-person singular possessive",
+            "ko": "1인칭 단수 소유"
+          },
+          "function": "P1"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "1sg",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Possessed object",
+        "ko": "소유 목적어"
+      },
+      "contextualExplanation": {
+        "en": "First-person possession matches ben in the sentence.",
+        "ko": "1인칭 소유가 문장의 ben과 일치합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "conscience",
+        "ko": "양심"
+      }
+    },
+    {
+      "id": "study-act-24-16-word-3",
+      "verseId": "ACT.24.16",
+      "start": 66,
+      "end": 73,
+      "surface": "tutmaya",
+      "lemma": "tutmak",
+      "meaning": {
+        "en": "to keep",
+        "ko": "유지함에"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "tut",
+          "meaning": {
+            "en": "hold / keep",
+            "ko": "잡다·유지하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ma",
+          "meaning": {
+            "en": "verbal noun",
+            "ko": "동사 명사형"
+          },
+          "function": "VN"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "a",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "verbal noun",
+        "case": "dative"
+      },
+      "role": {
+        "en": "Dative verbal noun complement",
+        "ko": "여격 동사 명사형 보어"
+      },
+      "contextualExplanation": {
+        "en": "Özen göstermek takes what one takes care to do with -mAyA.",
+        "ko": "özen göstermek은 신경 쓰는 행위를 -mAyA로 취합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "hold / keep",
+        "ko": "잡다·유지하다"
+      }
+    },
+    {
+      "id": "study-act-24-16-word-4",
+      "verseId": "ACT.24.16",
+      "start": 89,
+      "end": 101,
+      "surface": "gösteriyorum",
+      "lemma": "göstermek",
+      "meaning": {
+        "en": "I am showing / taking care",
+        "ko": "정성을 보이고 있습니다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "göster",
+          "meaning": {
+            "en": "show",
+            "ko": "보여주다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "iyor",
+          "meaning": {
+            "en": "present continuous",
+            "ko": "현재 진행"
+          },
+          "function": "PROG"
+        },
+        {
+          "form": "um",
+          "meaning": {
+            "en": "first-person singular",
+            "ko": "1인칭 단수"
+          },
+          "function": "PERSON1"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "present continuous",
+        "person": "1sg"
+      },
+      "role": {
+        "en": "First-person ongoing predicate",
+        "ko": "1인칭 진행 술어"
+      },
+      "contextualExplanation": {
+        "en": "With özen it means take care or pay careful attention.",
+        "ko": "özen과 함께 정성을 들이다·주의를 기울이다입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "show",
+        "ko": "보여주다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-act-24-16-word-1-vocab",
+      "analysisId": "study-act-24-16-word-1",
+      "lemma": "ön",
+      "classification": "general",
+      "definitions": {
+        "en": "front",
+        "ko": "앞"
+      },
+      "usageNotes": {
+        "en": "Here “before” concerns accountability, not a chronological earlier time.",
+        "ko": "여기 앞에서는 책임을 보는 관계이며 시간상 이전이 아닙니다."
+      }
+    },
+    {
+      "id": "study-act-24-16-word-2-vocab",
+      "analysisId": "study-act-24-16-word-2",
+      "lemma": "vicdan",
+      "classification": "general",
+      "definitions": {
+        "en": "conscience",
+        "ko": "양심"
+      },
+      "usageNotes": {
+        "en": "First-person possession matches ben in the sentence.",
+        "ko": "1인칭 소유가 문장의 ben과 일치합니다."
+      }
+    },
+    {
+      "id": "study-act-24-16-word-3-vocab",
+      "analysisId": "study-act-24-16-word-3",
+      "lemma": "tutmak",
+      "classification": "general",
+      "definitions": {
+        "en": "hold / keep",
+        "ko": "잡다·유지하다"
+      },
+      "usageNotes": {
+        "en": "Özen göstermek takes what one takes care to do with -mAyA.",
+        "ko": "özen göstermek은 신경 쓰는 행위를 -mAyA로 취합니다."
+      }
+    },
+    {
+      "id": "study-act-24-16-word-4-vocab",
+      "analysisId": "study-act-24-16-word-4",
+      "lemma": "göstermek",
+      "classification": "general",
+      "definitions": {
+        "en": "show",
+        "ko": "보여주다"
+      },
+      "usageNotes": {
+        "en": "With özen it means take care or pay careful attention.",
+        "ko": "özen과 함께 정성을 들이다·주의를 기울이다입니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-act-24-16-grammar-1",
+      "title": {
+        "en": "Gerek … gerek as both … and",
+        "ko": "gerek … gerek의 모두"
+      },
+      "explanation": {
+        "en": "This pairing connects two nouns under the same önünde. It is not the modal gerek meaning necessary in gerek yapmak constructions.",
+        "ko": "이 짝은 같은 önünde 아래 두 명사를 연결합니다. 필요라는 다른 gerek 용법과 구별하세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ACT.24.16",
+          "start": 0,
+          "end": 102
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-act-24-16-grammar-2",
+      "title": {
+        "en": "Keep an object in a state",
+        "ko": "목적어를 상태에 유지하기"
+      },
+      "explanation": {
+        "en": "Vicdanımı temiz tutmak: vicdanımı is what is kept; temiz says in what condition. Tutmak has an idiomatic “keep” use here.",
+        "ko": "vicdanımı temiz tutmak에서 vicdanımı는 유지하는 대상이고 temiz는 상태입니다. tutmak은 여기서 유지하다라는 관용 용법입니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ACT.24.16",
+          "start": 0,
+          "end": 102
+        }
+      ],
+      "relatedLessonIds": []
+    }
+  ],
+  "independentTask": {
+    "en": "Express careful effort with -maya özen göstermek, choosing a verifiable personal action.",
+    "ko": "확인 가능한 자신의 행위로 -maya özen göstermek을 표현하세요."
+  },
+  "modelResponse": {
+    "tr": "İnsanları dikkatle dinlemeye özen gösteriyorum. Kaynakları doğru aktarmaya çalışıyorum.",
+    "meaning": {
+      "en": "I take care to listen attentively to people. I try to represent sources accurately.",
+      "ko": "사람들을 주의 깊게 듣는 데 힘쓰고 출처를 정확히 전달하려 노력합니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-act-24-16-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Acts 24:16? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 사도행전 24:16인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-act-24-16",
+          "passageId": "study-act-24-16",
+          "explanation": {
+            "en": "This is the passage. Therefore I always take care to keep my conscience clear before God and people. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 그러므로 하나님과 사람들 앞에서 양심을 깨끗하게 유지하려 늘 힘씁니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-2-11",
+          "passageId": "study-1pe-2-11",
+          "explanation": {
+            "en": "This is a different passage. Dear friends, as foreigners and guests in this world, avoid the desires of the self that wage war against the soul. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사랑하는 여러분, 이 세상에서 외국인·나그네인 여러분에게 영혼을 거슬러 싸우는 본성의 욕망을 피하라고 부탁합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-11-6",
+          "passageId": "study-heb-11-6",
+          "explanation": {
+            "en": "This is a different passage. Without faith it is impossible to please God. Whoever approaches him must believe that he exists and will reward those who seek him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 믿음 없이 하나님을 기쁘게 하는 것은 불가능합니다. 그분께 나아가는 이는 그분이 계시고 찾는 이들에게 상 주심을 믿어야 합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-gal-6-9-10",
+          "passageId": "study-gal-6-9-10",
+          "explanation": {
+            "en": "This is a different passage. Let us not grow weary in doing good; if we do not give up, we will reap in season. While we have opportunity, let us do good to everyone, especially members of the family of faith. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 선을 행하다 지치지 맙시다. 포기하지 않으면 때가 되어 거둘 것입니다. 기회가 있을 때 모든 이에게 특히 믿음의 가족에게 선을 행합시다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-act-24-16"
+      ],
+      "explanations": {
+        "en": "This is the passage. Therefore I always take care to keep my conscience clear before God and people. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 그러므로 하나님과 사람들 앞에서 양심을 깨끗하게 유지하려 늘 힘씁니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-act-24-16-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-act-24-16",
+          "referenceId": "study-act-24-16",
+          "explanation": {
+            "en": "This is the passage. Therefore I always take care to keep my conscience clear before God and people. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 그러므로 하나님과 사람들 앞에서 양심을 깨끗하게 유지하려 늘 힘씁니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-2-11",
+          "referenceId": "study-1pe-2-11",
+          "explanation": {
+            "en": "This is a different passage. Dear friends, as foreigners and guests in this world, avoid the desires of the self that wage war against the soul. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사랑하는 여러분, 이 세상에서 외국인·나그네인 여러분에게 영혼을 거슬러 싸우는 본성의 욕망을 피하라고 부탁합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-11-6",
+          "referenceId": "study-heb-11-6",
+          "explanation": {
+            "en": "This is a different passage. Without faith it is impossible to please God. Whoever approaches him must believe that he exists and will reward those who seek him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 믿음 없이 하나님을 기쁘게 하는 것은 불가능합니다. 그분께 나아가는 이는 그분이 계시고 찾는 이들에게 상 주심을 믿어야 합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-gal-6-9-10",
+          "referenceId": "study-gal-6-9-10",
+          "explanation": {
+            "en": "This is a different passage. Let us not grow weary in doing good; if we do not give up, we will reap in season. While we have opportunity, let us do good to everyone, especially members of the family of faith. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 선을 행하다 지치지 맙시다. 포기하지 않으면 때가 되어 거둘 것입니다. 기회가 있을 때 모든 이에게 특히 믿음의 가족에게 선을 행합시다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-act-24-16"
+      ],
+      "explanations": {
+        "en": "This is the passage. Therefore I always take care to keep my conscience clear before God and people. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 그러므로 하나님과 사람들 앞에서 양심을 깨끗하게 유지하려 늘 힘씁니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-act-24-16-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “ön” in this passage?",
+        "ko": "이 본문에서 “ön”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-act-24-16-word-1-vocab",
+          "label": {
+            "en": "front",
+            "ko": "앞"
+          },
+          "explanation": {
+            "en": "front. Here “before” concerns accountability, not a chronological earlier time.",
+            "ko": "앞. 여기 앞에서는 책임을 보는 관계이며 시간상 이전이 아닙니다."
+          }
+        },
+        {
+          "id": "study-act-24-16-word-2-vocab",
+          "label": {
+            "en": "conscience",
+            "ko": "양심"
+          },
+          "explanation": {
+            "en": "That definition belongs to vicdan. ön means front here. Here “before” concerns accountability, not a chronological earlier time.",
+            "ko": "그 뜻은 vicdan입니다. 여기 ön는 앞입니다. 여기 앞에서는 책임을 보는 관계이며 시간상 이전이 아닙니다."
+          }
+        },
+        {
+          "id": "study-act-24-16-word-3-vocab",
+          "label": {
+            "en": "hold / keep",
+            "ko": "잡다·유지하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to tutmak. ön means front here. Here “before” concerns accountability, not a chronological earlier time.",
+            "ko": "그 뜻은 tutmak입니다. 여기 ön는 앞입니다. 여기 앞에서는 책임을 보는 관계이며 시간상 이전이 아닙니다."
+          }
+        },
+        {
+          "id": "study-act-24-16-word-4-vocab",
+          "label": {
+            "en": "show",
+            "ko": "보여주다"
+          },
+          "explanation": {
+            "en": "That definition belongs to göstermek. ön means front here. Here “before” concerns accountability, not a chronological earlier time.",
+            "ko": "그 뜻은 göstermek입니다. 여기 ön는 앞입니다. 여기 앞에서는 책임을 보는 관계이며 시간상 이전이 아닙니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-act-24-16-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Here “before” concerns accountability, not a chronological earlier time.",
+        "ko": "여기 앞에서는 책임을 보는 관계이며 시간상 이전이 아닙니다."
+      }
+    },
+    {
+      "id": "study-act-24-16-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “önünde”, what is the function of “-de” here?",
+        "ko": "“önünde”에서 “-de”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "Positional expression. Here “before” concerns accountability, not a chronological earlier time.",
+            "ko": "위치 표현. 여기 앞에서는 책임을 보는 관계이며 시간상 이전이 아닙니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Positional expression. Here “before” concerns accountability, not a chronological earlier time.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 위치 표현. 여기 앞에서는 책임을 보는 관계이며 시간상 이전이 아닙니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Positional expression. Here “before” concerns accountability, not a chronological earlier time.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 위치 표현. 여기 앞에서는 책임을 보는 관계이며 시간상 이전이 아닙니다."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Positional expression. Here “before” concerns accountability, not a chronological earlier time.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 위치 표현. 여기 앞에서는 책임을 보는 관계이며 시간상 이전이 아닙니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "LOC"
+      ],
+      "explanations": {
+        "en": "Here “before” concerns accountability, not a chronological earlier time.",
+        "ko": "여기 앞에서는 책임을 보는 관계이며 시간상 이전이 아닙니다."
+      }
+    }
+  ]
+}

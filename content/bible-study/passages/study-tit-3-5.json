@@ -1,0 +1,899 @@
+{
+  "id": "study-tit-3-5",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Titus 3:5 through its clause structure and the forms Kurtarıcımız / göstererek.",
+    "ko": "디도서 3:5의 절 구조와 Kurtarıcımız / göstererek 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "God our Saviour openly showed goodness and love for humanity and saved us. He did this not because of righteous deeds we performed, but by his mercy, through rebirth’s washing and the Holy Spirit’s renewal, poured out abundantly through Jesus Christ our Saviour.",
+    "ko": "우리 구주 하나님께서 선하심과 사람에 대한 사랑을 나타내어 우리를 구원하셨습니다. 우리의 의로운 행위 때문이 아니라 자신의 자비로, 새로 태어남의 씻음과 우리 구주 예수 그리스도를 통해 풍성히 부어주신 성령의 새롭게 하심으로 하셨습니다."
+  },
+  "clauses": [
+    {
+      "id": "study-tit-3-5-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "TIT.3.5",
+          "start": 0,
+          "end": 90
+        }
+      ],
+      "naturalMeaning": {
+        "en": "God our Saviour saved us by openly showing goodness and love for people.",
+        "ko": "우리 구주 하나님은 선하심·사람을 향한 사랑을 드러내어 우리를 구원하셨습니다."
+      },
+      "literalGloss": {
+        "en": "but / our Saviour God / his goodness and to humanity being love / openly showing / us saved",
+        "ko": "그러나 / 우리 구주 하나님 / 자신의 선함·사람에 대한 사랑을 / 드러내며 / 우리를 구했다"
+      },
+      "explanation": {
+        "en": "God is the shared subject of göstererek and kurtardı. İyiliğini and sevgisini are the objects shown; insana olan modifies the love. The converb supplies the manner of the saving statement.",
+        "ko": "하나님이 göstererek·kurtardı의 공통 주어입니다. iyiliğini·sevgisini는 나타내는 목적어이고 insana olan이 사랑을 꾸밉니다. 연결형은 구원 진술의 방식을 설명합니다."
+      }
+    },
+    {
+      "id": "study-tit-3-5-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "TIT.3.5",
+          "start": 91,
+          "end": 286
+        }
+      ],
+      "naturalMeaning": {
+        "en": "He did this by mercy and renewal, not because of the righteous works we had done.",
+        "ko": "우리의 의로운 행위 때문이 아니라 자비와 새롭게 하심으로 하셨습니다."
+      },
+      "literalGloss": {
+        "en": "this-object / righteously we-did works-from because not / own mercy-with / rebirth washing-with / and through our Saviour Christ / upon us abundantly poured Spirit’s renewal-with / did",
+        "ko": "이것을 / 의롭게 우리가 행한 일들 때문에 아닌 / 자신의 자비로 / 새 탄생의 씻음으로 / 우리 구주를 통해 우리 위에 부은 성령의 새롭게 하심으로 / 행했다"
+      },
+      "explanation": {
+        "en": "The main verb is final yaptı. İşlerden dolayı gives the rejected cause. Döktüğü modifies Kutsal Ruh, whose renewal is expressed by yenilemesiyle. The long chain must be read through its possessed nouns, not as a list of disconnected words.",
+        "ko": "주동사는 마지막 yaptı입니다. işlerden dolayı는 부정하는 원인입니다. döktüğü가 Kutsal Ruh를 꾸미고 그 성령의 새롭게 하심이 yenilemesiyle입니다. 긴 연결을 소유 명사 중심으로 읽고 낱말 목록처럼 읽지 마세요."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-tit-3-5-word-1",
+      "verseId": "TIT.3.5",
+      "start": 4,
+      "end": 16,
+      "surface": "Kurtarıcımız",
+      "lemma": "kurtarıcı",
+      "meaning": {
+        "en": "our Saviour",
+        "ko": "우리 구주"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "Kurtarıcı",
+          "meaning": {
+            "en": "savior / rescuer",
+            "ko": "구원자"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "mız",
+          "meaning": {
+            "en": "first-person plural possessive",
+            "ko": "1인칭 복수 소유"
+          },
+          "function": "P1P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "1pl"
+      },
+      "role": {
+        "en": "Possessed title",
+        "ko": "소유 칭호"
+      },
+      "contextualExplanation": {
+        "en": "The title is addressed to God in the first sentence and Christ in the second; preserve each local noun phrase.",
+        "ko": "첫 문장은 하나님, 다음 문장은 그리스도를 가리키는 칭호이므로 각 명사 구의 대상을 유지하세요."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "savior / rescuer",
+        "ko": "구원자"
+      }
+    },
+    {
+      "id": "study-tit-3-5-word-2",
+      "verseId": "TIT.3.5",
+      "start": 65,
+      "end": 75,
+      "surface": "göstererek",
+      "lemma": "göstermek",
+      "meaning": {
+        "en": "by showing",
+        "ko": "나타내어"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "göster",
+          "meaning": {
+            "en": "show",
+            "ko": "보여주다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "erek",
+          "meaning": {
+            "en": "manner converb -ArAk",
+            "ko": "방식 연결형 -ArAk"
+          },
+          "function": "ARAK"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {},
+      "role": {
+        "en": "Manner converb",
+        "ko": "방식 연결형"
+      },
+      "contextualExplanation": {
+        "en": "The main subject God also performs this action.",
+        "ko": "주절 주어 하나님이 이 행위도 하십니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "show",
+        "ko": "보여주다"
+      }
+    },
+    {
+      "id": "study-tit-3-5-word-3",
+      "verseId": "TIT.3.5",
+      "start": 107,
+      "end": 117,
+      "surface": "yaptığımız",
+      "lemma": "yapmak",
+      "meaning": {
+        "en": "that we did",
+        "ko": "우리가 행한"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yap",
+          "meaning": {
+            "en": "do / make",
+            "ko": "하다·만들다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "tığ",
+          "meaning": {
+            "en": "nominalizing/participial -DIK",
+            "ko": "명사화·관계형 -DIK"
+          },
+          "function": "DIK"
+        },
+        {
+          "form": "ımız",
+          "meaning": {
+            "en": "first-person plural possessive",
+            "ko": "1인칭 복수 소유"
+          },
+          "function": "P1P"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-tık → -tığ before a vowel",
+          "ko": "모음 앞에서 -tık가 -tığ로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "-DIK nominal/participial",
+        "possessive": "1pl"
+      },
+      "role": {
+        "en": "Relative modifier of işler",
+        "ko": "işler의 관계 수식어"
+      },
+      "contextualExplanation": {
+        "en": "The subject is we, supplied by -ımız, whereas God is the subject of the final yaptı.",
+        "ko": "-ımız가 우리가라는 주어를 주며 마지막 yaptı의 주어 하나님과 다릅니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "do / make",
+        "ko": "하다·만들다"
+      }
+    },
+    {
+      "id": "study-tit-3-5-word-4",
+      "verseId": "TIT.3.5",
+      "start": 118,
+      "end": 126,
+      "surface": "işlerden",
+      "lemma": "iş",
+      "meaning": {
+        "en": "because of the works (after dolayı)",
+        "ko": "행위들 때문에"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "iş",
+          "meaning": {
+            "en": "work / deed / affair",
+            "ko": "일·행위"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ler",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "den",
+          "meaning": {
+            "en": "ablative: from / away from",
+            "ko": "탈격: ~에서·~로부터"
+          },
+          "function": "ABL"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "number": "plural",
+        "case": "ablative"
+      },
+      "role": {
+        "en": "Ablative before dolayı",
+        "ko": "dolayı 앞의 탈격"
+      },
+      "contextualExplanation": {
+        "en": "Dolayı requires the preceding noun’s ablative; this is causal rather than spatial.",
+        "ko": "dolayı 앞 명사는 탈격을 취합니다. 장소가 아니라 원인입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "work / deed / affair",
+        "ko": "일·행위"
+      }
+    },
+    {
+      "id": "study-tit-3-5-word-5",
+      "verseId": "TIT.3.5",
+      "start": 147,
+      "end": 159,
+      "surface": "merhametiyle",
+      "lemma": "merhamet",
+      "meaning": {
+        "en": "by his mercy",
+        "ko": "그분의 자비로"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "merhamet",
+          "meaning": {
+            "en": "mercy / compassion",
+            "ko": "긍휼·자비"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "le",
+          "meaning": {
+            "en": "with / by",
+            "ko": "~와 함께·~로"
+          },
+          "function": "WITH"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Possessed means",
+        "ko": "소유 수단"
+      },
+      "contextualExplanation": {
+        "en": "Kendi points back to the saving God; -le supplies the means/basis.",
+        "ko": "kendi는 구원하시는 하나님을 가리키고 -le는 수단·근거입니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "mercy / compassion",
+        "ko": "긍휼·자비"
+      }
+    },
+    {
+      "id": "study-tit-3-5-word-6",
+      "verseId": "TIT.3.5",
+      "start": 244,
+      "end": 251,
+      "surface": "döktüğü",
+      "lemma": "dökmek",
+      "meaning": {
+        "en": "which he poured out",
+        "ko": "그분이 부으신"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "dök",
+          "meaning": {
+            "en": "pour / spill",
+            "ko": "붓다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "tüğ",
+          "meaning": {
+            "en": "nominalizing/participial -DIK",
+            "ko": "명사화·관계형 -DIK"
+          },
+          "function": "DIK"
+        },
+        {
+          "form": "ü",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-tük → -tüğ before a vowel",
+          "ko": "모음 앞에서 -tük가 -tüğ로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "-DIK nominal/participial",
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Relative modifier of the Spirit",
+        "ko": "성령의 관계 수식어"
+      },
+      "contextualExplanation": {
+        "en": "The Spirit is what is poured out; God is the understood subject of the relative clause.",
+        "ko": "부어지는 대상은 성령이며 관계절의 생략 주어는 하나님입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "pour / spill",
+        "ko": "붓다"
+      }
+    },
+    {
+      "id": "study-tit-3-5-word-7",
+      "verseId": "TIT.3.5",
+      "start": 266,
+      "end": 279,
+      "surface": "yenilemesiyle",
+      "lemma": "yenilemek",
+      "meaning": {
+        "en": "by his renewal",
+        "ko": "그분의 새롭게 하심으로"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yenile",
+          "meaning": {
+            "en": "renew",
+            "ko": "새롭게 하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "me",
+          "meaning": {
+            "en": "verbal noun",
+            "ko": "동사 명사형"
+          },
+          "function": "VN"
+        },
+        {
+          "form": "si",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "le",
+          "meaning": {
+            "en": "with / by",
+            "ko": "~와 함께·~로"
+          },
+          "function": "WITH"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "verbal noun",
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Possessed verbal noun plus means",
+        "ko": "소유 동사 명사형·수단"
+      },
+      "contextualExplanation": {
+        "en": "Kutsal Ruh’un supplies the genitive subject/possessor; the verb’s action becomes a noun used with ile.",
+        "ko": "Kutsal Ruh’un이 속격 주어·소유자이고 동사 행위가 명사가 되어 ile와 연결됩니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "renew",
+        "ko": "새롭게 하다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-tit-3-5-word-1-vocab",
+      "analysisId": "study-tit-3-5-word-1",
+      "lemma": "kurtarıcı",
+      "classification": "biblical",
+      "definitions": {
+        "en": "savior / rescuer",
+        "ko": "구원자"
+      },
+      "usageNotes": {
+        "en": "The title is addressed to God in the first sentence and Christ in the second; preserve each local noun phrase.",
+        "ko": "첫 문장은 하나님, 다음 문장은 그리스도를 가리키는 칭호이므로 각 명사 구의 대상을 유지하세요."
+      }
+    },
+    {
+      "id": "study-tit-3-5-word-2-vocab",
+      "analysisId": "study-tit-3-5-word-2",
+      "lemma": "göstermek",
+      "classification": "general",
+      "definitions": {
+        "en": "show",
+        "ko": "보여주다"
+      },
+      "usageNotes": {
+        "en": "The main subject God also performs this action.",
+        "ko": "주절 주어 하나님이 이 행위도 하십니다."
+      }
+    },
+    {
+      "id": "study-tit-3-5-word-3-vocab",
+      "analysisId": "study-tit-3-5-word-3",
+      "lemma": "yapmak",
+      "classification": "general",
+      "definitions": {
+        "en": "do / make",
+        "ko": "하다·만들다"
+      },
+      "usageNotes": {
+        "en": "The subject is we, supplied by -ımız, whereas God is the subject of the final yaptı.",
+        "ko": "-ımız가 우리가라는 주어를 주며 마지막 yaptı의 주어 하나님과 다릅니다."
+      }
+    },
+    {
+      "id": "study-tit-3-5-word-4-vocab",
+      "analysisId": "study-tit-3-5-word-4",
+      "lemma": "iş",
+      "classification": "general",
+      "definitions": {
+        "en": "work / deed / affair",
+        "ko": "일·행위"
+      },
+      "usageNotes": {
+        "en": "Dolayı requires the preceding noun’s ablative; this is causal rather than spatial.",
+        "ko": "dolayı 앞 명사는 탈격을 취합니다. 장소가 아니라 원인입니다."
+      }
+    },
+    {
+      "id": "study-tit-3-5-word-5-vocab",
+      "analysisId": "study-tit-3-5-word-5",
+      "lemma": "merhamet",
+      "classification": "biblical",
+      "definitions": {
+        "en": "mercy / compassion",
+        "ko": "긍휼·자비"
+      },
+      "usageNotes": {
+        "en": "Kendi points back to the saving God; -le supplies the means/basis.",
+        "ko": "kendi는 구원하시는 하나님을 가리키고 -le는 수단·근거입니다."
+      }
+    },
+    {
+      "id": "study-tit-3-5-word-6-vocab",
+      "analysisId": "study-tit-3-5-word-6",
+      "lemma": "dökmek",
+      "classification": "general",
+      "definitions": {
+        "en": "pour / spill",
+        "ko": "붓다"
+      },
+      "usageNotes": {
+        "en": "The Spirit is what is poured out; God is the understood subject of the relative clause.",
+        "ko": "부어지는 대상은 성령이며 관계절의 생략 주어는 하나님입니다."
+      }
+    },
+    {
+      "id": "study-tit-3-5-word-7-vocab",
+      "analysisId": "study-tit-3-5-word-7",
+      "lemma": "yenilemek",
+      "classification": "biblical",
+      "definitions": {
+        "en": "renew",
+        "ko": "새롭게 하다"
+      },
+      "usageNotes": {
+        "en": "Kutsal Ruh’un supplies the genitive subject/possessor; the verb’s action becomes a noun used with ile.",
+        "ko": "Kutsal Ruh’un이 속격 주어·소유자이고 동사 행위가 명사가 되어 ile와 연결됩니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-tit-3-5-grammar-1",
+      "title": {
+        "en": "Contrasting causes and means",
+        "ko": "원인과 수단 대조"
+      },
+      "explanation": {
+        "en": "İşlerden dolayı names a cause, negated by değil. Merhametiyle, yıkamasıyla, and yenilemesiyle name the stated means/basis.",
+        "ko": "işlerden dolayı는 değil로 부정하는 원인입니다. merhametiyle·yıkamasıyla·yenilemesiyle는 제시된 수단·근거입니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "TIT.3.5",
+          "start": 0,
+          "end": 90
+        },
+        {
+          "verseId": "TIT.3.5",
+          "start": 91,
+          "end": 286
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-tit-3-5-grammar-2",
+      "title": {
+        "en": "Nested modifiers with different subjects",
+        "ko": "주어가 다른 중첩 수식"
+      },
+      "explanation": {
+        "en": "Yaptığımız refers to our deeds; döktüğü refers to God’s outpouring. Each possessed participle has its own subject, even inside one long sentence.",
+        "ko": "yaptığımız는 우리의 행위이고 döktüğü는 하나님의 부으심입니다. 한 긴 문장 안에서도 소유 관계형마다 주어가 다릅니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "TIT.3.5",
+          "start": 0,
+          "end": 90
+        },
+        {
+          "verseId": "TIT.3.5",
+          "start": 91,
+          "end": 286
+        }
+      ],
+      "relatedLessonIds": [
+        "foundation-voice",
+        "ministry-07"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Contrast a cause with a means using dolayı and -yle, in an everyday explanation.",
+    "ko": "일상 설명에서 dolayı로 원인을, -yle로 수단을 구별하세요."
+  },
+  "modelResponse": {
+    "tr": "Hastalıktan dolayı evde kaldım. Arkadaşımın yardımıyla işlerimi bitirdim.",
+    "meaning": {
+      "en": "I stayed home because of illness. With my friend’s help I finished my tasks.",
+      "ko": "질병 때문에 집에 있었습니다. 친구의 도움으로 일을 마쳤습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "foundation-voice",
+    "ministry-07"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-tit-3-5-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Titus 3:5? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 디도서 3:5인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-tit-3-5",
+          "passageId": "study-tit-3-5",
+          "explanation": {
+            "en": "This is the passage. God our Saviour openly showed goodness and love for humanity and saved us. He did this not because of righteous deeds we performed, but by his mercy, through rebirth’s washing and the Holy Spirit’s renewal, poured out abundantly through Jesus Christ our Saviour. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 우리 구주 하나님께서 선하심과 사람에 대한 사랑을 나타내어 우리를 구원하셨습니다. 우리의 의로운 행위 때문이 아니라 자신의 자비로, 새로 태어남의 씻음과 우리 구주 예수 그리스도를 통해 풍성히 부어주신 성령의 새롭게 하심으로 하셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-9-27",
+          "passageId": "study-heb-9-27",
+          "explanation": {
+            "en": "This is a different passage. Just as humans must die once and then face judgment, Christ was offered once to bear many people’s sins. He will appear a second time, not to bear sin, but to bring salvation to those waiting for him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사람이 한 번 죽고 그 후 심판받는 것이 불가피하듯 그리스도도 많은 사람의 죄를 담당하려고 한 번 제물로 드려졌습니다. 두 번째에는 죄를 담당하기 위해서가 아니라 자신을 기다리는 사람들에게 구원을 가져오려고 나타나실 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-3-18",
+          "passageId": "study-1pe-3-18",
+          "explanation": {
+            "en": "This is a different passage. Christ, the righteous one, died once and finally as a sin offering for the unrighteous to bring us to God. He was put to death bodily but made alive in spirit. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 의로운 그리스도께서 우리를 하나님께 이끄시려고 의롭지 않은 사람들을 위해 죄의 제물로 처음이자 마지막으로 죽으셨습니다. 육체로 죽임을 당하셨으나 영으로 살리심을 받으셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rev-3-20",
+          "passageId": "study-rev-3-20",
+          "explanation": {
+            "en": "This is a different passage. I stand at the door and knock. If someone hears my voice and opens the door, I will enter beside them, and we will eat together. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 나는 문 앞에 서서 두드립니다. 누군가 내 음성을 듣고 문을 열면 그에게 들어가 함께 식사할 것입니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-tit-3-5"
+      ],
+      "explanations": {
+        "en": "This is the passage. God our Saviour openly showed goodness and love for humanity and saved us. He did this not because of righteous deeds we performed, but by his mercy, through rebirth’s washing and the Holy Spirit’s renewal, poured out abundantly through Jesus Christ our Saviour. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 우리 구주 하나님께서 선하심과 사람에 대한 사랑을 나타내어 우리를 구원하셨습니다. 우리의 의로운 행위 때문이 아니라 자신의 자비로, 새로 태어남의 씻음과 우리 구주 예수 그리스도를 통해 풍성히 부어주신 성령의 새롭게 하심으로 하셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-tit-3-5-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-tit-3-5",
+          "referenceId": "study-tit-3-5",
+          "explanation": {
+            "en": "This is the passage. God our Saviour openly showed goodness and love for humanity and saved us. He did this not because of righteous deeds we performed, but by his mercy, through rebirth’s washing and the Holy Spirit’s renewal, poured out abundantly through Jesus Christ our Saviour. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 우리 구주 하나님께서 선하심과 사람에 대한 사랑을 나타내어 우리를 구원하셨습니다. 우리의 의로운 행위 때문이 아니라 자신의 자비로, 새로 태어남의 씻음과 우리 구주 예수 그리스도를 통해 풍성히 부어주신 성령의 새롭게 하심으로 하셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-9-27",
+          "referenceId": "study-heb-9-27",
+          "explanation": {
+            "en": "This is a different passage. Just as humans must die once and then face judgment, Christ was offered once to bear many people’s sins. He will appear a second time, not to bear sin, but to bring salvation to those waiting for him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사람이 한 번 죽고 그 후 심판받는 것이 불가피하듯 그리스도도 많은 사람의 죄를 담당하려고 한 번 제물로 드려졌습니다. 두 번째에는 죄를 담당하기 위해서가 아니라 자신을 기다리는 사람들에게 구원을 가져오려고 나타나실 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-3-18",
+          "referenceId": "study-1pe-3-18",
+          "explanation": {
+            "en": "This is a different passage. Christ, the righteous one, died once and finally as a sin offering for the unrighteous to bring us to God. He was put to death bodily but made alive in spirit. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 의로운 그리스도께서 우리를 하나님께 이끄시려고 의롭지 않은 사람들을 위해 죄의 제물로 처음이자 마지막으로 죽으셨습니다. 육체로 죽임을 당하셨으나 영으로 살리심을 받으셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rev-3-20",
+          "referenceId": "study-rev-3-20",
+          "explanation": {
+            "en": "This is a different passage. I stand at the door and knock. If someone hears my voice and opens the door, I will enter beside them, and we will eat together. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 나는 문 앞에 서서 두드립니다. 누군가 내 음성을 듣고 문을 열면 그에게 들어가 함께 식사할 것입니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-tit-3-5"
+      ],
+      "explanations": {
+        "en": "This is the passage. God our Saviour openly showed goodness and love for humanity and saved us. He did this not because of righteous deeds we performed, but by his mercy, through rebirth’s washing and the Holy Spirit’s renewal, poured out abundantly through Jesus Christ our Saviour. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 우리 구주 하나님께서 선하심과 사람에 대한 사랑을 나타내어 우리를 구원하셨습니다. 우리의 의로운 행위 때문이 아니라 자신의 자비로, 새로 태어남의 씻음과 우리 구주 예수 그리스도를 통해 풍성히 부어주신 성령의 새롭게 하심으로 하셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-tit-3-5-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “kurtarıcı” in this passage?",
+        "ko": "이 본문에서 “kurtarıcı”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-tit-3-5-word-1-vocab",
+          "label": {
+            "en": "savior / rescuer",
+            "ko": "구원자"
+          },
+          "explanation": {
+            "en": "savior / rescuer. The title is addressed to God in the first sentence and Christ in the second; preserve each local noun phrase.",
+            "ko": "구원자. 첫 문장은 하나님, 다음 문장은 그리스도를 가리키는 칭호이므로 각 명사 구의 대상을 유지하세요."
+          }
+        },
+        {
+          "id": "study-tit-3-5-word-2-vocab",
+          "label": {
+            "en": "show",
+            "ko": "보여주다"
+          },
+          "explanation": {
+            "en": "That definition belongs to göstermek. kurtarıcı means savior / rescuer here. The title is addressed to God in the first sentence and Christ in the second; preserve each local noun phrase.",
+            "ko": "그 뜻은 göstermek입니다. 여기 kurtarıcı는 구원자입니다. 첫 문장은 하나님, 다음 문장은 그리스도를 가리키는 칭호이므로 각 명사 구의 대상을 유지하세요."
+          }
+        },
+        {
+          "id": "study-tit-3-5-word-3-vocab",
+          "label": {
+            "en": "do / make",
+            "ko": "하다·만들다"
+          },
+          "explanation": {
+            "en": "That definition belongs to yapmak. kurtarıcı means savior / rescuer here. The title is addressed to God in the first sentence and Christ in the second; preserve each local noun phrase.",
+            "ko": "그 뜻은 yapmak입니다. 여기 kurtarıcı는 구원자입니다. 첫 문장은 하나님, 다음 문장은 그리스도를 가리키는 칭호이므로 각 명사 구의 대상을 유지하세요."
+          }
+        },
+        {
+          "id": "study-tit-3-5-word-4-vocab",
+          "label": {
+            "en": "work / deed / affair",
+            "ko": "일·행위"
+          },
+          "explanation": {
+            "en": "That definition belongs to iş. kurtarıcı means savior / rescuer here. The title is addressed to God in the first sentence and Christ in the second; preserve each local noun phrase.",
+            "ko": "그 뜻은 iş입니다. 여기 kurtarıcı는 구원자입니다. 첫 문장은 하나님, 다음 문장은 그리스도를 가리키는 칭호이므로 각 명사 구의 대상을 유지하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-tit-3-5-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "The title is addressed to God in the first sentence and Christ in the second; preserve each local noun phrase.",
+        "ko": "첫 문장은 하나님, 다음 문장은 그리스도를 가리키는 칭호이므로 각 명사 구의 대상을 유지하세요."
+      }
+    },
+    {
+      "id": "study-tit-3-5-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “işlerden”, what is the function of “-den” here?",
+        "ko": "“işlerden”에서 “-den”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from",
+            "ko": "탈격: ~에서·~로부터"
+          },
+          "explanation": {
+            "en": "Ablative before dolayı. Dolayı requires the preceding noun’s ablative; this is causal rather than spatial.",
+            "ko": "dolayı 앞의 탈격. dolayı 앞 명사는 탈격을 취합니다. 장소가 아니라 원인입니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Ablative before dolayı. Dolayı requires the preceding noun’s ablative; this is causal rather than spatial.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. dolayı 앞의 탈격. dolayı 앞 명사는 탈격을 취합니다. 장소가 아니라 원인입니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Ablative before dolayı. Dolayı requires the preceding noun’s ablative; this is causal rather than spatial.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. dolayı 앞의 탈격. dolayı 앞 명사는 탈격을 취합니다. 장소가 아니라 원인입니다."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Ablative before dolayı. Dolayı requires the preceding noun’s ablative; this is causal rather than spatial.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. dolayı 앞의 탈격. dolayı 앞 명사는 탈격을 취합니다. 장소가 아니라 원인입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ABL"
+      ],
+      "explanations": {
+        "en": "Dolayı requires the preceding noun’s ablative; this is causal rather than spatial.",
+        "ko": "dolayı 앞 명사는 탈격을 취합니다. 장소가 아니라 원인입니다."
+      }
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "id": "study-pro-3-9-10",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Proverbs 3:9, 10 through its clause structure and the forms Servetinle / ürününün.",
+    "ko": "잠언 3:9, 10의 절 구조와 Servetinle / ürününün 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Honor the LORD with your wealth and the first produce of your harvest; then your barns will fill and your vats overflow with new wine.",
+    "ko": "재산과 첫 수확으로 주님을 공경하세요. 그러면 창고가 가득 차고 포도즙 틀이 새 포도주로 넘칠 것입니다."
+  },
+  "clauses": [
+    {
+      "id": "study-pro-3-9-10-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "PRO.3.9",
+          "start": 0,
+          "end": 55
+        }
+      ],
+      "naturalMeaning": {
+        "en": "The command names two means of honoring the LORD.",
+        "ko": "명령은 주님을 공경하는 두 수단을 밝힙니다."
+      },
+      "literalGloss": {
+        "en": "wealth-your-with and produce-your’s firstfruits-its-with / LORD-object honor",
+        "ko": "너의 재산으로·너의 생산물의 첫 열매로 / 주님을 공경하라"
+      },
+      "explanation": {
+        "en": "Both -le and -yla realize ile, meaning with/by. Ürününün is genitive after its second-person possession; turfandasıyla supplies the possessed head and instrumental. The line break does not end the sentence.",
+        "ko": "-le·-yla는 ile의 함께·수단형입니다. ürününün은 2인칭 소유 뒤 속격이고 turfandasıyla가 소유 중심어·도구형입니다. 줄바꿈이 문장을 끝내지는 않습니다."
+      }
+    },
+    {
+      "id": "study-pro-3-9-10-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "PRO.3.10",
+          "start": 0,
+          "end": 72
+        }
+      ],
+      "naturalMeaning": {
+        "en": "The parallel result uses harvest and wine-production imagery.",
+        "ko": "나란한 결과는 수확·포도주 생산 이미지를 사용합니다."
+      },
+      "literalGloss": {
+        "en": "barns-your to-the-brim fill / vats-your new wine-with filling overflow",
+        "ko": "너의 창고가 꽉 찬다 / 너의 틀이 새 포도주로 차서 넘친다"
+      },
+      "explanation": {
+        "en": "Dolar and taşar are aorists in a proverbial consequence. Dolup links filling to overflowing. Read this as wisdom-literature imagery, not a contractual promise that each gift produces material wealth.",
+        "ko": "dolar·taşar는 잠언 결과의 일반 현재입니다. dolup는 참과 넘침을 잇습니다. 지혜 문학 이미지이며 헌금마다 재물을 보장하는 계약으로 읽지 마세요."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-pro-3-9-10-word-1",
+      "verseId": "PRO.3.9",
+      "start": 0,
+      "end": 10,
+      "surface": "Servetinle",
+      "lemma": "servet",
+      "meaning": {
+        "en": "with your wealth",
+        "ko": "너의 재산으로"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "Servet",
+          "meaning": {
+            "en": "wealth",
+            "ko": "재산"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "in",
+          "meaning": {
+            "en": "second-person singular possessive",
+            "ko": "2인칭 단수 소유"
+          },
+          "function": "P2"
+        },
+        {
+          "form": "le",
+          "meaning": {
+            "en": "with / by",
+            "ko": "~와 함께·~로"
+          },
+          "function": "WITH"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "2sg"
+      },
+      "role": {
+        "en": "Possessed instrumental means",
+        "ko": "소유 도구 수단"
+      },
+      "contextualExplanation": {
+        "en": "-in here is your, not genitive: no dependent possessed noun follows servet.",
+        "ko": "여기 -in은 속격이 아니라 너의입니다. servet 뒤에 이에 의존하는 소유 명사가 없습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "wealth",
+        "ko": "재산"
+      }
+    },
+    {
+      "id": "study-pro-3-9-10-word-2",
+      "verseId": "PRO.3.9",
+      "start": 14,
+      "end": 22,
+      "surface": "ürününün",
+      "lemma": "ürün",
+      "meaning": {
+        "en": "of your produce",
+        "ko": "너의 생산물의"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "ürün",
+          "meaning": {
+            "en": "produce / product",
+            "ko": "생산물"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ün",
+          "meaning": {
+            "en": "second-person singular possessive",
+            "ko": "2인칭 단수 소유"
+          },
+          "function": "P2"
+        },
+        {
+          "form": "ün",
+          "meaning": {
+            "en": "genitive: possessor / dependent subject",
+            "ko": "속격: 소유자·내포절 주어"
+          },
+          "function": "GEN"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "2sg",
+        "case": "genitive"
+      },
+      "role": {
+        "en": "Possession followed by genitive",
+        "ko": "소유 뒤 속격"
+      },
+      "contextualExplanation": {
+        "en": "The repeated syllable has two functions: your produce, then of that produce.",
+        "ko": "반복 음절은 너의 생산물과 그 생산물의라는 두 기능을 갖습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "produce / product",
+        "ko": "생산물"
+      }
+    },
+    {
+      "id": "study-pro-3-9-10-word-3",
+      "verseId": "PRO.3.9",
+      "start": 23,
+      "end": 36,
+      "surface": "turfandasıyla",
+      "lemma": "turfanda",
+      "meaning": {
+        "en": "with its first produce",
+        "ko": "그 첫 열매로"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "turfanda",
+          "meaning": {
+            "en": "early / first seasonal produce",
+            "ko": "철의 이른·첫 생산물"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "sı",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "la",
+          "meaning": {
+            "en": "with / by",
+            "ko": "~와 함께·~로"
+          },
+          "function": "WITH"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Possessed instrumental head",
+        "ko": "소유 도구 중심어"
+      },
+      "contextualExplanation": {
+        "en": "Turfanda refers to early/first seasonal produce; the source uses it in an offering context.",
+        "ko": "turfanda는 철의 이른·첫 생산물이고 출처는 봉헌 문맥에서 씁니다."
+      },
+      "classification": "literary",
+      "dictionaryMeaning": {
+        "en": "early / first seasonal produce",
+        "ko": "철의 이른·첫 생산물"
+      }
+    },
+    {
+      "id": "study-pro-3-9-10-word-4",
+      "verseId": "PRO.3.10",
+      "start": 29,
+      "end": 34,
+      "surface": "dolar",
+      "lemma": "dolmak",
+      "meaning": {
+        "en": "fills / will fill",
+        "ko": "찬다·찰 것이다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "dol",
+          "meaning": {
+            "en": "fill / become full",
+            "ko": "차다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ar",
+          "meaning": {
+            "en": "aorist: general / habitual",
+            "ko": "일반·습관 현재"
+          },
+          "function": "AOR"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "aorist"
+      },
+      "role": {
+        "en": "Proverbial consequence",
+        "ko": "잠언의 결과"
+      },
+      "contextualExplanation": {
+        "en": "The aorist can state a typical or prospective consequence without a future -acak.",
+        "ko": "일반 현재는 미래 -acak 없이 전형적·앞으로의 결과를 말할 수 있습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "fill / become full",
+        "ko": "차다"
+      }
+    },
+    {
+      "id": "study-pro-3-9-10-word-5",
+      "verseId": "PRO.3.10",
+      "start": 66,
+      "end": 71,
+      "surface": "taşar",
+      "lemma": "taşmak",
+      "meaning": {
+        "en": "overflows",
+        "ko": "넘친다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "taş",
+          "meaning": {
+            "en": "overflow",
+            "ko": "넘치다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ar",
+          "meaning": {
+            "en": "aorist: general / habitual",
+            "ko": "일반·습관 현재"
+          },
+          "function": "AOR"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "aorist"
+      },
+      "role": {
+        "en": "Second result predicate",
+        "ko": "두 번째 결과 술어"
+      },
+      "contextualExplanation": {
+        "en": "Dolup taşmak is a paired expression meaning overflow.",
+        "ko": "dolup taşmak은 가득 차 넘치다라는 짝 표현입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "overflow",
+        "ko": "넘치다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-pro-3-9-10-word-1-vocab",
+      "analysisId": "study-pro-3-9-10-word-1",
+      "lemma": "servet",
+      "classification": "general",
+      "definitions": {
+        "en": "wealth",
+        "ko": "재산"
+      },
+      "usageNotes": {
+        "en": "-in here is your, not genitive: no dependent possessed noun follows servet.",
+        "ko": "여기 -in은 속격이 아니라 너의입니다. servet 뒤에 이에 의존하는 소유 명사가 없습니다."
+      }
+    },
+    {
+      "id": "study-pro-3-9-10-word-2-vocab",
+      "analysisId": "study-pro-3-9-10-word-2",
+      "lemma": "ürün",
+      "classification": "general",
+      "definitions": {
+        "en": "produce / product",
+        "ko": "생산물"
+      },
+      "usageNotes": {
+        "en": "The repeated syllable has two functions: your produce, then of that produce.",
+        "ko": "반복 음절은 너의 생산물과 그 생산물의라는 두 기능을 갖습니다."
+      }
+    },
+    {
+      "id": "study-pro-3-9-10-word-3-vocab",
+      "analysisId": "study-pro-3-9-10-word-3",
+      "lemma": "turfanda",
+      "classification": "literary",
+      "definitions": {
+        "en": "early / first seasonal produce",
+        "ko": "철의 이른·첫 생산물"
+      },
+      "usageNotes": {
+        "en": "Turfanda refers to early/first seasonal produce; the source uses it in an offering context. These modern expressions explain the produce sense, without replacing the published wording.",
+        "ko": "turfanda는 철의 이른·첫 생산물이고 출처는 봉헌 문맥에서 씁니다. 현대 표현은 생산물 뜻을 설명하며 출판 본문을 바꾸지 않습니다."
+      },
+      "modernEquivalent": "ilk ürün / erken ürün"
+    },
+    {
+      "id": "study-pro-3-9-10-word-4-vocab",
+      "analysisId": "study-pro-3-9-10-word-4",
+      "lemma": "dolmak",
+      "classification": "general",
+      "definitions": {
+        "en": "fill / become full",
+        "ko": "차다"
+      },
+      "usageNotes": {
+        "en": "The aorist can state a typical or prospective consequence without a future -acak.",
+        "ko": "일반 현재는 미래 -acak 없이 전형적·앞으로의 결과를 말할 수 있습니다."
+      }
+    },
+    {
+      "id": "study-pro-3-9-10-word-5-vocab",
+      "analysisId": "study-pro-3-9-10-word-5",
+      "lemma": "taşmak",
+      "classification": "general",
+      "definitions": {
+        "en": "overflow",
+        "ko": "넘치다"
+      },
+      "usageNotes": {
+        "en": "Dolup taşmak is a paired expression meaning overflow.",
+        "ko": "dolup taşmak은 가득 차 넘치다라는 짝 표현입니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-pro-3-9-10-grammar-1",
+      "title": {
+        "en": "Possession before genitive",
+        "ko": "속격 앞 소유"
+      },
+      "explanation": {
+        "en": "Ürün-ün-ün is not an accidental repetition. Compare ürünün “your produce” and ürününün turfandası “the first produce of your harvest.”",
+        "ko": "ürün-ün-ün은 실수로 반복한 것이 아닙니다. ürünün 너의 생산물과 ürününün turfandası 너의 수확의 첫 열매를 비교하세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "PRO.3.9",
+          "start": 0,
+          "end": 55
+        },
+        {
+          "verseId": "PRO.3.10",
+          "start": 0,
+          "end": 72
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-pro-3-9-10-grammar-2",
+      "title": {
+        "en": "Aorist in proverbs",
+        "ko": "잠언의 일반 현재"
+      },
+      "explanation": {
+        "en": "Dolar / taşar express the proverbial outcome. The literary context limits application; grammatical certainty does not settle every theological claim about prosperity.",
+        "ko": "dolar·taşar는 잠언의 결과입니다. 문학 문맥이 적용을 제한하며 문법상 단정이 번영에 관한 모든 신학 주장을 확정하지는 않습니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "PRO.3.9",
+          "start": 0,
+          "end": 55
+        },
+        {
+          "verseId": "PRO.3.10",
+          "start": 0,
+          "end": 72
+        }
+      ],
+      "relatedLessonIds": []
+    }
+  ],
+  "independentTask": {
+    "en": "Describe one resource with a possessive + ile form, then use dolup taşmak in an ordinary description.",
+    "ko": "소유·ile형으로 자원을 말하고 일상 묘사에 dolup taşmak을 사용하세요."
+  },
+  "modelResponse": {
+    "tr": "Zamanımla yardım edebilirim. Yağmurdan sonra nehir dolup taşıyor.",
+    "meaning": {
+      "en": "I can help with my time. After the rain the river is overflowing.",
+      "ko": "제 시간으로 도울 수 있습니다. 비가 온 뒤 강이 넘칩니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-pro-3-9-10-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Proverbs 3:9, 10? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 잠언 3:9, 10인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-pro-3-9-10",
+          "passageId": "study-pro-3-9-10",
+          "explanation": {
+            "en": "This is the passage. Honor the LORD with your wealth and the first produce of your harvest; then your barns will fill and your vats overflow with new wine. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 재산과 첫 수확으로 주님을 공경하세요. 그러면 창고가 가득 차고 포도즙 틀이 새 포도주로 넘칠 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-2co-9-6-7",
+          "passageId": "study-2co-9-6-7",
+          "explanation": {
+            "en": "This is a different passage. Whoever sows little reaps little, and whoever sows much reaps much. Each should give as intended in their heart, not reluctantly or under compulsion; God loves a cheerful giver. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 적게 심는 이는 적게 거두고 많이 심는 이는 많이 거둡니다. 각자는 마음에 정한 대로 억지나 강요가 아니라 기꺼이 주세요. 하나님은 기쁘게 주는 이를 사랑하십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mrk-10-45",
+          "passageId": "study-mrk-10-45",
+          "explanation": {
+            "en": "This is a different passage. The Son of Man came to serve rather than to be served, and to give his life as a ransom for many. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 인자는 섬김을 받기보다 섬기고 많은 사람을 위한 대속물로 자기 생명을 주려고 오셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-6-33",
+          "passageId": "study-mat-6-33",
+          "explanation": {
+            "en": "This is a different passage. Seek his kingdom and righteousness first; then all these things will also be given to you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 먼저 그분의 나라와 의를 구하세요. 그러면 이 모든 것도 여러분에게 주어질 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-pro-3-9-10"
+      ],
+      "explanations": {
+        "en": "This is the passage. Honor the LORD with your wealth and the first produce of your harvest; then your barns will fill and your vats overflow with new wine. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 재산과 첫 수확으로 주님을 공경하세요. 그러면 창고가 가득 차고 포도즙 틀이 새 포도주로 넘칠 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-pro-3-9-10-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-pro-3-9-10",
+          "referenceId": "study-pro-3-9-10",
+          "explanation": {
+            "en": "This is the passage. Honor the LORD with your wealth and the first produce of your harvest; then your barns will fill and your vats overflow with new wine. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 재산과 첫 수확으로 주님을 공경하세요. 그러면 창고가 가득 차고 포도즙 틀이 새 포도주로 넘칠 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-2co-9-6-7",
+          "referenceId": "study-2co-9-6-7",
+          "explanation": {
+            "en": "This is a different passage. Whoever sows little reaps little, and whoever sows much reaps much. Each should give as intended in their heart, not reluctantly or under compulsion; God loves a cheerful giver. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 적게 심는 이는 적게 거두고 많이 심는 이는 많이 거둡니다. 각자는 마음에 정한 대로 억지나 강요가 아니라 기꺼이 주세요. 하나님은 기쁘게 주는 이를 사랑하십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mrk-10-45",
+          "referenceId": "study-mrk-10-45",
+          "explanation": {
+            "en": "This is a different passage. The Son of Man came to serve rather than to be served, and to give his life as a ransom for many. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 인자는 섬김을 받기보다 섬기고 많은 사람을 위한 대속물로 자기 생명을 주려고 오셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-6-33",
+          "referenceId": "study-mat-6-33",
+          "explanation": {
+            "en": "This is a different passage. Seek his kingdom and righteousness first; then all these things will also be given to you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 먼저 그분의 나라와 의를 구하세요. 그러면 이 모든 것도 여러분에게 주어질 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-pro-3-9-10"
+      ],
+      "explanations": {
+        "en": "This is the passage. Honor the LORD with your wealth and the first produce of your harvest; then your barns will fill and your vats overflow with new wine. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 재산과 첫 수확으로 주님을 공경하세요. 그러면 창고가 가득 차고 포도즙 틀이 새 포도주로 넘칠 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-pro-3-9-10-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “servet” in this passage?",
+        "ko": "이 본문에서 “servet”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-pro-3-9-10-word-1-vocab",
+          "label": {
+            "en": "wealth",
+            "ko": "재산"
+          },
+          "explanation": {
+            "en": "wealth. -in here is your, not genitive: no dependent possessed noun follows servet.",
+            "ko": "재산. 여기 -in은 속격이 아니라 너의입니다. servet 뒤에 이에 의존하는 소유 명사가 없습니다."
+          }
+        },
+        {
+          "id": "study-pro-3-9-10-word-2-vocab",
+          "label": {
+            "en": "produce / product",
+            "ko": "생산물"
+          },
+          "explanation": {
+            "en": "That definition belongs to ürün. servet means wealth here. -in here is your, not genitive: no dependent possessed noun follows servet.",
+            "ko": "그 뜻은 ürün입니다. 여기 servet는 재산입니다. 여기 -in은 속격이 아니라 너의입니다. servet 뒤에 이에 의존하는 소유 명사가 없습니다."
+          }
+        },
+        {
+          "id": "study-pro-3-9-10-word-3-vocab",
+          "label": {
+            "en": "early / first seasonal produce",
+            "ko": "철의 이른·첫 생산물"
+          },
+          "explanation": {
+            "en": "That definition belongs to turfanda. servet means wealth here. -in here is your, not genitive: no dependent possessed noun follows servet.",
+            "ko": "그 뜻은 turfanda입니다. 여기 servet는 재산입니다. 여기 -in은 속격이 아니라 너의입니다. servet 뒤에 이에 의존하는 소유 명사가 없습니다."
+          }
+        },
+        {
+          "id": "study-pro-3-9-10-word-4-vocab",
+          "label": {
+            "en": "fill / become full",
+            "ko": "차다"
+          },
+          "explanation": {
+            "en": "That definition belongs to dolmak. servet means wealth here. -in here is your, not genitive: no dependent possessed noun follows servet.",
+            "ko": "그 뜻은 dolmak입니다. 여기 servet는 재산입니다. 여기 -in은 속격이 아니라 너의입니다. servet 뒤에 이에 의존하는 소유 명사가 없습니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-pro-3-9-10-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "-in here is your, not genitive: no dependent possessed noun follows servet.",
+        "ko": "여기 -in은 속격이 아니라 너의입니다. servet 뒤에 이에 의존하는 소유 명사가 없습니다."
+      }
+    },
+    {
+      "id": "study-pro-3-9-10-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “ürününün”, what is the function of “-ün” here?",
+        "ko": "“ürününün”에서 “-ün”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "GEN",
+          "label": {
+            "en": "genitive: possessor / dependent subject",
+            "ko": "속격: 소유자·내포절 주어"
+          },
+          "explanation": {
+            "en": "Possession followed by genitive. The repeated syllable has two functions: your produce, then of that produce.",
+            "ko": "소유 뒤 속격. 반복 음절은 너의 생산물과 그 생산물의라는 두 기능을 갖습니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possession followed by genitive. The repeated syllable has two functions: your produce, then of that produce.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 뒤 속격. 반복 음절은 너의 생산물과 그 생산물의라는 두 기능을 갖습니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possession followed by genitive. The repeated syllable has two functions: your produce, then of that produce.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 뒤 속격. 반복 음절은 너의 생산물과 그 생산물의라는 두 기능을 갖습니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possession followed by genitive. The repeated syllable has two functions: your produce, then of that produce.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 뒤 속격. 반복 음절은 너의 생산물과 그 생산물의라는 두 기능을 갖습니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "GEN"
+      ],
+      "explanations": {
+        "en": "The repeated syllable has two functions: your produce, then of that produce.",
+        "ko": "반복 음절은 너의 생산물과 그 생산물의라는 두 기능을 갖습니다."
+      }
+    }
+  ]
+}

@@ -1,0 +1,903 @@
+{
+  "edition": {
+    "id": "TCL02",
+    "name": "Kutsal Kitap — Yeni Çeviri",
+    "copyright": "Kutsal Kitap © The Bible Society in Turkey (Kitabı Mukaddes Şirketi) ve The Translation Trust / Yeni Yaşam Yayınları, 2001, 2008",
+    "copyrightSource": "https://shop.die-bibel.de/media/26/04/6a/1733098522/9783438081667_Leseprobe_01.pdf.pdf?ts=1733703078",
+    "noticePrintYear": 2014,
+    "quotationLimit": 100
+  },
+  "verses": {
+    "2CO.5.17": {
+      "id": "2CO.5.17",
+      "text": "Bir kimse Mesih'teyse, yeni yaratıktır; eski şeyler geçmiş, her şey yeni olmuştur.",
+      "numberedVerseIds": [
+        "2CO.5.17"
+      ],
+      "source": "https://www.bible.com/bible/170/2CO.5.17.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "3ebd7510397794ada0db69b6a2887282b4a2ba2ac89ae5a88b355cd7db948e58",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "GAL.2.20": {
+      "id": "GAL.2.20",
+      "text": "Mesih'le birlikte çarmıha gerildim. Artık ben yaşamıyorum, Mesih bende yaşıyor. Şimdi bedende sürdürdüğüm yaşamı, beni seven ve benim için kendini feda eden Tanrı Oğlu'na imanla sürdürüyorum.",
+      "numberedVerseIds": [
+        "GAL.2.20"
+      ],
+      "source": "https://www.bible.com/bible/170/GAL.2.20.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "f292e7e74aef1f98a37648b9fa9550351a8180f29c62928f9fd52aa5a0271bc5",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "ROM.12.1": {
+      "id": "ROM.12.1",
+      "text": "Öyleyse kardeşlerim, Tanrı'nın merhameti adına size yalvarırım: Bedenlerinizi diri, kutsal, Tanrı'yı hoşnut eden birer kurban olarak sunun. Ruhsal tapınmanız budur.",
+      "numberedVerseIds": [
+        "ROM.12.1"
+      ],
+      "source": "https://www.bible.com/bible/170/ROM.12.1.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "1d333bfefb6c876b6dc122e5f410e3bc2cfa22f1c82d19878aa488b50f52b679",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "JHN.14.21": {
+      "id": "JHN.14.21",
+      "text": "Kim buyruklarımı bilir ve yerine getirirse, işte beni seven odur. Beni seveni Babam da sevecektir. Ben de onu seveceğim ve kendimi ona göstereceğim.”",
+      "numberedVerseIds": [
+        "JHN.14.21"
+      ],
+      "source": "https://www.bible.com/bible/170/JHN.14.21.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "814e64e01485895a71645265362e002733e9be86283707c755ab82bfdd94b53e",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "2TI.3.16": {
+      "id": "2TI.3.16",
+      "text": "Kutsal Yazılar'ın tümü Tanrı esinlemesidir ve öğretmek, azarlamak, yola getirmek, doğruluk konusunda eğitmek için yararlıdır.",
+      "numberedVerseIds": [
+        "2TI.3.16"
+      ],
+      "source": "https://www.bible.com/bible/170/2TI.3.16.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "953e73c6a9e7f6b050e231cb7fc1ce12abde8aaa80f0cc55c0ff9f3cfd2ac186",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "JOS.1.8": {
+      "id": "JOS.1.8",
+      "text": "Yasa Kitabı'nda yazılanları dilinden düşürme. Tümünü özenle yerine getirmek için gece gündüz onu düşün. O zaman başarılı olacak ve amacına ulaşacaksın.",
+      "numberedVerseIds": [
+        "JOS.1.8"
+      ],
+      "source": "https://www.bible.com/bible/170/JOS.1.8.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "2eda827ba63acb4ed806b32e770fb9d7301b84bad2c4a2260aaf544090f1c8cc",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "JHN.15.7": {
+      "id": "JHN.15.7",
+      "text": "Eğer bende kalırsanız ve sözlerim sizde kalırsa, ne isterseniz dileyin, size verilecektir.",
+      "numberedVerseIds": [
+        "JHN.15.7"
+      ],
+      "source": "https://www.bible.com/bible/170/JHN.15.7.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "9fdfa4ead8c416debf504850973b683f57221163d0dbae28af7fbf67f514fcd5",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "PHP.4.6": {
+      "id": "PHP.4.6",
+      "text": "Hiç kaygılanmayın; her konudaki dileklerinizi, Tanrı'ya dua edip yalvararak şükranla bildirin.",
+      "numberedVerseIds": [
+        "PHP.4.6"
+      ],
+      "source": "https://www.bible.com/bible/170/PHP.4.6.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "046e4193a60b4d8c9422988abe4aaec8f0111f906c4a884027c137ef817f9fb3",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "PHP.4.7": {
+      "id": "PHP.4.7",
+      "text": "O zaman Tanrı'nın her kavrayışı aşan esenliği Mesih İsa aracılığıyla yüreklerinizi ve düşüncelerinizi koruyacaktır.",
+      "numberedVerseIds": [
+        "PHP.4.7"
+      ],
+      "source": "https://www.bible.com/bible/170/PHP.4.7.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "30eaf28ce838327d893e6bb9461bb1c44a5ae44ffbc8c3273de19da8ca68cc1e",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "MAT.18.20": {
+      "id": "MAT.18.20",
+      "text": "Nerede iki ya da üç kişi benim adımla toplanırsa, ben de orada, aralarındayım.”",
+      "numberedVerseIds": [
+        "MAT.18.20"
+      ],
+      "source": "https://www.bible.com/bible/170/MAT.18.20.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "db38e304e454966784d5ab95debdf2d17015001d2796cdf9c323ddbca8218108",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "HEB.10.24": {
+      "id": "HEB.10.24",
+      "text": "Birbirimizi sevgi ve iyi işler için nasıl gayrete getirebileceğimizi düşünelim.",
+      "numberedVerseIds": [
+        "HEB.10.24"
+      ],
+      "source": "https://www.bible.com/bible/170/HEB.10.24.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "413e273b9b742d7236b73d7eb79d792277183f147b0f7eb5ce99216a95124098",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "HEB.10.25": {
+      "id": "HEB.10.25",
+      "text": "Bazılarının alıştığı gibi, bir araya gelmekten vazgeçmeyelim; o günün yaklaştığını gördükçe birbirimizi daha da çok yüreklendirelim.",
+      "numberedVerseIds": [
+        "HEB.10.25"
+      ],
+      "source": "https://www.bible.com/bible/170/HEB.10.25.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "df800fd04e539f75a14a40ac7c66cc2fa40b8255afbed49538bacdb3756af658",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "MAT.4.19": {
+      "id": "MAT.4.19",
+      "text": "Onlara, “Ardımdan gelin” dedi, “Sizleri insan tutan balıkçılar yapacağım.”",
+      "numberedVerseIds": [
+        "MAT.4.19"
+      ],
+      "source": "https://www.bible.com/bible/170/MAT.4.19.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "04a47074c94fddaa5dcb7e3abdcc2decd80e8989749e7683ea30834079b06856",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "ROM.1.16": {
+      "id": "ROM.1.16",
+      "text": "Çünkü Müjde'den utanmıyorum. Müjde iman eden herkesin –önce Yahudiler'in, sonra Yahudi olmayanların– kurtuluşu için Tanrı gücüdür.",
+      "numberedVerseIds": [
+        "ROM.1.16"
+      ],
+      "source": "https://www.bible.com/bible/170/ROM.1.16.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "5c77430f5b5717312ddc6d7a0b244d5d4efda504598e76f6274ad682f78df863",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "ROM.3.23": {
+      "id": "ROM.3.23",
+      "text": "Çünkü herkes günah işledi ve Tanrı'nın yüceliğinden yoksun kaldı.",
+      "numberedVerseIds": [
+        "ROM.3.23"
+      ],
+      "source": "https://www.bible.com/bible/170/ROM.3.23.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "12bf177186d598d1e60ccaad1c17bf054e0d64ba34667aa246d019fc0b8e8083",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "ISA.53.6": {
+      "id": "ISA.53.6",
+      "text": "Hepimiz koyun gibi yoldan sapmıştık,\nHer birimiz kendi yoluna döndü.\nYine de RAB hepimizin cezasını ona yükledi.",
+      "numberedVerseIds": [
+        "ISA.53.6"
+      ],
+      "source": "https://www.bible.com/bible/170/ISA.53.6.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "a50ebf6fd85ad988661c462c85bf70ba23ca57d596d1f58c237a173241135348",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "ROM.6.23": {
+      "id": "ROM.6.23",
+      "text": "Çünkü günahın ücreti ölüm, Tanrı'nın armağanı ise Rabbimiz Mesih İsa'da sonsuz yaşamdır.",
+      "numberedVerseIds": [
+        "ROM.6.23"
+      ],
+      "source": "https://www.bible.com/bible/170/ROM.6.23.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "90a3bac1a23708da8257a06ef2cdc4c3cda08aa21de818fa606c0eaae4428a69",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "HEB.9.27": {
+      "id": "HEB.9.27",
+      "text": "İnsanın bir kez ölmesi, sonra da yargılanması kaçınılmaz olduğu gibi, Mesih de birçoklarının günahlarını yüklenmek için bir kez kurban edildi. İkinci kez, günah yüklenmek için değil, kurtuluş getirmek için kendisini bekleyenlere görünecektir.",
+      "numberedVerseIds": [
+        "HEB.9.27",
+        "HEB.9.28"
+      ],
+      "source": "https://www.bible.com/bible/170/HEB.9.27.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "93fd3b977c1865540bf149225aaa9d33ff5a2d17f188b82a349838d8238e68ac",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "ROM.5.8": {
+      "id": "ROM.5.8",
+      "text": "Tanrı ise bizi sevdiğini şununla kanıtlıyor: Biz daha günahkârken, Mesih bizim için öldü.",
+      "numberedVerseIds": [
+        "ROM.5.8"
+      ],
+      "source": "https://www.bible.com/bible/170/ROM.5.8.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "a06234a97bc739ccf0f49d340a8f120d3b697f2f0f586fd63518cfd75350241c",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "1PE.3.18": {
+      "id": "1PE.3.18",
+      "text": "Nitekim Mesih de bizleri Tanrı'ya ulaştırmak amacıyla doğru kişi olarak doğru olmayanlar için günah sunusu olarak ilk ve son kez öldü. Bedence öldürüldü, ama ruhça diriltildi.",
+      "numberedVerseIds": [
+        "1PE.3.18"
+      ],
+      "source": "https://www.bible.com/bible/170/1PE.3.18.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "60321d9dada4064ff97c684ce1ebaed377ae5485417aa617f2f7e09d624a3367",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "EPH.2.8": {
+      "id": "EPH.2.8",
+      "text": "İman yoluyla, lütufla kurtuldunuz. Bu sizin başarınız değil, Tanrı'nın armağanıdır.",
+      "numberedVerseIds": [
+        "EPH.2.8"
+      ],
+      "source": "https://www.bible.com/bible/170/EPH.2.8.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "ad92274cafac9cd5fbdc9e981f022f4ce923cf314f3ac5c5bf3628471a261910",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "EPH.2.9": {
+      "id": "EPH.2.9",
+      "text": "Kimsenin övünmemesi için iyi işlerin ödülü değildir.",
+      "numberedVerseIds": [
+        "EPH.2.9"
+      ],
+      "source": "https://www.bible.com/bible/170/EPH.2.9.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "e1eed273885d02dc6541c292936304472ca0425d0434c916eced8e7cd5daec36",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "TIT.3.5": {
+      "id": "TIT.3.5",
+      "text": "Ama Kurtarıcımız Tanrı iyiliğini ve insana olan sevgisini açıkça göstererek bizi kurtardı. Bunu doğrulukla yaptığımız işlerden dolayı değil, kendi merhametiyle, yeniden doğuş yıkamasıyla ve Kurtarıcımız İsa Mesih aracılığıyla üzerimize bol bol döktüğü Kutsal Ruh'un yenilemesiyle yaptı.",
+      "numberedVerseIds": [
+        "TIT.3.4",
+        "TIT.3.5",
+        "TIT.3.6"
+      ],
+      "source": "https://www.bible.com/bible/170/TIT.3.5.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "05c3a3167b870b7692480153ba09db1bc7d1e8bf92ccd8c47d05b7ea98ca7948",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "JHN.1.12": {
+      "id": "JHN.1.12",
+      "text": "Kendisini kabul edip adına iman edenlerin hepsine Tanrı'nın çocukları olma hakkını verdi.",
+      "numberedVerseIds": [
+        "JHN.1.12"
+      ],
+      "source": "https://www.bible.com/bible/170/JHN.1.12.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "3137a6a11ac601b1d88385901c5ec7dd887ff5e295be09b18a19a67f902ae3ad",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "REV.3.20": {
+      "id": "REV.3.20",
+      "text": "İşte kapıda durmuş, kapıyı çalıyorum. Biri sesimi işitir ve kapıyı açarsa, onun yanına gireceğim; ben onunla, o da benimle, birlikte yemek yiyeceğiz.",
+      "numberedVerseIds": [
+        "REV.3.20"
+      ],
+      "source": "https://www.bible.com/bible/170/REV.3.20.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "f2f9ae16a7f12e85067cae543bcce711911e6e0611fbfec66a092d78337cc99a",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "1JN.5.13": {
+      "id": "1JN.5.13",
+      "text": "Tanrı Oğlu'nun adına iman eden sizlere, sonsuz yaşama sahip olduğunuzu bilesiniz diye bunları yazdım.",
+      "numberedVerseIds": [
+        "1JN.5.13"
+      ],
+      "source": "https://www.bible.com/bible/170/1JN.5.13.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "7220758af443c52bc56c7a4602f95b551cd116dc76baffcc5e544e077f417012",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "JHN.5.24": {
+      "id": "JHN.5.24",
+      "text": "“Size doğrusunu söyleyeyim, sözümü işitip beni gönderene iman edenin sonsuz yaşamı vardır. Böyle biri yargılanmaz, ölümden yaşama geçmiştir.",
+      "numberedVerseIds": [
+        "JHN.5.24"
+      ],
+      "source": "https://www.bible.com/bible/170/JHN.5.24.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "389177493f2db9e7c83901c01631f040adfd30f28a195d647073188fba6961e9",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "1CO.3.16": {
+      "id": "1CO.3.16",
+      "text": "Tanrı'nın tapınağı olduğunuzu, Tanrı'nın Ruhu'nun sizde yaşadığını bilmiyor musunuz?",
+      "numberedVerseIds": [
+        "1CO.3.16"
+      ],
+      "source": "https://www.bible.com/bible/170/1CO.3.16.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "5fb9ef3c8f54d93f59b1c94fd88e9a22f8956bd0c6251f8bf1044b8cdc57bec2",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "1CO.2.12": {
+      "id": "1CO.2.12",
+      "text": "Tanrı'nın bize lütfettiklerini bilelim diye, bu dünyanın ruhunu değil, Tanrı'dan gelen Ruh'u aldık.",
+      "numberedVerseIds": [
+        "1CO.2.12"
+      ],
+      "source": "https://www.bible.com/bible/170/1CO.2.12.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "5be9787b88150b6df0f67aba226d7f29e83cdfe85798e3e4a29d29e76c352ef6",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "ISA.41.10": {
+      "id": "ISA.41.10",
+      "text": "Korkma, çünkü ben seninleyim,\nYılma, çünkü Tanrın benim.\nSeni güçlendireceğim, evet, sana yardım edeceğim;\nZafer kazanan sağ elimle sana destek olacağım.",
+      "numberedVerseIds": [
+        "ISA.41.10"
+      ],
+      "source": "https://www.bible.com/bible/170/ISA.41.10.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "87cec5b72c90fd151f6c3f35db50d1e5c4bb9f981c92e2061c35b6414d046e38",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "PHP.4.13": {
+      "id": "PHP.4.13",
+      "text": "Beni güçlendirenin aracılığıyla her şeyi yapabilirim.",
+      "numberedVerseIds": [
+        "PHP.4.13"
+      ],
+      "source": "https://www.bible.com/bible/170/PHP.4.13.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "9d7fa6a61dbcb001b332d510a83fc859321467d0a5f507a80dfcb8d49cd564b0",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "LAM.3.22": {
+      "id": "LAM.3.22",
+      "text": "RAB'bin sevgisi hiç tükenmez,\nMerhameti asla son bulmaz",
+      "numberedVerseIds": [
+        "LAM.3.22"
+      ],
+      "source": "https://www.bible.com/bible/170/LAM.3.22.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "126e572257af5d41b29010a5de5fd038c51290ff4ade28693e464e4f57f36800",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "LAM.3.23": {
+      "id": "LAM.3.23",
+      "text": "Her sabah tazelenir onlar,\nSadakatin büyüktür.",
+      "numberedVerseIds": [
+        "LAM.3.23"
+      ],
+      "source": "https://www.bible.com/bible/170/LAM.3.23.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "ff35dc198bedd2c9b283b730d366beb85ba650f3a0499fd61bac0a0c03467400",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "NUM.23.19": {
+      "id": "NUM.23.19",
+      "text": "Tanrı insan değil ki,\nYalan söylesin;\nİnsan soyundan değil ki,\nDüşüncesini değiştirsin.\nO söyler de yapmaz mı?\nSöz verir de yerine getirmez mi?",
+      "numberedVerseIds": [
+        "NUM.23.19"
+      ],
+      "source": "https://www.bible.com/bible/170/NUM.23.19.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "a4df152d8649de0e1c2f9cbdad16e49dcfb43f59ff7808e4339670a76f107fb1",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "ISA.26.3": {
+      "id": "ISA.26.3",
+      "text": "Sana güvendiği için\nDüşüncelerinde sarsılmaz olanı\nTam bir esenlik içinde korursun.",
+      "numberedVerseIds": [
+        "ISA.26.3"
+      ],
+      "source": "https://www.bible.com/bible/170/ISA.26.3.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "3c01c99ad944cf73f61d0e270141a1a4a29a7f5d601bccca4dd023b246477cc0",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "1PE.5.7": {
+      "id": "1PE.5.7",
+      "text": "Bütün kaygılarınızı O'na yükleyin, çünkü O sizi kayırır.",
+      "numberedVerseIds": [
+        "1PE.5.7"
+      ],
+      "source": "https://www.bible.com/bible/170/1PE.5.7.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "9d032280b4fdb4b4717f3bd3d265ca948ba64c6d900f7d1ae3db91f693f053c7",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "ROM.8.32": {
+      "id": "ROM.8.32",
+      "text": "Öz Oğlu'nu bile esirgemeyip O'nu hepimiz için ölüme teslim eden Tanrı, O'nunla birlikte bize her şeyi bağışlamayacak mı?",
+      "numberedVerseIds": [
+        "ROM.8.32"
+      ],
+      "source": "https://www.bible.com/bible/170/ROM.8.32.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "f5619e128488056da48f41f8252bf7af75361f3d516b6ef518c6acb95014c02f",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "PHP.4.19": {
+      "id": "PHP.4.19",
+      "text": "Tanrım da her ihtiyacınızı kendi zenginliğiyle Mesih İsa'da görkemli bir biçimde karşılayacaktır.",
+      "numberedVerseIds": [
+        "PHP.4.19"
+      ],
+      "source": "https://www.bible.com/bible/170/PHP.4.19.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "9743aaada68c7083889a13a1d45c7ea27ff3bbebf3ff3e2c77661b876becdfd7",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "HEB.2.18": {
+      "id": "HEB.2.18",
+      "text": "Çünkü kendisi denenip acı çektiği için denenenlere yardım edebilir.",
+      "numberedVerseIds": [
+        "HEB.2.18"
+      ],
+      "source": "https://www.bible.com/bible/170/HEB.2.18.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "8b481d49ae69eb53e6fa02ed70361c91ba667065d4a48a315d71b7d206a6827a",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "PSA.119.9": {
+      "id": "PSA.119.9",
+      "text": "Genç insan yolunu nasıl temiz tutar?\nSenin sözünü tutmakla.",
+      "numberedVerseIds": [
+        "PSA.119.9"
+      ],
+      "source": "https://www.bible.com/bible/170/PSA.119.9.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "3316f77e0360ed4818e3ee119cbbb37aeeeedd549e9ed42cab3c3ada95435a97",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "PSA.119.11": {
+      "id": "PSA.119.11",
+      "text": "Aklımdan çıkarmam sözünü,\nSana karşı günah işlememek için.",
+      "numberedVerseIds": [
+        "PSA.119.11"
+      ],
+      "source": "https://www.bible.com/bible/170/PSA.119.11.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "f105cdd0719c714200fc5310dc2b98fa92e885f59d41c6865d6208fb8e7a4210",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "MAT.6.33": {
+      "id": "MAT.6.33",
+      "text": "Siz öncelikle O'nun egemenliğinin ve doğruluğunun ardından gidin, o zaman size bütün bunlar da verilecektir.",
+      "numberedVerseIds": [
+        "MAT.6.33"
+      ],
+      "source": "https://www.bible.com/bible/170/MAT.6.33.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "587093bd83bffc464b5c68ebfc405ae385447a8bb608a36fd9855d9b41e6e1c6",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "LUK.9.23": {
+      "id": "LUK.9.23",
+      "text": "Sonra hepsine, “Ardımdan gelmek isteyen kendini inkâr etsin, her gün çarmıhını yüklenip beni izlesin” dedi",
+      "numberedVerseIds": [
+        "LUK.9.23"
+      ],
+      "source": "https://www.bible.com/bible/170/LUK.9.23.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "074f36511ee5ad1e42fbd6bac814baeb003b201fbd28fd577ebf614384e4f6a1",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "1JN.2.15": {
+      "id": "1JN.2.15",
+      "text": "Dünyayı da dünyaya ait şeyleri de sevmeyin. Dünyayı sevenin Baba'ya sevgisi yoktur.",
+      "numberedVerseIds": [
+        "1JN.2.15"
+      ],
+      "source": "https://www.bible.com/bible/170/1JN.2.15.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "cfaa3e3ad096cc9b726c0ef18679ad97b3b0ce79b5ab8db6dcac80dc1e47c448",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "1JN.2.16": {
+      "id": "1JN.2.16",
+      "text": "Çünkü dünyaya ait olan her şey –benliğin tutkuları, gözün tutkuları, maddi yaşamın verdiği gurur– Baba'dan değil, dünyadandır.",
+      "numberedVerseIds": [
+        "1JN.2.16"
+      ],
+      "source": "https://www.bible.com/bible/170/1JN.2.16.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "257e2a8f6a4fffd15de3cab9ac9ac28f027cbc9089b298d07fba6e9b699d8de4",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "ROM.12.2": {
+      "id": "ROM.12.2",
+      "text": "Bu çağın gidişine uymayın; bunun yerine, Tanrı'nın iyi, beğenilir ve yetkin isteğinin ne olduğunu ayırt edebilmek için düşüncenizin yenilenmesiyle değişin.",
+      "numberedVerseIds": [
+        "ROM.12.2"
+      ],
+      "source": "https://www.bible.com/bible/170/ROM.12.2.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "80249690d89ffd1c3a3c0ab32738206f5271973a46e48fec8e57444ec5ffa2c0",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "1CO.15.58": {
+      "id": "1CO.15.58",
+      "text": "Bu nedenle, sevgili kardeşlerim, Rab yolunda verdiğiniz emeğin boşa gitmeyeceğini bilerek dayanın, sarsılmayın, Rab'bin işinde her zaman gayretli olun.",
+      "numberedVerseIds": [
+        "1CO.15.58"
+      ],
+      "source": "https://www.bible.com/bible/170/1CO.15.58.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "ebe05fab2f53d4be8d408a72bb1df94bc552df20725e22b5e2b3b5f2009065e1",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "HEB.12.3": {
+      "id": "HEB.12.3",
+      "text": "Yorulup cesaretinizi yitirmemek için, günahkârların bunca karşı koymasına katlanmış Olan'ı düşünün.",
+      "numberedVerseIds": [
+        "HEB.12.3"
+      ],
+      "source": "https://www.bible.com/bible/170/HEB.12.3.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "11a841de1f8f6a97fc4530fae0082eb8fa527ca5697fb60b017fc4ad61423373",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "MRK.10.45": {
+      "id": "MRK.10.45",
+      "text": "Çünkü İnsanoğlu bile hizmet edilmeye değil, hizmet etmeye ve canını birçokları için fidye olarak vermeye geldi.”",
+      "numberedVerseIds": [
+        "MRK.10.45"
+      ],
+      "source": "https://www.bible.com/bible/170/MRK.10.45.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "867418c9c7d0edea215cb3de1f2cef463d154d7ab5e8100ab6da9740b74a9a92",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "2CO.4.5": {
+      "id": "2CO.4.5",
+      "text": "Biz kendimizi ilan etmiyoruz; ama Mesih İsa'yı Rab, kendimizi de İsa uğruna kullarınız ilan ediyoruz.",
+      "numberedVerseIds": [
+        "2CO.4.5"
+      ],
+      "source": "https://www.bible.com/bible/170/2CO.4.5.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "ea12ac9dcadd94bd275de0c00f85a941ff614b75ca671dfdd75b918b83f7b60f",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "PRO.3.9": {
+      "id": "PRO.3.9",
+      "text": "Servetinle ve ürününün turfandasıyla\nRAB'bi onurlandır.",
+      "numberedVerseIds": [
+        "PRO.3.9"
+      ],
+      "source": "https://www.bible.com/bible/170/PRO.3.9.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "f4130a9eee6c77cd3e34aa4f3a1b55bbad24fbb60dfe73340f12ec9532591b7b",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "PRO.3.10": {
+      "id": "PRO.3.10",
+      "text": "O zaman ambarların tıka basa dolar,\nTeknelerin yeni şarapla dolup taşar.",
+      "numberedVerseIds": [
+        "PRO.3.10"
+      ],
+      "source": "https://www.bible.com/bible/170/PRO.3.10.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "db93ca02422110d00d2d4037bf7215423af7a5498f8ccacfce85324d3bdde065",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "2CO.9.6": {
+      "id": "2CO.9.6",
+      "text": "Şunu unutmayın: Az eken az biçer, çok eken çok biçer.",
+      "numberedVerseIds": [
+        "2CO.9.6"
+      ],
+      "source": "https://www.bible.com/bible/170/2CO.9.6.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "cc966d49c2923a22cd91101d75179b141bcc93d5cd56615aa581784f57e7446f",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "2CO.9.7": {
+      "id": "2CO.9.7",
+      "text": "Herkes yüreğinde niyet ettiği gibi versin; isteksizce ya da zorlanmış gibi değil. Çünkü Tanrı sevinçle vereni sever.",
+      "numberedVerseIds": [
+        "2CO.9.7"
+      ],
+      "source": "https://www.bible.com/bible/170/2CO.9.7.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "2b24017c59ea7473acd42d54d520224a4341a4132bab3c0c64eac7ce0f2fcc7c",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "ACT.1.8": {
+      "id": "ACT.1.8",
+      "text": "“Ama Kutsal Ruh üzerinize inince güç alacaksınız. Yeruşalim'de, bütün Yahudiye ve Samiriye'de ve dünyanın dört bucağında benim tanıklarım olacaksınız.”",
+      "numberedVerseIds": [
+        "ACT.1.8"
+      ],
+      "source": "https://www.bible.com/bible/170/ACT.1.8.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "59ee08eb224dddb036202e7edc14800f75a951e32c281ee65521b82a1ba40506",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "MAT.28.19": {
+      "id": "MAT.28.19",
+      "text": "Bu nedenle gidin, bütün ulusları öğrencilerim olarak yetiştirin; onları Baba, Oğul ve Kutsal Ruh'un adıyla vaftiz edin",
+      "numberedVerseIds": [
+        "MAT.28.19"
+      ],
+      "source": "https://www.bible.com/bible/170/MAT.28.19.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "4a89441654252147456c62758ab030d2b9ab3687fce53a067921d220c9fb4bfc",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "MAT.28.20": {
+      "id": "MAT.28.20",
+      "text": "size buyurduğum her şeye uymayı onlara öğretin. İşte ben, dünyanın sonuna dek her an sizinle birlikteyim.”",
+      "numberedVerseIds": [
+        "MAT.28.20"
+      ],
+      "source": "https://www.bible.com/bible/170/MAT.28.20.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "bea85cea95ecc50e30f2f812e68eb24a290cb0718a0dedd37c788d8b5b0881b8",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "JHN.13.34": {
+      "id": "JHN.13.34",
+      "text": "Size yeni bir buyruk veriyorum: Birbirinizi sevin. Sizi sevdiğim gibi siz de birbirinizi sevin.",
+      "numberedVerseIds": [
+        "JHN.13.34"
+      ],
+      "source": "https://www.bible.com/bible/170/JHN.13.34.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "3a3212baccd8531d9ac3fdd7046341b1710306b113d1903ad811a27210b03d0e",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "JHN.13.35": {
+      "id": "JHN.13.35",
+      "text": "Birbirinize sevginiz olursa, herkes bununla benim öğrencilerim olduğunuzu anlayacaktır.”",
+      "numberedVerseIds": [
+        "JHN.13.35"
+      ],
+      "source": "https://www.bible.com/bible/170/JHN.13.35.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "dde637d3543756565d51251dfc4d0a83e78acc4d6d6ef6138ab70f882fee445c",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "1JN.3.18": {
+      "id": "1JN.3.18",
+      "text": "Yavrularım, sözle ve dille değil, eylemle ve içtenlikle sevelim.",
+      "numberedVerseIds": [
+        "1JN.3.18"
+      ],
+      "source": "https://www.bible.com/bible/170/1JN.3.18.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "4f8c4910d4f721532b167843346f71aca939a7eef763607b8e47ca6f7e954026",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "PHP.2.3": {
+      "id": "PHP.2.3",
+      "text": "Hiçbir şeyi bencil tutkularla ya da boş övünmeyle yapmayın. Her biriniz alçakgönüllülükle öbürünü kendinden üstün saysın.",
+      "numberedVerseIds": [
+        "PHP.2.3"
+      ],
+      "source": "https://www.bible.com/bible/170/PHP.2.3.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "b6bf84c056dffe6450e7df44bbcd703364bb5d2cd340f7d728a813a70d8a7aa7",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "PHP.2.4": {
+      "id": "PHP.2.4",
+      "text": "Yalnız kendi yararını değil, başkalarının yararını da gözetsin.",
+      "numberedVerseIds": [
+        "PHP.2.4"
+      ],
+      "source": "https://www.bible.com/bible/170/PHP.2.4.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "99e999b8fc1d458ecc14e6e018f986dd3f14e31ed128260bc0853f01915baa0c",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "1PE.5.5": {
+      "id": "1PE.5.5",
+      "text": "Ey gençler, siz de ihtiyarlara bağımlı olun. Hepiniz birbirinize karşı alçakgönüllülüğü kuşanın. Çünkü,\n“Tanrı kibirlilere karşıdır,\nAma alçakgönüllülere lütfeder.”",
+      "numberedVerseIds": [
+        "1PE.5.5"
+      ],
+      "source": "https://www.bible.com/bible/170/1PE.5.5.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "118b30227252b24cde6f93f162cfd54cde451cc03cbc10bae52fc0c4fb764587",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "1PE.5.6": {
+      "id": "1PE.5.6",
+      "text": "Uygun zamanda sizi yüceltmesi için, Tanrı'nın kudretli eli altında kendinizi alçaltın.",
+      "numberedVerseIds": [
+        "1PE.5.6"
+      ],
+      "source": "https://www.bible.com/bible/170/1PE.5.6.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "758af52094feb23d4267b50b57da1288eaa9930c19f1a6efc665334f308f86bf",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "EPH.5.3": {
+      "id": "EPH.5.3",
+      "text": "Aranızda fuhuş, ahlaksızlık ya da açgözlülük anılmasın bile. Kutsallara yaraşmaz bu.",
+      "numberedVerseIds": [
+        "EPH.5.3"
+      ],
+      "source": "https://www.bible.com/bible/170/EPH.5.3.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "c1fbbcc9936273eb7601aeb0763fd288bbf51f10c598291ad27dfaefe0cc50d0",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "1PE.2.11": {
+      "id": "1PE.2.11",
+      "text": "Sevgili kardeşler, size yalvarırım, cana karşı savaşan benliğin tutkularından kaçının. Çünkü bu dünyada yabancı ve konuksunuz.",
+      "numberedVerseIds": [
+        "1PE.2.11"
+      ],
+      "source": "https://www.bible.com/bible/170/1PE.2.11.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "85ba1282956a7f418cd170f32a08961d84270e19cf7ca940b5f28583f1c86fc2",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "LEV.19.11": {
+      "id": "LEV.19.11",
+      "text": "“ ‘Çalmayacaksınız. Hile yapmayacaksınız. Birbirinize yalan söylemeyeceksiniz.",
+      "numberedVerseIds": [
+        "LEV.19.11"
+      ],
+      "source": "https://www.bible.com/bible/170/LEV.19.11.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "99b81f4c806109564486e7e1fb3071e4ba59febe5ff7380376e8ab15148ae307",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "ACT.24.16": {
+      "id": "ACT.24.16",
+      "text": "Bu nedenle ben gerek Tanrı, gerek insanlar önünde vicdanımı temiz tutmaya her zaman özen gösteriyorum.",
+      "numberedVerseIds": [
+        "ACT.24.16"
+      ],
+      "source": "https://www.bible.com/bible/170/ACT.24.16.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "27577edc844043cb53d3d6f814f9cdb5ed19b095a7bb8e67e96ec3edf50fcfa7",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "HEB.11.6": {
+      "id": "HEB.11.6",
+      "text": "İman olmadan Tanrı'yı hoşnut etmek olanaksızdır. Tanrı'ya yaklaşan, O'nun var olduğuna ve kendisini arayanları ödüllendireceğine iman etmelidir.",
+      "numberedVerseIds": [
+        "HEB.11.6"
+      ],
+      "source": "https://www.bible.com/bible/170/HEB.11.6.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "c95f33594da307a2af0c8e1fc783b45317fb9bb78927d87c22a3f0e3d59712dd",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "ROM.4.20": {
+      "id": "ROM.4.20",
+      "text": "İmansızlık edip Tanrı'nın vaadinden kuşkulanmadı; tersine, imanı güçlendi ve Tanrı'yı yüceltti.",
+      "numberedVerseIds": [
+        "ROM.4.20"
+      ],
+      "source": "https://www.bible.com/bible/170/ROM.4.20.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "0833d4771a082c9fb03d57b968887582b580d82c45a849cadb52eed281069aaa",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "ROM.4.21": {
+      "id": "ROM.4.21",
+      "text": "Tanrı'nın vaadini yerine getirecek güçte olduğuna tümüyle güvendi.",
+      "numberedVerseIds": [
+        "ROM.4.21"
+      ],
+      "source": "https://www.bible.com/bible/170/ROM.4.21.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "f3c6afb90bc3b3d2633ad464e1d079de61ba3969a4ad515248e9acbb14d81f86",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "GAL.6.9": {
+      "id": "GAL.6.9",
+      "text": "İyilik yapmaktan usanmayalım. Gevşemezsek mevsiminde biçeriz.",
+      "numberedVerseIds": [
+        "GAL.6.9"
+      ],
+      "source": "https://www.bible.com/bible/170/GAL.6.9.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "6fc3128f7c40f23c998748c77cbc2d455d36913620caef6e491d7e18e5bf2b05",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "GAL.6.10": {
+      "id": "GAL.6.10",
+      "text": "Bunun için fırsatımız varken herkese, özellikle iman ailesinin üyelerine iyilik yapalım.",
+      "numberedVerseIds": [
+        "GAL.6.10"
+      ],
+      "source": "https://www.bible.com/bible/170/GAL.6.10.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "9cf646977f1c03401e93e5648070a55fca65c9e01e9b35b920597f4c970554bd",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    },
+    "MAT.5.16": {
+      "id": "MAT.5.16",
+      "text": "Sizin ışığınız insanların önünde öyle parlasın ki, iyi işlerinizi görerek göklerdeki Babanız'ı yüceltsinler!”",
+      "numberedVerseIds": [
+        "MAT.5.16"
+      ],
+      "source": "https://www.bible.com/bible/170/MAT.5.16.TCL02",
+      "editionId": "TCL02",
+      "verifiedOn": "2026-10-02",
+      "sha256": "5d417289e2d6816bf0215d5ece44c1d29a0aeebc8f4a772365808680212a8999",
+      "verification": "Publisher-provided TCL02 complete structured verse unit compared with visible paragraph; linguistic editorial review recorded separately."
+    }
+  }
+}
