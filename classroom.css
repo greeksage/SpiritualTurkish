@@ -42,6 +42,12 @@
 .course-card fieldset{margin-top:24px;max-width:100%}
 [data-stage]{scroll-margin-top:125px}.lesson-step-footer{gap:18px;align-items:flex-start}.lesson-step-footer a.primary-action{max-width:70%;text-align:left;font-size:13px;line-height:1.7}
 .return-to-lesson{display:inline-block;margin-bottom:20px;font-size:12px;max-width:65ch}
+#legacy-intro{display:flex;flex-wrap:wrap;align-items:center;gap:12px 24px;margin-bottom:24px}
+#legacy-intro>a{margin-bottom:0}
+.prayer-mode-panel{padding:16px}
+.prayer-mode-panel label{display:block;margin-bottom:8px}
+.prayer-mode-panel select{margin-right:8px;max-width:100%}
+.prayer-mode-panel p{margin-top:12px}
 .course-selection{display:grid;grid-template-columns:1fr 1fr;gap:22px}.course-selection article{background:var(--paper);border:1px solid var(--line);border-top:3px solid var(--accent-line);border-radius:5px;padding:26px}
 .course-selection h2{font-size:23px}.course-selection p{font-size:15px}.course-selection .course-example{font-size:20px;background:var(--reading-panel);padding:16px;border-left:2px solid var(--accent-line)}
 .course-selection .course-start{font-size:12px;color:var(--muted)}

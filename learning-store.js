@@ -60,8 +60,26 @@
   const store=new LearningStore(storage);window.LearningStore=LearningStore;window.learningStore=store;
   const loaded=store.get('spiritual_turkish_device_v3');
   const device=loaded?.version===3&&plain(loaded.words)&&plain(loaded.notes)?loaded:{version:3,words:{},notes:{},last:null};
+  for(const [id,value]of Object.entries(device.words)){
+    const w=plain(value)?value:{};
+    if(!Number.isFinite(w.savedAt))w.savedAt=Date.now();
+    if(!Number.isFinite(w.due))w.due=Date.now();
+    if(!Number.isInteger(w.step)||w.step<0||w.step>4)w.step=0;
+    if(w.context!==undefined&&(!plain(w.context)||typeof w.context.tr!=='string'))delete w.context;
+    device.words[id]=w;
+  }
   if(!validActivityResume(device.activityResume))device.activityResume={};
-  if(!validBibleStudy(device.bibleStudy))device.bibleStudy={last:null,entries:{}};
+  // Recover records independently: a damaged entry must not discard another
+  // passage's notes. Backup imports remain strict and atomic above.
+  const bible=plain(device.bibleStudy)?device.bibleStudy:{};
+  device.bibleStudy={last:validBibleResume(bible.last)?bible.last:null,entries:{}};
+  for(const [id,p]of Object.entries(plain(bible.entries)?bible.entries:{})){
+    if(!validBibleId(id)||!plain(p))continue;
+    const recovered={...p,answers:plain(p.answers)?p.answers:{},notes:typeof p.notes==='string'?p.notes:'',section:['read','understand','practise','use'].includes(p.section)?p.section:'read'};
+    for(const field of ['visited','practised','studied'])if(typeof recovered[field]!=='boolean')delete recovered[field];
+    recovered.answers=Object.fromEntries(Object.entries(recovered.answers).filter(([,a])=>plain(a)&&typeof a.selected==='string'&&(a.checked===undefined||typeof a.checked==='boolean')&&(a.correct===undefined||typeof a.correct==='boolean')));
+    device.bibleStudy.entries[id]=recovered;
+  }
   if(!validResume(device.studyLast))device.studyLast=validResume(device.last)?{...device.last}:null;
   if(!plain(device.courseResume))device.courseResume={};
   for(const [id,r] of Object.entries(device.courseResume))if(!validResume(r)||window.ALL_LESSONS.find(l=>l.id===r.id).track!==id)delete device.courseResume[id];

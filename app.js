@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
     toast.className = `${bgClass} px-4 py-3 rounded-lg shadow-lg flex items-center gap-3 text-xs sm:text-sm font-medium transition-all duration-300 transform translate-y-3 opacity-0 pointer-events-auto max-w-sm`;
     toast.innerHTML = `
       <span class="font-bold">${type === 'success' ? '✓' : type === 'error' ? '✕' : 'ℹ'}</span>
-      <p class="flex-1">${message}</p>
+      <p class="flex-1">${escapeHTML(message)}</p>
     `;
 
     container.appendChild(toast);
@@ -87,6 +87,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 3200);
   }
 
+  async function copyText(value) {
+    try {
+      if(!navigator.clipboard?.writeText)throw new Error('unavailable');
+      await navigator.clipboard.writeText(value);
+      showToast(course.t('Copied to clipboard.','클립보드에 복사했습니다.'),'success');
+    } catch {
+      showToast(course.t('Clipboard unavailable or permission denied. Select the text and copy it manually.','클립보드를 사용할 수 없거나 권한이 거부되었습니다. 본문을 선택하고 직접 복사하세요.'),'info');
+    }
+  }
   // -----------------------------------------------------------
   // LMS Curriculum & Lesson Navigation Engine
   // -----------------------------------------------------------
@@ -409,9 +418,7 @@ document.addEventListener('DOMContentLoaded', () => {
         activeEl.focus();
         activeEl.dispatchEvent(new Event('input', { bubbles: true }));
       } else {
-        navigator.clipboard.writeText(char).then(() => {
-          showToast(`터키어 '${char}' 문자가 클립보드에 복사되었습니다!`, 'info');
-        }).catch(() => {});
+        copyText(char);
       }
       if (window.audioEngine) window.audioEngine.playClickSound();
     });
@@ -579,12 +586,12 @@ document.addEventListener('DOMContentLoaded', () => {
       customSyllableResult.innerHTML = `
         <div class="flex items-center justify-between gap-4 p-3 bg-emerald-50 border border-emerald-200 rounded-lg">
           <div>
-            <span class="text-xs text-emerald-800 font-semibold">분절 결과:</span>
-            <span class="text-base sm:text-lg font-bold text-emerald-950 tracking-widest ml-2">${segmented}</span>
+            <span data-en="Approximate syllable split:" data-ko="대략적인 음절 분절:" class="text-xs text-emerald-800 font-semibold">${course.t('Approximate syllable split:','대략적인 음절 분절:')}</span>
+            <span data-user-content class="text-base sm:text-lg font-bold text-emerald-950 tracking-widest ml-2">${escapeHTML(segmented)}</span>
           </div>
           <button data-speech="${escapeHTML(val)}" class="px-3 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-semibold shadow-sm transition flex items-center gap-1.5">
             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
-            발음 듣기
+            <span data-en="Play synthetic speech" data-ko="합성 음성 듣기">${course.t('Play synthetic speech','합성 음성 듣기')}</span>
           </button>
         </div>
       `;
@@ -701,6 +708,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function setTargetWord(wordStr) {
+      window.audioEngine.stopListening();
       state.activeSpeechTarget = wordStr;
       const found = APP_DATA.pronunciation.speechPracticeWords.find(w => w.turkish === wordStr);
       if (targetWordDisplay) targetWordDisplay.innerText = wordStr;
@@ -1434,10 +1442,10 @@ document.addEventListener('DOMContentLoaded', () => {
     container.innerHTML = APP_DATA.syntax.flipCards.map((card, idx) => {
       const isFlipped = !!state.flippedCards[idx];
       return `
-        <div class="perspective-1000 h-72 cursor-pointer ${isFlipped ? 'flipped' : ''}" onclick="toggleCardFlip(${idx})">
+        <div class="perspective-1000 h-72 ${isFlipped ? 'flipped' : ''}">
           <div class="flip-card-inner relative w-full h-full transform-style-3d">
             <!-- Front Face: Daily Life -->
-            <div class="absolute inset-0 w-full h-full backface-hidden bg-white p-5 rounded-xl border border-stone-200 flex flex-col justify-between hover:border-stone-300 shadow-sm transition-all">
+            <div ${isFlipped?'inert aria-hidden="true"':''} class="absolute inset-0 w-full h-full backface-hidden bg-white p-5 rounded-xl border border-stone-200 flex flex-col justify-between hover:border-stone-300 shadow-sm transition-all">
               <div>
                 <div class="flex items-center justify-between mb-1.5">
                   <span class="text-xs font-bold px-2 py-0.5 rounded bg-stone-100 text-slate-600">일상 터키어 용례</span>
@@ -1457,13 +1465,13 @@ document.addEventListener('DOMContentLoaded', () => {
               </div>
 
               <div class="pt-2 border-t border-stone-100 flex items-center justify-between text-xs text-emerald-800 font-semibold">
-                <span>🔄 클릭하여 기독교 신학적 의미 확인</span>
+                <button type="button" data-flip-card="${idx}">${course.t('Show Christian meaning','기독교 의미 보기')} ↻</button>
                 <span>↻</span>
               </div>
             </div>
 
             <!-- Back Face: Christian Theology -->
-            <div class="absolute inset-0 w-full h-full backface-hidden rotate-y-180 bg-emerald-50/70 p-5 rounded-xl border border-emerald-200 flex flex-col justify-between shadow-sm transition-all">
+            <div ${!isFlipped?'inert aria-hidden="true"':''} class="absolute inset-0 w-full h-full backface-hidden rotate-y-180 bg-emerald-50/70 p-5 rounded-xl border border-emerald-200 flex flex-col justify-between shadow-sm transition-all">
               <div>
                 <div class="flex items-center justify-between mb-1.5">
                   <span class="text-xs font-bold px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 border border-emerald-200">기독교 신학적 의미</span>
@@ -1481,7 +1489,7 @@ document.addEventListener('DOMContentLoaded', () => {
               </div>
 
               <div class="pt-2 border-t border-emerald-200 flex items-center justify-between text-xs text-slate-600 font-semibold">
-                <span>↺ 클릭하여 일상 용례로 돌아가기</span>
+                <button type="button" data-flip-card="${idx}">${course.t('Show everyday meaning','일상 의미 보기')} ↺</button>
                 <span>←</span>
               </div>
             </div>
@@ -1495,6 +1503,7 @@ document.addEventListener('DOMContentLoaded', () => {
     state.flippedCards[idx] = !state.flippedCards[idx];
     window.audioEngine.playClickSound();
     renderFlipCards();
+    document.querySelector(`#flip-cards-container [data-flip-card="${idx}"]:not([inert] *)`)?.focus();
   };
 
   // 3. Grammar Interactive Quiz: Ünlü Düşmesi
@@ -1530,19 +1539,20 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="flex items-center gap-1.5 mb-2">
               <input type="text"
                      id="unlu-input-${q.id}"
+                     lang="tr" aria-label="${escapeHTML(course.t('Turkish answer, question ','터키어 답, 문항 ')+q.id)}"
                      placeholder="정답 입력..."
-                     value="${stateObj.value}"
+                     value="${escapeHTML(stateObj.value)}"
                      class="flex-1 bg-stone-50 border border-stone-200 focus:border-emerald-600 rounded-lg px-3 py-1.5 text-xs text-slate-900 outline-none">
               <button onclick="checkUnluAnswer(${q.id})" class="px-3 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold transition shadow-sm">
                 확인
               </button>
             </div>
 
-            ${stateObj.isCorrect !== null ? `
+            <div id="unlu-feedback-${q.id}" role="status">${stateObj.isCorrect !== null ? `
               <p class="text-[11px] ${stateObj.isCorrect ? 'text-emerald-800' : 'text-rose-700'} font-medium">
                 ${stateObj.isCorrect ? '✓ 정답입니다!' : `✕ 오답입니다 (정답: ${q.correctAnswer})`} - ${q.explanation}
               </p>
-            ` : ''}
+            ` : ''}</div>
           </div>
         </div>
       `;
@@ -1552,11 +1562,11 @@ document.addEventListener('DOMContentLoaded', () => {
   window.checkUnluAnswer = function(qId) {
     const input = document.getElementById(`unlu-input-${qId}`);
     if (!input) return;
-    const val = input.value.trim().toLowerCase();
+    const val = input.value.trim().toLocaleLowerCase('tr-TR');
     const q = APP_DATA.syntax.unluDusmesiQuiz.find(item => item.id === qId);
     if (!q) return;
 
-    const isCorrect = val === q.correctAnswer.toLowerCase();
+    const isCorrect = val === q.correctAnswer.toLocaleLowerCase('tr-TR');
     state.unluAnswers[qId] = { value: val, isCorrect }; course.entry('ch4-2').practised=true; course.save();
 
     if (isCorrect) {
@@ -1598,7 +1608,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <span>🔊</span>
               <span>터키어 낭독</span>
             </button>
-            <button onclick="navigator.clipboard.writeText(\`${item.tr.replace(/[`$\\]/g, '')}\`); showToast('기도문이 클립보드에 복사되었습니다!', 'success')" class="px-3 py-1.5 rounded-lg bg-white hover:bg-[#E2ECE6] text-[#1C332A] text-xs font-bold border border-[#CDDCD3] transition flex items-center gap-1">
+            <button type="button" data-copy-text="${escapeHTML(item.tr)}" class="px-3 py-1.5 rounded-lg bg-white hover:bg-[#E2ECE6] text-[#1C332A] text-xs font-bold border border-[#CDDCD3] transition flex items-center gap-1">
               <span>📋</span>
               <span>복사</span>
             </button>
@@ -1701,9 +1711,7 @@ document.addEventListener('DOMContentLoaded', () => {
     copyPrayerBtn.addEventListener('click', () => {
       const trTextarea = document.getElementById('assembled-tr-textarea');
       if (!trTextarea) return;
-      navigator.clipboard.writeText(trTextarea.value).then(() => {
-        showToast("기도문이 클립보드에 복사되었습니다! ✓", "success");
-      });
+      copyText(trTextarea.value);
     });
   }
 
@@ -1714,7 +1722,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const trTextarea = document.getElementById('assembled-tr-textarea');
       if (!trTextarea || !trTextarea.value.trim()) return;
       window.audioEngine.speakTurkish(trTextarea.value, 0.95);
-      showToast("기도문을 터키어로 낭독합니다...", "info");
     });
   }
 
@@ -1730,7 +1737,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!trTextarea || !trTextarea.value.trim()) return;
 
         const title = prompt(course.t('Enter a title for this prayer:', '기도문 제목을 입력하세요:'), course.t('My Turkish prayer','나의 터키어 기도'));
-        if (!title) return;
+        if (!title?.trim()) return;
 
         const newPrayer = {
           id: Date.now().toString(),
@@ -1740,9 +1747,9 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         state.savedPrayers.unshift(newPrayer);
-        savePrayersToStorage();
+        const persisted=savePrayersToStorage();
         renderSavedPrayersList();
-        showToast("기도문이 브라우저에 안전하게 저장되었습니다!", "success");
+        showToast(persisted?course.t('Prayer saved on this device.','기도문을 이 기기에 저장했습니다.'):course.t('Device storage is unavailable. This prayer is kept for this session only; export a backup before closing.','기기 저장소를 사용할 수 없습니다. 기도는 이번 세션에만 유지됩니다. 닫기 전에 백업을 내보내세요.'), persisted?'success':'info');
       });
     }
   }
@@ -1761,9 +1768,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function savePrayersToStorage() {
     try {
-      learningStore.set('spiritual_turkish_prayers', state.savedPrayers);
+      return learningStore.set('spiritual_turkish_prayers', state.savedPrayers);
     } catch (e) {
       console.warn("Storage save error:", e);
+      return false;
     }
   }
 
@@ -1785,15 +1793,17 @@ document.addEventListener('DOMContentLoaded', () => {
           <p data-user-content class="text-[10px] text-slate-400">${escapeHTML(p.createdAt)}</p>
         </div>
         <div class="flex items-center gap-1.5 shrink-0">
-          <button onclick="loadSavedPrayerById('${p.id}')" class="px-2 py-0.5 rounded bg-white hover:bg-emerald-50 text-emerald-800 border border-stone-200 text-xs font-semibold shadow-sm">
+          <button type="button" data-load-prayer="${escapeHTML(p.id)}" class="px-2 py-0.5 rounded bg-white hover:bg-emerald-50 text-emerald-800 border border-stone-200 text-xs font-semibold shadow-sm">
             불러오기
           </button>
-          <button onclick="deleteSavedPrayerById('${p.id}')" class="p-1 rounded bg-white hover:bg-rose-50 text-slate-400 hover:text-rose-600 border border-stone-200 text-xs">
+          <button type="button" data-delete-prayer="${escapeHTML(p.id)}" aria-label="${escapeHTML(course.t('Delete saved prayer: ','저장한 기도문 삭제: ')+p.title)}" class="p-1 rounded bg-white hover:bg-rose-50 text-slate-400 hover:text-rose-600 border border-stone-200 text-xs">
             ✕
           </button>
         </div>
       </div>
     `).join('');
+    container.querySelectorAll('[data-load-prayer]').forEach(b=>b.onclick=()=>window.loadSavedPrayerById(b.dataset.loadPrayer));
+    container.querySelectorAll('[data-delete-prayer]').forEach(b=>b.onclick=()=>window.deleteSavedPrayerById(b.dataset.deletePrayer));
   }
 
   window.loadSavedPrayerById = function(id) {
@@ -1803,7 +1813,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (trTextarea) {
       trTextarea.value = item.content;
       window.persistPrayerDraft?.();
-      showToast(`'${item.title}' 기도문을 불러왔습니다.`, 'success');
+      showToast(course.t('Prayer loaded.','기도문을 불러왔습니다.'), 'success');
     }
   };
 
@@ -2240,7 +2250,18 @@ document.addEventListener('DOMContentLoaded', () => {
     renderSituationalPrayers(); renderScenarioSelector(); renderOrthographyRules(state.orthoCategory); renderOrthographyAppendix(); renderOrthographyQuiz(); renderProofreadingTabs(); renderProofreadingBoard();
   };
 
-  document.addEventListener('click', e => {const b=e.target.closest('[data-speech]');if(b&&!b.closest('#learning-app'))audioEngine.speakTurkish(b.dataset.speech);});
+  document.addEventListener('click', e => {
+    const b=e.target.closest('[data-speech]');
+    if(b&&(b.closest('#legacy-view')||!b.closest('#learning-app')))audioEngine.speakTurkish(b.dataset.speech);
+    const copy=e.target.closest('[data-copy-text]');if(copy)copyText(copy.dataset.copyText);
+    const flip=e.target.closest('[data-flip-card]');if(flip)window.toggleCardFlip(Number(flip.dataset.flipCard));
+  });
+  document.addEventListener('input',e=>{
+    if(!e.target.id?.startsWith('unlu-input-'))return;
+    const id=e.target.id.slice('unlu-input-'.length);
+    state.unluAnswers[id]={value:e.target.value,isCorrect:null};
+    document.getElementById('unlu-feedback-'+id).textContent='';
+  });
 
   // Initialize All Modules
   // -----------------------------------------------------------

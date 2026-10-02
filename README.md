@@ -97,12 +97,12 @@ npx playwright install chromium
 npm run test:browser
 ```
 
-`PLAYWRIGHT_MODULE` can point to a bundled Playwright installation. `SCREENSHOT_DIR` optionally saves desktop/phone review images. CI runs content and browser checks; it does not deploy. [Validation evidence and limits](VALIDATION.md); [editorial changes, source references and quotation ledger](EDITORIAL.md).
+`PLAYWRIGHT_MODULE` can point to a bundled Playwright installation. `SCREENSHOT_DIR` optionally saves desktop/phone review images. `npm run test:audit` runs focused answer-editing, recovery, safe-text, clipboard/speech, keyboard and responsive regressions; it is included in the full browser suite. The preview binds to `127.0.0.1` and rejects traversal/private paths; restart after updating the server. CI runs checks without deploying. [Final audit and screenshots](docs/audit/FINAL-AUDIT.md); [validation evidence and limits](VALIDATION.md); [editorial records](EDITORIAL.md).
 
 ## 한국어 안내
 
-기본 터키어를 아는 외국인 선교사를 위한 학습 사이트입니다. 영어가 기본이며 상단 **학습 언어**에서 한국어를 선택하면 메뉴·수업·설명·연습 피드백·조작이 한국어로 바뀝니다. 다섯 출처의 67개 수업과 열 실용 수업, 499개 어휘와 기존 24개 연습을 제공합니다. 32개 수업 계획은 로드맵입니다.
+기본 터키어를 아는 외국인 선교사를 위한 학습 사이트입니다. 영어가 기본이며 상단 **학습 언어**에서 한국어를 선택하면 메뉴·수업·설명·연습 피드백·조작이 한국어로 바뀝니다. 다섯 출처의 67개 수업과 열 실용 수업, 499개 어휘와 기존 24개 연습을 제공합니다. 별도 성경 학습에는 60개 본문, 316개 문맥별 단어 분석과 240개 해설형 연습이 있습니다. 32개 수업 계획은 로드맵입니다.
 
-첫 방문에는 성경 장절 찾고 읽기 수업이 열리고, 다시 방문하면 마지막 과정 수업과 부분을 이어갑니다. 과정별 목차에서 모든 수업을 자유롭게 선택하며, 한 페이지의 읽고 듣기 → 이해 → 연습 → 직접 사용하기로 공부합니다. 단어·성경 읽기·연습 도구는 자료 메뉴에서 열고 수업으로 돌아올 수 있습니다. 단어를 단어를 문맥과 함께 저장·복습합니다. 성경의 검증한 세 절은 직접 인용하고 긴 본문은 표시한 판본으로 연결합니다. 열 확장 기도 모델은 편집·축약한 학습 적용이며 원본 녹취가 아닙니다.
+첫 방문에는 성경 장절 찾고 읽기 수업이 열리고, 다시 방문하면 마지막 과정 수업과 부분을 이어갑니다. 과정별 목차에서 모든 수업을 자유롭게 선택하며, 한 페이지의 읽고 듣기 → 이해 → 연습 → 직접 사용하기로 공부합니다. 상단 **수업·성경 학습·단어·연습**에서 활동을 바꾸고 각각의 마지막 활동을 이어갈 수 있습니다. 단어를 문맥과 함께 저장·복습합니다. 성경 학습은 검증한 TCL02 본문과 독립적으로 작성한 영어·한국어 학습 설명을 제공합니다. 기존 82개 세미나 읽기 과제도 별도 목록에 남아 있습니다. 성경 학습 자체에는 암송 채점이나 복습 일정이 없습니다. 열 확장 기도 모델은 편집·축약한 학습 적용이며 원본 녹취가 아닙니다.
 
 방문·연습·완료는 구별됩니다. 독립 과제와 자기 평가를 포함한 수행 보고이며 공인 숙달 인증이나 영적 점수가 아닙니다. 기록·개인 기도·메모는 기기에 저장되고 설정에서 백업할 수 있습니다. 계정 동기화는 향후 단계입니다. 음성은 합성 음성이며 원어민 녹음·발음 평가가 아닙니다. 터키어·한국어 전문가의 독립 검토는 아직 필요합니다.

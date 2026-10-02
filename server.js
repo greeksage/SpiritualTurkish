@@ -17,14 +17,19 @@ const MIME_TYPES = {
   '.png': 'image/png',
   '.jpg': 'image/jpeg',
   '.svg': 'image/svg+xml',
-  '.ico': 'image/x-icon'
+  '.ico': 'image/x-icon',
+  '.woff2': 'font/woff2',
+  '.md': 'text/plain; charset=utf-8'
 };
 
 const server = http.createServer((req, res) => {
-  let reqUrl = req.url.split('?')[0];
+  let reqUrl;
+  try{reqUrl=decodeURIComponent(req.url.split('?')[0]);}catch{res.writeHead(400);res.end('400 Bad Request');return;}
+  if(!reqUrl.startsWith('/')||reqUrl.includes('\0')){res.writeHead(400);res.end('400 Bad Request');return;}
   if (reqUrl === '/') reqUrl = '/index.html';
 
-  const filePath = path.join(__dirname, reqUrl);
+  const filePath = path.resolve(__dirname, '.'+reqUrl);
+  if(!filePath.startsWith(__dirname+path.sep)||reqUrl.split(/[\\/]/).some(part=>['.git','node_modules'].includes(part.toLowerCase())||part.toLowerCase().startsWith('.env'))){res.writeHead(403);res.end('403 Forbidden');return;}
   const ext = path.extname(filePath).toLowerCase();
   const contentType = MIME_TYPES[ext] || 'application/octet-stream';
 
@@ -44,7 +49,8 @@ const server = http.createServer((req, res) => {
   });
 });
 
-server.listen(PORT, () => {
+if(require.main===module)server.listen(PORT, '127.0.0.1', () => {
   console.log(`[Spiritual Turkish] Server running at http://localhost:${PORT}/`);
   console.log(`Open http://localhost:${PORT}/ in your browser to start learning!`);
 });
+module.exports=server;

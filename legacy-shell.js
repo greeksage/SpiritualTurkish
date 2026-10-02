@@ -9,10 +9,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const closed=()=>window.innerWidth<1024&&sidebar.classList.contains('-translate-x-full');
   const syncMenu=()=>{sidebar.inert=closed();toggle?.setAttribute('aria-expanded',String(!closed()));};
   toggle?.setAttribute('aria-controls','sidebar');
-  for(const id of ['sidebar-toggle-btn','sidebar-close-btn','mute-toggle-btn','speed-toggle-btn','mic-record-btn']){
+  for(const id of ['sidebar-toggle-btn','sidebar-close-btn','mute-toggle-btn','speed-toggle-btn','mic-record-btn','custom-syllable-input','assembled-tr-textarea']){
     const el=document.getElementById(id);if(!el)continue;const labels={
       'sidebar-toggle-btn':['Open curriculum menu','학습 과정 메뉴 열기'], 'sidebar-close-btn':['Close curriculum menu','학습 과정 메뉴 닫기'],
-      'mute-toggle-btn':['Toggle sound effects','효과음 켜기/끄기'], 'speed-toggle-btn':['Change synthetic speech speed','합성 음성 속도 변경'], 'mic-record-btn':['Start or stop speech recognition','음성 인식 시작/정지']
+      'mute-toggle-btn':['Toggle sound effects','효과음 켜기/끄기'], 'speed-toggle-btn':['Change synthetic speech speed','합성 음성 속도 변경'], 'mic-record-btn':['Start or stop speech recognition','음성 인식 시작/정지'], 'custom-syllable-input':['Turkish word for syllable practice','음절 연습할 터키어 단어'], 'assembled-tr-textarea':['Your Turkish prayer','자신의 터키어 기도문']
     };el.dataset.ariaEn=labels[id][0];el.dataset.ariaKo=labels[id][1];el.setAttribute('aria-label',course.t(...labels[id]));
   }
   toggle?.addEventListener('click',()=>{syncMenu();if(!closed())document.getElementById('teaching-language').focus();});

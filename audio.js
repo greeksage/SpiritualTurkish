@@ -259,7 +259,7 @@ class AudioEngine {
   initVoices() {
     if (!window.speechSynthesis) return;
     const findVoice = () => {
-      const voices = window.speechSynthesis.getVoices();
+      let voices=[];try{voices=window.speechSynthesis.getVoices();}catch{}
       // Look for Turkish voices
       this.turkishVoice = voices.find(v => v.lang.toLocaleLowerCase('tr').startsWith('tr')) || null;
     };
@@ -273,7 +273,7 @@ class AudioEngine {
     const report = (en,ko) => {
       const message=window.course?.t(en,ko) || en;
       const lessonStatus=document.getElementById('course-audio-status');
-      const status=statusTarget || document.querySelector('#word-inspector[open] #word-audio-status') || (lessonStatus && !lessonStatus.closest('.lesson-section').classList.contains('hidden') && !document.getElementById('lesson-view')?.hidden ? lessonStatus : document.getElementById('global-audio-status'));
+      const status=statusTarget || document.querySelector('#word-inspector[open] #word-audio-status') || (lessonStatus && lessonStatus.closest('.lesson-section') && !lessonStatus.closest('.lesson-section').classList.contains('hidden') && !document.getElementById('lesson-view')?.hidden ? lessonStatus : document.getElementById('global-audio-status'));
       if(status)status.textContent=message;
       if(onEnd)onEnd();
       // onEnd may write its own status; unavailable/error information takes priority.
@@ -289,6 +289,7 @@ class AudioEngine {
       report('No Turkish synthetic voice is installed. The text remains available; install a Turkish system voice or practise with a partner.','터키어 합성 음성이 설치되어 있지 않습니다. 본문은 읽을 수 있습니다. 터키어 시스템 음성을 설치하거나 상대와 연습하세요.');
       return;
     }
+    try {
     window.speechSynthesis.cancel(); // Stop any ongoing speech
 
     const cleanText = text.replace(/[*_#]/g, '').trim();
@@ -309,11 +310,14 @@ class AudioEngine {
     };
 
     window.speechSynthesis.speak(utterance);
+    } catch {
+      report('Synthetic speech could not play. The Turkish text is still available.','합성 음성을 재생할 수 없습니다. 터키어 본문은 읽을 수 있습니다.');
+    }
   }
 
   stopSpeaking() {
     if (window.speechSynthesis) {
-      window.speechSynthesis.cancel();
+      try{window.speechSynthesis.cancel();}catch{}
     }
   }
 
@@ -323,16 +327,18 @@ class AudioEngine {
   initRecognition() {
     const SpeechRecognitionClass = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (SpeechRecognitionClass) {
+      try {
       this.recognition = new SpeechRecognitionClass();
       this.recognition.lang = 'tr-TR';
       this.recognition.continuous = false;
       this.recognition.interimResults = false;
       this.recognition.maxAlternatives = 1;
+      } catch {this.recognition=null;}
     }
   }
 
   hasSpeechRecognition() {
-    return !!(window.SpeechRecognition || window.webkitSpeechRecognition);
+    return !!this.recognition;
   }
 
   startListening(onResult, onError, onEnd) {
@@ -342,8 +348,7 @@ class AudioEngine {
     }
 
     if (this.isListening) {
-      this.recognition.stop();
-      this.isListening = false;
+      this.stopListening();
     }
 
     this.recognition.onstart = () => {
@@ -376,6 +381,7 @@ class AudioEngine {
     };
 
     try {
+      this.isListening = true; // Include the pending permission/start interval.
       this.recognition.start();
     } catch (e) {
       this.isListening = false;
@@ -385,8 +391,12 @@ class AudioEngine {
 
   stopListening() {
     if (this.recognition && this.isListening) {
-      this.recognition.stop();
+      const ended=this.recognition.onend;
+      // A cancelled session must not grade a late result against another word.
+      this.recognition.onresult=null;this.recognition.onerror=null;this.recognition.onstart=null;this.recognition.onend=null;
       this.isListening = false;
+      try {if(this.recognition.abort)this.recognition.abort();else this.recognition.stop();}catch{}
+      ended?.();
     }
   }
 
