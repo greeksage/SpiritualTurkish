@@ -1,0 +1,822 @@
+{
+  "id": "study-jhn-5-24",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand John 5:24 through its clause structure and the forms söyleyeyim / sözümü.",
+    "ko": "요한복음 5:24의 절 구조와 söyleyeyim / sözümü 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "I tell you truly: whoever hears my word and believes the one who sent me has eternal life. Such a person is not judged but has passed from death into life.",
+    "ko": "진실로 말합니다. 내 말을 듣고 나를 보내신 분을 믿는 사람은 영원한 생명이 있습니다. 그런 사람은 심판받지 않고 죽음에서 생명으로 옮겨졌습니다."
+  },
+  "clauses": [
+    {
+      "id": "study-jhn-5-24-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "JHN.5.24",
+          "start": 0,
+          "end": 90
+        }
+      ],
+      "naturalMeaning": {
+        "en": "The one who hears and believes has eternal life.",
+        "ko": "듣고 믿는 사람에게 영원한 생명이 있습니다."
+      },
+      "literalGloss": {
+        "en": "to you / its truth let-me-say / my word hearing-and / me sending-one-to / believing-one’s / eternal life exists",
+        "ko": "여러분께 / 진실을 말하자 나 / 내 말을 듣고 / 나를 보내는 분을 / 믿는 사람의 / 영원한 생명이 있다"
+      },
+      "explanation": {
+        "en": "Söyleyeyim is a first-person optative introduction. Gönderene is a nominalized participle in the dative, the target of iman eden. Edenin is genitive possessor of yaşamı.",
+        "ko": "söyleyeyim은 1인칭 희구 도입입니다. gönderene는 여격인 명사적 관계형으로 iman eden의 대상입니다. edenin은 yaşamı의 속격 소유자입니다."
+      }
+    },
+    {
+      "id": "study-jhn-5-24-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "JHN.5.24",
+          "start": 91,
+          "end": 140
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Such a person is not judged and has passed from death to life.",
+        "ko": "그런 사람은 심판받지 않고 죽음에서 생명으로 옮겨졌습니다."
+      },
+      "literalGloss": {
+        "en": "such someone / is-not-judged / from death to life / has passed",
+        "ko": "그런 사람 / 심판받지 않는다 / 죽음에서 생명으로 / 옮겨졌다"
+      },
+      "explanation": {
+        "en": "A negative aorist makes the judgment assertion. Ölümden … yaşama marks source and destination; geçmiştir presents the completed transition with formal assertion.",
+        "ko": "부정 일반 현재가 심판 진술을 만듭니다. ölümden … yaşama는 출발·목적지이며 geçmiştir는 완료된 이동을 격식 있게 진술합니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-jhn-5-24-word-1",
+      "verseId": "JHN.5.24",
+      "start": 16,
+      "end": 26,
+      "surface": "söyleyeyim",
+      "lemma": "söylemek",
+      "meaning": {
+        "en": "let me tell",
+        "ko": "내가 말하겠습니다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "söyle",
+          "meaning": {
+            "en": "say / tell",
+            "ko": "말하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "e",
+          "meaning": {
+            "en": "optative mood",
+            "ko": "기원·의지법"
+          },
+          "function": "OPT"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "im",
+          "meaning": {
+            "en": "first-person singular",
+            "ko": "1인칭 단수"
+          },
+          "function": "PERSON1"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "mood": "optative",
+        "person": "1sg"
+      },
+      "role": {
+        "en": "First-person optative",
+        "ko": "1인칭 희구"
+      },
+      "contextualExplanation": {
+        "en": "Two buffer y sounds link the vowel-final stem, optative vowel, and person suffix.",
+        "ko": "모음 어간·희구 모음·인칭 어미 사이에 두 y가 연결됩니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "say / tell",
+        "ko": "말하다"
+      }
+    },
+    {
+      "id": "study-jhn-5-24-word-2",
+      "verseId": "JHN.5.24",
+      "start": 28,
+      "end": 34,
+      "surface": "sözümü",
+      "lemma": "söz",
+      "meaning": {
+        "en": "my word (object)",
+        "ko": "내 말을"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "söz",
+          "meaning": {
+            "en": "word / statement / promise",
+            "ko": "말·진술·약속"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "üm",
+          "meaning": {
+            "en": "first-person singular possessive",
+            "ko": "1인칭 단수 소유"
+          },
+          "function": "P1"
+        },
+        {
+          "form": "ü",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "1sg",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Possessed object",
+        "ko": "소유 목적어"
+      },
+      "contextualExplanation": {
+        "en": "It is what is heard; -üm is the speaker’s possession.",
+        "ko": "듣는 대상이고 -üm은 화자의 소유입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "word / statement / promise",
+        "ko": "말·진술·약속"
+      }
+    },
+    {
+      "id": "study-jhn-5-24-word-3",
+      "verseId": "JHN.5.24",
+      "start": 47,
+      "end": 56,
+      "surface": "gönderene",
+      "lemma": "göndermek",
+      "meaning": {
+        "en": "to the one who sent",
+        "ko": "보내신 분을 믿는 대상"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "gönder",
+          "meaning": {
+            "en": "send",
+            "ko": "보내다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "en",
+          "meaning": {
+            "en": "subject participle -An",
+            "ko": "주어 관계형 -An"
+          },
+          "function": "PART"
+        },
+        {
+          "form": "e",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "subject participle",
+        "case": "dative"
+      },
+      "role": {
+        "en": "Dative nominal participle",
+        "ko": "여격 명사적 관계형"
+      },
+      "contextualExplanation": {
+        "en": "Beni is the participle’s object; the sending person is the object of belief via dative.",
+        "ko": "beni는 관계형 안의 목적어이며 보내신 분은 믿음의 여격 대상입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "send",
+        "ko": "보내다"
+      }
+    },
+    {
+      "id": "study-jhn-5-24-word-4",
+      "verseId": "JHN.5.24",
+      "start": 62,
+      "end": 68,
+      "surface": "edenin",
+      "lemma": "etmek",
+      "meaning": {
+        "en": "of the one who believes",
+        "ko": "믿는 사람의"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ed",
+          "meaning": {
+            "en": "do / make (auxiliary)",
+            "ko": "하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "en",
+          "meaning": {
+            "en": "subject participle -An",
+            "ko": "주어 관계형 -An"
+          },
+          "function": "PART"
+        },
+        {
+          "form": "in",
+          "meaning": {
+            "en": "genitive: possessor / dependent subject",
+            "ko": "속격: 소유자·내포절 주어"
+          },
+          "function": "GEN"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "et- → ed- before -en",
+          "ko": "-en 앞에서 et-가 ed-로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "subject participle",
+        "case": "genitive"
+      },
+      "role": {
+        "en": "Genitive nominal participle",
+        "ko": "속격 명사적 관계형"
+      },
+      "contextualExplanation": {
+        "en": "The person who believes possesses the eternal life in the next noun phrase.",
+        "ko": "믿는 사람이 다음 명사 구의 영원한 생명을 소유합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "do / make (auxiliary)",
+        "ko": "하다"
+      }
+    },
+    {
+      "id": "study-jhn-5-24-word-5",
+      "verseId": "JHN.5.24",
+      "start": 102,
+      "end": 113,
+      "surface": "yargılanmaz",
+      "lemma": "yargılanmak",
+      "meaning": {
+        "en": "is not judged",
+        "ko": "심판받지 않는다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yargılan",
+          "meaning": {
+            "en": "be judged / tried",
+            "ko": "심판·재판을 받다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "maz",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "tenseAspect": "negative aorist"
+      },
+      "role": {
+        "en": "Negative aorist predicate",
+        "ko": "부정 일반 현재 술어"
+      },
+      "contextualExplanation": {
+        "en": "-maz is the negative aorist form, not a verbal-noun suffix.",
+        "ko": "-maz는 부정 일반 현재이며 동사 명사형 접사가 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "be judged / tried",
+        "ko": "심판·재판을 받다"
+      }
+    },
+    {
+      "id": "study-jhn-5-24-word-6",
+      "verseId": "JHN.5.24",
+      "start": 130,
+      "end": 139,
+      "surface": "geçmiştir",
+      "lemma": "geçmek",
+      "meaning": {
+        "en": "has passed",
+        "ko": "옮겨졌다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "geç",
+          "meaning": {
+            "en": "pass / cross",
+            "ko": "지나다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "miş",
+          "meaning": {
+            "en": "past/resultative -mIş form",
+            "ko": "-mIş 과거·결과 형태"
+          },
+          "function": "RESULT"
+        },
+        {
+          "form": "tir",
+          "meaning": {
+            "en": "copular/assertive ending",
+            "ko": "계사·단정 어미"
+          },
+          "function": "COP"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "resultative -mIş"
+      },
+      "role": {
+        "en": "Completed transition",
+        "ko": "완료된 이동"
+      },
+      "contextualExplanation": {
+        "en": "The locational case pair supplies the movement’s figurative source and destination.",
+        "ko": "위치 격 쌍이 비유적 이동의 출발·목적지를 줍니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "pass / cross",
+        "ko": "지나다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-jhn-5-24-word-1-vocab",
+      "analysisId": "study-jhn-5-24-word-1",
+      "lemma": "söylemek",
+      "classification": "general",
+      "definitions": {
+        "en": "say / tell",
+        "ko": "말하다"
+      },
+      "usageNotes": {
+        "en": "Two buffer y sounds link the vowel-final stem, optative vowel, and person suffix.",
+        "ko": "모음 어간·희구 모음·인칭 어미 사이에 두 y가 연결됩니다."
+      }
+    },
+    {
+      "id": "study-jhn-5-24-word-2-vocab",
+      "analysisId": "study-jhn-5-24-word-2",
+      "lemma": "söz",
+      "classification": "general",
+      "definitions": {
+        "en": "word / statement / promise",
+        "ko": "말·진술·약속"
+      },
+      "usageNotes": {
+        "en": "It is what is heard; -üm is the speaker’s possession.",
+        "ko": "듣는 대상이고 -üm은 화자의 소유입니다."
+      }
+    },
+    {
+      "id": "study-jhn-5-24-word-3-vocab",
+      "analysisId": "study-jhn-5-24-word-3",
+      "lemma": "göndermek",
+      "classification": "general",
+      "definitions": {
+        "en": "send",
+        "ko": "보내다"
+      },
+      "usageNotes": {
+        "en": "Beni is the participle’s object; the sending person is the object of belief via dative.",
+        "ko": "beni는 관계형 안의 목적어이며 보내신 분은 믿음의 여격 대상입니다."
+      }
+    },
+    {
+      "id": "study-jhn-5-24-word-4-vocab",
+      "analysisId": "study-jhn-5-24-word-4",
+      "lemma": "etmek",
+      "classification": "general",
+      "definitions": {
+        "en": "do / make (auxiliary)",
+        "ko": "하다"
+      },
+      "usageNotes": {
+        "en": "The person who believes possesses the eternal life in the next noun phrase.",
+        "ko": "믿는 사람이 다음 명사 구의 영원한 생명을 소유합니다."
+      }
+    },
+    {
+      "id": "study-jhn-5-24-word-5-vocab",
+      "analysisId": "study-jhn-5-24-word-5",
+      "lemma": "yargılanmak",
+      "classification": "general",
+      "definitions": {
+        "en": "be judged / tried",
+        "ko": "심판·재판을 받다"
+      },
+      "usageNotes": {
+        "en": "-maz is the negative aorist form, not a verbal-noun suffix.",
+        "ko": "-maz는 부정 일반 현재이며 동사 명사형 접사가 아닙니다."
+      }
+    },
+    {
+      "id": "study-jhn-5-24-word-6-vocab",
+      "analysisId": "study-jhn-5-24-word-6",
+      "lemma": "geçmek",
+      "classification": "general",
+      "definitions": {
+        "en": "pass / cross",
+        "ko": "지나다"
+      },
+      "usageNotes": {
+        "en": "The locational case pair supplies the movement’s figurative source and destination.",
+        "ko": "위치 격 쌍이 비유적 이동의 출발·목적지를 줍니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-jhn-5-24-grammar-1",
+      "title": {
+        "en": "A participle inside another participant phrase",
+        "ko": "참여자 구 안의 관계형"
+      },
+      "explanation": {
+        "en": "Beni gönderene sits inside iman edenin. Track the sent person, the sender, and the believer separately.",
+        "ko": "beni gönderene가 iman edenin 안에 있습니다. 보냄받은 사람·보내신 분·믿는 사람을 구별하세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "JHN.5.24",
+          "start": 0,
+          "end": 90
+        },
+        {
+          "verseId": "JHN.5.24",
+          "start": 91,
+          "end": 140
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-jhn-5-24-grammar-2",
+      "title": {
+        "en": "Existence as possession",
+        "ko": "소유를 나타내는 존재 구문"
+      },
+      "explanation": {
+        "en": "… edenin yaşamı vardır uses genitive plus possessed noun and var. This expresses “has” without a transitive have verb.",
+        "ko": "… edenin yaşamı vardır는 속격·소유 명사·var를 씁니다. 영어 have 같은 타동사 없이 소유를 표현합니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "JHN.5.24",
+          "start": 0,
+          "end": 90
+        },
+        {
+          "verseId": "JHN.5.24",
+          "start": 91,
+          "end": 140
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-10"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Write an ordinary possession sentence with “…-ın …-ı var” and a transition sentence with “-den …-a.”",
+    "ko": "“…-ın …-ı var” 소유 문장과 “-den …-a” 이동 문장을 쓰세요."
+  },
+  "modelResponse": {
+    "tr": "Arkadaşımın bir sorusu var. Evden okula gittik.",
+    "meaning": {
+      "en": "My friend has a question. We went from home to school.",
+      "ko": "친구에게 질문이 있습니다. 집에서 학교로 갔습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "ministry-10"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-jhn-5-24-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to John 5:24? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 요한복음 5:24인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-jhn-5-24",
+          "passageId": "study-jhn-5-24",
+          "explanation": {
+            "en": "This is the passage. I tell you truly: whoever hears my word and believes the one who sent me has eternal life. Such a person is not judged but has passed from death into life. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 진실로 말합니다. 내 말을 듣고 나를 보내신 분을 믿는 사람은 영원한 생명이 있습니다. 그런 사람은 심판받지 않고 죽음에서 생명으로 옮겨졌습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1jn-5-13",
+          "passageId": "study-1jn-5-13",
+          "explanation": {
+            "en": "This is a different passage. I wrote these things to you who believe in the name of God’s Son so that you may know you have eternal life. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 하나님의 아들의 이름을 믿는 여러분이 영원한 생명을 가지고 있음을 알도록 이것을 썼습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-isa-53-6",
+          "passageId": "study-isa-53-6",
+          "explanation": {
+            "en": "This is a different passage. We all had strayed from the path like sheep; each turned to their own way. Yet the LORD placed all our punishment on him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 우리는 모두 양처럼 길을 벗어났고 각자 자기 길로 돌아섰습니다. 그러나 주님은 우리 모두의 형벌을 그에게 지우셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-eph-2-8-9",
+          "passageId": "study-eph-2-8-9",
+          "explanation": {
+            "en": "This is a different passage. You were saved by grace through faith. This is not your achievement; it is God’s gift, not the reward of good deeds, so that no one should boast. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분은 믿음을 통해 은혜로 구원받았습니다. 이는 여러분의 성취가 아니라 하나님의 선물이며 누구도 자랑하지 못하도록 선행의 보상이 아닙니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-jhn-5-24"
+      ],
+      "explanations": {
+        "en": "This is the passage. I tell you truly: whoever hears my word and believes the one who sent me has eternal life. Such a person is not judged but has passed from death into life. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 진실로 말합니다. 내 말을 듣고 나를 보내신 분을 믿는 사람은 영원한 생명이 있습니다. 그런 사람은 심판받지 않고 죽음에서 생명으로 옮겨졌습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-jhn-5-24-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-jhn-5-24",
+          "referenceId": "study-jhn-5-24",
+          "explanation": {
+            "en": "This is the passage. I tell you truly: whoever hears my word and believes the one who sent me has eternal life. Such a person is not judged but has passed from death into life. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 진실로 말합니다. 내 말을 듣고 나를 보내신 분을 믿는 사람은 영원한 생명이 있습니다. 그런 사람은 심판받지 않고 죽음에서 생명으로 옮겨졌습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1jn-5-13",
+          "referenceId": "study-1jn-5-13",
+          "explanation": {
+            "en": "This is a different passage. I wrote these things to you who believe in the name of God’s Son so that you may know you have eternal life. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 하나님의 아들의 이름을 믿는 여러분이 영원한 생명을 가지고 있음을 알도록 이것을 썼습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-isa-53-6",
+          "referenceId": "study-isa-53-6",
+          "explanation": {
+            "en": "This is a different passage. We all had strayed from the path like sheep; each turned to their own way. Yet the LORD placed all our punishment on him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 우리는 모두 양처럼 길을 벗어났고 각자 자기 길로 돌아섰습니다. 그러나 주님은 우리 모두의 형벌을 그에게 지우셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-eph-2-8-9",
+          "referenceId": "study-eph-2-8-9",
+          "explanation": {
+            "en": "This is a different passage. You were saved by grace through faith. This is not your achievement; it is God’s gift, not the reward of good deeds, so that no one should boast. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분은 믿음을 통해 은혜로 구원받았습니다. 이는 여러분의 성취가 아니라 하나님의 선물이며 누구도 자랑하지 못하도록 선행의 보상이 아닙니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-jhn-5-24"
+      ],
+      "explanations": {
+        "en": "This is the passage. I tell you truly: whoever hears my word and believes the one who sent me has eternal life. Such a person is not judged but has passed from death into life. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 진실로 말합니다. 내 말을 듣고 나를 보내신 분을 믿는 사람은 영원한 생명이 있습니다. 그런 사람은 심판받지 않고 죽음에서 생명으로 옮겨졌습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-jhn-5-24-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “söylemek” in this passage?",
+        "ko": "이 본문에서 “söylemek”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-jhn-5-24-word-1-vocab",
+          "label": {
+            "en": "say / tell",
+            "ko": "말하다"
+          },
+          "explanation": {
+            "en": "say / tell. Two buffer y sounds link the vowel-final stem, optative vowel, and person suffix.",
+            "ko": "말하다. 모음 어간·희구 모음·인칭 어미 사이에 두 y가 연결됩니다."
+          }
+        },
+        {
+          "id": "study-jhn-5-24-word-2-vocab",
+          "label": {
+            "en": "word / statement / promise",
+            "ko": "말·진술·약속"
+          },
+          "explanation": {
+            "en": "That definition belongs to söz. söylemek means say / tell here. Two buffer y sounds link the vowel-final stem, optative vowel, and person suffix.",
+            "ko": "그 뜻은 söz입니다. 여기 söylemek는 말하다입니다. 모음 어간·희구 모음·인칭 어미 사이에 두 y가 연결됩니다."
+          }
+        },
+        {
+          "id": "study-jhn-5-24-word-3-vocab",
+          "label": {
+            "en": "send",
+            "ko": "보내다"
+          },
+          "explanation": {
+            "en": "That definition belongs to göndermek. söylemek means say / tell here. Two buffer y sounds link the vowel-final stem, optative vowel, and person suffix.",
+            "ko": "그 뜻은 göndermek입니다. 여기 söylemek는 말하다입니다. 모음 어간·희구 모음·인칭 어미 사이에 두 y가 연결됩니다."
+          }
+        },
+        {
+          "id": "study-jhn-5-24-word-4-vocab",
+          "label": {
+            "en": "do / make (auxiliary)",
+            "ko": "하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to etmek. söylemek means say / tell here. Two buffer y sounds link the vowel-final stem, optative vowel, and person suffix.",
+            "ko": "그 뜻은 etmek입니다. 여기 söylemek는 말하다입니다. 모음 어간·희구 모음·인칭 어미 사이에 두 y가 연결됩니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-jhn-5-24-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Two buffer y sounds link the vowel-final stem, optative vowel, and person suffix.",
+        "ko": "모음 어간·희구 모음·인칭 어미 사이에 두 y가 연결됩니다."
+      }
+    },
+    {
+      "id": "study-jhn-5-24-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “sözümü”, what is the function of “-ü” here?",
+        "ko": "“sözümü”에서 “-ü”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "Possessed object. It is what is heard; -üm is the speaker’s possession.",
+            "ko": "소유 목적어. 듣는 대상이고 -üm은 화자의 소유입니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed object. It is what is heard; -üm is the speaker’s possession.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 목적어. 듣는 대상이고 -üm은 화자의 소유입니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed object. It is what is heard; -üm is the speaker’s possession.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 목적어. 듣는 대상이고 -üm은 화자의 소유입니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed object. It is what is heard; -üm is the speaker’s possession.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 목적어. 듣는 대상이고 -üm은 화자의 소유입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ACC"
+      ],
+      "explanations": {
+        "en": "It is what is heard; -üm is the speaker’s possession.",
+        "ko": "듣는 대상이고 -üm은 화자의 소유입니다."
+      }
+    }
+  ]
+}

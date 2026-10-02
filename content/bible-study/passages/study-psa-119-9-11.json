@@ -1,0 +1,823 @@
+{
+  "id": "study-psa-119-9-11",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Psalms 119:9, 11 through its clause structure and the forms yolunu / sözünü.",
+    "ko": "시편 119:9, 11의 절 구조와 yolunu / sözünü 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "How does a young person keep their way clean? By keeping your word. I do not let your word leave my mind, so that I may not sin against you.",
+    "ko": "젊은 사람이 어떻게 자기 길을 깨끗하게 지킬까요? 주님의 말씀을 지킴으로입니다. 주님께 죄를 짓지 않으려고 말씀을 마음에서 떠나게 하지 않습니다."
+  },
+  "clauses": [
+    {
+      "id": "study-psa-119-9-11-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "PSA.119.9",
+          "start": 0,
+          "end": 59
+        }
+      ],
+      "naturalMeaning": {
+        "en": "A young person keeps their way clean by keeping God’s word.",
+        "ko": "젊은 사람은 하나님의 말씀을 지킴으로 자기 길을 깨끗하게 지킵니다."
+      },
+      "literalGloss": {
+        "en": "young person / way-his-object / how / clean holds? / your word-object / keeping-by",
+        "ko": "젊은 사람 / 자기 길을 / 어떻게 / 깨끗하게 유지하나? / 당신 말씀을 / 지킴으로"
+      },
+      "explanation": {
+        "en": "Yolunu has a third-person possessed object. Temiz tutmak is keep clean; tutmakla answers how through a nominalized action plus ile. The question’s third-person subject changes to direct address Senin in the answer.",
+        "ko": "yolunu는 3인칭 소유 목적어입니다. temiz tutmak은 깨끗하게 유지하다이고 tutmakla는 명사화 행위·ile로 방법을 답합니다. 질문의 3인칭 주어에서 답의 직접 호칭 Senin으로 관점이 바뀝니다."
+      }
+    },
+    {
+      "id": "study-psa-119-9-11-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "PSA.119.11",
+          "start": 0,
+          "end": 58
+        }
+      ],
+      "naturalMeaning": {
+        "en": "I keep your word in mind so as not to sin against you.",
+        "ko": "주님께 죄를 짓지 않으려고 말씀을 마음에 둡니다."
+      },
+      "literalGloss": {
+        "en": "from my mind / I do-not-remove / your word-object / to you against / sin not-doing / for",
+        "ko": "내 마음에서 / 나는 제거하지 않는다 / 당신 말씀을 / 당신께 거슬러 / 죄 짓지 않기 / 위해"
+      },
+      "explanation": {
+        "en": "Poetic word order puts sözünü after çıkarmam. Aklımdan çıkarmamak is keep in mind. İşlememek için expresses negative purpose, not an instruction to memorize the entire passage.",
+        "ko": "시적 어순으로 sözünü가 çıkarmam 뒤에 옵니다. aklımdan çıkarmamak은 마음에 두다입니다. işlememek için은 부정 목적이며 이 학습 기능에서 전체 본문 암기 시험으로 바꾸지 않습니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-psa-119-9-11-word-1",
+      "verseId": "PSA.119.9",
+      "start": 11,
+      "end": 17,
+      "surface": "yolunu",
+      "lemma": "yol",
+      "meaning": {
+        "en": "their way (object)",
+        "ko": "그 길을"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "yol",
+          "meaning": {
+            "en": "road / way",
+            "ko": "길"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "u",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "u",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Possessed object",
+        "ko": "소유 목적어"
+      },
+      "contextualExplanation": {
+        "en": "The possessor is the young person; the last u is accusative.",
+        "ko": "소유자는 젊은 사람이고 마지막 u는 대격입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "road / way",
+        "ko": "길"
+      }
+    },
+    {
+      "id": "study-psa-119-9-11-word-2",
+      "verseId": "PSA.119.9",
+      "start": 43,
+      "end": 49,
+      "surface": "sözünü",
+      "lemma": "söz",
+      "meaning": {
+        "en": "your word (object)",
+        "ko": "당신 말씀을"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "söz",
+          "meaning": {
+            "en": "word / statement / promise",
+            "ko": "말·진술·약속"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ün",
+          "meaning": {
+            "en": "second-person singular possessive",
+            "ko": "2인칭 단수 소유"
+          },
+          "function": "P2"
+        },
+        {
+          "form": "ü",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "2sg",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Second-person possessed object",
+        "ko": "2인칭 소유 목적어"
+      },
+      "contextualExplanation": {
+        "en": "Senin makes the singular divine addressee explicit. The n belongs to possession here, not a third-person buffer.",
+        "ko": "Senin이 단수 신적 청자를 밝힙니다. 여기서 n은 소유 어미 안에 있으며 3인칭 완충 자음이 아닙니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "word / statement / promise",
+        "ko": "말·진술·약속"
+      }
+    },
+    {
+      "id": "study-psa-119-9-11-word-3",
+      "verseId": "PSA.119.9",
+      "start": 50,
+      "end": 58,
+      "surface": "tutmakla",
+      "lemma": "tutmak",
+      "meaning": {
+        "en": "by keeping",
+        "ko": "지킴으로"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "tut",
+          "meaning": {
+            "en": "hold / keep",
+            "ko": "잡다·유지하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "mak",
+          "meaning": {
+            "en": "infinitive",
+            "ko": "부정사"
+          },
+          "function": "INF"
+        },
+        {
+          "form": "la",
+          "meaning": {
+            "en": "with / by",
+            "ko": "~와 함께·~로"
+          },
+          "function": "WITH"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "infinitive"
+      },
+      "role": {
+        "en": "Means with infinitive",
+        "ko": "부정사의 수단"
+      },
+      "contextualExplanation": {
+        "en": "The same verb appears in temiz tutar, but sözünü tutmak means keep a word/observe it.",
+        "ko": "같은 동사가 temiz tutar에도 있지만 sözünü tutmak은 말을 지키다·준수하다입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "hold / keep",
+        "ko": "잡다·유지하다"
+      }
+    },
+    {
+      "id": "study-psa-119-9-11-word-4",
+      "verseId": "PSA.119.11",
+      "start": 0,
+      "end": 8,
+      "surface": "Aklımdan",
+      "lemma": "akıl",
+      "meaning": {
+        "en": "from my mind",
+        "ko": "내 마음에서"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "Akl",
+          "meaning": {
+            "en": "mind / understanding",
+            "ko": "마음·이해력"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ım",
+          "meaning": {
+            "en": "first-person singular possessive",
+            "ko": "1인칭 단수 소유"
+          },
+          "function": "P1"
+        },
+        {
+          "form": "dan",
+          "meaning": {
+            "en": "ablative: from / away from",
+            "ko": "탈격: ~에서·~로부터"
+          },
+          "function": "ABL"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "akıl → akl- before a vowel",
+          "ko": "모음 앞에서 akıl이 akl-로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "possessive": "1sg",
+        "case": "ablative"
+      },
+      "role": {
+        "en": "Possessed ablative",
+        "ko": "소유 탈격"
+      },
+      "contextualExplanation": {
+        "en": "Akıl loses its second vowel before possession.",
+        "ko": "akıl은 소유 모음 앞에서 두 번째 모음이 탈락합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "mind / understanding",
+        "ko": "마음·이해력"
+      }
+    },
+    {
+      "id": "study-psa-119-9-11-word-5",
+      "verseId": "PSA.119.11",
+      "start": 9,
+      "end": 17,
+      "surface": "çıkarmam",
+      "lemma": "çıkarmak",
+      "meaning": {
+        "en": "I do not remove",
+        "ko": "나는 제거하지 않는다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "çıkar",
+          "meaning": {
+            "en": "take out / remove",
+            "ko": "꺼내다·제거하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ma",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "m",
+          "meaning": {
+            "en": "first-person singular",
+            "ko": "1인칭 단수"
+          },
+          "function": "PERSON1"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "person": "1sg",
+        "tenseAspect": "negative aorist"
+      },
+      "role": {
+        "en": "Negative first-person aorist",
+        "ko": "부정 1인칭 일반 현재"
+      },
+      "contextualExplanation": {
+        "en": "First-person negative aorist lacks the z of third-person çıkarmaz.",
+        "ko": "1인칭 부정 일반 현재에는 3인칭 çıkarmaz의 z가 없습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "take out / remove",
+        "ko": "꺼내다·제거하다"
+      }
+    },
+    {
+      "id": "study-psa-119-9-11-word-6",
+      "verseId": "PSA.119.11",
+      "start": 43,
+      "end": 52,
+      "surface": "işlememek",
+      "lemma": "işlemek",
+      "meaning": {
+        "en": "not to commit",
+        "ko": "짓지 않기"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "işle",
+          "meaning": {
+            "en": "do / commit / work",
+            "ko": "행하다·일하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "me",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "mek",
+          "meaning": {
+            "en": "infinitive",
+            "ko": "부정사"
+          },
+          "function": "INF"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "nonfinite": "infinitive"
+      },
+      "role": {
+        "en": "Negative purpose infinitive",
+        "ko": "부정 목적 부정사"
+      },
+      "contextualExplanation": {
+        "en": "The first me is negation; mek is infinitive before için.",
+        "ko": "앞 me는 부정이고 mek는 için 앞의 부정사입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "do / commit / work",
+        "ko": "행하다·일하다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-psa-119-9-11-word-1-vocab",
+      "analysisId": "study-psa-119-9-11-word-1",
+      "lemma": "yol",
+      "classification": "general",
+      "definitions": {
+        "en": "road / way",
+        "ko": "길"
+      },
+      "usageNotes": {
+        "en": "The possessor is the young person; the last u is accusative.",
+        "ko": "소유자는 젊은 사람이고 마지막 u는 대격입니다."
+      }
+    },
+    {
+      "id": "study-psa-119-9-11-word-2-vocab",
+      "analysisId": "study-psa-119-9-11-word-2",
+      "lemma": "söz",
+      "classification": "biblical",
+      "definitions": {
+        "en": "word / statement / promise",
+        "ko": "말·진술·약속"
+      },
+      "usageNotes": {
+        "en": "Senin makes the singular divine addressee explicit. The n belongs to possession here, not a third-person buffer.",
+        "ko": "Senin이 단수 신적 청자를 밝힙니다. 여기서 n은 소유 어미 안에 있으며 3인칭 완충 자음이 아닙니다."
+      }
+    },
+    {
+      "id": "study-psa-119-9-11-word-3-vocab",
+      "analysisId": "study-psa-119-9-11-word-3",
+      "lemma": "tutmak",
+      "classification": "general",
+      "definitions": {
+        "en": "hold / keep",
+        "ko": "잡다·유지하다"
+      },
+      "usageNotes": {
+        "en": "The same verb appears in temiz tutar, but sözünü tutmak means keep a word/observe it.",
+        "ko": "같은 동사가 temiz tutar에도 있지만 sözünü tutmak은 말을 지키다·준수하다입니다."
+      }
+    },
+    {
+      "id": "study-psa-119-9-11-word-4-vocab",
+      "analysisId": "study-psa-119-9-11-word-4",
+      "lemma": "akıl",
+      "classification": "general",
+      "definitions": {
+        "en": "mind / understanding",
+        "ko": "마음·이해력"
+      },
+      "usageNotes": {
+        "en": "Akıl loses its second vowel before possession.",
+        "ko": "akıl은 소유 모음 앞에서 두 번째 모음이 탈락합니다."
+      }
+    },
+    {
+      "id": "study-psa-119-9-11-word-5-vocab",
+      "analysisId": "study-psa-119-9-11-word-5",
+      "lemma": "çıkarmak",
+      "classification": "general",
+      "definitions": {
+        "en": "take out / remove",
+        "ko": "꺼내다·제거하다"
+      },
+      "usageNotes": {
+        "en": "First-person negative aorist lacks the z of third-person çıkarmaz.",
+        "ko": "1인칭 부정 일반 현재에는 3인칭 çıkarmaz의 z가 없습니다."
+      }
+    },
+    {
+      "id": "study-psa-119-9-11-word-6-vocab",
+      "analysisId": "study-psa-119-9-11-word-6",
+      "lemma": "işlemek",
+      "classification": "general",
+      "definitions": {
+        "en": "do / commit / work",
+        "ko": "행하다·일하다"
+      },
+      "usageNotes": {
+        "en": "The first me is negation; mek is infinitive before için.",
+        "ko": "앞 me는 부정이고 mek는 için 앞의 부정사입니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-psa-119-9-11-grammar-1",
+      "title": {
+        "en": "Identical surface forms, contextual possession",
+        "ko": "같은 형태의 문맥 소유"
+      },
+      "explanation": {
+        "en": "Yolunu has third-person possession; sözünü has second-person possession because Senin specifies it. Do not force every -n- to be a buffer.",
+        "ko": "yolunu는 3인칭 소유이고 sözünü는 Senin에 따라 2인칭 소유입니다. 모든 -n-을 완충으로 정하지 마세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "PSA.119.9",
+          "start": 0,
+          "end": 59
+        },
+        {
+          "verseId": "PSA.119.11",
+          "start": 0,
+          "end": 58
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-psa-119-9-11-grammar-2",
+      "title": {
+        "en": "Two separate selected verses",
+        "ko": "서로 떨어진 두 절"
+      },
+      "explanation": {
+        "en": "This selection is Psalm 119:9 and 11. Verse 10 is not included. Each selected verse remains complete, with its own shift in speaker and structure.",
+        "ko": "선정은 시편 119:9와 11이며 10절은 포함하지 않습니다. 각 절 전체를 유지하고 화자·구조 전환을 살핍니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "PSA.119.9",
+          "start": 0,
+          "end": 59
+        },
+        {
+          "verseId": "PSA.119.11",
+          "start": 0,
+          "end": 58
+        }
+      ],
+      "relatedLessonIds": [
+        "foundation-vowel-loss"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Use aklımdan çıkarmamak or sözünü tutmak in a practical sentence; explain the selected suffixes without reciting the verse from memory.",
+    "ko": "aklımdan çıkarmamak·sözünü tutmak으로 일상 문장을 쓰고 암송 대신 접사를 설명하세요."
+  },
+  "modelResponse": {
+    "tr": "Verdiğim sözü tutmak istiyorum. Toplantı saatini aklımdan çıkarmıyorum.",
+    "meaning": {
+      "en": "I want to keep the promise I made. I am keeping the meeting time in mind.",
+      "ko": "한 약속을 지키고 싶습니다. 모임 시간을 마음에 두고 있습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "foundation-vowel-loss"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-psa-119-9-11-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Psalms 119:9, 11? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 시편 119:9, 11인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-psa-119-9-11",
+          "passageId": "study-psa-119-9-11",
+          "explanation": {
+            "en": "This is the passage. How does a young person keep their way clean? By keeping your word. I do not let your word leave my mind, so that I may not sin against you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 젊은 사람이 어떻게 자기 길을 깨끗하게 지킬까요? 주님의 말씀을 지킴으로입니다. 주님께 죄를 짓지 않으려고 말씀을 마음에서 떠나게 하지 않습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-8-32",
+          "passageId": "study-rom-8-32",
+          "explanation": {
+            "en": "This is a different passage. God did not even spare his own Son, but handed him over to death for us all. Will he not also graciously give us everything together with him? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 하나님은 자신의 아들도 아끼지 않고 우리 모두를 위해 죽음에 넘겨주셨습니다. 그분과 함께 모든 것도 우리에게 은혜로 주시지 않겠습니까? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-lam-3-22-23",
+          "passageId": "study-lam-3-22-23",
+          "explanation": {
+            "en": "This is a different passage. The LORD’s love never runs out and his mercy never ends. They are renewed every morning; your faithfulness is great. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 주님의 사랑은 다하지 않고 자비는 끝나지 않습니다. 날마다 아침 새로워지며 주님의 신실하심은 큽니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-2-12",
+          "passageId": "study-1co-2-12",
+          "explanation": {
+            "en": "This is a different passage. We received the Spirit who comes from God rather than this world’s spirit, so that we may know what God has graciously given us. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 우리는 이 세상의 영이 아니라 하나님께로부터 온 영을 받았습니다. 하나님이 우리에게 은혜로 주신 것을 알기 위해서입니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-psa-119-9-11"
+      ],
+      "explanations": {
+        "en": "This is the passage. How does a young person keep their way clean? By keeping your word. I do not let your word leave my mind, so that I may not sin against you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 젊은 사람이 어떻게 자기 길을 깨끗하게 지킬까요? 주님의 말씀을 지킴으로입니다. 주님께 죄를 짓지 않으려고 말씀을 마음에서 떠나게 하지 않습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-psa-119-9-11-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-psa-119-9-11",
+          "referenceId": "study-psa-119-9-11",
+          "explanation": {
+            "en": "This is the passage. How does a young person keep their way clean? By keeping your word. I do not let your word leave my mind, so that I may not sin against you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 젊은 사람이 어떻게 자기 길을 깨끗하게 지킬까요? 주님의 말씀을 지킴으로입니다. 주님께 죄를 짓지 않으려고 말씀을 마음에서 떠나게 하지 않습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-8-32",
+          "referenceId": "study-rom-8-32",
+          "explanation": {
+            "en": "This is a different passage. God did not even spare his own Son, but handed him over to death for us all. Will he not also graciously give us everything together with him? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 하나님은 자신의 아들도 아끼지 않고 우리 모두를 위해 죽음에 넘겨주셨습니다. 그분과 함께 모든 것도 우리에게 은혜로 주시지 않겠습니까? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-lam-3-22-23",
+          "referenceId": "study-lam-3-22-23",
+          "explanation": {
+            "en": "This is a different passage. The LORD’s love never runs out and his mercy never ends. They are renewed every morning; your faithfulness is great. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 주님의 사랑은 다하지 않고 자비는 끝나지 않습니다. 날마다 아침 새로워지며 주님의 신실하심은 큽니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-2-12",
+          "referenceId": "study-1co-2-12",
+          "explanation": {
+            "en": "This is a different passage. We received the Spirit who comes from God rather than this world’s spirit, so that we may know what God has graciously given us. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 우리는 이 세상의 영이 아니라 하나님께로부터 온 영을 받았습니다. 하나님이 우리에게 은혜로 주신 것을 알기 위해서입니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-psa-119-9-11"
+      ],
+      "explanations": {
+        "en": "This is the passage. How does a young person keep their way clean? By keeping your word. I do not let your word leave my mind, so that I may not sin against you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 젊은 사람이 어떻게 자기 길을 깨끗하게 지킬까요? 주님의 말씀을 지킴으로입니다. 주님께 죄를 짓지 않으려고 말씀을 마음에서 떠나게 하지 않습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-psa-119-9-11-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “söz” in this passage?",
+        "ko": "이 본문에서 “söz”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-psa-119-9-11-word-2-vocab",
+          "label": {
+            "en": "word / statement / promise",
+            "ko": "말·진술·약속"
+          },
+          "explanation": {
+            "en": "word / statement / promise. Senin makes the singular divine addressee explicit. The n belongs to possession here, not a third-person buffer.",
+            "ko": "말·진술·약속. Senin이 단수 신적 청자를 밝힙니다. 여기서 n은 소유 어미 안에 있으며 3인칭 완충 자음이 아닙니다."
+          }
+        },
+        {
+          "id": "study-psa-119-9-11-word-1-vocab",
+          "label": {
+            "en": "road / way",
+            "ko": "길"
+          },
+          "explanation": {
+            "en": "That definition belongs to yol. söz means word / statement / promise here. Senin makes the singular divine addressee explicit. The n belongs to possession here, not a third-person buffer.",
+            "ko": "그 뜻은 yol입니다. 여기 söz는 말·진술·약속입니다. Senin이 단수 신적 청자를 밝힙니다. 여기서 n은 소유 어미 안에 있으며 3인칭 완충 자음이 아닙니다."
+          }
+        },
+        {
+          "id": "study-psa-119-9-11-word-3-vocab",
+          "label": {
+            "en": "hold / keep",
+            "ko": "잡다·유지하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to tutmak. söz means word / statement / promise here. Senin makes the singular divine addressee explicit. The n belongs to possession here, not a third-person buffer.",
+            "ko": "그 뜻은 tutmak입니다. 여기 söz는 말·진술·약속입니다. Senin이 단수 신적 청자를 밝힙니다. 여기서 n은 소유 어미 안에 있으며 3인칭 완충 자음이 아닙니다."
+          }
+        },
+        {
+          "id": "study-psa-119-9-11-word-4-vocab",
+          "label": {
+            "en": "mind / understanding",
+            "ko": "마음·이해력"
+          },
+          "explanation": {
+            "en": "That definition belongs to akıl. söz means word / statement / promise here. Senin makes the singular divine addressee explicit. The n belongs to possession here, not a third-person buffer.",
+            "ko": "그 뜻은 akıl입니다. 여기 söz는 말·진술·약속입니다. Senin이 단수 신적 청자를 밝힙니다. 여기서 n은 소유 어미 안에 있으며 3인칭 완충 자음이 아닙니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-psa-119-9-11-word-2-vocab"
+      ],
+      "explanations": {
+        "en": "Senin makes the singular divine addressee explicit. The n belongs to possession here, not a third-person buffer.",
+        "ko": "Senin이 단수 신적 청자를 밝힙니다. 여기서 n은 소유 어미 안에 있으며 3인칭 완충 자음이 아닙니다."
+      }
+    },
+    {
+      "id": "study-psa-119-9-11-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “yolunu”, what is the function of “-u” here?",
+        "ko": "“yolunu”에서 “-u”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "Possessed object. The possessor is the young person; the last u is accusative.",
+            "ko": "소유 목적어. 소유자는 젊은 사람이고 마지막 u는 대격입니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed object. The possessor is the young person; the last u is accusative.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 목적어. 소유자는 젊은 사람이고 마지막 u는 대격입니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed object. The possessor is the young person; the last u is accusative.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 목적어. 소유자는 젊은 사람이고 마지막 u는 대격입니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed object. The possessor is the young person; the last u is accusative.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 목적어. 소유자는 젊은 사람이고 마지막 u는 대격입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ACC"
+      ],
+      "explanations": {
+        "en": "The possessor is the young person; the last u is accusative.",
+        "ko": "소유자는 젊은 사람이고 마지막 u는 대격입니다."
+      }
+    }
+  ]
+}

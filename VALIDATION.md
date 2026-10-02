@@ -1,5 +1,40 @@
 # Validation evidence — redesign release
 
+## Direct activity navigation — 2026-10-02
+
+Validation passed after replacing Resources with visible Lessons, Bible study, Words and Practice links and contextual outlines. The lesson-first entry, six courses, content IDs, fonts and palette remain intact. Independent activity resume is optional in storage and older backups still import.
+
+- `npm test`: **20 passing tests**, including activity-resume migration, backup round-trip, conservative merge, and atomic rejection of invalid destinations.
+- `npm run test:browser`: the complete classroom, existing-content, Bible-study and new navigation suites passed. All **77 lessons**, **82 source readings**, **24 workshops**, and **60 Bible-study passages / 240 explained exercise answers per language** remained functional.
+- Navigation regression: visible activity links and current state, contextual drawers, keyboard switching/Escape/focus restoration, separate curriculum/Bible/Words/workshop resume, appropriate Return links, Back, reload and preserved drafts. Both languages passed at **360, 390, 768, 1024 and 1440px**.
+- Existing regression: all lesson sections at 360/390/768/1440px, 200% CSS zoom, exercise/retry/completion, backups/migration, prayer drafts and saved prayers, vocabulary review, speech fallback, unavailable storage, failed fetch/retry and stale-request handling. No unexpected page/console errors or missing assets occurred.
+- `npm run build:css`, `node scripts/coverage.cjs`, and `git diff --check` passed. The existing Browserslist development-data warning remains.
+- Manual in-app-browser review covered Korean Words and the resumed prayer lesson; English/Korean phone and desktop screenshots were also inspected. See [visual evidence](design-qa.md#direct-activity-navigation-review).
+
+Real screen-reader output, other browser engines, microphone accuracy and installed Turkish voice quality remain unverified. This change does not alter the curriculum or claim new linguistic review. No merge or deployment was performed.
+
+## Bible-study addition — 2026-10-02
+
+Validated with Node.js 24.16.0 and headless Chromium/Playwright. Screenshots of English desktop and Korean/English phone pages were visually inspected; the sidebar's reference column was corrected after that inspection. This addition retains the existing classroom, six courses, palette and fonts.
+
+| Check | Result |
+| --- | --- |
+| `npm test` | **19 passing tests**, including four new Bible-data/state tests; exact 60-reference fixture, 74 selected/77 quoted numbered verses, source fingerprints, language completeness, occurrence boundaries, reconstructible chains, valid options/answers and links |
+| `npm run test:browser` | Complete classroom, existing regression and Bible-study suites passed; all **77 lessons, 82 source readings and 24 workshops** remain functional |
+| New passage coverage | All **60 passages in English and Korean**, exact Scripture DOM text, all four visible sections and all **240 explained correct exercise answers per language** |
+| Learning state | Incorrect answer/reason/retry, independent notes, manual Studied/unmark, reload, section DOM preservation, curriculum-resume isolation, source-reading return, old-backup defaults and atomic validation |
+| Additional focused browser run | Verified new backup export/import/reload, selected-rate synthetic-speech stub, unavailable-speech feedback inside the inspector, English `isaiah` reference search and Korean `은혜` search after final polish |
+| Responsive/accessibility | EN/KO at **360, 390, 768 and 1440px**, long Titus teaching, Scripture visible in initial phone viewport, no overflow, 200% CSS zoom and reduced motion; keyboard word opening, Escape/focus return, contents drawer/heading focus, semantic sections and labelled choices |
+| Failure cases | Unavailable speech API/storage, failed passage fetch with Retry and no substitute Scripture, late request cannot overwrite newer curriculum route |
+| Diagnostics | No unexpected console/page errors or missing assets in normal browser flows. Deliberate aborted requests are isolated in failure-test contexts |
+| `npm run build:css` | Pass; existing Browserslist development-data warning remains, with no runtime CDN introduced |
+| `node scripts/coverage.cjs` | Existing counts unchanged: 77 lessons, 499 words, 82 readings, 148 indexed source pages |
+| Static release boundary | GitHub Pages configuration inspected: legacy publication from `main` at `/`; this feature branch is not a deployment branch. No merge/deploy action performed |
+
+The exact selection and rights sources are documented in [BIBLE-STUDY-SOURCES.md](BIBLE-STUDY-SOURCES.md). Actual complete TCL02 units quote 77 numbered verses; the conservative whole-site ledger is 78 locations, not the plan's provisional 75. The source text comparison uses the publisher-provided structured unit and visible paragraph; frozen hashes detect later changes but are not independent linguistic review. External Turkish/Korean specialist review remains pending. No real human audio, live microphone pronunciation assessment, offline guarantee, or newly issued copyright policy was verified/claimed. Synthetic speech availability depends on the learner's browser/system voice.
+
+The preceding release evidence below remains a historical record.
+
 Validated locally on 2026-10-01 with Node.js 24, Python fontTools and headless Chromium/Playwright. Desktop and phone layouts were also inspected in the in-app browser. These checks support the implementation; they do not certify Turkish proficiency, specialist editorial approval or production audio quality.
 
 | Check | Result |

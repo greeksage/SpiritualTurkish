@@ -1,0 +1,949 @@
+{
+  "id": "study-heb-10-24-25",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Hebrews 10:24, 25 through its clause structure and the forms Birbirimizi / getirebileceğimizi.",
+    "ko": "히브리서 10:24, 25의 절 구조와 Birbirimizi / getirebileceğimizi 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Let us consider how we can encourage one another toward love and good deeds. Instead of abandoning meeting together as some are accustomed to doing, let us encourage each other even more as we see that day approaching.",
+    "ko": "서로 사랑과 선행을 북돋울 방법을 생각합시다. 어떤 사람들의 습관처럼 모이기를 그만두지 말고 그날이 가까워짐을 볼수록 서로 더욱 격려합시다."
+  },
+  "clauses": [
+    {
+      "id": "study-heb-10-24-25-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "HEB.10.24",
+          "start": 0,
+          "end": 79
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Let us consider how we can encourage each other toward love and good deeds.",
+        "ko": "서로 사랑과 선행을 북돋울 방법을 생각합시다."
+      },
+      "literalGloss": {
+        "en": "each other-object / love good works for / how / our being able to motivate-object / let us consider",
+        "ko": "서로를 / 사랑·선행을 위해 / 어떻게 / 우리가 북돋울 수 있는지를 / 생각하자"
+      },
+      "explanation": {
+        "en": "The long -eceğimiz phrase is the object of düşünelim and contains a possibility form. Gayrete getirmek means motivate or spur on; nasıl introduces the embedded question.",
+        "ko": "긴 -eceğimiz 구가 düşünelim의 목적어이고 가능형을 포함합니다. gayrete getirmek은 의욕을 북돋우다이며 nasıl은 내포 의문을 소개합니다."
+      }
+    },
+    {
+      "id": "study-heb-10-24-25-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "HEB.10.25",
+          "start": 0,
+          "end": 61
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Let us not give up coming together, as some habitually do.",
+        "ko": "어떤 사람들이 습관적으로 하듯 함께 모이기를 포기하지 맙시다."
+      },
+      "literalGloss": {
+        "en": "some-people’s being accustomed as / coming-together-from / let us not abandon",
+        "ko": "어떤 사람들의 익숙함처럼 / 모이기에서 / 포기하지 말자"
+      },
+      "explanation": {
+        "en": "Vazgeçmek takes ablative: gelmekten. Bazılarının is the genitive subject of alıştığı; the warning does not label every absence as the same situation.",
+        "ko": "vazgeçmek은 탈격 gelmekten을 취합니다. Bazılarının은 alıştığı의 속격 주어입니다. 모든 결석을 같은 상황으로 판단하는 문장으로 확대하지 마세요."
+      }
+    },
+    {
+      "id": "study-heb-10-24-25-clause-3",
+      "sourceSpans": [
+        {
+          "verseId": "HEB.10.25",
+          "start": 62,
+          "end": 132
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Encourage each other more as we see that day drawing near.",
+        "ko": "그날이 가까워짐을 볼수록 서로 더욱 격려합시다."
+      },
+      "literalGloss": {
+        "en": "that day’s approaching-object / as we see / each other-object / still more / let us encourage",
+        "ko": "그날의 가까워짐을 / 볼수록 / 서로를 / 더욱 / 격려하자"
+      },
+      "explanation": {
+        "en": "Yaklaştığını is the object of seeing; günün supplies its subject. Gördükçe expresses repeated/progressive occasions, not a completed past event on its own.",
+        "ko": "yaklaştığını는 보는 대상이고 günün이 그 주어입니다. gördükçe는 반복·점진적 계기이며 혼자서 완료된 과거 사건을 뜻하지 않습니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-heb-10-24-25-word-1",
+      "verseId": "HEB.10.24",
+      "start": 0,
+      "end": 11,
+      "surface": "Birbirimizi",
+      "lemma": "birbiri",
+      "meaning": {
+        "en": "one another (object)",
+        "ko": "서로를"
+      },
+      "partOfSpeech": {
+        "en": "Pronoun / pronominal expression",
+        "ko": "대명사·대명 표현"
+      },
+      "segments": [
+        {
+          "form": "Birbiri",
+          "meaning": {
+            "en": "one another",
+            "ko": "서로"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "miz",
+          "meaning": {
+            "en": "first-person plural possessive",
+            "ko": "1인칭 복수 소유"
+          },
+          "function": "P1P"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "1pl",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Reciprocal object",
+        "ko": "상호 목적어"
+      },
+      "contextualExplanation": {
+        "en": "The community is included by -miz; accusative makes it the object of encouragement.",
+        "ko": "-miz가 우리 공동체를 포함하고 대격이 격려의 대상으로 만듭니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "one another",
+        "ko": "서로"
+      }
+    },
+    {
+      "id": "study-heb-10-24-25-word-2",
+      "verseId": "HEB.10.24",
+      "start": 50,
+      "end": 68,
+      "surface": "getirebileceğimizi",
+      "lemma": "getirmek",
+      "meaning": {
+        "en": "how we can bring / motivate",
+        "ko": "우리가 북돋울 수 있음을"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "getir",
+          "meaning": {
+            "en": "bring",
+            "ko": "가져오다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ebil",
+          "meaning": {
+            "en": "ability / possibility",
+            "ko": "능력·가능성"
+          },
+          "function": "CAN"
+        },
+        {
+          "form": "eceğ",
+          "meaning": {
+            "en": "future participle / nominalizer",
+            "ko": "미래 관계형·명사화"
+          },
+          "function": "FUTPART"
+        },
+        {
+          "form": "imiz",
+          "meaning": {
+            "en": "first-person plural possessive",
+            "ko": "1인칭 복수 소유"
+          },
+          "function": "P1P"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-ecek → -eceğ before a possessive vowel",
+          "ko": "소유 모음 앞에서 -ecek가 -eceğ로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "modality": "ability",
+        "nonfinite": "future nominal/participial",
+        "possessive": "1pl",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Nominalized possibility as object",
+        "ko": "가능성 명사절 목적어"
+      },
+      "contextualExplanation": {
+        "en": "-ebil marks ability, -ecek nominalizes the prospective action, -imiz supplies “we,” and final -i marks the whole clause as object.",
+        "ko": "-ebil은 가능, -ecek은 예상 행위의 명사화, -imiz는 우리라는 주어, 마지막 -i는 전체 절의 목적어 표시입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "bring",
+        "ko": "가져오다"
+      }
+    },
+    {
+      "id": "study-heb-10-24-25-word-3",
+      "verseId": "HEB.10.25",
+      "start": 37,
+      "end": 46,
+      "surface": "gelmekten",
+      "lemma": "gelmek",
+      "meaning": {
+        "en": "from coming / meeting",
+        "ko": "모이기에서"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "gel",
+          "meaning": {
+            "en": "come",
+            "ko": "오다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "mek",
+          "meaning": {
+            "en": "infinitive",
+            "ko": "부정사"
+          },
+          "function": "INF"
+        },
+        {
+          "form": "ten",
+          "meaning": {
+            "en": "ablative: from / away from",
+            "ko": "탈격: ~에서·~로부터"
+          },
+          "function": "ABL"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "infinitive",
+        "case": "ablative"
+      },
+      "role": {
+        "en": "Ablative infinitive complement",
+        "ko": "탈격 부정사 보어"
+      },
+      "contextualExplanation": {
+        "en": "The ablative belongs to the requirement of vazgeçmek, “give up,” not motion away from a place.",
+        "ko": "탈격은 장소에서 떠남이 아니라 포기하다는 vazgeçmek의 문법 요구입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "come",
+        "ko": "오다"
+      }
+    },
+    {
+      "id": "study-heb-10-24-25-word-4",
+      "verseId": "HEB.10.25",
+      "start": 47,
+      "end": 60,
+      "surface": "vazgeçmeyelim",
+      "lemma": "vazgeçmek",
+      "meaning": {
+        "en": "let us not give up",
+        "ko": "포기하지 맙시다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "vazgeç",
+          "meaning": {
+            "en": "give up / abandon",
+            "ko": "포기하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "me",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "elim",
+          "meaning": {
+            "en": "hortative / first-person plural suggestion",
+            "ko": "청유·1인칭 복수 제안"
+          },
+          "function": "HORT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "mood": "hortative"
+      },
+      "role": {
+        "en": "Negative first-person plural proposal",
+        "ko": "부정 1인칭 복수 청유"
+      },
+      "contextualExplanation": {
+        "en": "-elim includes the speaker with the readers.",
+        "ko": "-elim은 화자와 독자를 함께 포함합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "give up / abandon",
+        "ko": "포기하다"
+      }
+    },
+    {
+      "id": "study-heb-10-24-25-word-5",
+      "verseId": "HEB.10.25",
+      "start": 70,
+      "end": 82,
+      "surface": "yaklaştığını",
+      "lemma": "yaklaşmak",
+      "meaning": {
+        "en": "that it is approaching (object)",
+        "ko": "가까워짐을"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yaklaş",
+          "meaning": {
+            "en": "approach",
+            "ko": "다가가다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "tığ",
+          "meaning": {
+            "en": "nominalizing/participial -DIK",
+            "ko": "명사화·관계형 -DIK"
+          },
+          "function": "DIK"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-tık → -tığ before the vowel",
+          "ko": "모음 앞에서 -tık가 -tığ로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "-DIK nominal/participial",
+        "possessive": "3",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Nominalized clause as object of seeing",
+        "ko": "보는 동사의 명사절 목적어"
+      },
+      "contextualExplanation": {
+        "en": "The day is the third-person subject; the final accusative marks the clause, not the day directly.",
+        "ko": "그날이 3인칭 주어이고 마지막 대격은 그날 자체가 아니라 명사절을 표시합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "approach",
+        "ko": "다가가다"
+      }
+    },
+    {
+      "id": "study-heb-10-24-25-word-6",
+      "verseId": "HEB.10.25",
+      "start": 83,
+      "end": 91,
+      "surface": "gördükçe",
+      "lemma": "görmek",
+      "meaning": {
+        "en": "as / each time we see",
+        "ko": "볼수록·볼 때마다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "gör",
+          "meaning": {
+            "en": "see",
+            "ko": "보다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "dükçe",
+          "meaning": {
+            "en": "as / each time converb",
+            "ko": "~할수록·~할 때마다 연결형"
+          },
+          "function": "DIKCE"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {},
+      "role": {
+        "en": "Temporal/proportional converb",
+        "ko": "시간·비례 연결형"
+      },
+      "contextualExplanation": {
+        "en": "Although it contains d, this -DIKçe form is not a finite past-tense verb.",
+        "ko": "d가 들어 있어도 -DIKçe는 유한 과거 동사가 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "see",
+        "ko": "보다"
+      }
+    },
+    {
+      "id": "study-heb-10-24-25-word-7",
+      "verseId": "HEB.10.25",
+      "start": 116,
+      "end": 131,
+      "surface": "yüreklendirelim",
+      "lemma": "yüreklendirmek",
+      "meaning": {
+        "en": "let us encourage",
+        "ko": "격려합시다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yüreklendir",
+          "meaning": {
+            "en": "encourage",
+            "ko": "용기를 주다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "elim",
+          "meaning": {
+            "en": "hortative / first-person plural suggestion",
+            "ko": "청유·1인칭 복수 제안"
+          },
+          "function": "HORT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "mood": "hortative"
+      },
+      "role": {
+        "en": "Community exhortation",
+        "ko": "공동체 권면"
+      },
+      "contextualExplanation": {
+        "en": "The lexical verb means give courage; the -elim form includes the speaker.",
+        "ko": "용기를 주다는 어휘 동사이고 -elim은 화자를 포함합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "encourage",
+        "ko": "용기를 주다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-heb-10-24-25-word-1-vocab",
+      "analysisId": "study-heb-10-24-25-word-1",
+      "lemma": "birbiri",
+      "classification": "general",
+      "definitions": {
+        "en": "one another",
+        "ko": "서로"
+      },
+      "usageNotes": {
+        "en": "The community is included by -miz; accusative makes it the object of encouragement.",
+        "ko": "-miz가 우리 공동체를 포함하고 대격이 격려의 대상으로 만듭니다."
+      }
+    },
+    {
+      "id": "study-heb-10-24-25-word-2-vocab",
+      "analysisId": "study-heb-10-24-25-word-2",
+      "lemma": "getirmek",
+      "classification": "general",
+      "definitions": {
+        "en": "bring",
+        "ko": "가져오다"
+      },
+      "usageNotes": {
+        "en": "-ebil marks ability, -ecek nominalizes the prospective action, -imiz supplies “we,” and final -i marks the whole clause as object.",
+        "ko": "-ebil은 가능, -ecek은 예상 행위의 명사화, -imiz는 우리라는 주어, 마지막 -i는 전체 절의 목적어 표시입니다."
+      }
+    },
+    {
+      "id": "study-heb-10-24-25-word-3-vocab",
+      "analysisId": "study-heb-10-24-25-word-3",
+      "lemma": "gelmek",
+      "classification": "general",
+      "definitions": {
+        "en": "come",
+        "ko": "오다"
+      },
+      "usageNotes": {
+        "en": "The ablative belongs to the requirement of vazgeçmek, “give up,” not motion away from a place.",
+        "ko": "탈격은 장소에서 떠남이 아니라 포기하다는 vazgeçmek의 문법 요구입니다."
+      }
+    },
+    {
+      "id": "study-heb-10-24-25-word-4-vocab",
+      "analysisId": "study-heb-10-24-25-word-4",
+      "lemma": "vazgeçmek",
+      "classification": "general",
+      "definitions": {
+        "en": "give up / abandon",
+        "ko": "포기하다"
+      },
+      "usageNotes": {
+        "en": "-elim includes the speaker with the readers.",
+        "ko": "-elim은 화자와 독자를 함께 포함합니다."
+      }
+    },
+    {
+      "id": "study-heb-10-24-25-word-5-vocab",
+      "analysisId": "study-heb-10-24-25-word-5",
+      "lemma": "yaklaşmak",
+      "classification": "general",
+      "definitions": {
+        "en": "approach",
+        "ko": "다가가다"
+      },
+      "usageNotes": {
+        "en": "The day is the third-person subject; the final accusative marks the clause, not the day directly.",
+        "ko": "그날이 3인칭 주어이고 마지막 대격은 그날 자체가 아니라 명사절을 표시합니다."
+      }
+    },
+    {
+      "id": "study-heb-10-24-25-word-6-vocab",
+      "analysisId": "study-heb-10-24-25-word-6",
+      "lemma": "görmek",
+      "classification": "general",
+      "definitions": {
+        "en": "see",
+        "ko": "보다"
+      },
+      "usageNotes": {
+        "en": "Although it contains d, this -DIKçe form is not a finite past-tense verb.",
+        "ko": "d가 들어 있어도 -DIKçe는 유한 과거 동사가 아닙니다."
+      }
+    },
+    {
+      "id": "study-heb-10-24-25-word-7-vocab",
+      "analysisId": "study-heb-10-24-25-word-7",
+      "lemma": "yüreklendirmek",
+      "classification": "general",
+      "definitions": {
+        "en": "encourage",
+        "ko": "용기를 주다"
+      },
+      "usageNotes": {
+        "en": "The lexical verb means give courage; the -elim form includes the speaker.",
+        "ko": "용기를 주다는 어휘 동사이고 -elim은 화자를 포함합니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-heb-10-24-25-grammar-1",
+      "title": {
+        "en": "Embedded questions and clause objects",
+        "ko": "내포 의문·명사절 목적어"
+      },
+      "explanation": {
+        "en": "Nasıl getirebileceğimizi is “how we can encourage,” not a direct question requiring a question particle. Yaklaştığını is another nominalized object with a different subject.",
+        "ko": "nasıl getirebileceğimizi는 어떻게 북돋울 수 있는지라는 내포절입니다. 직접 질문용 의문 조사가 필요하지 않습니다. yaklaştığını는 주어가 다른 또 하나의 명사절 목적어입니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "HEB.10.24",
+          "start": 0,
+          "end": 79
+        },
+        {
+          "verseId": "HEB.10.25",
+          "start": 0,
+          "end": 61
+        },
+        {
+          "verseId": "HEB.10.25",
+          "start": 62,
+          "end": 132
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-heb-10-24-25-grammar-2",
+      "title": {
+        "en": "Inclusive exhortations",
+        "ko": "함께 하는 권면"
+      },
+      "explanation": {
+        "en": "Düşünelim, vazgeçmeyelim and yüreklendirelim all include the speaker. Translate them consistently as “let us,” not orders excluding the speaker.",
+        "ko": "düşünelim·vazgeçmeyelim·yüreklendirelim은 모두 화자를 포함합니다. 화자를 제외한 명령으로 바꾸지 말고 함께 하자는 뜻을 유지하세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "HEB.10.24",
+          "start": 0,
+          "end": 79
+        },
+        {
+          "verseId": "HEB.10.25",
+          "start": 0,
+          "end": 61
+        },
+        {
+          "verseId": "HEB.10.25",
+          "start": 62,
+          "end": 132
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-10"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Suggest two realistic ways to encourage a friend, using -elim and a form ending in -mekten.",
+    "ko": "-elim과 -mekten 형태로 친구를 격려할 실제 방법 두 가지를 제안하세요."
+  },
+  "modelResponse": {
+    "tr": "Birlikte konuşalım. Birbirimize yardım etmekten vazgeçmeyelim.",
+    "meaning": {
+      "en": "Let us talk together. Let us not give up helping each other.",
+      "ko": "함께 이야기합시다. 서로 돕기를 포기하지 맙시다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "ministry-10"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-heb-10-24-25-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Hebrews 10:24, 25? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 히브리서 10:24, 25인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-heb-10-24-25",
+          "passageId": "study-heb-10-24-25",
+          "explanation": {
+            "en": "This is the passage. Let us consider how we can encourage one another toward love and good deeds. Instead of abandoning meeting together as some are accustomed to doing, let us encourage each other even more as we see that day approaching. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 서로 사랑과 선행을 북돋울 방법을 생각합시다. 어떤 사람들의 습관처럼 모이기를 그만두지 말고 그날이 가까워짐을 볼수록 서로 더욱 격려합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-gal-2-20",
+          "passageId": "study-gal-2-20",
+          "explanation": {
+            "en": "This is a different passage. I have been crucified with Christ. It is no longer I who live; Christ lives in me. I now live this bodily life by faith in the Son of God, who loves me and gave himself for me. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 나는 그리스도와 함께 십자가에 못 박혔습니다. 이제 내가 사는 것이 아니라 그리스도께서 내 안에 사십니다. 지금 육체 안에서 이어가는 삶은 나를 사랑하고 나를 위해 자신을 내어주신 하나님의 아들을 믿는 믿음으로 삽니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-php-4-6-7",
+          "passageId": "study-php-4-6-7",
+          "explanation": {
+            "en": "This is a different passage. Do not be anxious about anything. In every matter, make your requests known to God through prayer and appeal, with thanksgiving. Then God’s peace, exceeding every kind of understanding, will protect your hearts and thoughts through Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 아무것도 염려하지 마세요. 모든 일에서 기도하고 간구하며 감사로 하나님께 바라는 것을 아뢰세요. 그러면 모든 이해를 넘어서는 하나님의 평강이 그리스도 예수를 통해 여러분의 마음과 생각을 지킬 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-14-21",
+          "passageId": "study-jhn-14-21",
+          "explanation": {
+            "en": "This is a different passage. The person who knows and carries out my commands is the one who loves me. My Father will love that person; I too will love them and reveal myself to them. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 내 명령을 알고 실행하는 사람이 나를 사랑하는 사람입니다. 아버지도 그 사람을 사랑하실 것입니다. 나도 그를 사랑하고 그에게 나 자신을 나타내겠습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-heb-10-24-25"
+      ],
+      "explanations": {
+        "en": "This is the passage. Let us consider how we can encourage one another toward love and good deeds. Instead of abandoning meeting together as some are accustomed to doing, let us encourage each other even more as we see that day approaching. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 서로 사랑과 선행을 북돋울 방법을 생각합시다. 어떤 사람들의 습관처럼 모이기를 그만두지 말고 그날이 가까워짐을 볼수록 서로 더욱 격려합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-heb-10-24-25-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-heb-10-24-25",
+          "referenceId": "study-heb-10-24-25",
+          "explanation": {
+            "en": "This is the passage. Let us consider how we can encourage one another toward love and good deeds. Instead of abandoning meeting together as some are accustomed to doing, let us encourage each other even more as we see that day approaching. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 서로 사랑과 선행을 북돋울 방법을 생각합시다. 어떤 사람들의 습관처럼 모이기를 그만두지 말고 그날이 가까워짐을 볼수록 서로 더욱 격려합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-gal-2-20",
+          "referenceId": "study-gal-2-20",
+          "explanation": {
+            "en": "This is a different passage. I have been crucified with Christ. It is no longer I who live; Christ lives in me. I now live this bodily life by faith in the Son of God, who loves me and gave himself for me. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 나는 그리스도와 함께 십자가에 못 박혔습니다. 이제 내가 사는 것이 아니라 그리스도께서 내 안에 사십니다. 지금 육체 안에서 이어가는 삶은 나를 사랑하고 나를 위해 자신을 내어주신 하나님의 아들을 믿는 믿음으로 삽니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-php-4-6-7",
+          "referenceId": "study-php-4-6-7",
+          "explanation": {
+            "en": "This is a different passage. Do not be anxious about anything. In every matter, make your requests known to God through prayer and appeal, with thanksgiving. Then God’s peace, exceeding every kind of understanding, will protect your hearts and thoughts through Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 아무것도 염려하지 마세요. 모든 일에서 기도하고 간구하며 감사로 하나님께 바라는 것을 아뢰세요. 그러면 모든 이해를 넘어서는 하나님의 평강이 그리스도 예수를 통해 여러분의 마음과 생각을 지킬 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-14-21",
+          "referenceId": "study-jhn-14-21",
+          "explanation": {
+            "en": "This is a different passage. The person who knows and carries out my commands is the one who loves me. My Father will love that person; I too will love them and reveal myself to them. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 내 명령을 알고 실행하는 사람이 나를 사랑하는 사람입니다. 아버지도 그 사람을 사랑하실 것입니다. 나도 그를 사랑하고 그에게 나 자신을 나타내겠습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-heb-10-24-25"
+      ],
+      "explanations": {
+        "en": "This is the passage. Let us consider how we can encourage one another toward love and good deeds. Instead of abandoning meeting together as some are accustomed to doing, let us encourage each other even more as we see that day approaching. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 서로 사랑과 선행을 북돋울 방법을 생각합시다. 어떤 사람들의 습관처럼 모이기를 그만두지 말고 그날이 가까워짐을 볼수록 서로 더욱 격려합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-heb-10-24-25-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “birbiri” in this passage?",
+        "ko": "이 본문에서 “birbiri”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-heb-10-24-25-word-1-vocab",
+          "label": {
+            "en": "one another",
+            "ko": "서로"
+          },
+          "explanation": {
+            "en": "one another. The community is included by -miz; accusative makes it the object of encouragement.",
+            "ko": "서로. -miz가 우리 공동체를 포함하고 대격이 격려의 대상으로 만듭니다."
+          }
+        },
+        {
+          "id": "study-heb-10-24-25-word-2-vocab",
+          "label": {
+            "en": "bring",
+            "ko": "가져오다"
+          },
+          "explanation": {
+            "en": "That definition belongs to getirmek. birbiri means one another here. The community is included by -miz; accusative makes it the object of encouragement.",
+            "ko": "그 뜻은 getirmek입니다. 여기 birbiri는 서로입니다. -miz가 우리 공동체를 포함하고 대격이 격려의 대상으로 만듭니다."
+          }
+        },
+        {
+          "id": "study-heb-10-24-25-word-3-vocab",
+          "label": {
+            "en": "come",
+            "ko": "오다"
+          },
+          "explanation": {
+            "en": "That definition belongs to gelmek. birbiri means one another here. The community is included by -miz; accusative makes it the object of encouragement.",
+            "ko": "그 뜻은 gelmek입니다. 여기 birbiri는 서로입니다. -miz가 우리 공동체를 포함하고 대격이 격려의 대상으로 만듭니다."
+          }
+        },
+        {
+          "id": "study-heb-10-24-25-word-4-vocab",
+          "label": {
+            "en": "give up / abandon",
+            "ko": "포기하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to vazgeçmek. birbiri means one another here. The community is included by -miz; accusative makes it the object of encouragement.",
+            "ko": "그 뜻은 vazgeçmek입니다. 여기 birbiri는 서로입니다. -miz가 우리 공동체를 포함하고 대격이 격려의 대상으로 만듭니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-heb-10-24-25-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "The community is included by -miz; accusative makes it the object of encouragement.",
+        "ko": "-miz가 우리 공동체를 포함하고 대격이 격려의 대상으로 만듭니다."
+      }
+    },
+    {
+      "id": "study-heb-10-24-25-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “Birbirimizi”, what is the function of “-i” here?",
+        "ko": "“Birbirimizi”에서 “-i”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "Reciprocal object. The community is included by -miz; accusative makes it the object of encouragement.",
+            "ko": "상호 목적어. -miz가 우리 공동체를 포함하고 대격이 격려의 대상으로 만듭니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Reciprocal object. The community is included by -miz; accusative makes it the object of encouragement.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 상호 목적어. -miz가 우리 공동체를 포함하고 대격이 격려의 대상으로 만듭니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Reciprocal object. The community is included by -miz; accusative makes it the object of encouragement.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 상호 목적어. -miz가 우리 공동체를 포함하고 대격이 격려의 대상으로 만듭니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Reciprocal object. The community is included by -miz; accusative makes it the object of encouragement.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 상호 목적어. -miz가 우리 공동체를 포함하고 대격이 격려의 대상으로 만듭니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ACC"
+      ],
+      "explanations": {
+        "en": "The community is included by -miz; accusative makes it the object of encouragement.",
+        "ko": "-miz가 우리 공동체를 포함하고 대격이 격려의 대상으로 만듭니다."
+      }
+    }
+  ]
+}

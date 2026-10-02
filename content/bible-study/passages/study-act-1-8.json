@@ -1,0 +1,708 @@
+{
+  "id": "study-act-1-8",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Acts 1:8 through its clause structure and the forms üzerinize / inince.",
+    "ko": "사도행전 1:8의 절 구조와 üzerinize / inince 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "When the Holy Spirit comes upon you, you will receive power and be my witnesses in Jerusalem, throughout Judea and Samaria, and to the ends of the earth.",
+    "ko": "성령이 여러분에게 임하시면 능력을 받고 예루살렘·유대·사마리아와 온 땅에서 나의 증인이 될 것입니다."
+  },
+  "clauses": [
+    {
+      "id": "study-act-1-8-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "ACT.1.8",
+          "start": 0,
+          "end": 151
+        }
+      ],
+      "naturalMeaning": {
+        "en": "The temporal clause precedes two future predicates and a geographical list.",
+        "ko": "시간절이 두 미래 술어와 지역 목록 앞에 옵니다."
+      },
+      "literalGloss": {
+        "en": "Holy Spirit onto-you descending-when / power receive-will-you / locations / my witnesses be-will-you",
+        "ko": "성령이 여러분 위에 내려올 때 / 능력을 받을 것이다 / 여러 지역에서 / 나의 증인이 될 것이다"
+      },
+      "explanation": {
+        "en": "İnince supplies when/upon, not an if-test learners must pass. Alacaksınız and olacaksınız share plural you. The locations are locative; the compound dünyanın dört bucağında uses a genitive possessor and possessed locative head.",
+        "ko": "inince는 ~할 때·~하자로 학습자가 통과해야 할 조건 시험이 아닙니다. alacaksınız·olacaksınız의 공통 주어는 복수 여러분입니다. 장소는 처소격이고 dünyanın dört bucağında는 속격 소유자·소유 처소격 중심어입니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-act-1-8-word-1",
+      "verseId": "ACT.1.8",
+      "start": 16,
+      "end": 25,
+      "surface": "üzerinize",
+      "lemma": "üzeri",
+      "meaning": {
+        "en": "upon you (plural)",
+        "ko": "여러분 위에"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "üzer",
+          "meaning": {
+            "en": "upper side / on top of",
+            "ko": "위"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "iniz",
+          "meaning": {
+            "en": "second-person plural possessive",
+            "ko": "2인칭 복수 소유"
+          },
+          "function": "P2P"
+        },
+        {
+          "form": "e",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "2pl/polite",
+        "case": "dative"
+      },
+      "role": {
+        "en": "Possessed positional expression",
+        "ko": "소유 위치 표현"
+      },
+      "contextualExplanation": {
+        "en": "The addressee is expressed through -iniz; -e gives direction toward/upon.",
+        "ko": "-iniz가 청자를 표시하고 -e가 ~위로의 방향을 줍니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "upper side / on top of",
+        "ko": "위"
+      }
+    },
+    {
+      "id": "study-act-1-8-word-2",
+      "verseId": "ACT.1.8",
+      "start": 26,
+      "end": 32,
+      "surface": "inince",
+      "lemma": "inmek",
+      "meaning": {
+        "en": "when it comes down",
+        "ko": "내려올 때"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "in",
+          "meaning": {
+            "en": "descend / come down",
+            "ko": "내려오다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ince",
+          "meaning": {
+            "en": "when / upon converb",
+            "ko": "~할 때·~하자 연결형"
+          },
+          "function": "INCE"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {},
+      "role": {
+        "en": "Temporal converb",
+        "ko": "시간 연결형"
+      },
+      "contextualExplanation": {
+        "en": "Kutsal Ruh is this clause’s subject, not the later plural listeners.",
+        "ko": "이 절 주어는 뒤 복수 청자가 아니라 Kutsal Ruh입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "descend / come down",
+        "ko": "내려오다"
+      }
+    },
+    {
+      "id": "study-act-1-8-word-3",
+      "verseId": "ACT.1.8",
+      "start": 37,
+      "end": 48,
+      "surface": "alacaksınız",
+      "lemma": "almak",
+      "meaning": {
+        "en": "you will receive",
+        "ko": "여러분이 받을 것이다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "al",
+          "meaning": {
+            "en": "take / receive",
+            "ko": "받다·취하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "acak",
+          "meaning": {
+            "en": "future",
+            "ko": "미래"
+          },
+          "function": "FUT"
+        },
+        {
+          "form": "sınız",
+          "meaning": {
+            "en": "second-person plural / polite address",
+            "ko": "2인칭 복수·공손한 청자"
+          },
+          "function": "PERSON2P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "future",
+        "person": "2pl/polite"
+      },
+      "role": {
+        "en": "Plural future",
+        "ko": "복수 미래"
+      },
+      "contextualExplanation": {
+        "en": "Güç is an unmarked object; the plural suffix refers to the original listeners.",
+        "ko": "güç는 무표지 목적어이고 복수 어미는 원 청자를 가리킵니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "take / receive",
+        "ko": "받다·취하다"
+      }
+    },
+    {
+      "id": "study-act-1-8-word-4",
+      "verseId": "ACT.1.8",
+      "start": 111,
+      "end": 120,
+      "surface": "bucağında",
+      "lemma": "bucak",
+      "meaning": {
+        "en": "in its corners / reaches",
+        "ko": "그 구석·지역에"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "bucağ",
+          "meaning": {
+            "en": "corner / district / reach",
+            "ko": "구석·지역"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "da",
+          "meaning": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "function": "LOC"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "bucak → bucağ- before a vowel",
+          "ko": "모음 앞에서 bucak가 bucağ-로 변합니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "locative"
+      },
+      "role": {
+        "en": "Possessed locative in an idiom",
+        "ko": "관용구의 소유 처소격"
+      },
+      "contextualExplanation": {
+        "en": "Dünyanın dört bucağı idiomatically means all reaches of the earth.",
+        "ko": "dünyanın dört bucağı는 관용적으로 온 땅의 곳곳입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "corner / district / reach",
+        "ko": "구석·지역"
+      }
+    },
+    {
+      "id": "study-act-1-8-word-5",
+      "verseId": "ACT.1.8",
+      "start": 127,
+      "end": 137,
+      "surface": "tanıklarım",
+      "lemma": "tanık",
+      "meaning": {
+        "en": "my witnesses",
+        "ko": "나의 증인들"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "tanık",
+          "meaning": {
+            "en": "witness",
+            "ko": "증인"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "lar",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "ım",
+          "meaning": {
+            "en": "first-person singular possessive",
+            "ko": "1인칭 단수 소유"
+          },
+          "function": "P1"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "number": "plural",
+        "possessive": "1sg"
+      },
+      "role": {
+        "en": "Possessed predicate noun",
+        "ko": "소유 술어 명사"
+      },
+      "contextualExplanation": {
+        "en": "Plural witnesses belongs to benim; olacaksınız makes the predicate future.",
+        "ko": "복수 증인의 소유자는 benim이고 olacaksınız가 술어를 미래로 만듭니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "witness",
+        "ko": "증인"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-act-1-8-word-1-vocab",
+      "analysisId": "study-act-1-8-word-1",
+      "lemma": "üzeri",
+      "classification": "general",
+      "definitions": {
+        "en": "upper side / on top of",
+        "ko": "위"
+      },
+      "usageNotes": {
+        "en": "The addressee is expressed through -iniz; -e gives direction toward/upon.",
+        "ko": "-iniz가 청자를 표시하고 -e가 ~위로의 방향을 줍니다."
+      }
+    },
+    {
+      "id": "study-act-1-8-word-2-vocab",
+      "analysisId": "study-act-1-8-word-2",
+      "lemma": "inmek",
+      "classification": "general",
+      "definitions": {
+        "en": "descend / come down",
+        "ko": "내려오다"
+      },
+      "usageNotes": {
+        "en": "Kutsal Ruh is this clause’s subject, not the later plural listeners.",
+        "ko": "이 절 주어는 뒤 복수 청자가 아니라 Kutsal Ruh입니다."
+      }
+    },
+    {
+      "id": "study-act-1-8-word-3-vocab",
+      "analysisId": "study-act-1-8-word-3",
+      "lemma": "almak",
+      "classification": "general",
+      "definitions": {
+        "en": "take / receive",
+        "ko": "받다·취하다"
+      },
+      "usageNotes": {
+        "en": "Güç is an unmarked object; the plural suffix refers to the original listeners.",
+        "ko": "güç는 무표지 목적어이고 복수 어미는 원 청자를 가리킵니다."
+      }
+    },
+    {
+      "id": "study-act-1-8-word-4-vocab",
+      "analysisId": "study-act-1-8-word-4",
+      "lemma": "bucak",
+      "classification": "general",
+      "definitions": {
+        "en": "corner / district / reach",
+        "ko": "구석·지역"
+      },
+      "usageNotes": {
+        "en": "Dünyanın dört bucağı idiomatically means all reaches of the earth.",
+        "ko": "dünyanın dört bucağı는 관용적으로 온 땅의 곳곳입니다."
+      }
+    },
+    {
+      "id": "study-act-1-8-word-5-vocab",
+      "analysisId": "study-act-1-8-word-5",
+      "lemma": "tanık",
+      "classification": "biblical",
+      "definitions": {
+        "en": "witness",
+        "ko": "증인"
+      },
+      "usageNotes": {
+        "en": "Plural witnesses belongs to benim; olacaksınız makes the predicate future.",
+        "ko": "복수 증인의 소유자는 benim이고 olacaksınız가 술어를 미래로 만듭니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-act-1-8-grammar-1",
+      "title": {
+        "en": "Different subjects across clauses",
+        "ko": "절마다 다른 주어"
+      },
+      "explanation": {
+        "en": "Kutsal Ruh inince: the Spirit descends. Siz alacaksınız: you receive. A converb does not always share the matrix subject.",
+        "ko": "Kutsal Ruh inince는 성령이 내려옴이고 siz alacaksınız는 여러분이 받음입니다. 연결형이 항상 상위절 주어를 공유하지는 않습니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ACT.1.8",
+          "start": 0,
+          "end": 151
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-act-1-8-grammar-2",
+      "title": {
+        "en": "Proper places and location",
+        "ko": "고유 지명·장소"
+      },
+      "explanation": {
+        "en": "Yeruşalim’de and Samiriye’de separate suffixes with an apostrophe. Dünyanın … bucağında is an ordinary possessed construction with no apostrophe.",
+        "ko": "Yeruşalim’de·Samiriye’de는 아포스트로피로 접사를 구별합니다. dünyanın … bucağında는 보통 소유 구문으로 아포스트로피가 없습니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ACT.1.8",
+          "start": 0,
+          "end": 151
+        }
+      ],
+      "relatedLessonIds": [
+        "spelling-dates-places"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Describe when you will arrive and where you will meet using -ince, future, and locative.",
+    "ko": "-ince·미래·처소격으로 도착 시점과 만날 장소를 말하세요."
+  },
+  "modelResponse": {
+    "tr": "Ankara’ya gelince sizi arayacağım. Merkezde buluşacağız.",
+    "meaning": {
+      "en": "When I come to Ankara I will call you. We will meet in the center.",
+      "ko": "앙카라에 오면 연락드리겠습니다. 중심가에서 만날 것입니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "spelling-dates-places"
+  ],
+  "relatedReadingIds": [
+    "reading-El--1-8"
+  ],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-act-1-8-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Acts 1:8? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 사도행전 1:8인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-act-1-8",
+          "passageId": "study-act-1-8",
+          "explanation": {
+            "en": "This is the passage. When the Holy Spirit comes upon you, you will receive power and be my witnesses in Jerusalem, throughout Judea and Samaria, and to the ends of the earth. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 성령이 여러분에게 임하시면 능력을 받고 예루살렘·유대·사마리아와 온 땅에서 나의 증인이 될 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-28-19-20",
+          "passageId": "study-mat-28-19-20",
+          "explanation": {
+            "en": "This is a different passage. Go and make disciples of all nations, baptizing them in the name of the Father, the Son, and the Holy Spirit, teaching them to obey everything I commanded. I am with you always, to the end of the world. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 가서 모든 민족을 제자로 삼고 아버지·아들·성령의 이름으로 세례를 주며 내가 명한 모든 것을 따르도록 가르치세요. 나는 세상의 끝까지 언제나 여러분과 함께 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-15-58",
+          "passageId": "study-1co-15-58",
+          "explanation": {
+            "en": "This is a different passage. Stand firm, remain unshaken, and always work earnestly in the Lord’s work, knowing your labor in the Lord is not in vain. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 주 안에서 수고가 헛되지 않음을 알고 굳게 서며 흔들리지 말고 언제나 주의 일에 힘쓰세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-12-2",
+          "passageId": "study-rom-12-2",
+          "explanation": {
+            "en": "This is a different passage. Do not conform to this age’s pattern; instead be transformed through the renewing of your thinking, so you can discern God’s good, pleasing, and perfect will. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 이 시대의 흐름에 맞추지 말고 생각이 새로워짐으로 변화되어 하나님의 선하고 기쁘고 온전한 뜻이 무엇인지 분별하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-act-1-8"
+      ],
+      "explanations": {
+        "en": "This is the passage. When the Holy Spirit comes upon you, you will receive power and be my witnesses in Jerusalem, throughout Judea and Samaria, and to the ends of the earth. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 성령이 여러분에게 임하시면 능력을 받고 예루살렘·유대·사마리아와 온 땅에서 나의 증인이 될 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-act-1-8-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-act-1-8",
+          "referenceId": "study-act-1-8",
+          "explanation": {
+            "en": "This is the passage. When the Holy Spirit comes upon you, you will receive power and be my witnesses in Jerusalem, throughout Judea and Samaria, and to the ends of the earth. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 성령이 여러분에게 임하시면 능력을 받고 예루살렘·유대·사마리아와 온 땅에서 나의 증인이 될 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-28-19-20",
+          "referenceId": "study-mat-28-19-20",
+          "explanation": {
+            "en": "This is a different passage. Go and make disciples of all nations, baptizing them in the name of the Father, the Son, and the Holy Spirit, teaching them to obey everything I commanded. I am with you always, to the end of the world. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 가서 모든 민족을 제자로 삼고 아버지·아들·성령의 이름으로 세례를 주며 내가 명한 모든 것을 따르도록 가르치세요. 나는 세상의 끝까지 언제나 여러분과 함께 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-15-58",
+          "referenceId": "study-1co-15-58",
+          "explanation": {
+            "en": "This is a different passage. Stand firm, remain unshaken, and always work earnestly in the Lord’s work, knowing your labor in the Lord is not in vain. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 주 안에서 수고가 헛되지 않음을 알고 굳게 서며 흔들리지 말고 언제나 주의 일에 힘쓰세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-12-2",
+          "referenceId": "study-rom-12-2",
+          "explanation": {
+            "en": "This is a different passage. Do not conform to this age’s pattern; instead be transformed through the renewing of your thinking, so you can discern God’s good, pleasing, and perfect will. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 이 시대의 흐름에 맞추지 말고 생각이 새로워짐으로 변화되어 하나님의 선하고 기쁘고 온전한 뜻이 무엇인지 분별하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-act-1-8"
+      ],
+      "explanations": {
+        "en": "This is the passage. When the Holy Spirit comes upon you, you will receive power and be my witnesses in Jerusalem, throughout Judea and Samaria, and to the ends of the earth. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 성령이 여러분에게 임하시면 능력을 받고 예루살렘·유대·사마리아와 온 땅에서 나의 증인이 될 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-act-1-8-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “tanık” in this passage?",
+        "ko": "이 본문에서 “tanık”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-act-1-8-word-5-vocab",
+          "label": {
+            "en": "witness",
+            "ko": "증인"
+          },
+          "explanation": {
+            "en": "witness. Plural witnesses belongs to benim; olacaksınız makes the predicate future.",
+            "ko": "증인. 복수 증인의 소유자는 benim이고 olacaksınız가 술어를 미래로 만듭니다."
+          }
+        },
+        {
+          "id": "study-act-1-8-word-1-vocab",
+          "label": {
+            "en": "upper side / on top of",
+            "ko": "위"
+          },
+          "explanation": {
+            "en": "That definition belongs to üzeri. tanık means witness here. Plural witnesses belongs to benim; olacaksınız makes the predicate future.",
+            "ko": "그 뜻은 üzeri입니다. 여기 tanık는 증인입니다. 복수 증인의 소유자는 benim이고 olacaksınız가 술어를 미래로 만듭니다."
+          }
+        },
+        {
+          "id": "study-act-1-8-word-2-vocab",
+          "label": {
+            "en": "descend / come down",
+            "ko": "내려오다"
+          },
+          "explanation": {
+            "en": "That definition belongs to inmek. tanık means witness here. Plural witnesses belongs to benim; olacaksınız makes the predicate future.",
+            "ko": "그 뜻은 inmek입니다. 여기 tanık는 증인입니다. 복수 증인의 소유자는 benim이고 olacaksınız가 술어를 미래로 만듭니다."
+          }
+        },
+        {
+          "id": "study-act-1-8-word-3-vocab",
+          "label": {
+            "en": "take / receive",
+            "ko": "받다·취하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to almak. tanık means witness here. Plural witnesses belongs to benim; olacaksınız makes the predicate future.",
+            "ko": "그 뜻은 almak입니다. 여기 tanık는 증인입니다. 복수 증인의 소유자는 benim이고 olacaksınız가 술어를 미래로 만듭니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-act-1-8-word-5-vocab"
+      ],
+      "explanations": {
+        "en": "Plural witnesses belongs to benim; olacaksınız makes the predicate future.",
+        "ko": "복수 증인의 소유자는 benim이고 olacaksınız가 술어를 미래로 만듭니다."
+      }
+    },
+    {
+      "id": "study-act-1-8-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “üzerinize”, what is the function of “-e” here?",
+        "ko": "“üzerinize”에서 “-e”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "explanation": {
+            "en": "Possessed positional expression. The addressee is expressed through -iniz; -e gives direction toward/upon.",
+            "ko": "소유 위치 표현. -iniz가 청자를 표시하고 -e가 ~위로의 방향을 줍니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed positional expression. The addressee is expressed through -iniz; -e gives direction toward/upon.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 위치 표현. -iniz가 청자를 표시하고 -e가 ~위로의 방향을 줍니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed positional expression. The addressee is expressed through -iniz; -e gives direction toward/upon.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 위치 표현. -iniz가 청자를 표시하고 -e가 ~위로의 방향을 줍니다."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed positional expression. The addressee is expressed through -iniz; -e gives direction toward/upon.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 위치 표현. -iniz가 청자를 표시하고 -e가 ~위로의 방향을 줍니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "DAT"
+      ],
+      "explanations": {
+        "en": "The addressee is expressed through -iniz; -e gives direction toward/upon.",
+        "ko": "-iniz가 청자를 표시하고 -e가 ~위로의 방향을 줍니다."
+      }
+    }
+  ]
+}

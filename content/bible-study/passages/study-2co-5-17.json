@@ -1,0 +1,728 @@
+{
+  "id": "study-2co-5-17",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand 2 Corinthians 5:17 through its clause structure and the forms Mesih'teyse / yaratıktır.",
+    "ko": "고린도후서 5:17의 절 구조와 Mesih'teyse / yaratıktır 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Anyone who is in Christ is a new creation: the old things have passed, and everything has become new.",
+    "ko": "그리스도 안에 있는 사람은 새로운 피조물입니다. 옛것은 지나갔고 모든 것이 새롭게 되었습니다."
+  },
+  "clauses": [
+    {
+      "id": "study-2co-5-17-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "2CO.5.17",
+          "start": 0,
+          "end": 39
+        }
+      ],
+      "naturalMeaning": {
+        "en": "If someone is in Christ, that person is a new creation.",
+        "ko": "어떤 사람이 그리스도 안에 있으면 새로운 피조물입니다."
+      },
+      "literalGloss": {
+        "en": "a person / if in Christ / new creation-is",
+        "ko": "어떤 사람 / 그리스도 안에라면 / 새 피조물이다"
+      },
+      "explanation": {
+        "en": "The condition is attached to the location expression. The second clause omits its subject, referring back to bir kimse. No separate present-tense “is” word is needed.",
+        "ko": "조건은 위치 표현에 붙습니다. 뒤 절의 주어는 생략되어 앞의 bir kimse를 가리킵니다. 한국어의 “이다”처럼 명사에 계사 어미가 붙으며 독립된 현재형 be 동사는 없습니다."
+      }
+    },
+    {
+      "id": "study-2co-5-17-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "2CO.5.17",
+          "start": 40,
+          "end": 82
+        }
+      ],
+      "naturalMeaning": {
+        "en": "The old things have passed; everything has become new.",
+        "ko": "옛것은 지나갔고 모든 것이 새롭게 되었습니다."
+      },
+      "literalGloss": {
+        "en": "old things / passed; each thing / new become-has",
+        "ko": "옛것들 / 지나간 상태; 모든 것 / 새롭게 된 상태"
+      },
+      "explanation": {
+        "en": "Both -miş forms describe a resulting state. Here this is a confident assertion about transformation, not a claim that the speaker only heard a rumour.",
+        "ko": "두 -mIş 형태는 변화 뒤의 결과 상태를 나타냅니다. 이 문맥에서 확신 있게 진술하므로 한국어의 전언 “~라더라”로 기계적으로 옮기면 안 됩니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-2co-5-17-word-1",
+      "verseId": "2CO.5.17",
+      "start": 10,
+      "end": 21,
+      "surface": "Mesih'teyse",
+      "lemma": "Mesih",
+      "meaning": {
+        "en": "in Christ, if that is the case",
+        "ko": "그리스도 안에 있다면"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "Mesih",
+          "meaning": {
+            "en": "Christ / Messiah",
+            "ko": "그리스도·메시아"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "'",
+          "meaning": {
+            "en": "apostrophe separating a proper name from a suffix",
+            "ko": "고유 명사와 접사를 구별하는 아포스트로피"
+          },
+          "function": "APOST"
+        },
+        {
+          "form": "te",
+          "meaning": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "function": "LOC"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "se",
+          "meaning": {
+            "en": "conditional",
+            "ko": "조건"
+          },
+          "function": "COND"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "case": "locative",
+        "mood": "conditional"
+      },
+      "role": {
+        "en": "Condition built on a locative predicate",
+        "ko": "처소 술어에 붙은 조건"
+      },
+      "contextualExplanation": {
+        "en": "-te locates the person in relationship with Christ; -yse makes it conditional. The theological sense of “in Christ” goes beyond physical location.",
+        "ko": "-te는 그리스도와의 관계 안에 있음을 나타내고 -yse는 조건을 만듭니다. 처소격이라는 문법과 “그리스도 안”의 신학 의미를 구별하세요."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "Christ / Messiah",
+        "ko": "그리스도·메시아"
+      }
+    },
+    {
+      "id": "study-2co-5-17-word-2",
+      "verseId": "2CO.5.17",
+      "start": 28,
+      "end": 38,
+      "surface": "yaratıktır",
+      "lemma": "yaratık",
+      "meaning": {
+        "en": "is a creation / creature",
+        "ko": "피조물이다"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "yaratık",
+          "meaning": {
+            "en": "creature / created being",
+            "ko": "피조물"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "tır",
+          "meaning": {
+            "en": "copular/assertive ending",
+            "ko": "계사·단정 어미"
+          },
+          "function": "COP"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {},
+      "role": {
+        "en": "Nominal predicate",
+        "ko": "명사 술어"
+      },
+      "contextualExplanation": {
+        "en": "The assertive -tır follows a voiceless k. In modern conversation yaratık can suggest a strange creature; this biblical use means a creation.",
+        "ko": "무성음 k 뒤에서 단정 계사 -tır가 옵니다. 일상어 yaratık은 괴상한 생물을 뜻하기도 하지만 여기서는 창조된 존재라는 성경 어휘입니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "creature / created being",
+        "ko": "피조물"
+      }
+    },
+    {
+      "id": "study-2co-5-17-word-3",
+      "verseId": "2CO.5.17",
+      "start": 45,
+      "end": 51,
+      "surface": "şeyler",
+      "lemma": "şey",
+      "meaning": {
+        "en": "things",
+        "ko": "것들"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "şey",
+          "meaning": {
+            "en": "thing",
+            "ko": "것"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ler",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "number": "plural"
+      },
+      "role": {
+        "en": "Plural subject of geçmiş",
+        "ko": "geçmiş의 복수 주어"
+      },
+      "contextualExplanation": {
+        "en": "The plural subject refers to old things; Turkish need not mark a nonhuman plural subject with plural verb agreement.",
+        "ko": "옛것들을 가리킵니다. 터키어에서는 비인간 복수 주어에 동사 복수 어미를 반드시 붙이지 않습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "thing",
+        "ko": "것"
+      }
+    },
+    {
+      "id": "study-2co-5-17-word-4",
+      "verseId": "2CO.5.17",
+      "start": 52,
+      "end": 58,
+      "surface": "geçmiş",
+      "lemma": "geçmek",
+      "meaning": {
+        "en": "have passed",
+        "ko": "지나갔다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "geç",
+          "meaning": {
+            "en": "pass / cross",
+            "ko": "지나다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "miş",
+          "meaning": {
+            "en": "past/resultative -mIş form",
+            "ko": "-mIş 과거·결과 형태"
+          },
+          "function": "RESULT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "resultative -mIş"
+      },
+      "role": {
+        "en": "Resultative predicate",
+        "ko": "결과 상태 술어"
+      },
+      "contextualExplanation": {
+        "en": "The old things are presented as having passed away; contrast simple past geçti with the resulting state here.",
+        "ko": "단순 과거 geçti와 비교해 여기서는 지나간 뒤의 상태가 두드러집니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "pass / cross",
+        "ko": "지나다"
+      }
+    },
+    {
+      "id": "study-2co-5-17-word-5",
+      "verseId": "2CO.5.17",
+      "start": 73,
+      "end": 81,
+      "surface": "olmuştur",
+      "lemma": "olmak",
+      "meaning": {
+        "en": "has become",
+        "ko": "되었다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ol",
+          "meaning": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "muş",
+          "meaning": {
+            "en": "past/resultative -mIş form",
+            "ko": "-mIş 과거·결과 형태"
+          },
+          "function": "RESULT"
+        },
+        {
+          "form": "tur",
+          "meaning": {
+            "en": "copular/assertive ending",
+            "ko": "계사·단정 어미"
+          },
+          "function": "COP"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "resultative -mIş"
+      },
+      "role": {
+        "en": "Resultative verb with assertive ending",
+        "ko": "결과 동사·단정 어미"
+      },
+      "contextualExplanation": {
+        "en": "Yeni olmak means become new. -tur adds a formal assertive tone; it is not another past-tense suffix.",
+        "ko": "yeni olmak은 새롭게 되다입니다. -tur는 격식 있는 단정이며 또 하나의 과거 어미가 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-2co-5-17-word-1-vocab",
+      "analysisId": "study-2co-5-17-word-1",
+      "lemma": "Mesih",
+      "classification": "biblical",
+      "definitions": {
+        "en": "Christ / Messiah",
+        "ko": "그리스도·메시아"
+      },
+      "usageNotes": {
+        "en": "-te locates the person in relationship with Christ; -yse makes it conditional. The theological sense of “in Christ” goes beyond physical location.",
+        "ko": "-te는 그리스도와의 관계 안에 있음을 나타내고 -yse는 조건을 만듭니다. 처소격이라는 문법과 “그리스도 안”의 신학 의미를 구별하세요."
+      }
+    },
+    {
+      "id": "study-2co-5-17-word-2-vocab",
+      "analysisId": "study-2co-5-17-word-2",
+      "lemma": "yaratık",
+      "classification": "biblical",
+      "definitions": {
+        "en": "creature / created being",
+        "ko": "피조물"
+      },
+      "usageNotes": {
+        "en": "The assertive -tır follows a voiceless k. In modern conversation yaratık can suggest a strange creature; this biblical use means a creation.",
+        "ko": "무성음 k 뒤에서 단정 계사 -tır가 옵니다. 일상어 yaratık은 괴상한 생물을 뜻하기도 하지만 여기서는 창조된 존재라는 성경 어휘입니다."
+      }
+    },
+    {
+      "id": "study-2co-5-17-word-3-vocab",
+      "analysisId": "study-2co-5-17-word-3",
+      "lemma": "şey",
+      "classification": "general",
+      "definitions": {
+        "en": "thing",
+        "ko": "것"
+      },
+      "usageNotes": {
+        "en": "The plural subject refers to old things; Turkish need not mark a nonhuman plural subject with plural verb agreement.",
+        "ko": "옛것들을 가리킵니다. 터키어에서는 비인간 복수 주어에 동사 복수 어미를 반드시 붙이지 않습니다."
+      }
+    },
+    {
+      "id": "study-2co-5-17-word-4-vocab",
+      "analysisId": "study-2co-5-17-word-4",
+      "lemma": "geçmek",
+      "classification": "general",
+      "definitions": {
+        "en": "pass / cross",
+        "ko": "지나다"
+      },
+      "usageNotes": {
+        "en": "The old things are presented as having passed away; contrast simple past geçti with the resulting state here.",
+        "ko": "단순 과거 geçti와 비교해 여기서는 지나간 뒤의 상태가 두드러집니다."
+      }
+    },
+    {
+      "id": "study-2co-5-17-word-5-vocab",
+      "analysisId": "study-2co-5-17-word-5",
+      "lemma": "olmak",
+      "classification": "general",
+      "definitions": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      },
+      "usageNotes": {
+        "en": "Yeni olmak means become new. -tur adds a formal assertive tone; it is not another past-tense suffix.",
+        "ko": "yeni olmak은 새롭게 되다입니다. -tur는 격식 있는 단정이며 또 하나의 과거 어미가 아닙니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-2co-5-17-grammar-1",
+      "title": {
+        "en": "A condition without a finite verb",
+        "ko": "유한 동사 없이 만드는 조건"
+      },
+      "explanation": {
+        "en": "A locative noun can be the predicate: Mesih’te + yse. The following nominal clause uses -DIr; its person is understood from the previous phrase.",
+        "ko": "처소격 명사가 술어가 될 수 있습니다. Mesih’te에 -yse가 붙고 다음 명사절은 -DIr를 씁니다. 뒤 절의 주어는 앞 표현에서 이해합니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "2CO.5.17",
+          "start": 0,
+          "end": 39
+        },
+        {
+          "verseId": "2CO.5.17",
+          "start": 40,
+          "end": 82
+        }
+      ],
+      "relatedLessonIds": [
+        "foundation-references"
+      ]
+    },
+    {
+      "id": "study-2co-5-17-grammar-2",
+      "title": {
+        "en": "Result and assertion",
+        "ko": "결과와 단정"
+      },
+      "explanation": {
+        "en": "Geçmiş and olmuştur foreground completed change. Do not translate every -mIş as hearsay or confuse ol- with yarat-.",
+        "ko": "geçmiş·olmuştur는 완료된 변화를 나타냅니다. -mIş를 언제나 전언으로 옮기거나 ol-를 yarat-와 혼동하지 마세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "2CO.5.17",
+          "start": 0,
+          "end": 39
+        },
+        {
+          "verseId": "2CO.5.17",
+          "start": 40,
+          "end": 82
+        }
+      ],
+      "relatedLessonIds": []
+    }
+  ],
+  "independentTask": {
+    "en": "Write two sentences about a change in ordinary life, using eski / yeni and olmak. Label them as your own example.",
+    "ko": "일상 변화에 관해 eski / yeni·olmak을 사용해 두 문장을 쓰세요. 자신의 예문임을 표시하세요."
+  },
+  "modelResponse": {
+    "tr": "Eski alışkanlıklarım değişti. Şimdi yeni bir hayat yaşıyorum.",
+    "meaning": {
+      "en": "My old habits changed. Now I am living a new life.",
+      "ko": "옛 습관이 바뀌었습니다. 이제 새로운 삶을 살고 있습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "foundation-references"
+  ],
+  "relatedReadingIds": [
+    "reading-2Ko-5-17"
+  ],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "doctrinalNote": {
+    "en": "“In Christ” and “new creation” express Paul’s Christian teaching about relationship and transformation; the suffixes themselves do not define every doctrinal implication.",
+    "ko": "“그리스도 안”과 “새 피조물”은 바울의 관계·변화에 관한 기독교 가르침입니다. 접사만으로 모든 교리적 함의를 정의하는 것은 아닙니다."
+  },
+  "exercises": [
+    {
+      "id": "study-2co-5-17-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to 2 Corinthians 5:17? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 고린도후서 5:17인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-2co-5-17",
+          "passageId": "study-2co-5-17",
+          "explanation": {
+            "en": "This is the passage. Anyone who is in Christ is a new creation: the old things have passed, and everything has become new. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 그리스도 안에 있는 사람은 새로운 피조물입니다. 옛것은 지나갔고 모든 것이 새롭게 되었습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-15-7",
+          "passageId": "study-jhn-15-7",
+          "explanation": {
+            "en": "This is a different passage. If you remain in me and my words remain in you, ask whatever you wish and it will be given to you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분이 내 안에 머물고 내 말이 여러분 안에 머물면 원하는 것을 구하세요. 여러분에게 주어질 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-18-20",
+          "passageId": "study-mat-18-20",
+          "explanation": {
+            "en": "This is a different passage. Where two or three gather in my name, I am there among them as well. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 두세 사람이 내 이름으로 모이는 곳에 나도 그들 가운데 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-2ti-3-16",
+          "passageId": "study-2ti-3-16",
+          "explanation": {
+            "en": "This is a different passage. All Scripture is God’s inspiration and is useful for teaching, rebuking, setting people on the right path, and training in righteousness. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 모든 성경은 하나님의 영감으로 된 것이며 가르침·책망·바른길로 이끌기·의로움에 관한 훈련에 유익합니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-2co-5-17"
+      ],
+      "explanations": {
+        "en": "This is the passage. Anyone who is in Christ is a new creation: the old things have passed, and everything has become new. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 그리스도 안에 있는 사람은 새로운 피조물입니다. 옛것은 지나갔고 모든 것이 새롭게 되었습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-2co-5-17-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-2co-5-17",
+          "referenceId": "study-2co-5-17",
+          "explanation": {
+            "en": "This is the passage. Anyone who is in Christ is a new creation: the old things have passed, and everything has become new. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 그리스도 안에 있는 사람은 새로운 피조물입니다. 옛것은 지나갔고 모든 것이 새롭게 되었습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-15-7",
+          "referenceId": "study-jhn-15-7",
+          "explanation": {
+            "en": "This is a different passage. If you remain in me and my words remain in you, ask whatever you wish and it will be given to you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분이 내 안에 머물고 내 말이 여러분 안에 머물면 원하는 것을 구하세요. 여러분에게 주어질 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-18-20",
+          "referenceId": "study-mat-18-20",
+          "explanation": {
+            "en": "This is a different passage. Where two or three gather in my name, I am there among them as well. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 두세 사람이 내 이름으로 모이는 곳에 나도 그들 가운데 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-2ti-3-16",
+          "referenceId": "study-2ti-3-16",
+          "explanation": {
+            "en": "This is a different passage. All Scripture is God’s inspiration and is useful for teaching, rebuking, setting people on the right path, and training in righteousness. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 모든 성경은 하나님의 영감으로 된 것이며 가르침·책망·바른길로 이끌기·의로움에 관한 훈련에 유익합니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-2co-5-17"
+      ],
+      "explanations": {
+        "en": "This is the passage. Anyone who is in Christ is a new creation: the old things have passed, and everything has become new. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 그리스도 안에 있는 사람은 새로운 피조물입니다. 옛것은 지나갔고 모든 것이 새롭게 되었습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-2co-5-17-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “Mesih” in this passage?",
+        "ko": "이 본문에서 “Mesih”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-2co-5-17-word-1-vocab",
+          "label": {
+            "en": "Christ / Messiah",
+            "ko": "그리스도·메시아"
+          },
+          "explanation": {
+            "en": "Christ / Messiah. -te locates the person in relationship with Christ; -yse makes it conditional. The theological sense of “in Christ” goes beyond physical location.",
+            "ko": "그리스도·메시아. -te는 그리스도와의 관계 안에 있음을 나타내고 -yse는 조건을 만듭니다. 처소격이라는 문법과 “그리스도 안”의 신학 의미를 구별하세요."
+          }
+        },
+        {
+          "id": "study-2co-5-17-word-2-vocab",
+          "label": {
+            "en": "creature / created being",
+            "ko": "피조물"
+          },
+          "explanation": {
+            "en": "That definition belongs to yaratık. Mesih means Christ / Messiah here. -te locates the person in relationship with Christ; -yse makes it conditional. The theological sense of “in Christ” goes beyond physical location.",
+            "ko": "그 뜻은 yaratık입니다. 여기 Mesih는 그리스도·메시아입니다. -te는 그리스도와의 관계 안에 있음을 나타내고 -yse는 조건을 만듭니다. 처소격이라는 문법과 “그리스도 안”의 신학 의미를 구별하세요."
+          }
+        },
+        {
+          "id": "study-2co-5-17-word-3-vocab",
+          "label": {
+            "en": "thing",
+            "ko": "것"
+          },
+          "explanation": {
+            "en": "That definition belongs to şey. Mesih means Christ / Messiah here. -te locates the person in relationship with Christ; -yse makes it conditional. The theological sense of “in Christ” goes beyond physical location.",
+            "ko": "그 뜻은 şey입니다. 여기 Mesih는 그리스도·메시아입니다. -te는 그리스도와의 관계 안에 있음을 나타내고 -yse는 조건을 만듭니다. 처소격이라는 문법과 “그리스도 안”의 신학 의미를 구별하세요."
+          }
+        },
+        {
+          "id": "study-2co-5-17-word-4-vocab",
+          "label": {
+            "en": "pass / cross",
+            "ko": "지나다"
+          },
+          "explanation": {
+            "en": "That definition belongs to geçmek. Mesih means Christ / Messiah here. -te locates the person in relationship with Christ; -yse makes it conditional. The theological sense of “in Christ” goes beyond physical location.",
+            "ko": "그 뜻은 geçmek입니다. 여기 Mesih는 그리스도·메시아입니다. -te는 그리스도와의 관계 안에 있음을 나타내고 -yse는 조건을 만듭니다. 처소격이라는 문법과 “그리스도 안”의 신학 의미를 구별하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-2co-5-17-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "-te locates the person in relationship with Christ; -yse makes it conditional. The theological sense of “in Christ” goes beyond physical location.",
+        "ko": "-te는 그리스도와의 관계 안에 있음을 나타내고 -yse는 조건을 만듭니다. 처소격이라는 문법과 “그리스도 안”의 신학 의미를 구별하세요."
+      }
+    },
+    {
+      "id": "study-2co-5-17-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “Mesih'teyse”, what is the function of “-se” here?",
+        "ko": "“Mesih'teyse”에서 “-se”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "COND",
+          "label": {
+            "en": "conditional",
+            "ko": "조건"
+          },
+          "explanation": {
+            "en": "Condition built on a locative predicate. -te locates the person in relationship with Christ; -yse makes it conditional. The theological sense of “in Christ” goes beyond physical location.",
+            "ko": "처소 술어에 붙은 조건. -te는 그리스도와의 관계 안에 있음을 나타내고 -yse는 조건을 만듭니다. 처소격이라는 문법과 “그리스도 안”의 신학 의미를 구별하세요."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Condition built on a locative predicate. -te locates the person in relationship with Christ; -yse makes it conditional. The theological sense of “in Christ” goes beyond physical location.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 처소 술어에 붙은 조건. -te는 그리스도와의 관계 안에 있음을 나타내고 -yse는 조건을 만듭니다. 처소격이라는 문법과 “그리스도 안”의 신학 의미를 구별하세요."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Condition built on a locative predicate. -te locates the person in relationship with Christ; -yse makes it conditional. The theological sense of “in Christ” goes beyond physical location.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 처소 술어에 붙은 조건. -te는 그리스도와의 관계 안에 있음을 나타내고 -yse는 조건을 만듭니다. 처소격이라는 문법과 “그리스도 안”의 신학 의미를 구별하세요."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Condition built on a locative predicate. -te locates the person in relationship with Christ; -yse makes it conditional. The theological sense of “in Christ” goes beyond physical location.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 처소 술어에 붙은 조건. -te는 그리스도와의 관계 안에 있음을 나타내고 -yse는 조건을 만듭니다. 처소격이라는 문법과 “그리스도 안”의 신학 의미를 구별하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "COND"
+      ],
+      "explanations": {
+        "en": "-te locates the person in relationship with Christ; -yse makes it conditional. The theological sense of “in Christ” goes beyond physical location.",
+        "ko": "-te는 그리스도와의 관계 안에 있음을 나타내고 -yse는 조건을 만듭니다. 처소격이라는 문법과 “그리스도 안”의 신학 의미를 구별하세요."
+      }
+    }
+  ]
+}

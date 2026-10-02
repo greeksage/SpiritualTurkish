@@ -1,0 +1,787 @@
+{
+  "id": "study-isa-41-10",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Isaiah 41:10 through its clause structure and the forms Korkma / seninleyim.",
+    "ko": "이사야 41:10의 절 구조와 Korkma / seninleyim 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Do not fear or lose heart: I am with you and I am your God. I will strengthen you, help you, and uphold you with my victorious right hand.",
+    "ko": "두려워하거나 낙심하지 마세요. 나는 너와 함께하며 너의 하나님입니다. 힘을 주고 돕고 승리하는 오른손으로 붙들겠습니다."
+  },
+  "clauses": [
+    {
+      "id": "study-isa-41-10-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "ISA.41.10",
+          "start": 0,
+          "end": 153
+        }
+      ],
+      "naturalMeaning": {
+        "en": "God assures the addressee of presence, strength, help, and support.",
+        "ko": "하나님은 함께하심과 힘·도움·지지를 청자에게 확언합니다."
+      },
+      "literalGloss": {
+        "en": "do not fear because I with-you-am / do not falter because your God I-am / you strengthen-will-I / to you help / victorious right hand-my-with support",
+        "ko": "두려워 마라 나 너와 함께이므로 / 낙심 마라 네 하나님은 나이므로 / 너를 강하게 할 것이다 / 너에게 도움 / 승리하는 내 오른손으로 지지"
+      },
+      "explanation": {
+        "en": "The singular commands korkma and yılma address one “you.” Seninleyim combines a pronoun with ile and the first-person predicate. Tanrın benim reverses the natural English predicate order: “your God is me.” The repeated future actions share ben.",
+        "ko": "단수 명령 korkma·yılma는 한 청자를 향합니다. seninleyim은 대명사·ile·1인칭 술어 결합입니다. Tanrın benim은 문자상 너의 하나님은 나이다이며 자연스러운 한국어 의미와 어순을 구별합니다. 반복된 미래 행위의 공통 주어는 ben입니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-isa-41-10-word-1",
+      "verseId": "ISA.41.10",
+      "start": 0,
+      "end": 6,
+      "surface": "Korkma",
+      "lemma": "korkmak",
+      "meaning": {
+        "en": "do not fear",
+        "ko": "두려워하지 마라"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "Kork",
+          "meaning": {
+            "en": "fear",
+            "ko": "두려워하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ma",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "mood": "second-person singular imperative (zero ending)",
+        "person": "2sg"
+      },
+      "role": {
+        "en": "Negative singular imperative",
+        "ko": "부정 단수 명령"
+      },
+      "contextualExplanation": {
+        "en": "There is no overt second-person suffix on this singular command.",
+        "ko": "단수 명령에는 명시적 2인칭 어미가 없습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "fear",
+        "ko": "두려워하다"
+      }
+    },
+    {
+      "id": "study-isa-41-10-word-2",
+      "verseId": "ISA.41.10",
+      "start": 18,
+      "end": 28,
+      "surface": "seninleyim",
+      "lemma": "sen",
+      "meaning": {
+        "en": "I am with you",
+        "ko": "나는 너와 함께이다"
+      },
+      "partOfSpeech": {
+        "en": "Pronoun / pronominal expression",
+        "ko": "대명사·대명 표현"
+      },
+      "segments": [
+        {
+          "form": "sen",
+          "meaning": {
+            "en": "you (singular)",
+            "ko": "너 (단수)"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "in",
+          "meaning": {
+            "en": "genitive: possessor / dependent subject",
+            "ko": "속격: 소유자·내포절 주어"
+          },
+          "function": "GEN"
+        },
+        {
+          "form": "le",
+          "meaning": {
+            "en": "with / by",
+            "ko": "~와 함께·~로"
+          },
+          "function": "WITH"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "im",
+          "meaning": {
+            "en": "first-person singular",
+            "ko": "1인칭 단수"
+          },
+          "function": "PERSON1"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "case": "genitive",
+        "person": "1sg"
+      },
+      "role": {
+        "en": "With-phrase as a predicate",
+        "ko": "함께 구의 술어"
+      },
+      "contextualExplanation": {
+        "en": "Sen takes senin before ile. The final -im refers to the speaker, not to “my you.”",
+        "ko": "sen은 ile 앞에서 senin이 됩니다. 마지막 -im은 화자이며 나의 너라는 소유가 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "you (singular)",
+        "ko": "너 (단수)"
+      }
+    },
+    {
+      "id": "study-isa-41-10-word-3",
+      "verseId": "ISA.41.10",
+      "start": 43,
+      "end": 49,
+      "surface": "Tanrın",
+      "lemma": "Tanrı",
+      "meaning": {
+        "en": "your God",
+        "ko": "너의 하나님"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "Tanrı",
+          "meaning": {
+            "en": "God",
+            "ko": "하나님"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "second-person singular possessive",
+            "ko": "2인칭 단수 소유"
+          },
+          "function": "P2"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "2sg"
+      },
+      "role": {
+        "en": "Possessed noun",
+        "ko": "소유 명사"
+      },
+      "contextualExplanation": {
+        "en": "The possessor is the singular addressee.",
+        "ko": "소유자는 단수 청자입니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "God",
+        "ko": "하나님"
+      }
+    },
+    {
+      "id": "study-isa-41-10-word-4",
+      "verseId": "ISA.41.10",
+      "start": 62,
+      "end": 77,
+      "surface": "güçlendireceğim",
+      "lemma": "güçlendirmek",
+      "meaning": {
+        "en": "I will strengthen",
+        "ko": "나는 힘을 줄 것이다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "güçlendir",
+          "meaning": {
+            "en": "strengthen",
+            "ko": "강하게 하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "eceğ",
+          "meaning": {
+            "en": "future",
+            "ko": "미래"
+          },
+          "function": "FUT"
+        },
+        {
+          "form": "im",
+          "meaning": {
+            "en": "first-person singular",
+            "ko": "1인칭 단수"
+          },
+          "function": "PERSON1"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-ecek → -eceğ before -im",
+          "ko": "-im 앞에서 -ecek가 -eceğ로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "tenseAspect": "future",
+        "person": "1sg"
+      },
+      "role": {
+        "en": "First-person future",
+        "ko": "1인칭 미래"
+      },
+      "contextualExplanation": {
+        "en": "Seni is the person strengthened; the k in the future suffix softens before -im.",
+        "ko": "seni가 힘을 받는 사람이고 -im 앞에서 미래형 k가 ğ로 바뀝니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "strengthen",
+        "ko": "강하게 하다"
+      }
+    },
+    {
+      "id": "study-isa-41-10-word-5",
+      "verseId": "ISA.41.10",
+      "start": 125,
+      "end": 131,
+      "surface": "elimle",
+      "lemma": "el",
+      "meaning": {
+        "en": "with my hand",
+        "ko": "내 손으로"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "el",
+          "meaning": {
+            "en": "hand",
+            "ko": "손"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "im",
+          "meaning": {
+            "en": "first-person singular possessive",
+            "ko": "1인칭 단수 소유"
+          },
+          "function": "P1"
+        },
+        {
+          "form": "le",
+          "meaning": {
+            "en": "with / by",
+            "ko": "~와 함께·~로"
+          },
+          "function": "WITH"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "1sg"
+      },
+      "role": {
+        "en": "Instrumental means",
+        "ko": "도구 수단"
+      },
+      "contextualExplanation": {
+        "en": "Sağ modifies hand, kazanan modifies the right hand in the poetic expression.",
+        "ko": "sağ가 손을 꾸미고 kazanan이 시적 표현의 오른손을 수식합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "hand",
+        "ko": "손"
+      }
+    },
+    {
+      "id": "study-isa-41-10-word-6",
+      "verseId": "ISA.41.10",
+      "start": 144,
+      "end": 152,
+      "surface": "olacağım",
+      "lemma": "olmak",
+      "meaning": {
+        "en": "I will be",
+        "ko": "나는 ~일 것이다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ol",
+          "meaning": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "acağ",
+          "meaning": {
+            "en": "future",
+            "ko": "미래"
+          },
+          "function": "FUT"
+        },
+        {
+          "form": "ım",
+          "meaning": {
+            "en": "first-person singular",
+            "ko": "1인칭 단수"
+          },
+          "function": "PERSON1"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-acak → -acağ before -ım",
+          "ko": "-ım 앞에서 -acak가 -acağ로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "tenseAspect": "future",
+        "person": "1sg"
+      },
+      "role": {
+        "en": "Future in destek olmak",
+        "ko": "destek olmak의 미래"
+      },
+      "contextualExplanation": {
+        "en": "Destek olmak means support someone and takes a dative recipient.",
+        "ko": "destek olmak은 누군가를 지지하다이며 여격 대상을 취합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-isa-41-10-word-1-vocab",
+      "analysisId": "study-isa-41-10-word-1",
+      "lemma": "korkmak",
+      "classification": "general",
+      "definitions": {
+        "en": "fear",
+        "ko": "두려워하다"
+      },
+      "usageNotes": {
+        "en": "There is no overt second-person suffix on this singular command.",
+        "ko": "단수 명령에는 명시적 2인칭 어미가 없습니다."
+      }
+    },
+    {
+      "id": "study-isa-41-10-word-2-vocab",
+      "analysisId": "study-isa-41-10-word-2",
+      "lemma": "sen",
+      "classification": "general",
+      "definitions": {
+        "en": "you (singular)",
+        "ko": "너 (단수)"
+      },
+      "usageNotes": {
+        "en": "Sen takes senin before ile. The final -im refers to the speaker, not to “my you.”",
+        "ko": "sen은 ile 앞에서 senin이 됩니다. 마지막 -im은 화자이며 나의 너라는 소유가 아닙니다."
+      }
+    },
+    {
+      "id": "study-isa-41-10-word-3-vocab",
+      "analysisId": "study-isa-41-10-word-3",
+      "lemma": "Tanrı",
+      "classification": "biblical",
+      "definitions": {
+        "en": "God",
+        "ko": "하나님"
+      },
+      "usageNotes": {
+        "en": "The possessor is the singular addressee.",
+        "ko": "소유자는 단수 청자입니다."
+      }
+    },
+    {
+      "id": "study-isa-41-10-word-4-vocab",
+      "analysisId": "study-isa-41-10-word-4",
+      "lemma": "güçlendirmek",
+      "classification": "general",
+      "definitions": {
+        "en": "strengthen",
+        "ko": "강하게 하다"
+      },
+      "usageNotes": {
+        "en": "Seni is the person strengthened; the k in the future suffix softens before -im.",
+        "ko": "seni가 힘을 받는 사람이고 -im 앞에서 미래형 k가 ğ로 바뀝니다."
+      }
+    },
+    {
+      "id": "study-isa-41-10-word-5-vocab",
+      "analysisId": "study-isa-41-10-word-5",
+      "lemma": "el",
+      "classification": "general",
+      "definitions": {
+        "en": "hand",
+        "ko": "손"
+      },
+      "usageNotes": {
+        "en": "Sağ modifies hand, kazanan modifies the right hand in the poetic expression.",
+        "ko": "sağ가 손을 꾸미고 kazanan이 시적 표현의 오른손을 수식합니다."
+      }
+    },
+    {
+      "id": "study-isa-41-10-word-6-vocab",
+      "analysisId": "study-isa-41-10-word-6",
+      "lemma": "olmak",
+      "classification": "general",
+      "definitions": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      },
+      "usageNotes": {
+        "en": "Destek olmak means support someone and takes a dative recipient.",
+        "ko": "destek olmak은 누군가를 지지하다이며 여격 대상을 취합니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-isa-41-10-grammar-1",
+      "title": {
+        "en": "Pronoun plus ile plus person",
+        "ko": "대명사·ile·인칭"
+      },
+      "explanation": {
+        "en": "Seninleyim means “I am with you.” Read the final personal ending independently from senin’s genitive shape.",
+        "ko": "seninleyim은 나는 너와 함께이다입니다. 마지막 인칭을 senin의 속격 형태와 별도로 읽으세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ISA.41.10",
+          "start": 0,
+          "end": 153
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-isa-41-10-grammar-2",
+      "title": {
+        "en": "Different case frames in parallel help",
+        "ko": "나란한 도움의 서로 다른 격"
+      },
+      "explanation": {
+        "en": "Seni güçlendirmek takes an object; sana yardım etmek and sana destek olmak use dative. These are related meanings with different grammatical frames.",
+        "ko": "seni güçlendirmek은 목적어를 취하고 sana yardım etmek·sana destek olmak은 여격을 씁니다. 뜻이 비슷해도 격 틀이 다릅니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ISA.41.10",
+          "start": 0,
+          "end": 153
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-04"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Offer realistic support with sana / size yardım etmek and destek olmak. Do not promise guaranteed healing.",
+    "ko": "sana·size yardım etmek과 destek olmak으로 현실적인 지지를 제안하세요. 치유를 보장하지 마세요."
+  },
+  "modelResponse": {
+    "tr": "Size yardım etmek istiyorum. Bu süreçte size destek olabilirim.",
+    "meaning": {
+      "en": "I want to help you. I can support you during this process.",
+      "ko": "도와드리고 싶습니다. 이 과정에서 지지해드릴 수 있습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "ministry-04"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-isa-41-10-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Isaiah 41:10? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 이사야 41:10인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-isa-41-10",
+          "passageId": "study-isa-41-10",
+          "explanation": {
+            "en": "This is the passage. Do not fear or lose heart: I am with you and I am your God. I will strengthen you, help you, and uphold you with my victorious right hand. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 두려워하거나 낙심하지 마세요. 나는 너와 함께하며 너의 하나님입니다. 힘을 주고 돕고 승리하는 오른손으로 붙들겠습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-num-23-19",
+          "passageId": "study-num-23-19",
+          "explanation": {
+            "en": "This is a different passage. God is not human, that he should lie or change his mind. Does he say something and not do it, or promise and not fulfil it? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 하나님은 사람이 아니시므로 거짓말하거나 생각을 바꾸는 분이 아닙니다. 말씀하고 행하지 않으시거나 약속하고 지키지 않으시겠습니까? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-8-32",
+          "passageId": "study-rom-8-32",
+          "explanation": {
+            "en": "This is a different passage. God did not even spare his own Son, but handed him over to death for us all. Will he not also graciously give us everything together with him? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 하나님은 자신의 아들도 아끼지 않고 우리 모두를 위해 죽음에 넘겨주셨습니다. 그분과 함께 모든 것도 우리에게 은혜로 주시지 않겠습니까? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-psa-119-9-11",
+          "passageId": "study-psa-119-9-11",
+          "explanation": {
+            "en": "This is a different passage. How does a young person keep their way clean? By keeping your word. I do not let your word leave my mind, so that I may not sin against you. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 젊은 사람이 어떻게 자기 길을 깨끗하게 지킬까요? 주님의 말씀을 지킴으로입니다. 주님께 죄를 짓지 않으려고 말씀을 마음에서 떠나게 하지 않습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-isa-41-10"
+      ],
+      "explanations": {
+        "en": "This is the passage. Do not fear or lose heart: I am with you and I am your God. I will strengthen you, help you, and uphold you with my victorious right hand. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 두려워하거나 낙심하지 마세요. 나는 너와 함께하며 너의 하나님입니다. 힘을 주고 돕고 승리하는 오른손으로 붙들겠습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-isa-41-10-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-isa-41-10",
+          "referenceId": "study-isa-41-10",
+          "explanation": {
+            "en": "This is the passage. Do not fear or lose heart: I am with you and I am your God. I will strengthen you, help you, and uphold you with my victorious right hand. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 두려워하거나 낙심하지 마세요. 나는 너와 함께하며 너의 하나님입니다. 힘을 주고 돕고 승리하는 오른손으로 붙들겠습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-num-23-19",
+          "referenceId": "study-num-23-19",
+          "explanation": {
+            "en": "This is a different passage. God is not human, that he should lie or change his mind. Does he say something and not do it, or promise and not fulfil it? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 하나님은 사람이 아니시므로 거짓말하거나 생각을 바꾸는 분이 아닙니다. 말씀하고 행하지 않으시거나 약속하고 지키지 않으시겠습니까? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-8-32",
+          "referenceId": "study-rom-8-32",
+          "explanation": {
+            "en": "This is a different passage. God did not even spare his own Son, but handed him over to death for us all. Will he not also graciously give us everything together with him? Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 하나님은 자신의 아들도 아끼지 않고 우리 모두를 위해 죽음에 넘겨주셨습니다. 그분과 함께 모든 것도 우리에게 은혜로 주시지 않겠습니까? 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-psa-119-9-11",
+          "referenceId": "study-psa-119-9-11",
+          "explanation": {
+            "en": "This is a different passage. How does a young person keep their way clean? By keeping your word. I do not let your word leave my mind, so that I may not sin against you. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 젊은 사람이 어떻게 자기 길을 깨끗하게 지킬까요? 주님의 말씀을 지킴으로입니다. 주님께 죄를 짓지 않으려고 말씀을 마음에서 떠나게 하지 않습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-isa-41-10"
+      ],
+      "explanations": {
+        "en": "This is the passage. Do not fear or lose heart: I am with you and I am your God. I will strengthen you, help you, and uphold you with my victorious right hand. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 두려워하거나 낙심하지 마세요. 나는 너와 함께하며 너의 하나님입니다. 힘을 주고 돕고 승리하는 오른손으로 붙들겠습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-isa-41-10-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “Tanrı” in this passage?",
+        "ko": "이 본문에서 “Tanrı”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-isa-41-10-word-3-vocab",
+          "label": {
+            "en": "God",
+            "ko": "하나님"
+          },
+          "explanation": {
+            "en": "God. The possessor is the singular addressee.",
+            "ko": "하나님. 소유자는 단수 청자입니다."
+          }
+        },
+        {
+          "id": "study-isa-41-10-word-1-vocab",
+          "label": {
+            "en": "fear",
+            "ko": "두려워하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to korkmak. Tanrı means God here. The possessor is the singular addressee.",
+            "ko": "그 뜻은 korkmak입니다. 여기 Tanrı는 하나님입니다. 소유자는 단수 청자입니다."
+          }
+        },
+        {
+          "id": "study-isa-41-10-word-2-vocab",
+          "label": {
+            "en": "you (singular)",
+            "ko": "너 (단수)"
+          },
+          "explanation": {
+            "en": "That definition belongs to sen. Tanrı means God here. The possessor is the singular addressee.",
+            "ko": "그 뜻은 sen입니다. 여기 Tanrı는 하나님입니다. 소유자는 단수 청자입니다."
+          }
+        },
+        {
+          "id": "study-isa-41-10-word-4-vocab",
+          "label": {
+            "en": "strengthen",
+            "ko": "강하게 하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to güçlendirmek. Tanrı means God here. The possessor is the singular addressee.",
+            "ko": "그 뜻은 güçlendirmek입니다. 여기 Tanrı는 하나님입니다. 소유자는 단수 청자입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-isa-41-10-word-3-vocab"
+      ],
+      "explanations": {
+        "en": "The possessor is the singular addressee.",
+        "ko": "소유자는 단수 청자입니다."
+      }
+    },
+    {
+      "id": "study-isa-41-10-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “seninleyim”, what is the function of “-im” here?",
+        "ko": "“seninleyim”에서 “-im”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "PERSON1",
+          "label": {
+            "en": "first-person singular",
+            "ko": "1인칭 단수"
+          },
+          "explanation": {
+            "en": "With-phrase as a predicate. Sen takes senin before ile. The final -im refers to the speaker, not to “my you.”",
+            "ko": "함께 구의 술어. sen은 ile 앞에서 senin이 됩니다. 마지막 -im은 화자이며 나의 너라는 소유가 아닙니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. With-phrase as a predicate. Sen takes senin before ile. The final -im refers to the speaker, not to “my you.”",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 함께 구의 술어. sen은 ile 앞에서 senin이 됩니다. 마지막 -im은 화자이며 나의 너라는 소유가 아닙니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. With-phrase as a predicate. Sen takes senin before ile. The final -im refers to the speaker, not to “my you.”",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 함께 구의 술어. sen은 ile 앞에서 senin이 됩니다. 마지막 -im은 화자이며 나의 너라는 소유가 아닙니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. With-phrase as a predicate. Sen takes senin before ile. The final -im refers to the speaker, not to “my you.”",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 함께 구의 술어. sen은 ile 앞에서 senin이 됩니다. 마지막 -im은 화자이며 나의 너라는 소유가 아닙니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "PERSON1"
+      ],
+      "explanations": {
+        "en": "Sen takes senin before ile. The final -im refers to the speaker, not to “my you.”",
+        "ko": "sen은 ile 앞에서 senin이 됩니다. 마지막 -im은 화자이며 나의 너라는 소유가 아닙니다."
+      }
+    }
+  ]
+}

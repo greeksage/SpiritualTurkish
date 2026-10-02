@@ -1,0 +1,3587 @@
+{
+  "version": 1,
+  "title": {
+    "en": "Bible study",
+    "ko": "성경 학습"
+  },
+  "canonicalSource": "https://www.navigators.org/resource/topical-memory-system/",
+  "editionId": "TCL02",
+  "categories": [
+    {
+      "id": "new-life",
+      "title": {
+        "en": "Living the new life",
+        "ko": "새로운 삶"
+      },
+      "sourceCode": "A"
+    },
+    {
+      "id": "proclaiming-christ",
+      "title": {
+        "en": "Proclaiming Christ",
+        "ko": "그리스도를 전하기"
+      },
+      "sourceCode": "B"
+    },
+    {
+      "id": "relying-on-god",
+      "title": {
+        "en": "Relying on God",
+        "ko": "하나님을 의지하기"
+      },
+      "sourceCode": "C"
+    },
+    {
+      "id": "discipleship",
+      "title": {
+        "en": "Following Christ",
+        "ko": "그리스도를 따르기"
+      },
+      "sourceCode": "D"
+    },
+    {
+      "id": "christlike-growth",
+      "title": {
+        "en": "Growing in Christlikeness",
+        "ko": "그리스도를 닮아가기"
+      },
+      "sourceCode": "E"
+    }
+  ],
+  "topics": [
+    {
+      "id": "new-life-christ-center",
+      "categoryId": "new-life",
+      "title": {
+        "en": "Christ at the center",
+        "ko": "그리스도 중심"
+      }
+    },
+    {
+      "id": "new-life-obedience",
+      "categoryId": "new-life",
+      "title": {
+        "en": "Obedience to Christ",
+        "ko": "그리스도께 순종"
+      }
+    },
+    {
+      "id": "new-life-word",
+      "categoryId": "new-life",
+      "title": {
+        "en": "Scripture",
+        "ko": "말씀"
+      }
+    },
+    {
+      "id": "new-life-prayer",
+      "categoryId": "new-life",
+      "title": {
+        "en": "Prayer",
+        "ko": "기도"
+      }
+    },
+    {
+      "id": "new-life-fellowship",
+      "categoryId": "new-life",
+      "title": {
+        "en": "Fellowship",
+        "ko": "교제"
+      }
+    },
+    {
+      "id": "new-life-witness",
+      "categoryId": "new-life",
+      "title": {
+        "en": "Witnessing",
+        "ko": "복음 증언"
+      }
+    },
+    {
+      "id": "proclaiming-christ-sin",
+      "categoryId": "proclaiming-christ",
+      "title": {
+        "en": "Sin and human need",
+        "ko": "죄와 인간의 필요"
+      }
+    },
+    {
+      "id": "proclaiming-christ-sin-consequence",
+      "categoryId": "proclaiming-christ",
+      "title": {
+        "en": "The consequence of sin",
+        "ko": "죄의 결과"
+      }
+    },
+    {
+      "id": "proclaiming-christ-christ-sacrifice",
+      "categoryId": "proclaiming-christ",
+      "title": {
+        "en": "Christ’s sacrifice",
+        "ko": "그리스도의 희생"
+      }
+    },
+    {
+      "id": "proclaiming-christ-grace-salvation",
+      "categoryId": "proclaiming-christ",
+      "title": {
+        "en": "Salvation by grace",
+        "ko": "은혜로 받는 구원"
+      }
+    },
+    {
+      "id": "proclaiming-christ-receiving-christ",
+      "categoryId": "proclaiming-christ",
+      "title": {
+        "en": "Receiving Christ",
+        "ko": "그리스도를 영접하기"
+      }
+    },
+    {
+      "id": "proclaiming-christ-assurance",
+      "categoryId": "proclaiming-christ",
+      "title": {
+        "en": "Assurance of salvation",
+        "ko": "구원의 확신"
+      }
+    },
+    {
+      "id": "relying-on-god-spirit",
+      "categoryId": "relying-on-god",
+      "title": {
+        "en": "God’s Spirit",
+        "ko": "하나님의 성령"
+      }
+    },
+    {
+      "id": "relying-on-god-strength",
+      "categoryId": "relying-on-god",
+      "title": {
+        "en": "God’s strength",
+        "ko": "하나님의 능력"
+      }
+    },
+    {
+      "id": "relying-on-god-faithfulness",
+      "categoryId": "relying-on-god",
+      "title": {
+        "en": "God’s faithfulness",
+        "ko": "하나님의 신실하심"
+      }
+    },
+    {
+      "id": "relying-on-god-peace",
+      "categoryId": "relying-on-god",
+      "title": {
+        "en": "God’s peace",
+        "ko": "하나님의 평강"
+      }
+    },
+    {
+      "id": "relying-on-god-provision",
+      "categoryId": "relying-on-god",
+      "title": {
+        "en": "God’s provision",
+        "ko": "하나님의 공급"
+      }
+    },
+    {
+      "id": "relying-on-god-temptation",
+      "categoryId": "relying-on-god",
+      "title": {
+        "en": "Help in temptation",
+        "ko": "시험 중의 도움"
+      }
+    },
+    {
+      "id": "discipleship-priority",
+      "categoryId": "discipleship",
+      "title": {
+        "en": "Putting Christ first",
+        "ko": "그리스도를 먼저 구하기"
+      }
+    },
+    {
+      "id": "discipleship-world",
+      "categoryId": "discipleship",
+      "title": {
+        "en": "Living differently",
+        "ko": "다르게 살아가기"
+      }
+    },
+    {
+      "id": "discipleship-steadfast",
+      "categoryId": "discipleship",
+      "title": {
+        "en": "Steadfastness",
+        "ko": "흔들리지 않기"
+      }
+    },
+    {
+      "id": "discipleship-service",
+      "categoryId": "discipleship",
+      "title": {
+        "en": "Serving others",
+        "ko": "다른 사람을 섬기기"
+      }
+    },
+    {
+      "id": "discipleship-giving",
+      "categoryId": "discipleship",
+      "title": {
+        "en": "Generosity",
+        "ko": "너그럽게 나누기"
+      }
+    },
+    {
+      "id": "discipleship-mission",
+      "categoryId": "discipleship",
+      "title": {
+        "en": "Mission and the nations",
+        "ko": "선교와 모든 민족"
+      }
+    },
+    {
+      "id": "christlike-growth-love",
+      "categoryId": "christlike-growth",
+      "title": {
+        "en": "Love",
+        "ko": "사랑"
+      }
+    },
+    {
+      "id": "christlike-growth-humility",
+      "categoryId": "christlike-growth",
+      "title": {
+        "en": "Humility",
+        "ko": "겸손"
+      }
+    },
+    {
+      "id": "christlike-growth-purity",
+      "categoryId": "christlike-growth",
+      "title": {
+        "en": "Purity",
+        "ko": "거룩한 삶"
+      }
+    },
+    {
+      "id": "christlike-growth-honesty",
+      "categoryId": "christlike-growth",
+      "title": {
+        "en": "Honesty",
+        "ko": "정직"
+      }
+    },
+    {
+      "id": "christlike-growth-faith",
+      "categoryId": "christlike-growth",
+      "title": {
+        "en": "Faith",
+        "ko": "믿음"
+      }
+    },
+    {
+      "id": "christlike-growth-good-works",
+      "categoryId": "christlike-growth",
+      "title": {
+        "en": "Doing good",
+        "ko": "선을 행하기"
+      }
+    }
+  ],
+  "passages": [
+    {
+      "id": "study-2co-5-17",
+      "contentVersion": 1,
+      "categoryId": "new-life",
+      "topicId": "new-life-christ-center",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "A01",
+        "reference": "2CO.5.17"
+      },
+      "reference": {
+        "bookId": "2CO",
+        "chapter": 5,
+        "verses": [
+          17
+        ],
+        "displayNames": {
+          "tr": "2. Korintliler 5:17",
+          "en": "2 Corinthians 5:17",
+          "ko": "고린도후서 5:17"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "2CO.5.17"
+      ],
+      "file": "passages/study-2co-5-17.json",
+      "search": {
+        "vocabulary": [
+          "Mesih",
+          "Christ / Messiah",
+          "그리스도·메시아",
+          "yaratık",
+          "creature / created being",
+          "피조물",
+          "şey",
+          "thing",
+          "것",
+          "geçmek",
+          "pass / cross",
+          "지나다",
+          "olmak",
+          "be / become",
+          "이다·되다"
+        ],
+        "grammar": [
+          "A condition without a finite verb",
+          "유한 동사 없이 만드는 조건",
+          "Result and assertion",
+          "결과와 단정"
+        ]
+      }
+    },
+    {
+      "id": "study-gal-2-20",
+      "contentVersion": 1,
+      "categoryId": "new-life",
+      "topicId": "new-life-christ-center",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "A02",
+        "reference": "GAL.2.20"
+      },
+      "reference": {
+        "bookId": "GAL",
+        "chapter": 2,
+        "verses": [
+          20
+        ],
+        "displayNames": {
+          "tr": "Galatyalılar 2:20",
+          "en": "Galatians 2:20",
+          "ko": "갈라디아서 2:20"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "GAL.2.20"
+      ],
+      "file": "passages/study-gal-2-20.json",
+      "search": {
+        "vocabulary": [
+          "germek",
+          "stretch / fasten to a cross with çarmıha",
+          "펴다·çarmıha와 함께 십자가에 못 박다",
+          "yaşamak",
+          "live",
+          "살다",
+          "ben",
+          "I",
+          "나",
+          "sürdürmek",
+          "continue / maintain",
+          "계속하다·유지하다",
+          "yaşam",
+          "life",
+          "삶·생명",
+          "sevmek",
+          "love (verb)",
+          "사랑하다",
+          "iman",
+          "faith",
+          "믿음"
+        ],
+        "grammar": [
+          "Participial modifiers before nouns",
+          "명사 앞의 관계 수식",
+          "Trust directed toward a person",
+          "사람을 향한 믿음"
+        ]
+      }
+    },
+    {
+      "id": "study-rom-12-1",
+      "contentVersion": 1,
+      "categoryId": "new-life",
+      "topicId": "new-life-obedience",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "A03",
+        "reference": "ROM.12.1"
+      },
+      "reference": {
+        "bookId": "ROM",
+        "chapter": 12,
+        "verses": [
+          1
+        ],
+        "displayNames": {
+          "tr": "Romalılar 12:1",
+          "en": "Romans 12:1",
+          "ko": "로마서 12:1"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "ROM.12.1"
+      ],
+      "file": "passages/study-rom-12-1.json",
+      "search": {
+        "vocabulary": [
+          "kardeş",
+          "sibling / fellow believer in context",
+          "형제자매·문맥상 동료 신자",
+          "merhamet",
+          "mercy / compassion",
+          "긍휼·자비",
+          "beden",
+          "body",
+          "몸",
+          "etmek",
+          "do / make (auxiliary)",
+          "하다",
+          "sunmak",
+          "offer / present",
+          "바치다·제시하다",
+          "tapınmak",
+          "worship",
+          "예배하다"
+        ],
+        "grammar": [
+          "Genitive plus possession",
+          "속격과 소유형",
+          "An offering as a role",
+          "제물이라는 역할"
+        ]
+      }
+    },
+    {
+      "id": "study-jhn-14-21",
+      "contentVersion": 1,
+      "categoryId": "new-life",
+      "topicId": "new-life-obedience",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "A04",
+        "reference": "JHN.14.21"
+      },
+      "reference": {
+        "bookId": "JHN",
+        "chapter": 14,
+        "verses": [
+          21
+        ],
+        "displayNames": {
+          "tr": "Yuhanna 14:21",
+          "en": "John 14:21",
+          "ko": "요한복음 14:21"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "JHN.14.21"
+      ],
+      "file": "passages/study-jhn-14-21.json",
+      "search": {
+        "vocabulary": [
+          "buyruk",
+          "command",
+          "명령",
+          "getirmek",
+          "bring",
+          "가져오다",
+          "sevmek",
+          "love (verb)",
+          "사랑하다",
+          "sevmek",
+          "love (verb)",
+          "사랑하다",
+          "kendi",
+          "self",
+          "자신",
+          "göstermek",
+          "show",
+          "보여주다"
+        ],
+        "grammar": [
+          "Whoever and the correlated pronoun",
+          "누구든지 조건과 호응 대명사",
+          "Objects inside and outside a participle",
+          "관계형 안팎의 목적어"
+        ]
+      }
+    },
+    {
+      "id": "study-2ti-3-16",
+      "contentVersion": 1,
+      "categoryId": "new-life",
+      "topicId": "new-life-word",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "A05",
+        "reference": "2TI.3.16"
+      },
+      "reference": {
+        "bookId": "2TI",
+        "chapter": 3,
+        "verses": [
+          16
+        ],
+        "displayNames": {
+          "tr": "2. Timoteos 3:16",
+          "en": "2 Timothy 3:16",
+          "ko": "디모데후서 3:16"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "2TI.3.16"
+      ],
+      "file": "passages/study-2ti-3-16.json",
+      "search": {
+        "vocabulary": [
+          "tüm",
+          "all / entire",
+          "모든",
+          "esinleme",
+          "inspiration",
+          "영감",
+          "öğretmek",
+          "teach",
+          "가르치다",
+          "yol",
+          "road / way",
+          "길",
+          "konu",
+          "subject / matter",
+          "주제·일",
+          "yararlı",
+          "useful / beneficial",
+          "유익한"
+        ],
+        "grammar": [
+          "A shared purpose phrase",
+          "공유하는 목적 구",
+          "Noun compounds and topic markers",
+          "명사 결합과 주제 표현"
+        ]
+      }
+    },
+    {
+      "id": "study-jos-1-8",
+      "contentVersion": 1,
+      "categoryId": "new-life",
+      "topicId": "new-life-word",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "A06",
+        "reference": "JOS.1.8"
+      },
+      "reference": {
+        "bookId": "JOS",
+        "chapter": 1,
+        "verses": [
+          8
+        ],
+        "displayNames": {
+          "tr": "Yeşu 1:8",
+          "en": "Joshua 1:8",
+          "ko": "여호수아 1:8"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "JOS.1.8"
+      ],
+      "file": "passages/study-jos-1-8.json",
+      "search": {
+        "vocabulary": [
+          "yazmak",
+          "write",
+          "쓰다",
+          "dil",
+          "tongue / language",
+          "혀·언어",
+          "düşürmek",
+          "cause to fall / lower",
+          "떨어뜨리다",
+          "özen",
+          "care / attention",
+          "정성·주의",
+          "amaç",
+          "purpose",
+          "목적",
+          "ulaşmak",
+          "reach",
+          "도달하다"
+        ],
+        "grammar": [
+          "Passive participles used as nouns",
+          "명사처럼 쓰는 피동 관계형",
+          "Purpose and coordinated future",
+          "목적과 나란한 미래"
+        ]
+      }
+    },
+    {
+      "id": "study-jhn-15-7",
+      "contentVersion": 1,
+      "categoryId": "new-life",
+      "topicId": "new-life-prayer",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "A07",
+        "reference": "JHN.15.7"
+      },
+      "reference": {
+        "bookId": "JHN",
+        "chapter": 15,
+        "verses": [
+          7
+        ],
+        "displayNames": {
+          "tr": "Yuhanna 15:7",
+          "en": "John 15:7",
+          "ko": "요한복음 15:7"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "JHN.15.7"
+      ],
+      "file": "passages/study-jhn-15-7.json",
+      "search": {
+        "vocabulary": [
+          "kalmak",
+          "remain / stay",
+          "남다·머물다",
+          "söz",
+          "word / statement / promise",
+          "말·진술·약속",
+          "siz",
+          "you (plural / polite)",
+          "여러분·공손한 당신",
+          "istemek",
+          "want / request",
+          "원하다·청하다",
+          "dilemek",
+          "wish / request",
+          "바라다·청하다",
+          "vermek",
+          "give",
+          "주다"
+        ],
+        "grammar": [
+          "The person changes between conditions",
+          "조건절 사이의 인칭 변화",
+          "Passive promise in context",
+          "문맥 안의 피동 약속"
+        ]
+      }
+    },
+    {
+      "id": "study-php-4-6-7",
+      "contentVersion": 1,
+      "categoryId": "new-life",
+      "topicId": "new-life-prayer",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "A08",
+        "reference": "PHP.4.6,7"
+      },
+      "reference": {
+        "bookId": "PHP",
+        "chapter": 4,
+        "verses": [
+          6,
+          7
+        ],
+        "displayNames": {
+          "tr": "Filipililer 4:6, 7",
+          "en": "Philippians 4:6, 7",
+          "ko": "빌립보서 4:6, 7"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "PHP.4.6",
+        "PHP.4.7"
+      ],
+      "file": "passages/study-php-4-6-7.json",
+      "search": {
+        "vocabulary": [
+          "kaygılanmak",
+          "worry",
+          "걱정하다",
+          "konu",
+          "subject / matter",
+          "주제·일",
+          "dilek",
+          "wish / request",
+          "바람·요청",
+          "yalvarmak",
+          "plead / urge",
+          "간청하다",
+          "aşmak",
+          "exceed / surpass",
+          "넘다",
+          "esenlik",
+          "peace / well-being",
+          "평안",
+          "korumak",
+          "protect / preserve",
+          "지키다"
+        ],
+        "grammar": [
+          "Three linked ways of presenting requests",
+          "요청을 아뢰는 연결 표현",
+          "A participle inside a possessed subject",
+          "소유 주어 안의 관계형"
+        ]
+      }
+    },
+    {
+      "id": "study-mat-18-20",
+      "contentVersion": 1,
+      "categoryId": "new-life",
+      "topicId": "new-life-fellowship",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "A09",
+        "reference": "MAT.18.20"
+      },
+      "reference": {
+        "bookId": "MAT",
+        "chapter": 18,
+        "verses": [
+          20
+        ],
+        "displayNames": {
+          "tr": "Matta 18:20",
+          "en": "Matthew 18:20",
+          "ko": "마태복음 18:20"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "MAT.18.20"
+      ],
+      "file": "passages/study-mat-18-20.json",
+      "search": {
+        "vocabulary": [
+          "ad",
+          "name",
+          "이름",
+          "toplanmak",
+          "gather / be assembled",
+          "모이다",
+          "ora",
+          "that place",
+          "그곳",
+          "ara",
+          "space / interval / between",
+          "사이·간격"
+        ],
+        "grammar": [
+          "Where … there",
+          "어디든지 … 그곳에",
+          "Possession plus location plus person",
+          "소유·처소·인칭 연결"
+        ]
+      }
+    },
+    {
+      "id": "study-heb-10-24-25",
+      "contentVersion": 1,
+      "categoryId": "new-life",
+      "topicId": "new-life-fellowship",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "A10",
+        "reference": "HEB.10.24,25"
+      },
+      "reference": {
+        "bookId": "HEB",
+        "chapter": 10,
+        "verses": [
+          24,
+          25
+        ],
+        "displayNames": {
+          "tr": "İbraniler 10:24, 25",
+          "en": "Hebrews 10:24, 25",
+          "ko": "히브리서 10:24, 25"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "HEB.10.24",
+        "HEB.10.25"
+      ],
+      "file": "passages/study-heb-10-24-25.json",
+      "search": {
+        "vocabulary": [
+          "birbiri",
+          "one another",
+          "서로",
+          "getirmek",
+          "bring",
+          "가져오다",
+          "gelmek",
+          "come",
+          "오다",
+          "vazgeçmek",
+          "give up / abandon",
+          "포기하다",
+          "yaklaşmak",
+          "approach",
+          "다가가다",
+          "görmek",
+          "see",
+          "보다",
+          "yüreklendirmek",
+          "encourage",
+          "용기를 주다"
+        ],
+        "grammar": [
+          "Embedded questions and clause objects",
+          "내포 의문·명사절 목적어",
+          "Inclusive exhortations",
+          "함께 하는 권면"
+        ]
+      }
+    },
+    {
+      "id": "study-mat-4-19",
+      "contentVersion": 1,
+      "categoryId": "new-life",
+      "topicId": "new-life-witness",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "A11",
+        "reference": "MAT.4.19"
+      },
+      "reference": {
+        "bookId": "MAT",
+        "chapter": 4,
+        "verses": [
+          19
+        ],
+        "displayNames": {
+          "tr": "Matta 4:19",
+          "en": "Matthew 4:19",
+          "ko": "마태복음 4:19"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "MAT.4.19"
+      ],
+      "file": "passages/study-mat-4-19.json",
+      "search": {
+        "vocabulary": [
+          "onlar",
+          "they / those",
+          "그들·그것들",
+          "art",
+          "back / rear",
+          "뒤",
+          "gelmek",
+          "come",
+          "오다",
+          "siz",
+          "you (plural / polite)",
+          "여러분·공손한 당신",
+          "tutmak",
+          "hold / keep",
+          "잡다·유지하다",
+          "yapmak",
+          "do / make",
+          "하다·만들다"
+        ],
+        "grammar": [
+          "Direct speech preserves its own persons",
+          "직접 인용의 인칭",
+          "Object plus resulting role",
+          "목적어와 결과 역할"
+        ]
+      }
+    },
+    {
+      "id": "study-rom-1-16",
+      "contentVersion": 1,
+      "categoryId": "new-life",
+      "topicId": "new-life-witness",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "A12",
+        "reference": "ROM.1.16"
+      },
+      "reference": {
+        "bookId": "ROM",
+        "chapter": 1,
+        "verses": [
+          16
+        ],
+        "displayNames": {
+          "tr": "Romalılar 1:16",
+          "en": "Romans 1:16",
+          "ko": "로마서 1:16"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "ROM.1.16"
+      ],
+      "file": "passages/study-rom-1-16.json",
+      "search": {
+        "vocabulary": [
+          "müjde",
+          "good news / gospel in context",
+          "좋은 소식·문맥상 복음",
+          "utanmak",
+          "be ashamed",
+          "부끄러워하다",
+          "herkes",
+          "everyone",
+          "모두",
+          "olmak",
+          "be / become",
+          "이다·되다",
+          "kurtuluş",
+          "salvation / rescue",
+          "구원",
+          "güç",
+          "strength / power",
+          "힘·능력"
+        ],
+        "grammar": [
+          "Ablative beyond literal movement",
+          "이동 외의 탈격",
+          "A long possessor phrase",
+          "긴 소유자 구"
+        ]
+      }
+    },
+    {
+      "id": "study-rom-3-23",
+      "contentVersion": 1,
+      "categoryId": "proclaiming-christ",
+      "topicId": "proclaiming-christ-sin",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "B01",
+        "reference": "ROM.3.23"
+      },
+      "reference": {
+        "bookId": "ROM",
+        "chapter": 3,
+        "verses": [
+          23
+        ],
+        "displayNames": {
+          "tr": "Romalılar 3:23",
+          "en": "Romans 3:23",
+          "ko": "로마서 3:23"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "ROM.3.23"
+      ],
+      "file": "passages/study-rom-3-23.json",
+      "search": {
+        "vocabulary": [
+          "herkes",
+          "everyone",
+          "모두",
+          "işlemek",
+          "do / commit / work",
+          "행하다·일하다",
+          "yücelik",
+          "glory / greatness",
+          "영광·위대함",
+          "yoksun",
+          "deprived / lacking",
+          "없는·결핍된",
+          "kalmak",
+          "remain / stay",
+          "남다·머물다"
+        ],
+        "grammar": [
+          "An ablative required by an adjective",
+          "형용사가 요구하는 탈격",
+          "Shared subject, parallel past",
+          "공통 주어·나란한 과거"
+        ]
+      }
+    },
+    {
+      "id": "study-isa-53-6",
+      "contentVersion": 1,
+      "categoryId": "proclaiming-christ",
+      "topicId": "proclaiming-christ-sin",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "B02",
+        "reference": "ISA.53.6"
+      },
+      "reference": {
+        "bookId": "ISA",
+        "chapter": 53,
+        "verses": [
+          6
+        ],
+        "displayNames": {
+          "tr": "Yeşaya 53:6",
+          "en": "Isaiah 53:6",
+          "ko": "이사야 53:6"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "ISA.53.6"
+      ],
+      "file": "passages/study-isa-53-6.json",
+      "search": {
+        "vocabulary": [
+          "hep",
+          "always / all along",
+          "항상",
+          "yol",
+          "road / way",
+          "길",
+          "sapmak",
+          "stray / deviate",
+          "빗나가다",
+          "yol",
+          "road / way",
+          "길",
+          "ceza",
+          "punishment / penalty",
+          "벌·형벌",
+          "yüklemek",
+          "load / place upon",
+          "싣다·지우다"
+        ],
+        "grammar": [
+          "Prior state and later events",
+          "이전 상태와 뒤의 사건",
+          "Metaphor and Christian interpretation",
+          "비유와 기독교 해석"
+        ]
+      }
+    },
+    {
+      "id": "study-rom-6-23",
+      "contentVersion": 1,
+      "categoryId": "proclaiming-christ",
+      "topicId": "proclaiming-christ-sin-consequence",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "B03",
+        "reference": "ROM.6.23"
+      },
+      "reference": {
+        "bookId": "ROM",
+        "chapter": 6,
+        "verses": [
+          23
+        ],
+        "displayNames": {
+          "tr": "Romalılar 6:23",
+          "en": "Romans 6:23",
+          "ko": "로마서 6:23"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "ROM.6.23"
+      ],
+      "file": "passages/study-rom-6-23.json",
+      "search": {
+        "vocabulary": [
+          "günah",
+          "sin",
+          "죄",
+          "ücret",
+          "wage / payment",
+          "삯·임금",
+          "armağan",
+          "gift",
+          "선물",
+          "Rab",
+          "Lord",
+          "주",
+          "İsa",
+          "Jesus",
+          "예수",
+          "yaşam",
+          "life",
+          "삶·생명"
+        ],
+        "grammar": [
+          "Possessive chains without objects",
+          "목적어가 아닌 소유 결합",
+          "A contrastive ise",
+          "대조의 ise"
+        ]
+      }
+    },
+    {
+      "id": "study-heb-9-27",
+      "contentVersion": 1,
+      "categoryId": "proclaiming-christ",
+      "topicId": "proclaiming-christ-sin-consequence",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "B04",
+        "reference": "HEB.9.27"
+      },
+      "reference": {
+        "bookId": "HEB",
+        "chapter": 9,
+        "verses": [
+          27
+        ],
+        "displayNames": {
+          "tr": "İbraniler 9:27",
+          "en": "Hebrews 9:27",
+          "ko": "히브리서 9:27"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "HEB.9.27"
+      ],
+      "file": "passages/study-heb-9-27.json",
+      "search": {
+        "vocabulary": [
+          "ölmek",
+          "die",
+          "죽다",
+          "yargılanmak",
+          "be judged / tried",
+          "심판·재판을 받다",
+          "olmak",
+          "be / become",
+          "이다·되다",
+          "etmek",
+          "do / make (auxiliary)",
+          "하다",
+          "beklemek",
+          "wait / expect",
+          "기다리다",
+          "görünmek",
+          "appear / be seen",
+          "나타나다·보이다"
+        ],
+        "grammar": [
+          "Two events in a comparison",
+          "비교 안의 두 사건",
+          "Purposes contrasted, people described",
+          "목적 대조·사람 묘사"
+        ]
+      },
+      "quotedReference": {
+        "verses": [
+          27,
+          28
+        ],
+        "displayNames": {
+          "tr": "İbraniler 9:27–28",
+          "en": "Hebrews 9:27–28",
+          "ko": "히브리서 9:27–28"
+        }
+      },
+      "quotationNote": {
+        "en": "TCL02 publishes 9:27–28 as one translation unit. The original selection names 9:27; the complete published unit is retained here.",
+        "ko": "TCL02는 9:27–28을 한 번역 단위로 제공합니다. 원 선정은 9:27이며 여기서는 출판된 단위 전체를 유지합니다."
+      }
+    },
+    {
+      "id": "study-rom-5-8",
+      "contentVersion": 1,
+      "categoryId": "proclaiming-christ",
+      "topicId": "proclaiming-christ-christ-sacrifice",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "B05",
+        "reference": "ROM.5.8"
+      },
+      "reference": {
+        "bookId": "ROM",
+        "chapter": 5,
+        "verses": [
+          8
+        ],
+        "displayNames": {
+          "tr": "Romalılar 5:8",
+          "en": "Romans 5:8",
+          "ko": "로마서 5:8"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "ROM.5.8"
+      ],
+      "file": "passages/study-rom-5-8.json",
+      "search": {
+        "vocabulary": [
+          "sevmek",
+          "love (verb)",
+          "사랑하다",
+          "şu",
+          "this / that (pointed out)",
+          "이것·저것 (가리킴)",
+          "kanıtlamak",
+          "demonstrate / prove",
+          "입증하다",
+          "günahkâr",
+          "sinner / sinful",
+          "죄인·죄 있는",
+          "ölmek",
+          "die",
+          "죽다"
+        ],
+        "grammar": [
+          "The demonstrated fact as an object",
+          "증명되는 사실을 목적어로",
+          "Nominal -ken",
+          "명사 술어의 -ken"
+        ]
+      }
+    },
+    {
+      "id": "study-1pe-3-18",
+      "contentVersion": 1,
+      "categoryId": "proclaiming-christ",
+      "topicId": "proclaiming-christ-christ-sacrifice",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "B06",
+        "reference": "1PE.3.18"
+      },
+      "reference": {
+        "bookId": "1PE",
+        "chapter": 3,
+        "verses": [
+          18
+        ],
+        "displayNames": {
+          "tr": "1. Petrus 3:18",
+          "en": "1 Peter 3:18",
+          "ko": "베드로전서 3:18"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "1PE.3.18"
+      ],
+      "file": "passages/study-1pe-3-18.json",
+      "search": {
+        "vocabulary": [
+          "ulaşmak",
+          "reach",
+          "도달하다",
+          "amaç",
+          "purpose",
+          "목적",
+          "olmak",
+          "be / become",
+          "이다·되다",
+          "sunu",
+          "offering",
+          "제물",
+          "ölmek",
+          "die",
+          "죽다",
+          "diriltmek",
+          "bring to life / raise from the dead",
+          "살리다·죽음에서 일으키다"
+        ],
+        "grammar": [
+          "Purpose and role",
+          "목적과 역할",
+          "Voice and aspect expressions",
+          "태와 측면 표현"
+        ]
+      }
+    },
+    {
+      "id": "study-eph-2-8-9",
+      "contentVersion": 1,
+      "categoryId": "proclaiming-christ",
+      "topicId": "proclaiming-christ-grace-salvation",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "B07",
+        "reference": "EPH.2.8,9"
+      },
+      "reference": {
+        "bookId": "EPH",
+        "chapter": 2,
+        "verses": [
+          8,
+          9
+        ],
+        "displayNames": {
+          "tr": "Efesliler 2:8, 9",
+          "en": "Ephesians 2:8, 9",
+          "ko": "에베소서 2:8, 9"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "EPH.2.8",
+        "EPH.2.9"
+      ],
+      "file": "passages/study-eph-2-8-9.json",
+      "search": {
+        "vocabulary": [
+          "yol",
+          "road / way",
+          "길",
+          "lütuf",
+          "grace / favor",
+          "은혜",
+          "kurtulmak",
+          "be rescued / escape",
+          "구원받다·벗어나다",
+          "başarı",
+          "success",
+          "성공",
+          "övünmek",
+          "boast",
+          "자랑하다",
+          "ödül",
+          "reward",
+          "상"
+        ],
+        "grammar": [
+          "Negative verbal noun with its own subject",
+          "주어를 가진 부정 동사 명사형",
+          "Verb negation versus noun negation",
+          "동사 부정과 명사 부정"
+        ]
+      }
+    },
+    {
+      "id": "study-tit-3-5",
+      "contentVersion": 1,
+      "categoryId": "proclaiming-christ",
+      "topicId": "proclaiming-christ-grace-salvation",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "B08",
+        "reference": "TIT.3.5"
+      },
+      "reference": {
+        "bookId": "TIT",
+        "chapter": 3,
+        "verses": [
+          5
+        ],
+        "displayNames": {
+          "tr": "Titus 3:5",
+          "en": "Titus 3:5",
+          "ko": "디도서 3:5"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "TIT.3.5"
+      ],
+      "file": "passages/study-tit-3-5.json",
+      "search": {
+        "vocabulary": [
+          "kurtarıcı",
+          "savior / rescuer",
+          "구원자",
+          "göstermek",
+          "show",
+          "보여주다",
+          "yapmak",
+          "do / make",
+          "하다·만들다",
+          "iş",
+          "work / deed / affair",
+          "일·행위",
+          "merhamet",
+          "mercy / compassion",
+          "긍휼·자비",
+          "dökmek",
+          "pour / spill",
+          "붓다",
+          "yenilemek",
+          "renew",
+          "새롭게 하다"
+        ],
+        "grammar": [
+          "Contrasting causes and means",
+          "원인과 수단 대조",
+          "Nested modifiers with different subjects",
+          "주어가 다른 중첩 수식"
+        ]
+      },
+      "quotedReference": {
+        "verses": [
+          4,
+          5,
+          6
+        ],
+        "displayNames": {
+          "tr": "Titus 3:4–6",
+          "en": "Titus 3:4–6",
+          "ko": "디도서 3:4–6"
+        }
+      },
+      "quotationNote": {
+        "en": "TCL02 publishes 3:4–6 as one translation unit. The original selection names 3:5; the complete published unit is retained here.",
+        "ko": "TCL02는 3:4–6을 한 번역 단위로 제공합니다. 원 선정은 3:5이며 여기서는 출판된 단위 전체를 유지합니다."
+      }
+    },
+    {
+      "id": "study-jhn-1-12",
+      "contentVersion": 1,
+      "categoryId": "proclaiming-christ",
+      "topicId": "proclaiming-christ-receiving-christ",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "B09",
+        "reference": "JHN.1.12"
+      },
+      "reference": {
+        "bookId": "JHN",
+        "chapter": 1,
+        "verses": [
+          12
+        ],
+        "displayNames": {
+          "tr": "Yuhanna 1:12",
+          "en": "John 1:12",
+          "ko": "요한복음 1:12"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "JHN.1.12"
+      ],
+      "file": "passages/study-jhn-1-12.json",
+      "search": {
+        "vocabulary": [
+          "kabul",
+          "acceptance",
+          "받아들임",
+          "etmek",
+          "do / make (auxiliary)",
+          "하다",
+          "etmek",
+          "do / make (auxiliary)",
+          "하다",
+          "hep",
+          "always / all along",
+          "항상",
+          "olmak",
+          "be / become",
+          "이다·되다",
+          "hak",
+          "right / entitlement",
+          "권리"
+        ],
+        "grammar": [
+          "Recipients are not the gift",
+          "청자와 선물을 구별하기",
+          "The content of a right",
+          "권리의 내용"
+        ]
+      }
+    },
+    {
+      "id": "study-rev-3-20",
+      "contentVersion": 1,
+      "categoryId": "proclaiming-christ",
+      "topicId": "proclaiming-christ-receiving-christ",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "B10",
+        "reference": "REV.3.20"
+      },
+      "reference": {
+        "bookId": "REV",
+        "chapter": 3,
+        "verses": [
+          20
+        ],
+        "displayNames": {
+          "tr": "Vahiy 3:20",
+          "en": "Revelation 3:20",
+          "ko": "요한계시록 3:20"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "REV.3.20"
+      ],
+      "file": "passages/study-rev-3-20.json",
+      "search": {
+        "vocabulary": [
+          "kapı",
+          "door",
+          "문",
+          "kapı",
+          "door",
+          "문",
+          "ses",
+          "voice / sound",
+          "목소리·소리",
+          "açmak",
+          "open",
+          "열다",
+          "yan",
+          "side",
+          "옆",
+          "yemek",
+          "eat (verb)",
+          "먹다 (동사)"
+        ],
+        "grammar": [
+          "One noun in two cases",
+          "한 명사의 두 격",
+          "Changing person at the shared meal",
+          "함께 먹을 때 바뀌는 인칭"
+        ]
+      }
+    },
+    {
+      "id": "study-1jn-5-13",
+      "contentVersion": 1,
+      "categoryId": "proclaiming-christ",
+      "topicId": "proclaiming-christ-assurance",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "B11",
+        "reference": "1JN.5.13"
+      },
+      "reference": {
+        "bookId": "1JN",
+        "chapter": 5,
+        "verses": [
+          13
+        ],
+        "displayNames": {
+          "tr": "1. Yuhanna 5:13",
+          "en": "1 John 5:13",
+          "ko": "요한일서 5:13"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "1JN.5.13"
+      ],
+      "file": "passages/study-1jn-5-13.json",
+      "search": {
+        "vocabulary": [
+          "ad",
+          "name",
+          "이름",
+          "siz",
+          "you (plural / polite)",
+          "여러분·공손한 당신",
+          "yaşam",
+          "life",
+          "삶·생명",
+          "olmak",
+          "be / become",
+          "이다·되다",
+          "bilmek",
+          "know",
+          "알다",
+          "yazmak",
+          "write",
+          "쓰다"
+        ],
+        "grammar": [
+          "Dative possessions and embedded knowledge",
+          "여격 소유와 내포된 앎",
+          "A purpose clause with diye",
+          "diye 목적절"
+        ]
+      }
+    },
+    {
+      "id": "study-jhn-5-24",
+      "contentVersion": 1,
+      "categoryId": "proclaiming-christ",
+      "topicId": "proclaiming-christ-assurance",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "B12",
+        "reference": "JHN.5.24"
+      },
+      "reference": {
+        "bookId": "JHN",
+        "chapter": 5,
+        "verses": [
+          24
+        ],
+        "displayNames": {
+          "tr": "Yuhanna 5:24",
+          "en": "John 5:24",
+          "ko": "요한복음 5:24"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "JHN.5.24"
+      ],
+      "file": "passages/study-jhn-5-24.json",
+      "search": {
+        "vocabulary": [
+          "söylemek",
+          "say / tell",
+          "말하다",
+          "söz",
+          "word / statement / promise",
+          "말·진술·약속",
+          "göndermek",
+          "send",
+          "보내다",
+          "etmek",
+          "do / make (auxiliary)",
+          "하다",
+          "yargılanmak",
+          "be judged / tried",
+          "심판·재판을 받다",
+          "geçmek",
+          "pass / cross",
+          "지나다"
+        ],
+        "grammar": [
+          "A participle inside another participant phrase",
+          "참여자 구 안의 관계형",
+          "Existence as possession",
+          "소유를 나타내는 존재 구문"
+        ]
+      }
+    },
+    {
+      "id": "study-1co-3-16",
+      "contentVersion": 1,
+      "categoryId": "relying-on-god",
+      "topicId": "relying-on-god-spirit",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "C01",
+        "reference": "1CO.3.16"
+      },
+      "reference": {
+        "bookId": "1CO",
+        "chapter": 3,
+        "verses": [
+          16
+        ],
+        "displayNames": {
+          "tr": "1. Korintliler 3:16",
+          "en": "1 Corinthians 3:16",
+          "ko": "고린도전서 3:16"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "1CO.3.16"
+      ],
+      "file": "passages/study-1co-3-16.json",
+      "search": {
+        "vocabulary": [
+          "tapınak",
+          "temple",
+          "성전",
+          "olmak",
+          "be / become",
+          "이다·되다",
+          "ruh",
+          "spirit",
+          "영",
+          "yaşamak",
+          "live",
+          "살다",
+          "bilmek",
+          "know",
+          "알다",
+          "mi",
+          "question particle",
+          "의문 조사"
+        ],
+        "grammar": [
+          "Nested genitives",
+          "중첩 속격",
+          "Rhetorical negative questions",
+          "수사적 부정 의문"
+        ]
+      }
+    },
+    {
+      "id": "study-1co-2-12",
+      "contentVersion": 1,
+      "categoryId": "relying-on-god",
+      "topicId": "relying-on-god-spirit",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "C02",
+        "reference": "1CO.2.12"
+      },
+      "reference": {
+        "bookId": "1CO",
+        "chapter": 2,
+        "verses": [
+          12
+        ],
+        "displayNames": {
+          "tr": "1. Korintliler 2:12",
+          "en": "1 Corinthians 2:12",
+          "ko": "고린도전서 2:12"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "1CO.2.12"
+      ],
+      "file": "passages/study-1co-2-12.json",
+      "search": {
+        "vocabulary": [
+          "lütfetmek",
+          "grant graciously",
+          "은혜로 베풀다",
+          "bilmek",
+          "know",
+          "알다",
+          "dünya",
+          "world",
+          "세상",
+          "ruh",
+          "spirit",
+          "영",
+          "gelmek",
+          "come",
+          "오다",
+          "almak",
+          "take / receive",
+          "받다·취하다"
+        ],
+        "grammar": [
+          "Not X but Y as a shared object",
+          "공유 목적어의 대조",
+          "Purpose and source",
+          "목적과 출처"
+        ]
+      }
+    },
+    {
+      "id": "study-isa-41-10",
+      "contentVersion": 1,
+      "categoryId": "relying-on-god",
+      "topicId": "relying-on-god-strength",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "C03",
+        "reference": "ISA.41.10"
+      },
+      "reference": {
+        "bookId": "ISA",
+        "chapter": 41,
+        "verses": [
+          10
+        ],
+        "displayNames": {
+          "tr": "Yeşaya 41:10",
+          "en": "Isaiah 41:10",
+          "ko": "이사야 41:10"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "ISA.41.10"
+      ],
+      "file": "passages/study-isa-41-10.json",
+      "search": {
+        "vocabulary": [
+          "korkmak",
+          "fear",
+          "두려워하다",
+          "sen",
+          "you (singular)",
+          "너 (단수)",
+          "Tanrı",
+          "God",
+          "하나님",
+          "güçlendirmek",
+          "strengthen",
+          "강하게 하다",
+          "el",
+          "hand",
+          "손",
+          "olmak",
+          "be / become",
+          "이다·되다"
+        ],
+        "grammar": [
+          "Pronoun plus ile plus person",
+          "대명사·ile·인칭",
+          "Different case frames in parallel help",
+          "나란한 도움의 서로 다른 격"
+        ]
+      }
+    },
+    {
+      "id": "study-php-4-13",
+      "contentVersion": 1,
+      "categoryId": "relying-on-god",
+      "topicId": "relying-on-god-strength",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "C04",
+        "reference": "PHP.4.13"
+      },
+      "reference": {
+        "bookId": "PHP",
+        "chapter": 4,
+        "verses": [
+          13
+        ],
+        "displayNames": {
+          "tr": "Filipililer 4:13",
+          "en": "Philippians 4:13",
+          "ko": "빌립보서 4:13"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "PHP.4.13"
+      ],
+      "file": "passages/study-php-4-13.json",
+      "search": {
+        "vocabulary": [
+          "güçlendirmek",
+          "strengthen",
+          "강하게 하다",
+          "aracılık",
+          "mediation / agency",
+          "매개",
+          "şey",
+          "thing",
+          "것",
+          "yapmak",
+          "do / make",
+          "하다·만들다"
+        ],
+        "grammar": [
+          "A person described by an action",
+          "행동으로 묘사한 사람",
+          "Ability, not simple future",
+          "미래가 아닌 가능"
+        ]
+      }
+    },
+    {
+      "id": "study-lam-3-22-23",
+      "contentVersion": 1,
+      "categoryId": "relying-on-god",
+      "topicId": "relying-on-god-faithfulness",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "C05",
+        "reference": "LAM.3.22,23"
+      },
+      "reference": {
+        "bookId": "LAM",
+        "chapter": 3,
+        "verses": [
+          22,
+          23
+        ],
+        "displayNames": {
+          "tr": "Ağıtlar 3:22, 23",
+          "en": "Lamentations 3:22, 23",
+          "ko": "예레미야애가 3:22, 23"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "LAM.3.22",
+        "LAM.3.23"
+      ],
+      "file": "passages/study-lam-3-22-23.json",
+      "search": {
+        "vocabulary": [
+          "sevgi",
+          "love (noun)",
+          "사랑 (명사)",
+          "tükenmek",
+          "run out / be exhausted",
+          "다하다·소진되다",
+          "merhamet",
+          "mercy / compassion",
+          "긍휼·자비",
+          "tazelenmek",
+          "be refreshed / renewed",
+          "새로워지다",
+          "sadakat",
+          "faithfulness / loyalty",
+          "신실함·충실함",
+          "büyük",
+          "big / great",
+          "큰"
+        ],
+        "grammar": [
+          "Third-person description to direct address",
+          "3인칭 묘사에서 직접 호칭으로",
+          "Poetic word order",
+          "시적 어순"
+        ]
+      }
+    },
+    {
+      "id": "study-num-23-19",
+      "contentVersion": 1,
+      "categoryId": "relying-on-god",
+      "topicId": "relying-on-god-faithfulness",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "C06",
+        "reference": "NUM.23.19"
+      },
+      "reference": {
+        "bookId": "NUM",
+        "chapter": 23,
+        "verses": [
+          19
+        ],
+        "displayNames": {
+          "tr": "Çölde Sayım 23:19",
+          "en": "Numbers 23:19",
+          "ko": "민수기 23:19"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "NUM.23.19"
+      ],
+      "file": "passages/study-num-23-19.json",
+      "search": {
+        "vocabulary": [
+          "söylemek",
+          "say / tell",
+          "말하다",
+          "soy",
+          "lineage / kind / offspring",
+          "혈통·종류·자손",
+          "düşünce",
+          "thought / thinking",
+          "생각",
+          "yapmak",
+          "do / make",
+          "하다·만들다",
+          "getirmek",
+          "bring",
+          "가져오다"
+        ],
+        "grammar": [
+          "Rhetorical -sin and ki",
+          "수사적 -sin과 ki",
+          "Questions with shared actions",
+          "나란한 행동의 의문"
+        ]
+      }
+    },
+    {
+      "id": "study-isa-26-3",
+      "contentVersion": 1,
+      "categoryId": "relying-on-god",
+      "topicId": "relying-on-god-peace",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "C07",
+        "reference": "ISA.26.3"
+      },
+      "reference": {
+        "bookId": "ISA",
+        "chapter": 26,
+        "verses": [
+          3
+        ],
+        "displayNames": {
+          "tr": "Yeşaya 26:3",
+          "en": "Isaiah 26:3",
+          "ko": "이사야 26:3"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "ISA.26.3"
+      ],
+      "file": "passages/study-isa-26-3.json",
+      "search": {
+        "vocabulary": [
+          "güvenmek",
+          "trust",
+          "신뢰하다",
+          "düşünce",
+          "thought / thinking",
+          "생각",
+          "sarsılmak",
+          "be shaken",
+          "흔들리다",
+          "olmak",
+          "be / become",
+          "이다·되다",
+          "korumak",
+          "protect / preserve",
+          "지키다"
+        ],
+        "grammar": [
+          "Different subjects in a causal sentence",
+          "원인 문장의 서로 다른 주어",
+          "For versus because",
+          "목적과 원인의 için"
+        ]
+      }
+    },
+    {
+      "id": "study-1pe-5-7",
+      "contentVersion": 1,
+      "categoryId": "relying-on-god",
+      "topicId": "relying-on-god-peace",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "C08",
+        "reference": "1PE.5.7"
+      },
+      "reference": {
+        "bookId": "1PE",
+        "chapter": 5,
+        "verses": [
+          7
+        ],
+        "displayNames": {
+          "tr": "1. Petrus 5:7",
+          "en": "1 Peter 5:7",
+          "ko": "베드로전서 5:7"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "1PE.5.7"
+      ],
+      "file": "passages/study-1pe-5-7.json",
+      "search": {
+        "vocabulary": [
+          "kaygı",
+          "worry / anxiety",
+          "걱정",
+          "o",
+          "he / she / it / that",
+          "그·그녀·그것",
+          "yüklemek",
+          "load / place upon",
+          "싣다·지우다",
+          "siz",
+          "you (plural / polite)",
+          "여러분·공손한 당신",
+          "kayırmak",
+          "favor / show partiality",
+          "편애하다"
+        ],
+        "grammar": [
+          "Possession, object, and recipient",
+          "소유·목적어·청자",
+          "A reason introduced by çünkü",
+          "çünkü가 소개하는 이유"
+        ]
+      }
+    },
+    {
+      "id": "study-rom-8-32",
+      "contentVersion": 1,
+      "categoryId": "relying-on-god",
+      "topicId": "relying-on-god-provision",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "C09",
+        "reference": "ROM.8.32"
+      },
+      "reference": {
+        "bookId": "ROM",
+        "chapter": 8,
+        "verses": [
+          32
+        ],
+        "displayNames": {
+          "tr": "Romalılar 8:32",
+          "en": "Romans 8:32",
+          "ko": "로마서 8:32"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "ROM.8.32"
+      ],
+      "file": "passages/study-rom-8-32.json",
+      "search": {
+        "vocabulary": [
+          "oğul",
+          "son",
+          "아들",
+          "esirgemek",
+          "withhold / spare",
+          "아끼다·면하게 하다",
+          "hep",
+          "always / all along",
+          "항상",
+          "ölüm",
+          "death",
+          "죽음",
+          "bağışlamak",
+          "forgive / give freely",
+          "용서하다·거저 주다"
+        ],
+        "grammar": [
+          "A long subject ending in its head noun",
+          "중심 명사로 끝나는 긴 주어",
+          "Rhetorical future negation",
+          "미래 부정의 수사 의문"
+        ]
+      }
+    },
+    {
+      "id": "study-php-4-19",
+      "contentVersion": 1,
+      "categoryId": "relying-on-god",
+      "topicId": "relying-on-god-provision",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "C10",
+        "reference": "PHP.4.19"
+      },
+      "reference": {
+        "bookId": "PHP",
+        "chapter": 4,
+        "verses": [
+          19
+        ],
+        "displayNames": {
+          "tr": "Filipililer 4:19",
+          "en": "Philippians 4:19",
+          "ko": "빌립보서 4:19"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "PHP.4.19"
+      ],
+      "file": "passages/study-php-4-19.json",
+      "search": {
+        "vocabulary": [
+          "Tanrı",
+          "God",
+          "하나님",
+          "ihtiyaç",
+          "need",
+          "필요",
+          "zenginlik",
+          "riches / wealth",
+          "풍성함·부",
+          "biçim",
+          "form / manner",
+          "형태·방식",
+          "karşılamak",
+          "meet / fulfill (a need)",
+          "맞이하다·충족하다"
+        ],
+        "grammar": [
+          "Every with a singular noun",
+          "her와 단수 명사",
+          "Location used for manner",
+          "방식을 나타내는 처소격"
+        ]
+      }
+    },
+    {
+      "id": "study-heb-2-18",
+      "contentVersion": 1,
+      "categoryId": "relying-on-god",
+      "topicId": "relying-on-god-temptation",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "C11",
+        "reference": "HEB.2.18"
+      },
+      "reference": {
+        "bookId": "HEB",
+        "chapter": 2,
+        "verses": [
+          18
+        ],
+        "displayNames": {
+          "tr": "İbraniler 2:18",
+          "en": "Hebrews 2:18",
+          "ko": "히브리서 2:18"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "HEB.2.18"
+      ],
+      "file": "passages/study-heb-2-18.json",
+      "search": {
+        "vocabulary": [
+          "denemek",
+          "try / test",
+          "시험하다·시도하다",
+          "çekmek",
+          "draw / pull; suffer with acı",
+          "당기다; acı와 함께 고통받다",
+          "denemek",
+          "try / test",
+          "시험하다·시도하다",
+          "etmek",
+          "do / make (auxiliary)",
+          "하다"
+        ],
+        "grammar": [
+          "Passive participants",
+          "피동 참여자",
+          "A causal experience",
+          "원인이 되는 경험"
+        ]
+      }
+    },
+    {
+      "id": "study-psa-119-9-11",
+      "contentVersion": 1,
+      "categoryId": "relying-on-god",
+      "topicId": "relying-on-god-temptation",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "C12",
+        "reference": "PSA.119.9,11"
+      },
+      "reference": {
+        "bookId": "PSA",
+        "chapter": 119,
+        "verses": [
+          9,
+          11
+        ],
+        "displayNames": {
+          "tr": "Mezmurlar 119:9, 11",
+          "en": "Psalms 119:9, 11",
+          "ko": "시편 119:9, 11"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "PSA.119.9",
+        "PSA.119.11"
+      ],
+      "file": "passages/study-psa-119-9-11.json",
+      "search": {
+        "vocabulary": [
+          "yol",
+          "road / way",
+          "길",
+          "söz",
+          "word / statement / promise",
+          "말·진술·약속",
+          "tutmak",
+          "hold / keep",
+          "잡다·유지하다",
+          "akıl",
+          "mind / understanding",
+          "마음·이해력",
+          "çıkarmak",
+          "take out / remove",
+          "꺼내다·제거하다",
+          "işlemek",
+          "do / commit / work",
+          "행하다·일하다"
+        ],
+        "grammar": [
+          "Identical surface forms, contextual possession",
+          "같은 형태의 문맥 소유",
+          "Two separate selected verses",
+          "서로 떨어진 두 절"
+        ]
+      }
+    },
+    {
+      "id": "study-mat-6-33",
+      "contentVersion": 1,
+      "categoryId": "discipleship",
+      "topicId": "discipleship-priority",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "D01",
+        "reference": "MAT.6.33"
+      },
+      "reference": {
+        "bookId": "MAT",
+        "chapter": 6,
+        "verses": [
+          33
+        ],
+        "displayNames": {
+          "tr": "Matta 6:33",
+          "en": "Matthew 6:33",
+          "ko": "마태복음 6:33"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "MAT.6.33"
+      ],
+      "file": "passages/study-mat-6-33.json",
+      "search": {
+        "vocabulary": [
+          "egemenlik",
+          "sovereignty / reign / kingdom",
+          "주권·통치·나라",
+          "doğruluk",
+          "rightness / righteousness / accuracy",
+          "의로움·정확함",
+          "gitmek",
+          "go",
+          "가다",
+          "vermek",
+          "give",
+          "주다"
+        ],
+        "grammar": [
+          "Pursuing with ardından gitmek",
+          "ardından gitmek으로 추구하기",
+          "Passive future and scope",
+          "피동 미래·범위"
+        ]
+      }
+    },
+    {
+      "id": "study-luk-9-23",
+      "contentVersion": 1,
+      "categoryId": "discipleship",
+      "topicId": "discipleship-priority",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "D02",
+        "reference": "LUK.9.23"
+      },
+      "reference": {
+        "bookId": "LUK",
+        "chapter": 9,
+        "verses": [
+          23
+        ],
+        "displayNames": {
+          "tr": "Luka 9:23",
+          "en": "Luke 9:23",
+          "ko": "누가복음 9:23"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "LUK.9.23"
+      ],
+      "file": "passages/study-luk-9-23.json",
+      "search": {
+        "vocabulary": [
+          "art",
+          "back / rear",
+          "뒤",
+          "istemek",
+          "want / request",
+          "원하다·청하다",
+          "çarmıh",
+          "cross (execution instrument)",
+          "십자가",
+          "yüklenmek",
+          "take upon oneself / shoulder",
+          "자신이 지다",
+          "izlemek",
+          "follow / watch",
+          "따르다·지켜보다"
+        ],
+        "grammar": [
+          "Participles without a following noun",
+          "뒤 명사 없는 관계형",
+          "Commands joined with -Ip",
+          "-Ip로 연결한 명령"
+        ]
+      }
+    },
+    {
+      "id": "study-1jn-2-15-16",
+      "contentVersion": 1,
+      "categoryId": "discipleship",
+      "topicId": "discipleship-world",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "D03",
+        "reference": "1JN.2.15,16"
+      },
+      "reference": {
+        "bookId": "1JN",
+        "chapter": 2,
+        "verses": [
+          15,
+          16
+        ],
+        "displayNames": {
+          "tr": "1. Yuhanna 2:15, 16",
+          "en": "1 John 2:15, 16",
+          "ko": "요한일서 2:15, 16"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "1JN.2.15",
+        "1JN.2.16"
+      ],
+      "file": "passages/study-1jn-2-15-16.json",
+      "search": {
+        "vocabulary": [
+          "sevmek",
+          "love (verb)",
+          "사랑하다",
+          "sevmek",
+          "love (verb)",
+          "사랑하다",
+          "benlik",
+          "self / self-centered nature in this context",
+          "자아·이 문맥의 자기중심적 본성",
+          "vermek",
+          "give",
+          "주다",
+          "dünya",
+          "world",
+          "세상"
+        ],
+        "grammar": [
+          "Additive da versus locative -DA",
+          "첨가 da와 처소격 -DA",
+          "Genitive + possessive in a list",
+          "목록의 속격·소유"
+        ]
+      }
+    },
+    {
+      "id": "study-rom-12-2",
+      "contentVersion": 1,
+      "categoryId": "discipleship",
+      "topicId": "discipleship-world",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "D04",
+        "reference": "ROM.12.2"
+      },
+      "reference": {
+        "bookId": "ROM",
+        "chapter": 12,
+        "verses": [
+          2
+        ],
+        "displayNames": {
+          "tr": "Romalılar 12:2",
+          "en": "Romans 12:2",
+          "ko": "로마서 12:2"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "ROM.12.2"
+      ],
+      "file": "passages/study-rom-12-2.json",
+      "search": {
+        "vocabulary": [
+          "gidiş",
+          "course / way of going",
+          "흐름·감",
+          "yenilenmek",
+          "be renewed",
+          "새로워지다",
+          "olmak",
+          "be / become",
+          "이다·되다",
+          "etmek",
+          "do / make (auxiliary)",
+          "하다"
+        ],
+        "grammar": [
+          "Means and purpose",
+          "수단·목적",
+          "Embedded questions with ne olduğunu",
+          "ne olduğunu 내포 의문"
+        ]
+      }
+    },
+    {
+      "id": "study-1co-15-58",
+      "contentVersion": 1,
+      "categoryId": "discipleship",
+      "topicId": "discipleship-steadfast",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "D05",
+        "reference": "1CO.15.58"
+      },
+      "reference": {
+        "bookId": "1CO",
+        "chapter": 15,
+        "verses": [
+          58
+        ],
+        "displayNames": {
+          "tr": "1. Korintliler 15:58",
+          "en": "1 Corinthians 15:58",
+          "ko": "고린도전서 15:58"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "1CO.15.58"
+      ],
+      "file": "passages/study-1co-15-58.json",
+      "search": {
+        "vocabulary": [
+          "vermek",
+          "give",
+          "주다",
+          "gitmek",
+          "go",
+          "가다",
+          "bilmek",
+          "know",
+          "알다",
+          "sarsılmak",
+          "be shaken",
+          "흔들리다"
+        ],
+        "grammar": [
+          "Future content under knowing",
+          "앎 아래의 미래 내용",
+          "Idiomatic boşa gitmek",
+          "관용 boşa gitmek"
+        ]
+      }
+    },
+    {
+      "id": "study-heb-12-3",
+      "contentVersion": 1,
+      "categoryId": "discipleship",
+      "topicId": "discipleship-steadfast",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "D06",
+        "reference": "HEB.12.3"
+      },
+      "reference": {
+        "bookId": "HEB",
+        "chapter": 12,
+        "verses": [
+          3
+        ],
+        "displayNames": {
+          "tr": "İbraniler 12:3",
+          "en": "Hebrews 12:3",
+          "ko": "히브리서 12:3"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "HEB.12.3"
+      ],
+      "file": "passages/study-heb-12-3.json",
+      "search": {
+        "vocabulary": [
+          "yorulmak",
+          "become tired",
+          "지치다",
+          "cesaret",
+          "courage",
+          "용기",
+          "yitirmek",
+          "lose",
+          "잃다",
+          "koymak",
+          "put / place",
+          "놓다",
+          "katlanmak",
+          "endure / bear",
+          "견디다"
+        ],
+        "grammar": [
+          "Negation before infinitive",
+          "부정사 앞 부정",
+          "Katlanmak plus dative",
+          "katlanmak·여격"
+        ]
+      }
+    },
+    {
+      "id": "study-mrk-10-45",
+      "contentVersion": 1,
+      "categoryId": "discipleship",
+      "topicId": "discipleship-service",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "D07",
+        "reference": "MRK.10.45"
+      },
+      "reference": {
+        "bookId": "MRK",
+        "chapter": 10,
+        "verses": [
+          45
+        ],
+        "displayNames": {
+          "tr": "Markos 10:45",
+          "en": "Mark 10:45",
+          "ko": "마가복음 10:45"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "MRK.10.45"
+      ],
+      "file": "passages/study-mrk-10-45.json",
+      "search": {
+        "vocabulary": [
+          "edilmek",
+          "be done",
+          "행해지다",
+          "etmek",
+          "do / make (auxiliary)",
+          "하다",
+          "can",
+          "life / soul",
+          "생명·영혼",
+          "vermek",
+          "give",
+          "주다"
+        ],
+        "grammar": [
+          "Active/passive minimal contrast",
+          "능동·피동 최소 대조",
+          "As a role with olarak",
+          "olarak 역할 표현"
+        ]
+      }
+    },
+    {
+      "id": "study-2co-4-5",
+      "contentVersion": 1,
+      "categoryId": "discipleship",
+      "topicId": "discipleship-service",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "D08",
+        "reference": "2CO.4.5"
+      },
+      "reference": {
+        "bookId": "2CO",
+        "chapter": 4,
+        "verses": [
+          5
+        ],
+        "displayNames": {
+          "tr": "2. Korintliler 4:5",
+          "en": "2 Corinthians 4:5",
+          "ko": "고린도후서 4:5"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "2CO.4.5"
+      ],
+      "file": "passages/study-2co-4-5.json",
+      "search": {
+        "vocabulary": [
+          "kendi",
+          "self",
+          "자신",
+          "etmek",
+          "do / make (auxiliary)",
+          "하다",
+          "uğur",
+          "luck; uğruna: for the sake of",
+          "행운; uğruna: ~을 위해",
+          "kul",
+          "servant / bondservant",
+          "종"
+        ],
+        "grammar": [
+          "Objects and object complements",
+          "목적어·목적 보어",
+          "Reflexive pronouns with person",
+          "인칭 재귀 대명사"
+        ]
+      }
+    },
+    {
+      "id": "study-pro-3-9-10",
+      "contentVersion": 1,
+      "categoryId": "discipleship",
+      "topicId": "discipleship-giving",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "D09",
+        "reference": "PRO.3.9,10"
+      },
+      "reference": {
+        "bookId": "PRO",
+        "chapter": 3,
+        "verses": [
+          9,
+          10
+        ],
+        "displayNames": {
+          "tr": "Süleyman’ın Özdeyişleri 3:9, 10",
+          "en": "Proverbs 3:9, 10",
+          "ko": "잠언 3:9, 10"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "PRO.3.9",
+        "PRO.3.10"
+      ],
+      "file": "passages/study-pro-3-9-10.json",
+      "search": {
+        "vocabulary": [
+          "servet",
+          "wealth",
+          "재산",
+          "ürün",
+          "produce / product",
+          "생산물",
+          "turfanda",
+          "early / first seasonal produce",
+          "철의 이른·첫 생산물",
+          "dolmak",
+          "fill / become full",
+          "차다",
+          "taşmak",
+          "overflow",
+          "넘치다"
+        ],
+        "grammar": [
+          "Possession before genitive",
+          "속격 앞 소유",
+          "Aorist in proverbs",
+          "잠언의 일반 현재"
+        ]
+      }
+    },
+    {
+      "id": "study-2co-9-6-7",
+      "contentVersion": 1,
+      "categoryId": "discipleship",
+      "topicId": "discipleship-giving",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "D10",
+        "reference": "2CO.9.6,7"
+      },
+      "reference": {
+        "bookId": "2CO",
+        "chapter": 9,
+        "verses": [
+          6,
+          7
+        ],
+        "displayNames": {
+          "tr": "2. Korintliler 9:6, 7",
+          "en": "2 Corinthians 9:6, 7",
+          "ko": "고린도후서 9:6, 7"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "2CO.9.6",
+        "2CO.9.7"
+      ],
+      "file": "passages/study-2co-9-6-7.json",
+      "search": {
+        "vocabulary": [
+          "ekmek",
+          "sow (verb)",
+          "심다 (동사)",
+          "yürek",
+          "heart",
+          "마음·심장",
+          "etmek",
+          "do / make (auxiliary)",
+          "하다",
+          "vermek",
+          "give",
+          "주다",
+          "vermek",
+          "give",
+          "주다"
+        ],
+        "grammar": [
+          "One participle, several roles",
+          "한 관계형의 여러 역할",
+          "Like/as with a participial clause",
+          "관계절·gibi"
+        ]
+      }
+    },
+    {
+      "id": "study-act-1-8",
+      "contentVersion": 1,
+      "categoryId": "discipleship",
+      "topicId": "discipleship-mission",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "D11",
+        "reference": "ACT.1.8"
+      },
+      "reference": {
+        "bookId": "ACT",
+        "chapter": 1,
+        "verses": [
+          8
+        ],
+        "displayNames": {
+          "tr": "Elçilerin İşleri 1:8",
+          "en": "Acts 1:8",
+          "ko": "사도행전 1:8"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "ACT.1.8"
+      ],
+      "file": "passages/study-act-1-8.json",
+      "search": {
+        "vocabulary": [
+          "üzeri",
+          "upper side / on top of",
+          "위",
+          "inmek",
+          "descend / come down",
+          "내려오다",
+          "almak",
+          "take / receive",
+          "받다·취하다",
+          "bucak",
+          "corner / district / reach",
+          "구석·지역",
+          "tanık",
+          "witness",
+          "증인"
+        ],
+        "grammar": [
+          "Different subjects across clauses",
+          "절마다 다른 주어",
+          "Proper places and location",
+          "고유 지명·장소"
+        ]
+      }
+    },
+    {
+      "id": "study-mat-28-19-20",
+      "contentVersion": 1,
+      "categoryId": "discipleship",
+      "topicId": "discipleship-mission",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "D12",
+        "reference": "MAT.28.19,20"
+      },
+      "reference": {
+        "bookId": "MAT",
+        "chapter": 28,
+        "verses": [
+          19,
+          20
+        ],
+        "displayNames": {
+          "tr": "Matta 28:19, 20",
+          "en": "Matthew 28:19, 20",
+          "ko": "마태복음 28:19, 20"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "MAT.28.19",
+        "MAT.28.20"
+      ],
+      "file": "passages/study-mat-28-19-20.json",
+      "search": {
+        "vocabulary": [
+          "öğrenci",
+          "student / disciple in context",
+          "학생·문맥상 제자",
+          "ad",
+          "name",
+          "이름",
+          "buyurmak",
+          "command / say (elevated register)",
+          "명하다·말씀하다",
+          "uymak",
+          "conform / obey / fit",
+          "따르다·맞다",
+          "birlikte",
+          "together",
+          "함께"
+        ],
+        "grammar": [
+          "Case inside and outside a verbal noun",
+          "동사 명사형 안팎의 격",
+          "Teaching without coercion",
+          "강요 없는 가르침"
+        ]
+      }
+    },
+    {
+      "id": "study-jhn-13-34-35",
+      "contentVersion": 1,
+      "categoryId": "christlike-growth",
+      "topicId": "christlike-growth-love",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "E01",
+        "reference": "JHN.13.34,35"
+      },
+      "reference": {
+        "bookId": "JHN",
+        "chapter": 13,
+        "verses": [
+          34,
+          35
+        ],
+        "displayNames": {
+          "tr": "Yuhanna 13:34, 35",
+          "en": "John 13:34, 35",
+          "ko": "요한복음 13:34, 35"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "JHN.13.34",
+        "JHN.13.35"
+      ],
+      "file": "passages/study-jhn-13-34-35.json",
+      "search": {
+        "vocabulary": [
+          "birbiri",
+          "one another",
+          "서로",
+          "sevmek",
+          "love (verb)",
+          "사랑하다",
+          "olmak",
+          "be / become",
+          "이다·되다",
+          "olmak",
+          "be / become",
+          "이다·되다"
+        ],
+        "grammar": [
+          "Reciprocity with different cases",
+          "서로의 다른 격",
+          "Comparison versus content clause",
+          "비교절·내용절"
+        ]
+      }
+    },
+    {
+      "id": "study-1jn-3-18",
+      "contentVersion": 1,
+      "categoryId": "christlike-growth",
+      "topicId": "christlike-growth-love",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "E02",
+        "reference": "1JN.3.18"
+      },
+      "reference": {
+        "bookId": "1JN",
+        "chapter": 3,
+        "verses": [
+          18
+        ],
+        "displayNames": {
+          "tr": "1. Yuhanna 3:18",
+          "en": "1 John 3:18",
+          "ko": "요한일서 3:18"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "1JN.3.18"
+      ],
+      "file": "passages/study-1jn-3-18.json",
+      "search": {
+        "vocabulary": [
+          "yavru",
+          "young one / child",
+          "어린 것·자녀",
+          "eylem",
+          "action",
+          "행위",
+          "içtenlik",
+          "sincerity",
+          "진실함",
+          "sevmek",
+          "love (verb)",
+          "사랑하다"
+        ],
+        "grammar": [
+          "Instrumental forms in a contrast",
+          "대조의 도구형",
+          "Let us versus you must",
+          "함께하자와 너는 해야 한다"
+        ]
+      }
+    },
+    {
+      "id": "study-php-2-3-4",
+      "contentVersion": 1,
+      "categoryId": "christlike-growth",
+      "topicId": "christlike-growth-humility",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "E03",
+        "reference": "PHP.2.3,4"
+      },
+      "reference": {
+        "bookId": "PHP",
+        "chapter": 2,
+        "verses": [
+          3,
+          4
+        ],
+        "displayNames": {
+          "tr": "Filipililer 2:3, 4",
+          "en": "Philippians 2:3, 4",
+          "ko": "빌립보서 2:3, 4"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "PHP.2.3",
+        "PHP.2.4"
+      ],
+      "file": "passages/study-php-2-3-4.json",
+      "search": {
+        "vocabulary": [
+          "yapmak",
+          "do / make",
+          "하다·만들다",
+          "alçakgönüllülük",
+          "humility",
+          "겸손",
+          "kendi",
+          "self",
+          "자신",
+          "yarar",
+          "benefit",
+          "유익",
+          "gözetmek",
+          "look after / consider",
+          "돌보다·배려하다"
+        ],
+        "grammar": [
+          "Comparison with ablative",
+          "탈격 비교",
+          "Each of you, then singular",
+          "각 여러분·뒤 단수"
+        ]
+      }
+    },
+    {
+      "id": "study-1pe-5-5-6",
+      "contentVersion": 1,
+      "categoryId": "christlike-growth",
+      "topicId": "christlike-growth-humility",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "E04",
+        "reference": "1PE.5.5,6"
+      },
+      "reference": {
+        "bookId": "1PE",
+        "chapter": 5,
+        "verses": [
+          5,
+          6
+        ],
+        "displayNames": {
+          "tr": "1. Petrus 5:5, 6",
+          "en": "1 Peter 5:5, 6",
+          "ko": "베드로전서 5:5, 6"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "1PE.5.5",
+        "1PE.5.6"
+      ],
+      "file": "passages/study-1pe-5-5-6.json",
+      "search": {
+        "vocabulary": [
+          "ihtiyar",
+          "elder / elderly person",
+          "장로·노인",
+          "alçakgönüllülük",
+          "humility",
+          "겸손",
+          "yüceltmek",
+          "exalt / glorify",
+          "높이다",
+          "alt",
+          "underside / below",
+          "아래",
+          "alçaltmak",
+          "lower / humble",
+          "낮추다"
+        ],
+        "grammar": [
+          "A verbal noun is not a command",
+          "동사 명사형과 명령 구별",
+          "Metaphorical verbs and concrete roots",
+          "비유 동사·구체 어근"
+        ]
+      }
+    },
+    {
+      "id": "study-eph-5-3",
+      "contentVersion": 1,
+      "categoryId": "christlike-growth",
+      "topicId": "christlike-growth-purity",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "E05",
+        "reference": "EPH.5.3"
+      },
+      "reference": {
+        "bookId": "EPH",
+        "chapter": 5,
+        "verses": [
+          3
+        ],
+        "displayNames": {
+          "tr": "Efesliler 5:3",
+          "en": "Ephesians 5:3",
+          "ko": "에베소서 5:3"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "EPH.5.3"
+      ],
+      "file": "passages/study-eph-5-3.json",
+      "search": {
+        "vocabulary": [
+          "ara",
+          "space / interval / between",
+          "사이·간격",
+          "açgözlülük",
+          "greed",
+          "탐욕",
+          "anmak",
+          "mention / remember",
+          "언급하다·기억하다",
+          "kutsal",
+          "holy / sacred",
+          "거룩한",
+          "yaraşmak",
+          "befit / suit",
+          "어울리다"
+        ],
+        "grammar": [
+          "Three layers in anılmasın",
+          "anılmasın의 세 층",
+          "Inverted nominal subject",
+          "뒤로 간 명사 주어"
+        ]
+      }
+    },
+    {
+      "id": "study-1pe-2-11",
+      "contentVersion": 1,
+      "categoryId": "christlike-growth",
+      "topicId": "christlike-growth-purity",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "E06",
+        "reference": "1PE.2.11"
+      },
+      "reference": {
+        "bookId": "1PE",
+        "chapter": 2,
+        "verses": [
+          11
+        ],
+        "displayNames": {
+          "tr": "1. Petrus 2:11",
+          "en": "1 Peter 2:11",
+          "ko": "베드로전서 2:11"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "1PE.2.11"
+      ],
+      "file": "passages/study-1pe-2-11.json",
+      "search": {
+        "vocabulary": [
+          "yalvarmak",
+          "plead / urge",
+          "간청하다",
+          "savaşmak",
+          "fight / wage war",
+          "싸우다",
+          "tutku",
+          "passion / desire",
+          "욕망·열정",
+          "konuk",
+          "guest",
+          "손님·나그네"
+        ],
+        "grammar": [
+          "Ablative governed by kaçınmak",
+          "kaçınmak이 요구하는 탈격",
+          "Shared predicate ending",
+          "공유 술어 어미"
+        ]
+      }
+    },
+    {
+      "id": "study-lev-19-11",
+      "contentVersion": 1,
+      "categoryId": "christlike-growth",
+      "topicId": "christlike-growth-honesty",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "E07",
+        "reference": "LEV.19.11"
+      },
+      "reference": {
+        "bookId": "LEV",
+        "chapter": 19,
+        "verses": [
+          11
+        ],
+        "displayNames": {
+          "tr": "Levililer 19:11",
+          "en": "Leviticus 19:11",
+          "ko": "레위기 19:11"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "LEV.19.11"
+      ],
+      "file": "passages/study-lev-19-11.json",
+      "search": {
+        "vocabulary": [
+          "çalmak",
+          "steal; also play an instrument / ring",
+          "훔치다; 악기를 연주하다·울리다",
+          "yapmak",
+          "do / make",
+          "하다·만들다",
+          "birbiri",
+          "one another",
+          "서로",
+          "söylemek",
+          "say / tell",
+          "말하다"
+        ],
+        "grammar": [
+          "Morphological future, pragmatic prohibition",
+          "형태상 미래·화용상 금지",
+          "Verb meaning from context",
+          "문맥의 동사 뜻"
+        ]
+      }
+    },
+    {
+      "id": "study-act-24-16",
+      "contentVersion": 1,
+      "categoryId": "christlike-growth",
+      "topicId": "christlike-growth-honesty",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "E08",
+        "reference": "ACT.24.16"
+      },
+      "reference": {
+        "bookId": "ACT",
+        "chapter": 24,
+        "verses": [
+          16
+        ],
+        "displayNames": {
+          "tr": "Elçilerin İşleri 24:16",
+          "en": "Acts 24:16",
+          "ko": "사도행전 24:16"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "ACT.24.16"
+      ],
+      "file": "passages/study-act-24-16.json",
+      "search": {
+        "vocabulary": [
+          "ön",
+          "front",
+          "앞",
+          "vicdan",
+          "conscience",
+          "양심",
+          "tutmak",
+          "hold / keep",
+          "잡다·유지하다",
+          "göstermek",
+          "show",
+          "보여주다"
+        ],
+        "grammar": [
+          "Gerek … gerek as both … and",
+          "gerek … gerek의 모두",
+          "Keep an object in a state",
+          "목적어를 상태에 유지하기"
+        ]
+      }
+    },
+    {
+      "id": "study-heb-11-6",
+      "contentVersion": 1,
+      "categoryId": "christlike-growth",
+      "topicId": "christlike-growth-faith",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "E09",
+        "reference": "HEB.11.6"
+      },
+      "reference": {
+        "bookId": "HEB",
+        "chapter": 11,
+        "verses": [
+          6
+        ],
+        "displayNames": {
+          "tr": "İbraniler 11:6",
+          "en": "Hebrews 11:6",
+          "ko": "히브리서 11:6"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "HEB.11.6"
+      ],
+      "file": "passages/study-heb-11-6.json",
+      "search": {
+        "vocabulary": [
+          "olmak",
+          "be / become",
+          "이다·되다",
+          "olmak",
+          "be / become",
+          "이다·되다",
+          "aramak",
+          "seek / look for / call",
+          "찾다·전화하다",
+          "ödüllendirmek",
+          "reward (verb)",
+          "보상하다",
+          "etmek",
+          "do / make (auxiliary)",
+          "하다"
+        ],
+        "grammar": [
+          "Clause case depends on the governing verb",
+          "지배 동사가 정하는 절의 격",
+          "Nested objects",
+          "중첩 목적어"
+        ]
+      }
+    },
+    {
+      "id": "study-rom-4-20-21",
+      "contentVersion": 1,
+      "categoryId": "christlike-growth",
+      "topicId": "christlike-growth-faith",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "E10",
+        "reference": "ROM.4.20,21"
+      },
+      "reference": {
+        "bookId": "ROM",
+        "chapter": 4,
+        "verses": [
+          20,
+          21
+        ],
+        "displayNames": {
+          "tr": "Romalılar 4:20, 21",
+          "en": "Romans 4:20, 21",
+          "ko": "로마서 4:20, 21"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "ROM.4.20",
+        "ROM.4.21"
+      ],
+      "file": "passages/study-rom-4-20-21.json",
+      "search": {
+        "vocabulary": [
+          "vaat",
+          "promise",
+          "약속",
+          "kuşkulanmak",
+          "doubt / suspect",
+          "의심하다",
+          "iman",
+          "faith",
+          "믿음",
+          "getirmek",
+          "bring",
+          "가져오다",
+          "güvenmek",
+          "trust",
+          "신뢰하다"
+        ],
+        "grammar": [
+          "Same suffix shape, different function",
+          "같은 접사 모양·다른 기능",
+          "Belief and evidence are distinct",
+          "믿음·증거 구별"
+        ]
+      }
+    },
+    {
+      "id": "study-gal-6-9-10",
+      "contentVersion": 1,
+      "categoryId": "christlike-growth",
+      "topicId": "christlike-growth-good-works",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "E11",
+        "reference": "GAL.6.9,10"
+      },
+      "reference": {
+        "bookId": "GAL",
+        "chapter": 6,
+        "verses": [
+          9,
+          10
+        ],
+        "displayNames": {
+          "tr": "Galatyalılar 6:9, 10",
+          "en": "Galatians 6:9, 10",
+          "ko": "갈라디아서 6:9, 10"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "GAL.6.9",
+        "GAL.6.10"
+      ],
+      "file": "passages/study-gal-6-9-10.json",
+      "search": {
+        "vocabulary": [
+          "yapmak",
+          "do / make",
+          "하다·만들다",
+          "usanmak",
+          "tire of / lose heart",
+          "싫증나다·낙심하다",
+          "gevşemek",
+          "slacken / relax / give up in context",
+          "느슨해지다·쉬다·문맥상 포기하다",
+          "var",
+          "existent / there is",
+          "있는·있다",
+          "üye",
+          "member",
+          "구성원"
+        ],
+        "grammar": [
+          "Negative condition with first-person plural",
+          "1인칭 복수 부정 조건",
+          "Nested family possession",
+          "중첩 가족 소유"
+        ]
+      }
+    },
+    {
+      "id": "study-mat-5-16",
+      "contentVersion": 1,
+      "categoryId": "christlike-growth",
+      "topicId": "christlike-growth-good-works",
+      "sourceSelection": {
+        "system": "TMS60",
+        "code": "E12",
+        "reference": "MAT.5.16"
+      },
+      "reference": {
+        "bookId": "MAT",
+        "chapter": 5,
+        "verses": [
+          16
+        ],
+        "displayNames": {
+          "tr": "Matta 5:16",
+          "en": "Matthew 5:16",
+          "ko": "마태복음 5:16"
+        }
+      },
+      "editionId": "TCL02",
+      "verseIds": [
+        "MAT.5.16"
+      ],
+      "file": "passages/study-mat-5-16.json",
+      "search": {
+        "vocabulary": [
+          "ışık",
+          "light",
+          "빛",
+          "parlamak",
+          "shine",
+          "빛나다",
+          "görmek",
+          "see",
+          "보다",
+          "gök",
+          "sky / heaven",
+          "하늘",
+          "yüceltmek",
+          "exalt / glorify",
+          "높이다"
+        ],
+        "grammar": [
+          "Possessor number versus subject number",
+          "소유자 수·주어 수",
+          "Two different ki forms",
+          "두 ki 형태"
+        ]
+      }
+    }
+  ],
+  "counts": {
+    "initialPassages": 60,
+    "canonicalNumberedVerses": 74,
+    "quotedNumberedVerses": 77
+  }
+}

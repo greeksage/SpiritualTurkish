@@ -1,0 +1,732 @@
+{
+  "id": "study-2co-9-6-7",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand 2 Corinthians 9:6, 7 through its clause structure and the forms eken / yüreğinde.",
+    "ko": "고린도후서 9:6, 7의 절 구조와 eken / yüreğinde 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Whoever sows little reaps little, and whoever sows much reaps much. Each should give as intended in their heart, not reluctantly or under compulsion; God loves a cheerful giver.",
+    "ko": "적게 심는 이는 적게 거두고 많이 심는 이는 많이 거둡니다. 각자는 마음에 정한 대로 억지나 강요가 아니라 기꺼이 주세요. 하나님은 기쁘게 주는 이를 사랑하십니다."
+  },
+  "clauses": [
+    {
+      "id": "study-2co-9-6-7-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "2CO.9.6",
+          "start": 0,
+          "end": 53
+        }
+      ],
+      "naturalMeaning": {
+        "en": "A farming comparison introduces the giving instruction.",
+        "ko": "농사 비유가 나눔의 지시를 소개합니다."
+      },
+      "literalGloss": {
+        "en": "this-object do-not-forget / little sowing-one little reaps / much sowing-one much reaps",
+        "ko": "이것을 잊지 마라 / 적게 심는 이는 적게 거둔다 / 많이 심는 이는 많이 거둔다"
+      },
+      "explanation": {
+        "en": "Eken functions as a noun, the one who sows. Biçer is a general aorist; repeated az / çok supplies the contrast. The analogy is not a machine for computing financial returns.",
+        "ko": "eken은 심는 이라는 명사 역할입니다. biçer는 일반 현재이고 반복된 az·çok이 대조를 줍니다. 이 비유는 투자 수익을 계산하는 장치가 아닙니다."
+      }
+    },
+    {
+      "id": "study-2co-9-6-7-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "2CO.9.7",
+          "start": 0,
+          "end": 116
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Giving should follow a person’s intention with joy, without coercion.",
+        "ko": "나눔은 강요 없이 마음에 정한 뜻과 기쁨을 따라야 합니다."
+      },
+      "literalGloss": {
+        "en": "everyone heart-his-in intended-his as let-give / reluctantly or forced-like not / God joy-with giving-one-object loves",
+        "ko": "각자 자기 마음에 정한 대로 주게 하라 / 마지못해·강요된 듯 말고 / 하나님은 기쁨으로 주는 이를 사랑한다"
+      },
+      "explanation": {
+        "en": "Niyet ettiği gibi uses a participial clause before gibi. Versin is a third-person command whose subject is herkes. Vereni is a nominalized -en participle with accusative, object of sever.",
+        "ko": "niyet ettiği gibi는 gibi 앞에 관계절을 씁니다. versin은 herkes가 주어인 3인칭 명령입니다. vereni는 -en 관계형을 명사처럼 쓰고 대격을 붙여 sever의 목적어로 만듭니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-2co-9-6-7-word-1",
+      "verseId": "2CO.9.6",
+      "start": 19,
+      "end": 23,
+      "surface": "eken",
+      "lemma": "ekmek",
+      "meaning": {
+        "en": "the one who sows",
+        "ko": "심는 이"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ek",
+          "meaning": {
+            "en": "sow (verb)",
+            "ko": "심다 (동사)"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "en",
+          "meaning": {
+            "en": "subject participle -An",
+            "ko": "주어 관계형 -An"
+          },
+          "function": "PART"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "subject participle"
+      },
+      "role": {
+        "en": "Nominal subject participle",
+        "ko": "명사적 주어 관계형"
+      },
+      "contextualExplanation": {
+        "en": "Ekmek here is the verb to sow, not the unrelated noun bread.",
+        "ko": "여기 ekmek은 심다 동사이며 별개 명사 빵이 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "sow (verb)",
+        "ko": "심다 (동사)"
+      }
+    },
+    {
+      "id": "study-2co-9-6-7-word-2",
+      "verseId": "2CO.9.7",
+      "start": 7,
+      "end": 16,
+      "surface": "yüreğinde",
+      "lemma": "yürek",
+      "meaning": {
+        "en": "in his or her heart",
+        "ko": "자기 마음에"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "yüreğ",
+          "meaning": {
+            "en": "heart",
+            "ko": "마음·심장"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "de",
+          "meaning": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "function": "LOC"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "yürek → yüreğ- before a vowel",
+          "ko": "모음 앞에서 yürek가 yüreğ-로 변합니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "locative"
+      },
+      "role": {
+        "en": "Possessed locative",
+        "ko": "소유 처소격"
+      },
+      "contextualExplanation": {
+        "en": "Herkes supplies the possessor; the final -de is location, not a separate additive de.",
+        "ko": "herkes가 소유자를 정하고 마지막 -de는 장소이며 띄어 쓴 첨가 de가 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "heart",
+        "ko": "마음·심장"
+      }
+    },
+    {
+      "id": "study-2co-9-6-7-word-3",
+      "verseId": "2CO.9.7",
+      "start": 23,
+      "end": 29,
+      "surface": "ettiği",
+      "lemma": "etmek",
+      "meaning": {
+        "en": "that the person did / intended",
+        "ko": "그 사람이 정한"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "et",
+          "meaning": {
+            "en": "do / make (auxiliary)",
+            "ko": "하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "tiğ",
+          "meaning": {
+            "en": "nominalizing/participial -DIK",
+            "ko": "명사화·관계형 -DIK"
+          },
+          "function": "DIK"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-tik → -tiğ before a vowel",
+          "ko": "모음 앞에서 -tik가 -tiğ로 변합니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "-DIK nominal/participial",
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Participial complement of gibi",
+        "ko": "gibi의 관계형 보어"
+      },
+      "contextualExplanation": {
+        "en": "Niyet etmek means intend; -tiği agrees with the embedded subject herkes.",
+        "ko": "niyet etmek은 뜻을 정하다이고 -tiği는 내포 주어 herkes와 연결됩니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "do / make (auxiliary)",
+        "ko": "하다"
+      }
+    },
+    {
+      "id": "study-2co-9-6-7-word-4",
+      "verseId": "2CO.9.7",
+      "start": 35,
+      "end": 41,
+      "surface": "versin",
+      "lemma": "vermek",
+      "meaning": {
+        "en": "let each give",
+        "ko": "각자 주게 하라"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ver",
+          "meaning": {
+            "en": "give",
+            "ko": "주다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "sin",
+          "meaning": {
+            "en": "third-person imperative: let …",
+            "ko": "3인칭 명령: ~하게 하라"
+          },
+          "function": "IMP3"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "mood": "third-person imperative"
+      },
+      "role": {
+        "en": "Third-person instruction",
+        "ko": "3인칭 지시"
+      },
+      "contextualExplanation": {
+        "en": "It is not the second-person plural verin.",
+        "ko": "2인칭 복수 verin과 다릅니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "give",
+        "ko": "주다"
+      }
+    },
+    {
+      "id": "study-2co-9-6-7-word-5",
+      "verseId": "2CO.9.7",
+      "start": 103,
+      "end": 109,
+      "surface": "vereni",
+      "lemma": "vermek",
+      "meaning": {
+        "en": "the giver (object)",
+        "ko": "주는 이를"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ver",
+          "meaning": {
+            "en": "give",
+            "ko": "주다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "en",
+          "meaning": {
+            "en": "subject participle -An",
+            "ko": "주어 관계형 -An"
+          },
+          "function": "PART"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "subject participle",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Nominal participle as object",
+        "ko": "목적어인 명사적 관계형"
+      },
+      "contextualExplanation": {
+        "en": "The -en form stands for veren kişi; accusative links it to sever.",
+        "ko": "-en형은 veren kişi를 대신하고 대격이 sever에 연결합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "give",
+        "ko": "주다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-2co-9-6-7-word-1-vocab",
+      "analysisId": "study-2co-9-6-7-word-1",
+      "lemma": "ekmek",
+      "classification": "general",
+      "definitions": {
+        "en": "sow (verb)",
+        "ko": "심다 (동사)"
+      },
+      "usageNotes": {
+        "en": "Ekmek here is the verb to sow, not the unrelated noun bread.",
+        "ko": "여기 ekmek은 심다 동사이며 별개 명사 빵이 아닙니다."
+      }
+    },
+    {
+      "id": "study-2co-9-6-7-word-2-vocab",
+      "analysisId": "study-2co-9-6-7-word-2",
+      "lemma": "yürek",
+      "classification": "general",
+      "definitions": {
+        "en": "heart",
+        "ko": "마음·심장"
+      },
+      "usageNotes": {
+        "en": "Herkes supplies the possessor; the final -de is location, not a separate additive de.",
+        "ko": "herkes가 소유자를 정하고 마지막 -de는 장소이며 띄어 쓴 첨가 de가 아닙니다."
+      }
+    },
+    {
+      "id": "study-2co-9-6-7-word-3-vocab",
+      "analysisId": "study-2co-9-6-7-word-3",
+      "lemma": "etmek",
+      "classification": "general",
+      "definitions": {
+        "en": "do / make (auxiliary)",
+        "ko": "하다"
+      },
+      "usageNotes": {
+        "en": "Niyet etmek means intend; -tiği agrees with the embedded subject herkes.",
+        "ko": "niyet etmek은 뜻을 정하다이고 -tiği는 내포 주어 herkes와 연결됩니다."
+      }
+    },
+    {
+      "id": "study-2co-9-6-7-word-4-vocab",
+      "analysisId": "study-2co-9-6-7-word-4",
+      "lemma": "vermek",
+      "classification": "general",
+      "definitions": {
+        "en": "give",
+        "ko": "주다"
+      },
+      "usageNotes": {
+        "en": "It is not the second-person plural verin.",
+        "ko": "2인칭 복수 verin과 다릅니다."
+      }
+    },
+    {
+      "id": "study-2co-9-6-7-word-5-vocab",
+      "analysisId": "study-2co-9-6-7-word-5",
+      "lemma": "vermek",
+      "classification": "general",
+      "definitions": {
+        "en": "give",
+        "ko": "주다"
+      },
+      "usageNotes": {
+        "en": "The -en form stands for veren kişi; accusative links it to sever.",
+        "ko": "-en형은 veren kişi를 대신하고 대격이 sever에 연결합니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-2co-9-6-7-grammar-1",
+      "title": {
+        "en": "One participle, several roles",
+        "ko": "한 관계형의 여러 역할"
+      },
+      "explanation": {
+        "en": "Eken is subject; vereni is object. Both derive from -An, but case marking and position determine their roles.",
+        "ko": "eken은 주어이고 vereni는 목적어입니다. 둘 다 -An에서 나오지만 격 표시와 위치가 역할을 정합니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "2CO.9.6",
+          "start": 0,
+          "end": 53
+        },
+        {
+          "verseId": "2CO.9.7",
+          "start": 0,
+          "end": 116
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-2co-9-6-7-grammar-2",
+      "title": {
+        "en": "Like/as with a participial clause",
+        "ko": "관계절·gibi"
+      },
+      "explanation": {
+        "en": "Niyet ettiği gibi is “as that person intended.” Zorlanmış gibi is “as though forced.” Gibi compares a manner or appearance without proving it as fact.",
+        "ko": "niyet ettiği gibi는 뜻을 정한 대로이고 zorlanmış gibi는 강요된 듯입니다. gibi는 방식·양상을 비교하며 사실로 증명하지 않습니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "2CO.9.6",
+          "start": 0,
+          "end": 53
+        },
+        {
+          "verseId": "2CO.9.7",
+          "start": 0,
+          "end": 116
+        }
+      ],
+      "relatedLessonIds": []
+    }
+  ],
+  "independentTask": {
+    "en": "Offer a voluntary invitation with a choice and practise -diği gibi.",
+    "ko": "선택 가능한 자발적 초대를 하고 -diği gibi를 연습하세요."
+  },
+  "modelResponse": {
+    "tr": "İsterseniz katkıda bulunabilirsiniz. Planladığınız gibi yapın.",
+    "meaning": {
+      "en": "You can contribute if you wish. Do as you planned.",
+      "ko": "원하시면 참여하실 수 있습니다. 계획하신 대로 하세요."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-2co-9-6-7-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to 2 Corinthians 9:6, 7? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 고린도후서 9:6, 7인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-2co-9-6-7",
+          "passageId": "study-2co-9-6-7",
+          "explanation": {
+            "en": "This is the passage. Whoever sows little reaps little, and whoever sows much reaps much. Each should give as intended in their heart, not reluctantly or under compulsion; God loves a cheerful giver. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 적게 심는 이는 적게 거두고 많이 심는 이는 많이 거둡니다. 각자는 마음에 정한 대로 억지나 강요가 아니라 기꺼이 주세요. 하나님은 기쁘게 주는 이를 사랑하십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-pro-3-9-10",
+          "passageId": "study-pro-3-9-10",
+          "explanation": {
+            "en": "This is a different passage. Honor the LORD with your wealth and the first produce of your harvest; then your barns will fill and your vats overflow with new wine. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 재산과 첫 수확으로 주님을 공경하세요. 그러면 창고가 가득 차고 포도즙 틀이 새 포도주로 넘칠 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1jn-2-15-16",
+          "passageId": "study-1jn-2-15-16",
+          "explanation": {
+            "en": "This is a different passage. Do not love the world or what belongs to it. Love for the Father is absent in the one who loves the world; the desires and pride described come from the world, not the Father. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 세상이나 세상에 속한 것들을 사랑하지 마세요. 세상을 사랑하는 사람에게 아버지를 향한 사랑이 없으며 언급된 욕망과 자랑은 아버지가 아니라 세상에서 옵니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-28-19-20",
+          "passageId": "study-mat-28-19-20",
+          "explanation": {
+            "en": "This is a different passage. Go and make disciples of all nations, baptizing them in the name of the Father, the Son, and the Holy Spirit, teaching them to obey everything I commanded. I am with you always, to the end of the world. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 가서 모든 민족을 제자로 삼고 아버지·아들·성령의 이름으로 세례를 주며 내가 명한 모든 것을 따르도록 가르치세요. 나는 세상의 끝까지 언제나 여러분과 함께 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-2co-9-6-7"
+      ],
+      "explanations": {
+        "en": "This is the passage. Whoever sows little reaps little, and whoever sows much reaps much. Each should give as intended in their heart, not reluctantly or under compulsion; God loves a cheerful giver. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 적게 심는 이는 적게 거두고 많이 심는 이는 많이 거둡니다. 각자는 마음에 정한 대로 억지나 강요가 아니라 기꺼이 주세요. 하나님은 기쁘게 주는 이를 사랑하십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-2co-9-6-7-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-2co-9-6-7",
+          "referenceId": "study-2co-9-6-7",
+          "explanation": {
+            "en": "This is the passage. Whoever sows little reaps little, and whoever sows much reaps much. Each should give as intended in their heart, not reluctantly or under compulsion; God loves a cheerful giver. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 적게 심는 이는 적게 거두고 많이 심는 이는 많이 거둡니다. 각자는 마음에 정한 대로 억지나 강요가 아니라 기꺼이 주세요. 하나님은 기쁘게 주는 이를 사랑하십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-pro-3-9-10",
+          "referenceId": "study-pro-3-9-10",
+          "explanation": {
+            "en": "This is a different passage. Honor the LORD with your wealth and the first produce of your harvest; then your barns will fill and your vats overflow with new wine. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 재산과 첫 수확으로 주님을 공경하세요. 그러면 창고가 가득 차고 포도즙 틀이 새 포도주로 넘칠 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1jn-2-15-16",
+          "referenceId": "study-1jn-2-15-16",
+          "explanation": {
+            "en": "This is a different passage. Do not love the world or what belongs to it. Love for the Father is absent in the one who loves the world; the desires and pride described come from the world, not the Father. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 세상이나 세상에 속한 것들을 사랑하지 마세요. 세상을 사랑하는 사람에게 아버지를 향한 사랑이 없으며 언급된 욕망과 자랑은 아버지가 아니라 세상에서 옵니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-28-19-20",
+          "referenceId": "study-mat-28-19-20",
+          "explanation": {
+            "en": "This is a different passage. Go and make disciples of all nations, baptizing them in the name of the Father, the Son, and the Holy Spirit, teaching them to obey everything I commanded. I am with you always, to the end of the world. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 가서 모든 민족을 제자로 삼고 아버지·아들·성령의 이름으로 세례를 주며 내가 명한 모든 것을 따르도록 가르치세요. 나는 세상의 끝까지 언제나 여러분과 함께 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-2co-9-6-7"
+      ],
+      "explanations": {
+        "en": "This is the passage. Whoever sows little reaps little, and whoever sows much reaps much. Each should give as intended in their heart, not reluctantly or under compulsion; God loves a cheerful giver. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 적게 심는 이는 적게 거두고 많이 심는 이는 많이 거둡니다. 각자는 마음에 정한 대로 억지나 강요가 아니라 기꺼이 주세요. 하나님은 기쁘게 주는 이를 사랑하십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-2co-9-6-7-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “ekmek” in this passage?",
+        "ko": "이 본문에서 “ekmek”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-2co-9-6-7-word-1-vocab",
+          "label": {
+            "en": "sow (verb)",
+            "ko": "심다 (동사)"
+          },
+          "explanation": {
+            "en": "sow (verb). Ekmek here is the verb to sow, not the unrelated noun bread.",
+            "ko": "심다 (동사). 여기 ekmek은 심다 동사이며 별개 명사 빵이 아닙니다."
+          }
+        },
+        {
+          "id": "study-2co-9-6-7-word-2-vocab",
+          "label": {
+            "en": "heart",
+            "ko": "마음·심장"
+          },
+          "explanation": {
+            "en": "That definition belongs to yürek. ekmek means sow (verb) here. Ekmek here is the verb to sow, not the unrelated noun bread.",
+            "ko": "그 뜻은 yürek입니다. 여기 ekmek는 심다 (동사)입니다. 여기 ekmek은 심다 동사이며 별개 명사 빵이 아닙니다."
+          }
+        },
+        {
+          "id": "study-2co-9-6-7-word-3-vocab",
+          "label": {
+            "en": "do / make (auxiliary)",
+            "ko": "하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to etmek. ekmek means sow (verb) here. Ekmek here is the verb to sow, not the unrelated noun bread.",
+            "ko": "그 뜻은 etmek입니다. 여기 ekmek는 심다 (동사)입니다. 여기 ekmek은 심다 동사이며 별개 명사 빵이 아닙니다."
+          }
+        },
+        {
+          "id": "study-2co-9-6-7-word-4-vocab",
+          "label": {
+            "en": "give",
+            "ko": "주다"
+          },
+          "explanation": {
+            "en": "That definition belongs to vermek. ekmek means sow (verb) here. Ekmek here is the verb to sow, not the unrelated noun bread.",
+            "ko": "그 뜻은 vermek입니다. 여기 ekmek는 심다 (동사)입니다. 여기 ekmek은 심다 동사이며 별개 명사 빵이 아닙니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-2co-9-6-7-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Ekmek here is the verb to sow, not the unrelated noun bread.",
+        "ko": "여기 ekmek은 심다 동사이며 별개 명사 빵이 아닙니다."
+      }
+    },
+    {
+      "id": "study-2co-9-6-7-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “yüreğinde”, what is the function of “-de” here?",
+        "ko": "“yüreğinde”에서 “-de”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "Possessed locative. Herkes supplies the possessor; the final -de is location, not a separate additive de.",
+            "ko": "소유 처소격. herkes가 소유자를 정하고 마지막 -de는 장소이며 띄어 쓴 첨가 de가 아닙니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed locative. Herkes supplies the possessor; the final -de is location, not a separate additive de.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 처소격. herkes가 소유자를 정하고 마지막 -de는 장소이며 띄어 쓴 첨가 de가 아닙니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed locative. Herkes supplies the possessor; the final -de is location, not a separate additive de.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 처소격. herkes가 소유자를 정하고 마지막 -de는 장소이며 띄어 쓴 첨가 de가 아닙니다."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed locative. Herkes supplies the possessor; the final -de is location, not a separate additive de.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 처소격. herkes가 소유자를 정하고 마지막 -de는 장소이며 띄어 쓴 첨가 de가 아닙니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "LOC"
+      ],
+      "explanations": {
+        "en": "Herkes supplies the possessor; the final -de is location, not a separate additive de.",
+        "ko": "herkes가 소유자를 정하고 마지막 -de는 장소이며 띄어 쓴 첨가 de가 아닙니다."
+      }
+    }
+  ]
+}

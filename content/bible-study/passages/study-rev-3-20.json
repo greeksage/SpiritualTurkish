@@ -1,0 +1,853 @@
+{
+  "id": "study-rev-3-20",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Revelation 3:20 through its clause structure and the forms kapıda / kapıyı.",
+    "ko": "요한계시록 3:20의 절 구조와 kapıda / kapıyı 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "I stand at the door and knock. If someone hears my voice and opens the door, I will enter beside them, and we will eat together.",
+    "ko": "나는 문 앞에 서서 두드립니다. 누군가 내 음성을 듣고 문을 열면 그에게 들어가 함께 식사할 것입니다."
+  },
+  "clauses": [
+    {
+      "id": "study-rev-3-20-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "REV.3.20",
+          "start": 0,
+          "end": 37
+        }
+      ],
+      "naturalMeaning": {
+        "en": "I stand at the door and knock.",
+        "ko": "나는 문 앞에 서서 문을 두드립니다."
+      },
+      "literalGloss": {
+        "en": "behold / at door having stood / door-object / I knock",
+        "ko": "보라 / 문에 서 있는 상태 / 문을 / 두드린다 나"
+      },
+      "explanation": {
+        "en": "Durmuş presents the established stance, while çalıyorum expresses the ongoing knocking. Kapıda is location; kapıyı is the thing knocked on.",
+        "ko": "durmuş는 서 있는 결과 상태, çalıyorum은 계속 두드림입니다. kapıda는 위치이고 kapıyı는 두드리는 대상입니다."
+      }
+    },
+    {
+      "id": "study-rev-3-20-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "REV.3.20",
+          "start": 38,
+          "end": 97
+        }
+      ],
+      "naturalMeaning": {
+        "en": "If someone hears my voice and opens the door, I will enter beside them.",
+        "ko": "누군가 내 소리를 듣고 문을 열면 그 사람에게 들어가겠습니다."
+      },
+      "literalGloss": {
+        "en": "someone / my voice hears and / door opens-if / his side-to / I will enter",
+        "ko": "누군가 / 내 소리를 듣고 / 문을 열면 / 그 사람 곁으로 / 들어갈 것이다 나"
+      },
+      "explanation": {
+        "en": "The conditional ending appears on açarsa and scopes over the coordinated actions. Onun yanına is a genitive/possessive directional phrase.",
+        "ko": "조건 어미가 açarsa에 붙어 나란한 행동을 함께 조건으로 만듭니다. onun yanına는 속격·소유·방향 구입니다."
+      }
+    },
+    {
+      "id": "study-rev-3-20-clause-3",
+      "sourceSpans": [
+        {
+          "verseId": "REV.3.20",
+          "start": 98,
+          "end": 149
+        }
+      ],
+      "naturalMeaning": {
+        "en": "We will eat together—me with them and them with me.",
+        "ko": "나는 그와, 그도 나와 함께 식사할 것입니다."
+      },
+      "literalGloss": {
+        "en": "I with him / he also with me / together / food eat-will-we",
+        "ko": "나 그와 / 그도 나와 / 함께 / 식사할 것이다 우리"
+      },
+      "explanation": {
+        "en": "The final -ğiz marks both participants as we. Onunla and benimle use pronouns before ile; the statement changes from I to joint action.",
+        "ko": "마지막 -ğiz는 두 참여자를 우리로 표시합니다. onunla·benimle는 ile 앞의 대명사 형태이며 나에서 함께 하는 행위로 인칭이 바뀝니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-rev-3-20-word-1",
+      "verseId": "REV.3.20",
+      "start": 5,
+      "end": 11,
+      "surface": "kapıda",
+      "lemma": "kapı",
+      "meaning": {
+        "en": "at the door",
+        "ko": "문 앞에"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "kapı",
+          "meaning": {
+            "en": "door",
+            "ko": "문"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "da",
+          "meaning": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "function": "LOC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "case": "locative"
+      },
+      "role": {
+        "en": "Location",
+        "ko": "위치"
+      },
+      "contextualExplanation": {
+        "en": "Contrast the same noun’s accusative kapıyı in the next phrase.",
+        "ko": "다음 구의 대격 kapıyı와 비교하세요."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "door",
+        "ko": "문"
+      }
+    },
+    {
+      "id": "study-rev-3-20-word-2",
+      "verseId": "REV.3.20",
+      "start": 20,
+      "end": 26,
+      "surface": "kapıyı",
+      "lemma": "kapı",
+      "meaning": {
+        "en": "the door (object)",
+        "ko": "문을"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "kapı",
+          "meaning": {
+            "en": "door",
+            "ko": "문"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Object of knocking/opening",
+        "ko": "두드림·열림의 목적어"
+      },
+      "contextualExplanation": {
+        "en": "A buffer y separates the vowel-final noun from accusative.",
+        "ko": "모음 끝 명사와 대격 사이에 y가 옵니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "door",
+        "ko": "문"
+      }
+    },
+    {
+      "id": "study-rev-3-20-word-3",
+      "verseId": "REV.3.20",
+      "start": 43,
+      "end": 49,
+      "surface": "sesimi",
+      "lemma": "ses",
+      "meaning": {
+        "en": "my voice (object)",
+        "ko": "내 소리를"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "ses",
+          "meaning": {
+            "en": "voice / sound",
+            "ko": "목소리·소리"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "im",
+          "meaning": {
+            "en": "first-person singular possessive",
+            "ko": "1인칭 단수 소유"
+          },
+          "function": "P1"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "1sg",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Possessed object of hearing",
+        "ko": "듣는 동사의 소유 목적어"
+      },
+      "contextualExplanation": {
+        "en": "First-person possession then accusative: the listener hears the speaker’s voice.",
+        "ko": "1인칭 소유 뒤 대격이 와서 청자가 화자의 소리를 듣습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "voice / sound",
+        "ko": "목소리·소리"
+      }
+    },
+    {
+      "id": "study-rev-3-20-word-4",
+      "verseId": "REV.3.20",
+      "start": 67,
+      "end": 73,
+      "surface": "açarsa",
+      "lemma": "açmak",
+      "meaning": {
+        "en": "if someone opens",
+        "ko": "연다면"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "aç",
+          "meaning": {
+            "en": "open",
+            "ko": "열다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ar",
+          "meaning": {
+            "en": "aorist: general / habitual",
+            "ko": "일반·습관 현재"
+          },
+          "function": "AOR"
+        },
+        {
+          "form": "sa",
+          "meaning": {
+            "en": "conditional",
+            "ko": "조건"
+          },
+          "function": "COND"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "aorist",
+        "mood": "conditional"
+      },
+      "role": {
+        "en": "Aorist conditional",
+        "ko": "일반 현재 조건"
+      },
+      "contextualExplanation": {
+        "en": "The subject is biri, not the person speaking at the door.",
+        "ko": "주어는 문 앞의 화자가 아니라 biri입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "open",
+        "ko": "열다"
+      }
+    },
+    {
+      "id": "study-rev-3-20-word-5",
+      "verseId": "REV.3.20",
+      "start": 80,
+      "end": 86,
+      "surface": "yanına",
+      "lemma": "yan",
+      "meaning": {
+        "en": "to the side of / beside",
+        "ko": "그 곁으로"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "yan",
+          "meaning": {
+            "en": "side",
+            "ko": "옆"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "a",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "dative"
+      },
+      "role": {
+        "en": "Possessed destination",
+        "ko": "소유 목적지"
+      },
+      "contextualExplanation": {
+        "en": "Onun is the possessor; -a marks the destination of entering.",
+        "ko": "onun이 소유자이고 -a가 들어가는 목적지를 표시합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "side",
+        "ko": "옆"
+      }
+    },
+    {
+      "id": "study-rev-3-20-word-6",
+      "verseId": "REV.3.20",
+      "start": 139,
+      "end": 148,
+      "surface": "yiyeceğiz",
+      "lemma": "yemek",
+      "meaning": {
+        "en": "we will eat",
+        "ko": "우리는 먹을 것이다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yi",
+          "meaning": {
+            "en": "eat (verb)",
+            "ko": "먹다 (동사)"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "eceğ",
+          "meaning": {
+            "en": "future",
+            "ko": "미래"
+          },
+          "function": "FUT"
+        },
+        {
+          "form": "iz",
+          "meaning": {
+            "en": "first-person plural",
+            "ko": "1인칭 복수"
+          },
+          "function": "PERSON1P"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "ye- → yi-; -ecek → -eceğ",
+          "ko": "ye-가 yi-로, -ecek가 -eceğ로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "tenseAspect": "future",
+        "person": "1pl"
+      },
+      "role": {
+        "en": "First-person plural future",
+        "ko": "1인칭 복수 미래"
+      },
+      "contextualExplanation": {
+        "en": "Ye- narrows to yi- in this future form; k softens before the plural person vowel.",
+        "ko": "이 미래형에서 ye-가 yi-가 되고 복수 인칭 모음 앞에서 k가 ğ로 바뀝니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "eat (verb)",
+        "ko": "먹다 (동사)"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-rev-3-20-word-1-vocab",
+      "analysisId": "study-rev-3-20-word-1",
+      "lemma": "kapı",
+      "classification": "general",
+      "definitions": {
+        "en": "door",
+        "ko": "문"
+      },
+      "usageNotes": {
+        "en": "Contrast the same noun’s accusative kapıyı in the next phrase.",
+        "ko": "다음 구의 대격 kapıyı와 비교하세요."
+      }
+    },
+    {
+      "id": "study-rev-3-20-word-2-vocab",
+      "analysisId": "study-rev-3-20-word-2",
+      "lemma": "kapı",
+      "classification": "general",
+      "definitions": {
+        "en": "door",
+        "ko": "문"
+      },
+      "usageNotes": {
+        "en": "A buffer y separates the vowel-final noun from accusative.",
+        "ko": "모음 끝 명사와 대격 사이에 y가 옵니다."
+      }
+    },
+    {
+      "id": "study-rev-3-20-word-3-vocab",
+      "analysisId": "study-rev-3-20-word-3",
+      "lemma": "ses",
+      "classification": "general",
+      "definitions": {
+        "en": "voice / sound",
+        "ko": "목소리·소리"
+      },
+      "usageNotes": {
+        "en": "First-person possession then accusative: the listener hears the speaker’s voice.",
+        "ko": "1인칭 소유 뒤 대격이 와서 청자가 화자의 소리를 듣습니다."
+      }
+    },
+    {
+      "id": "study-rev-3-20-word-4-vocab",
+      "analysisId": "study-rev-3-20-word-4",
+      "lemma": "açmak",
+      "classification": "general",
+      "definitions": {
+        "en": "open",
+        "ko": "열다"
+      },
+      "usageNotes": {
+        "en": "The subject is biri, not the person speaking at the door.",
+        "ko": "주어는 문 앞의 화자가 아니라 biri입니다."
+      }
+    },
+    {
+      "id": "study-rev-3-20-word-5-vocab",
+      "analysisId": "study-rev-3-20-word-5",
+      "lemma": "yan",
+      "classification": "general",
+      "definitions": {
+        "en": "side",
+        "ko": "옆"
+      },
+      "usageNotes": {
+        "en": "Onun is the possessor; -a marks the destination of entering.",
+        "ko": "onun이 소유자이고 -a가 들어가는 목적지를 표시합니다."
+      }
+    },
+    {
+      "id": "study-rev-3-20-word-6-vocab",
+      "analysisId": "study-rev-3-20-word-6",
+      "lemma": "yemek",
+      "classification": "general",
+      "definitions": {
+        "en": "eat (verb)",
+        "ko": "먹다 (동사)"
+      },
+      "usageNotes": {
+        "en": "Ye- narrows to yi- in this future form; k softens before the plural person vowel.",
+        "ko": "이 미래형에서 ye-가 yi-가 되고 복수 인칭 모음 앞에서 k가 ğ로 바뀝니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-rev-3-20-grammar-1",
+      "title": {
+        "en": "One noun in two cases",
+        "ko": "한 명사의 두 격"
+      },
+      "explanation": {
+        "en": "Kapıda names location; kapıyı is the object. Case endings—not English word order—establish their roles.",
+        "ko": "kapıda는 위치, kapıyı는 목적어입니다. 영어식 어순이 아니라 격 어미가 역할을 정합니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "REV.3.20",
+          "start": 0,
+          "end": 37
+        },
+        {
+          "verseId": "REV.3.20",
+          "start": 38,
+          "end": 97
+        },
+        {
+          "verseId": "REV.3.20",
+          "start": 98,
+          "end": 149
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-rev-3-20-grammar-2",
+      "title": {
+        "en": "Changing person at the shared meal",
+        "ko": "함께 먹을 때 바뀌는 인칭"
+      },
+      "explanation": {
+        "en": "Gireceğim is I; yiyeceğiz is we. Follow the switch from the speaker’s action to the two participants’ joint action.",
+        "ko": "gireceğim은 나이고 yiyeceğiz는 우리입니다. 화자의 행위에서 두 사람의 공동 행위로 바뀜을 읽으세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "REV.3.20",
+          "start": 0,
+          "end": 37
+        },
+        {
+          "verseId": "REV.3.20",
+          "start": 38,
+          "end": 97
+        },
+        {
+          "verseId": "REV.3.20",
+          "start": 98,
+          "end": 149
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-02"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Offer a consent-based invitation to share food, with a conditional and a “we” future.",
+    "ko": "조건과 우리 미래형으로 동의를 존중하는 식사 초대를 하세요."
+  },
+  "modelResponse": {
+    "tr": "İsterseniz birlikte yemek yiyeceğiz. Size uygun mu?",
+    "meaning": {
+      "en": "If you would like, we will eat together. Is that suitable for you?",
+      "ko": "원하시면 함께 식사하겠습니다. 괜찮으세요?"
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "ministry-02"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-rev-3-20-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Revelation 3:20? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 요한계시록 3:20인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-rev-3-20",
+          "passageId": "study-rev-3-20",
+          "explanation": {
+            "en": "This is the passage. I stand at the door and knock. If someone hears my voice and opens the door, I will enter beside them, and we will eat together. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 나는 문 앞에 서서 두드립니다. 누군가 내 음성을 듣고 문을 열면 그에게 들어가 함께 식사할 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-3-18",
+          "passageId": "study-1pe-3-18",
+          "explanation": {
+            "en": "This is a different passage. Christ, the righteous one, died once and finally as a sin offering for the unrighteous to bring us to God. He was put to death bodily but made alive in spirit. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 의로운 그리스도께서 우리를 하나님께 이끄시려고 의롭지 않은 사람들을 위해 죄의 제물로 처음이자 마지막으로 죽으셨습니다. 육체로 죽임을 당하셨으나 영으로 살리심을 받으셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-5-24",
+          "passageId": "study-jhn-5-24",
+          "explanation": {
+            "en": "This is a different passage. I tell you truly: whoever hears my word and believes the one who sent me has eternal life. Such a person is not judged but has passed from death into life. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 진실로 말합니다. 내 말을 듣고 나를 보내신 분을 믿는 사람은 영원한 생명이 있습니다. 그런 사람은 심판받지 않고 죽음에서 생명으로 옮겨졌습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-isa-53-6",
+          "passageId": "study-isa-53-6",
+          "explanation": {
+            "en": "This is a different passage. We all had strayed from the path like sheep; each turned to their own way. Yet the LORD placed all our punishment on him. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 우리는 모두 양처럼 길을 벗어났고 각자 자기 길로 돌아섰습니다. 그러나 주님은 우리 모두의 형벌을 그에게 지우셨습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rev-3-20"
+      ],
+      "explanations": {
+        "en": "This is the passage. I stand at the door and knock. If someone hears my voice and opens the door, I will enter beside them, and we will eat together. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 나는 문 앞에 서서 두드립니다. 누군가 내 음성을 듣고 문을 열면 그에게 들어가 함께 식사할 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-rev-3-20-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-rev-3-20",
+          "referenceId": "study-rev-3-20",
+          "explanation": {
+            "en": "This is the passage. I stand at the door and knock. If someone hears my voice and opens the door, I will enter beside them, and we will eat together. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 나는 문 앞에 서서 두드립니다. 누군가 내 음성을 듣고 문을 열면 그에게 들어가 함께 식사할 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-3-18",
+          "referenceId": "study-1pe-3-18",
+          "explanation": {
+            "en": "This is a different passage. Christ, the righteous one, died once and finally as a sin offering for the unrighteous to bring us to God. He was put to death bodily but made alive in spirit. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 의로운 그리스도께서 우리를 하나님께 이끄시려고 의롭지 않은 사람들을 위해 죄의 제물로 처음이자 마지막으로 죽으셨습니다. 육체로 죽임을 당하셨으나 영으로 살리심을 받으셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-5-24",
+          "referenceId": "study-jhn-5-24",
+          "explanation": {
+            "en": "This is a different passage. I tell you truly: whoever hears my word and believes the one who sent me has eternal life. Such a person is not judged but has passed from death into life. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 진실로 말합니다. 내 말을 듣고 나를 보내신 분을 믿는 사람은 영원한 생명이 있습니다. 그런 사람은 심판받지 않고 죽음에서 생명으로 옮겨졌습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-isa-53-6",
+          "referenceId": "study-isa-53-6",
+          "explanation": {
+            "en": "This is a different passage. We all had strayed from the path like sheep; each turned to their own way. Yet the LORD placed all our punishment on him. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 우리는 모두 양처럼 길을 벗어났고 각자 자기 길로 돌아섰습니다. 그러나 주님은 우리 모두의 형벌을 그에게 지우셨습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rev-3-20"
+      ],
+      "explanations": {
+        "en": "This is the passage. I stand at the door and knock. If someone hears my voice and opens the door, I will enter beside them, and we will eat together. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 나는 문 앞에 서서 두드립니다. 누군가 내 음성을 듣고 문을 열면 그에게 들어가 함께 식사할 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-rev-3-20-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “kapı” in this passage?",
+        "ko": "이 본문에서 “kapı”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-rev-3-20-word-1-vocab",
+          "label": {
+            "en": "door",
+            "ko": "문"
+          },
+          "explanation": {
+            "en": "door. Contrast the same noun’s accusative kapıyı in the next phrase.",
+            "ko": "문. 다음 구의 대격 kapıyı와 비교하세요."
+          }
+        },
+        {
+          "id": "study-rev-3-20-word-3-vocab",
+          "label": {
+            "en": "voice / sound",
+            "ko": "목소리·소리"
+          },
+          "explanation": {
+            "en": "That definition belongs to ses. kapı means door here. Contrast the same noun’s accusative kapıyı in the next phrase.",
+            "ko": "그 뜻은 ses입니다. 여기 kapı는 문입니다. 다음 구의 대격 kapıyı와 비교하세요."
+          }
+        },
+        {
+          "id": "study-rev-3-20-word-4-vocab",
+          "label": {
+            "en": "open",
+            "ko": "열다"
+          },
+          "explanation": {
+            "en": "That definition belongs to açmak. kapı means door here. Contrast the same noun’s accusative kapıyı in the next phrase.",
+            "ko": "그 뜻은 açmak입니다. 여기 kapı는 문입니다. 다음 구의 대격 kapıyı와 비교하세요."
+          }
+        },
+        {
+          "id": "study-rev-3-20-word-5-vocab",
+          "label": {
+            "en": "side",
+            "ko": "옆"
+          },
+          "explanation": {
+            "en": "That definition belongs to yan. kapı means door here. Contrast the same noun’s accusative kapıyı in the next phrase.",
+            "ko": "그 뜻은 yan입니다. 여기 kapı는 문입니다. 다음 구의 대격 kapıyı와 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rev-3-20-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Contrast the same noun’s accusative kapıyı in the next phrase.",
+        "ko": "다음 구의 대격 kapıyı와 비교하세요."
+      }
+    },
+    {
+      "id": "study-rev-3-20-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “kapıda”, what is the function of “-da” here?",
+        "ko": "“kapıda”에서 “-da”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "Location. Contrast the same noun’s accusative kapıyı in the next phrase.",
+            "ko": "위치. 다음 구의 대격 kapıyı와 비교하세요."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Location. Contrast the same noun’s accusative kapıyı in the next phrase.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 위치. 다음 구의 대격 kapıyı와 비교하세요."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Location. Contrast the same noun’s accusative kapıyı in the next phrase.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 위치. 다음 구의 대격 kapıyı와 비교하세요."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Location. Contrast the same noun’s accusative kapıyı in the next phrase.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 위치. 다음 구의 대격 kapıyı와 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "LOC"
+      ],
+      "explanations": {
+        "en": "Contrast the same noun’s accusative kapıyı in the next phrase.",
+        "ko": "다음 구의 대격 kapıyı와 비교하세요."
+      }
+    }
+  ]
+}

@@ -1,0 +1,673 @@
+{
+  "id": "study-mat-18-20",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Matthew 18:20 through its clause structure and the forms adımla / toplanırsa.",
+    "ko": "마태복음 18:20의 절 구조와 adımla / toplanırsa 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Where two or three gather in my name, I am there among them as well.",
+    "ko": "두세 사람이 내 이름으로 모이는 곳에 나도 그들 가운데 있습니다."
+  },
+  "clauses": [
+    {
+      "id": "study-mat-18-20-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "MAT.18.20",
+          "start": 0,
+          "end": 49
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Wherever two or three people gather in my name,",
+        "ko": "두세 사람이 내 이름으로 모이는 곳이면,"
+      },
+      "literalGloss": {
+        "en": "where / two or three people / with my name / gather-if",
+        "ko": "어디 / 두세 사람 / 내 이름으로 / 모인다면"
+      },
+      "explanation": {
+        "en": "Nerede … -sa is correlated with orada, “there.” A number precedes singular kişi; Turkish does not add the plural suffix after this numeral.",
+        "ko": "nerede … -sa는 뒤의 orada와 호응합니다. 수 뒤의 kişi는 단수형이며 복수 접사를 붙이지 않습니다."
+      }
+    },
+    {
+      "id": "study-mat-18-20-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "MAT.18.20",
+          "start": 50,
+          "end": 79
+        }
+      ],
+      "naturalMeaning": {
+        "en": "I too am there, among them.",
+        "ko": "나도 그곳, 그들 가운데 있습니다."
+      },
+      "literalGloss": {
+        "en": "I also / there / in their midst-am-I",
+        "ko": "나도 / 그곳에 / 그들 사이에 있다 나"
+      },
+      "explanation": {
+        "en": "Ben de has a separate additive particle. Aralarında becomes a first-person nominal predicate with -yım; the implied location noun is ara.",
+        "ko": "ben de는 띄어 쓴 첨가 조사입니다. aralarında에 -yım이 붙어 1인칭 명사 술어가 됩니다. 위치를 나타내는 명사는 ara입니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-mat-18-20-word-1",
+      "verseId": "MAT.18.20",
+      "start": 31,
+      "end": 37,
+      "surface": "adımla",
+      "lemma": "ad",
+      "meaning": {
+        "en": "with / in my name",
+        "ko": "내 이름으로"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "ad",
+          "meaning": {
+            "en": "name",
+            "ko": "이름"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ım",
+          "meaning": {
+            "en": "first-person singular possessive",
+            "ko": "1인칭 단수 소유"
+          },
+          "function": "P1"
+        },
+        {
+          "form": "la",
+          "meaning": {
+            "en": "with / by",
+            "ko": "~와 함께·~로"
+          },
+          "function": "WITH"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "1sg"
+      },
+      "role": {
+        "en": "Authority / affiliation expression",
+        "ko": "권위·관계 표현"
+      },
+      "contextualExplanation": {
+        "en": "Adımla means with my name here; not the noun adım “step.” The context disambiguates the identical spelling.",
+        "ko": "여기서는 나의 이름으로이며 걸음이라는 adım과 다릅니다. 같은 철자를 문맥으로 구별합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "name",
+        "ko": "이름"
+      }
+    },
+    {
+      "id": "study-mat-18-20-word-2",
+      "verseId": "MAT.18.20",
+      "start": 38,
+      "end": 48,
+      "surface": "toplanırsa",
+      "lemma": "toplanmak",
+      "meaning": {
+        "en": "if they gather",
+        "ko": "모인다면"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "toplan",
+          "meaning": {
+            "en": "gather / be assembled",
+            "ko": "모이다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ır",
+          "meaning": {
+            "en": "aorist: general / habitual",
+            "ko": "일반·습관 현재"
+          },
+          "function": "AOR"
+        },
+        {
+          "form": "sa",
+          "meaning": {
+            "en": "conditional",
+            "ko": "조건"
+          },
+          "function": "COND"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "aorist",
+        "mood": "conditional"
+      },
+      "role": {
+        "en": "Conditional gathering",
+        "ko": "모임 조건"
+      },
+      "contextualExplanation": {
+        "en": "Toplanmak is the lexical “gather”; do not mechanically assign a passive agent to every -n stem.",
+        "ko": "toplanmak은 모이다라는 어휘 동사입니다. -n이 보인다고 기계적으로 피동 행위자를 정하지 마세요."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "gather / be assembled",
+        "ko": "모이다"
+      }
+    },
+    {
+      "id": "study-mat-18-20-word-3",
+      "verseId": "MAT.18.20",
+      "start": 57,
+      "end": 62,
+      "surface": "orada",
+      "lemma": "ora",
+      "meaning": {
+        "en": "there",
+        "ko": "그곳에"
+      },
+      "partOfSpeech": {
+        "en": "Pronoun / pronominal expression",
+        "ko": "대명사·대명 표현"
+      },
+      "segments": [
+        {
+          "form": "ora",
+          "meaning": {
+            "en": "that place",
+            "ko": "그곳"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "da",
+          "meaning": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "function": "LOC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "case": "locative"
+      },
+      "role": {
+        "en": "Correlated location",
+        "ko": "호응 위치"
+      },
+      "contextualExplanation": {
+        "en": "Orada answers the place introduced by nerede.",
+        "ko": "orada는 nerede로 소개한 장소에 호응합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "that place",
+        "ko": "그곳"
+      }
+    },
+    {
+      "id": "study-mat-18-20-word-4",
+      "verseId": "MAT.18.20",
+      "start": 64,
+      "end": 77,
+      "surface": "aralarındayım",
+      "lemma": "ara",
+      "meaning": {
+        "en": "I am among them",
+        "ko": "나는 그들 가운데 있다"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "ara",
+          "meaning": {
+            "en": "space / interval / between",
+            "ko": "사이·간격"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ları",
+          "meaning": {
+            "en": "plural possessed form: their / his or her plural things, context decides",
+            "ko": "복수 소유 형태: 문맥에 따라 그들의 것·그 사람의 여러 것"
+          },
+          "function": "P3P"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "da",
+          "meaning": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "function": "LOC"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "ım",
+          "meaning": {
+            "en": "first-person singular",
+            "ko": "1인칭 단수"
+          },
+          "function": "PERSON1"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "context-dependent plural",
+        "case": "locative",
+        "person": "1sg"
+      },
+      "role": {
+        "en": "First-person locative predicate",
+        "ko": "1인칭 처소 술어"
+      },
+      "contextualExplanation": {
+        "en": "Their midst takes buffer n and locative; the final -yım marks the speaker, not the group.",
+        "ko": "그들 사이라는 소유 표현 뒤에 n·처소격이 옵니다. 마지막 -yım은 모인 사람들이 아니라 화자를 표시합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "space / interval / between",
+        "ko": "사이·간격"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-mat-18-20-word-1-vocab",
+      "analysisId": "study-mat-18-20-word-1",
+      "lemma": "ad",
+      "classification": "general",
+      "definitions": {
+        "en": "name",
+        "ko": "이름"
+      },
+      "usageNotes": {
+        "en": "Adımla means with my name here; not the noun adım “step.” The context disambiguates the identical spelling.",
+        "ko": "여기서는 나의 이름으로이며 걸음이라는 adım과 다릅니다. 같은 철자를 문맥으로 구별합니다."
+      }
+    },
+    {
+      "id": "study-mat-18-20-word-2-vocab",
+      "analysisId": "study-mat-18-20-word-2",
+      "lemma": "toplanmak",
+      "classification": "general",
+      "definitions": {
+        "en": "gather / be assembled",
+        "ko": "모이다"
+      },
+      "usageNotes": {
+        "en": "Toplanmak is the lexical “gather”; do not mechanically assign a passive agent to every -n stem.",
+        "ko": "toplanmak은 모이다라는 어휘 동사입니다. -n이 보인다고 기계적으로 피동 행위자를 정하지 마세요."
+      }
+    },
+    {
+      "id": "study-mat-18-20-word-3-vocab",
+      "analysisId": "study-mat-18-20-word-3",
+      "lemma": "ora",
+      "classification": "general",
+      "definitions": {
+        "en": "that place",
+        "ko": "그곳"
+      },
+      "usageNotes": {
+        "en": "Orada answers the place introduced by nerede.",
+        "ko": "orada는 nerede로 소개한 장소에 호응합니다."
+      }
+    },
+    {
+      "id": "study-mat-18-20-word-4-vocab",
+      "analysisId": "study-mat-18-20-word-4",
+      "lemma": "ara",
+      "classification": "general",
+      "definitions": {
+        "en": "space / interval / between",
+        "ko": "사이·간격"
+      },
+      "usageNotes": {
+        "en": "Their midst takes buffer n and locative; the final -yım marks the speaker, not the group.",
+        "ko": "그들 사이라는 소유 표현 뒤에 n·처소격이 옵니다. 마지막 -yım은 모인 사람들이 아니라 화자를 표시합니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-mat-18-20-grammar-1",
+      "title": {
+        "en": "Where … there",
+        "ko": "어디든지 … 그곳에"
+      },
+      "explanation": {
+        "en": "Nerede is not a standalone question here. Its conditional clause is completed by orada in the main clause.",
+        "ko": "nerede는 여기서 독립 질문이 아닙니다. 조건절이 주절의 orada와 연결됩니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "MAT.18.20",
+          "start": 0,
+          "end": 49
+        },
+        {
+          "verseId": "MAT.18.20",
+          "start": 50,
+          "end": 79
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-mat-18-20-grammar-2",
+      "title": {
+        "en": "Possession plus location plus person",
+        "ko": "소유·처소·인칭 연결"
+      },
+      "explanation": {
+        "en": "Ara-ları-n-da-y-ım combines a possessed location with a first-person predicate. Ben de adds “I too” separately.",
+        "ko": "ara-ları-n-da-y-ım은 소유 위치와 1인칭 술어를 결합합니다. ben de의 ~도는 별도 단어입니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "MAT.18.20",
+          "start": 0,
+          "end": 49
+        },
+        {
+          "verseId": "MAT.18.20",
+          "start": 50,
+          "end": 79
+        }
+      ],
+      "relatedLessonIds": []
+    }
+  ],
+  "independentTask": {
+    "en": "Describe where you are in a group using arasında / aralarındayım, then make a nerede … orada sentence.",
+    "ko": "그룹 가운데 어디에 있는지 arasında·aralarındayım으로 말하고 nerede … orada 문장도 만드세요."
+  },
+  "modelResponse": {
+    "tr": "Arkadaşlarım burada; ben de aralarındayım. Nerede buluşursak, orada konuşuruz.",
+    "meaning": {
+      "en": "My friends are here; I am among them too. Wherever we meet, we talk there.",
+      "ko": "친구들이 여기 있고 나도 그들 가운데 있습니다. 어디서 만나든 그곳에서 이야기합니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-mat-18-20-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Matthew 18:20? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 마태복음 18:20인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-mat-18-20",
+          "passageId": "study-mat-18-20",
+          "explanation": {
+            "en": "This is the passage. Where two or three gather in my name, I am there among them as well. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 두세 사람이 내 이름으로 모이는 곳에 나도 그들 가운데 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-2co-5-17",
+          "passageId": "study-2co-5-17",
+          "explanation": {
+            "en": "This is a different passage. Anyone who is in Christ is a new creation: the old things have passed, and everything has become new. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 그리스도 안에 있는 사람은 새로운 피조물입니다. 옛것은 지나갔고 모든 것이 새롭게 되었습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-15-7",
+          "passageId": "study-jhn-15-7",
+          "explanation": {
+            "en": "This is a different passage. If you remain in me and my words remain in you, ask whatever you wish and it will be given to you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분이 내 안에 머물고 내 말이 여러분 안에 머물면 원하는 것을 구하세요. 여러분에게 주어질 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-2ti-3-16",
+          "passageId": "study-2ti-3-16",
+          "explanation": {
+            "en": "This is a different passage. All Scripture is God’s inspiration and is useful for teaching, rebuking, setting people on the right path, and training in righteousness. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 모든 성경은 하나님의 영감으로 된 것이며 가르침·책망·바른길로 이끌기·의로움에 관한 훈련에 유익합니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-mat-18-20"
+      ],
+      "explanations": {
+        "en": "This is the passage. Where two or three gather in my name, I am there among them as well. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 두세 사람이 내 이름으로 모이는 곳에 나도 그들 가운데 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-mat-18-20-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-mat-18-20",
+          "referenceId": "study-mat-18-20",
+          "explanation": {
+            "en": "This is the passage. Where two or three gather in my name, I am there among them as well. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 두세 사람이 내 이름으로 모이는 곳에 나도 그들 가운데 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-2co-5-17",
+          "referenceId": "study-2co-5-17",
+          "explanation": {
+            "en": "This is a different passage. Anyone who is in Christ is a new creation: the old things have passed, and everything has become new. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 그리스도 안에 있는 사람은 새로운 피조물입니다. 옛것은 지나갔고 모든 것이 새롭게 되었습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-15-7",
+          "referenceId": "study-jhn-15-7",
+          "explanation": {
+            "en": "This is a different passage. If you remain in me and my words remain in you, ask whatever you wish and it will be given to you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분이 내 안에 머물고 내 말이 여러분 안에 머물면 원하는 것을 구하세요. 여러분에게 주어질 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-2ti-3-16",
+          "referenceId": "study-2ti-3-16",
+          "explanation": {
+            "en": "This is a different passage. All Scripture is God’s inspiration and is useful for teaching, rebuking, setting people on the right path, and training in righteousness. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 모든 성경은 하나님의 영감으로 된 것이며 가르침·책망·바른길로 이끌기·의로움에 관한 훈련에 유익합니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-mat-18-20"
+      ],
+      "explanations": {
+        "en": "This is the passage. Where two or three gather in my name, I am there among them as well. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 두세 사람이 내 이름으로 모이는 곳에 나도 그들 가운데 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-mat-18-20-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “ad” in this passage?",
+        "ko": "이 본문에서 “ad”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-mat-18-20-word-1-vocab",
+          "label": {
+            "en": "name",
+            "ko": "이름"
+          },
+          "explanation": {
+            "en": "name. Adımla means with my name here; not the noun adım “step.” The context disambiguates the identical spelling.",
+            "ko": "이름. 여기서는 나의 이름으로이며 걸음이라는 adım과 다릅니다. 같은 철자를 문맥으로 구별합니다."
+          }
+        },
+        {
+          "id": "study-mat-18-20-word-2-vocab",
+          "label": {
+            "en": "gather / be assembled",
+            "ko": "모이다"
+          },
+          "explanation": {
+            "en": "That definition belongs to toplanmak. ad means name here. Adımla means with my name here; not the noun adım “step.” The context disambiguates the identical spelling.",
+            "ko": "그 뜻은 toplanmak입니다. 여기 ad는 이름입니다. 여기서는 나의 이름으로이며 걸음이라는 adım과 다릅니다. 같은 철자를 문맥으로 구별합니다."
+          }
+        },
+        {
+          "id": "study-mat-18-20-word-3-vocab",
+          "label": {
+            "en": "that place",
+            "ko": "그곳"
+          },
+          "explanation": {
+            "en": "That definition belongs to ora. ad means name here. Adımla means with my name here; not the noun adım “step.” The context disambiguates the identical spelling.",
+            "ko": "그 뜻은 ora입니다. 여기 ad는 이름입니다. 여기서는 나의 이름으로이며 걸음이라는 adım과 다릅니다. 같은 철자를 문맥으로 구별합니다."
+          }
+        },
+        {
+          "id": "study-mat-18-20-word-4-vocab",
+          "label": {
+            "en": "space / interval / between",
+            "ko": "사이·간격"
+          },
+          "explanation": {
+            "en": "That definition belongs to ara. ad means name here. Adımla means with my name here; not the noun adım “step.” The context disambiguates the identical spelling.",
+            "ko": "그 뜻은 ara입니다. 여기 ad는 이름입니다. 여기서는 나의 이름으로이며 걸음이라는 adım과 다릅니다. 같은 철자를 문맥으로 구별합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-mat-18-20-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Adımla means with my name here; not the noun adım “step.” The context disambiguates the identical spelling.",
+        "ko": "여기서는 나의 이름으로이며 걸음이라는 adım과 다릅니다. 같은 철자를 문맥으로 구별합니다."
+      }
+    },
+    {
+      "id": "study-mat-18-20-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “toplanırsa”, what is the function of “-sa” here?",
+        "ko": "“toplanırsa”에서 “-sa”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "COND",
+          "label": {
+            "en": "conditional",
+            "ko": "조건"
+          },
+          "explanation": {
+            "en": "Conditional gathering. Toplanmak is the lexical “gather”; do not mechanically assign a passive agent to every -n stem.",
+            "ko": "모임 조건. toplanmak은 모이다라는 어휘 동사입니다. -n이 보인다고 기계적으로 피동 행위자를 정하지 마세요."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Conditional gathering. Toplanmak is the lexical “gather”; do not mechanically assign a passive agent to every -n stem.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 모임 조건. toplanmak은 모이다라는 어휘 동사입니다. -n이 보인다고 기계적으로 피동 행위자를 정하지 마세요."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Conditional gathering. Toplanmak is the lexical “gather”; do not mechanically assign a passive agent to every -n stem.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 모임 조건. toplanmak은 모이다라는 어휘 동사입니다. -n이 보인다고 기계적으로 피동 행위자를 정하지 마세요."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Conditional gathering. Toplanmak is the lexical “gather”; do not mechanically assign a passive agent to every -n stem.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 모임 조건. toplanmak은 모이다라는 어휘 동사입니다. -n이 보인다고 기계적으로 피동 행위자를 정하지 마세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "COND"
+      ],
+      "explanations": {
+        "en": "Toplanmak is the lexical “gather”; do not mechanically assign a passive agent to every -n stem.",
+        "ko": "toplanmak은 모이다라는 어휘 동사입니다. -n이 보인다고 기계적으로 피동 행위자를 정하지 마세요."
+      }
+    }
+  ]
+}

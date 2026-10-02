@@ -1,0 +1,827 @@
+{
+  "id": "study-rom-1-16",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Romans 1:16 through its clause structure and the forms Müjde'den / utanmıyorum.",
+    "ko": "로마서 1:16의 절 구조와 Müjde'den / utanmıyorum 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "I am not ashamed of the gospel, because it is God’s power for the salvation of everyone who believes—first Jews and then those who are not Jews.",
+    "ko": "나는 복음을 부끄러워하지 않습니다. 복음은 믿는 모든 사람, 먼저 유대인과 그다음 유대인이 아닌 사람의 구원을 위한 하나님의 능력이기 때문입니다."
+  },
+  "clauses": [
+    {
+      "id": "study-rom-1-16-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "ROM.1.16",
+          "start": 0,
+          "end": 28
+        }
+      ],
+      "naturalMeaning": {
+        "en": "I am not ashamed of the gospel.",
+        "ko": "나는 복음을 부끄러워하지 않습니다."
+      },
+      "literalGloss": {
+        "en": "because / from gospel / I am not ashamed",
+        "ko": "왜냐하면 / 복음에서 / 부끄러워하지 않는다 나"
+      },
+      "explanation": {
+        "en": "Utanmak takes ablative for the thing one is ashamed of. Müjde means good news generally, and gospel in this Christian context.",
+        "ko": "utanmak은 부끄러워하는 대상을 탈격으로 표시합니다. müjde는 일반적으로 좋은 소식이며 이 기독교 문맥에서는 복음입니다."
+      }
+    },
+    {
+      "id": "study-rom-1-16-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "ROM.1.16",
+          "start": 29,
+          "end": 130
+        }
+      ],
+      "naturalMeaning": {
+        "en": "The gospel is God’s power for the salvation of every believer, Jews first and then non-Jews.",
+        "ko": "복음은 모든 믿는 사람, 먼저 유대인과 그다음 비유대인의 구원을 위한 하나님의 능력입니다."
+      },
+      "literalGloss": {
+        "en": "gospel / believing everyone’s / Jews’ then non-Jews’ / salvation for / God power-is",
+        "ko": "복음 / 믿는 모두의 / 유대인들·비유대인들의 / 구원을 위해 / 하나님 능력이다"
+      },
+      "explanation": {
+        "en": "The dash phrase elaborates everyone; it is not a new subject. Herkesin kurtuluşu is a genitive/possessive pair. Yahudi olmayanlar uses a negative participle, not a separate finite denial.",
+        "ko": "대시 안 구는 모두를 설명하며 새 주어가 아닙니다. herkesin kurtuluşu는 속격·소유 결합입니다. Yahudi olmayanlar는 부정 관계형이며 독립된 유한 부정 문장이 아닙니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-rom-1-16-word-1",
+      "verseId": "ROM.1.16",
+      "start": 6,
+      "end": 15,
+      "surface": "Müjde'den",
+      "lemma": "müjde",
+      "meaning": {
+        "en": "of / about the gospel (after ashamed)",
+        "ko": "복음을 부끄러워하는 대상"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "Müjde",
+          "meaning": {
+            "en": "good news / gospel in context",
+            "ko": "좋은 소식·문맥상 복음"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "'",
+          "meaning": {
+            "en": "apostrophe separating a proper name from a suffix",
+            "ko": "고유 명사와 접사를 구별하는 아포스트로피"
+          },
+          "function": "APOST"
+        },
+        {
+          "form": "den",
+          "meaning": {
+            "en": "ablative: from / away from",
+            "ko": "탈격: ~에서·~로부터"
+          },
+          "function": "ABL"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "case": "ablative"
+      },
+      "role": {
+        "en": "Ablative complement of utanmak",
+        "ko": "utanmak의 탈격 대상"
+      },
+      "contextualExplanation": {
+        "en": "The translation convention capitalizes this religious term and separates its suffix; preserve the source spelling.",
+        "ko": "판본의 종교어 표기 관례에 따라 대문자·아포스트로피를 사용합니다. 본문 철자를 유지하세요."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "good news / gospel in context",
+        "ko": "좋은 소식·문맥상 복음"
+      }
+    },
+    {
+      "id": "study-rom-1-16-word-2",
+      "verseId": "ROM.1.16",
+      "start": 16,
+      "end": 27,
+      "surface": "utanmıyorum",
+      "lemma": "utanmak",
+      "meaning": {
+        "en": "I am not ashamed",
+        "ko": "나는 부끄러워하지 않는다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "utan",
+          "meaning": {
+            "en": "be ashamed",
+            "ko": "부끄러워하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "mı",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "yor",
+          "meaning": {
+            "en": "present continuous",
+            "ko": "현재 진행"
+          },
+          "function": "PROG"
+        },
+        {
+          "form": "um",
+          "meaning": {
+            "en": "first-person singular",
+            "ko": "1인칭 단수"
+          },
+          "function": "PERSON1"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "tenseAspect": "present continuous",
+        "person": "1sg"
+      },
+      "role": {
+        "en": "Negative present-continuous predicate",
+        "ko": "부정 현재 진행 술어"
+      },
+      "contextualExplanation": {
+        "en": "The negative vowel narrows before -yor; the speaker is first person.",
+        "ko": "-yor 앞에서 부정 모음이 좁아지며 화자는 1인칭입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "be ashamed",
+        "ko": "부끄러워하다"
+      }
+    },
+    {
+      "id": "study-rom-1-16-word-3",
+      "verseId": "ROM.1.16",
+      "start": 45,
+      "end": 53,
+      "surface": "herkesin",
+      "lemma": "herkes",
+      "meaning": {
+        "en": "of everyone",
+        "ko": "모든 사람의"
+      },
+      "partOfSpeech": {
+        "en": "Pronoun / pronominal expression",
+        "ko": "대명사·대명 표현"
+      },
+      "segments": [
+        {
+          "form": "herkes",
+          "meaning": {
+            "en": "everyone",
+            "ko": "모두"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "in",
+          "meaning": {
+            "en": "genitive: possessor / dependent subject",
+            "ko": "속격: 소유자·내포절 주어"
+          },
+          "function": "GEN"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "case": "genitive"
+      },
+      "role": {
+        "en": "Possessor of salvation",
+        "ko": "구원의 속격 소유자"
+      },
+      "contextualExplanation": {
+        "en": "Herkes is grammatically singular despite meaning every person.",
+        "ko": "모든 사람이라는 뜻이지만 herkes는 문법적으로 단수입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "everyone",
+        "ko": "모두"
+      }
+    },
+    {
+      "id": "study-rom-1-16-word-4",
+      "verseId": "ROM.1.16",
+      "start": 87,
+      "end": 99,
+      "surface": "olmayanların",
+      "lemma": "olmak",
+      "meaning": {
+        "en": "of those who are not",
+        "ko": "~이 아닌 사람들의"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ol",
+          "meaning": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ma",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "yan",
+          "meaning": {
+            "en": "subject participle -An",
+            "ko": "주어 관계형 -An"
+          },
+          "function": "PART"
+        },
+        {
+          "form": "lar",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "ın",
+          "meaning": {
+            "en": "genitive: possessor / dependent subject",
+            "ko": "속격: 소유자·내포절 주어"
+          },
+          "function": "GEN"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "nonfinite": "subject participle",
+        "number": "plural",
+        "case": "genitive"
+      },
+      "role": {
+        "en": "Negative participle used as a plural noun",
+        "ko": "명사처럼 쓰인 부정 복수 관계형"
+      },
+      "contextualExplanation": {
+        "en": "-yan realizes the -An participle after the negative vowel; the genitive connects to kurtuluşu.",
+        "ko": "-yan은 부정 모음 뒤의 -An 실현형입니다. 속격은 kurtuluşu에 연결됩니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      }
+    },
+    {
+      "id": "study-rom-1-16-word-5",
+      "verseId": "ROM.1.16",
+      "start": 101,
+      "end": 110,
+      "surface": "kurtuluşu",
+      "lemma": "kurtuluş",
+      "meaning": {
+        "en": "their salvation",
+        "ko": "그들의 구원"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "kurtuluş",
+          "meaning": {
+            "en": "salvation / rescue",
+            "ko": "구원"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "u",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Possessed noun governed by için",
+        "ko": "için에 연결되는 소유 명사"
+      },
+      "contextualExplanation": {
+        "en": "The possessor is everyone who believes; -u is possession here, not an object of a verb.",
+        "ko": "소유자는 믿는 모두이며 -u는 여기서 동사 목적어가 아니라 소유입니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "salvation / rescue",
+        "ko": "구원"
+      }
+    },
+    {
+      "id": "study-rom-1-16-word-6",
+      "verseId": "ROM.1.16",
+      "start": 122,
+      "end": 129,
+      "surface": "gücüdür",
+      "lemma": "güç",
+      "meaning": {
+        "en": "is power",
+        "ko": "능력이다"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "güc",
+          "meaning": {
+            "en": "strength / power",
+            "ko": "힘·능력"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ü",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "dür",
+          "meaning": {
+            "en": "copular/assertive ending",
+            "ko": "계사·단정 어미"
+          },
+          "function": "COP"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "güç → güc- before the vowel",
+          "ko": "모음 앞에서 güç가 güc-로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Compound predicate",
+        "ko": "명사 결합 술어"
+      },
+      "contextualExplanation": {
+        "en": "Tanrı gücü is a compound. Güç voices ç to c; -dür asserts the predicate.",
+        "ko": "Tanrı gücü는 명사 결합입니다. güç의 ç가 c로 바뀌고 -dür는 술어를 단정합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "strength / power",
+        "ko": "힘·능력"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-rom-1-16-word-1-vocab",
+      "analysisId": "study-rom-1-16-word-1",
+      "lemma": "müjde",
+      "classification": "biblical",
+      "definitions": {
+        "en": "good news / gospel in context",
+        "ko": "좋은 소식·문맥상 복음"
+      },
+      "usageNotes": {
+        "en": "The translation convention capitalizes this religious term and separates its suffix; preserve the source spelling.",
+        "ko": "판본의 종교어 표기 관례에 따라 대문자·아포스트로피를 사용합니다. 본문 철자를 유지하세요."
+      }
+    },
+    {
+      "id": "study-rom-1-16-word-2-vocab",
+      "analysisId": "study-rom-1-16-word-2",
+      "lemma": "utanmak",
+      "classification": "general",
+      "definitions": {
+        "en": "be ashamed",
+        "ko": "부끄러워하다"
+      },
+      "usageNotes": {
+        "en": "The negative vowel narrows before -yor; the speaker is first person.",
+        "ko": "-yor 앞에서 부정 모음이 좁아지며 화자는 1인칭입니다."
+      }
+    },
+    {
+      "id": "study-rom-1-16-word-3-vocab",
+      "analysisId": "study-rom-1-16-word-3",
+      "lemma": "herkes",
+      "classification": "general",
+      "definitions": {
+        "en": "everyone",
+        "ko": "모두"
+      },
+      "usageNotes": {
+        "en": "Herkes is grammatically singular despite meaning every person.",
+        "ko": "모든 사람이라는 뜻이지만 herkes는 문법적으로 단수입니다."
+      }
+    },
+    {
+      "id": "study-rom-1-16-word-4-vocab",
+      "analysisId": "study-rom-1-16-word-4",
+      "lemma": "olmak",
+      "classification": "general",
+      "definitions": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      },
+      "usageNotes": {
+        "en": "-yan realizes the -An participle after the negative vowel; the genitive connects to kurtuluşu.",
+        "ko": "-yan은 부정 모음 뒤의 -An 실현형입니다. 속격은 kurtuluşu에 연결됩니다."
+      }
+    },
+    {
+      "id": "study-rom-1-16-word-5-vocab",
+      "analysisId": "study-rom-1-16-word-5",
+      "lemma": "kurtuluş",
+      "classification": "biblical",
+      "definitions": {
+        "en": "salvation / rescue",
+        "ko": "구원"
+      },
+      "usageNotes": {
+        "en": "The possessor is everyone who believes; -u is possession here, not an object of a verb.",
+        "ko": "소유자는 믿는 모두이며 -u는 여기서 동사 목적어가 아니라 소유입니다."
+      },
+      "wordFamily": [
+        "kurtulmak",
+        "kurtarmak",
+        "kurtarıcı"
+      ]
+    },
+    {
+      "id": "study-rom-1-16-word-6-vocab",
+      "analysisId": "study-rom-1-16-word-6",
+      "lemma": "güç",
+      "classification": "general",
+      "definitions": {
+        "en": "strength / power",
+        "ko": "힘·능력"
+      },
+      "usageNotes": {
+        "en": "Tanrı gücü is a compound. Güç voices ç to c; -dür asserts the predicate.",
+        "ko": "Tanrı gücü는 명사 결합입니다. güç의 ç가 c로 바뀌고 -dür는 술어를 단정합니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-rom-1-16-grammar-1",
+      "title": {
+        "en": "Ablative beyond literal movement",
+        "ko": "이동 외의 탈격"
+      },
+      "explanation": {
+        "en": "Utanmak selects -DAn. Translating it as “from” mechanically would obscure the actual meaning “ashamed of.”",
+        "ko": "utanmak은 -DAn을 요구합니다. 언제나 ~로부터라고 직역하면 부끄러워하는 대상이라는 의미가 가려집니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ROM.1.16",
+          "start": 0,
+          "end": 28
+        },
+        {
+          "verseId": "ROM.1.16",
+          "start": 29,
+          "end": 130
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-rom-1-16-grammar-2",
+      "title": {
+        "en": "A long possessor phrase",
+        "ko": "긴 소유자 구"
+      },
+      "explanation": {
+        "en": "İman eden herkesin modifies kurtuluşu, with the dash phrase adding detail. The main subject is Müjde and the main predicate is Tanrı gücüdür.",
+        "ko": "iman eden herkesin은 kurtuluşu의 소유자이고 대시 안은 부연입니다. 주절 주어는 Müjde, 술어는 Tanrı gücüdür입니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ROM.1.16",
+          "start": 0,
+          "end": 28
+        },
+        {
+          "verseId": "ROM.1.16",
+          "start": 29,
+          "end": 130
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-07"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Explain the word müjde to a friend in two short Turkish sentences, distinguishing ordinary good news from its Christian use.",
+    "ko": "müjde를 짧은 터키어 두 문장으로 설명하고 일반적 좋은 소식과 기독교 용례를 구별하세요."
+  },
+  "modelResponse": {
+    "tr": "Müjde, iyi haber demektir. Hristiyanlar bu sözü İsa hakkındaki iyi haber için de kullanır.",
+    "meaning": {
+      "en": "Müjde means good news. Christians also use this word for the good news about Jesus.",
+      "ko": "müjde는 좋은 소식이라는 뜻입니다. 기독교인은 예수님에 관한 좋은 소식에도 이 말을 씁니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "ministry-07"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-rom-1-16-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Romans 1:16? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 로마서 1:16인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-rom-1-16",
+          "passageId": "study-rom-1-16",
+          "explanation": {
+            "en": "This is the passage. I am not ashamed of the gospel, because it is God’s power for the salvation of everyone who believes—first Jews and then those who are not Jews. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 나는 복음을 부끄러워하지 않습니다. 복음은 믿는 모든 사람, 먼저 유대인과 그다음 유대인이 아닌 사람의 구원을 위한 하나님의 능력이기 때문입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-4-19",
+          "passageId": "study-mat-4-19",
+          "explanation": {
+            "en": "This is a different passage. He said to them, “Follow me. I will make you fishers who catch people.” Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 그들에게 “나를 따라오세요. 여러분을 사람을 낚는 어부로 만들겠습니다”라고 말씀하셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-2ti-3-16",
+          "passageId": "study-2ti-3-16",
+          "explanation": {
+            "en": "This is a different passage. All Scripture is God’s inspiration and is useful for teaching, rebuking, setting people on the right path, and training in righteousness. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 모든 성경은 하나님의 영감으로 된 것이며 가르침·책망·바른길로 이끌기·의로움에 관한 훈련에 유익합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-18-20",
+          "passageId": "study-mat-18-20",
+          "explanation": {
+            "en": "This is a different passage. Where two or three gather in my name, I am there among them as well. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 두세 사람이 내 이름으로 모이는 곳에 나도 그들 가운데 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-1-16"
+      ],
+      "explanations": {
+        "en": "This is the passage. I am not ashamed of the gospel, because it is God’s power for the salvation of everyone who believes—first Jews and then those who are not Jews. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 나는 복음을 부끄러워하지 않습니다. 복음은 믿는 모든 사람, 먼저 유대인과 그다음 유대인이 아닌 사람의 구원을 위한 하나님의 능력이기 때문입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-rom-1-16-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-rom-1-16",
+          "referenceId": "study-rom-1-16",
+          "explanation": {
+            "en": "This is the passage. I am not ashamed of the gospel, because it is God’s power for the salvation of everyone who believes—first Jews and then those who are not Jews. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 나는 복음을 부끄러워하지 않습니다. 복음은 믿는 모든 사람, 먼저 유대인과 그다음 유대인이 아닌 사람의 구원을 위한 하나님의 능력이기 때문입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-4-19",
+          "referenceId": "study-mat-4-19",
+          "explanation": {
+            "en": "This is a different passage. He said to them, “Follow me. I will make you fishers who catch people.” Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 그들에게 “나를 따라오세요. 여러분을 사람을 낚는 어부로 만들겠습니다”라고 말씀하셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-2ti-3-16",
+          "referenceId": "study-2ti-3-16",
+          "explanation": {
+            "en": "This is a different passage. All Scripture is God’s inspiration and is useful for teaching, rebuking, setting people on the right path, and training in righteousness. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 모든 성경은 하나님의 영감으로 된 것이며 가르침·책망·바른길로 이끌기·의로움에 관한 훈련에 유익합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-18-20",
+          "referenceId": "study-mat-18-20",
+          "explanation": {
+            "en": "This is a different passage. Where two or three gather in my name, I am there among them as well. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 두세 사람이 내 이름으로 모이는 곳에 나도 그들 가운데 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-1-16"
+      ],
+      "explanations": {
+        "en": "This is the passage. I am not ashamed of the gospel, because it is God’s power for the salvation of everyone who believes—first Jews and then those who are not Jews. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 나는 복음을 부끄러워하지 않습니다. 복음은 믿는 모든 사람, 먼저 유대인과 그다음 유대인이 아닌 사람의 구원을 위한 하나님의 능력이기 때문입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-rom-1-16-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “müjde” in this passage?",
+        "ko": "이 본문에서 “müjde”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-rom-1-16-word-1-vocab",
+          "label": {
+            "en": "good news / gospel in context",
+            "ko": "좋은 소식·문맥상 복음"
+          },
+          "explanation": {
+            "en": "good news / gospel in context. The translation convention capitalizes this religious term and separates its suffix; preserve the source spelling.",
+            "ko": "좋은 소식·문맥상 복음. 판본의 종교어 표기 관례에 따라 대문자·아포스트로피를 사용합니다. 본문 철자를 유지하세요."
+          }
+        },
+        {
+          "id": "study-rom-1-16-word-2-vocab",
+          "label": {
+            "en": "be ashamed",
+            "ko": "부끄러워하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to utanmak. müjde means good news / gospel in context here. The translation convention capitalizes this religious term and separates its suffix; preserve the source spelling.",
+            "ko": "그 뜻은 utanmak입니다. 여기 müjde는 좋은 소식·문맥상 복음입니다. 판본의 종교어 표기 관례에 따라 대문자·아포스트로피를 사용합니다. 본문 철자를 유지하세요."
+          }
+        },
+        {
+          "id": "study-rom-1-16-word-3-vocab",
+          "label": {
+            "en": "everyone",
+            "ko": "모두"
+          },
+          "explanation": {
+            "en": "That definition belongs to herkes. müjde means good news / gospel in context here. The translation convention capitalizes this religious term and separates its suffix; preserve the source spelling.",
+            "ko": "그 뜻은 herkes입니다. 여기 müjde는 좋은 소식·문맥상 복음입니다. 판본의 종교어 표기 관례에 따라 대문자·아포스트로피를 사용합니다. 본문 철자를 유지하세요."
+          }
+        },
+        {
+          "id": "study-rom-1-16-word-4-vocab",
+          "label": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "explanation": {
+            "en": "That definition belongs to olmak. müjde means good news / gospel in context here. The translation convention capitalizes this religious term and separates its suffix; preserve the source spelling.",
+            "ko": "그 뜻은 olmak입니다. 여기 müjde는 좋은 소식·문맥상 복음입니다. 판본의 종교어 표기 관례에 따라 대문자·아포스트로피를 사용합니다. 본문 철자를 유지하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-1-16-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "The translation convention capitalizes this religious term and separates its suffix; preserve the source spelling.",
+        "ko": "판본의 종교어 표기 관례에 따라 대문자·아포스트로피를 사용합니다. 본문 철자를 유지하세요."
+      }
+    },
+    {
+      "id": "study-rom-1-16-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “Müjde'den”, what is the function of “-den” here?",
+        "ko": "“Müjde'den”에서 “-den”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from",
+            "ko": "탈격: ~에서·~로부터"
+          },
+          "explanation": {
+            "en": "Ablative complement of utanmak. The translation convention capitalizes this religious term and separates its suffix; preserve the source spelling.",
+            "ko": "utanmak의 탈격 대상. 판본의 종교어 표기 관례에 따라 대문자·아포스트로피를 사용합니다. 본문 철자를 유지하세요."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Ablative complement of utanmak. The translation convention capitalizes this religious term and separates its suffix; preserve the source spelling.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. utanmak의 탈격 대상. 판본의 종교어 표기 관례에 따라 대문자·아포스트로피를 사용합니다. 본문 철자를 유지하세요."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Ablative complement of utanmak. The translation convention capitalizes this religious term and separates its suffix; preserve the source spelling.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. utanmak의 탈격 대상. 판본의 종교어 표기 관례에 따라 대문자·아포스트로피를 사용합니다. 본문 철자를 유지하세요."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Ablative complement of utanmak. The translation convention capitalizes this religious term and separates its suffix; preserve the source spelling.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. utanmak의 탈격 대상. 판본의 종교어 표기 관례에 따라 대문자·아포스트로피를 사용합니다. 본문 철자를 유지하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ABL"
+      ],
+      "explanations": {
+        "en": "The translation convention capitalizes this religious term and separates its suffix; preserve the source spelling.",
+        "ko": "판본의 종교어 표기 관례에 따라 대문자·아포스트로피를 사용합니다. 본문 철자를 유지하세요."
+      }
+    }
+  ]
+}

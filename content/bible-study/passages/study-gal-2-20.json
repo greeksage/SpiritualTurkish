@@ -1,0 +1,904 @@
+{
+  "id": "study-gal-2-20",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Galatians 2:20 through its clause structure and the forms gerildim / yaşamıyorum.",
+    "ko": "갈라디아서 2:20의 절 구조와 gerildim / yaşamıyorum 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "I have been crucified with Christ. It is no longer I who live; Christ lives in me. I now live this bodily life by faith in the Son of God, who loves me and gave himself for me.",
+    "ko": "나는 그리스도와 함께 십자가에 못 박혔습니다. 이제 내가 사는 것이 아니라 그리스도께서 내 안에 사십니다. 지금 육체 안에서 이어가는 삶은 나를 사랑하고 나를 위해 자신을 내어주신 하나님의 아들을 믿는 믿음으로 삽니다."
+  },
+  "clauses": [
+    {
+      "id": "study-gal-2-20-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "GAL.2.20",
+          "start": 0,
+          "end": 35
+        }
+      ],
+      "naturalMeaning": {
+        "en": "I was crucified with Christ.",
+        "ko": "그리스도와 함께 십자가에 못 박혔습니다."
+      },
+      "literalGloss": {
+        "en": "with Christ / together / to cross / was stretched-I",
+        "ko": "그리스도와 / 함께 / 십자가에 / 걸린 나"
+      },
+      "explanation": {
+        "en": "Çarmıha gerilmek is the conventional phrase “be crucified,” not simply a movement toward a cross. The passive past includes the first-person ending.",
+        "ko": "çarmıha gerilmek은 십자가에 못 박히다는 관용 결합입니다. 단순히 십자가 쪽으로 이동한다는 뜻이 아닙니다. 피동 과거형에 1인칭이 붙습니다."
+      }
+    },
+    {
+      "id": "study-gal-2-20-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "GAL.2.20",
+          "start": 36,
+          "end": 79
+        }
+      ],
+      "naturalMeaning": {
+        "en": "I no longer live; Christ lives in me.",
+        "ko": "이제 내가 사는 것이 아니라 그리스도께서 내 안에 사십니다."
+      },
+      "literalGloss": {
+        "en": "any longer / I / do not live; Christ / in me / lives",
+        "ko": "더 이상 / 나 / 살지 않는다; 그리스도 / 내 안에 / 산다"
+      },
+      "explanation": {
+        "en": "Ben is explicit for contrast, although Turkish usually permits omission. The same present-continuous form describes an ongoing reality, not only this instant.",
+        "ko": "주어를 생략할 수 있지만 대조를 위해 ben을 밝혔습니다. 현재 진행형은 이 순간의 동작뿐 아니라 지속적인 상태도 나타냅니다."
+      }
+    },
+    {
+      "id": "study-gal-2-20-clause-3",
+      "sourceSpans": [
+        {
+          "verseId": "GAL.2.20",
+          "start": 80,
+          "end": 191
+        }
+      ],
+      "naturalMeaning": {
+        "en": "I sustain my present bodily life by faith in the Son of God who loved me and gave himself for me.",
+        "ko": "지금 육체 안에서 이어가는 삶은 나를 사랑하고 나를 위해 자신을 내어주신 하나님의 아들을 믿는 믿음으로 삽니다."
+      },
+      "literalGloss": {
+        "en": "now / in body / my sustaining life-object / loving me and sacrificing self for me Son-to / with faith / I sustain",
+        "ko": "지금 / 육체 안에서 / 내가 이어가는 삶을 / 나를 사랑하고 자신을 내어주는 아들에게 / 믿음으로 / 이어간다"
+      },
+      "explanation": {
+        "en": "Sürdürdüğüm modifies yaşamı, the object of sürdürüyorum. Seven and feda eden modify Tanrı Oğlu; iman …-a names the one trusted. This verse’s Son of God title is relational/theological, not a statement of physical procreation.",
+        "ko": "sürdürdüğüm은 목적어 yaşamı를 꾸밉니다. seven·feda eden은 Tanrı Oğlu를 꾸미며 iman …-a는 믿는 대상을 표시합니다. “하나님의 아들”은 관계·신학 칭호이며 육체적 출생을 뜻하는 문장이 아닙니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-gal-2-20-word-1",
+      "verseId": "GAL.2.20",
+      "start": 26,
+      "end": 34,
+      "surface": "gerildim",
+      "lemma": "germek",
+      "meaning": {
+        "en": "I was crucified / stretched",
+        "ko": "나는 못 박혔다·걸렸다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ger",
+          "meaning": {
+            "en": "stretch / fasten to a cross with çarmıha",
+            "ko": "펴다·çarmıha와 함께 십자가에 못 박다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "il",
+          "meaning": {
+            "en": "passive",
+            "ko": "피동"
+          },
+          "function": "PASS"
+        },
+        {
+          "form": "di",
+          "meaning": {
+            "en": "definite past",
+            "ko": "확정 과거"
+          },
+          "function": "PAST"
+        },
+        {
+          "form": "m",
+          "meaning": {
+            "en": "first-person singular",
+            "ko": "1인칭 단수"
+          },
+          "function": "PERSON1"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "voice": "passive",
+        "tenseAspect": "past",
+        "person": "1sg"
+      },
+      "role": {
+        "en": "Passive first-person past",
+        "ko": "피동 1인칭 과거"
+      },
+      "contextualExplanation": {
+        "en": "Ger- becomes geril- in this passive construction; çarmıha supplies the crucifixion context.",
+        "ko": "ger-에 피동 -il이 붙고 çarmıha가 십자가에 못 박히는 문맥을 만듭니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "stretch / fasten to a cross with çarmıha",
+        "ko": "펴다·çarmıha와 함께 십자가에 못 박다"
+      }
+    },
+    {
+      "id": "study-gal-2-20-word-2",
+      "verseId": "GAL.2.20",
+      "start": 46,
+      "end": 57,
+      "surface": "yaşamıyorum",
+      "lemma": "yaşamak",
+      "meaning": {
+        "en": "I am not living",
+        "ko": "나는 살지 않는다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yaşa",
+          "meaning": {
+            "en": "live",
+            "ko": "살다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "mı",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "yor",
+          "meaning": {
+            "en": "present continuous",
+            "ko": "현재 진행"
+          },
+          "function": "PROG"
+        },
+        {
+          "form": "um",
+          "meaning": {
+            "en": "first-person singular",
+            "ko": "1인칭 단수"
+          },
+          "function": "PERSON1"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "tenseAspect": "present continuous",
+        "person": "1sg"
+      },
+      "role": {
+        "en": "Negative ongoing predicate",
+        "ko": "부정 지속 술어"
+      },
+      "contextualExplanation": {
+        "en": "Before -yor, the negative -ma is realized as -mı. Ben makes the contrast explicit.",
+        "ko": "-yor 앞에서 부정 -ma가 -mı로 실현됩니다. ben은 대조를 강조합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "live",
+        "ko": "살다"
+      }
+    },
+    {
+      "id": "study-gal-2-20-word-3",
+      "verseId": "GAL.2.20",
+      "start": 65,
+      "end": 70,
+      "surface": "bende",
+      "lemma": "ben",
+      "meaning": {
+        "en": "in me",
+        "ko": "내 안에"
+      },
+      "partOfSpeech": {
+        "en": "Pronoun / pronominal expression",
+        "ko": "대명사·대명 표현"
+      },
+      "segments": [
+        {
+          "form": "ben",
+          "meaning": {
+            "en": "I",
+            "ko": "나"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "de",
+          "meaning": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "function": "LOC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "case": "locative"
+      },
+      "role": {
+        "en": "Locative pronoun",
+        "ko": "처소격 대명사"
+      },
+      "contextualExplanation": {
+        "en": "This is ben + de, not the separate additive particle ben de (“I too”). Spacing changes the analysis.",
+        "ko": "붙여 쓴 ben+de이며 띄어 쓴 ben de “나도”와 다릅니다. 띄어쓰기가 분석을 바꿉니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "I",
+        "ko": "나"
+      }
+    },
+    {
+      "id": "study-gal-2-20-word-4",
+      "verseId": "GAL.2.20",
+      "start": 94,
+      "end": 105,
+      "surface": "sürdürdüğüm",
+      "lemma": "sürdürmek",
+      "meaning": {
+        "en": "that I sustain / live",
+        "ko": "내가 이어가는"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "sürdür",
+          "meaning": {
+            "en": "continue / maintain",
+            "ko": "계속하다·유지하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "düğ",
+          "meaning": {
+            "en": "nominalizing/participial -DIK",
+            "ko": "명사화·관계형 -DIK"
+          },
+          "function": "DIK"
+        },
+        {
+          "form": "üm",
+          "meaning": {
+            "en": "first-person singular possessive",
+            "ko": "1인칭 단수 소유"
+          },
+          "function": "P1"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-dük → -düğ before a vowel",
+          "ko": "-dük가 모음 앞에서 -düğ로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "-DIK nominal/participial",
+        "possessive": "1sg"
+      },
+      "role": {
+        "en": "Relative modifier of yaşamı",
+        "ko": "yaşamı의 관계 수식어"
+      },
+      "contextualExplanation": {
+        "en": "-DIK with first-person possession gives “the life that I sustain”; k softens to ğ before the vowel.",
+        "ko": "-DIK와 1인칭 소유형으로 “내가 이어가는 삶”을 만듭니다. 모음 앞에서 k가 ğ로 바뀝니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "continue / maintain",
+        "ko": "계속하다·유지하다"
+      }
+    },
+    {
+      "id": "study-gal-2-20-word-5",
+      "verseId": "GAL.2.20",
+      "start": 106,
+      "end": 112,
+      "surface": "yaşamı",
+      "lemma": "yaşam",
+      "meaning": {
+        "en": "the life (object)",
+        "ko": "삶을"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "yaşam",
+          "meaning": {
+            "en": "life",
+            "ko": "삶·생명"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Accusative object of sürdürüyorum",
+        "ko": "sürdürüyorum의 대격 목적어"
+      },
+      "contextualExplanation": {
+        "en": "The relative clause identifies this life, so the object carries accusative -ı.",
+        "ko": "관계절이 어떤 삶인지 정하므로 목적어에 대격 -ı가 붙습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "life",
+        "ko": "삶·생명"
+      }
+    },
+    {
+      "id": "study-gal-2-20-word-6",
+      "verseId": "GAL.2.20",
+      "start": 119,
+      "end": 124,
+      "surface": "seven",
+      "lemma": "sevmek",
+      "meaning": {
+        "en": "who loves",
+        "ko": "사랑하는"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "sev",
+          "meaning": {
+            "en": "love (verb)",
+            "ko": "사랑하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "en",
+          "meaning": {
+            "en": "subject participle -An",
+            "ko": "주어 관계형 -An"
+          },
+          "function": "PART"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "subject participle"
+      },
+      "role": {
+        "en": "Subject participle modifying the Son",
+        "ko": "아들을 꾸미는 주어 관계형"
+      },
+      "contextualExplanation": {
+        "en": "The Son is the understood subject of loving; beni is its accusative object.",
+        "ko": "사랑하는 주어는 아들이며 beni는 그 목적어입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "love (verb)",
+        "ko": "사랑하다"
+      }
+    },
+    {
+      "id": "study-gal-2-20-word-7",
+      "verseId": "GAL.2.20",
+      "start": 171,
+      "end": 177,
+      "surface": "imanla",
+      "lemma": "iman",
+      "meaning": {
+        "en": "by faith",
+        "ko": "믿음으로"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "iman",
+          "meaning": {
+            "en": "faith",
+            "ko": "믿음"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "la",
+          "meaning": {
+            "en": "with / by",
+            "ko": "~와 함께·~로"
+          },
+          "function": "WITH"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {},
+      "role": {
+        "en": "Means / manner",
+        "ko": "수단·방식"
+      },
+      "contextualExplanation": {
+        "en": "-la contracts ile. Christian iman is faith/trust, not merely possessing information.",
+        "ko": "-la는 ile의 결합형입니다. 기독교 어휘 iman은 정보 소유만이 아니라 믿음·신뢰입니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "faith",
+        "ko": "믿음"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-gal-2-20-word-1-vocab",
+      "analysisId": "study-gal-2-20-word-1",
+      "lemma": "germek",
+      "classification": "biblical",
+      "definitions": {
+        "en": "stretch / fasten to a cross with çarmıha",
+        "ko": "펴다·çarmıha와 함께 십자가에 못 박다"
+      },
+      "usageNotes": {
+        "en": "Ger- becomes geril- in this passive construction; çarmıha supplies the crucifixion context.",
+        "ko": "ger-에 피동 -il이 붙고 çarmıha가 십자가에 못 박히는 문맥을 만듭니다."
+      }
+    },
+    {
+      "id": "study-gal-2-20-word-2-vocab",
+      "analysisId": "study-gal-2-20-word-2",
+      "lemma": "yaşamak",
+      "classification": "general",
+      "definitions": {
+        "en": "live",
+        "ko": "살다"
+      },
+      "usageNotes": {
+        "en": "Before -yor, the negative -ma is realized as -mı. Ben makes the contrast explicit.",
+        "ko": "-yor 앞에서 부정 -ma가 -mı로 실현됩니다. ben은 대조를 강조합니다."
+      }
+    },
+    {
+      "id": "study-gal-2-20-word-3-vocab",
+      "analysisId": "study-gal-2-20-word-3",
+      "lemma": "ben",
+      "classification": "general",
+      "definitions": {
+        "en": "I",
+        "ko": "나"
+      },
+      "usageNotes": {
+        "en": "This is ben + de, not the separate additive particle ben de (“I too”). Spacing changes the analysis.",
+        "ko": "붙여 쓴 ben+de이며 띄어 쓴 ben de “나도”와 다릅니다. 띄어쓰기가 분석을 바꿉니다."
+      }
+    },
+    {
+      "id": "study-gal-2-20-word-4-vocab",
+      "analysisId": "study-gal-2-20-word-4",
+      "lemma": "sürdürmek",
+      "classification": "general",
+      "definitions": {
+        "en": "continue / maintain",
+        "ko": "계속하다·유지하다"
+      },
+      "usageNotes": {
+        "en": "-DIK with first-person possession gives “the life that I sustain”; k softens to ğ before the vowel.",
+        "ko": "-DIK와 1인칭 소유형으로 “내가 이어가는 삶”을 만듭니다. 모음 앞에서 k가 ğ로 바뀝니다."
+      }
+    },
+    {
+      "id": "study-gal-2-20-word-5-vocab",
+      "analysisId": "study-gal-2-20-word-5",
+      "lemma": "yaşam",
+      "classification": "general",
+      "definitions": {
+        "en": "life",
+        "ko": "삶·생명"
+      },
+      "usageNotes": {
+        "en": "The relative clause identifies this life, so the object carries accusative -ı.",
+        "ko": "관계절이 어떤 삶인지 정하므로 목적어에 대격 -ı가 붙습니다."
+      }
+    },
+    {
+      "id": "study-gal-2-20-word-6-vocab",
+      "analysisId": "study-gal-2-20-word-6",
+      "lemma": "sevmek",
+      "classification": "general",
+      "definitions": {
+        "en": "love (verb)",
+        "ko": "사랑하다"
+      },
+      "usageNotes": {
+        "en": "The Son is the understood subject of loving; beni is its accusative object.",
+        "ko": "사랑하는 주어는 아들이며 beni는 그 목적어입니다."
+      }
+    },
+    {
+      "id": "study-gal-2-20-word-7-vocab",
+      "analysisId": "study-gal-2-20-word-7",
+      "lemma": "iman",
+      "classification": "biblical",
+      "definitions": {
+        "en": "faith",
+        "ko": "믿음"
+      },
+      "usageNotes": {
+        "en": "-la contracts ile. Christian iman is faith/trust, not merely possessing information.",
+        "ko": "-la는 ile의 결합형입니다. 기독교 어휘 iman은 정보 소유만이 아니라 믿음·신뢰입니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-gal-2-20-grammar-1",
+      "title": {
+        "en": "Participial modifiers before nouns",
+        "ko": "명사 앞의 관계 수식"
+      },
+      "explanation": {
+        "en": "Sürdürdüğüm yaşamı has a -DIK relative modifier; beni seven and kendini feda eden have -An modifiers. Identify whose action each construction describes.",
+        "ko": "sürdürdüğüm yaşamı는 -DIK 관계 수식이고 beni seven·kendini feda eden은 -An 수식입니다. 각 구문에서 행동의 주체가 누구인지 살피세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "GAL.2.20",
+          "start": 0,
+          "end": 35
+        },
+        {
+          "verseId": "GAL.2.20",
+          "start": 36,
+          "end": 79
+        },
+        {
+          "verseId": "GAL.2.20",
+          "start": 80,
+          "end": 191
+        }
+      ],
+      "relatedLessonIds": [
+        "foundation-voice"
+      ]
+    },
+    {
+      "id": "study-gal-2-20-grammar-2",
+      "title": {
+        "en": "Trust directed toward a person",
+        "ko": "사람을 향한 믿음"
+      },
+      "explanation": {
+        "en": "Tanrı Oğlu’na supplies the dative complement of iman. Kendini refers back to the Son as the subject of feda etmek.",
+        "ko": "Tanrı Oğlu’na는 iman의 여격 대상입니다. kendini는 feda etmek의 주체인 아들을 다시 가리킵니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "GAL.2.20",
+          "start": 0,
+          "end": 35
+        },
+        {
+          "verseId": "GAL.2.20",
+          "start": 36,
+          "end": 79
+        },
+        {
+          "verseId": "GAL.2.20",
+          "start": 80,
+          "end": 191
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-08"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Write one sentence with “the person who helps me” and another with “the work I do.” Do not copy Paul’s personal statement as your own testimony.",
+    "ko": "“나를 돕는 사람”과 “내가 하는 일”을 각각 문장에 넣으세요. 바울의 진술을 자신의 간증인 것처럼 복사하지 마세요."
+  },
+  "modelResponse": {
+    "tr": "Bana yardım eden kişi öğretmenimdir. Yaptığım iş beni mutlu ediyor.",
+    "meaning": {
+      "en": "The person who helps me is my teacher. The work I do makes me happy.",
+      "ko": "나를 돕는 사람은 선생님입니다. 내가 하는 일은 나를 기쁘게 합니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "foundation-voice",
+    "ministry-08"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-gal-2-20-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Galatians 2:20? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 갈라디아서 2:20인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-gal-2-20",
+          "passageId": "study-gal-2-20",
+          "explanation": {
+            "en": "This is the passage. I have been crucified with Christ. It is no longer I who live; Christ lives in me. I now live this bodily life by faith in the Son of God, who loves me and gave himself for me. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 나는 그리스도와 함께 십자가에 못 박혔습니다. 이제 내가 사는 것이 아니라 그리스도께서 내 안에 사십니다. 지금 육체 안에서 이어가는 삶은 나를 사랑하고 나를 위해 자신을 내어주신 하나님의 아들을 믿는 믿음으로 삽니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-10-24-25",
+          "passageId": "study-heb-10-24-25",
+          "explanation": {
+            "en": "This is a different passage. Let us consider how we can encourage one another toward love and good deeds. Instead of abandoning meeting together as some are accustomed to doing, let us encourage each other even more as we see that day approaching. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 서로 사랑과 선행을 북돋울 방법을 생각합시다. 어떤 사람들의 습관처럼 모이기를 그만두지 말고 그날이 가까워짐을 볼수록 서로 더욱 격려합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-php-4-6-7",
+          "passageId": "study-php-4-6-7",
+          "explanation": {
+            "en": "This is a different passage. Do not be anxious about anything. In every matter, make your requests known to God through prayer and appeal, with thanksgiving. Then God’s peace, exceeding every kind of understanding, will protect your hearts and thoughts through Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 아무것도 염려하지 마세요. 모든 일에서 기도하고 간구하며 감사로 하나님께 바라는 것을 아뢰세요. 그러면 모든 이해를 넘어서는 하나님의 평강이 그리스도 예수를 통해 여러분의 마음과 생각을 지킬 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-14-21",
+          "passageId": "study-jhn-14-21",
+          "explanation": {
+            "en": "This is a different passage. The person who knows and carries out my commands is the one who loves me. My Father will love that person; I too will love them and reveal myself to them. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 내 명령을 알고 실행하는 사람이 나를 사랑하는 사람입니다. 아버지도 그 사람을 사랑하실 것입니다. 나도 그를 사랑하고 그에게 나 자신을 나타내겠습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-gal-2-20"
+      ],
+      "explanations": {
+        "en": "This is the passage. I have been crucified with Christ. It is no longer I who live; Christ lives in me. I now live this bodily life by faith in the Son of God, who loves me and gave himself for me. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 나는 그리스도와 함께 십자가에 못 박혔습니다. 이제 내가 사는 것이 아니라 그리스도께서 내 안에 사십니다. 지금 육체 안에서 이어가는 삶은 나를 사랑하고 나를 위해 자신을 내어주신 하나님의 아들을 믿는 믿음으로 삽니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-gal-2-20-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-gal-2-20",
+          "referenceId": "study-gal-2-20",
+          "explanation": {
+            "en": "This is the passage. I have been crucified with Christ. It is no longer I who live; Christ lives in me. I now live this bodily life by faith in the Son of God, who loves me and gave himself for me. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 나는 그리스도와 함께 십자가에 못 박혔습니다. 이제 내가 사는 것이 아니라 그리스도께서 내 안에 사십니다. 지금 육체 안에서 이어가는 삶은 나를 사랑하고 나를 위해 자신을 내어주신 하나님의 아들을 믿는 믿음으로 삽니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-10-24-25",
+          "referenceId": "study-heb-10-24-25",
+          "explanation": {
+            "en": "This is a different passage. Let us consider how we can encourage one another toward love and good deeds. Instead of abandoning meeting together as some are accustomed to doing, let us encourage each other even more as we see that day approaching. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 서로 사랑과 선행을 북돋울 방법을 생각합시다. 어떤 사람들의 습관처럼 모이기를 그만두지 말고 그날이 가까워짐을 볼수록 서로 더욱 격려합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-php-4-6-7",
+          "referenceId": "study-php-4-6-7",
+          "explanation": {
+            "en": "This is a different passage. Do not be anxious about anything. In every matter, make your requests known to God through prayer and appeal, with thanksgiving. Then God’s peace, exceeding every kind of understanding, will protect your hearts and thoughts through Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 아무것도 염려하지 마세요. 모든 일에서 기도하고 간구하며 감사로 하나님께 바라는 것을 아뢰세요. 그러면 모든 이해를 넘어서는 하나님의 평강이 그리스도 예수를 통해 여러분의 마음과 생각을 지킬 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-14-21",
+          "referenceId": "study-jhn-14-21",
+          "explanation": {
+            "en": "This is a different passage. The person who knows and carries out my commands is the one who loves me. My Father will love that person; I too will love them and reveal myself to them. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 내 명령을 알고 실행하는 사람이 나를 사랑하는 사람입니다. 아버지도 그 사람을 사랑하실 것입니다. 나도 그를 사랑하고 그에게 나 자신을 나타내겠습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-gal-2-20"
+      ],
+      "explanations": {
+        "en": "This is the passage. I have been crucified with Christ. It is no longer I who live; Christ lives in me. I now live this bodily life by faith in the Son of God, who loves me and gave himself for me. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 나는 그리스도와 함께 십자가에 못 박혔습니다. 이제 내가 사는 것이 아니라 그리스도께서 내 안에 사십니다. 지금 육체 안에서 이어가는 삶은 나를 사랑하고 나를 위해 자신을 내어주신 하나님의 아들을 믿는 믿음으로 삽니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-gal-2-20-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “germek” in this passage?",
+        "ko": "이 본문에서 “germek”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-gal-2-20-word-1-vocab",
+          "label": {
+            "en": "stretch / fasten to a cross with çarmıha",
+            "ko": "펴다·çarmıha와 함께 십자가에 못 박다"
+          },
+          "explanation": {
+            "en": "stretch / fasten to a cross with çarmıha. Ger- becomes geril- in this passive construction; çarmıha supplies the crucifixion context.",
+            "ko": "펴다·çarmıha와 함께 십자가에 못 박다. ger-에 피동 -il이 붙고 çarmıha가 십자가에 못 박히는 문맥을 만듭니다."
+          }
+        },
+        {
+          "id": "study-gal-2-20-word-2-vocab",
+          "label": {
+            "en": "live",
+            "ko": "살다"
+          },
+          "explanation": {
+            "en": "That definition belongs to yaşamak. germek means stretch / fasten to a cross with çarmıha here. Ger- becomes geril- in this passive construction; çarmıha supplies the crucifixion context.",
+            "ko": "그 뜻은 yaşamak입니다. 여기 germek는 펴다·çarmıha와 함께 십자가에 못 박다입니다. ger-에 피동 -il이 붙고 çarmıha가 십자가에 못 박히는 문맥을 만듭니다."
+          }
+        },
+        {
+          "id": "study-gal-2-20-word-3-vocab",
+          "label": {
+            "en": "I",
+            "ko": "나"
+          },
+          "explanation": {
+            "en": "That definition belongs to ben. germek means stretch / fasten to a cross with çarmıha here. Ger- becomes geril- in this passive construction; çarmıha supplies the crucifixion context.",
+            "ko": "그 뜻은 ben입니다. 여기 germek는 펴다·çarmıha와 함께 십자가에 못 박다입니다. ger-에 피동 -il이 붙고 çarmıha가 십자가에 못 박히는 문맥을 만듭니다."
+          }
+        },
+        {
+          "id": "study-gal-2-20-word-4-vocab",
+          "label": {
+            "en": "continue / maintain",
+            "ko": "계속하다·유지하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to sürdürmek. germek means stretch / fasten to a cross with çarmıha here. Ger- becomes geril- in this passive construction; çarmıha supplies the crucifixion context.",
+            "ko": "그 뜻은 sürdürmek입니다. 여기 germek는 펴다·çarmıha와 함께 십자가에 못 박다입니다. ger-에 피동 -il이 붙고 çarmıha가 십자가에 못 박히는 문맥을 만듭니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-gal-2-20-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Ger- becomes geril- in this passive construction; çarmıha supplies the crucifixion context.",
+        "ko": "ger-에 피동 -il이 붙고 çarmıha가 십자가에 못 박히는 문맥을 만듭니다."
+      }
+    },
+    {
+      "id": "study-gal-2-20-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “gerildim”, what is the function of “-m” here?",
+        "ko": "“gerildim”에서 “-m”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "PERSON1",
+          "label": {
+            "en": "first-person singular",
+            "ko": "1인칭 단수"
+          },
+          "explanation": {
+            "en": "Passive first-person past. Ger- becomes geril- in this passive construction; çarmıha supplies the crucifixion context.",
+            "ko": "피동 1인칭 과거. ger-에 피동 -il이 붙고 çarmıha가 십자가에 못 박히는 문맥을 만듭니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Passive first-person past. Ger- becomes geril- in this passive construction; çarmıha supplies the crucifixion context.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 피동 1인칭 과거. ger-에 피동 -il이 붙고 çarmıha가 십자가에 못 박히는 문맥을 만듭니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Passive first-person past. Ger- becomes geril- in this passive construction; çarmıha supplies the crucifixion context.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 피동 1인칭 과거. ger-에 피동 -il이 붙고 çarmıha가 십자가에 못 박히는 문맥을 만듭니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Passive first-person past. Ger- becomes geril- in this passive construction; çarmıha supplies the crucifixion context.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 피동 1인칭 과거. ger-에 피동 -il이 붙고 çarmıha가 십자가에 못 박히는 문맥을 만듭니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "PERSON1"
+      ],
+      "explanations": {
+        "en": "Ger- becomes geril- in this passive construction; çarmıha supplies the crucifixion context.",
+        "ko": "ger-에 피동 -il이 붙고 çarmıha가 십자가에 못 박히는 문맥을 만듭니다."
+      }
+    }
+  ]
+}

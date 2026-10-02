@@ -1,0 +1,803 @@
+{
+  "id": "study-mat-4-19",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Matthew 4:19 through its clause structure and the forms Onlara / Ardımdan.",
+    "ko": "마태복음 4:19의 절 구조와 Onlara / Ardımdan 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "He said to them, “Follow me. I will make you fishers who catch people.”",
+    "ko": "그들에게 “나를 따라오세요. 여러분을 사람을 낚는 어부로 만들겠습니다”라고 말씀하셨습니다."
+  },
+  "clauses": [
+    {
+      "id": "study-mat-4-19-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "MAT.4.19",
+          "start": 0,
+          "end": 30
+        }
+      ],
+      "naturalMeaning": {
+        "en": "He told them to follow him.",
+        "ko": "그들에게 자신을 따라오라고 말씀하셨습니다."
+      },
+      "literalGloss": {
+        "en": "to them / from behind me come / said",
+        "ko": "그들에게 / 내 뒤를 따라 오라 / 말했다"
+      },
+      "explanation": {
+        "en": "Onlara is the recipient of dedi. Ardımdan literally means from/after my back, but ardımdan gelmek naturally means follow me.",
+        "ko": "onlara는 dedi의 여격 청자입니다. ardımdan은 문자상 내 뒤로부터이지만 ardımdan gelmek은 자연스럽게 나를 따르다입니다."
+      }
+    },
+    {
+      "id": "study-mat-4-19-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "MAT.4.19",
+          "start": 31,
+          "end": 74
+        }
+      ],
+      "naturalMeaning": {
+        "en": "I will make you fishers of people.",
+        "ko": "여러분을 사람을 낚는 어부로 만들겠습니다."
+      },
+      "literalGloss": {
+        "en": "you-object / people catching / fishers / I will make",
+        "ko": "여러분을 / 사람을 잡는 / 어부들 / 만들겠다"
+      },
+      "explanation": {
+        "en": "Sizleri is the object being transformed; balıkçılar names the resulting role. İnsan tutan modifies the fishers. The metaphor concerns Jesus’ call, not literal capturing or coercing people.",
+        "ko": "sizleri는 변화시키는 목적어이고 balıkçılar는 그 결과 역할입니다. insan tutan은 어부를 꾸밉니다. 예수님의 부르심에 관한 비유이며 사람을 실제로 포획하거나 강요하라는 뜻이 아닙니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-mat-4-19-word-1",
+      "verseId": "MAT.4.19",
+      "start": 0,
+      "end": 6,
+      "surface": "Onlara",
+      "lemma": "onlar",
+      "meaning": {
+        "en": "to them",
+        "ko": "그들에게"
+      },
+      "partOfSpeech": {
+        "en": "Pronoun / pronominal expression",
+        "ko": "대명사·대명 표현"
+      },
+      "segments": [
+        {
+          "form": "On",
+          "meaning": {
+            "en": "they / those",
+            "ko": "그들·그것들"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "lar",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "a",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "The pronoun o has the stem on- before plural/case suffixes. The lemma onlar is already plural; the displayed chain explains the written on-lar-a form.",
+          "ko": "대명사 o는 복수·격 앞에서 on- 어간을 씁니다. 표제어 onlar는 이미 복수이며 표시된 사슬은 실제 on-lar-a 형태를 설명합니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "number": "plural",
+        "case": "dative"
+      },
+      "role": {
+        "en": "Recipient pronoun",
+        "ko": "여격 청자 대명사"
+      },
+      "contextualExplanation": {
+        "en": "The plural pronoun has the oblique stem on-; it names the people addressed.",
+        "ko": "복수 대명사는 굴절 어간 on-을 쓰며 말씀을 듣는 사람들을 가리킵니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "they / those",
+        "ko": "그들·그것들"
+      }
+    },
+    {
+      "id": "study-mat-4-19-word-2",
+      "verseId": "MAT.4.19",
+      "start": 9,
+      "end": 17,
+      "surface": "Ardımdan",
+      "lemma": "art",
+      "meaning": {
+        "en": "after / behind me",
+        "ko": "내 뒤를 따라"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "Ard",
+          "meaning": {
+            "en": "back / rear",
+            "ko": "뒤"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ım",
+          "meaning": {
+            "en": "first-person singular possessive",
+            "ko": "1인칭 단수 소유"
+          },
+          "function": "P1"
+        },
+        {
+          "form": "dan",
+          "meaning": {
+            "en": "ablative: from / away from",
+            "ko": "탈격: ~에서·~로부터"
+          },
+          "function": "ABL"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "art → ard- before a vowel",
+          "ko": "모음 앞에서 art가 ard-로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "possessive": "1sg",
+        "case": "ablative"
+      },
+      "role": {
+        "en": "Following expression",
+        "ko": "따름 표현"
+      },
+      "contextualExplanation": {
+        "en": "Art softens t to d. The possessive identifies whose back/behind; the whole phrase is an idiom of following.",
+        "ko": "art의 t가 d로 바뀝니다. 소유형은 누구의 뒤인지 밝히며 전체 구는 따름의 관용 표현입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "back / rear",
+        "ko": "뒤"
+      }
+    },
+    {
+      "id": "study-mat-4-19-word-3",
+      "verseId": "MAT.4.19",
+      "start": 18,
+      "end": 23,
+      "surface": "gelin",
+      "lemma": "gelmek",
+      "meaning": {
+        "en": "come (plural command)",
+        "ko": "오세요"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "gel",
+          "meaning": {
+            "en": "come",
+            "ko": "오다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "in",
+          "meaning": {
+            "en": "plural / polite imperative",
+            "ko": "복수·공손한 명령"
+          },
+          "function": "IMP2P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "mood": "plural/polite imperative"
+      },
+      "role": {
+        "en": "Plural imperative",
+        "ko": "복수 명령"
+      },
+      "contextualExplanation": {
+        "en": "This verb gelin is not the unrelated noun gelin, “bride.” Dedi gives the speech context.",
+        "ko": "이 gelin은 오라는 동사이며 신부라는 동음 명사 gelin이 아닙니다. dedi가 발화 문맥을 만듭니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "come",
+        "ko": "오다"
+      }
+    },
+    {
+      "id": "study-mat-4-19-word-4",
+      "verseId": "MAT.4.19",
+      "start": 32,
+      "end": 39,
+      "surface": "Sizleri",
+      "lemma": "siz",
+      "meaning": {
+        "en": "you (object)",
+        "ko": "여러분을"
+      },
+      "partOfSpeech": {
+        "en": "Pronoun / pronominal expression",
+        "ko": "대명사·대명 표현"
+      },
+      "segments": [
+        {
+          "form": "Siz",
+          "meaning": {
+            "en": "you (plural / polite)",
+            "ko": "여러분·공손한 당신"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ler",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "number": "plural",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Marked object",
+        "ko": "표시된 목적어"
+      },
+      "contextualExplanation": {
+        "en": "Siz already addresses plural/polite you; -ler emphasizes the group and -i marks the object.",
+        "ko": "siz 자체가 복수·공손 청자이고 -ler는 집단을 드러내며 -i는 목적어입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "you (plural / polite)",
+        "ko": "여러분·공손한 당신"
+      }
+    },
+    {
+      "id": "study-mat-4-19-word-5",
+      "verseId": "MAT.4.19",
+      "start": 46,
+      "end": 51,
+      "surface": "tutan",
+      "lemma": "tutmak",
+      "meaning": {
+        "en": "catching",
+        "ko": "잡는"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "tut",
+          "meaning": {
+            "en": "hold / keep",
+            "ko": "잡다·유지하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "an",
+          "meaning": {
+            "en": "subject participle -An",
+            "ko": "주어 관계형 -An"
+          },
+          "function": "PART"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "subject participle"
+      },
+      "role": {
+        "en": "Modifier of balıkçılar",
+        "ko": "balıkçılar의 수식어"
+      },
+      "contextualExplanation": {
+        "en": "The fishers do the catching; insan is the unmarked generic object within the participle.",
+        "ko": "어부가 잡는 주체이고 insan은 관계형 안의 일반적 비표시 목적어입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "hold / keep",
+        "ko": "잡다·유지하다"
+      }
+    },
+    {
+      "id": "study-mat-4-19-word-6",
+      "verseId": "MAT.4.19",
+      "start": 63,
+      "end": 72,
+      "surface": "yapacağım",
+      "lemma": "yapmak",
+      "meaning": {
+        "en": "I will make",
+        "ko": "나는 만들 것이다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yap",
+          "meaning": {
+            "en": "do / make",
+            "ko": "하다·만들다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "acağ",
+          "meaning": {
+            "en": "future",
+            "ko": "미래"
+          },
+          "function": "FUT"
+        },
+        {
+          "form": "ım",
+          "meaning": {
+            "en": "first-person singular",
+            "ko": "1인칭 단수"
+          },
+          "function": "PERSON1"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-acak → -acağ before -ım",
+          "ko": "-ım 앞에서 -acak가 -acağ로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "tenseAspect": "future",
+        "person": "1sg"
+      },
+      "role": {
+        "en": "Future first-person predicate",
+        "ko": "미래 1인칭 술어"
+      },
+      "contextualExplanation": {
+        "en": "The speaker promises to make the listeners fishers; k voices to ğ before -ım.",
+        "ko": "화자가 청자를 어부로 만들겠다고 말하며 -ım 앞에서 k가 ğ로 변합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "do / make",
+        "ko": "하다·만들다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-mat-4-19-word-1-vocab",
+      "analysisId": "study-mat-4-19-word-1",
+      "lemma": "onlar",
+      "classification": "general",
+      "definitions": {
+        "en": "they / those",
+        "ko": "그들·그것들"
+      },
+      "usageNotes": {
+        "en": "The plural pronoun has the oblique stem on-; it names the people addressed.",
+        "ko": "복수 대명사는 굴절 어간 on-을 쓰며 말씀을 듣는 사람들을 가리킵니다."
+      }
+    },
+    {
+      "id": "study-mat-4-19-word-2-vocab",
+      "analysisId": "study-mat-4-19-word-2",
+      "lemma": "art",
+      "classification": "general",
+      "definitions": {
+        "en": "back / rear",
+        "ko": "뒤"
+      },
+      "usageNotes": {
+        "en": "Art softens t to d. The possessive identifies whose back/behind; the whole phrase is an idiom of following.",
+        "ko": "art의 t가 d로 바뀝니다. 소유형은 누구의 뒤인지 밝히며 전체 구는 따름의 관용 표현입니다."
+      }
+    },
+    {
+      "id": "study-mat-4-19-word-3-vocab",
+      "analysisId": "study-mat-4-19-word-3",
+      "lemma": "gelmek",
+      "classification": "general",
+      "definitions": {
+        "en": "come",
+        "ko": "오다"
+      },
+      "usageNotes": {
+        "en": "This verb gelin is not the unrelated noun gelin, “bride.” Dedi gives the speech context.",
+        "ko": "이 gelin은 오라는 동사이며 신부라는 동음 명사 gelin이 아닙니다. dedi가 발화 문맥을 만듭니다."
+      }
+    },
+    {
+      "id": "study-mat-4-19-word-4-vocab",
+      "analysisId": "study-mat-4-19-word-4",
+      "lemma": "siz",
+      "classification": "general",
+      "definitions": {
+        "en": "you (plural / polite)",
+        "ko": "여러분·공손한 당신"
+      },
+      "usageNotes": {
+        "en": "Siz already addresses plural/polite you; -ler emphasizes the group and -i marks the object.",
+        "ko": "siz 자체가 복수·공손 청자이고 -ler는 집단을 드러내며 -i는 목적어입니다."
+      }
+    },
+    {
+      "id": "study-mat-4-19-word-5-vocab",
+      "analysisId": "study-mat-4-19-word-5",
+      "lemma": "tutmak",
+      "classification": "general",
+      "definitions": {
+        "en": "hold / keep",
+        "ko": "잡다·유지하다"
+      },
+      "usageNotes": {
+        "en": "The fishers do the catching; insan is the unmarked generic object within the participle.",
+        "ko": "어부가 잡는 주체이고 insan은 관계형 안의 일반적 비표시 목적어입니다."
+      }
+    },
+    {
+      "id": "study-mat-4-19-word-6-vocab",
+      "analysisId": "study-mat-4-19-word-6",
+      "lemma": "yapmak",
+      "classification": "general",
+      "definitions": {
+        "en": "do / make",
+        "ko": "하다·만들다"
+      },
+      "usageNotes": {
+        "en": "The speaker promises to make the listeners fishers; k voices to ğ before -ım.",
+        "ko": "화자가 청자를 어부로 만들겠다고 말하며 -ım 앞에서 k가 ğ로 변합니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-mat-4-19-grammar-1",
+      "title": {
+        "en": "Direct speech preserves its own persons",
+        "ko": "직접 인용의 인칭"
+      },
+      "explanation": {
+        "en": "Dedi is third-person past, but yapacağım inside quotation is first person. Identify the speaker separately from the narrator.",
+        "ko": "dedi는 3인칭 과거이나 인용 안의 yapacağım은 1인칭입니다. 서술자와 인용 화자를 구별하세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "MAT.4.19",
+          "start": 0,
+          "end": 30
+        },
+        {
+          "verseId": "MAT.4.19",
+          "start": 31,
+          "end": 74
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-mat-4-19-grammar-2",
+      "title": {
+        "en": "Object plus resulting role",
+        "ko": "목적어와 결과 역할"
+      },
+      "explanation": {
+        "en": "Sizleri … balıkçılar yapacağım has an object and an unmarked role complement. İnsan tutan sits inside that role phrase.",
+        "ko": "sizleri … balıkçılar yapacağım은 목적어와 격을 표시하지 않은 결과 역할 보어를 가집니다. insan tutan은 그 역할 구 안에 있습니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "MAT.4.19",
+          "start": 0,
+          "end": 30
+        },
+        {
+          "verseId": "MAT.4.19",
+          "start": 31,
+          "end": 74
+        }
+      ],
+      "relatedLessonIds": []
+    }
+  ],
+  "independentTask": {
+    "en": "Write a neutral invitation with gelin and a first-person future offer of help.",
+    "ko": "gelin으로 중립적인 초대와 1인칭 미래 도움 제안을 쓰세요."
+  },
+  "modelResponse": {
+    "tr": "Lütfen içeri gelin. Size yolu göstereceğim.",
+    "meaning": {
+      "en": "Please come inside. I will show you the way.",
+      "ko": "안으로 들어오세요. 길을 알려드리겠습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-mat-4-19-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Matthew 4:19? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 마태복음 4:19인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-mat-4-19",
+          "passageId": "study-mat-4-19",
+          "explanation": {
+            "en": "This is the passage. He said to them, “Follow me. I will make you fishers who catch people.” Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 그들에게 “나를 따라오세요. 여러분을 사람을 낚는 어부로 만들겠습니다”라고 말씀하셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-1-16",
+          "passageId": "study-rom-1-16",
+          "explanation": {
+            "en": "This is a different passage. I am not ashamed of the gospel, because it is God’s power for the salvation of everyone who believes—first Jews and then those who are not Jews. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 나는 복음을 부끄러워하지 않습니다. 복음은 믿는 모든 사람, 먼저 유대인과 그다음 유대인이 아닌 사람의 구원을 위한 하나님의 능력이기 때문입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-2co-5-17",
+          "passageId": "study-2co-5-17",
+          "explanation": {
+            "en": "This is a different passage. Anyone who is in Christ is a new creation: the old things have passed, and everything has become new. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 그리스도 안에 있는 사람은 새로운 피조물입니다. 옛것은 지나갔고 모든 것이 새롭게 되었습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-15-7",
+          "passageId": "study-jhn-15-7",
+          "explanation": {
+            "en": "This is a different passage. If you remain in me and my words remain in you, ask whatever you wish and it will be given to you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분이 내 안에 머물고 내 말이 여러분 안에 머물면 원하는 것을 구하세요. 여러분에게 주어질 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-mat-4-19"
+      ],
+      "explanations": {
+        "en": "This is the passage. He said to them, “Follow me. I will make you fishers who catch people.” Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 그들에게 “나를 따라오세요. 여러분을 사람을 낚는 어부로 만들겠습니다”라고 말씀하셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-mat-4-19-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-mat-4-19",
+          "referenceId": "study-mat-4-19",
+          "explanation": {
+            "en": "This is the passage. He said to them, “Follow me. I will make you fishers who catch people.” Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 그들에게 “나를 따라오세요. 여러분을 사람을 낚는 어부로 만들겠습니다”라고 말씀하셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-1-16",
+          "referenceId": "study-rom-1-16",
+          "explanation": {
+            "en": "This is a different passage. I am not ashamed of the gospel, because it is God’s power for the salvation of everyone who believes—first Jews and then those who are not Jews. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 나는 복음을 부끄러워하지 않습니다. 복음은 믿는 모든 사람, 먼저 유대인과 그다음 유대인이 아닌 사람의 구원을 위한 하나님의 능력이기 때문입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-2co-5-17",
+          "referenceId": "study-2co-5-17",
+          "explanation": {
+            "en": "This is a different passage. Anyone who is in Christ is a new creation: the old things have passed, and everything has become new. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 그리스도 안에 있는 사람은 새로운 피조물입니다. 옛것은 지나갔고 모든 것이 새롭게 되었습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-15-7",
+          "referenceId": "study-jhn-15-7",
+          "explanation": {
+            "en": "This is a different passage. If you remain in me and my words remain in you, ask whatever you wish and it will be given to you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분이 내 안에 머물고 내 말이 여러분 안에 머물면 원하는 것을 구하세요. 여러분에게 주어질 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-mat-4-19"
+      ],
+      "explanations": {
+        "en": "This is the passage. He said to them, “Follow me. I will make you fishers who catch people.” Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 그들에게 “나를 따라오세요. 여러분을 사람을 낚는 어부로 만들겠습니다”라고 말씀하셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-mat-4-19-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “onlar” in this passage?",
+        "ko": "이 본문에서 “onlar”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-mat-4-19-word-1-vocab",
+          "label": {
+            "en": "they / those",
+            "ko": "그들·그것들"
+          },
+          "explanation": {
+            "en": "they / those. The plural pronoun has the oblique stem on-; it names the people addressed.",
+            "ko": "그들·그것들. 복수 대명사는 굴절 어간 on-을 쓰며 말씀을 듣는 사람들을 가리킵니다."
+          }
+        },
+        {
+          "id": "study-mat-4-19-word-2-vocab",
+          "label": {
+            "en": "back / rear",
+            "ko": "뒤"
+          },
+          "explanation": {
+            "en": "That definition belongs to art. onlar means they / those here. The plural pronoun has the oblique stem on-; it names the people addressed.",
+            "ko": "그 뜻은 art입니다. 여기 onlar는 그들·그것들입니다. 복수 대명사는 굴절 어간 on-을 쓰며 말씀을 듣는 사람들을 가리킵니다."
+          }
+        },
+        {
+          "id": "study-mat-4-19-word-3-vocab",
+          "label": {
+            "en": "come",
+            "ko": "오다"
+          },
+          "explanation": {
+            "en": "That definition belongs to gelmek. onlar means they / those here. The plural pronoun has the oblique stem on-; it names the people addressed.",
+            "ko": "그 뜻은 gelmek입니다. 여기 onlar는 그들·그것들입니다. 복수 대명사는 굴절 어간 on-을 쓰며 말씀을 듣는 사람들을 가리킵니다."
+          }
+        },
+        {
+          "id": "study-mat-4-19-word-4-vocab",
+          "label": {
+            "en": "you (plural / polite)",
+            "ko": "여러분·공손한 당신"
+          },
+          "explanation": {
+            "en": "That definition belongs to siz. onlar means they / those here. The plural pronoun has the oblique stem on-; it names the people addressed.",
+            "ko": "그 뜻은 siz입니다. 여기 onlar는 그들·그것들입니다. 복수 대명사는 굴절 어간 on-을 쓰며 말씀을 듣는 사람들을 가리킵니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-mat-4-19-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "The plural pronoun has the oblique stem on-; it names the people addressed.",
+        "ko": "복수 대명사는 굴절 어간 on-을 쓰며 말씀을 듣는 사람들을 가리킵니다."
+      }
+    },
+    {
+      "id": "study-mat-4-19-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “Onlara”, what is the function of “-a” here?",
+        "ko": "“Onlara”에서 “-a”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "explanation": {
+            "en": "Recipient pronoun. The plural pronoun has the oblique stem on-; it names the people addressed.",
+            "ko": "여격 청자 대명사. 복수 대명사는 굴절 어간 on-을 쓰며 말씀을 듣는 사람들을 가리킵니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Recipient pronoun. The plural pronoun has the oblique stem on-; it names the people addressed.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 여격 청자 대명사. 복수 대명사는 굴절 어간 on-을 쓰며 말씀을 듣는 사람들을 가리킵니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Recipient pronoun. The plural pronoun has the oblique stem on-; it names the people addressed.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 여격 청자 대명사. 복수 대명사는 굴절 어간 on-을 쓰며 말씀을 듣는 사람들을 가리킵니다."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Recipient pronoun. The plural pronoun has the oblique stem on-; it names the people addressed.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 여격 청자 대명사. 복수 대명사는 굴절 어간 on-을 쓰며 말씀을 듣는 사람들을 가리킵니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "DAT"
+      ],
+      "explanations": {
+        "en": "The plural pronoun has the oblique stem on-; it names the people addressed.",
+        "ko": "복수 대명사는 굴절 어간 on-을 쓰며 말씀을 듣는 사람들을 가리킵니다."
+      }
+    }
+  ]
+}

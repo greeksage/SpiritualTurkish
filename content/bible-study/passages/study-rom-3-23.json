@@ -1,0 +1,661 @@
+{
+  "id": "study-rom-3-23",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Romans 3:23 through its clause structure and the forms herkes / işledi.",
+    "ko": "로마서 3:23의 절 구조와 herkes / işledi 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Everyone sinned and fell short of God’s glory.",
+    "ko": "모든 사람이 죄를 지었고 하나님의 영광에 이르지 못했습니다."
+  },
+  "clauses": [
+    {
+      "id": "study-rom-3-23-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "ROM.3.23",
+          "start": 0,
+          "end": 65
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Everyone sinned and lacked God’s glory.",
+        "ko": "모두 죄를 짓고 하나님의 영광에 미치지 못했습니다."
+      },
+      "literalGloss": {
+        "en": "because / everyone / sin did and / from God’s glory / lacking remained",
+        "ko": "왜냐하면 / 모두 / 죄를 지었고 / 하나님의 영광에서 / 부족한 상태였다"
+      },
+      "explanation": {
+        "en": "Herkes is the subject of both past verbs. Günah işlemek is the normal compound “commit sin”; yoksun kalmak takes an ablative complement. The lack belongs to people, not to God’s glory.",
+        "ko": "herkes는 두 과거 동사의 공통 주어입니다. günah işlemek은 죄를 짓다는 결합이고 yoksun kalmak은 탈격 대상을 취합니다. 부족한 쪽은 사람이지 하나님의 영광이 아닙니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-rom-3-23-word-1",
+      "verseId": "ROM.3.23",
+      "start": 6,
+      "end": 12,
+      "surface": "herkes",
+      "lemma": "herkes",
+      "meaning": {
+        "en": "everyone",
+        "ko": "모든 사람"
+      },
+      "partOfSpeech": {
+        "en": "Pronoun / pronominal expression",
+        "ko": "대명사·대명 표현"
+      },
+      "segments": [
+        {
+          "form": "herkes",
+          "meaning": {
+            "en": "everyone",
+            "ko": "모두"
+          },
+          "function": "ROOT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {},
+      "role": {
+        "en": "Singular collective subject",
+        "ko": "단수 총칭 주어"
+      },
+      "contextualExplanation": {
+        "en": "Turkish uses a singular verb with herkes even though many people are included.",
+        "ko": "많은 사람을 포함하지만 herkes에는 단수 동사를 씁니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "everyone",
+        "ko": "모두"
+      }
+    },
+    {
+      "id": "study-rom-3-23-word-2",
+      "verseId": "ROM.3.23",
+      "start": 19,
+      "end": 25,
+      "surface": "işledi",
+      "lemma": "işlemek",
+      "meaning": {
+        "en": "committed",
+        "ko": "지었다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "işle",
+          "meaning": {
+            "en": "do / commit / work",
+            "ko": "행하다·일하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "di",
+          "meaning": {
+            "en": "definite past",
+            "ko": "확정 과거"
+          },
+          "function": "PAST"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "past"
+      },
+      "role": {
+        "en": "Past of a compound action",
+        "ko": "결합 동사의 과거"
+      },
+      "contextualExplanation": {
+        "en": "Günah işlemek means commit sin; işlemek alone has several meanings such as process or perform.",
+        "ko": "günah işlemek은 죄를 짓다입니다. işlemek 자체에는 처리하다·수행하다 등의 뜻도 있습니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "do / commit / work",
+        "ko": "행하다·일하다"
+      }
+    },
+    {
+      "id": "study-rom-3-23-word-3",
+      "verseId": "ROM.3.23",
+      "start": 39,
+      "end": 51,
+      "surface": "yüceliğinden",
+      "lemma": "yücelik",
+      "meaning": {
+        "en": "from his glory",
+        "ko": "그분의 영광에서"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "yüceliğ",
+          "meaning": {
+            "en": "glory / greatness",
+            "ko": "영광·위대함"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "den",
+          "meaning": {
+            "en": "ablative: from / away from",
+            "ko": "탈격: ~에서·~로부터"
+          },
+          "function": "ABL"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "yücelik → yüceliğ- before a vowel",
+          "ko": "모음 앞에서 yücelik가 yüceliğ-로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "ablative"
+      },
+      "role": {
+        "en": "Possessed ablative complement",
+        "ko": "소유 탈격 보어"
+      },
+      "contextualExplanation": {
+        "en": "Tanrı’nın is the possessor; buffer n separates third-person possession from ablative.",
+        "ko": "Tanrı’nın이 소유자이고 완충 n이 3인칭 소유와 탈격을 연결합니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "glory / greatness",
+        "ko": "영광·위대함"
+      }
+    },
+    {
+      "id": "study-rom-3-23-word-4",
+      "verseId": "ROM.3.23",
+      "start": 52,
+      "end": 58,
+      "surface": "yoksun",
+      "lemma": "yoksun",
+      "meaning": {
+        "en": "lacking / deprived",
+        "ko": "결여된"
+      },
+      "partOfSpeech": {
+        "en": "Adjective (may be used as a noun)",
+        "ko": "형용사 (명사로도 사용)"
+      },
+      "segments": [
+        {
+          "form": "yoksun",
+          "meaning": {
+            "en": "deprived / lacking",
+            "ko": "없는·결핍된"
+          },
+          "function": "ROOT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {},
+      "role": {
+        "en": "Adjectival complement",
+        "ko": "형용사 보어"
+      },
+      "contextualExplanation": {
+        "en": "This is the adjective yoksun, not yok + a second-person ending.",
+        "ko": "이 단어는 형용사 yoksun이며 yok에 2인칭 어미가 붙은 것으로 나누지 않습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "deprived / lacking",
+        "ko": "없는·결핍된"
+      }
+    },
+    {
+      "id": "study-rom-3-23-word-5",
+      "verseId": "ROM.3.23",
+      "start": 59,
+      "end": 64,
+      "surface": "kaldı",
+      "lemma": "kalmak",
+      "meaning": {
+        "en": "remained / was left",
+        "ko": "남았다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "kal",
+          "meaning": {
+            "en": "remain / stay",
+            "ko": "남다·머물다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "dı",
+          "meaning": {
+            "en": "definite past",
+            "ko": "확정 과거"
+          },
+          "function": "PAST"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "past"
+      },
+      "role": {
+        "en": "Past predicate in yoksun kalmak",
+        "ko": "yoksun kalmak의 과거 술어"
+      },
+      "contextualExplanation": {
+        "en": "With yoksun it expresses lack or falling short, not simply staying in a place.",
+        "ko": "yoksun과 함께 부족함·미치지 못함을 표현하며 단순한 장소 머묾이 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "remain / stay",
+        "ko": "남다·머물다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-rom-3-23-word-1-vocab",
+      "analysisId": "study-rom-3-23-word-1",
+      "lemma": "herkes",
+      "classification": "general",
+      "definitions": {
+        "en": "everyone",
+        "ko": "모두"
+      },
+      "usageNotes": {
+        "en": "Turkish uses a singular verb with herkes even though many people are included.",
+        "ko": "많은 사람을 포함하지만 herkes에는 단수 동사를 씁니다."
+      }
+    },
+    {
+      "id": "study-rom-3-23-word-2-vocab",
+      "analysisId": "study-rom-3-23-word-2",
+      "lemma": "işlemek",
+      "classification": "biblical",
+      "definitions": {
+        "en": "do / commit / work",
+        "ko": "행하다·일하다"
+      },
+      "usageNotes": {
+        "en": "Günah işlemek means commit sin; işlemek alone has several meanings such as process or perform.",
+        "ko": "günah işlemek은 죄를 짓다입니다. işlemek 자체에는 처리하다·수행하다 등의 뜻도 있습니다."
+      }
+    },
+    {
+      "id": "study-rom-3-23-word-3-vocab",
+      "analysisId": "study-rom-3-23-word-3",
+      "lemma": "yücelik",
+      "classification": "biblical",
+      "definitions": {
+        "en": "glory / greatness",
+        "ko": "영광·위대함"
+      },
+      "usageNotes": {
+        "en": "Tanrı’nın is the possessor; buffer n separates third-person possession from ablative.",
+        "ko": "Tanrı’nın이 소유자이고 완충 n이 3인칭 소유와 탈격을 연결합니다."
+      }
+    },
+    {
+      "id": "study-rom-3-23-word-4-vocab",
+      "analysisId": "study-rom-3-23-word-4",
+      "lemma": "yoksun",
+      "classification": "general",
+      "definitions": {
+        "en": "deprived / lacking",
+        "ko": "없는·결핍된"
+      },
+      "usageNotes": {
+        "en": "This is the adjective yoksun, not yok + a second-person ending.",
+        "ko": "이 단어는 형용사 yoksun이며 yok에 2인칭 어미가 붙은 것으로 나누지 않습니다."
+      }
+    },
+    {
+      "id": "study-rom-3-23-word-5-vocab",
+      "analysisId": "study-rom-3-23-word-5",
+      "lemma": "kalmak",
+      "classification": "general",
+      "definitions": {
+        "en": "remain / stay",
+        "ko": "남다·머물다"
+      },
+      "usageNotes": {
+        "en": "With yoksun it expresses lack or falling short, not simply staying in a place.",
+        "ko": "yoksun과 함께 부족함·미치지 못함을 표현하며 단순한 장소 머묾이 아닙니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-rom-3-23-grammar-1",
+      "title": {
+        "en": "An ablative required by an adjective",
+        "ko": "형용사가 요구하는 탈격"
+      },
+      "explanation": {
+        "en": "…-den yoksun means lacking something. Preserve this relation rather than translating each word separately.",
+        "ko": "…-den yoksun은 무엇이 없거나 부족하다는 뜻입니다. 낱말을 따로 옮기기보다 이 관계를 유지하세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ROM.3.23",
+          "start": 0,
+          "end": 65
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-rom-3-23-grammar-2",
+      "title": {
+        "en": "Shared subject, parallel past",
+        "ko": "공통 주어·나란한 과거"
+      },
+      "explanation": {
+        "en": "Herkes governs işledi and kaldı. Ve links two assertions about that same subject.",
+        "ko": "herkes가 işledi·kaldı의 주어이고 ve는 같은 주어에 대한 두 진술을 잇습니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ROM.3.23",
+          "start": 0,
+          "end": 65
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-07"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Describe a nonreligious lack using “…-den yoksun,” then explain günah işlemek in simple Turkish.",
+    "ko": "“…-den yoksun”으로 일상적 결핍을 말하고 günah işlemek을 쉬운 터키어로 설명하세요."
+  },
+  "modelResponse": {
+    "tr": "Bu açıklama ayrıntıdan yoksun. Günah işlemek, Tanrı’nın isteğine aykırı davranmak demektir.",
+    "meaning": {
+      "en": "This explanation lacks detail. Committing sin means acting contrary to God’s will.",
+      "ko": "이 설명에는 세부 내용이 부족합니다. 죄를 짓는다는 것은 하나님의 뜻에 반하여 행동한다는 뜻입니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "ministry-07"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-rom-3-23-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Romans 3:23? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 로마서 3:23인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-rom-3-23",
+          "passageId": "study-rom-3-23",
+          "explanation": {
+            "en": "This is the passage. Everyone sinned and fell short of God’s glory. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 모든 사람이 죄를 지었고 하나님의 영광에 이르지 못했습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-6-23",
+          "passageId": "study-rom-6-23",
+          "explanation": {
+            "en": "This is a different passage. The wage of sin is death; God’s gift, however, is eternal life in our Lord Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 죄의 삯은 죽음이지만 하나님의 선물은 우리 주 그리스도 예수 안의 영원한 생명입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-1-12",
+          "passageId": "study-jhn-1-12",
+          "explanation": {
+            "en": "This is a different passage. He gave everyone who received him and believed in his name the right to become God’s children. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 그분을 받아들이고 그 이름을 믿는 모든 사람에게 하나님의 자녀가 될 권리를 주셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-5-8",
+          "passageId": "study-rom-5-8",
+          "explanation": {
+            "en": "This is a different passage. God demonstrates his love for us in this: while we were still sinners, Christ died for us. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 하나님은 우리가 아직 죄인이었을 때 그리스도께서 우리를 위해 죽으셨다는 사실로 우리를 향한 사랑을 보여주십니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-3-23"
+      ],
+      "explanations": {
+        "en": "This is the passage. Everyone sinned and fell short of God’s glory. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 모든 사람이 죄를 지었고 하나님의 영광에 이르지 못했습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-rom-3-23-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-rom-3-23",
+          "referenceId": "study-rom-3-23",
+          "explanation": {
+            "en": "This is the passage. Everyone sinned and fell short of God’s glory. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 모든 사람이 죄를 지었고 하나님의 영광에 이르지 못했습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-6-23",
+          "referenceId": "study-rom-6-23",
+          "explanation": {
+            "en": "This is a different passage. The wage of sin is death; God’s gift, however, is eternal life in our Lord Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 죄의 삯은 죽음이지만 하나님의 선물은 우리 주 그리스도 예수 안의 영원한 생명입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-1-12",
+          "referenceId": "study-jhn-1-12",
+          "explanation": {
+            "en": "This is a different passage. He gave everyone who received him and believed in his name the right to become God’s children. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 그분을 받아들이고 그 이름을 믿는 모든 사람에게 하나님의 자녀가 될 권리를 주셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-5-8",
+          "referenceId": "study-rom-5-8",
+          "explanation": {
+            "en": "This is a different passage. God demonstrates his love for us in this: while we were still sinners, Christ died for us. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 하나님은 우리가 아직 죄인이었을 때 그리스도께서 우리를 위해 죽으셨다는 사실로 우리를 향한 사랑을 보여주십니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-3-23"
+      ],
+      "explanations": {
+        "en": "This is the passage. Everyone sinned and fell short of God’s glory. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 모든 사람이 죄를 지었고 하나님의 영광에 이르지 못했습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-rom-3-23-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “işlemek” in this passage?",
+        "ko": "이 본문에서 “işlemek”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-rom-3-23-word-2-vocab",
+          "label": {
+            "en": "do / commit / work",
+            "ko": "행하다·일하다"
+          },
+          "explanation": {
+            "en": "do / commit / work. Günah işlemek means commit sin; işlemek alone has several meanings such as process or perform.",
+            "ko": "행하다·일하다. günah işlemek은 죄를 짓다입니다. işlemek 자체에는 처리하다·수행하다 등의 뜻도 있습니다."
+          }
+        },
+        {
+          "id": "study-rom-3-23-word-1-vocab",
+          "label": {
+            "en": "everyone",
+            "ko": "모두"
+          },
+          "explanation": {
+            "en": "That definition belongs to herkes. işlemek means do / commit / work here. Günah işlemek means commit sin; işlemek alone has several meanings such as process or perform.",
+            "ko": "그 뜻은 herkes입니다. 여기 işlemek는 행하다·일하다입니다. günah işlemek은 죄를 짓다입니다. işlemek 자체에는 처리하다·수행하다 등의 뜻도 있습니다."
+          }
+        },
+        {
+          "id": "study-rom-3-23-word-3-vocab",
+          "label": {
+            "en": "glory / greatness",
+            "ko": "영광·위대함"
+          },
+          "explanation": {
+            "en": "That definition belongs to yücelik. işlemek means do / commit / work here. Günah işlemek means commit sin; işlemek alone has several meanings such as process or perform.",
+            "ko": "그 뜻은 yücelik입니다. 여기 işlemek는 행하다·일하다입니다. günah işlemek은 죄를 짓다입니다. işlemek 자체에는 처리하다·수행하다 등의 뜻도 있습니다."
+          }
+        },
+        {
+          "id": "study-rom-3-23-word-4-vocab",
+          "label": {
+            "en": "deprived / lacking",
+            "ko": "없는·결핍된"
+          },
+          "explanation": {
+            "en": "That definition belongs to yoksun. işlemek means do / commit / work here. Günah işlemek means commit sin; işlemek alone has several meanings such as process or perform.",
+            "ko": "그 뜻은 yoksun입니다. 여기 işlemek는 행하다·일하다입니다. günah işlemek은 죄를 짓다입니다. işlemek 자체에는 처리하다·수행하다 등의 뜻도 있습니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-3-23-word-2-vocab"
+      ],
+      "explanations": {
+        "en": "Günah işlemek means commit sin; işlemek alone has several meanings such as process or perform.",
+        "ko": "günah işlemek은 죄를 짓다입니다. işlemek 자체에는 처리하다·수행하다 등의 뜻도 있습니다."
+      }
+    },
+    {
+      "id": "study-rom-3-23-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “yüceliğinden”, what is the function of “-den” here?",
+        "ko": "“yüceliğinden”에서 “-den”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from",
+            "ko": "탈격: ~에서·~로부터"
+          },
+          "explanation": {
+            "en": "Possessed ablative complement. Tanrı’nın is the possessor; buffer n separates third-person possession from ablative.",
+            "ko": "소유 탈격 보어. Tanrı’nın이 소유자이고 완충 n이 3인칭 소유와 탈격을 연결합니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed ablative complement. Tanrı’nın is the possessor; buffer n separates third-person possession from ablative.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 탈격 보어. Tanrı’nın이 소유자이고 완충 n이 3인칭 소유와 탈격을 연결합니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed ablative complement. Tanrı’nın is the possessor; buffer n separates third-person possession from ablative.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 탈격 보어. Tanrı’nın이 소유자이고 완충 n이 3인칭 소유와 탈격을 연결합니다."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed ablative complement. Tanrı’nın is the possessor; buffer n separates third-person possession from ablative.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유 탈격 보어. Tanrı’nın이 소유자이고 완충 n이 3인칭 소유와 탈격을 연결합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ABL"
+      ],
+      "explanations": {
+        "en": "Tanrı’nın is the possessor; buffer n separates third-person possession from ablative.",
+        "ko": "Tanrı’nın이 소유자이고 완충 n이 3인칭 소유와 탈격을 연결합니다."
+      }
+    }
+  ]
+}

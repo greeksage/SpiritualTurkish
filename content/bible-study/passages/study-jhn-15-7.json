@@ -1,0 +1,826 @@
+{
+  "id": "study-jhn-15-7",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand John 15:7 through its clause structure and the forms kalırsanız / sözlerim.",
+    "ko": "요한복음 15:7의 절 구조와 kalırsanız / sözlerim 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "If you remain in me and my words remain in you, ask whatever you wish and it will be given to you.",
+    "ko": "여러분이 내 안에 머물고 내 말이 여러분 안에 머물면 원하는 것을 구하세요. 여러분에게 주어질 것입니다."
+  },
+  "clauses": [
+    {
+      "id": "study-jhn-15-7-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "JHN.15.7",
+          "start": 0,
+          "end": 48
+        }
+      ],
+      "naturalMeaning": {
+        "en": "If you remain in me and my words remain in you,",
+        "ko": "여러분이 내 안에 있고 내 말이 여러분 안에 머물면,"
+      },
+      "literalGloss": {
+        "en": "if / in me / remain-if-you; and my words / in you / remain-if",
+        "ko": "만약 / 내 안에 / 머문다면 여러분; 그리고 내 말들 / 여러분 안에 / 머문다면"
+      },
+      "explanation": {
+        "en": "The two conditions have different subjects: siz for kalırsanız and sözlerim for kalırsa. The plural nonhuman subject does not require a plural personal ending.",
+        "ko": "두 조건의 주어가 다릅니다. kalırsanız는 siz이고 kalırsa는 sözlerim입니다. 비인간 복수 주어에는 복수 인칭 어미가 반드시 필요하지 않습니다."
+      }
+    },
+    {
+      "id": "study-jhn-15-7-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "JHN.15.7",
+          "start": 49,
+          "end": 90
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Ask whatever you wish; it will be given to you.",
+        "ko": "원하는 것을 구하세요. 여러분에게 주어질 것입니다."
+      },
+      "literalGloss": {
+        "en": "whatever you wish / ask / to you / will be given",
+        "ko": "무엇이든 원한다면 / 구하라 / 여러분에게 / 주어질 것이다"
+      },
+      "explanation": {
+        "en": "Ne … -se means whatever here. Verilecektir is passive future; the giver is understood from context, not expressed as a subject noun in this clause.",
+        "ko": "ne … -se는 여기서 무엇이든지입니다. verilecektir는 피동 미래이고 주는 분은 문맥에서 이해하며 이 절의 명사 주어로 밝히지 않았습니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-jhn-15-7-word-1",
+      "verseId": "JHN.15.7",
+      "start": 11,
+      "end": 21,
+      "surface": "kalırsanız",
+      "lemma": "kalmak",
+      "meaning": {
+        "en": "if you remain",
+        "ko": "여러분이 머문다면"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "kal",
+          "meaning": {
+            "en": "remain / stay",
+            "ko": "남다·머물다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ır",
+          "meaning": {
+            "en": "aorist: general / habitual",
+            "ko": "일반·습관 현재"
+          },
+          "function": "AOR"
+        },
+        {
+          "form": "sa",
+          "meaning": {
+            "en": "conditional",
+            "ko": "조건"
+          },
+          "function": "COND"
+        },
+        {
+          "form": "nız",
+          "meaning": {
+            "en": "second-person plural / polite address",
+            "ko": "2인칭 복수·공손한 청자"
+          },
+          "function": "PERSON2P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "aorist",
+        "mood": "conditional",
+        "person": "2pl/polite"
+      },
+      "role": {
+        "en": "Second-person plural condition",
+        "ko": "2인칭 복수 조건"
+      },
+      "contextualExplanation": {
+        "en": "Aorist -ır precedes conditional -sa, then the plural personal ending.",
+        "ko": "일반 현재 -ır 뒤에 조건 -sa·복수 인칭 어미가 붙습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "remain / stay",
+        "ko": "남다·머물다"
+      }
+    },
+    {
+      "id": "study-jhn-15-7-word-2",
+      "verseId": "JHN.15.7",
+      "start": 25,
+      "end": 33,
+      "surface": "sözlerim",
+      "lemma": "söz",
+      "meaning": {
+        "en": "my words",
+        "ko": "나의 말들"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "söz",
+          "meaning": {
+            "en": "word / statement / promise",
+            "ko": "말·진술·약속"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ler",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "im",
+          "meaning": {
+            "en": "first-person singular possessive",
+            "ko": "1인칭 단수 소유"
+          },
+          "function": "P1"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "number": "plural",
+        "possessive": "1sg"
+      },
+      "role": {
+        "en": "Subject of kalırsa",
+        "ko": "kalırsa의 주어"
+      },
+      "contextualExplanation": {
+        "en": "The words belong to the speaker, not the listeners.",
+        "ko": "말의 소유자는 청자가 아니라 화자입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "word / statement / promise",
+        "ko": "말·진술·약속"
+      }
+    },
+    {
+      "id": "study-jhn-15-7-word-3",
+      "verseId": "JHN.15.7",
+      "start": 34,
+      "end": 39,
+      "surface": "sizde",
+      "lemma": "siz",
+      "meaning": {
+        "en": "in you (plural)",
+        "ko": "여러분 안에"
+      },
+      "partOfSpeech": {
+        "en": "Pronoun / pronominal expression",
+        "ko": "대명사·대명 표현"
+      },
+      "segments": [
+        {
+          "form": "siz",
+          "meaning": {
+            "en": "you (plural / polite)",
+            "ko": "여러분·공손한 당신"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "de",
+          "meaning": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "function": "LOC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "case": "locative"
+      },
+      "role": {
+        "en": "Locative complement",
+        "ko": "처소격 보어"
+      },
+      "contextualExplanation": {
+        "en": "This attached -de is location, not the separate particle “also.”",
+        "ko": "붙은 -de는 위치이며 띄어 쓰는 ~도 조사가 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "you (plural / polite)",
+        "ko": "여러분·공손한 당신"
+      }
+    },
+    {
+      "id": "study-jhn-15-7-word-4",
+      "verseId": "JHN.15.7",
+      "start": 52,
+      "end": 62,
+      "surface": "isterseniz",
+      "lemma": "istemek",
+      "meaning": {
+        "en": "whatever you want / if you want",
+        "ko": "여러분이 원한다면"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "iste",
+          "meaning": {
+            "en": "want / request",
+            "ko": "원하다·청하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "r",
+          "meaning": {
+            "en": "aorist: general / habitual",
+            "ko": "일반·습관 현재"
+          },
+          "function": "AOR"
+        },
+        {
+          "form": "se",
+          "meaning": {
+            "en": "conditional",
+            "ko": "조건"
+          },
+          "function": "COND"
+        },
+        {
+          "form": "niz",
+          "meaning": {
+            "en": "second-person plural / polite address",
+            "ko": "2인칭 복수·공손한 청자"
+          },
+          "function": "PERSON2P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "aorist",
+        "mood": "conditional",
+        "person": "2pl/polite"
+      },
+      "role": {
+        "en": "Indefinite conditional",
+        "ko": "부정칭 조건"
+      },
+      "contextualExplanation": {
+        "en": "With ne, the construction ranges over what the listeners wish.",
+        "ko": "ne와 함께 청자들이 원하는 대상을 가리킵니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "want / request",
+        "ko": "원하다·청하다"
+      }
+    },
+    {
+      "id": "study-jhn-15-7-word-5",
+      "verseId": "JHN.15.7",
+      "start": 63,
+      "end": 70,
+      "surface": "dileyin",
+      "lemma": "dilemek",
+      "meaning": {
+        "en": "ask / wish (plural command)",
+        "ko": "구하세요"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "dile",
+          "meaning": {
+            "en": "wish / request",
+            "ko": "바라다·청하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "in",
+          "meaning": {
+            "en": "plural / polite imperative",
+            "ko": "복수·공손한 명령"
+          },
+          "function": "IMP2P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "mood": "plural/polite imperative"
+      },
+      "role": {
+        "en": "Plural imperative",
+        "ko": "복수 명령"
+      },
+      "contextualExplanation": {
+        "en": "A buffer y links the vowel-final stem to -in. Dilemek can mean request or wish; here prayer context makes request natural.",
+        "ko": "모음 어간과 -in을 y가 연결합니다. dilemek은 바라다·청하다이며 기도 문맥에서는 구하다가 자연스럽습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "wish / request",
+        "ko": "바라다·청하다"
+      }
+    },
+    {
+      "id": "study-jhn-15-7-word-6",
+      "verseId": "JHN.15.7",
+      "start": 77,
+      "end": 89,
+      "surface": "verilecektir",
+      "lemma": "vermek",
+      "meaning": {
+        "en": "will be given",
+        "ko": "주어질 것이다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ver",
+          "meaning": {
+            "en": "give",
+            "ko": "주다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "il",
+          "meaning": {
+            "en": "passive",
+            "ko": "피동"
+          },
+          "function": "PASS"
+        },
+        {
+          "form": "ecek",
+          "meaning": {
+            "en": "future",
+            "ko": "미래"
+          },
+          "function": "FUT"
+        },
+        {
+          "form": "tir",
+          "meaning": {
+            "en": "copular/assertive ending",
+            "ko": "계사·단정 어미"
+          },
+          "function": "COP"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "voice": "passive",
+        "tenseAspect": "future"
+      },
+      "role": {
+        "en": "Passive future",
+        "ko": "피동 미래"
+      },
+      "contextualExplanation": {
+        "en": "-il makes the verb passive; -ecek gives future, and -tir adds formal assertion.",
+        "ko": "-il은 피동, -ecek은 미래, -tir는 격식 단정입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "give",
+        "ko": "주다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-jhn-15-7-word-1-vocab",
+      "analysisId": "study-jhn-15-7-word-1",
+      "lemma": "kalmak",
+      "classification": "general",
+      "definitions": {
+        "en": "remain / stay",
+        "ko": "남다·머물다"
+      },
+      "usageNotes": {
+        "en": "Aorist -ır precedes conditional -sa, then the plural personal ending.",
+        "ko": "일반 현재 -ır 뒤에 조건 -sa·복수 인칭 어미가 붙습니다."
+      }
+    },
+    {
+      "id": "study-jhn-15-7-word-2-vocab",
+      "analysisId": "study-jhn-15-7-word-2",
+      "lemma": "söz",
+      "classification": "general",
+      "definitions": {
+        "en": "word / statement / promise",
+        "ko": "말·진술·약속"
+      },
+      "usageNotes": {
+        "en": "The words belong to the speaker, not the listeners.",
+        "ko": "말의 소유자는 청자가 아니라 화자입니다."
+      }
+    },
+    {
+      "id": "study-jhn-15-7-word-3-vocab",
+      "analysisId": "study-jhn-15-7-word-3",
+      "lemma": "siz",
+      "classification": "general",
+      "definitions": {
+        "en": "you (plural / polite)",
+        "ko": "여러분·공손한 당신"
+      },
+      "usageNotes": {
+        "en": "This attached -de is location, not the separate particle “also.”",
+        "ko": "붙은 -de는 위치이며 띄어 쓰는 ~도 조사가 아닙니다."
+      }
+    },
+    {
+      "id": "study-jhn-15-7-word-4-vocab",
+      "analysisId": "study-jhn-15-7-word-4",
+      "lemma": "istemek",
+      "classification": "general",
+      "definitions": {
+        "en": "want / request",
+        "ko": "원하다·청하다"
+      },
+      "usageNotes": {
+        "en": "With ne, the construction ranges over what the listeners wish.",
+        "ko": "ne와 함께 청자들이 원하는 대상을 가리킵니다."
+      }
+    },
+    {
+      "id": "study-jhn-15-7-word-5-vocab",
+      "analysisId": "study-jhn-15-7-word-5",
+      "lemma": "dilemek",
+      "classification": "general",
+      "definitions": {
+        "en": "wish / request",
+        "ko": "바라다·청하다"
+      },
+      "usageNotes": {
+        "en": "A buffer y links the vowel-final stem to -in. Dilemek can mean request or wish; here prayer context makes request natural.",
+        "ko": "모음 어간과 -in을 y가 연결합니다. dilemek은 바라다·청하다이며 기도 문맥에서는 구하다가 자연스럽습니다."
+      }
+    },
+    {
+      "id": "study-jhn-15-7-word-6-vocab",
+      "analysisId": "study-jhn-15-7-word-6",
+      "lemma": "vermek",
+      "classification": "general",
+      "definitions": {
+        "en": "give",
+        "ko": "주다"
+      },
+      "usageNotes": {
+        "en": "-il makes the verb passive; -ecek gives future, and -tir adds formal assertion.",
+        "ko": "-il은 피동, -ecek은 미래, -tir는 격식 단정입니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-jhn-15-7-grammar-1",
+      "title": {
+        "en": "The person changes between conditions",
+        "ko": "조건절 사이의 인칭 변화"
+      },
+      "explanation": {
+        "en": "Do not give kalırsa the same second-person subject as kalırsanız. The first is about the listeners, the second about the speaker’s words.",
+        "ko": "kalırsa를 kalırsanız와 같은 2인칭으로 읽지 마세요. 앞은 청자이고 뒤는 화자의 말이 주어입니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "JHN.15.7",
+          "start": 0,
+          "end": 48
+        },
+        {
+          "verseId": "JHN.15.7",
+          "start": 49,
+          "end": 90
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-jhn-15-7-grammar-2",
+      "title": {
+        "en": "Passive promise in context",
+        "ko": "문맥 안의 피동 약속"
+      },
+      "explanation": {
+        "en": "The request follows two conditions. This is not a free-standing guarantee that every desire, apart from the stated relationship, will be granted.",
+        "ko": "요청은 두 조건 뒤에 옵니다. 제시된 관계와 무관하게 모든 욕망이 성취된다는 독립적인 보장이 아닙니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "JHN.15.7",
+          "start": 0,
+          "end": 48
+        },
+        {
+          "verseId": "JHN.15.7",
+          "start": 49,
+          "end": 90
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-03"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Write a polite request using “Eğer … -sanız” and a plural/polite imperative.",
+    "ko": "“Eğer … -sanız”와 복수·공손 명령으로 정중한 요청을 쓰세요."
+  },
+  "modelResponse": {
+    "tr": "Eğer zamanınız varsa, bana yardım edin lütfen.",
+    "meaning": {
+      "en": "If you have time, please help me.",
+      "ko": "시간이 있으시면 도와주세요."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "ministry-03"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-jhn-15-7-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to John 15:7? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 요한복음 15:7인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-jhn-15-7",
+          "passageId": "study-jhn-15-7",
+          "explanation": {
+            "en": "This is the passage. If you remain in me and my words remain in you, ask whatever you wish and it will be given to you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 여러분이 내 안에 머물고 내 말이 여러분 안에 머물면 원하는 것을 구하세요. 여러분에게 주어질 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-2co-5-17",
+          "passageId": "study-2co-5-17",
+          "explanation": {
+            "en": "This is a different passage. Anyone who is in Christ is a new creation: the old things have passed, and everything has become new. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 그리스도 안에 있는 사람은 새로운 피조물입니다. 옛것은 지나갔고 모든 것이 새롭게 되었습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-18-20",
+          "passageId": "study-mat-18-20",
+          "explanation": {
+            "en": "This is a different passage. Where two or three gather in my name, I am there among them as well. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 두세 사람이 내 이름으로 모이는 곳에 나도 그들 가운데 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-2ti-3-16",
+          "passageId": "study-2ti-3-16",
+          "explanation": {
+            "en": "This is a different passage. All Scripture is God’s inspiration and is useful for teaching, rebuking, setting people on the right path, and training in righteousness. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 모든 성경은 하나님의 영감으로 된 것이며 가르침·책망·바른길로 이끌기·의로움에 관한 훈련에 유익합니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-jhn-15-7"
+      ],
+      "explanations": {
+        "en": "This is the passage. If you remain in me and my words remain in you, ask whatever you wish and it will be given to you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 여러분이 내 안에 머물고 내 말이 여러분 안에 머물면 원하는 것을 구하세요. 여러분에게 주어질 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-jhn-15-7-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-jhn-15-7",
+          "referenceId": "study-jhn-15-7",
+          "explanation": {
+            "en": "This is the passage. If you remain in me and my words remain in you, ask whatever you wish and it will be given to you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 여러분이 내 안에 머물고 내 말이 여러분 안에 머물면 원하는 것을 구하세요. 여러분에게 주어질 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-2co-5-17",
+          "referenceId": "study-2co-5-17",
+          "explanation": {
+            "en": "This is a different passage. Anyone who is in Christ is a new creation: the old things have passed, and everything has become new. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 그리스도 안에 있는 사람은 새로운 피조물입니다. 옛것은 지나갔고 모든 것이 새롭게 되었습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-18-20",
+          "referenceId": "study-mat-18-20",
+          "explanation": {
+            "en": "This is a different passage. Where two or three gather in my name, I am there among them as well. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 두세 사람이 내 이름으로 모이는 곳에 나도 그들 가운데 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-2ti-3-16",
+          "referenceId": "study-2ti-3-16",
+          "explanation": {
+            "en": "This is a different passage. All Scripture is God’s inspiration and is useful for teaching, rebuking, setting people on the right path, and training in righteousness. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 모든 성경은 하나님의 영감으로 된 것이며 가르침·책망·바른길로 이끌기·의로움에 관한 훈련에 유익합니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-jhn-15-7"
+      ],
+      "explanations": {
+        "en": "This is the passage. If you remain in me and my words remain in you, ask whatever you wish and it will be given to you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 여러분이 내 안에 머물고 내 말이 여러분 안에 머물면 원하는 것을 구하세요. 여러분에게 주어질 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-jhn-15-7-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “kalmak” in this passage?",
+        "ko": "이 본문에서 “kalmak”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-jhn-15-7-word-1-vocab",
+          "label": {
+            "en": "remain / stay",
+            "ko": "남다·머물다"
+          },
+          "explanation": {
+            "en": "remain / stay. Aorist -ır precedes conditional -sa, then the plural personal ending.",
+            "ko": "남다·머물다. 일반 현재 -ır 뒤에 조건 -sa·복수 인칭 어미가 붙습니다."
+          }
+        },
+        {
+          "id": "study-jhn-15-7-word-2-vocab",
+          "label": {
+            "en": "word / statement / promise",
+            "ko": "말·진술·약속"
+          },
+          "explanation": {
+            "en": "That definition belongs to söz. kalmak means remain / stay here. Aorist -ır precedes conditional -sa, then the plural personal ending.",
+            "ko": "그 뜻은 söz입니다. 여기 kalmak는 남다·머물다입니다. 일반 현재 -ır 뒤에 조건 -sa·복수 인칭 어미가 붙습니다."
+          }
+        },
+        {
+          "id": "study-jhn-15-7-word-3-vocab",
+          "label": {
+            "en": "you (plural / polite)",
+            "ko": "여러분·공손한 당신"
+          },
+          "explanation": {
+            "en": "That definition belongs to siz. kalmak means remain / stay here. Aorist -ır precedes conditional -sa, then the plural personal ending.",
+            "ko": "그 뜻은 siz입니다. 여기 kalmak는 남다·머물다입니다. 일반 현재 -ır 뒤에 조건 -sa·복수 인칭 어미가 붙습니다."
+          }
+        },
+        {
+          "id": "study-jhn-15-7-word-4-vocab",
+          "label": {
+            "en": "want / request",
+            "ko": "원하다·청하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to istemek. kalmak means remain / stay here. Aorist -ır precedes conditional -sa, then the plural personal ending.",
+            "ko": "그 뜻은 istemek입니다. 여기 kalmak는 남다·머물다입니다. 일반 현재 -ır 뒤에 조건 -sa·복수 인칭 어미가 붙습니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-jhn-15-7-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Aorist -ır precedes conditional -sa, then the plural personal ending.",
+        "ko": "일반 현재 -ır 뒤에 조건 -sa·복수 인칭 어미가 붙습니다."
+      }
+    },
+    {
+      "id": "study-jhn-15-7-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “kalırsanız”, what is the function of “-nız” here?",
+        "ko": "“kalırsanız”에서 “-nız”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "PERSON2P",
+          "label": {
+            "en": "second-person plural / polite address",
+            "ko": "2인칭 복수·공손한 청자"
+          },
+          "explanation": {
+            "en": "Second-person plural condition. Aorist -ır precedes conditional -sa, then the plural personal ending.",
+            "ko": "2인칭 복수 조건. 일반 현재 -ır 뒤에 조건 -sa·복수 인칭 어미가 붙습니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Second-person plural condition. Aorist -ır precedes conditional -sa, then the plural personal ending.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 2인칭 복수 조건. 일반 현재 -ır 뒤에 조건 -sa·복수 인칭 어미가 붙습니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Second-person plural condition. Aorist -ır precedes conditional -sa, then the plural personal ending.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 2인칭 복수 조건. 일반 현재 -ır 뒤에 조건 -sa·복수 인칭 어미가 붙습니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Second-person plural condition. Aorist -ır precedes conditional -sa, then the plural personal ending.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 2인칭 복수 조건. 일반 현재 -ır 뒤에 조건 -sa·복수 인칭 어미가 붙습니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "PERSON2P"
+      ],
+      "explanations": {
+        "en": "Aorist -ır precedes conditional -sa, then the plural personal ending.",
+        "ko": "일반 현재 -ır 뒤에 조건 -sa·복수 인칭 어미가 붙습니다."
+      }
+    }
+  ]
+}

@@ -1,0 +1,781 @@
+{
+  "id": "study-2ti-3-16",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand 2 Timothy 3:16 through its clause structure and the forms tümü / esinlemesidir.",
+    "ko": "디모데후서 3:16의 절 구조와 tümü / esinlemesidir 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "All Scripture is God’s inspiration and is useful for teaching, rebuking, setting people on the right path, and training in righteousness.",
+    "ko": "모든 성경은 하나님의 영감으로 된 것이며 가르침·책망·바른길로 이끌기·의로움에 관한 훈련에 유익합니다."
+  },
+  "clauses": [
+    {
+      "id": "study-2ti-3-16-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "2TI.3.16",
+          "start": 0,
+          "end": 42
+        }
+      ],
+      "naturalMeaning": {
+        "en": "All Scripture is God-inspired.",
+        "ko": "성경 전체는 하나님의 영감으로 된 것입니다."
+      },
+      "literalGloss": {
+        "en": "of Holy Writings / the whole / God inspiration-is",
+        "ko": "거룩한 글들의 / 전체 / 하나님의 영감이다"
+      },
+      "explanation": {
+        "en": "Tümü is the possessed head of “all of the Scriptures.” Tanrı esinlemesi is a noun compound; translating it naturally as God-inspired does not change its literal noun structure.",
+        "ko": "tümü는 성경의 전체라는 소유 구문의 중심 명사입니다. Tanrı esinlemesi는 명사 결합이며 자연스러운 “하나님의 영감으로 된”이라는 번역과 명사 구조를 구별합니다."
+      }
+    },
+    {
+      "id": "study-2ti-3-16-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "2TI.3.16",
+          "start": 43,
+          "end": 125
+        }
+      ],
+      "naturalMeaning": {
+        "en": "It is useful for teaching, rebuking, correcting, and training in righteousness.",
+        "ko": "가르치고 책망하며 바른길로 이끌고 의로움에 관해 훈련하는 데 유익합니다."
+      },
+      "literalGloss": {
+        "en": "and / teach rebuke bring-to-road righteousness-in-matter train / for / useful-is",
+        "ko": "그리고 / 가르치기·책망하기·바른길로 이끌기·의에 관해 훈련하기 / 위해 / 유익하다"
+      },
+      "explanation": {
+        "en": "Several infinitives share the final için. Yola getirmek is idiomatic correction, not literal transport. Konusunda relates training to a subject area.",
+        "ko": "여러 부정사가 마지막 için을 함께 씁니다. yola getirmek은 바로잡다는 관용어로 물리적 이동이 아닙니다. konusunda는 훈련의 주제 영역을 표시합니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-2ti-3-16-word-1",
+      "verseId": "2TI.3.16",
+      "start": 18,
+      "end": 22,
+      "surface": "tümü",
+      "lemma": "tüm",
+      "meaning": {
+        "en": "all of it",
+        "ko": "그 전체"
+      },
+      "partOfSpeech": {
+        "en": "Adjective (may be used as a noun)",
+        "ko": "형용사 (명사로도 사용)"
+      },
+      "segments": [
+        {
+          "form": "tüm",
+          "meaning": {
+            "en": "all / entire",
+            "ko": "모든"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ü",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Possessed head of the genitive phrase",
+        "ko": "속격 구문의 소유 중심 명사"
+      },
+      "contextualExplanation": {
+        "en": "Kutsal Yazılar’ın supplies the possessor; -ü belongs to tüm, not plural marking.",
+        "ko": "Kutsal Yazılar’ın이 소유자를 표시합니다. -ü는 tüm의 소유 어미이며 복수가 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "all / entire",
+        "ko": "모든"
+      }
+    },
+    {
+      "id": "study-2ti-3-16-word-2",
+      "verseId": "2TI.3.16",
+      "start": 29,
+      "end": 42,
+      "surface": "esinlemesidir",
+      "lemma": "esinleme",
+      "meaning": {
+        "en": "is inspiration",
+        "ko": "영감이다"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "esinleme",
+          "meaning": {
+            "en": "inspiration",
+            "ko": "영감"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "si",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "dir",
+          "meaning": {
+            "en": "copular/assertive ending",
+            "ko": "계사·단정 어미"
+          },
+          "function": "COP"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Compound head with copula",
+        "ko": "명사 결합의 중심·계사"
+      },
+      "contextualExplanation": {
+        "en": "Tanrı esinlemesi is a compound. The lexical noun esinleme is not a negative verb in this sentence.",
+        "ko": "Tanrı esinlemesi는 명사 결합입니다. esinleme는 여기서 영감이라는 어휘 명사이며 부정 동사가 아닙니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "inspiration",
+        "ko": "영감"
+      }
+    },
+    {
+      "id": "study-2ti-3-16-word-3",
+      "verseId": "2TI.3.16",
+      "start": 46,
+      "end": 54,
+      "surface": "öğretmek",
+      "lemma": "öğretmek",
+      "meaning": {
+        "en": "to teach",
+        "ko": "가르치기"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "öğret",
+          "meaning": {
+            "en": "teach",
+            "ko": "가르치다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "mek",
+          "meaning": {
+            "en": "infinitive",
+            "ko": "부정사"
+          },
+          "function": "INF"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "infinitive"
+      },
+      "role": {
+        "en": "Purpose infinitive",
+        "ko": "목적 부정사"
+      },
+      "contextualExplanation": {
+        "en": "It begins the list governed by için.",
+        "ko": "için과 연결되는 목록의 첫 항목입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "teach",
+        "ko": "가르치다"
+      }
+    },
+    {
+      "id": "study-2ti-3-16-word-4",
+      "verseId": "2TI.3.16",
+      "start": 67,
+      "end": 71,
+      "surface": "yola",
+      "lemma": "yol",
+      "meaning": {
+        "en": "to the path",
+        "ko": "길로"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "yol",
+          "meaning": {
+            "en": "road / way",
+            "ko": "길"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "a",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "case": "dative"
+      },
+      "role": {
+        "en": "Dative in an idiom",
+        "ko": "관용구의 여격"
+      },
+      "contextualExplanation": {
+        "en": "Yola getirmek means put right / correct; yolu would change the construction.",
+        "ko": "yola getirmek은 바로잡다입니다. yolu로 바꾸면 구문이 달라집니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "road / way",
+        "ko": "길"
+      }
+    },
+    {
+      "id": "study-2ti-3-16-word-5",
+      "verseId": "2TI.3.16",
+      "start": 91,
+      "end": 100,
+      "surface": "konusunda",
+      "lemma": "konu",
+      "meaning": {
+        "en": "on the subject of",
+        "ko": "~에 관하여"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "konu",
+          "meaning": {
+            "en": "subject / matter",
+            "ko": "주제·일"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "su",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "da",
+          "meaning": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "function": "LOC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "locative"
+      },
+      "role": {
+        "en": "Topic expression",
+        "ko": "주제 표현"
+      },
+      "contextualExplanation": {
+        "en": "Doğruluk konusunda names the domain of training. The buffer n follows the third-person possessed form.",
+        "ko": "doğruluk konusunda는 훈련의 영역입니다. 3인칭 소유 뒤에 완충 n이 옵니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "subject / matter",
+        "ko": "주제·일"
+      }
+    },
+    {
+      "id": "study-2ti-3-16-word-6",
+      "verseId": "2TI.3.16",
+      "start": 114,
+      "end": 124,
+      "surface": "yararlıdır",
+      "lemma": "yararlı",
+      "meaning": {
+        "en": "is useful",
+        "ko": "유익하다"
+      },
+      "partOfSpeech": {
+        "en": "Adjective (may be used as a noun)",
+        "ko": "형용사 (명사로도 사용)"
+      },
+      "segments": [
+        {
+          "form": "yararlı",
+          "meaning": {
+            "en": "useful / beneficial",
+            "ko": "유익한"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "dır",
+          "meaning": {
+            "en": "copular/assertive ending",
+            "ko": "계사·단정 어미"
+          },
+          "function": "COP"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {},
+      "role": {
+        "en": "Adjectival predicate",
+        "ko": "형용사 술어"
+      },
+      "contextualExplanation": {
+        "en": "The singular predicate applies to the whole of Scripture.",
+        "ko": "단수 술어는 성경 전체에 적용됩니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "useful / beneficial",
+        "ko": "유익한"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-2ti-3-16-word-1-vocab",
+      "analysisId": "study-2ti-3-16-word-1",
+      "lemma": "tüm",
+      "classification": "general",
+      "definitions": {
+        "en": "all / entire",
+        "ko": "모든"
+      },
+      "usageNotes": {
+        "en": "Kutsal Yazılar’ın supplies the possessor; -ü belongs to tüm, not plural marking.",
+        "ko": "Kutsal Yazılar’ın이 소유자를 표시합니다. -ü는 tüm의 소유 어미이며 복수가 아닙니다."
+      }
+    },
+    {
+      "id": "study-2ti-3-16-word-2-vocab",
+      "analysisId": "study-2ti-3-16-word-2",
+      "lemma": "esinleme",
+      "classification": "biblical",
+      "definitions": {
+        "en": "inspiration",
+        "ko": "영감"
+      },
+      "usageNotes": {
+        "en": "Tanrı esinlemesi is a compound. The lexical noun esinleme is not a negative verb in this sentence.",
+        "ko": "Tanrı esinlemesi는 명사 결합입니다. esinleme는 여기서 영감이라는 어휘 명사이며 부정 동사가 아닙니다."
+      }
+    },
+    {
+      "id": "study-2ti-3-16-word-3-vocab",
+      "analysisId": "study-2ti-3-16-word-3",
+      "lemma": "öğretmek",
+      "classification": "general",
+      "definitions": {
+        "en": "teach",
+        "ko": "가르치다"
+      },
+      "usageNotes": {
+        "en": "It begins the list governed by için.",
+        "ko": "için과 연결되는 목록의 첫 항목입니다."
+      }
+    },
+    {
+      "id": "study-2ti-3-16-word-4-vocab",
+      "analysisId": "study-2ti-3-16-word-4",
+      "lemma": "yol",
+      "classification": "general",
+      "definitions": {
+        "en": "road / way",
+        "ko": "길"
+      },
+      "usageNotes": {
+        "en": "Yola getirmek means put right / correct; yolu would change the construction.",
+        "ko": "yola getirmek은 바로잡다입니다. yolu로 바꾸면 구문이 달라집니다."
+      }
+    },
+    {
+      "id": "study-2ti-3-16-word-5-vocab",
+      "analysisId": "study-2ti-3-16-word-5",
+      "lemma": "konu",
+      "classification": "general",
+      "definitions": {
+        "en": "subject / matter",
+        "ko": "주제·일"
+      },
+      "usageNotes": {
+        "en": "Doğruluk konusunda names the domain of training. The buffer n follows the third-person possessed form.",
+        "ko": "doğruluk konusunda는 훈련의 영역입니다. 3인칭 소유 뒤에 완충 n이 옵니다."
+      }
+    },
+    {
+      "id": "study-2ti-3-16-word-6-vocab",
+      "analysisId": "study-2ti-3-16-word-6",
+      "lemma": "yararlı",
+      "classification": "general",
+      "definitions": {
+        "en": "useful / beneficial",
+        "ko": "유익한"
+      },
+      "usageNotes": {
+        "en": "The singular predicate applies to the whole of Scripture.",
+        "ko": "단수 술어는 성경 전체에 적용됩니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-2ti-3-16-grammar-1",
+      "title": {
+        "en": "A shared purpose phrase",
+        "ko": "공유하는 목적 구"
+      },
+      "explanation": {
+        "en": "Öğretmek, azarlamak, yola getirmek and eğitmek all connect to için. Do not treat the first three as finite commands.",
+        "ko": "öğretmek·azarlamak·yola getirmek·eğitmek은 모두 için에 연결됩니다. 앞 세 항목을 유한 명령형으로 읽지 마세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "2TI.3.16",
+          "start": 0,
+          "end": 42
+        },
+        {
+          "verseId": "2TI.3.16",
+          "start": 43,
+          "end": 125
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-2ti-3-16-grammar-2",
+      "title": {
+        "en": "Noun compounds and topic markers",
+        "ko": "명사 결합과 주제 표현"
+      },
+      "explanation": {
+        "en": "Esinlemesi carries the compound ending; konusunda carries possession, buffer n, and location. Both are nouns, though their English rendering may use adjectives or prepositions.",
+        "ko": "esinlemesi는 명사 결합 어미를, konusunda는 소유·완충 n·처소격을 가집니다. 영어로 형용사나 전치사로 옮겨도 터키어에서는 명사입니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "2TI.3.16",
+          "start": 0,
+          "end": 42
+        },
+        {
+          "verseId": "2TI.3.16",
+          "start": 43,
+          "end": 125
+        }
+      ],
+      "relatedLessonIds": [
+        "foundation-church"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Describe one study resource using “… için yararlıdır” and “… konusunda.”",
+    "ko": "학습 자료 하나를 “… için yararlıdır”와 “… konusunda”로 설명하세요."
+  },
+  "modelResponse": {
+    "tr": "Bu kitap Türkçe öğrenmek için yararlıdır. Dilbilgisi konusunda bana yardım ediyor.",
+    "meaning": {
+      "en": "This book is useful for learning Turkish. It helps me with grammar.",
+      "ko": "이 책은 터키어 학습에 유익합니다. 문법에 관해 도움을 줍니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "foundation-church"
+  ],
+  "relatedReadingIds": [
+    "reading-2Ti-3-16"
+  ],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-2ti-3-16-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to 2 Timothy 3:16? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 디모데후서 3:16인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-2ti-3-16",
+          "passageId": "study-2ti-3-16",
+          "explanation": {
+            "en": "This is the passage. All Scripture is God’s inspiration and is useful for teaching, rebuking, setting people on the right path, and training in righteousness. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 모든 성경은 하나님의 영감으로 된 것이며 가르침·책망·바른길로 이끌기·의로움에 관한 훈련에 유익합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jos-1-8",
+          "passageId": "study-jos-1-8",
+          "explanation": {
+            "en": "This is a different passage. Do not let what is written in the Law Book leave your speech. Think about it day and night so that you carefully carry it all out. Then you will succeed and reach your goal. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 율법책에 기록된 것을 입에서 떠나게 하지 마세요. 그 전체를 주의 깊게 실행하려고 밤낮으로 생각하세요. 그러면 성공하고 목적에 이를 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-1-16",
+          "passageId": "study-rom-1-16",
+          "explanation": {
+            "en": "This is a different passage. I am not ashamed of the gospel, because it is God’s power for the salvation of everyone who believes—first Jews and then those who are not Jews. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 나는 복음을 부끄러워하지 않습니다. 복음은 믿는 모든 사람, 먼저 유대인과 그다음 유대인이 아닌 사람의 구원을 위한 하나님의 능력이기 때문입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-18-20",
+          "passageId": "study-mat-18-20",
+          "explanation": {
+            "en": "This is a different passage. Where two or three gather in my name, I am there among them as well. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 두세 사람이 내 이름으로 모이는 곳에 나도 그들 가운데 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-2ti-3-16"
+      ],
+      "explanations": {
+        "en": "This is the passage. All Scripture is God’s inspiration and is useful for teaching, rebuking, setting people on the right path, and training in righteousness. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 모든 성경은 하나님의 영감으로 된 것이며 가르침·책망·바른길로 이끌기·의로움에 관한 훈련에 유익합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-2ti-3-16-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-2ti-3-16",
+          "referenceId": "study-2ti-3-16",
+          "explanation": {
+            "en": "This is the passage. All Scripture is God’s inspiration and is useful for teaching, rebuking, setting people on the right path, and training in righteousness. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 모든 성경은 하나님의 영감으로 된 것이며 가르침·책망·바른길로 이끌기·의로움에 관한 훈련에 유익합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jos-1-8",
+          "referenceId": "study-jos-1-8",
+          "explanation": {
+            "en": "This is a different passage. Do not let what is written in the Law Book leave your speech. Think about it day and night so that you carefully carry it all out. Then you will succeed and reach your goal. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 율법책에 기록된 것을 입에서 떠나게 하지 마세요. 그 전체를 주의 깊게 실행하려고 밤낮으로 생각하세요. 그러면 성공하고 목적에 이를 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-1-16",
+          "referenceId": "study-rom-1-16",
+          "explanation": {
+            "en": "This is a different passage. I am not ashamed of the gospel, because it is God’s power for the salvation of everyone who believes—first Jews and then those who are not Jews. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 나는 복음을 부끄러워하지 않습니다. 복음은 믿는 모든 사람, 먼저 유대인과 그다음 유대인이 아닌 사람의 구원을 위한 하나님의 능력이기 때문입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-18-20",
+          "referenceId": "study-mat-18-20",
+          "explanation": {
+            "en": "This is a different passage. Where two or three gather in my name, I am there among them as well. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 두세 사람이 내 이름으로 모이는 곳에 나도 그들 가운데 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-2ti-3-16"
+      ],
+      "explanations": {
+        "en": "This is the passage. All Scripture is God’s inspiration and is useful for teaching, rebuking, setting people on the right path, and training in righteousness. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 모든 성경은 하나님의 영감으로 된 것이며 가르침·책망·바른길로 이끌기·의로움에 관한 훈련에 유익합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-2ti-3-16-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “esinleme” in this passage?",
+        "ko": "이 본문에서 “esinleme”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-2ti-3-16-word-2-vocab",
+          "label": {
+            "en": "inspiration",
+            "ko": "영감"
+          },
+          "explanation": {
+            "en": "inspiration. Tanrı esinlemesi is a compound. The lexical noun esinleme is not a negative verb in this sentence.",
+            "ko": "영감. Tanrı esinlemesi는 명사 결합입니다. esinleme는 여기서 영감이라는 어휘 명사이며 부정 동사가 아닙니다."
+          }
+        },
+        {
+          "id": "study-2ti-3-16-word-1-vocab",
+          "label": {
+            "en": "all / entire",
+            "ko": "모든"
+          },
+          "explanation": {
+            "en": "That definition belongs to tüm. esinleme means inspiration here. Tanrı esinlemesi is a compound. The lexical noun esinleme is not a negative verb in this sentence.",
+            "ko": "그 뜻은 tüm입니다. 여기 esinleme는 영감입니다. Tanrı esinlemesi는 명사 결합입니다. esinleme는 여기서 영감이라는 어휘 명사이며 부정 동사가 아닙니다."
+          }
+        },
+        {
+          "id": "study-2ti-3-16-word-3-vocab",
+          "label": {
+            "en": "teach",
+            "ko": "가르치다"
+          },
+          "explanation": {
+            "en": "That definition belongs to öğretmek. esinleme means inspiration here. Tanrı esinlemesi is a compound. The lexical noun esinleme is not a negative verb in this sentence.",
+            "ko": "그 뜻은 öğretmek입니다. 여기 esinleme는 영감입니다. Tanrı esinlemesi는 명사 결합입니다. esinleme는 여기서 영감이라는 어휘 명사이며 부정 동사가 아닙니다."
+          }
+        },
+        {
+          "id": "study-2ti-3-16-word-4-vocab",
+          "label": {
+            "en": "road / way",
+            "ko": "길"
+          },
+          "explanation": {
+            "en": "That definition belongs to yol. esinleme means inspiration here. Tanrı esinlemesi is a compound. The lexical noun esinleme is not a negative verb in this sentence.",
+            "ko": "그 뜻은 yol입니다. 여기 esinleme는 영감입니다. Tanrı esinlemesi는 명사 결합입니다. esinleme는 여기서 영감이라는 어휘 명사이며 부정 동사가 아닙니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-2ti-3-16-word-2-vocab"
+      ],
+      "explanations": {
+        "en": "Tanrı esinlemesi is a compound. The lexical noun esinleme is not a negative verb in this sentence.",
+        "ko": "Tanrı esinlemesi는 명사 결합입니다. esinleme는 여기서 영감이라는 어휘 명사이며 부정 동사가 아닙니다."
+      }
+    },
+    {
+      "id": "study-2ti-3-16-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “yola”, what is the function of “-a” here?",
+        "ko": "“yola”에서 “-a”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "explanation": {
+            "en": "Dative in an idiom. Yola getirmek means put right / correct; yolu would change the construction.",
+            "ko": "관용구의 여격. yola getirmek은 바로잡다입니다. yolu로 바꾸면 구문이 달라집니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Dative in an idiom. Yola getirmek means put right / correct; yolu would change the construction.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 관용구의 여격. yola getirmek은 바로잡다입니다. yolu로 바꾸면 구문이 달라집니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Dative in an idiom. Yola getirmek means put right / correct; yolu would change the construction.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 관용구의 여격. yola getirmek은 바로잡다입니다. yolu로 바꾸면 구문이 달라집니다."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Dative in an idiom. Yola getirmek means put right / correct; yolu would change the construction.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 관용구의 여격. yola getirmek은 바로잡다입니다. yolu로 바꾸면 구문이 달라집니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "DAT"
+      ],
+      "explanations": {
+        "en": "Yola getirmek means put right / correct; yolu would change the construction.",
+        "ko": "yola getirmek은 바로잡다입니다. yolu로 바꾸면 구문이 달라집니다."
+      }
+    }
+  ]
+}

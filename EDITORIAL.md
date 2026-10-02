@@ -115,6 +115,14 @@ The named edition is **Kutsal Kitap (2001, 2008)**, © The Bible Society in Turk
 
 The Bible view has inline attribution; the retained grammar view identifies adaptations and links to the edition. Do not add future quotations without updating this ledger and checking the full-site count, exact wording and permission conditions. Page links alone do not license third-party images or hymn lyrics.
 
+## Bible-study addition — 2026-10-02
+
+The original six-course curriculum is unchanged. Bible study adds 60 independently authored bilingual passage lessons selected from the official TMS reference list, not a memorization product. The preceding six-location quotation ledger is superseded by [BIBLE-STUDY-SOURCES.md](BIBLE-STUDY-SOURCES.md): 74 selected locations, **77 actual numbered verses** because TCL02 combines Hebrews 9:27–28 and Titus 3:4–6, and a conservative **78 site-wide locations** including the retained Romans 6:4 adaptation. The actual complete source units and explicit numbering are preserved; no Scripture is simplified or cut to invent a verse boundary.
+
+The full printed attribution is now used, with its Bible Society name and Turkish conjunction. The old inline renderer uses explicit verse numbers rather than guessing from an ID. Each Scripture record links to its publisher-provided TCL02 source and includes a comparison record and frozen fingerprint. Copyright conditions come from a 2014 printing; no updated rights policy or TMS product-material license is invented.
+
+Every passage distinguishes original natural teaching meaning, literal clause structure, contextual morphology, dictionary meaning and theological/context notes. Korean explanations are independently authored for Korean learners. Selected -DIK/-AcAk clauses, governed cases, possession, stem changes, passive/causative forms and optative versus inclusive exhortative endings received implementation review. Models retain compatible speaker number and are original Turkish exercises. Advice around provision, suffering, giving and discipleship avoids coercion and health/wealth guarantees. Independent external specialist review is pending, explicitly stated in the content and public information area.
+
 ### Additional authoritative terminology references
 
 Alongside the references checked above, [TDV âmentü](https://islamansiklopedisi.org.tr/amentu), [melek](https://islamansiklopedisi.org.tr/melek), [zekât](https://islamansiklopedisi.org.tr/zekat) and [oruç](https://islamansiklopedisi.org.tr/oruc) were consulted on 2026-10-01 for the source’s belief/practice terminology. These support attributed comprehension teaching, not a universal description of individuals. The inline edition passages were checked separately from its commentary; commentary is not presented as Scripture.

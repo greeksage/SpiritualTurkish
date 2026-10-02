@@ -1,0 +1,741 @@
+{
+  "id": "study-heb-11-6",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Hebrews 11:6 through its clause structure and the forms olmadan / olduğuna.",
+    "ko": "히브리서 11:6의 절 구조와 olmadan / olduğuna 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Without faith it is impossible to please God. Whoever approaches him must believe that he exists and will reward those who seek him.",
+    "ko": "믿음 없이 하나님을 기쁘게 하는 것은 불가능합니다. 그분께 나아가는 이는 그분이 계시고 찾는 이들에게 상 주심을 믿어야 합니다."
+  },
+  "clauses": [
+    {
+      "id": "study-heb-11-6-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "HEB.11.6",
+          "start": 0,
+          "end": 144
+        }
+      ],
+      "naturalMeaning": {
+        "en": "A necessity statement contains two coordinated clauses as the content of faith.",
+        "ko": "필요 진술 안에 믿음의 내용인 나란한 두 절이 있습니다."
+      },
+      "literalGloss": {
+        "en": "faith without-being / God-object please-infinitive impossible-is / approaching-one / his existing-to and seekers-object reward-will-his-to believe-must",
+        "ko": "믿음 없이 / 하나님을 기쁘게 함은 불가능하다 / 나아가는 이 / 그분이 존재하심과 찾는 이를 보상하실 것임을 믿어야 한다"
+      },
+      "explanation": {
+        "en": "Olmadan means without, not a finite negative verb. Var olduğuna and ödüllendireceğine are nominalized clauses in dative because iman etmek takes dative content. Arayanları is the object inside the second clause. Etmelidir expresses necessity with -meli and assertion -dir.",
+        "ko": "olmadan은 없이이며 독립 부정 동사가 아닙니다. var olduğuna·ödüllendireceğine는 iman etmek이 여격 내용을 취하므로 여격 명사절입니다. arayanları는 두 번째 절 내부 목적어이고 etmelidir는 -meli 필요와 -dir 단정입니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-heb-11-6-word-1",
+      "verseId": "HEB.11.6",
+      "start": 5,
+      "end": 12,
+      "surface": "olmadan",
+      "lemma": "olmak",
+      "meaning": {
+        "en": "without being / without",
+        "ko": "~없이"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ol",
+          "meaning": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "madan",
+          "meaning": {
+            "en": "without doing",
+            "ko": "~하지 않고"
+          },
+          "function": "WITHOUT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {},
+      "role": {
+        "en": "Negative converb of absence",
+        "ko": "부재의 부정 연결형"
+      },
+      "contextualExplanation": {
+        "en": "İman olmadan is a phrase of absence, not an imperative “do not have faith.”",
+        "ko": "iman olmadan은 부재의 구이며 믿음을 갖지 말라는 명령이 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      }
+    },
+    {
+      "id": "study-heb-11-6-word-2",
+      "verseId": "HEB.11.6",
+      "start": 78,
+      "end": 86,
+      "surface": "olduğuna",
+      "lemma": "olmak",
+      "meaning": {
+        "en": "that he exists (dative)",
+        "ko": "그분이 존재하심을"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ol",
+          "meaning": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "duğ",
+          "meaning": {
+            "en": "nominalizing/participial -DIK",
+            "ko": "명사화·관계형 -DIK"
+          },
+          "function": "DIK"
+        },
+        {
+          "form": "u",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "a",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-duk → -duğ before a vowel",
+          "ko": "모음 앞에서 -duk가 -duğ로 변합니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "-DIK nominal/participial",
+        "possessive": "3",
+        "case": "dative"
+      },
+      "role": {
+        "en": "Dative content clause",
+        "ko": "여격 내용절"
+      },
+      "contextualExplanation": {
+        "en": "Var belongs inside the clause. English believe that does not reveal the Turkish dative suffix.",
+        "ko": "var는 절 안에 속합니다. 영어 believe that은 터키어 여격 접사를 드러내지 않습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      }
+    },
+    {
+      "id": "study-heb-11-6-word-3",
+      "verseId": "HEB.11.6",
+      "start": 100,
+      "end": 110,
+      "surface": "arayanları",
+      "lemma": "aramak",
+      "meaning": {
+        "en": "those who seek (object)",
+        "ko": "찾는 이들을"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ara",
+          "meaning": {
+            "en": "seek / look for / call",
+            "ko": "찾다·전화하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "yan",
+          "meaning": {
+            "en": "subject participle -An",
+            "ko": "주어 관계형 -An"
+          },
+          "function": "PART"
+        },
+        {
+          "form": "lar",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "subject participle",
+        "number": "plural",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Plural nominal participle object",
+        "ko": "복수 명사적 관계형 목적어"
+      },
+      "contextualExplanation": {
+        "en": "Kendisini is the object of seeking inside the participle; the seekers are objects of rewarding.",
+        "ko": "kendisini는 관계형 내부 찾음의 목적어이고 찾는 이들은 보상의 목적어입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "seek / look for / call",
+        "ko": "찾다·전화하다"
+      }
+    },
+    {
+      "id": "study-heb-11-6-word-4",
+      "verseId": "HEB.11.6",
+      "start": 111,
+      "end": 128,
+      "surface": "ödüllendireceğine",
+      "lemma": "ödüllendirmek",
+      "meaning": {
+        "en": "that he will reward (dative)",
+        "ko": "그분이 보상하실 것임을"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ödüllendir",
+          "meaning": {
+            "en": "reward (verb)",
+            "ko": "보상하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "eceğ",
+          "meaning": {
+            "en": "future participle / nominalizer",
+            "ko": "미래 관계형·명사화"
+          },
+          "function": "FUTPART"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "e",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-ecek → -eceğ before a vowel",
+          "ko": "모음 앞에서 -ecek가 -eceğ로 변합니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "future nominal/participial",
+        "possessive": "3",
+        "case": "dative"
+      },
+      "role": {
+        "en": "Future content clause",
+        "ko": "미래 내용절"
+      },
+      "contextualExplanation": {
+        "en": "It is coordinated with var olduğuna; both depend on iman etmek.",
+        "ko": "var olduğuna와 나란하며 둘 다 iman etmek에 의존합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "reward (verb)",
+        "ko": "보상하다"
+      }
+    },
+    {
+      "id": "study-heb-11-6-word-5",
+      "verseId": "HEB.11.6",
+      "start": 134,
+      "end": 143,
+      "surface": "etmelidir",
+      "lemma": "etmek",
+      "meaning": {
+        "en": "must do / must believe",
+        "ko": "해야 한다·믿어야 한다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "et",
+          "meaning": {
+            "en": "do / make (auxiliary)",
+            "ko": "하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "meli",
+          "meaning": {
+            "en": "necessity / obligation",
+            "ko": "필요·의무"
+          },
+          "function": "NECESS"
+        },
+        {
+          "form": "dir",
+          "meaning": {
+            "en": "copular/assertive ending",
+            "ko": "계사·단정 어미"
+          },
+          "function": "COP"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "mood": "necessity"
+      },
+      "role": {
+        "en": "Necessity predicate",
+        "ko": "필요 술어"
+      },
+      "contextualExplanation": {
+        "en": "İman supplies the belief meaning; -meli is necessity, not future.",
+        "ko": "iman이 믿음 뜻을 주고 -meli는 필요이며 미래가 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "do / make (auxiliary)",
+        "ko": "하다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-heb-11-6-word-1-vocab",
+      "analysisId": "study-heb-11-6-word-1",
+      "lemma": "olmak",
+      "classification": "general",
+      "definitions": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      },
+      "usageNotes": {
+        "en": "İman olmadan is a phrase of absence, not an imperative “do not have faith.”",
+        "ko": "iman olmadan은 부재의 구이며 믿음을 갖지 말라는 명령이 아닙니다."
+      }
+    },
+    {
+      "id": "study-heb-11-6-word-2-vocab",
+      "analysisId": "study-heb-11-6-word-2",
+      "lemma": "olmak",
+      "classification": "general",
+      "definitions": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      },
+      "usageNotes": {
+        "en": "Var belongs inside the clause. English believe that does not reveal the Turkish dative suffix.",
+        "ko": "var는 절 안에 속합니다. 영어 believe that은 터키어 여격 접사를 드러내지 않습니다."
+      }
+    },
+    {
+      "id": "study-heb-11-6-word-3-vocab",
+      "analysisId": "study-heb-11-6-word-3",
+      "lemma": "aramak",
+      "classification": "general",
+      "definitions": {
+        "en": "seek / look for / call",
+        "ko": "찾다·전화하다"
+      },
+      "usageNotes": {
+        "en": "Kendisini is the object of seeking inside the participle; the seekers are objects of rewarding.",
+        "ko": "kendisini는 관계형 내부 찾음의 목적어이고 찾는 이들은 보상의 목적어입니다."
+      }
+    },
+    {
+      "id": "study-heb-11-6-word-4-vocab",
+      "analysisId": "study-heb-11-6-word-4",
+      "lemma": "ödüllendirmek",
+      "classification": "general",
+      "definitions": {
+        "en": "reward (verb)",
+        "ko": "보상하다"
+      },
+      "usageNotes": {
+        "en": "It is coordinated with var olduğuna; both depend on iman etmek.",
+        "ko": "var olduğuna와 나란하며 둘 다 iman etmek에 의존합니다."
+      }
+    },
+    {
+      "id": "study-heb-11-6-word-5-vocab",
+      "analysisId": "study-heb-11-6-word-5",
+      "lemma": "etmek",
+      "classification": "general",
+      "definitions": {
+        "en": "do / make (auxiliary)",
+        "ko": "하다"
+      },
+      "usageNotes": {
+        "en": "İman supplies the belief meaning; -meli is necessity, not future.",
+        "ko": "iman이 믿음 뜻을 주고 -meli는 필요이며 미래가 아닙니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-heb-11-6-grammar-1",
+      "title": {
+        "en": "Clause case depends on the governing verb",
+        "ko": "지배 동사가 정하는 절의 격"
+      },
+      "explanation": {
+        "en": "İman etmek selects dative. Thus -DIK and -AcAk clauses end in -a / -e here, unlike accusative clauses under bilmek.",
+        "ko": "iman etmek은 여격을 취하므로 -DIK·-AcAk절이 여기서 -a·-e로 끝납니다. bilmek 아래 대격절과 다릅니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "HEB.11.6",
+          "start": 0,
+          "end": 144
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-heb-11-6-grammar-2",
+      "title": {
+        "en": "Nested objects",
+        "ko": "중첩 목적어"
+      },
+      "explanation": {
+        "en": "Kendisini arayanları: himself is what the seekers seek, while the plural seekers are what God rewards. Preserve both levels when explaining sentence structure.",
+        "ko": "kendisini arayanları에서 그분 자신은 찾는 대상이고 복수 찾는 이들은 하나님이 보상하는 대상입니다. 두 층을 유지하세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "HEB.11.6",
+          "start": 0,
+          "end": 144
+        }
+      ],
+      "relatedLessonIds": []
+    }
+  ],
+  "independentTask": {
+    "en": "Explain a governing verb’s case and make a short non-scriptural sentence with -meli.",
+    "ko": "지배 동사의 격을 설명하고 -meli로 성경 인용이 아닌 짧은 문장을 만드세요."
+  },
+  "modelResponse": {
+    "tr": "Bir iddiayı paylaşmadan önce kaynağını kontrol etmeliyim.",
+    "meaning": {
+      "en": "I should check a claim’s source before sharing it.",
+      "ko": "주장을 나누기 전에 출처를 확인해야 합니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-heb-11-6-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Hebrews 11:6? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 히브리서 11:6인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-heb-11-6",
+          "passageId": "study-heb-11-6",
+          "explanation": {
+            "en": "This is the passage. Without faith it is impossible to please God. Whoever approaches him must believe that he exists and will reward those who seek him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 믿음 없이 하나님을 기쁘게 하는 것은 불가능합니다. 그분께 나아가는 이는 그분이 계시고 찾는 이들에게 상 주심을 믿어야 합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-4-20-21",
+          "passageId": "study-rom-4-20-21",
+          "explanation": {
+            "en": "This is a different passage. Abraham did not doubt God’s promise through unbelief; rather his faith grew strong and he gave glory to God, fully trusting that God had the power to fulfill his promise. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 아브라함은 불신으로 하나님의 약속을 의심하지 않았고 믿음이 강해져 하나님을 높였으며 그분이 약속을 이룰 능력이 있음을 온전히 신뢰했습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-gal-6-9-10",
+          "passageId": "study-gal-6-9-10",
+          "explanation": {
+            "en": "This is a different passage. Let us not grow weary in doing good; if we do not give up, we will reap in season. While we have opportunity, let us do good to everyone, especially members of the family of faith. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 선을 행하다 지치지 맙시다. 포기하지 않으면 때가 되어 거둘 것입니다. 기회가 있을 때 모든 이에게 특히 믿음의 가족에게 선을 행합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-2-11",
+          "passageId": "study-1pe-2-11",
+          "explanation": {
+            "en": "This is a different passage. Dear friends, as foreigners and guests in this world, avoid the desires of the self that wage war against the soul. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사랑하는 여러분, 이 세상에서 외국인·나그네인 여러분에게 영혼을 거슬러 싸우는 본성의 욕망을 피하라고 부탁합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-heb-11-6"
+      ],
+      "explanations": {
+        "en": "This is the passage. Without faith it is impossible to please God. Whoever approaches him must believe that he exists and will reward those who seek him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 믿음 없이 하나님을 기쁘게 하는 것은 불가능합니다. 그분께 나아가는 이는 그분이 계시고 찾는 이들에게 상 주심을 믿어야 합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-heb-11-6-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-heb-11-6",
+          "referenceId": "study-heb-11-6",
+          "explanation": {
+            "en": "This is the passage. Without faith it is impossible to please God. Whoever approaches him must believe that he exists and will reward those who seek him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 믿음 없이 하나님을 기쁘게 하는 것은 불가능합니다. 그분께 나아가는 이는 그분이 계시고 찾는 이들에게 상 주심을 믿어야 합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-4-20-21",
+          "referenceId": "study-rom-4-20-21",
+          "explanation": {
+            "en": "This is a different passage. Abraham did not doubt God’s promise through unbelief; rather his faith grew strong and he gave glory to God, fully trusting that God had the power to fulfill his promise. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 아브라함은 불신으로 하나님의 약속을 의심하지 않았고 믿음이 강해져 하나님을 높였으며 그분이 약속을 이룰 능력이 있음을 온전히 신뢰했습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-gal-6-9-10",
+          "referenceId": "study-gal-6-9-10",
+          "explanation": {
+            "en": "This is a different passage. Let us not grow weary in doing good; if we do not give up, we will reap in season. While we have opportunity, let us do good to everyone, especially members of the family of faith. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 선을 행하다 지치지 맙시다. 포기하지 않으면 때가 되어 거둘 것입니다. 기회가 있을 때 모든 이에게 특히 믿음의 가족에게 선을 행합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-2-11",
+          "referenceId": "study-1pe-2-11",
+          "explanation": {
+            "en": "This is a different passage. Dear friends, as foreigners and guests in this world, avoid the desires of the self that wage war against the soul. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사랑하는 여러분, 이 세상에서 외국인·나그네인 여러분에게 영혼을 거슬러 싸우는 본성의 욕망을 피하라고 부탁합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-heb-11-6"
+      ],
+      "explanations": {
+        "en": "This is the passage. Without faith it is impossible to please God. Whoever approaches him must believe that he exists and will reward those who seek him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 믿음 없이 하나님을 기쁘게 하는 것은 불가능합니다. 그분께 나아가는 이는 그분이 계시고 찾는 이들에게 상 주심을 믿어야 합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-heb-11-6-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “olmak” in this passage?",
+        "ko": "이 본문에서 “olmak”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-heb-11-6-word-1-vocab",
+          "label": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "explanation": {
+            "en": "be / become. İman olmadan is a phrase of absence, not an imperative “do not have faith.”",
+            "ko": "이다·되다. iman olmadan은 부재의 구이며 믿음을 갖지 말라는 명령이 아닙니다."
+          }
+        },
+        {
+          "id": "study-heb-11-6-word-3-vocab",
+          "label": {
+            "en": "seek / look for / call",
+            "ko": "찾다·전화하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to aramak. olmak means be / become here. İman olmadan is a phrase of absence, not an imperative “do not have faith.”",
+            "ko": "그 뜻은 aramak입니다. 여기 olmak는 이다·되다입니다. iman olmadan은 부재의 구이며 믿음을 갖지 말라는 명령이 아닙니다."
+          }
+        },
+        {
+          "id": "study-heb-11-6-word-4-vocab",
+          "label": {
+            "en": "reward (verb)",
+            "ko": "보상하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to ödüllendirmek. olmak means be / become here. İman olmadan is a phrase of absence, not an imperative “do not have faith.”",
+            "ko": "그 뜻은 ödüllendirmek입니다. 여기 olmak는 이다·되다입니다. iman olmadan은 부재의 구이며 믿음을 갖지 말라는 명령이 아닙니다."
+          }
+        },
+        {
+          "id": "study-heb-11-6-word-5-vocab",
+          "label": {
+            "en": "do / make (auxiliary)",
+            "ko": "하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to etmek. olmak means be / become here. İman olmadan is a phrase of absence, not an imperative “do not have faith.”",
+            "ko": "그 뜻은 etmek입니다. 여기 olmak는 이다·되다입니다. iman olmadan은 부재의 구이며 믿음을 갖지 말라는 명령이 아닙니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-heb-11-6-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "İman olmadan is a phrase of absence, not an imperative “do not have faith.”",
+        "ko": "iman olmadan은 부재의 구이며 믿음을 갖지 말라는 명령이 아닙니다."
+      }
+    },
+    {
+      "id": "study-heb-11-6-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “olduğuna”, what is the function of “-a” here?",
+        "ko": "“olduğuna”에서 “-a”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "explanation": {
+            "en": "Dative content clause. Var belongs inside the clause. English believe that does not reveal the Turkish dative suffix.",
+            "ko": "여격 내용절. var는 절 안에 속합니다. 영어 believe that은 터키어 여격 접사를 드러내지 않습니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Dative content clause. Var belongs inside the clause. English believe that does not reveal the Turkish dative suffix.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 여격 내용절. var는 절 안에 속합니다. 영어 believe that은 터키어 여격 접사를 드러내지 않습니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Dative content clause. Var belongs inside the clause. English believe that does not reveal the Turkish dative suffix.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 여격 내용절. var는 절 안에 속합니다. 영어 believe that은 터키어 여격 접사를 드러내지 않습니다."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Dative content clause. Var belongs inside the clause. English believe that does not reveal the Turkish dative suffix.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 여격 내용절. var는 절 안에 속합니다. 영어 believe that은 터키어 여격 접사를 드러내지 않습니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "DAT"
+      ],
+      "explanations": {
+        "en": "Var belongs inside the clause. English believe that does not reveal the Turkish dative suffix.",
+        "ko": "var는 절 안에 속합니다. 영어 believe that은 터키어 여격 접사를 드러내지 않습니다."
+      }
+    }
+  ]
+}

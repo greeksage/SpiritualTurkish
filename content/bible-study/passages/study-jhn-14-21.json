@@ -1,0 +1,819 @@
+{
+  "id": "study-jhn-14-21",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand John 14:21 through its clause structure and the forms buyruklarımı / getirirse.",
+    "ko": "요한복음 14:21의 절 구조와 buyruklarımı / getirirse 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "The person who knows and carries out my commands is the one who loves me. My Father will love that person; I too will love them and reveal myself to them.",
+    "ko": "내 명령을 알고 실행하는 사람이 나를 사랑하는 사람입니다. 아버지도 그 사람을 사랑하실 것입니다. 나도 그를 사랑하고 그에게 나 자신을 나타내겠습니다."
+  },
+  "clauses": [
+    {
+      "id": "study-jhn-14-21-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "JHN.14.21",
+          "start": 0,
+          "end": 65
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Whoever knows and fulfils my commands is the one who loves me.",
+        "ko": "내 명령을 알고 실행하는 사람이 바로 나를 사랑하는 사람입니다."
+      },
+      "literalGloss": {
+        "en": "who / my commands knows and fulfils-if / behold / me loving / that-one-is",
+        "ko": "누구 / 나의 명령을 알고 실천한다면 / 바로 / 나를 사랑하는 / 그 사람이다"
+      },
+      "explanation": {
+        "en": "Kim … -se forms a whoever condition, not a question here. Yerine getirmek means carry out/fulfil. Beni seven is a nominalized “the one who loves me.”",
+        "ko": "Kim … -se는 여기서 의문문이 아니라 누구든지라는 조건입니다. yerine getirmek은 실행하다·이행하다는 관용어입니다. beni seven은 나를 사랑하는 사람이라는 명사적 관계형입니다."
+      }
+    },
+    {
+      "id": "study-jhn-14-21-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "JHN.14.21",
+          "start": 66,
+          "end": 149
+        }
+      ],
+      "naturalMeaning": {
+        "en": "My Father will also love the person who loves me; I will love them and show myself to them.",
+        "ko": "아버지도 나를 사랑하는 사람을 사랑하실 것입니다. 나도 그를 사랑하고 그에게 나를 나타내겠습니다."
+      },
+      "literalGloss": {
+        "en": "me loving-one-object / my Father also / will love; I also / him / will love / myself to him will show",
+        "ko": "나를 사랑하는 사람을 / 나의 아버지도 / 사랑할 것이다; 나도 / 그를 / 사랑하고 / 나 자신을 그에게 보일 것이다"
+      },
+      "explanation": {
+        "en": "The separate da/de means also. Seveni marks the loving person as the object; kendimi is the speaker’s reflexive object, while ona is the recipient.",
+        "ko": "띄어 쓴 da/de는 ~도입니다. seveni는 사랑하는 사람을 목적어로 만들고 kendimi는 화자 자신의 재귀 목적어이며 ona는 여격 대상입니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-jhn-14-21-word-1",
+      "verseId": "JHN.14.21",
+      "start": 4,
+      "end": 16,
+      "surface": "buyruklarımı",
+      "lemma": "buyruk",
+      "meaning": {
+        "en": "my commands (object)",
+        "ko": "나의 명령들을"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "buyruk",
+          "meaning": {
+            "en": "command",
+            "ko": "명령"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "lar",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "ım",
+          "meaning": {
+            "en": "first-person singular possessive",
+            "ko": "1인칭 단수 소유"
+          },
+          "function": "P1"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "number": "plural",
+        "possessive": "1sg",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Object of bilir and yerine getirirse",
+        "ko": "bilir·yerine getirirse의 목적어"
+      },
+      "contextualExplanation": {
+        "en": "The same object serves knowing and fulfilling. Buyruk is a formal command, often religious here.",
+        "ko": "하나의 목적어가 알고 실천하는 두 동사에 연결됩니다. buyruk은 격식 있는 명령 어휘입니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "command",
+        "ko": "명령"
+      }
+    },
+    {
+      "id": "study-jhn-14-21-word-2",
+      "verseId": "JHN.14.21",
+      "start": 33,
+      "end": 42,
+      "surface": "getirirse",
+      "lemma": "getirmek",
+      "meaning": {
+        "en": "if someone carries out / brings",
+        "ko": "가져오거나 실천한다면"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "getir",
+          "meaning": {
+            "en": "bring",
+            "ko": "가져오다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ir",
+          "meaning": {
+            "en": "aorist: general / habitual",
+            "ko": "일반·습관 현재"
+          },
+          "function": "AOR"
+        },
+        {
+          "form": "se",
+          "meaning": {
+            "en": "conditional",
+            "ko": "조건"
+          },
+          "function": "COND"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "aorist",
+        "mood": "conditional"
+      },
+      "role": {
+        "en": "Aorist conditional",
+        "ko": "일반 현재 조건"
+      },
+      "contextualExplanation": {
+        "en": "In yerine getirirse, the idiom means fulfil; the -se follows aorist -ir.",
+        "ko": "yerine getirirse에서는 이행하다는 관용 의미입니다. 일반 현재 -ir 뒤에 조건 -se가 옵니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "bring",
+        "ko": "가져오다"
+      }
+    },
+    {
+      "id": "study-jhn-14-21-word-3",
+      "verseId": "JHN.14.21",
+      "start": 71,
+      "end": 77,
+      "surface": "seveni",
+      "lemma": "sevmek",
+      "meaning": {
+        "en": "the one who loves (object)",
+        "ko": "사랑하는 사람을"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "sev",
+          "meaning": {
+            "en": "love (verb)",
+            "ko": "사랑하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "en",
+          "meaning": {
+            "en": "subject participle -An",
+            "ko": "주어 관계형 -An"
+          },
+          "function": "PART"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "subject participle",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Nominalized participle as object",
+        "ko": "명사적 관계형 목적어"
+      },
+      "contextualExplanation": {
+        "en": "Beni is what the person loves; -i on seveni makes that person the object of the Father’s love.",
+        "ko": "beni는 그 사람이 사랑하는 대상이고 seveni의 -i는 그 사람을 아버지 사랑의 목적어로 만듭니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "love (verb)",
+        "ko": "사랑하다"
+      }
+    },
+    {
+      "id": "study-jhn-14-21-word-4",
+      "verseId": "JHN.14.21",
+      "start": 87,
+      "end": 97,
+      "surface": "sevecektir",
+      "lemma": "sevmek",
+      "meaning": {
+        "en": "will love",
+        "ko": "사랑할 것이다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "sev",
+          "meaning": {
+            "en": "love (verb)",
+            "ko": "사랑하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ecek",
+          "meaning": {
+            "en": "future",
+            "ko": "미래"
+          },
+          "function": "FUT"
+        },
+        {
+          "form": "tir",
+          "meaning": {
+            "en": "copular/assertive ending",
+            "ko": "계사·단정 어미"
+          },
+          "function": "COP"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "future"
+      },
+      "role": {
+        "en": "Future with formal assertion",
+        "ko": "미래·격식 단정"
+      },
+      "contextualExplanation": {
+        "en": "The subject is Babam. -tir adds assertion to the future; it does not change the subject to plural.",
+        "ko": "주어는 Babam입니다. -tir는 미래 진술을 단정하며 주어를 복수로 만들지 않습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "love (verb)",
+        "ko": "사랑하다"
+      }
+    },
+    {
+      "id": "study-jhn-14-21-word-5",
+      "verseId": "JHN.14.21",
+      "start": 123,
+      "end": 130,
+      "surface": "kendimi",
+      "lemma": "kendi",
+      "meaning": {
+        "en": "myself (object)",
+        "ko": "나 자신을"
+      },
+      "partOfSpeech": {
+        "en": "Pronoun / pronominal expression",
+        "ko": "대명사·대명 표현"
+      },
+      "segments": [
+        {
+          "form": "kendi",
+          "meaning": {
+            "en": "self",
+            "ko": "자신"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "m",
+          "meaning": {
+            "en": "first-person singular possessive",
+            "ko": "1인칭 단수 소유"
+          },
+          "function": "P1"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "1sg",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Reflexive object",
+        "ko": "재귀 목적어"
+      },
+      "contextualExplanation": {
+        "en": "The speaker will reveal himself: first-person possession plus accusative, not a second person.",
+        "ko": "화자가 자신을 나타냅니다. 1인칭 소유와 대격이며 2인칭이 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "self",
+        "ko": "자신"
+      }
+    },
+    {
+      "id": "study-jhn-14-21-word-6",
+      "verseId": "JHN.14.21",
+      "start": 135,
+      "end": 147,
+      "surface": "göstereceğim",
+      "lemma": "göstermek",
+      "meaning": {
+        "en": "I will show",
+        "ko": "나는 보일 것이다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "göster",
+          "meaning": {
+            "en": "show",
+            "ko": "보여주다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "eceğ",
+          "meaning": {
+            "en": "future",
+            "ko": "미래"
+          },
+          "function": "FUT"
+        },
+        {
+          "form": "im",
+          "meaning": {
+            "en": "first-person singular",
+            "ko": "1인칭 단수"
+          },
+          "function": "PERSON1"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-ecek → -eceğ before -im",
+          "ko": "-im 앞에서 -ecek가 -eceğ로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "tenseAspect": "future",
+        "person": "1sg"
+      },
+      "role": {
+        "en": "First-person future",
+        "ko": "1인칭 미래"
+      },
+      "contextualExplanation": {
+        "en": "The final k of -ecek becomes ğ before -im. Ona receives the revelation.",
+        "ko": "-ecek의 k가 -im의 모음 앞에서 ğ로 변합니다. ona가 나타냄을 받는 대상입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "show",
+        "ko": "보여주다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-jhn-14-21-word-1-vocab",
+      "analysisId": "study-jhn-14-21-word-1",
+      "lemma": "buyruk",
+      "classification": "biblical",
+      "definitions": {
+        "en": "command",
+        "ko": "명령"
+      },
+      "usageNotes": {
+        "en": "The same object serves knowing and fulfilling. Buyruk is a formal command, often religious here.",
+        "ko": "하나의 목적어가 알고 실천하는 두 동사에 연결됩니다. buyruk은 격식 있는 명령 어휘입니다."
+      }
+    },
+    {
+      "id": "study-jhn-14-21-word-2-vocab",
+      "analysisId": "study-jhn-14-21-word-2",
+      "lemma": "getirmek",
+      "classification": "general",
+      "definitions": {
+        "en": "bring",
+        "ko": "가져오다"
+      },
+      "usageNotes": {
+        "en": "In yerine getirirse, the idiom means fulfil; the -se follows aorist -ir.",
+        "ko": "yerine getirirse에서는 이행하다는 관용 의미입니다. 일반 현재 -ir 뒤에 조건 -se가 옵니다."
+      }
+    },
+    {
+      "id": "study-jhn-14-21-word-3-vocab",
+      "analysisId": "study-jhn-14-21-word-3",
+      "lemma": "sevmek",
+      "classification": "general",
+      "definitions": {
+        "en": "love (verb)",
+        "ko": "사랑하다"
+      },
+      "usageNotes": {
+        "en": "Beni is what the person loves; -i on seveni makes that person the object of the Father’s love.",
+        "ko": "beni는 그 사람이 사랑하는 대상이고 seveni의 -i는 그 사람을 아버지 사랑의 목적어로 만듭니다."
+      }
+    },
+    {
+      "id": "study-jhn-14-21-word-4-vocab",
+      "analysisId": "study-jhn-14-21-word-4",
+      "lemma": "sevmek",
+      "classification": "general",
+      "definitions": {
+        "en": "love (verb)",
+        "ko": "사랑하다"
+      },
+      "usageNotes": {
+        "en": "The subject is Babam. -tir adds assertion to the future; it does not change the subject to plural.",
+        "ko": "주어는 Babam입니다. -tir는 미래 진술을 단정하며 주어를 복수로 만들지 않습니다."
+      }
+    },
+    {
+      "id": "study-jhn-14-21-word-5-vocab",
+      "analysisId": "study-jhn-14-21-word-5",
+      "lemma": "kendi",
+      "classification": "general",
+      "definitions": {
+        "en": "self",
+        "ko": "자신"
+      },
+      "usageNotes": {
+        "en": "The speaker will reveal himself: first-person possession plus accusative, not a second person.",
+        "ko": "화자가 자신을 나타냅니다. 1인칭 소유와 대격이며 2인칭이 아닙니다."
+      }
+    },
+    {
+      "id": "study-jhn-14-21-word-6-vocab",
+      "analysisId": "study-jhn-14-21-word-6",
+      "lemma": "göstermek",
+      "classification": "general",
+      "definitions": {
+        "en": "show",
+        "ko": "보여주다"
+      },
+      "usageNotes": {
+        "en": "The final k of -ecek becomes ğ before -im. Ona receives the revelation.",
+        "ko": "-ecek의 k가 -im의 모음 앞에서 ğ로 변합니다. ona가 나타냄을 받는 대상입니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-jhn-14-21-grammar-1",
+      "title": {
+        "en": "Whoever and the correlated pronoun",
+        "ko": "누구든지 조건과 호응 대명사"
+      },
+      "explanation": {
+        "en": "Kim … -irse sets up an indefinite person; odur identifies that same person. The verse is not asking “who?”",
+        "ko": "Kim … -irse는 정해지지 않은 사람을 조건으로 소개하고 odur가 그 사람을 지목합니다. “누구인가?”라는 질문이 아닙니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "JHN.14.21",
+          "start": 0,
+          "end": 65
+        },
+        {
+          "verseId": "JHN.14.21",
+          "start": 66,
+          "end": 149
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-jhn-14-21-grammar-2",
+      "title": {
+        "en": "Objects inside and outside a participle",
+        "ko": "관계형 안팎의 목적어"
+      },
+      "explanation": {
+        "en": "In beni seveni, beni belongs to sev-, while -i on seveni belongs to the larger clause. Separate these two object relationships.",
+        "ko": "beni seveni에서 beni는 sev-의 목적어이고 seveni의 -i는 바깥 절의 목적어 표시입니다. 두 관계를 구별하세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "JHN.14.21",
+          "start": 0,
+          "end": 65
+        },
+        {
+          "verseId": "JHN.14.21",
+          "start": 66,
+          "end": 149
+        }
+      ],
+      "relatedLessonIds": []
+    }
+  ],
+  "independentTask": {
+    "en": "Use yerine getirmek in a sentence about a promise, then write a first-person future sentence.",
+    "ko": "약속에 관한 문장에 yerine getirmek을 쓰고 1인칭 미래 문장도 쓰세요."
+  },
+  "modelResponse": {
+    "tr": "Sözümü yerine getirmek istiyorum. Yarın size yardım edeceğim.",
+    "meaning": {
+      "en": "I want to fulfil my promise. Tomorrow I will help you.",
+      "ko": "약속을 지키고 싶습니다. 내일 도와드리겠습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-jhn-14-21-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to John 14:21? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 요한복음 14:21인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-jhn-14-21",
+          "passageId": "study-jhn-14-21",
+          "explanation": {
+            "en": "This is the passage. The person who knows and carries out my commands is the one who loves me. My Father will love that person; I too will love them and reveal myself to them. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 내 명령을 알고 실행하는 사람이 나를 사랑하는 사람입니다. 아버지도 그 사람을 사랑하실 것입니다. 나도 그를 사랑하고 그에게 나 자신을 나타내겠습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-12-1",
+          "passageId": "study-rom-12-1",
+          "explanation": {
+            "en": "This is a different passage. Therefore, brothers and sisters, I appeal to you by God’s mercy: offer your bodies as living, holy sacrifices pleasing to God. This is your spiritual worship. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 그러므로 형제자매 여러분, 하나님의 자비에 근거해 권합니다. 여러분의 몸을 살아 있고 거룩하며 하나님을 기쁘시게 하는 제물로 드리세요. 이것이 여러분의 영적 예배입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jos-1-8",
+          "passageId": "study-jos-1-8",
+          "explanation": {
+            "en": "This is a different passage. Do not let what is written in the Law Book leave your speech. Think about it day and night so that you carefully carry it all out. Then you will succeed and reach your goal. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 율법책에 기록된 것을 입에서 떠나게 하지 마세요. 그 전체를 주의 깊게 실행하려고 밤낮으로 생각하세요. 그러면 성공하고 목적에 이를 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-php-4-6-7",
+          "passageId": "study-php-4-6-7",
+          "explanation": {
+            "en": "This is a different passage. Do not be anxious about anything. In every matter, make your requests known to God through prayer and appeal, with thanksgiving. Then God’s peace, exceeding every kind of understanding, will protect your hearts and thoughts through Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 아무것도 염려하지 마세요. 모든 일에서 기도하고 간구하며 감사로 하나님께 바라는 것을 아뢰세요. 그러면 모든 이해를 넘어서는 하나님의 평강이 그리스도 예수를 통해 여러분의 마음과 생각을 지킬 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-jhn-14-21"
+      ],
+      "explanations": {
+        "en": "This is the passage. The person who knows and carries out my commands is the one who loves me. My Father will love that person; I too will love them and reveal myself to them. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 내 명령을 알고 실행하는 사람이 나를 사랑하는 사람입니다. 아버지도 그 사람을 사랑하실 것입니다. 나도 그를 사랑하고 그에게 나 자신을 나타내겠습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-jhn-14-21-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-jhn-14-21",
+          "referenceId": "study-jhn-14-21",
+          "explanation": {
+            "en": "This is the passage. The person who knows and carries out my commands is the one who loves me. My Father will love that person; I too will love them and reveal myself to them. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 내 명령을 알고 실행하는 사람이 나를 사랑하는 사람입니다. 아버지도 그 사람을 사랑하실 것입니다. 나도 그를 사랑하고 그에게 나 자신을 나타내겠습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-12-1",
+          "referenceId": "study-rom-12-1",
+          "explanation": {
+            "en": "This is a different passage. Therefore, brothers and sisters, I appeal to you by God’s mercy: offer your bodies as living, holy sacrifices pleasing to God. This is your spiritual worship. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 그러므로 형제자매 여러분, 하나님의 자비에 근거해 권합니다. 여러분의 몸을 살아 있고 거룩하며 하나님을 기쁘시게 하는 제물로 드리세요. 이것이 여러분의 영적 예배입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jos-1-8",
+          "referenceId": "study-jos-1-8",
+          "explanation": {
+            "en": "This is a different passage. Do not let what is written in the Law Book leave your speech. Think about it day and night so that you carefully carry it all out. Then you will succeed and reach your goal. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 율법책에 기록된 것을 입에서 떠나게 하지 마세요. 그 전체를 주의 깊게 실행하려고 밤낮으로 생각하세요. 그러면 성공하고 목적에 이를 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-php-4-6-7",
+          "referenceId": "study-php-4-6-7",
+          "explanation": {
+            "en": "This is a different passage. Do not be anxious about anything. In every matter, make your requests known to God through prayer and appeal, with thanksgiving. Then God’s peace, exceeding every kind of understanding, will protect your hearts and thoughts through Christ Jesus. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 아무것도 염려하지 마세요. 모든 일에서 기도하고 간구하며 감사로 하나님께 바라는 것을 아뢰세요. 그러면 모든 이해를 넘어서는 하나님의 평강이 그리스도 예수를 통해 여러분의 마음과 생각을 지킬 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-jhn-14-21"
+      ],
+      "explanations": {
+        "en": "This is the passage. The person who knows and carries out my commands is the one who loves me. My Father will love that person; I too will love them and reveal myself to them. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 내 명령을 알고 실행하는 사람이 나를 사랑하는 사람입니다. 아버지도 그 사람을 사랑하실 것입니다. 나도 그를 사랑하고 그에게 나 자신을 나타내겠습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-jhn-14-21-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “buyruk” in this passage?",
+        "ko": "이 본문에서 “buyruk”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-jhn-14-21-word-1-vocab",
+          "label": {
+            "en": "command",
+            "ko": "명령"
+          },
+          "explanation": {
+            "en": "command. The same object serves knowing and fulfilling. Buyruk is a formal command, often religious here.",
+            "ko": "명령. 하나의 목적어가 알고 실천하는 두 동사에 연결됩니다. buyruk은 격식 있는 명령 어휘입니다."
+          }
+        },
+        {
+          "id": "study-jhn-14-21-word-2-vocab",
+          "label": {
+            "en": "bring",
+            "ko": "가져오다"
+          },
+          "explanation": {
+            "en": "That definition belongs to getirmek. buyruk means command here. The same object serves knowing and fulfilling. Buyruk is a formal command, often religious here.",
+            "ko": "그 뜻은 getirmek입니다. 여기 buyruk는 명령입니다. 하나의 목적어가 알고 실천하는 두 동사에 연결됩니다. buyruk은 격식 있는 명령 어휘입니다."
+          }
+        },
+        {
+          "id": "study-jhn-14-21-word-3-vocab",
+          "label": {
+            "en": "love (verb)",
+            "ko": "사랑하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to sevmek. buyruk means command here. The same object serves knowing and fulfilling. Buyruk is a formal command, often religious here.",
+            "ko": "그 뜻은 sevmek입니다. 여기 buyruk는 명령입니다. 하나의 목적어가 알고 실천하는 두 동사에 연결됩니다. buyruk은 격식 있는 명령 어휘입니다."
+          }
+        },
+        {
+          "id": "study-jhn-14-21-word-4-vocab",
+          "label": {
+            "en": "love (verb)",
+            "ko": "사랑하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to sevmek. buyruk means command here. The same object serves knowing and fulfilling. Buyruk is a formal command, often religious here.",
+            "ko": "그 뜻은 sevmek입니다. 여기 buyruk는 명령입니다. 하나의 목적어가 알고 실천하는 두 동사에 연결됩니다. buyruk은 격식 있는 명령 어휘입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-jhn-14-21-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "The same object serves knowing and fulfilling. Buyruk is a formal command, often religious here.",
+        "ko": "하나의 목적어가 알고 실천하는 두 동사에 연결됩니다. buyruk은 격식 있는 명령 어휘입니다."
+      }
+    },
+    {
+      "id": "study-jhn-14-21-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “buyruklarımı”, what is the function of “-ı” here?",
+        "ko": "“buyruklarımı”에서 “-ı”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "Object of bilir and yerine getirirse. The same object serves knowing and fulfilling. Buyruk is a formal command, often religious here.",
+            "ko": "bilir·yerine getirirse의 목적어. 하나의 목적어가 알고 실천하는 두 동사에 연결됩니다. buyruk은 격식 있는 명령 어휘입니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Object of bilir and yerine getirirse. The same object serves knowing and fulfilling. Buyruk is a formal command, often religious here.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. bilir·yerine getirirse의 목적어. 하나의 목적어가 알고 실천하는 두 동사에 연결됩니다. buyruk은 격식 있는 명령 어휘입니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Object of bilir and yerine getirirse. The same object serves knowing and fulfilling. Buyruk is a formal command, often religious here.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. bilir·yerine getirirse의 목적어. 하나의 목적어가 알고 실천하는 두 동사에 연결됩니다. buyruk은 격식 있는 명령 어휘입니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Object of bilir and yerine getirirse. The same object serves knowing and fulfilling. Buyruk is a formal command, often religious here.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. bilir·yerine getirirse의 목적어. 하나의 목적어가 알고 실천하는 두 동사에 연결됩니다. buyruk은 격식 있는 명령 어휘입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ACC"
+      ],
+      "explanations": {
+        "en": "The same object serves knowing and fulfilling. Buyruk is a formal command, often religious here.",
+        "ko": "하나의 목적어가 알고 실천하는 두 동사에 연결됩니다. buyruk은 격식 있는 명령 어휘입니다."
+      }
+    }
+  ]
+}

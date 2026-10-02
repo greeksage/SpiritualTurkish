@@ -1,0 +1,662 @@
+{
+  "id": "study-mat-6-33",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Matthew 6:33 through its clause structure and the forms egemenliğinin / doğruluğunun.",
+    "ko": "마태복음 6:33의 절 구조와 egemenliğinin / doğruluğunun 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Seek his kingdom and righteousness first; then all these things will also be given to you.",
+    "ko": "먼저 그분의 나라와 의를 구하세요. 그러면 이 모든 것도 여러분에게 주어질 것입니다."
+  },
+  "clauses": [
+    {
+      "id": "study-mat-6-33-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "MAT.6.33",
+          "start": 0,
+          "end": 108
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Give priority to his reign and righteousness; the provision follows.",
+        "ko": "그분의 통치와 의를 우선하세요. 공급은 그 뒤에 따릅니다."
+      },
+      "literalGloss": {
+        "en": "his kingdom-of and righteousness-of / after go / then to-you these all also given-will-be",
+        "ko": "그분의 나라의·의의 / 뒤로 가라 / 그러면 여러분에게 이것들 모두도 주어질 것이다"
+      },
+      "explanation": {
+        "en": "Ardından gitmek literally follows after something; here it means pursue or seek. Two genitive nouns depend on ardından. Verilecektir is a passive future with assertive -tir; the recipient size is dative. Bunlar points to necessities in the surrounding discussion, not any desired luxury.",
+        "ko": "ardından gitmek은 문자상 뒤를 따라가다이고 여기서는 추구하다입니다. 두 속격 명사가 ardından에 연결됩니다. verilecektir는 피동 미래에 단정 -tir가 붙고 수혜자 size는 여격입니다. bunlar는 앞뒤 문맥의 필요를 가리키며 원하는 모든 사치품이라는 뜻은 아닙니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-mat-6-33-word-1",
+      "verseId": "MAT.6.33",
+      "start": 20,
+      "end": 33,
+      "surface": "egemenliğinin",
+      "lemma": "egemenlik",
+      "meaning": {
+        "en": "of his kingdom / reign",
+        "ko": "그분의 나라·통치의"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "egemenliğ",
+          "meaning": {
+            "en": "sovereignty / reign / kingdom",
+            "ko": "주권·통치·나라"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "in",
+          "meaning": {
+            "en": "genitive: possessor / dependent subject",
+            "ko": "속격: 소유자·내포절 주어"
+          },
+          "function": "GEN"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "egemenlik → egemenliğ- before a vowel",
+          "ko": "모음 앞에서 egemenlik가 egemenliğ-로 변합니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "genitive"
+      },
+      "role": {
+        "en": "Possessed genitive noun",
+        "ko": "소유·속격 명사"
+      },
+      "contextualExplanation": {
+        "en": "O’nun supplies the possessor; the final genitive connects this noun to ardından.",
+        "ko": "O’nun이 소유자이고 마지막 속격이 ardından에 명사를 연결합니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "sovereignty / reign / kingdom",
+        "ko": "주권·통치·나라"
+      }
+    },
+    {
+      "id": "study-mat-6-33-word-2",
+      "verseId": "MAT.6.33",
+      "start": 37,
+      "end": 49,
+      "surface": "doğruluğunun",
+      "lemma": "doğruluk",
+      "meaning": {
+        "en": "of his righteousness",
+        "ko": "그분의 의의"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "doğruluğ",
+          "meaning": {
+            "en": "rightness / righteousness / accuracy",
+            "ko": "의로움·정확함"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "u",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "un",
+          "meaning": {
+            "en": "genitive: possessor / dependent subject",
+            "ko": "속격: 소유자·내포절 주어"
+          },
+          "function": "GEN"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "doğruluk → doğruluğ-",
+          "ko": "doğruluk가 doğruluğ-로 변합니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "genitive"
+      },
+      "role": {
+        "en": "Parallel possessed genitive",
+        "ko": "나란한 소유 속격"
+      },
+      "contextualExplanation": {
+        "en": "The suffix order is possession, linking n, genitive.",
+        "ko": "접사 순서는 소유·연결 n·속격입니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "rightness / righteousness / accuracy",
+        "ko": "의로움·정확함"
+      }
+    },
+    {
+      "id": "study-mat-6-33-word-3",
+      "verseId": "MAT.6.33",
+      "start": 59,
+      "end": 64,
+      "surface": "gidin",
+      "lemma": "gitmek",
+      "meaning": {
+        "en": "go / pursue (plural)",
+        "ko": "가세요·추구하세요"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "gid",
+          "meaning": {
+            "en": "go",
+            "ko": "가다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "in",
+          "meaning": {
+            "en": "plural / polite imperative",
+            "ko": "복수·공손한 명령"
+          },
+          "function": "IMP2P"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "git → gid- before a vowel",
+          "ko": "모음 앞에서 git가 gid-로 변합니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "mood": "plural/polite imperative"
+      },
+      "role": {
+        "en": "Plural command",
+        "ko": "복수 명령"
+      },
+      "contextualExplanation": {
+        "en": "The stem git becomes gid before the vowel; the listeners are plural.",
+        "ko": "모음 앞에서 git가 gid로 변하고 청자는 복수입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "go",
+        "ko": "가다"
+      }
+    },
+    {
+      "id": "study-mat-6-33-word-4",
+      "verseId": "MAT.6.33",
+      "start": 95,
+      "end": 107,
+      "surface": "verilecektir",
+      "lemma": "vermek",
+      "meaning": {
+        "en": "will be given",
+        "ko": "주어질 것이다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ver",
+          "meaning": {
+            "en": "give",
+            "ko": "주다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "il",
+          "meaning": {
+            "en": "passive",
+            "ko": "피동"
+          },
+          "function": "PASS"
+        },
+        {
+          "form": "ecek",
+          "meaning": {
+            "en": "future",
+            "ko": "미래"
+          },
+          "function": "FUT"
+        },
+        {
+          "form": "tir",
+          "meaning": {
+            "en": "copular/assertive ending",
+            "ko": "계사·단정 어미"
+          },
+          "function": "COP"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "voice": "passive",
+        "tenseAspect": "future"
+      },
+      "role": {
+        "en": "Assertive passive future",
+        "ko": "단정 피동 미래"
+      },
+      "contextualExplanation": {
+        "en": "The giver is not named in the verb. The context supports divine provision; that is contextual interpretation, not an extra lexical suffix.",
+        "ko": "동사는 주는 이를 명시하지 않습니다. 문맥은 하나님의 공급을 뒷받침하지만 그것은 접사의 어휘 의미가 아니라 문맥 해석입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "give",
+        "ko": "주다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-mat-6-33-word-1-vocab",
+      "analysisId": "study-mat-6-33-word-1",
+      "lemma": "egemenlik",
+      "classification": "biblical",
+      "definitions": {
+        "en": "sovereignty / reign / kingdom",
+        "ko": "주권·통치·나라"
+      },
+      "usageNotes": {
+        "en": "O’nun supplies the possessor; the final genitive connects this noun to ardından.",
+        "ko": "O’nun이 소유자이고 마지막 속격이 ardından에 명사를 연결합니다."
+      }
+    },
+    {
+      "id": "study-mat-6-33-word-2-vocab",
+      "analysisId": "study-mat-6-33-word-2",
+      "lemma": "doğruluk",
+      "classification": "biblical",
+      "definitions": {
+        "en": "rightness / righteousness / accuracy",
+        "ko": "의로움·정확함"
+      },
+      "usageNotes": {
+        "en": "The suffix order is possession, linking n, genitive.",
+        "ko": "접사 순서는 소유·연결 n·속격입니다."
+      }
+    },
+    {
+      "id": "study-mat-6-33-word-3-vocab",
+      "analysisId": "study-mat-6-33-word-3",
+      "lemma": "gitmek",
+      "classification": "general",
+      "definitions": {
+        "en": "go",
+        "ko": "가다"
+      },
+      "usageNotes": {
+        "en": "The stem git becomes gid before the vowel; the listeners are plural.",
+        "ko": "모음 앞에서 git가 gid로 변하고 청자는 복수입니다."
+      }
+    },
+    {
+      "id": "study-mat-6-33-word-4-vocab",
+      "analysisId": "study-mat-6-33-word-4",
+      "lemma": "vermek",
+      "classification": "general",
+      "definitions": {
+        "en": "give",
+        "ko": "주다"
+      },
+      "usageNotes": {
+        "en": "The giver is not named in the verb. The context supports divine provision; that is contextual interpretation, not an extra lexical suffix.",
+        "ko": "동사는 주는 이를 명시하지 않습니다. 문맥은 하나님의 공급을 뒷받침하지만 그것은 접사의 어휘 의미가 아니라 문맥 해석입니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-mat-6-33-grammar-1",
+      "title": {
+        "en": "Pursuing with ardından gitmek",
+        "ko": "ardından gitmek으로 추구하기"
+      },
+      "explanation": {
+        "en": "The expression takes a genitive dependent: O’nun egemenliğinin ardından. Learn the whole expression, not a word-for-word English replacement.",
+        "ko": "표현은 속격 수식을 받습니다. O’nun egemenliğinin ardından처럼 전체 틀을 익히고 영어 단어별 치환을 피하세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "MAT.6.33",
+          "start": 0,
+          "end": 108
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-mat-6-33-grammar-2",
+      "title": {
+        "en": "Passive future and scope",
+        "ko": "피동 미래·범위"
+      },
+      "explanation": {
+        "en": "Ver-il-ecek-tir contrasts with active verecek. The preceding context identifies what bütün bunlar includes.",
+        "ko": "ver-il-ecek-tir는 능동 verecek과 다릅니다. 앞 문맥이 bütün bunlar의 범위를 정합니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "MAT.6.33",
+          "start": 0,
+          "end": 108
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-07"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Use önce / öncelikle to state a realistic priority and ardından for following something.",
+    "ko": "önce·öncelikle로 현실적인 우선순위를 말하고 ardından으로 뒤따름을 표현하세요."
+  },
+  "modelResponse": {
+    "tr": "Öncelikle metni okuyalım. Ardından soruları konuşalım.",
+    "meaning": {
+      "en": "First let us read the text. Afterward let us discuss the questions.",
+      "ko": "먼저 본문을 읽고 그다음 질문을 이야기합시다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "ministry-07"
+  ],
+  "relatedReadingIds": [
+    "reading-Mat-6-33"
+  ],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-mat-6-33-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Matthew 6:33? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 마태복음 6:33인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-mat-6-33",
+          "passageId": "study-mat-6-33",
+          "explanation": {
+            "en": "This is the passage. Seek his kingdom and righteousness first; then all these things will also be given to you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 먼저 그분의 나라와 의를 구하세요. 그러면 이 모든 것도 여러분에게 주어질 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-luk-9-23",
+          "passageId": "study-luk-9-23",
+          "explanation": {
+            "en": "This is a different passage. Jesus said that whoever wants to follow him should deny themselves, take up their cross every day, and follow him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 예수님은 자신을 따르려는 사람은 자기를 부인하고 매일 자기 십자가를 지며 자신을 따르라고 말씀하셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-2co-4-5",
+          "passageId": "study-2co-4-5",
+          "explanation": {
+            "en": "This is a different passage. We proclaim not ourselves but Jesus Christ as Lord, and ourselves as your servants for Jesus’s sake. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 우리는 자신이 아니라 예수 그리스도를 주로 선포하며 예수님을 위해 우리를 여러분의 종으로 말합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mrk-10-45",
+          "passageId": "study-mrk-10-45",
+          "explanation": {
+            "en": "This is a different passage. The Son of Man came to serve rather than to be served, and to give his life as a ransom for many. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 인자는 섬김을 받기보다 섬기고 많은 사람을 위한 대속물로 자기 생명을 주려고 오셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-mat-6-33"
+      ],
+      "explanations": {
+        "en": "This is the passage. Seek his kingdom and righteousness first; then all these things will also be given to you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 먼저 그분의 나라와 의를 구하세요. 그러면 이 모든 것도 여러분에게 주어질 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-mat-6-33-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-mat-6-33",
+          "referenceId": "study-mat-6-33",
+          "explanation": {
+            "en": "This is the passage. Seek his kingdom and righteousness first; then all these things will also be given to you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 먼저 그분의 나라와 의를 구하세요. 그러면 이 모든 것도 여러분에게 주어질 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-luk-9-23",
+          "referenceId": "study-luk-9-23",
+          "explanation": {
+            "en": "This is a different passage. Jesus said that whoever wants to follow him should deny themselves, take up their cross every day, and follow him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 예수님은 자신을 따르려는 사람은 자기를 부인하고 매일 자기 십자가를 지며 자신을 따르라고 말씀하셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-2co-4-5",
+          "referenceId": "study-2co-4-5",
+          "explanation": {
+            "en": "This is a different passage. We proclaim not ourselves but Jesus Christ as Lord, and ourselves as your servants for Jesus’s sake. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 우리는 자신이 아니라 예수 그리스도를 주로 선포하며 예수님을 위해 우리를 여러분의 종으로 말합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mrk-10-45",
+          "referenceId": "study-mrk-10-45",
+          "explanation": {
+            "en": "This is a different passage. The Son of Man came to serve rather than to be served, and to give his life as a ransom for many. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 인자는 섬김을 받기보다 섬기고 많은 사람을 위한 대속물로 자기 생명을 주려고 오셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-mat-6-33"
+      ],
+      "explanations": {
+        "en": "This is the passage. Seek his kingdom and righteousness first; then all these things will also be given to you. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 먼저 그분의 나라와 의를 구하세요. 그러면 이 모든 것도 여러분에게 주어질 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-mat-6-33-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “egemenlik” in this passage?",
+        "ko": "이 본문에서 “egemenlik”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-mat-6-33-word-1-vocab",
+          "label": {
+            "en": "sovereignty / reign / kingdom",
+            "ko": "주권·통치·나라"
+          },
+          "explanation": {
+            "en": "sovereignty / reign / kingdom. O’nun supplies the possessor; the final genitive connects this noun to ardından.",
+            "ko": "주권·통치·나라. O’nun이 소유자이고 마지막 속격이 ardından에 명사를 연결합니다."
+          }
+        },
+        {
+          "id": "study-mat-6-33-word-2-vocab",
+          "label": {
+            "en": "rightness / righteousness / accuracy",
+            "ko": "의로움·정확함"
+          },
+          "explanation": {
+            "en": "That definition belongs to doğruluk. egemenlik means sovereignty / reign / kingdom here. O’nun supplies the possessor; the final genitive connects this noun to ardından.",
+            "ko": "그 뜻은 doğruluk입니다. 여기 egemenlik는 주권·통치·나라입니다. O’nun이 소유자이고 마지막 속격이 ardından에 명사를 연결합니다."
+          }
+        },
+        {
+          "id": "study-mat-6-33-word-3-vocab",
+          "label": {
+            "en": "go",
+            "ko": "가다"
+          },
+          "explanation": {
+            "en": "That definition belongs to gitmek. egemenlik means sovereignty / reign / kingdom here. O’nun supplies the possessor; the final genitive connects this noun to ardından.",
+            "ko": "그 뜻은 gitmek입니다. 여기 egemenlik는 주권·통치·나라입니다. O’nun이 소유자이고 마지막 속격이 ardından에 명사를 연결합니다."
+          }
+        },
+        {
+          "id": "study-mat-6-33-word-4-vocab",
+          "label": {
+            "en": "give",
+            "ko": "주다"
+          },
+          "explanation": {
+            "en": "That definition belongs to vermek. egemenlik means sovereignty / reign / kingdom here. O’nun supplies the possessor; the final genitive connects this noun to ardından.",
+            "ko": "그 뜻은 vermek입니다. 여기 egemenlik는 주권·통치·나라입니다. O’nun이 소유자이고 마지막 속격이 ardından에 명사를 연결합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-mat-6-33-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "O’nun supplies the possessor; the final genitive connects this noun to ardından.",
+        "ko": "O’nun이 소유자이고 마지막 속격이 ardından에 명사를 연결합니다."
+      }
+    },
+    {
+      "id": "study-mat-6-33-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “egemenliğinin”, what is the function of “-in” here?",
+        "ko": "“egemenliğinin”에서 “-in”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "GEN",
+          "label": {
+            "en": "genitive: possessor / dependent subject",
+            "ko": "속격: 소유자·내포절 주어"
+          },
+          "explanation": {
+            "en": "Possessed genitive noun. O’nun supplies the possessor; the final genitive connects this noun to ardından.",
+            "ko": "소유·속격 명사. O’nun이 소유자이고 마지막 속격이 ardından에 명사를 연결합니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed genitive noun. O’nun supplies the possessor; the final genitive connects this noun to ardından.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유·속격 명사. O’nun이 소유자이고 마지막 속격이 ardından에 명사를 연결합니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed genitive noun. O’nun supplies the possessor; the final genitive connects this noun to ardından.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유·속격 명사. O’nun이 소유자이고 마지막 속격이 ardından에 명사를 연결합니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Possessed genitive noun. O’nun supplies the possessor; the final genitive connects this noun to ardından.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 소유·속격 명사. O’nun이 소유자이고 마지막 속격이 ardından에 명사를 연결합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "GEN"
+      ],
+      "explanations": {
+        "en": "O’nun supplies the possessor; the final genitive connects this noun to ardından.",
+        "ko": "O’nun이 소유자이고 마지막 속격이 ardından에 명사를 연결합니다."
+      }
+    }
+  ]
+}

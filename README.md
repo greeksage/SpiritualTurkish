@@ -4,7 +4,7 @@ Turkish reading, conversation and practice for foreign Christian missionaries wh
 
 ## Implemented curriculum
 
-This release contains **77 lessons**, **499 vocabulary entries**, **82 curated Bible reading assignments**, and the **24 retained practice workshops**.
+This release contains **77 course lessons**, **499 course vocabulary entries**, **82 curated source-reading assignments**, **24 retained practice workshops**, and **60 additional bilingual Bible-study passage lessons** with 316 selected word analyses and 240 explained exercises.
 
 | Course | Units | Source coverage |
 | --- | ---: | --- |
@@ -24,9 +24,12 @@ The ten practical lessons cover clarification, hospitality, permission to pray, 
 - **Study:** open Finding and reading a Bible reference immediately, or resume the last curriculum lesson and section. The course outline is the main navigation.
 - **Courses:** choose among six courses grouped into manageable chapters; resume is saved separately for each course.
 
-The secondary Resources menu contains:
+Four persistent activity links—**Lessons, Bible study, Words, Practice**—make switching available directly on desktop and phones. The selected activity is highlighted. Its sidebar or contents drawer shows relevant course chapters, Bible topics, vocabulary tools, or workshops; it no longer displays an unrelated course outline. Settings and backup remain directly accessible beside the language selector.
+
+The supporting activities are:
+
 - **Words:** search in Turkish, English or Korean; inspect meaning, dictionary headword, authored form/suffix analysis, literal gloss, natural meaning and source context; save words for recall.
-- **Bible:** curated passages, context notes, selectable vocabulary, study tasks and linked lessons. Matthew 6:33 and John 13:34–35 are verified inline quotations from **Kutsal Kitap (2001, 2008)**. Other assignments open the named edition externally. English/Korean renderings are original teaching translations. The lost sheep lesson is a simplified paraphrase, not a published quotation.
+- **Bible study / 성경 학습:** 60 curated passages grouped into five categories and 30 paired topics. Complete **Kutsal Kitap — Yeni Çeviri (TCL02)** text, original English/Korean teaching meanings, clause/literal explanations, contextual word/suffix inspection, vocabulary, grammar and curriculum links. Reference ↔ passage matching, vocabulary and grammar choices provide explained feedback; independent writing/speaking uses models and self-assessment. This section teaches Turkish comprehension, with no new SRS, memory grading or flashcards. The existing 82 assignments remain under **Seminar source readings**, including all original URLs and notes. The lost sheep lesson remains a labelled simplified paraphrase.
 - **Practice:** pronunciation/listening, seven conversation simulators, culture, Bible grammar, prayer assembly and spelling/proofreading. Prayer assembly keeps six stages and the original Father/I library, with additional compatible Father/we, Jesus/I and Jesus/we models.
 
 Lessons are continuous teaching pages with four visible sections: **Read and listen → Understand → Practise → Use it yourself**. Sticky section links scroll without replacing forms or losing answers. Completion checking is separate from next/previous lesson navigation. Each has objectives, prerequisites, Turkish text with translations, bilingual meaning/grammar/register teaching, vocabulary, reusable patterns, explained guided practice and an independent task with a model and five-category rubric. Answer options rotate deterministically while retaining stable choice identities. Open writing/speaking uses model comparison and self-assessment, not exact-string grading.
@@ -39,7 +42,9 @@ Opening records a **visit**. Answering/rehearsing records **practice**. Completi
 
 Saved words preserve the meaning and sentence context encountered. Recall is self-reported: **Remembered** intervals progress through 1, 3, 7, 14 and 30 days; **Again** returns the word tomorrow. Unknown imported notebook entries stay personal notes without invented morphology.
 
-Settings provide JSON **export/import** for device backups. Import validates before mutation and merges, preserving existing records on collision. Reload applies imported state. No data is uploaded.
+Each activity keeps its own place: the last curriculum lesson/section, Bible passage/section, Words view, and Practice workshop. Switching does not replace curriculum resume or award completion. Tools opened after a Bible passage offer Return to Bible study; those opened after a curriculum lesson offer Return to lesson.
+
+Settings provide JSON **export/import** for device backups, including activity destinations. Older backups remain importable. Import validates before mutation and merges, preserving existing records on collision. Reload applies imported state. No data is uploaded.
 
 `LearningStore` separates browser persistence from curriculum data and exposes `get`, `set`, `subscribe`, `export` and `import` for a future private account adapter. Authentication, provider selection, sync and backend deployment are outside this release.
 
@@ -53,6 +58,18 @@ Settings provide JSON **export/import** for device backups. Import validates bef
 | `spiritual_turkish_device_v3` | Saved-word contexts/schedules, reading notes, prayer draft, audio preferences, separate curriculum/workshop history and per-course resume |
 
 Unavailable local storage falls back to session memory and displays its limitation. Clearing browser storage still removes device data; use the backup controls before moving devices.
+
+Bible study uses a separate optional `bibleStudy` namespace in `spiritual_turkish_device_v3`: its own last passage/section, visited/practised states, stable option answers, notes and a learner-controlled **Studied** mark. Visiting or navigating never marks a passage studied. Opening this section does not replace curriculum or per-course resume. Existing backups remain importable; local collision records win. The Bible inspector does not add words to the existing Words recall queue.
+
+## Bible-study sources and static data
+
+The initial references follow the [Navigators' official reference list](https://www.navigators.org/resource/topical-memory-system/), with independently authored language teaching. The public feature is Bible study, not an official Navigators product. It adds no seventh course and changes neither the landing lesson nor the site's visual system.
+
+The 60 selections cover **74 numbered verses**, but complete TCL02 combined units at Hebrews 9:27–28 and Titus 3:4–6 make the actual quotation **77**. Including retained Romans 6:4 adaptation conservatively gives **78 unique site-wide verse locations**. The available published notice permits attributed quotation up to 100 verses without a whole book; it is from a 2014 printing, not a new 2026 policy. Full attribution and source limitations appear in **Sources and permissions** and [the quotation ledger](BIBLE-STUDY-SOURCES.md). English/Korean meanings are teaching translations, not unnamed published Bible editions. External specialist Turkish/Korean review remains pending.
+
+`content/bible-study/` separates ordered metadata, immutable Scripture/provenance and one teaching JSON file per passage. Shared Scripture/options are referenced by ID rather than copied. The manifest and registry load on entering Bible study; detailed teaching loads on demand with retry and stale-request protection. Total teaching data is approximately 1.82 MB, with approximately 132 KB of collection metadata/Scripture (uncompressed UTF-8). See [the data contract](content/bible-study/README.md). No backend, runtime AI, automatic parser or offline/service-worker guarantee is added.
+
+Routes: `#/bible`, `#/bible/topic/<id>`, `#/bible/study/<id>/<read|understand|practise|use>`, `#/bible/about`, and `#/bible/readings`. Existing `#/bible/<reading-id>` links remain valid. Section anchors preserve forms and focus; related readings and the persistent Bible study link provide a return to the passage.
 
 ## Audio and typography
 

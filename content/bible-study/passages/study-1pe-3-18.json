@@ -1,0 +1,832 @@
+{
+  "id": "study-1pe-3-18",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand 1 Peter 3:18 through its clause structure and the forms ulaştırmak / amacıyla.",
+    "ko": "베드로전서 3:18의 절 구조와 ulaştırmak / amacıyla 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Christ, the righteous one, died once and finally as a sin offering for the unrighteous to bring us to God. He was put to death bodily but made alive in spirit.",
+    "ko": "의로운 그리스도께서 우리를 하나님께 이끄시려고 의롭지 않은 사람들을 위해 죄의 제물로 처음이자 마지막으로 죽으셨습니다. 육체로 죽임을 당하셨으나 영으로 살리심을 받으셨습니다."
+  },
+  "clauses": [
+    {
+      "id": "study-1pe-3-18-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "1PE.3.18",
+          "start": 0,
+          "end": 134
+        }
+      ],
+      "naturalMeaning": {
+        "en": "The righteous Christ died once for the unrighteous to bring us to God.",
+        "ko": "의로운 그리스도께서 우리를 하나님께 이끄시려고 의롭지 않은 사람들을 위해 한 번 죽으셨습니다."
+      },
+      "literalGloss": {
+        "en": "indeed Christ also / us to God to-bring with-purpose / righteous person as / not-righteous people for / sin offering as / first-last time / died",
+        "ko": "실로 그리스도도 / 우리를 하나님께 데려갈 목적으로 / 의로운 사람으로 / 의롭지 않은 사람들을 위해 / 죄 제물로 / 처음이자 마지막으로 / 죽었다"
+      },
+      "explanation": {
+        "en": "Amacıyla expresses purpose; ulaştırmak is causative “bring to / enable to reach.” Two olarak phrases describe Christ’s role. Doğru olmayanlar is the group for whom the offering occurs.",
+        "ko": "amacıyla는 목적입니다. ulaştırmak은 도달하게 하다·데려가다는 사동입니다. 두 olarak 구가 그리스도의 역할을 설명하고 doğru olmayanlar는 제물을 받는 혜택의 대상입니다."
+      }
+    },
+    {
+      "id": "study-1pe-3-18-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "1PE.3.18",
+          "start": 135,
+          "end": 175
+        }
+      ],
+      "naturalMeaning": {
+        "en": "He was killed bodily but made alive in spirit.",
+        "ko": "육체로 죽임을 당했으나 영으로 살리심을 받았습니다."
+      },
+      "literalGloss": {
+        "en": "body-wise / was caused-to-die; but spirit-wise / was made alive",
+        "ko": "육체의 관점에서 / 죽임받았다; 그러나 영의 관점에서 / 살리심받았다"
+      },
+      "explanation": {
+        "en": "Bedence and ruhça use -CA for respect/aspect. The two passive verbs are contrasted by ama. Theological debates about this wording must be distinguished from what the suffixes establish.",
+        "ko": "bedence·ruhça의 -CA는 관점·측면을 표시합니다. ama가 두 피동 동사를 대조합니다. 본문에 대한 신학 논의와 접사가 확정하는 문법을 구별하세요."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-1pe-3-18-word-1",
+      "verseId": "1PE.3.18",
+      "start": 34,
+      "end": 44,
+      "surface": "ulaştırmak",
+      "lemma": "ulaşmak",
+      "meaning": {
+        "en": "to bring / enable to reach",
+        "ko": "도달하게 하기"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ulaş",
+          "meaning": {
+            "en": "reach",
+            "ko": "도달하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "tır",
+          "meaning": {
+            "en": "causative",
+            "ko": "사동"
+          },
+          "function": "CAUS"
+        },
+        {
+          "form": "mak",
+          "meaning": {
+            "en": "infinitive",
+            "ko": "부정사"
+          },
+          "function": "INF"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "voice": "causative",
+        "nonfinite": "infinitive"
+      },
+      "role": {
+        "en": "Causative purpose infinitive",
+        "ko": "사동 목적 부정사"
+      },
+      "contextualExplanation": {
+        "en": "Bizleri is the object brought; Tanrı’ya is the goal.",
+        "ko": "bizleri는 데려가는 대상이고 Tanrı’ya는 목표입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "reach",
+        "ko": "도달하다"
+      }
+    },
+    {
+      "id": "study-1pe-3-18-word-2",
+      "verseId": "1PE.3.18",
+      "start": 45,
+      "end": 53,
+      "surface": "amacıyla",
+      "lemma": "amaç",
+      "meaning": {
+        "en": "with the purpose of",
+        "ko": "~할 목적으로"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "amac",
+          "meaning": {
+            "en": "purpose",
+            "ko": "목적"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "la",
+          "meaning": {
+            "en": "with / by",
+            "ko": "~와 함께·~로"
+          },
+          "function": "WITH"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "amaç → amac- before a vowel",
+          "ko": "모음 앞에서 amaç가 amac-로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Purpose postpositional expression",
+        "ko": "목적 표현"
+      },
+      "contextualExplanation": {
+        "en": "The preceding infinitive supplies the purpose; amaç softens ç to c before possession.",
+        "ko": "앞 부정사가 목적 내용을 주며 소유 모음 앞에서 amaç의 ç가 c로 바뀝니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "purpose",
+        "ko": "목적"
+      }
+    },
+    {
+      "id": "study-1pe-3-18-word-3",
+      "verseId": "1PE.3.18",
+      "start": 78,
+      "end": 88,
+      "surface": "olmayanlar",
+      "lemma": "olmak",
+      "meaning": {
+        "en": "those who are not",
+        "ko": "~이 아닌 사람들"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ol",
+          "meaning": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ma",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "yan",
+          "meaning": {
+            "en": "subject participle -An",
+            "ko": "주어 관계형 -An"
+          },
+          "function": "PART"
+        },
+        {
+          "form": "lar",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "nonfinite": "subject participle",
+        "number": "plural"
+      },
+      "role": {
+        "en": "Nominal negative participle",
+        "ko": "명사적 부정 관계형"
+      },
+      "contextualExplanation": {
+        "en": "Doğru supplies righteous; the negative participle describes the unrighteous group.",
+        "ko": "doğru는 의롭다는 뜻이고 부정 관계형이 의롭지 않은 집단을 설명합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      }
+    },
+    {
+      "id": "study-1pe-3-18-word-4",
+      "verseId": "1PE.3.18",
+      "start": 100,
+      "end": 106,
+      "surface": "sunusu",
+      "lemma": "sunu",
+      "meaning": {
+        "en": "offering",
+        "ko": "제물"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "sunu",
+          "meaning": {
+            "en": "offering",
+            "ko": "제물"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "su",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Head of günah sunusu compound",
+        "ko": "günah sunusu 결합의 중심"
+      },
+      "contextualExplanation": {
+        "en": "The noun compound names a sin offering. -su is compound possession, not an accusative ending.",
+        "ko": "명사 결합이 죄의 제물을 뜻합니다. -su는 결합 소유형이며 대격이 아닙니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "offering",
+        "ko": "제물"
+      }
+    },
+    {
+      "id": "study-1pe-3-18-word-5",
+      "verseId": "1PE.3.18",
+      "start": 143,
+      "end": 152,
+      "surface": "öldürüldü",
+      "lemma": "ölmek",
+      "meaning": {
+        "en": "was put to death",
+        "ko": "죽임을 당했다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "öl",
+          "meaning": {
+            "en": "die",
+            "ko": "죽다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "dür",
+          "meaning": {
+            "en": "causative",
+            "ko": "사동"
+          },
+          "function": "CAUS"
+        },
+        {
+          "form": "ül",
+          "meaning": {
+            "en": "passive",
+            "ko": "피동"
+          },
+          "function": "PASS"
+        },
+        {
+          "form": "dü",
+          "meaning": {
+            "en": "definite past",
+            "ko": "확정 과거"
+          },
+          "function": "PAST"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "voice": "passive",
+        "tenseAspect": "past"
+      },
+      "role": {
+        "en": "Causative-passive past",
+        "ko": "사동·피동 과거"
+      },
+      "contextualExplanation": {
+        "en": "Ölmek is die; öldürmek is kill; öldürülmek is be killed.",
+        "ko": "ölmek은 죽다, öldürmek은 죽이다, öldürülmek은 죽임받다입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "die",
+        "ko": "죽다"
+      }
+    },
+    {
+      "id": "study-1pe-3-18-word-6",
+      "verseId": "1PE.3.18",
+      "start": 164,
+      "end": 174,
+      "surface": "diriltildi",
+      "lemma": "diriltmek",
+      "meaning": {
+        "en": "was made alive",
+        "ko": "살리심받았다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "dirilt",
+          "meaning": {
+            "en": "bring to life / raise from the dead",
+            "ko": "살리다·죽음에서 일으키다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "il",
+          "meaning": {
+            "en": "passive",
+            "ko": "피동"
+          },
+          "function": "PASS"
+        },
+        {
+          "form": "di",
+          "meaning": {
+            "en": "definite past",
+            "ko": "확정 과거"
+          },
+          "function": "PAST"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "voice": "passive",
+        "tenseAspect": "past"
+      },
+      "role": {
+        "en": "Passive past",
+        "ko": "피동 과거"
+      },
+      "contextualExplanation": {
+        "en": "Diriltmek is make alive; its passive leaves the agent unexpressed in this clause.",
+        "ko": "diriltmek은 살리다이며 피동절은 행위자를 밝히지 않습니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "bring to life / raise from the dead",
+        "ko": "살리다·죽음에서 일으키다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-1pe-3-18-word-1-vocab",
+      "analysisId": "study-1pe-3-18-word-1",
+      "lemma": "ulaşmak",
+      "classification": "general",
+      "definitions": {
+        "en": "reach",
+        "ko": "도달하다"
+      },
+      "usageNotes": {
+        "en": "Bizleri is the object brought; Tanrı’ya is the goal.",
+        "ko": "bizleri는 데려가는 대상이고 Tanrı’ya는 목표입니다."
+      }
+    },
+    {
+      "id": "study-1pe-3-18-word-2-vocab",
+      "analysisId": "study-1pe-3-18-word-2",
+      "lemma": "amaç",
+      "classification": "general",
+      "definitions": {
+        "en": "purpose",
+        "ko": "목적"
+      },
+      "usageNotes": {
+        "en": "The preceding infinitive supplies the purpose; amaç softens ç to c before possession.",
+        "ko": "앞 부정사가 목적 내용을 주며 소유 모음 앞에서 amaç의 ç가 c로 바뀝니다."
+      }
+    },
+    {
+      "id": "study-1pe-3-18-word-3-vocab",
+      "analysisId": "study-1pe-3-18-word-3",
+      "lemma": "olmak",
+      "classification": "general",
+      "definitions": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      },
+      "usageNotes": {
+        "en": "Doğru supplies righteous; the negative participle describes the unrighteous group.",
+        "ko": "doğru는 의롭다는 뜻이고 부정 관계형이 의롭지 않은 집단을 설명합니다."
+      }
+    },
+    {
+      "id": "study-1pe-3-18-word-4-vocab",
+      "analysisId": "study-1pe-3-18-word-4",
+      "lemma": "sunu",
+      "classification": "biblical",
+      "definitions": {
+        "en": "offering",
+        "ko": "제물"
+      },
+      "usageNotes": {
+        "en": "The noun compound names a sin offering. -su is compound possession, not an accusative ending.",
+        "ko": "명사 결합이 죄의 제물을 뜻합니다. -su는 결합 소유형이며 대격이 아닙니다."
+      }
+    },
+    {
+      "id": "study-1pe-3-18-word-5-vocab",
+      "analysisId": "study-1pe-3-18-word-5",
+      "lemma": "ölmek",
+      "classification": "general",
+      "definitions": {
+        "en": "die",
+        "ko": "죽다"
+      },
+      "usageNotes": {
+        "en": "Ölmek is die; öldürmek is kill; öldürülmek is be killed.",
+        "ko": "ölmek은 죽다, öldürmek은 죽이다, öldürülmek은 죽임받다입니다."
+      }
+    },
+    {
+      "id": "study-1pe-3-18-word-6-vocab",
+      "analysisId": "study-1pe-3-18-word-6",
+      "lemma": "diriltmek",
+      "classification": "biblical",
+      "definitions": {
+        "en": "bring to life / raise from the dead",
+        "ko": "살리다·죽음에서 일으키다"
+      },
+      "usageNotes": {
+        "en": "Diriltmek is make alive; its passive leaves the agent unexpressed in this clause.",
+        "ko": "diriltmek은 살리다이며 피동절은 행위자를 밝히지 않습니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-1pe-3-18-grammar-1",
+      "title": {
+        "en": "Purpose and role",
+        "ko": "목적과 역할"
+      },
+      "explanation": {
+        "en": "…-mak amacıyla gives why; … olarak gives in what role. Both occur here and should not be collapsed into one relation.",
+        "ko": "…-mak amacıyla는 이유·목적이고 … olarak은 역할입니다. 둘을 하나의 관계로 합치지 마세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "1PE.3.18",
+          "start": 0,
+          "end": 134
+        },
+        {
+          "verseId": "1PE.3.18",
+          "start": 135,
+          "end": 175
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-1pe-3-18-grammar-2",
+      "title": {
+        "en": "Voice and aspect expressions",
+        "ko": "태와 측면 표현"
+      },
+      "explanation": {
+        "en": "The causative-passive öldürüldü contrasts with diriltildi. -CA in bedence/ruhça is not a case identifying a physical location.",
+        "ko": "사동·피동 öldürüldü와 diriltildi를 비교하세요. bedence·ruhça의 -CA는 물리적 장소 격이 아닙니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "1PE.3.18",
+          "start": 0,
+          "end": 134
+        },
+        {
+          "verseId": "1PE.3.18",
+          "start": 135,
+          "end": 175
+        }
+      ],
+      "relatedLessonIds": [
+        "foundation-voice",
+        "foundation-fidye"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Explain ulaşmak versus ulaştırmak with a travel example, then identify one passive without claiming its unstated agent is grammatically named.",
+    "ko": "여행 예로 ulaşmak·ulaştırmak을 구별하고 피동 하나를 찾으세요. 밝히지 않은 행위자가 문법상 이름으로 제시되었다고 말하지 마세요."
+  },
+  "modelResponse": {
+    "tr": "Eve ulaştım. Arkadaşım beni eve ulaştırdı.",
+    "meaning": {
+      "en": "I reached home. My friend brought me home.",
+      "ko": "집에 도착했습니다. 친구가 나를 집에 데려다주었습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "foundation-voice",
+    "foundation-fidye"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-1pe-3-18-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to 1 Peter 3:18? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 베드로전서 3:18인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-1pe-3-18",
+          "passageId": "study-1pe-3-18",
+          "explanation": {
+            "en": "This is the passage. Christ, the righteous one, died once and finally as a sin offering for the unrighteous to bring us to God. He was put to death bodily but made alive in spirit. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 의로운 그리스도께서 우리를 하나님께 이끄시려고 의롭지 않은 사람들을 위해 죄의 제물로 처음이자 마지막으로 죽으셨습니다. 육체로 죽임을 당하셨으나 영으로 살리심을 받으셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rev-3-20",
+          "passageId": "study-rev-3-20",
+          "explanation": {
+            "en": "This is a different passage. I stand at the door and knock. If someone hears my voice and opens the door, I will enter beside them, and we will eat together. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 나는 문 앞에 서서 두드립니다. 누군가 내 음성을 듣고 문을 열면 그에게 들어가 함께 식사할 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-9-27",
+          "passageId": "study-heb-9-27",
+          "explanation": {
+            "en": "This is a different passage. Just as humans must die once and then face judgment, Christ was offered once to bear many people’s sins. He will appear a second time, not to bear sin, but to bring salvation to those waiting for him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사람이 한 번 죽고 그 후 심판받는 것이 불가피하듯 그리스도도 많은 사람의 죄를 담당하려고 한 번 제물로 드려졌습니다. 두 번째에는 죄를 담당하기 위해서가 아니라 자신을 기다리는 사람들에게 구원을 가져오려고 나타나실 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-5-24",
+          "passageId": "study-jhn-5-24",
+          "explanation": {
+            "en": "This is a different passage. I tell you truly: whoever hears my word and believes the one who sent me has eternal life. Such a person is not judged but has passed from death into life. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 진실로 말합니다. 내 말을 듣고 나를 보내신 분을 믿는 사람은 영원한 생명이 있습니다. 그런 사람은 심판받지 않고 죽음에서 생명으로 옮겨졌습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-1pe-3-18"
+      ],
+      "explanations": {
+        "en": "This is the passage. Christ, the righteous one, died once and finally as a sin offering for the unrighteous to bring us to God. He was put to death bodily but made alive in spirit. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 의로운 그리스도께서 우리를 하나님께 이끄시려고 의롭지 않은 사람들을 위해 죄의 제물로 처음이자 마지막으로 죽으셨습니다. 육체로 죽임을 당하셨으나 영으로 살리심을 받으셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-1pe-3-18-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-1pe-3-18",
+          "referenceId": "study-1pe-3-18",
+          "explanation": {
+            "en": "This is the passage. Christ, the righteous one, died once and finally as a sin offering for the unrighteous to bring us to God. He was put to death bodily but made alive in spirit. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 의로운 그리스도께서 우리를 하나님께 이끄시려고 의롭지 않은 사람들을 위해 죄의 제물로 처음이자 마지막으로 죽으셨습니다. 육체로 죽임을 당하셨으나 영으로 살리심을 받으셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rev-3-20",
+          "referenceId": "study-rev-3-20",
+          "explanation": {
+            "en": "This is a different passage. I stand at the door and knock. If someone hears my voice and opens the door, I will enter beside them, and we will eat together. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 나는 문 앞에 서서 두드립니다. 누군가 내 음성을 듣고 문을 열면 그에게 들어가 함께 식사할 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-9-27",
+          "referenceId": "study-heb-9-27",
+          "explanation": {
+            "en": "This is a different passage. Just as humans must die once and then face judgment, Christ was offered once to bear many people’s sins. He will appear a second time, not to bear sin, but to bring salvation to those waiting for him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사람이 한 번 죽고 그 후 심판받는 것이 불가피하듯 그리스도도 많은 사람의 죄를 담당하려고 한 번 제물로 드려졌습니다. 두 번째에는 죄를 담당하기 위해서가 아니라 자신을 기다리는 사람들에게 구원을 가져오려고 나타나실 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-5-24",
+          "referenceId": "study-jhn-5-24",
+          "explanation": {
+            "en": "This is a different passage. I tell you truly: whoever hears my word and believes the one who sent me has eternal life. Such a person is not judged but has passed from death into life. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 진실로 말합니다. 내 말을 듣고 나를 보내신 분을 믿는 사람은 영원한 생명이 있습니다. 그런 사람은 심판받지 않고 죽음에서 생명으로 옮겨졌습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-1pe-3-18"
+      ],
+      "explanations": {
+        "en": "This is the passage. Christ, the righteous one, died once and finally as a sin offering for the unrighteous to bring us to God. He was put to death bodily but made alive in spirit. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 의로운 그리스도께서 우리를 하나님께 이끄시려고 의롭지 않은 사람들을 위해 죄의 제물로 처음이자 마지막으로 죽으셨습니다. 육체로 죽임을 당하셨으나 영으로 살리심을 받으셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-1pe-3-18-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “sunu” in this passage?",
+        "ko": "이 본문에서 “sunu”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-1pe-3-18-word-4-vocab",
+          "label": {
+            "en": "offering",
+            "ko": "제물"
+          },
+          "explanation": {
+            "en": "offering. The noun compound names a sin offering. -su is compound possession, not an accusative ending.",
+            "ko": "제물. 명사 결합이 죄의 제물을 뜻합니다. -su는 결합 소유형이며 대격이 아닙니다."
+          }
+        },
+        {
+          "id": "study-1pe-3-18-word-1-vocab",
+          "label": {
+            "en": "reach",
+            "ko": "도달하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to ulaşmak. sunu means offering here. The noun compound names a sin offering. -su is compound possession, not an accusative ending.",
+            "ko": "그 뜻은 ulaşmak입니다. 여기 sunu는 제물입니다. 명사 결합이 죄의 제물을 뜻합니다. -su는 결합 소유형이며 대격이 아닙니다."
+          }
+        },
+        {
+          "id": "study-1pe-3-18-word-2-vocab",
+          "label": {
+            "en": "purpose",
+            "ko": "목적"
+          },
+          "explanation": {
+            "en": "That definition belongs to amaç. sunu means offering here. The noun compound names a sin offering. -su is compound possession, not an accusative ending.",
+            "ko": "그 뜻은 amaç입니다. 여기 sunu는 제물입니다. 명사 결합이 죄의 제물을 뜻합니다. -su는 결합 소유형이며 대격이 아닙니다."
+          }
+        },
+        {
+          "id": "study-1pe-3-18-word-3-vocab",
+          "label": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "explanation": {
+            "en": "That definition belongs to olmak. sunu means offering here. The noun compound names a sin offering. -su is compound possession, not an accusative ending.",
+            "ko": "그 뜻은 olmak입니다. 여기 sunu는 제물입니다. 명사 결합이 죄의 제물을 뜻합니다. -su는 결합 소유형이며 대격이 아닙니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-1pe-3-18-word-4-vocab"
+      ],
+      "explanations": {
+        "en": "The noun compound names a sin offering. -su is compound possession, not an accusative ending.",
+        "ko": "명사 결합이 죄의 제물을 뜻합니다. -su는 결합 소유형이며 대격이 아닙니다."
+      }
+    },
+    {
+      "id": "study-1pe-3-18-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “öldürüldü”, what is the function of “-dü” here?",
+        "ko": "“öldürüldü”에서 “-dü”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "PAST",
+          "label": {
+            "en": "definite past",
+            "ko": "확정 과거"
+          },
+          "explanation": {
+            "en": "Causative-passive past. Ölmek is die; öldürmek is kill; öldürülmek is be killed.",
+            "ko": "사동·피동 과거. ölmek은 죽다, öldürmek은 죽이다, öldürülmek은 죽임받다입니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Causative-passive past. Ölmek is die; öldürmek is kill; öldürülmek is be killed.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 사동·피동 과거. ölmek은 죽다, öldürmek은 죽이다, öldürülmek은 죽임받다입니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Causative-passive past. Ölmek is die; öldürmek is kill; öldürülmek is be killed.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 사동·피동 과거. ölmek은 죽다, öldürmek은 죽이다, öldürülmek은 죽임받다입니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Causative-passive past. Ölmek is die; öldürmek is kill; öldürülmek is be killed.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 사동·피동 과거. ölmek은 죽다, öldürmek은 죽이다, öldürülmek은 죽임받다입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "PAST"
+      ],
+      "explanations": {
+        "en": "Ölmek is die; öldürmek is kill; öldürülmek is be killed.",
+        "ko": "ölmek은 죽다, öldürmek은 죽이다, öldürülmek은 죽임받다입니다."
+      }
+    }
+  ]
+}

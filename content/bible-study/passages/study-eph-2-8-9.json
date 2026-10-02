@@ -1,0 +1,797 @@
+{
+  "id": "study-eph-2-8-9",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Ephesians 2:8, 9 through its clause structure and the forms yoluyla / lütufla.",
+    "ko": "에베소서 2:8, 9의 절 구조와 yoluyla / lütufla 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "You were saved by grace through faith. This is not your achievement; it is God’s gift, not the reward of good deeds, so that no one should boast.",
+    "ko": "여러분은 믿음을 통해 은혜로 구원받았습니다. 이는 여러분의 성취가 아니라 하나님의 선물이며 누구도 자랑하지 못하도록 선행의 보상이 아닙니다."
+  },
+  "clauses": [
+    {
+      "id": "study-eph-2-8-9-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "EPH.2.8",
+          "start": 0,
+          "end": 83
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Salvation through faith is a gift of grace, not your own achievement.",
+        "ko": "믿음을 통한 구원은 자신의 성취가 아니라 은혜의 선물입니다."
+      },
+      "literalGloss": {
+        "en": "faith by-way / grace-with / you were saved; this / your achievement not / God’s gift-is",
+        "ko": "믿음의 길로 / 은혜로 / 구원받았다 여러분; 이것 / 여러분 성취 아닌 / 하나님 선물이다"
+      },
+      "explanation": {
+        "en": "Yoluyla and -la express means in different forms. Kurtuldunuz is the lexical intransitive kurtulmak, “be saved/escape”; do not parse -ul again as an independently chosen passive suffix here.",
+        "ko": "yoluyla와 -la는 서로 다른 수단 표현입니다. kurtuldunuz는 구원받다·벗어나다라는 어휘 동사 kurtulmak의 과거이며 -ul을 다시 독립 피동으로 기계적으로 나누지 않습니다."
+      }
+    },
+    {
+      "id": "study-eph-2-8-9-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "EPH.2.9",
+          "start": 0,
+          "end": 52
+        }
+      ],
+      "naturalMeaning": {
+        "en": "It is not a reward for good works, so that no one should boast.",
+        "ko": "누구도 자랑하지 못하도록 선행의 보상이 아닙니다."
+      },
+      "literalGloss": {
+        "en": "no-one’s / not-boasting / for / good works’ reward / is not",
+        "ko": "아무의 / 자랑하지 않음 / 위해 / 선행의 보상 / 아니다"
+      },
+      "explanation": {
+        "en": "Kimsenin is the genitive subject of övünmemesi, with negation inside the verbal noun. The sentence shares its “this” subject with verse 8.",
+        "ko": "kimsenin은 övünmemesi의 속격 주어이고 부정이 동사 명사형 안에 있습니다. 이 문장은 8절의 이것이라는 주어를 이어받습니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-eph-2-8-9-word-1",
+      "verseId": "EPH.2.8",
+      "start": 5,
+      "end": 12,
+      "surface": "yoluyla",
+      "lemma": "yol",
+      "meaning": {
+        "en": "through / by means of",
+        "ko": "~을 통해"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "yol",
+          "meaning": {
+            "en": "road / way",
+            "ko": "길"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "u",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "la",
+          "meaning": {
+            "en": "with / by",
+            "ko": "~와 함께·~로"
+          },
+          "function": "WITH"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Means expression",
+        "ko": "수단 표현"
+      },
+      "contextualExplanation": {
+        "en": "İman yoluyla literally uses “the way of faith” as the means.",
+        "ko": "iman yoluyla는 믿음의 길이라는 명사 결합을 수단으로 씁니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "road / way",
+        "ko": "길"
+      }
+    },
+    {
+      "id": "study-eph-2-8-9-word-2",
+      "verseId": "EPH.2.8",
+      "start": 14,
+      "end": 21,
+      "surface": "lütufla",
+      "lemma": "lütuf",
+      "meaning": {
+        "en": "by grace",
+        "ko": "은혜로"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "lütuf",
+          "meaning": {
+            "en": "grace / favor",
+            "ko": "은혜"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "la",
+          "meaning": {
+            "en": "with / by",
+            "ko": "~와 함께·~로"
+          },
+          "function": "WITH"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {},
+      "role": {
+        "en": "Means / basis",
+        "ko": "수단·근거"
+      },
+      "contextualExplanation": {
+        "en": "Christian grace is an unearned favour; the suffix merely supplies “by/with.”",
+        "ko": "기독교 은혜는 공로 없이 주어지는 호의이며 접사 자체는 ~로라는 기능입니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "grace / favor",
+        "ko": "은혜"
+      }
+    },
+    {
+      "id": "study-eph-2-8-9-word-3",
+      "verseId": "EPH.2.8",
+      "start": 22,
+      "end": 33,
+      "surface": "kurtuldunuz",
+      "lemma": "kurtulmak",
+      "meaning": {
+        "en": "you were saved",
+        "ko": "여러분은 구원받았다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "kurtul",
+          "meaning": {
+            "en": "be rescued / escape",
+            "ko": "구원받다·벗어나다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "du",
+          "meaning": {
+            "en": "definite past",
+            "ko": "확정 과거"
+          },
+          "function": "PAST"
+        },
+        {
+          "form": "nuz",
+          "meaning": {
+            "en": "second-person plural / polite address",
+            "ko": "2인칭 복수·공손한 청자"
+          },
+          "function": "PERSON2P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "past",
+        "person": "2pl/polite"
+      },
+      "role": {
+        "en": "Past addressed to the readers",
+        "ko": "독자들에게 말하는 과거"
+      },
+      "contextualExplanation": {
+        "en": "The plural person belongs to the readers, not to multiple saviours.",
+        "ko": "복수 인칭은 독자들을 가리키며 구원자가 여럿이라는 뜻이 아닙니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "be rescued / escape",
+        "ko": "구원받다·벗어나다"
+      }
+    },
+    {
+      "id": "study-eph-2-8-9-word-4",
+      "verseId": "EPH.2.8",
+      "start": 44,
+      "end": 53,
+      "surface": "başarınız",
+      "lemma": "başarı",
+      "meaning": {
+        "en": "your achievement",
+        "ko": "여러분의 성취"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "başarı",
+          "meaning": {
+            "en": "success",
+            "ko": "성공"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "nız",
+          "meaning": {
+            "en": "second-person plural possessive",
+            "ko": "2인칭 복수 소유"
+          },
+          "function": "P2P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "2pl/polite"
+      },
+      "role": {
+        "en": "Possessed nominal predicate",
+        "ko": "소유 명사 술어"
+      },
+      "contextualExplanation": {
+        "en": "Sizin is the explicit possessor; değil negates the noun predicate.",
+        "ko": "sizin이 명시적 소유자이고 değil이 명사 술어를 부정합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "success",
+        "ko": "성공"
+      }
+    },
+    {
+      "id": "study-eph-2-8-9-word-5",
+      "verseId": "EPH.2.9",
+      "start": 9,
+      "end": 19,
+      "surface": "övünmemesi",
+      "lemma": "övünmek",
+      "meaning": {
+        "en": "that no one boasts",
+        "ko": "자랑하지 않음"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "övün",
+          "meaning": {
+            "en": "boast",
+            "ko": "자랑하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "me",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "me",
+          "meaning": {
+            "en": "verbal noun",
+            "ko": "동사 명사형"
+          },
+          "function": "VN"
+        },
+        {
+          "form": "si",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "nonfinite": "verbal noun",
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Negative verbal noun",
+        "ko": "부정 동사 명사형"
+      },
+      "contextualExplanation": {
+        "en": "Two successive me forms do different jobs: first negation, then nominalization.",
+        "ko": "연속된 두 me는 서로 다릅니다. 앞은 부정, 뒤는 명사화입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "boast",
+        "ko": "자랑하다"
+      }
+    },
+    {
+      "id": "study-eph-2-8-9-word-6",
+      "verseId": "EPH.2.9",
+      "start": 37,
+      "end": 42,
+      "surface": "ödülü",
+      "lemma": "ödül",
+      "meaning": {
+        "en": "reward",
+        "ko": "보상"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "ödül",
+          "meaning": {
+            "en": "reward",
+            "ko": "상"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ü",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Possessed predicate noun",
+        "ko": "소유 술어 명사"
+      },
+      "contextualExplanation": {
+        "en": "İyi işlerin is the genitive possessor. The verse contrasts reward and gift.",
+        "ko": "iyi işlerin이 속격 소유자이고 보상·선물을 대조합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "reward",
+        "ko": "상"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-eph-2-8-9-word-1-vocab",
+      "analysisId": "study-eph-2-8-9-word-1",
+      "lemma": "yol",
+      "classification": "general",
+      "definitions": {
+        "en": "road / way",
+        "ko": "길"
+      },
+      "usageNotes": {
+        "en": "İman yoluyla literally uses “the way of faith” as the means.",
+        "ko": "iman yoluyla는 믿음의 길이라는 명사 결합을 수단으로 씁니다."
+      }
+    },
+    {
+      "id": "study-eph-2-8-9-word-2-vocab",
+      "analysisId": "study-eph-2-8-9-word-2",
+      "lemma": "lütuf",
+      "classification": "biblical",
+      "definitions": {
+        "en": "grace / favor",
+        "ko": "은혜"
+      },
+      "usageNotes": {
+        "en": "Christian grace is an unearned favour; the suffix merely supplies “by/with.”",
+        "ko": "기독교 은혜는 공로 없이 주어지는 호의이며 접사 자체는 ~로라는 기능입니다."
+      }
+    },
+    {
+      "id": "study-eph-2-8-9-word-3-vocab",
+      "analysisId": "study-eph-2-8-9-word-3",
+      "lemma": "kurtulmak",
+      "classification": "biblical",
+      "definitions": {
+        "en": "be rescued / escape",
+        "ko": "구원받다·벗어나다"
+      },
+      "usageNotes": {
+        "en": "The plural person belongs to the readers, not to multiple saviours.",
+        "ko": "복수 인칭은 독자들을 가리키며 구원자가 여럿이라는 뜻이 아닙니다."
+      }
+    },
+    {
+      "id": "study-eph-2-8-9-word-4-vocab",
+      "analysisId": "study-eph-2-8-9-word-4",
+      "lemma": "başarı",
+      "classification": "general",
+      "definitions": {
+        "en": "success",
+        "ko": "성공"
+      },
+      "usageNotes": {
+        "en": "Sizin is the explicit possessor; değil negates the noun predicate.",
+        "ko": "sizin이 명시적 소유자이고 değil이 명사 술어를 부정합니다."
+      }
+    },
+    {
+      "id": "study-eph-2-8-9-word-5-vocab",
+      "analysisId": "study-eph-2-8-9-word-5",
+      "lemma": "övünmek",
+      "classification": "general",
+      "definitions": {
+        "en": "boast",
+        "ko": "자랑하다"
+      },
+      "usageNotes": {
+        "en": "Two successive me forms do different jobs: first negation, then nominalization.",
+        "ko": "연속된 두 me는 서로 다릅니다. 앞은 부정, 뒤는 명사화입니다."
+      }
+    },
+    {
+      "id": "study-eph-2-8-9-word-6-vocab",
+      "analysisId": "study-eph-2-8-9-word-6",
+      "lemma": "ödül",
+      "classification": "general",
+      "definitions": {
+        "en": "reward",
+        "ko": "상"
+      },
+      "usageNotes": {
+        "en": "İyi işlerin is the genitive possessor. The verse contrasts reward and gift.",
+        "ko": "iyi işlerin이 속격 소유자이고 보상·선물을 대조합니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-eph-2-8-9-grammar-1",
+      "title": {
+        "en": "Negative verbal noun with its own subject",
+        "ko": "주어를 가진 부정 동사 명사형"
+      },
+      "explanation": {
+        "en": "Kimsenin övün-me-me-si için has genitive subject plus third-person possession. Explain both -me suffixes distinctly.",
+        "ko": "kimsenin övün-me-me-si için은 속격 주어·3인칭 소유를 가집니다. 두 -me를 구별해 설명하세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "EPH.2.8",
+          "start": 0,
+          "end": 83
+        },
+        {
+          "verseId": "EPH.2.9",
+          "start": 0,
+          "end": 52
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-eph-2-8-9-grammar-2",
+      "title": {
+        "en": "Verb negation versus noun negation",
+        "ko": "동사 부정과 명사 부정"
+      },
+      "explanation": {
+        "en": "Övünmemesi uses verbal negation; başarınız değil and ödülü değildir use değil for nominal predicates.",
+        "ko": "övünmemesi에는 동사 부정이 있고 başarınız değil·ödülü değildir에는 명사 술어 부정 değil이 있습니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "EPH.2.8",
+          "start": 0,
+          "end": 83
+        },
+        {
+          "verseId": "EPH.2.9",
+          "start": 0,
+          "end": 52
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-07"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Explain the difference between armağan and ödül in two Turkish sentences, using değil.",
+    "ko": "armağan·ödül의 차이를 değil로 두 문장에 설명하세요."
+  },
+  "modelResponse": {
+    "tr": "Armağan bir hediyedir. Ödül ise bir başarı için verilir; aynı şey değildir.",
+    "meaning": {
+      "en": "A gift is a present. A reward is given for an achievement; they are not the same thing.",
+      "ko": "선물은 증여입니다. 보상은 성취에 대해 주어지며 둘은 같지 않습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "ministry-07"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-eph-2-8-9-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Ephesians 2:8, 9? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 에베소서 2:8, 9인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-eph-2-8-9",
+          "passageId": "study-eph-2-8-9",
+          "explanation": {
+            "en": "This is the passage. You were saved by grace through faith. This is not your achievement; it is God’s gift, not the reward of good deeds, so that no one should boast. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 여러분은 믿음을 통해 은혜로 구원받았습니다. 이는 여러분의 성취가 아니라 하나님의 선물이며 누구도 자랑하지 못하도록 선행의 보상이 아닙니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-isa-53-6",
+          "passageId": "study-isa-53-6",
+          "explanation": {
+            "en": "This is a different passage. We all had strayed from the path like sheep; each turned to their own way. Yet the LORD placed all our punishment on him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 우리는 모두 양처럼 길을 벗어났고 각자 자기 길로 돌아섰습니다. 그러나 주님은 우리 모두의 형벌을 그에게 지우셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-5-24",
+          "passageId": "study-jhn-5-24",
+          "explanation": {
+            "en": "This is a different passage. I tell you truly: whoever hears my word and believes the one who sent me has eternal life. Such a person is not judged but has passed from death into life. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 진실로 말합니다. 내 말을 듣고 나를 보내신 분을 믿는 사람은 영원한 생명이 있습니다. 그런 사람은 심판받지 않고 죽음에서 생명으로 옮겨졌습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1jn-5-13",
+          "passageId": "study-1jn-5-13",
+          "explanation": {
+            "en": "This is a different passage. I wrote these things to you who believe in the name of God’s Son so that you may know you have eternal life. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 하나님의 아들의 이름을 믿는 여러분이 영원한 생명을 가지고 있음을 알도록 이것을 썼습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-eph-2-8-9"
+      ],
+      "explanations": {
+        "en": "This is the passage. You were saved by grace through faith. This is not your achievement; it is God’s gift, not the reward of good deeds, so that no one should boast. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 여러분은 믿음을 통해 은혜로 구원받았습니다. 이는 여러분의 성취가 아니라 하나님의 선물이며 누구도 자랑하지 못하도록 선행의 보상이 아닙니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-eph-2-8-9-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-eph-2-8-9",
+          "referenceId": "study-eph-2-8-9",
+          "explanation": {
+            "en": "This is the passage. You were saved by grace through faith. This is not your achievement; it is God’s gift, not the reward of good deeds, so that no one should boast. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 여러분은 믿음을 통해 은혜로 구원받았습니다. 이는 여러분의 성취가 아니라 하나님의 선물이며 누구도 자랑하지 못하도록 선행의 보상이 아닙니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-isa-53-6",
+          "referenceId": "study-isa-53-6",
+          "explanation": {
+            "en": "This is a different passage. We all had strayed from the path like sheep; each turned to their own way. Yet the LORD placed all our punishment on him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 우리는 모두 양처럼 길을 벗어났고 각자 자기 길로 돌아섰습니다. 그러나 주님은 우리 모두의 형벌을 그에게 지우셨습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-5-24",
+          "referenceId": "study-jhn-5-24",
+          "explanation": {
+            "en": "This is a different passage. I tell you truly: whoever hears my word and believes the one who sent me has eternal life. Such a person is not judged but has passed from death into life. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 진실로 말합니다. 내 말을 듣고 나를 보내신 분을 믿는 사람은 영원한 생명이 있습니다. 그런 사람은 심판받지 않고 죽음에서 생명으로 옮겨졌습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1jn-5-13",
+          "referenceId": "study-1jn-5-13",
+          "explanation": {
+            "en": "This is a different passage. I wrote these things to you who believe in the name of God’s Son so that you may know you have eternal life. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 하나님의 아들의 이름을 믿는 여러분이 영원한 생명을 가지고 있음을 알도록 이것을 썼습니다. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-eph-2-8-9"
+      ],
+      "explanations": {
+        "en": "This is the passage. You were saved by grace through faith. This is not your achievement; it is God’s gift, not the reward of good deeds, so that no one should boast. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 여러분은 믿음을 통해 은혜로 구원받았습니다. 이는 여러분의 성취가 아니라 하나님의 선물이며 누구도 자랑하지 못하도록 선행의 보상이 아닙니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-eph-2-8-9-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “lütuf” in this passage?",
+        "ko": "이 본문에서 “lütuf”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-eph-2-8-9-word-2-vocab",
+          "label": {
+            "en": "grace / favor",
+            "ko": "은혜"
+          },
+          "explanation": {
+            "en": "grace / favor. Christian grace is an unearned favour; the suffix merely supplies “by/with.”",
+            "ko": "은혜. 기독교 은혜는 공로 없이 주어지는 호의이며 접사 자체는 ~로라는 기능입니다."
+          }
+        },
+        {
+          "id": "study-eph-2-8-9-word-1-vocab",
+          "label": {
+            "en": "road / way",
+            "ko": "길"
+          },
+          "explanation": {
+            "en": "That definition belongs to yol. lütuf means grace / favor here. Christian grace is an unearned favour; the suffix merely supplies “by/with.”",
+            "ko": "그 뜻은 yol입니다. 여기 lütuf는 은혜입니다. 기독교 은혜는 공로 없이 주어지는 호의이며 접사 자체는 ~로라는 기능입니다."
+          }
+        },
+        {
+          "id": "study-eph-2-8-9-word-3-vocab",
+          "label": {
+            "en": "be rescued / escape",
+            "ko": "구원받다·벗어나다"
+          },
+          "explanation": {
+            "en": "That definition belongs to kurtulmak. lütuf means grace / favor here. Christian grace is an unearned favour; the suffix merely supplies “by/with.”",
+            "ko": "그 뜻은 kurtulmak입니다. 여기 lütuf는 은혜입니다. 기독교 은혜는 공로 없이 주어지는 호의이며 접사 자체는 ~로라는 기능입니다."
+          }
+        },
+        {
+          "id": "study-eph-2-8-9-word-4-vocab",
+          "label": {
+            "en": "success",
+            "ko": "성공"
+          },
+          "explanation": {
+            "en": "That definition belongs to başarı. lütuf means grace / favor here. Christian grace is an unearned favour; the suffix merely supplies “by/with.”",
+            "ko": "그 뜻은 başarı입니다. 여기 lütuf는 은혜입니다. 기독교 은혜는 공로 없이 주어지는 호의이며 접사 자체는 ~로라는 기능입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-eph-2-8-9-word-2-vocab"
+      ],
+      "explanations": {
+        "en": "Christian grace is an unearned favour; the suffix merely supplies “by/with.”",
+        "ko": "기독교 은혜는 공로 없이 주어지는 호의이며 접사 자체는 ~로라는 기능입니다."
+      }
+    },
+    {
+      "id": "study-eph-2-8-9-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “yoluyla”, what is the function of “-u” here?",
+        "ko": "“yoluyla”에서 “-u”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "P3",
+          "label": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "explanation": {
+            "en": "Means expression. İman yoluyla literally uses “the way of faith” as the means.",
+            "ko": "수단 표현. iman yoluyla는 믿음의 길이라는 명사 결합을 수단으로 씁니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Means expression. İman yoluyla literally uses “the way of faith” as the means.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 수단 표현. iman yoluyla는 믿음의 길이라는 명사 결합을 수단으로 씁니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Means expression. İman yoluyla literally uses “the way of faith” as the means.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 수단 표현. iman yoluyla는 믿음의 길이라는 명사 결합을 수단으로 씁니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Means expression. İman yoluyla literally uses “the way of faith” as the means.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 수단 표현. iman yoluyla는 믿음의 길이라는 명사 결합을 수단으로 씁니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "P3"
+      ],
+      "explanations": {
+        "en": "İman yoluyla literally uses “the way of faith” as the means.",
+        "ko": "iman yoluyla는 믿음의 길이라는 명사 결합을 수단으로 씁니다."
+      }
+    }
+  ]
+}

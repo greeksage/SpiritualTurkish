@@ -1,0 +1,683 @@
+{
+  "id": "study-rom-12-2",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Romans 12:2 through its clause structure and the forms gidişine / yenilenmesiyle.",
+    "ko": "로마서 12:2의 절 구조와 gidişine / yenilenmesiyle 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Do not conform to this age’s pattern; instead be transformed through the renewing of your thinking, so you can discern God’s good, pleasing, and perfect will.",
+    "ko": "이 시대의 흐름에 맞추지 말고 생각이 새로워짐으로 변화되어 하나님의 선하고 기쁘고 온전한 뜻이 무엇인지 분별하세요."
+  },
+  "clauses": [
+    {
+      "id": "study-rom-12-2-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "ROM.12.2",
+          "start": 0,
+          "end": 155
+        }
+      ],
+      "naturalMeaning": {
+        "en": "The command to change is linked to renewed thinking and discernment.",
+        "ko": "변화하라는 명령이 생각의 새로워짐과 분별에 연결됩니다."
+      },
+      "literalGloss": {
+        "en": "this age’s course-to do-not-conform / thought-your’s renewal-its-with change / God’s will-its what being-object distinguish-can-infinitive for",
+        "ko": "이 시대의 흐름에 맞추지 마라 / 여러분 생각의 새로워짐으로 변하라 / 하나님의 뜻이 무엇임을 분별할 수 있기 위해"
+      },
+      "explanation": {
+        "en": "Uymak takes a dative complement. Yenilenmesiyle presents renewal as the means. Ne olduğunu is the object of ayırt edebilmek; için gives purpose. İyi, beğenilir, yetkin jointly modify isteği.",
+        "ko": "uymak은 여격 보어를 취합니다. yenilenmesiyle는 새로워짐을 수단으로 제시합니다. ne olduğunu는 ayırt edebilmek의 목적어이고 için은 목적입니다. iyi·beğenilir·yetkin은 isteği를 함께 꾸밉니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-rom-12-2-word-1",
+      "verseId": "ROM.12.2",
+      "start": 9,
+      "end": 17,
+      "surface": "gidişine",
+      "lemma": "gidiş",
+      "meaning": {
+        "en": "to its course / pattern",
+        "ko": "그 흐름에"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "gidiş",
+          "meaning": {
+            "en": "course / way of going",
+            "ko": "흐름·감"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "e",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "dative"
+      },
+      "role": {
+        "en": "Dative complement of uymak",
+        "ko": "uymak의 여격 보어"
+      },
+      "contextualExplanation": {
+        "en": "Bu çağın possesses gidiş; the dative belongs to conforming.",
+        "ko": "Bu çağın이 gidiş의 소유자이고 여격은 맞춤의 보어입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "course / way of going",
+        "ko": "흐름·감"
+      }
+    },
+    {
+      "id": "study-rom-12-2-word-2",
+      "verseId": "ROM.12.2",
+      "start": 132,
+      "end": 146,
+      "surface": "yenilenmesiyle",
+      "lemma": "yenilenmek",
+      "meaning": {
+        "en": "through its renewal",
+        "ko": "그 새로워짐으로"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yenilen",
+          "meaning": {
+            "en": "be renewed",
+            "ko": "새로워지다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "me",
+          "meaning": {
+            "en": "verbal noun",
+            "ko": "동사 명사형"
+          },
+          "function": "VN"
+        },
+        {
+          "form": "si",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "le",
+          "meaning": {
+            "en": "with / by",
+            "ko": "~와 함께·~로"
+          },
+          "function": "WITH"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "verbal noun",
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Possessed verbal noun used as means",
+        "ko": "수단인 소유 동사 명사형"
+      },
+      "contextualExplanation": {
+        "en": "Düşüncenizin is the genitive subject/possessor of the renewal.",
+        "ko": "düşüncenizin이 새로워짐의 속격 주어·소유자입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "be renewed",
+        "ko": "새로워지다"
+      }
+    },
+    {
+      "id": "study-rom-12-2-word-3",
+      "verseId": "ROM.12.2",
+      "start": 89,
+      "end": 97,
+      "surface": "olduğunu",
+      "lemma": "olmak",
+      "meaning": {
+        "en": "what it is (object)",
+        "ko": "그것이 무엇임을"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ol",
+          "meaning": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "duğ",
+          "meaning": {
+            "en": "nominalizing/participial -DIK",
+            "ko": "명사화·관계형 -DIK"
+          },
+          "function": "DIK"
+        },
+        {
+          "form": "u",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "u",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-duk → -duğ before a vowel",
+          "ko": "모음 앞에서 -duk가 -duğ로 변합니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "-DIK nominal/participial",
+        "possessive": "3",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Embedded interrogative object",
+        "ko": "내포 의문 목적어"
+      },
+      "contextualExplanation": {
+        "en": "Ne remains inside the clause, unlike a direct question.",
+        "ko": "ne는 직접 의문문과 달리 절 안에 남습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      }
+    },
+    {
+      "id": "study-rom-12-2-word-4",
+      "verseId": "ROM.12.2",
+      "start": 104,
+      "end": 113,
+      "surface": "edebilmek",
+      "lemma": "etmek",
+      "meaning": {
+        "en": "to be able to do",
+        "ko": "할 수 있음"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ed",
+          "meaning": {
+            "en": "do / make (auxiliary)",
+            "ko": "하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ebil",
+          "meaning": {
+            "en": "ability / possibility",
+            "ko": "능력·가능성"
+          },
+          "function": "CAN"
+        },
+        {
+          "form": "mek",
+          "meaning": {
+            "en": "infinitive",
+            "ko": "부정사"
+          },
+          "function": "INF"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "et → ed- before a vowel",
+          "ko": "모음 앞에서 et가 ed-로 변합니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "modality": "ability",
+        "nonfinite": "infinitive"
+      },
+      "role": {
+        "en": "Ability infinitive in a purpose phrase",
+        "ko": "목적구의 가능 부정사"
+      },
+      "contextualExplanation": {
+        "en": "Ayırt etmek is a compound verb, distinguish; için follows its infinitive.",
+        "ko": "ayırt etmek은 구별하다라는 복합 동사이고 için이 부정사 뒤에 옵니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "do / make (auxiliary)",
+        "ko": "하다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-rom-12-2-word-1-vocab",
+      "analysisId": "study-rom-12-2-word-1",
+      "lemma": "gidiş",
+      "classification": "general",
+      "definitions": {
+        "en": "course / way of going",
+        "ko": "흐름·감"
+      },
+      "usageNotes": {
+        "en": "Bu çağın possesses gidiş; the dative belongs to conforming.",
+        "ko": "Bu çağın이 gidiş의 소유자이고 여격은 맞춤의 보어입니다."
+      }
+    },
+    {
+      "id": "study-rom-12-2-word-2-vocab",
+      "analysisId": "study-rom-12-2-word-2",
+      "lemma": "yenilenmek",
+      "classification": "general",
+      "definitions": {
+        "en": "be renewed",
+        "ko": "새로워지다"
+      },
+      "usageNotes": {
+        "en": "Düşüncenizin is the genitive subject/possessor of the renewal.",
+        "ko": "düşüncenizin이 새로워짐의 속격 주어·소유자입니다."
+      }
+    },
+    {
+      "id": "study-rom-12-2-word-3-vocab",
+      "analysisId": "study-rom-12-2-word-3",
+      "lemma": "olmak",
+      "classification": "general",
+      "definitions": {
+        "en": "be / become",
+        "ko": "이다·되다"
+      },
+      "usageNotes": {
+        "en": "Ne remains inside the clause, unlike a direct question.",
+        "ko": "ne는 직접 의문문과 달리 절 안에 남습니다."
+      }
+    },
+    {
+      "id": "study-rom-12-2-word-4-vocab",
+      "analysisId": "study-rom-12-2-word-4",
+      "lemma": "etmek",
+      "classification": "general",
+      "definitions": {
+        "en": "do / make (auxiliary)",
+        "ko": "하다"
+      },
+      "usageNotes": {
+        "en": "Ayırt etmek is a compound verb, distinguish; için follows its infinitive.",
+        "ko": "ayırt etmek은 구별하다라는 복합 동사이고 için이 부정사 뒤에 옵니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-rom-12-2-grammar-1",
+      "title": {
+        "en": "Means and purpose",
+        "ko": "수단·목적"
+      },
+      "explanation": {
+        "en": "Yenilenmesiyle answers “by what means?”; ayırt edebilmek için answers “for what purpose?” The endings have distinct jobs.",
+        "ko": "yenilenmesiyle는 어떤 수단으로, ayırt edebilmek için은 어떤 목적으로에 답합니다. 접사 기능이 다릅니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ROM.12.2",
+          "start": 0,
+          "end": 155
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-rom-12-2-grammar-2",
+      "title": {
+        "en": "Embedded questions with ne olduğunu",
+        "ko": "ne olduğunu 내포 의문"
+      },
+      "explanation": {
+        "en": "Ne olduğunu can be the object of anlamak, bilmek, or ayırt etmek. It is not simply the direct question “Nedir?” appended to another verb.",
+        "ko": "ne olduğunu는 anlamak·bilmek·ayırt etmek의 목적어가 됩니다. 직접 질문 Nedir?를 다른 동사 뒤에 붙인 것과 다릅니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ROM.12.2",
+          "start": 0,
+          "end": 155
+        }
+      ],
+      "relatedLessonIds": [
+        "foundation-voice"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Write a purpose using -ebilmek için and an embedded ne olduğunu clause.",
+    "ko": "-ebilmek için으로 목적을 쓰고 ne olduğunu 내포절을 만드세요."
+  },
+  "modelResponse": {
+    "tr": "Metnin ne olduğunu anlayabilmek için bağlamı okuyorum.",
+    "meaning": {
+      "en": "I am reading the context in order to understand what the text is.",
+      "ko": "본문이 무엇인지 이해할 수 있도록 문맥을 읽고 있습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "foundation-voice"
+  ],
+  "relatedReadingIds": [
+    "reading-Rom-12-1-2"
+  ],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-rom-12-2-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Romans 12:2? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 로마서 12:2인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-rom-12-2",
+          "passageId": "study-rom-12-2",
+          "explanation": {
+            "en": "This is the passage. Do not conform to this age’s pattern; instead be transformed through the renewing of your thinking, so you can discern God’s good, pleasing, and perfect will. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 이 시대의 흐름에 맞추지 말고 생각이 새로워짐으로 변화되어 하나님의 선하고 기쁘고 온전한 뜻이 무엇인지 분별하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1jn-2-15-16",
+          "passageId": "study-1jn-2-15-16",
+          "explanation": {
+            "en": "This is a different passage. Do not love the world or what belongs to it. Love for the Father is absent in the one who loves the world; the desires and pride described come from the world, not the Father. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 세상이나 세상에 속한 것들을 사랑하지 마세요. 세상을 사랑하는 사람에게 아버지를 향한 사랑이 없으며 언급된 욕망과 자랑은 아버지가 아니라 세상에서 옵니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-15-58",
+          "passageId": "study-1co-15-58",
+          "explanation": {
+            "en": "This is a different passage. Stand firm, remain unshaken, and always work earnestly in the Lord’s work, knowing your labor in the Lord is not in vain. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 주 안에서 수고가 헛되지 않음을 알고 굳게 서며 흔들리지 말고 언제나 주의 일에 힘쓰세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-act-1-8",
+          "passageId": "study-act-1-8",
+          "explanation": {
+            "en": "This is a different passage. When the Holy Spirit comes upon you, you will receive power and be my witnesses in Jerusalem, throughout Judea and Samaria, and to the ends of the earth. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 성령이 여러분에게 임하시면 능력을 받고 예루살렘·유대·사마리아와 온 땅에서 나의 증인이 될 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-12-2"
+      ],
+      "explanations": {
+        "en": "This is the passage. Do not conform to this age’s pattern; instead be transformed through the renewing of your thinking, so you can discern God’s good, pleasing, and perfect will. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 이 시대의 흐름에 맞추지 말고 생각이 새로워짐으로 변화되어 하나님의 선하고 기쁘고 온전한 뜻이 무엇인지 분별하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-rom-12-2-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-rom-12-2",
+          "referenceId": "study-rom-12-2",
+          "explanation": {
+            "en": "This is the passage. Do not conform to this age’s pattern; instead be transformed through the renewing of your thinking, so you can discern God’s good, pleasing, and perfect will. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 이 시대의 흐름에 맞추지 말고 생각이 새로워짐으로 변화되어 하나님의 선하고 기쁘고 온전한 뜻이 무엇인지 분별하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1jn-2-15-16",
+          "referenceId": "study-1jn-2-15-16",
+          "explanation": {
+            "en": "This is a different passage. Do not love the world or what belongs to it. Love for the Father is absent in the one who loves the world; the desires and pride described come from the world, not the Father. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 세상이나 세상에 속한 것들을 사랑하지 마세요. 세상을 사랑하는 사람에게 아버지를 향한 사랑이 없으며 언급된 욕망과 자랑은 아버지가 아니라 세상에서 옵니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1co-15-58",
+          "referenceId": "study-1co-15-58",
+          "explanation": {
+            "en": "This is a different passage. Stand firm, remain unshaken, and always work earnestly in the Lord’s work, knowing your labor in the Lord is not in vain. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 주 안에서 수고가 헛되지 않음을 알고 굳게 서며 흔들리지 말고 언제나 주의 일에 힘쓰세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-act-1-8",
+          "referenceId": "study-act-1-8",
+          "explanation": {
+            "en": "This is a different passage. When the Holy Spirit comes upon you, you will receive power and be my witnesses in Jerusalem, throughout Judea and Samaria, and to the ends of the earth. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 성령이 여러분에게 임하시면 능력을 받고 예루살렘·유대·사마리아와 온 땅에서 나의 증인이 될 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-12-2"
+      ],
+      "explanations": {
+        "en": "This is the passage. Do not conform to this age’s pattern; instead be transformed through the renewing of your thinking, so you can discern God’s good, pleasing, and perfect will. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 이 시대의 흐름에 맞추지 말고 생각이 새로워짐으로 변화되어 하나님의 선하고 기쁘고 온전한 뜻이 무엇인지 분별하세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-rom-12-2-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “gidiş” in this passage?",
+        "ko": "이 본문에서 “gidiş”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-rom-12-2-word-1-vocab",
+          "label": {
+            "en": "course / way of going",
+            "ko": "흐름·감"
+          },
+          "explanation": {
+            "en": "course / way of going. Bu çağın possesses gidiş; the dative belongs to conforming.",
+            "ko": "흐름·감. Bu çağın이 gidiş의 소유자이고 여격은 맞춤의 보어입니다."
+          }
+        },
+        {
+          "id": "study-rom-12-2-word-2-vocab",
+          "label": {
+            "en": "be renewed",
+            "ko": "새로워지다"
+          },
+          "explanation": {
+            "en": "That definition belongs to yenilenmek. gidiş means course / way of going here. Bu çağın possesses gidiş; the dative belongs to conforming.",
+            "ko": "그 뜻은 yenilenmek입니다. 여기 gidiş는 흐름·감입니다. Bu çağın이 gidiş의 소유자이고 여격은 맞춤의 보어입니다."
+          }
+        },
+        {
+          "id": "study-rom-12-2-word-3-vocab",
+          "label": {
+            "en": "be / become",
+            "ko": "이다·되다"
+          },
+          "explanation": {
+            "en": "That definition belongs to olmak. gidiş means course / way of going here. Bu çağın possesses gidiş; the dative belongs to conforming.",
+            "ko": "그 뜻은 olmak입니다. 여기 gidiş는 흐름·감입니다. Bu çağın이 gidiş의 소유자이고 여격은 맞춤의 보어입니다."
+          }
+        },
+        {
+          "id": "study-rom-12-2-word-4-vocab",
+          "label": {
+            "en": "do / make (auxiliary)",
+            "ko": "하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to etmek. gidiş means course / way of going here. Bu çağın possesses gidiş; the dative belongs to conforming.",
+            "ko": "그 뜻은 etmek입니다. 여기 gidiş는 흐름·감입니다. Bu çağın이 gidiş의 소유자이고 여격은 맞춤의 보어입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-12-2-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Bu çağın possesses gidiş; the dative belongs to conforming.",
+        "ko": "Bu çağın이 gidiş의 소유자이고 여격은 맞춤의 보어입니다."
+      }
+    },
+    {
+      "id": "study-rom-12-2-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “gidişine”, what is the function of “-e” here?",
+        "ko": "“gidişine”에서 “-e”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "explanation": {
+            "en": "Dative complement of uymak. Bu çağın possesses gidiş; the dative belongs to conforming.",
+            "ko": "uymak의 여격 보어. Bu çağın이 gidiş의 소유자이고 여격은 맞춤의 보어입니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Dative complement of uymak. Bu çağın possesses gidiş; the dative belongs to conforming.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. uymak의 여격 보어. Bu çağın이 gidiş의 소유자이고 여격은 맞춤의 보어입니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Dative complement of uymak. Bu çağın possesses gidiş; the dative belongs to conforming.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. uymak의 여격 보어. Bu çağın이 gidiş의 소유자이고 여격은 맞춤의 보어입니다."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Dative complement of uymak. Bu çağın possesses gidiş; the dative belongs to conforming.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. uymak의 여격 보어. Bu çağın이 gidiş의 소유자이고 여격은 맞춤의 보어입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "DAT"
+      ],
+      "explanations": {
+        "en": "Bu çağın possesses gidiş; the dative belongs to conforming.",
+        "ko": "Bu çağın이 gidiş의 소유자이고 여격은 맞춤의 보어입니다."
+      }
+    }
+  ]
+}

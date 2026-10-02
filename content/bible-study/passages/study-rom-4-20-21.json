@@ -1,0 +1,724 @@
+{
+  "id": "study-rom-4-20-21",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Romans 4:20, 21 through its clause structure and the forms vaadinden / kuşkulanmadı.",
+    "ko": "로마서 4:20, 21의 절 구조와 vaadinden / kuşkulanmadı 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Abraham did not doubt God’s promise through unbelief; rather his faith grew strong and he gave glory to God, fully trusting that God had the power to fulfill his promise.",
+    "ko": "아브라함은 불신으로 하나님의 약속을 의심하지 않았고 믿음이 강해져 하나님을 높였으며 그분이 약속을 이룰 능력이 있음을 온전히 신뢰했습니다."
+  },
+  "clauses": [
+    {
+      "id": "study-rom-4-20-21-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "ROM.4.20",
+          "start": 0,
+          "end": 95
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Past actions contrast doubt with strengthened faith and honoring God.",
+        "ko": "과거 행위가 의심과 강해진 믿음·하나님 높임을 대조합니다."
+      },
+      "literalGloss": {
+        "en": "unbelief doing / God’s promise-from doubted-not / on-contrary faith-his grew-strong and God-object honored",
+        "ko": "불신을 행해 / 하나님의 약속을 의심하지 않았다 / 반대로 그 믿음은 강해졌고 하나님을 높였다"
+      },
+      "explanation": {
+        "en": "Kuşkulanmak selects ablative. İmanı is his faith as subject of güçlendi; it is not an accusative object here. Yüceltti is active causative-derived vocabulary meaning glorified/exalted. Abraham is supplied by the surrounding narrative.",
+        "ko": "kuşkulanmak은 탈격을 취합니다. imanı는 güçlendi의 주어인 그의 믿음이며 여기서 대격 목적어가 아닙니다. yüceltti는 사동 파생 능동 어휘로 높였다입니다. 아브라함은 앞뒤 이야기에서 밝혀집니다."
+      }
+    },
+    {
+      "id": "study-rom-4-20-21-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "ROM.4.21",
+          "start": 0,
+          "end": 66
+        }
+      ],
+      "naturalMeaning": {
+        "en": "His trust concerns God’s ability to fulfill the promise.",
+        "ko": "그 신뢰는 하나님이 약속을 이룰 능력에 관한 것입니다."
+      },
+      "literalGloss": {
+        "en": "God’s promise-his-object fulfill-will power-in being-his-to wholly trusted",
+        "ko": "하나님이 그 약속을 이룰 능력 안에 계심을 온전히 신뢰했다"
+      },
+      "explanation": {
+        "en": "Olduğuna is a dative clause after güvenmek. Tanrı’nın is its genitive subject; vaadini is the object inside yerine getirmek. Getirecek modifies güç: power capable of carrying out.",
+        "ko": "olduğuna는 güvenmek 뒤 여격절입니다. Tanrı’nın은 그 속격 주어이고 vaadini는 yerine getirmek 안 목적어입니다. getirecek은 güç를 꾸며 이룰 능력입니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-rom-4-20-21-word-1",
+      "verseId": "ROM.4.20",
+      "start": 26,
+      "end": 35,
+      "surface": "vaadinden",
+      "lemma": "vaat",
+      "meaning": {
+        "en": "from / about his promise",
+        "ko": "그 약속에 대해"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "vaad",
+          "meaning": {
+            "en": "promise",
+            "ko": "약속"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "den",
+          "meaning": {
+            "en": "ablative: from / away from",
+            "ko": "탈격: ~에서·~로부터"
+          },
+          "function": "ABL"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "vaat → vaad- before a vowel",
+          "ko": "모음 앞에서 vaat가 vaad-로 변합니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "ablative"
+      },
+      "role": {
+        "en": "Ablative complement of doubt",
+        "ko": "의심의 탈격 보어"
+      },
+      "contextualExplanation": {
+        "en": "Tanrı’nın names whose promise; the case follows possession.",
+        "ko": "Tanrı’nın이 누구의 약속인지 밝히고 소유 뒤 격이 옵니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "promise",
+        "ko": "약속"
+      }
+    },
+    {
+      "id": "study-rom-4-20-21-word-2",
+      "verseId": "ROM.4.20",
+      "start": 36,
+      "end": 48,
+      "surface": "kuşkulanmadı",
+      "lemma": "kuşkulanmak",
+      "meaning": {
+        "en": "did not doubt",
+        "ko": "의심하지 않았다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "kuşkulan",
+          "meaning": {
+            "en": "doubt / suspect",
+            "ko": "의심하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ma",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "dı",
+          "meaning": {
+            "en": "definite past",
+            "ko": "확정 과거"
+          },
+          "function": "PAST"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "tenseAspect": "past"
+      },
+      "role": {
+        "en": "Negative past",
+        "ko": "부정 과거"
+      },
+      "contextualExplanation": {
+        "en": "There is no overt third-person singular ending after -dı.",
+        "ko": "-dı 뒤 명시적 3인칭 단수 어미는 없습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "doubt / suspect",
+        "ko": "의심하다"
+      }
+    },
+    {
+      "id": "study-rom-4-20-21-word-3",
+      "verseId": "ROM.4.20",
+      "start": 59,
+      "end": 64,
+      "surface": "imanı",
+      "lemma": "iman",
+      "meaning": {
+        "en": "his faith",
+        "ko": "그의 믿음"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "iman",
+          "meaning": {
+            "en": "faith",
+            "ko": "믿음"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Possessed subject",
+        "ko": "소유 주어"
+      },
+      "contextualExplanation": {
+        "en": "Its position with güçlendi makes it the subject; the identical -ı shape could have other roles elsewhere.",
+        "ko": "güçlendi와 함께 주어이며 같은 -ı 모양은 다른 곳에서 다른 역할일 수 있습니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "faith",
+        "ko": "믿음"
+      }
+    },
+    {
+      "id": "study-rom-4-20-21-word-4",
+      "verseId": "ROM.4.21",
+      "start": 25,
+      "end": 34,
+      "surface": "getirecek",
+      "lemma": "getirmek",
+      "meaning": {
+        "en": "that will bring / fulfill",
+        "ko": "이룰"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "getir",
+          "meaning": {
+            "en": "bring",
+            "ko": "가져오다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ecek",
+          "meaning": {
+            "en": "future participle / nominalizer",
+            "ko": "미래 관계형·명사화"
+          },
+          "function": "FUTPART"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "future nominal/participial"
+      },
+      "role": {
+        "en": "Modifier of power",
+        "ko": "능력의 수식"
+      },
+      "contextualExplanation": {
+        "en": "Yerine getirmek means fulfill; this form modifies güç rather than ending the sentence.",
+        "ko": "yerine getirmek은 이행하다이고 이 형태는 문장을 끝내지 않고 güç를 꾸밉니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "bring",
+        "ko": "가져오다"
+      }
+    },
+    {
+      "id": "study-rom-4-20-21-word-5",
+      "verseId": "ROM.4.21",
+      "start": 58,
+      "end": 65,
+      "surface": "güvendi",
+      "lemma": "güvenmek",
+      "meaning": {
+        "en": "trusted",
+        "ko": "신뢰했다"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "güven",
+          "meaning": {
+            "en": "trust",
+            "ko": "신뢰하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "di",
+          "meaning": {
+            "en": "definite past",
+            "ko": "확정 과거"
+          },
+          "function": "PAST"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "tenseAspect": "past"
+      },
+      "role": {
+        "en": "Past matrix predicate",
+        "ko": "과거 상위 술어"
+      },
+      "contextualExplanation": {
+        "en": "It selects the dative content olduğuna.",
+        "ko": "여격 내용 olduğuna를 취합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "trust",
+        "ko": "신뢰하다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-rom-4-20-21-word-1-vocab",
+      "analysisId": "study-rom-4-20-21-word-1",
+      "lemma": "vaat",
+      "classification": "general",
+      "definitions": {
+        "en": "promise",
+        "ko": "약속"
+      },
+      "usageNotes": {
+        "en": "Tanrı’nın names whose promise; the case follows possession.",
+        "ko": "Tanrı’nın이 누구의 약속인지 밝히고 소유 뒤 격이 옵니다."
+      }
+    },
+    {
+      "id": "study-rom-4-20-21-word-2-vocab",
+      "analysisId": "study-rom-4-20-21-word-2",
+      "lemma": "kuşkulanmak",
+      "classification": "general",
+      "definitions": {
+        "en": "doubt / suspect",
+        "ko": "의심하다"
+      },
+      "usageNotes": {
+        "en": "There is no overt third-person singular ending after -dı.",
+        "ko": "-dı 뒤 명시적 3인칭 단수 어미는 없습니다."
+      }
+    },
+    {
+      "id": "study-rom-4-20-21-word-3-vocab",
+      "analysisId": "study-rom-4-20-21-word-3",
+      "lemma": "iman",
+      "classification": "biblical",
+      "definitions": {
+        "en": "faith",
+        "ko": "믿음"
+      },
+      "usageNotes": {
+        "en": "Its position with güçlendi makes it the subject; the identical -ı shape could have other roles elsewhere.",
+        "ko": "güçlendi와 함께 주어이며 같은 -ı 모양은 다른 곳에서 다른 역할일 수 있습니다."
+      }
+    },
+    {
+      "id": "study-rom-4-20-21-word-4-vocab",
+      "analysisId": "study-rom-4-20-21-word-4",
+      "lemma": "getirmek",
+      "classification": "general",
+      "definitions": {
+        "en": "bring",
+        "ko": "가져오다"
+      },
+      "usageNotes": {
+        "en": "Yerine getirmek means fulfill; this form modifies güç rather than ending the sentence.",
+        "ko": "yerine getirmek은 이행하다이고 이 형태는 문장을 끝내지 않고 güç를 꾸밉니다."
+      }
+    },
+    {
+      "id": "study-rom-4-20-21-word-5-vocab",
+      "analysisId": "study-rom-4-20-21-word-5",
+      "lemma": "güvenmek",
+      "classification": "general",
+      "definitions": {
+        "en": "trust",
+        "ko": "신뢰하다"
+      },
+      "usageNotes": {
+        "en": "It selects the dative content olduğuna.",
+        "ko": "여격 내용 olduğuna를 취합니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-rom-4-20-21-grammar-1",
+      "title": {
+        "en": "Same suffix shape, different function",
+        "ko": "같은 접사 모양·다른 기능"
+      },
+      "explanation": {
+        "en": "İmanı is his faith as subject; vaadini is possessed plus accusative object. Context and the full chain distinguish the functions.",
+        "ko": "imanı는 주어인 그의 믿음이고 vaadini는 소유·대격 목적어입니다. 문맥·전체 사슬로 기능을 구별합니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ROM.4.20",
+          "start": 0,
+          "end": 95
+        },
+        {
+          "verseId": "ROM.4.21",
+          "start": 0,
+          "end": 66
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-rom-4-20-21-grammar-2",
+      "title": {
+        "en": "Belief and evidence are distinct",
+        "ko": "믿음·증거 구별"
+      },
+      "explanation": {
+        "en": "The narrative reports Abraham’s trust. Use it to learn güvenmek plus dative, not as a reason to present uncertain historical claims as proven.",
+        "ko": "이야기는 아브라함의 신뢰를 보고합니다. güvenmek·여격을 배우되 불확실한 역사 주장을 증명된 것으로 제시하는 근거로 쓰지 마세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ROM.4.20",
+          "start": 0,
+          "end": 95
+        },
+        {
+          "verseId": "ROM.4.21",
+          "start": 0,
+          "end": 66
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-09"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Make one past sentence with güvenmek and one with kuşkulanmak, using their cases accurately.",
+    "ko": "격을 정확히 써서 güvenmek·kuşkulanmak 과거문을 하나씩 만드세요."
+  },
+  "modelResponse": {
+    "tr": "Arkadaşıma güvendim. Bu bilginin doğruluğundan kuşkulandım.",
+    "meaning": {
+      "en": "I trusted my friend. I doubted the accuracy of this information.",
+      "ko": "친구를 신뢰했습니다. 이 정보의 정확성을 의심했습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "ministry-09"
+  ],
+  "relatedReadingIds": [
+    "reading-Rom-4-20-21"
+  ],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-rom-4-20-21-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Romans 4:20, 21? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 로마서 4:20, 21인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-rom-4-20-21",
+          "passageId": "study-rom-4-20-21",
+          "explanation": {
+            "en": "This is the passage. Abraham did not doubt God’s promise through unbelief; rather his faith grew strong and he gave glory to God, fully trusting that God had the power to fulfill his promise. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 아브라함은 불신으로 하나님의 약속을 의심하지 않았고 믿음이 강해져 하나님을 높였으며 그분이 약속을 이룰 능력이 있음을 온전히 신뢰했습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-11-6",
+          "passageId": "study-heb-11-6",
+          "explanation": {
+            "en": "This is a different passage. Without faith it is impossible to please God. Whoever approaches him must believe that he exists and will reward those who seek him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 믿음 없이 하나님을 기쁘게 하는 것은 불가능합니다. 그분께 나아가는 이는 그분이 계시고 찾는 이들에게 상 주심을 믿어야 합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-gal-6-9-10",
+          "passageId": "study-gal-6-9-10",
+          "explanation": {
+            "en": "This is a different passage. Let us not grow weary in doing good; if we do not give up, we will reap in season. While we have opportunity, let us do good to everyone, especially members of the family of faith. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 선을 행하다 지치지 맙시다. 포기하지 않으면 때가 되어 거둘 것입니다. 기회가 있을 때 모든 이에게 특히 믿음의 가족에게 선을 행합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-2-11",
+          "passageId": "study-1pe-2-11",
+          "explanation": {
+            "en": "This is a different passage. Dear friends, as foreigners and guests in this world, avoid the desires of the self that wage war against the soul. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사랑하는 여러분, 이 세상에서 외국인·나그네인 여러분에게 영혼을 거슬러 싸우는 본성의 욕망을 피하라고 부탁합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-4-20-21"
+      ],
+      "explanations": {
+        "en": "This is the passage. Abraham did not doubt God’s promise through unbelief; rather his faith grew strong and he gave glory to God, fully trusting that God had the power to fulfill his promise. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 아브라함은 불신으로 하나님의 약속을 의심하지 않았고 믿음이 강해져 하나님을 높였으며 그분이 약속을 이룰 능력이 있음을 온전히 신뢰했습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-rom-4-20-21-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-rom-4-20-21",
+          "referenceId": "study-rom-4-20-21",
+          "explanation": {
+            "en": "This is the passage. Abraham did not doubt God’s promise through unbelief; rather his faith grew strong and he gave glory to God, fully trusting that God had the power to fulfill his promise. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 아브라함은 불신으로 하나님의 약속을 의심하지 않았고 믿음이 강해져 하나님을 높였으며 그분이 약속을 이룰 능력이 있음을 온전히 신뢰했습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-heb-11-6",
+          "referenceId": "study-heb-11-6",
+          "explanation": {
+            "en": "This is a different passage. Without faith it is impossible to please God. Whoever approaches him must believe that he exists and will reward those who seek him. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 믿음 없이 하나님을 기쁘게 하는 것은 불가능합니다. 그분께 나아가는 이는 그분이 계시고 찾는 이들에게 상 주심을 믿어야 합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-gal-6-9-10",
+          "referenceId": "study-gal-6-9-10",
+          "explanation": {
+            "en": "This is a different passage. Let us not grow weary in doing good; if we do not give up, we will reap in season. While we have opportunity, let us do good to everyone, especially members of the family of faith. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 선을 행하다 지치지 맙시다. 포기하지 않으면 때가 되어 거둘 것입니다. 기회가 있을 때 모든 이에게 특히 믿음의 가족에게 선을 행합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1pe-2-11",
+          "referenceId": "study-1pe-2-11",
+          "explanation": {
+            "en": "This is a different passage. Dear friends, as foreigners and guests in this world, avoid the desires of the self that wage war against the soul. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사랑하는 여러분, 이 세상에서 외국인·나그네인 여러분에게 영혼을 거슬러 싸우는 본성의 욕망을 피하라고 부탁합니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-4-20-21"
+      ],
+      "explanations": {
+        "en": "This is the passage. Abraham did not doubt God’s promise through unbelief; rather his faith grew strong and he gave glory to God, fully trusting that God had the power to fulfill his promise. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 아브라함은 불신으로 하나님의 약속을 의심하지 않았고 믿음이 강해져 하나님을 높였으며 그분이 약속을 이룰 능력이 있음을 온전히 신뢰했습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-rom-4-20-21-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “iman” in this passage?",
+        "ko": "이 본문에서 “iman”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-rom-4-20-21-word-3-vocab",
+          "label": {
+            "en": "faith",
+            "ko": "믿음"
+          },
+          "explanation": {
+            "en": "faith. Its position with güçlendi makes it the subject; the identical -ı shape could have other roles elsewhere.",
+            "ko": "믿음. güçlendi와 함께 주어이며 같은 -ı 모양은 다른 곳에서 다른 역할일 수 있습니다."
+          }
+        },
+        {
+          "id": "study-rom-4-20-21-word-1-vocab",
+          "label": {
+            "en": "promise",
+            "ko": "약속"
+          },
+          "explanation": {
+            "en": "That definition belongs to vaat. iman means faith here. Its position with güçlendi makes it the subject; the identical -ı shape could have other roles elsewhere.",
+            "ko": "그 뜻은 vaat입니다. 여기 iman는 믿음입니다. güçlendi와 함께 주어이며 같은 -ı 모양은 다른 곳에서 다른 역할일 수 있습니다."
+          }
+        },
+        {
+          "id": "study-rom-4-20-21-word-2-vocab",
+          "label": {
+            "en": "doubt / suspect",
+            "ko": "의심하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to kuşkulanmak. iman means faith here. Its position with güçlendi makes it the subject; the identical -ı shape could have other roles elsewhere.",
+            "ko": "그 뜻은 kuşkulanmak입니다. 여기 iman는 믿음입니다. güçlendi와 함께 주어이며 같은 -ı 모양은 다른 곳에서 다른 역할일 수 있습니다."
+          }
+        },
+        {
+          "id": "study-rom-4-20-21-word-4-vocab",
+          "label": {
+            "en": "bring",
+            "ko": "가져오다"
+          },
+          "explanation": {
+            "en": "That definition belongs to getirmek. iman means faith here. Its position with güçlendi makes it the subject; the identical -ı shape could have other roles elsewhere.",
+            "ko": "그 뜻은 getirmek입니다. 여기 iman는 믿음입니다. güçlendi와 함께 주어이며 같은 -ı 모양은 다른 곳에서 다른 역할일 수 있습니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-4-20-21-word-3-vocab"
+      ],
+      "explanations": {
+        "en": "Its position with güçlendi makes it the subject; the identical -ı shape could have other roles elsewhere.",
+        "ko": "güçlendi와 함께 주어이며 같은 -ı 모양은 다른 곳에서 다른 역할일 수 있습니다."
+      }
+    },
+    {
+      "id": "study-rom-4-20-21-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “vaadinden”, what is the function of “-den” here?",
+        "ko": "“vaadinden”에서 “-den”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from",
+            "ko": "탈격: ~에서·~로부터"
+          },
+          "explanation": {
+            "en": "Ablative complement of doubt. Tanrı’nın names whose promise; the case follows possession.",
+            "ko": "의심의 탈격 보어. Tanrı’nın이 누구의 약속인지 밝히고 소유 뒤 격이 옵니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Ablative complement of doubt. Tanrı’nın names whose promise; the case follows possession.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 의심의 탈격 보어. Tanrı’nın이 누구의 약속인지 밝히고 소유 뒤 격이 옵니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Ablative complement of doubt. Tanrı’nın names whose promise; the case follows possession.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 의심의 탈격 보어. Tanrı’nın이 누구의 약속인지 밝히고 소유 뒤 격이 옵니다."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Ablative complement of doubt. Tanrı’nın names whose promise; the case follows possession.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 의심의 탈격 보어. Tanrı’nın이 누구의 약속인지 밝히고 소유 뒤 격이 옵니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ABL"
+      ],
+      "explanations": {
+        "en": "Tanrı’nın names whose promise; the case follows possession.",
+        "ko": "Tanrı’nın이 누구의 약속인지 밝히고 소유 뒤 격이 옵니다."
+      }
+    }
+  ]
+}

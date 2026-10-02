@@ -1,0 +1,677 @@
+{
+  "id": "study-lev-19-11",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Leviticus 19:11 through its clause structure and the forms Çalmayacaksınız / yapmayacaksınız.",
+    "ko": "레위기 19:11의 절 구조와 Çalmayacaksınız / yapmayacaksınız 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Do not steal, deceive, or lie to one another.",
+    "ko": "훔치거나 속이거나 서로 거짓말하지 마세요."
+  },
+  "clauses": [
+    {
+      "id": "study-lev-19-11-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "LEV.19.11",
+          "start": 0,
+          "end": 78
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Three negative future forms express commands in this legal context.",
+        "ko": "법률 문맥에서 세 부정 미래형이 명령을 나타냅니다."
+      },
+      "literalGloss": {
+        "en": "steal-not-will-you / deceit do-not-will-you / each-other-to lie say-not-will-you",
+        "ko": "훔치지 않을 것이다 여러분 / 속임을 하지 않을 것이다 여러분 / 서로에게 거짓말하지 않을 것이다 여러분"
+      },
+      "explanation": {
+        "en": "These are future forms, not ordinary imperative morphology, but they function as prohibitions in the law. Hile yapmak and yalan söylemek are compound expressions. Birbirinize is the recipient of speech, dative. Opening quotation marks belong to the source excerpt and are retained.",
+        "ko": "형태는 미래이며 보통 명령법 어미가 아니지만 율법에서 금지로 기능합니다. hile yapmak·yalan söylemek은 복합 표현이고 서로 말의 청자인 birbirinize는 여격입니다. 인용 시작 부호는 출처 일부라 유지합니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-lev-19-11-word-1",
+      "verseId": "LEV.19.11",
+      "start": 3,
+      "end": 18,
+      "surface": "Çalmayacaksınız",
+      "lemma": "çalmak",
+      "meaning": {
+        "en": "you shall not steal",
+        "ko": "훔치지 말라"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "Çal",
+          "meaning": {
+            "en": "steal; also play an instrument / ring",
+            "ko": "훔치다; 악기를 연주하다·울리다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ma",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "acak",
+          "meaning": {
+            "en": "future",
+            "ko": "미래"
+          },
+          "function": "FUT"
+        },
+        {
+          "form": "sınız",
+          "meaning": {
+            "en": "second-person plural / polite address",
+            "ko": "2인칭 복수·공손한 청자"
+          },
+          "function": "PERSON2P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "tenseAspect": "future",
+        "person": "2pl/polite"
+      },
+      "role": {
+        "en": "Negative future with command function",
+        "ko": "명령 기능의 부정 미래"
+      },
+      "contextualExplanation": {
+        "en": "Çalmak also means play an instrument; context chooses steal here.",
+        "ko": "çalmak은 악기 연주도 뜻하지만 문맥이 훔침을 선택합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "steal; also play an instrument / ring",
+        "ko": "훔치다; 악기를 연주하다·울리다"
+      }
+    },
+    {
+      "id": "study-lev-19-11-word-2",
+      "verseId": "LEV.19.11",
+      "start": 25,
+      "end": 40,
+      "surface": "yapmayacaksınız",
+      "lemma": "yapmak",
+      "meaning": {
+        "en": "you shall not do",
+        "ko": "하지 말라"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yap",
+          "meaning": {
+            "en": "do / make",
+            "ko": "하다·만들다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ma",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "acak",
+          "meaning": {
+            "en": "future",
+            "ko": "미래"
+          },
+          "function": "FUT"
+        },
+        {
+          "form": "sınız",
+          "meaning": {
+            "en": "second-person plural / polite address",
+            "ko": "2인칭 복수·공손한 청자"
+          },
+          "function": "PERSON2P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "tenseAspect": "future",
+        "person": "2pl/polite"
+      },
+      "role": {
+        "en": "Negative future",
+        "ko": "부정 미래"
+      },
+      "contextualExplanation": {
+        "en": "With hile this means practice deception, not simply make an object.",
+        "ko": "hile와 함께 속이다이며 단순히 물건 만들기가 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "do / make",
+        "ko": "하다·만들다"
+      }
+    },
+    {
+      "id": "study-lev-19-11-word-3",
+      "verseId": "LEV.19.11",
+      "start": 42,
+      "end": 53,
+      "surface": "Birbirinize",
+      "lemma": "birbiri",
+      "meaning": {
+        "en": "to one another",
+        "ko": "서로에게"
+      },
+      "partOfSpeech": {
+        "en": "Pronoun / pronominal expression",
+        "ko": "대명사·대명 표현"
+      },
+      "segments": [
+        {
+          "form": "Birbir",
+          "meaning": {
+            "en": "one another",
+            "ko": "서로"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "iniz",
+          "meaning": {
+            "en": "second-person plural possessive",
+            "ko": "2인칭 복수 소유"
+          },
+          "function": "P2P"
+        },
+        {
+          "form": "e",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "2pl/polite",
+        "case": "dative"
+      },
+      "role": {
+        "en": "Reciprocal recipient",
+        "ko": "상호 수혜·청자"
+      },
+      "contextualExplanation": {
+        "en": "Söylemek directs speech to a dative addressee.",
+        "ko": "söylemek은 여격 청자에게 말을 합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "one another",
+        "ko": "서로"
+      }
+    },
+    {
+      "id": "study-lev-19-11-word-4",
+      "verseId": "LEV.19.11",
+      "start": 60,
+      "end": 77,
+      "surface": "söylemeyeceksiniz",
+      "lemma": "söylemek",
+      "meaning": {
+        "en": "you shall not say",
+        "ko": "말하지 말라"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "söyle",
+          "meaning": {
+            "en": "say / tell",
+            "ko": "말하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "me",
+          "meaning": {
+            "en": "negation",
+            "ko": "부정"
+          },
+          "function": "NEG"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "ecek",
+          "meaning": {
+            "en": "future",
+            "ko": "미래"
+          },
+          "function": "FUT"
+        },
+        {
+          "form": "siniz",
+          "meaning": {
+            "en": "second-person plural / polite address",
+            "ko": "2인칭 복수·공손한 청자"
+          },
+          "function": "PERSON2P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "polarity": "negative",
+        "tenseAspect": "future",
+        "person": "2pl/polite"
+      },
+      "role": {
+        "en": "Negative future in a speech expression",
+        "ko": "말 표현의 부정 미래"
+      },
+      "contextualExplanation": {
+        "en": "Yalan is an unmarked noun before söylemek: tell a lie.",
+        "ko": "yalan은 söylemek 앞의 무표지 명사로 거짓말하다입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "say / tell",
+        "ko": "말하다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-lev-19-11-word-1-vocab",
+      "analysisId": "study-lev-19-11-word-1",
+      "lemma": "çalmak",
+      "classification": "general",
+      "definitions": {
+        "en": "steal; also play an instrument / ring",
+        "ko": "훔치다; 악기를 연주하다·울리다"
+      },
+      "usageNotes": {
+        "en": "Çalmak also means play an instrument; context chooses steal here.",
+        "ko": "çalmak은 악기 연주도 뜻하지만 문맥이 훔침을 선택합니다."
+      }
+    },
+    {
+      "id": "study-lev-19-11-word-2-vocab",
+      "analysisId": "study-lev-19-11-word-2",
+      "lemma": "yapmak",
+      "classification": "general",
+      "definitions": {
+        "en": "do / make",
+        "ko": "하다·만들다"
+      },
+      "usageNotes": {
+        "en": "With hile this means practice deception, not simply make an object.",
+        "ko": "hile와 함께 속이다이며 단순히 물건 만들기가 아닙니다."
+      }
+    },
+    {
+      "id": "study-lev-19-11-word-3-vocab",
+      "analysisId": "study-lev-19-11-word-3",
+      "lemma": "birbiri",
+      "classification": "general",
+      "definitions": {
+        "en": "one another",
+        "ko": "서로"
+      },
+      "usageNotes": {
+        "en": "Söylemek directs speech to a dative addressee.",
+        "ko": "söylemek은 여격 청자에게 말을 합니다."
+      }
+    },
+    {
+      "id": "study-lev-19-11-word-4-vocab",
+      "analysisId": "study-lev-19-11-word-4",
+      "lemma": "söylemek",
+      "classification": "general",
+      "definitions": {
+        "en": "say / tell",
+        "ko": "말하다"
+      },
+      "usageNotes": {
+        "en": "Yalan is an unmarked noun before söylemek: tell a lie.",
+        "ko": "yalan은 söylemek 앞의 무표지 명사로 거짓말하다입니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-lev-19-11-grammar-1",
+      "title": {
+        "en": "Morphological future, pragmatic prohibition",
+        "ko": "형태상 미래·화용상 금지"
+      },
+      "explanation": {
+        "en": "-AcAk marks future morphology. A law can use that form to issue a command; distinguish form from the function of the utterance.",
+        "ko": "-AcAk은 미래 형태입니다. 법은 그 형태로 명령할 수 있으므로 형태와 발화 기능을 구별하세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "LEV.19.11",
+          "start": 0,
+          "end": 78
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-lev-19-11-grammar-2",
+      "title": {
+        "en": "Verb meaning from context",
+        "ko": "문맥의 동사 뜻"
+      },
+      "explanation": {
+        "en": "Çalmak can mean steal, play, or ring in different constructions. Do not export the theft meaning into every appearance of this lemma.",
+        "ko": "çalmak은 구문에 따라 훔치다·연주하다·울리다입니다. 모든 용례에 훔치다를 적용하지 마세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "LEV.19.11",
+          "start": 0,
+          "end": 78
+        }
+      ],
+      "relatedLessonIds": []
+    }
+  ],
+  "independentTask": {
+    "en": "Write a personal commitment in negative future and contrast it with a polite negative command.",
+    "ko": "부정 미래로 개인 약속을 쓰고 공손한 부정 명령과 대조하세요."
+  },
+  "modelResponse": {
+    "tr": "Bilmediğim bir şeyi kesinmiş gibi söylemeyeceğim. Lütfen kaynağı kontrol edin.",
+    "meaning": {
+      "en": "I will not state something I do not know as certain. Please check the source.",
+      "ko": "모르는 것을 확실한 듯 말하지 않겠습니다. 출처를 확인해주세요."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-lev-19-11-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Leviticus 19:11? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 레위기 19:11인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-lev-19-11",
+          "passageId": "study-lev-19-11",
+          "explanation": {
+            "en": "This is the passage. Do not steal, deceive, or lie to one another. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 훔치거나 속이거나 서로 거짓말하지 마세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1jn-3-18",
+          "passageId": "study-1jn-3-18",
+          "explanation": {
+            "en": "This is a different passage. Dear children, let us love through action and sincerity rather than only words and speech. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사랑하는 자녀들아, 말과 혀만이 아니라 행동과 진실함으로 사랑합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-eph-5-3",
+          "passageId": "study-eph-5-3",
+          "explanation": {
+            "en": "This is a different passage. Sexual immorality, impurity, or greed should not even be mentioned among you; such things do not suit holy people. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분 사이에서 성적 부도덕·불결함·탐욕이 언급조차 되지 않게 하세요. 거룩한 이들에게 어울리지 않습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-5-16",
+          "passageId": "study-mat-5-16",
+          "explanation": {
+            "en": "This is a different passage. Let your light shine before people so that, seeing your good deeds, they may glorify your Father in heaven. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 사람들 앞에서 여러분의 빛이 비치게 하여 그들이 선한 일을 보고 하늘의 아버지를 높이게 하세요. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-lev-19-11"
+      ],
+      "explanations": {
+        "en": "This is the passage. Do not steal, deceive, or lie to one another. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 훔치거나 속이거나 서로 거짓말하지 마세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-lev-19-11-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-lev-19-11",
+          "referenceId": "study-lev-19-11",
+          "explanation": {
+            "en": "This is the passage. Do not steal, deceive, or lie to one another. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 훔치거나 속이거나 서로 거짓말하지 마세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1jn-3-18",
+          "referenceId": "study-1jn-3-18",
+          "explanation": {
+            "en": "This is a different passage. Dear children, let us love through action and sincerity rather than only words and speech. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 사랑하는 자녀들아, 말과 혀만이 아니라 행동과 진실함으로 사랑합시다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-eph-5-3",
+          "referenceId": "study-eph-5-3",
+          "explanation": {
+            "en": "This is a different passage. Sexual immorality, impurity, or greed should not even be mentioned among you; such things do not suit holy people. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 여러분 사이에서 성적 부도덕·불결함·탐욕이 언급조차 되지 않게 하세요. 거룩한 이들에게 어울리지 않습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-mat-5-16",
+          "referenceId": "study-mat-5-16",
+          "explanation": {
+            "en": "This is a different passage. Let your light shine before people so that, seeing your good deeds, they may glorify your Father in heaven. Compare the actual Turkish clause structure and vocabulary, using the reading above.",
+            "ko": "다른 본문입니다. 사람들 앞에서 여러분의 빛이 비치게 하여 그들이 선한 일을 보고 하늘의 아버지를 높이게 하세요. 위 읽기를 참고하여 실제 터키어 절 구조와 어휘를 비교하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-lev-19-11"
+      ],
+      "explanations": {
+        "en": "This is the passage. Do not steal, deceive, or lie to one another. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 훔치거나 속이거나 서로 거짓말하지 마세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-lev-19-11-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “çalmak” in this passage?",
+        "ko": "이 본문에서 “çalmak”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-lev-19-11-word-1-vocab",
+          "label": {
+            "en": "steal; also play an instrument / ring",
+            "ko": "훔치다; 악기를 연주하다·울리다"
+          },
+          "explanation": {
+            "en": "steal; also play an instrument / ring. Çalmak also means play an instrument; context chooses steal here.",
+            "ko": "훔치다; 악기를 연주하다·울리다. çalmak은 악기 연주도 뜻하지만 문맥이 훔침을 선택합니다."
+          }
+        },
+        {
+          "id": "study-lev-19-11-word-2-vocab",
+          "label": {
+            "en": "do / make",
+            "ko": "하다·만들다"
+          },
+          "explanation": {
+            "en": "That definition belongs to yapmak. çalmak means steal; also play an instrument / ring here. Çalmak also means play an instrument; context chooses steal here.",
+            "ko": "그 뜻은 yapmak입니다. 여기 çalmak는 훔치다; 악기를 연주하다·울리다입니다. çalmak은 악기 연주도 뜻하지만 문맥이 훔침을 선택합니다."
+          }
+        },
+        {
+          "id": "study-lev-19-11-word-3-vocab",
+          "label": {
+            "en": "one another",
+            "ko": "서로"
+          },
+          "explanation": {
+            "en": "That definition belongs to birbiri. çalmak means steal; also play an instrument / ring here. Çalmak also means play an instrument; context chooses steal here.",
+            "ko": "그 뜻은 birbiri입니다. 여기 çalmak는 훔치다; 악기를 연주하다·울리다입니다. çalmak은 악기 연주도 뜻하지만 문맥이 훔침을 선택합니다."
+          }
+        },
+        {
+          "id": "study-lev-19-11-word-4-vocab",
+          "label": {
+            "en": "say / tell",
+            "ko": "말하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to söylemek. çalmak means steal; also play an instrument / ring here. Çalmak also means play an instrument; context chooses steal here.",
+            "ko": "그 뜻은 söylemek입니다. 여기 çalmak는 훔치다; 악기를 연주하다·울리다입니다. çalmak은 악기 연주도 뜻하지만 문맥이 훔침을 선택합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-lev-19-11-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Çalmak also means play an instrument; context chooses steal here.",
+        "ko": "çalmak은 악기 연주도 뜻하지만 문맥이 훔침을 선택합니다."
+      }
+    },
+    {
+      "id": "study-lev-19-11-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “Birbirinize”, what is the function of “-e” here?",
+        "ko": "“Birbirinize”에서 “-e”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "explanation": {
+            "en": "Reciprocal recipient. Söylemek directs speech to a dative addressee.",
+            "ko": "상호 수혜·청자. söylemek은 여격 청자에게 말을 합니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Reciprocal recipient. Söylemek directs speech to a dative addressee.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 상호 수혜·청자. söylemek은 여격 청자에게 말을 합니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Reciprocal recipient. Söylemek directs speech to a dative addressee.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 상호 수혜·청자. söylemek은 여격 청자에게 말을 합니다."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Reciprocal recipient. Söylemek directs speech to a dative addressee.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 상호 수혜·청자. söylemek은 여격 청자에게 말을 합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "DAT"
+      ],
+      "explanations": {
+        "en": "Söylemek directs speech to a dative addressee.",
+        "ko": "söylemek은 여격 청자에게 말을 합니다."
+      }
+    }
+  ]
+}

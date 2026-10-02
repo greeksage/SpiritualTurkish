@@ -1,0 +1,727 @@
+{
+  "id": "study-1pe-5-5-6",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand 1 Peter 5:5, 6 through its clause structure and the forms ihtiyarlara / alçakgönüllülüğü.",
+    "ko": "베드로전서 5:5, 6의 절 구조와 ihtiyarlara / alçakgönüllülüğü 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Young people should submit to elders, and all should clothe themselves in humility toward one another. God opposes the proud and gives grace to the humble. Humble yourselves under God’s mighty hand so he may lift you up at the fitting time.",
+    "ko": "젊은 이들은 장로들에게 순종하고 모두 서로 겸손을 입으세요. 하나님은 교만한 이를 대적하고 겸손한 이에게 은혜를 주십니다. 알맞은 때 높여주시도록 그분의 능한 손 아래 자신을 낮추세요."
+  },
+  "clauses": [
+    {
+      "id": "study-1pe-5-5-6-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "1PE.5.5",
+          "start": 0,
+          "end": 164
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Address, instruction, and a quoted reason appear within one numbered verse.",
+        "ko": "한 번호의 절 안에 호칭·지시·인용된 근거가 있습니다."
+      },
+      "literalGloss": {
+        "en": "young ones / elders-to dependent be / all-you each-other-to humility-object put-on / God proud-ones-to opposed-is / humble-ones-to grants-grace",
+        "ko": "젊은 이들 / 장로들에게 순종하라 / 모두 서로에게 겸손을 입어라 / 하나님은 교만한 이들에게 대적한다 / 겸손한 이들에게 은혜를 주신다"
+      },
+      "explanation": {
+        "en": "İhtiyar can mean an old person, but the church context points to elders. Kuşanmak uses clothing/equipment imagery with humility as object. The quoted line has parallel dative plurals, kibirlilere and alçakgönüllülere.",
+        "ko": "ihtiyar는 노인을 뜻할 수 있지만 교회 문맥에서는 장로를 가리킵니다. kuşanmak은 겸손을 목적어로 옷·장비 이미지를 씁니다. 인용행의 kibirlilere·alçakgönüllülere는 나란한 여격 복수입니다."
+      }
+    },
+    {
+      "id": "study-1pe-5-5-6-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "1PE.5.6",
+          "start": 0,
+          "end": 86
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Humbling oneself is linked to God’s lifting at a fitting time.",
+        "ko": "자신을 낮춤이 알맞은 때 하나님의 높이심에 연결됩니다."
+      },
+      "literalGloss": {
+        "en": "suitable time-in you-object lift-his for / God’s mighty hand under / yourselves humble",
+        "ko": "알맞은 때 여러분을 높이심을 위해 / 하나님의 능한 손 아래 / 자신들을 낮추라"
+      },
+      "explanation": {
+        "en": "Yüceltmesi is a verbal noun with God as subject in context. İçin makes it purpose. Altında contains possession plus locative; kendinizi is the reflexive object of alçaltın. This does not authorize abusive human control.",
+        "ko": "yüceltmesi는 문맥상 하나님이 주어인 동사 명사형이고 için이 목적을 만듭니다. altında는 소유·처소격이며 kendinizi는 alçaltın의 재귀 목적어입니다. 사람의 학대적 통제를 허용하지 않습니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-1pe-5-5-6-word-1",
+      "verseId": "1PE.5.5",
+      "start": 19,
+      "end": 30,
+      "surface": "ihtiyarlara",
+      "lemma": "ihtiyar",
+      "meaning": {
+        "en": "to the elders",
+        "ko": "장로들에게"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "ihtiyar",
+          "meaning": {
+            "en": "elder / elderly person",
+            "ko": "장로·노인"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "lar",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "a",
+          "meaning": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "function": "DAT"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "number": "plural",
+        "case": "dative"
+      },
+      "role": {
+        "en": "Dative complement",
+        "ko": "여격 보어"
+      },
+      "contextualExplanation": {
+        "en": "Bağımlı olmak takes a dative relation; distinguish church elder from every older person.",
+        "ko": "bağımlı olmak은 여격 관계를 취하며 교회 장로와 모든 연장자를 구별하세요."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "elder / elderly person",
+        "ko": "장로·노인"
+      }
+    },
+    {
+      "id": "study-1pe-5-5-6-word-2",
+      "verseId": "1PE.5.5",
+      "start": 71,
+      "end": 87,
+      "surface": "alçakgönüllülüğü",
+      "lemma": "alçakgönüllülük",
+      "meaning": {
+        "en": "humility (object)",
+        "ko": "겸손을"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "alçakgönüllülüğ",
+          "meaning": {
+            "en": "humility",
+            "ko": "겸손"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ü",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "alçakgönüllülük → alçakgönüllülüğ-",
+          "ko": "alçakgönüllülük가 alçakgönüllülüğ-로 변합니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Metaphorical object of putting on",
+        "ko": "입음의 비유적 목적어"
+      },
+      "contextualExplanation": {
+        "en": "The final k softens before accusative; humility is what is put on.",
+        "ko": "대격 앞에서 마지막 k가 ğ로 변하고 겸손이 입는 대상입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "humility",
+        "ko": "겸손"
+      }
+    },
+    {
+      "id": "study-1pe-5-5-6-word-3",
+      "verseId": "1PE.5.6",
+      "start": 19,
+      "end": 29,
+      "surface": "yüceltmesi",
+      "lemma": "yüceltmek",
+      "meaning": {
+        "en": "his lifting up",
+        "ko": "그분의 높이심"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "yücelt",
+          "meaning": {
+            "en": "exalt / glorify",
+            "ko": "높이다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "me",
+          "meaning": {
+            "en": "verbal noun",
+            "ko": "동사 명사형"
+          },
+          "function": "VN"
+        },
+        {
+          "form": "si",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "verbal noun",
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Purpose verbal noun",
+        "ko": "목적 동사 명사형"
+      },
+      "contextualExplanation": {
+        "en": "-si marks the understood subject God, not an imperative to the listeners.",
+        "ko": "-si는 생략 주어 하나님이며 청자를 향한 명령이 아닙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "exalt / glorify",
+        "ko": "높이다"
+      }
+    },
+    {
+      "id": "study-1pe-5-5-6-word-4",
+      "verseId": "1PE.5.6",
+      "start": 59,
+      "end": 66,
+      "surface": "altında",
+      "lemma": "alt",
+      "meaning": {
+        "en": "under his hand",
+        "ko": "그 손 아래"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "alt",
+          "meaning": {
+            "en": "underside / below",
+            "ko": "아래"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "n",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "da",
+          "meaning": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "function": "LOC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3",
+        "case": "locative"
+      },
+      "role": {
+        "en": "Possessed location expression",
+        "ko": "소유 위치 표현"
+      },
+      "contextualExplanation": {
+        "en": "Eli supplies what it is under.",
+        "ko": "eli가 무엇의 아래인지 정합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "underside / below",
+        "ko": "아래"
+      }
+    },
+    {
+      "id": "study-1pe-5-5-6-word-5",
+      "verseId": "1PE.5.6",
+      "start": 77,
+      "end": 85,
+      "surface": "alçaltın",
+      "lemma": "alçaltmak",
+      "meaning": {
+        "en": "humble / lower (plural)",
+        "ko": "낮추세요"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "alçalt",
+          "meaning": {
+            "en": "lower / humble",
+            "ko": "낮추다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ın",
+          "meaning": {
+            "en": "plural / polite imperative",
+            "ko": "복수·공손한 명령"
+          },
+          "function": "IMP2P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "mood": "plural/polite imperative"
+      },
+      "role": {
+        "en": "Command with reflexive object",
+        "ko": "재귀 목적어 명령"
+      },
+      "contextualExplanation": {
+        "en": "Kendinizi names yourselves as what is lowered.",
+        "ko": "kendinizi가 낮추는 대상인 자신들을 밝힙니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "lower / humble",
+        "ko": "낮추다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-1pe-5-5-6-word-1-vocab",
+      "analysisId": "study-1pe-5-5-6-word-1",
+      "lemma": "ihtiyar",
+      "classification": "biblical",
+      "definitions": {
+        "en": "elder / elderly person",
+        "ko": "장로·노인"
+      },
+      "usageNotes": {
+        "en": "Bağımlı olmak takes a dative relation; distinguish church elder from every older person.",
+        "ko": "bağımlı olmak은 여격 관계를 취하며 교회 장로와 모든 연장자를 구별하세요."
+      }
+    },
+    {
+      "id": "study-1pe-5-5-6-word-2-vocab",
+      "analysisId": "study-1pe-5-5-6-word-2",
+      "lemma": "alçakgönüllülük",
+      "classification": "general",
+      "definitions": {
+        "en": "humility",
+        "ko": "겸손"
+      },
+      "usageNotes": {
+        "en": "The final k softens before accusative; humility is what is put on.",
+        "ko": "대격 앞에서 마지막 k가 ğ로 변하고 겸손이 입는 대상입니다."
+      }
+    },
+    {
+      "id": "study-1pe-5-5-6-word-3-vocab",
+      "analysisId": "study-1pe-5-5-6-word-3",
+      "lemma": "yüceltmek",
+      "classification": "general",
+      "definitions": {
+        "en": "exalt / glorify",
+        "ko": "높이다"
+      },
+      "usageNotes": {
+        "en": "-si marks the understood subject God, not an imperative to the listeners.",
+        "ko": "-si는 생략 주어 하나님이며 청자를 향한 명령이 아닙니다."
+      }
+    },
+    {
+      "id": "study-1pe-5-5-6-word-4-vocab",
+      "analysisId": "study-1pe-5-5-6-word-4",
+      "lemma": "alt",
+      "classification": "general",
+      "definitions": {
+        "en": "underside / below",
+        "ko": "아래"
+      },
+      "usageNotes": {
+        "en": "Eli supplies what it is under.",
+        "ko": "eli가 무엇의 아래인지 정합니다."
+      }
+    },
+    {
+      "id": "study-1pe-5-5-6-word-5-vocab",
+      "analysisId": "study-1pe-5-5-6-word-5",
+      "lemma": "alçaltmak",
+      "classification": "general",
+      "definitions": {
+        "en": "lower / humble",
+        "ko": "낮추다"
+      },
+      "usageNotes": {
+        "en": "Kendinizi names yourselves as what is lowered.",
+        "ko": "kendinizi가 낮추는 대상인 자신들을 밝힙니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-1pe-5-5-6-grammar-1",
+      "title": {
+        "en": "A verbal noun is not a command",
+        "ko": "동사 명사형과 명령 구별"
+      },
+      "explanation": {
+        "en": "Yüceltmesi için means so that he may lift up. The finite command is alçaltın. Person and clause function must be read together.",
+        "ko": "yüceltmesi için은 그분이 높이시도록이고 독립 명령은 alçaltın입니다. 인칭과 절 기능을 함께 읽어야 합니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "1PE.5.5",
+          "start": 0,
+          "end": 164
+        },
+        {
+          "verseId": "1PE.5.6",
+          "start": 0,
+          "end": 86
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-1pe-5-5-6-grammar-2",
+      "title": {
+        "en": "Metaphorical verbs and concrete roots",
+        "ko": "비유 동사·구체 어근"
+      },
+      "explanation": {
+        "en": "Kuşanmak ordinarily means put on/equip oneself. Its object here is an abstract quality. Explain the image before offering a natural translation.",
+        "ko": "kuşanmak은 보통 입다·장비를 갖추다이고 여기 목적어는 추상 성품입니다. 자연 번역 전에 이미지를 설명하세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "1PE.5.5",
+          "start": 0,
+          "end": 164
+        },
+        {
+          "verseId": "1PE.5.6",
+          "start": 0,
+          "end": 86
+        }
+      ],
+      "relatedLessonIds": []
+    }
+  ],
+  "independentTask": {
+    "en": "Use a polite command with a reflexive object and explain one clothing metaphor.",
+    "ko": "재귀 목적어의 공손한 명령을 쓰고 옷 비유 하나를 설명하세요."
+  },
+  "modelResponse": {
+    "tr": "Kendinizi rahat hissedin. Sorularınızı özgürce sorabilirsiniz.",
+    "meaning": {
+      "en": "Please feel comfortable. You may ask your questions freely.",
+      "ko": "편하게 계세요. 질문을 자유롭게 하셔도 됩니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-1pe-5-5-6-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to 1 Peter 5:5, 6? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 베드로전서 5:5, 6인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-1pe-5-5-6",
+          "passageId": "study-1pe-5-5-6",
+          "explanation": {
+            "en": "This is the passage. Young people should submit to elders, and all should clothe themselves in humility toward one another. God opposes the proud and gives grace to the humble. Humble yourselves under God’s mighty hand so he may lift you up at the fitting time. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 젊은 이들은 장로들에게 순종하고 모두 서로 겸손을 입으세요. 하나님은 교만한 이를 대적하고 겸손한 이에게 은혜를 주십니다. 알맞은 때 높여주시도록 그분의 능한 손 아래 자신을 낮추세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-php-2-3-4",
+          "passageId": "study-php-2-3-4",
+          "explanation": {
+            "en": "This is a different passage. Do nothing out of selfish ambition or empty boasting. In humility, regard another as above oneself; care for others’ interests as well as one’s own. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 이기적 욕심이나 헛된 자랑으로 아무것도 하지 마세요. 겸손히 다른 이를 자신보다 높게 여기며 자기 이익만이 아니라 다른 이의 이익도 돌보세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-13-34-35",
+          "passageId": "study-jhn-13-34-35",
+          "explanation": {
+            "en": "This is a different passage. I give you a new command: love one another as I have loved you. By your love for one another, everyone will recognize that you are my disciples. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 새 계명을 줍니다. 내가 여러분을 사랑한 것처럼 서로 사랑하세요. 서로 사랑하면 모든 사람이 여러분이 나의 제자임을 알 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-4-20-21",
+          "passageId": "study-rom-4-20-21",
+          "explanation": {
+            "en": "This is a different passage. Abraham did not doubt God’s promise through unbelief; rather his faith grew strong and he gave glory to God, fully trusting that God had the power to fulfill his promise. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 아브라함은 불신으로 하나님의 약속을 의심하지 않았고 믿음이 강해져 하나님을 높였으며 그분이 약속을 이룰 능력이 있음을 온전히 신뢰했습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-1pe-5-5-6"
+      ],
+      "explanations": {
+        "en": "This is the passage. Young people should submit to elders, and all should clothe themselves in humility toward one another. God opposes the proud and gives grace to the humble. Humble yourselves under God’s mighty hand so he may lift you up at the fitting time. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 젊은 이들은 장로들에게 순종하고 모두 서로 겸손을 입으세요. 하나님은 교만한 이를 대적하고 겸손한 이에게 은혜를 주십니다. 알맞은 때 높여주시도록 그분의 능한 손 아래 자신을 낮추세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-1pe-5-5-6-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-1pe-5-5-6",
+          "referenceId": "study-1pe-5-5-6",
+          "explanation": {
+            "en": "This is the passage. Young people should submit to elders, and all should clothe themselves in humility toward one another. God opposes the proud and gives grace to the humble. Humble yourselves under God’s mighty hand so he may lift you up at the fitting time. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 젊은 이들은 장로들에게 순종하고 모두 서로 겸손을 입으세요. 하나님은 교만한 이를 대적하고 겸손한 이에게 은혜를 주십니다. 알맞은 때 높여주시도록 그분의 능한 손 아래 자신을 낮추세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-php-2-3-4",
+          "referenceId": "study-php-2-3-4",
+          "explanation": {
+            "en": "This is a different passage. Do nothing out of selfish ambition or empty boasting. In humility, regard another as above oneself; care for others’ interests as well as one’s own. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 이기적 욕심이나 헛된 자랑으로 아무것도 하지 마세요. 겸손히 다른 이를 자신보다 높게 여기며 자기 이익만이 아니라 다른 이의 이익도 돌보세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-13-34-35",
+          "referenceId": "study-jhn-13-34-35",
+          "explanation": {
+            "en": "This is a different passage. I give you a new command: love one another as I have loved you. By your love for one another, everyone will recognize that you are my disciples. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 새 계명을 줍니다. 내가 여러분을 사랑한 것처럼 서로 사랑하세요. 서로 사랑하면 모든 사람이 여러분이 나의 제자임을 알 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-4-20-21",
+          "referenceId": "study-rom-4-20-21",
+          "explanation": {
+            "en": "This is a different passage. Abraham did not doubt God’s promise through unbelief; rather his faith grew strong and he gave glory to God, fully trusting that God had the power to fulfill his promise. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 아브라함은 불신으로 하나님의 약속을 의심하지 않았고 믿음이 강해져 하나님을 높였으며 그분이 약속을 이룰 능력이 있음을 온전히 신뢰했습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-1pe-5-5-6"
+      ],
+      "explanations": {
+        "en": "This is the passage. Young people should submit to elders, and all should clothe themselves in humility toward one another. God opposes the proud and gives grace to the humble. Humble yourselves under God’s mighty hand so he may lift you up at the fitting time. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 젊은 이들은 장로들에게 순종하고 모두 서로 겸손을 입으세요. 하나님은 교만한 이를 대적하고 겸손한 이에게 은혜를 주십니다. 알맞은 때 높여주시도록 그분의 능한 손 아래 자신을 낮추세요. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-1pe-5-5-6-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “ihtiyar” in this passage?",
+        "ko": "이 본문에서 “ihtiyar”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-1pe-5-5-6-word-1-vocab",
+          "label": {
+            "en": "elder / elderly person",
+            "ko": "장로·노인"
+          },
+          "explanation": {
+            "en": "elder / elderly person. Bağımlı olmak takes a dative relation; distinguish church elder from every older person.",
+            "ko": "장로·노인. bağımlı olmak은 여격 관계를 취하며 교회 장로와 모든 연장자를 구별하세요."
+          }
+        },
+        {
+          "id": "study-1pe-5-5-6-word-2-vocab",
+          "label": {
+            "en": "humility",
+            "ko": "겸손"
+          },
+          "explanation": {
+            "en": "That definition belongs to alçakgönüllülük. ihtiyar means elder / elderly person here. Bağımlı olmak takes a dative relation; distinguish church elder from every older person.",
+            "ko": "그 뜻은 alçakgönüllülük입니다. 여기 ihtiyar는 장로·노인입니다. bağımlı olmak은 여격 관계를 취하며 교회 장로와 모든 연장자를 구별하세요."
+          }
+        },
+        {
+          "id": "study-1pe-5-5-6-word-3-vocab",
+          "label": {
+            "en": "exalt / glorify",
+            "ko": "높이다"
+          },
+          "explanation": {
+            "en": "That definition belongs to yüceltmek. ihtiyar means elder / elderly person here. Bağımlı olmak takes a dative relation; distinguish church elder from every older person.",
+            "ko": "그 뜻은 yüceltmek입니다. 여기 ihtiyar는 장로·노인입니다. bağımlı olmak은 여격 관계를 취하며 교회 장로와 모든 연장자를 구별하세요."
+          }
+        },
+        {
+          "id": "study-1pe-5-5-6-word-4-vocab",
+          "label": {
+            "en": "underside / below",
+            "ko": "아래"
+          },
+          "explanation": {
+            "en": "That definition belongs to alt. ihtiyar means elder / elderly person here. Bağımlı olmak takes a dative relation; distinguish church elder from every older person.",
+            "ko": "그 뜻은 alt입니다. 여기 ihtiyar는 장로·노인입니다. bağımlı olmak은 여격 관계를 취하며 교회 장로와 모든 연장자를 구별하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-1pe-5-5-6-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Bağımlı olmak takes a dative relation; distinguish church elder from every older person.",
+        "ko": "bağımlı olmak은 여격 관계를 취하며 교회 장로와 모든 연장자를 구별하세요."
+      }
+    },
+    {
+      "id": "study-1pe-5-5-6-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “ihtiyarlara”, what is the function of “-a” here?",
+        "ko": "“ihtiyarlara”에서 “-a”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: to / toward",
+            "ko": "여격: ~에게·~로"
+          },
+          "explanation": {
+            "en": "Dative complement. Bağımlı olmak takes a dative relation; distinguish church elder from every older person.",
+            "ko": "여격 보어. bağımlı olmak은 여격 관계를 취하며 교회 장로와 모든 연장자를 구별하세요."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Dative complement. Bağımlı olmak takes a dative relation; distinguish church elder from every older person.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 여격 보어. bağımlı olmak은 여격 관계를 취하며 교회 장로와 모든 연장자를 구별하세요."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Dative complement. Bağımlı olmak takes a dative relation; distinguish church elder from every older person.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 여격 보어. bağımlı olmak은 여격 관계를 취하며 교회 장로와 모든 연장자를 구별하세요."
+          }
+        },
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Dative complement. Bağımlı olmak takes a dative relation; distinguish church elder from every older person.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 여격 보어. bağımlı olmak은 여격 관계를 취하며 교회 장로와 모든 연장자를 구별하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "DAT"
+      ],
+      "explanations": {
+        "en": "Bağımlı olmak takes a dative relation; distinguish church elder from every older person.",
+        "ko": "bağımlı olmak은 여격 관계를 취하며 교회 장로와 모든 연장자를 구별하세요."
+      }
+    }
+  ]
+}

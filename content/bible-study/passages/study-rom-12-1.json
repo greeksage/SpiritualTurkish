@@ -1,0 +1,831 @@
+{
+  "id": "study-rom-12-1",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Romans 12:1 through its clause structure and the forms kardeşlerim / merhameti.",
+    "ko": "로마서 12:1의 절 구조와 kardeşlerim / merhameti 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Therefore, brothers and sisters, I appeal to you by God’s mercy: offer your bodies as living, holy sacrifices pleasing to God. This is your spiritual worship.",
+    "ko": "그러므로 형제자매 여러분, 하나님의 자비에 근거해 권합니다. 여러분의 몸을 살아 있고 거룩하며 하나님을 기쁘시게 하는 제물로 드리세요. 이것이 여러분의 영적 예배입니다."
+  },
+  "clauses": [
+    {
+      "id": "study-rom-12-1-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "ROM.12.1",
+          "start": 0,
+          "end": 63
+        }
+      ],
+      "naturalMeaning": {
+        "en": "I appeal to you, my brothers and sisters, on the basis of God’s mercy.",
+        "ko": "나의 형제자매 여러분, 하나님의 자비에 근거하여 여러분께 권합니다."
+      },
+      "literalGloss": {
+        "en": "therefore / my siblings / in the name of God’s mercy / to you / I appeal",
+        "ko": "그러므로 / 나의 형제들 / 하나님의 자비의 이름으로 / 여러분에게 / 간청한다"
+      },
+      "explanation": {
+        "en": "Kardeşlerim is a direct address, not the object. Adına here introduces the ground of the appeal; size is dative.",
+        "ko": "kardeşlerim은 목적어가 아니라 호칭입니다. adına는 권고의 근거를 소개하고 size는 여격 청자입니다."
+      }
+    },
+    {
+      "id": "study-rom-12-1-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "ROM.12.1",
+          "start": 64,
+          "end": 139
+        }
+      ],
+      "naturalMeaning": {
+        "en": "Offer your bodies as living, holy sacrifices pleasing to God.",
+        "ko": "몸을 살아 있고 거룩하며 하나님을 기쁘시게 하는 제물로 드리세요."
+      },
+      "literalGloss": {
+        "en": "your bodies-object / living holy pleasing God / one-each sacrifice as / present",
+        "ko": "여러분 몸을 / 살아 있고 거룩하며 하나님을 기쁘게 하는 / 하나씩의 제물로 / 드려라"
+      },
+      "explanation": {
+        "en": "The qualities precede kurban; Tanrı’yı is the object of hoşnut eden. Birer is distributive “one each,” and olarak marks the role of what is offered.",
+        "ko": "성질을 나타내는 말이 kurban 앞에 놓입니다. Tanrı’yı는 hoşnut eden의 목적어입니다. birer는 하나씩이라는 분배 수이며 olarak은 드리는 대상의 역할을 나타냅니다."
+      }
+    },
+    {
+      "id": "study-rom-12-1-clause-3",
+      "sourceSpans": [
+        {
+          "verseId": "ROM.12.1",
+          "start": 140,
+          "end": 164
+        }
+      ],
+      "naturalMeaning": {
+        "en": "This is your spiritual worship.",
+        "ko": "이것이 여러분의 영적 예배입니다."
+      },
+      "literalGloss": {
+        "en": "spiritual / your worship / this-is",
+        "ko": "영적인 / 여러분의 예배 / 이것이다"
+      },
+      "explanation": {
+        "en": "Tapınmanız is a possessed verbal noun; bu is the predicate emphasized with -dur.",
+        "ko": "tapınmanız는 소유형이 붙은 동사 명사형입니다. bu는 -dur로 단정된 술어입니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-rom-12-1-word-1",
+      "verseId": "ROM.12.1",
+      "start": 8,
+      "end": 19,
+      "surface": "kardeşlerim",
+      "lemma": "kardeş",
+      "meaning": {
+        "en": "my brothers and sisters / fellow believers",
+        "ko": "나의 형제자매·동료 신자"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "kardeş",
+          "meaning": {
+            "en": "sibling / fellow believer in context",
+            "ko": "형제자매·문맥상 동료 신자"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ler",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "im",
+          "meaning": {
+            "en": "first-person singular possessive",
+            "ko": "1인칭 단수 소유"
+          },
+          "function": "P1"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "number": "plural",
+        "possessive": "1sg"
+      },
+      "role": {
+        "en": "Direct address",
+        "ko": "직접 호칭"
+      },
+      "contextualExplanation": {
+        "en": "Turkish kardeş is not restricted to male siblings; the church context gives a fellow-believer sense.",
+        "ko": "kardeş는 남자 형제만 가리키지 않습니다. 교회 문맥에서는 같은 신앙의 형제자매를 뜻합니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "sibling / fellow believer in context",
+        "ko": "형제자매·문맥상 동료 신자"
+      }
+    },
+    {
+      "id": "study-rom-12-1-word-2",
+      "verseId": "ROM.12.1",
+      "start": 31,
+      "end": 40,
+      "surface": "merhameti",
+      "lemma": "merhamet",
+      "meaning": {
+        "en": "his mercy",
+        "ko": "그분의 자비"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "merhamet",
+          "meaning": {
+            "en": "mercy / compassion",
+            "ko": "긍휼·자비"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Possessed noun after Tanrı’nın",
+        "ko": "Tanrı’nın 뒤의 소유 명사"
+      },
+      "contextualExplanation": {
+        "en": "The genitive possessor Tanrı’nın requires the possessed ending here; -i is not an accusative object in this phrase.",
+        "ko": "속격 소유자 Tanrı’nın에 호응하는 소유 어미이며 이 구에서는 대격 목적어가 아닙니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "mercy / compassion",
+        "ko": "긍휼·자비"
+      }
+    },
+    {
+      "id": "study-rom-12-1-word-3",
+      "verseId": "ROM.12.1",
+      "start": 64,
+      "end": 77,
+      "surface": "Bedenlerinizi",
+      "lemma": "beden",
+      "meaning": {
+        "en": "your bodies (object)",
+        "ko": "여러분의 몸을"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "Beden",
+          "meaning": {
+            "en": "body",
+            "ko": "몸"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ler",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "iniz",
+          "meaning": {
+            "en": "second-person plural possessive",
+            "ko": "2인칭 복수 소유"
+          },
+          "function": "P2P"
+        },
+        {
+          "form": "i",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "number": "plural",
+        "possessive": "2pl/polite",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Object of sunun",
+        "ko": "sunun의 목적어"
+      },
+      "contextualExplanation": {
+        "en": "Plural -ler, your-plural -iniz, then accusative -i. The readers’ bodies are what they offer.",
+        "ko": "복수 -ler·2인칭 복수 소유 -iniz·대격 -i가 차례로 붙습니다. 독자들의 몸이 드리는 대상입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "body",
+        "ko": "몸"
+      }
+    },
+    {
+      "id": "study-rom-12-1-word-4",
+      "verseId": "ROM.12.1",
+      "start": 108,
+      "end": 112,
+      "surface": "eden",
+      "lemma": "etmek",
+      "meaning": {
+        "en": "that makes / does",
+        "ko": "행하는"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "ed",
+          "meaning": {
+            "en": "do / make (auxiliary)",
+            "ko": "하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "en",
+          "meaning": {
+            "en": "subject participle -An",
+            "ko": "주어 관계형 -An"
+          },
+          "function": "PART"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "et- → ed- before -en",
+          "ko": "-en 앞에서 et-가 ed-로 바뀝니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "subject participle"
+      },
+      "role": {
+        "en": "Modifier in hoşnut eden",
+        "ko": "hoşnut eden의 관계형"
+      },
+      "contextualExplanation": {
+        "en": "Hoşnut etmek is “please.” Et- voices to ed- before the vowel in eden.",
+        "ko": "hoşnut etmek은 기쁘게 하다입니다. 모음 앞에서 et-가 ed-로 바뀝니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "do / make (auxiliary)",
+        "ko": "하다"
+      }
+    },
+    {
+      "id": "study-rom-12-1-word-5",
+      "verseId": "ROM.12.1",
+      "start": 133,
+      "end": 138,
+      "surface": "sunun",
+      "lemma": "sunmak",
+      "meaning": {
+        "en": "offer / present (plural command)",
+        "ko": "드리세요"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "sun",
+          "meaning": {
+            "en": "offer / present",
+            "ko": "바치다·제시하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "un",
+          "meaning": {
+            "en": "plural / polite imperative",
+            "ko": "복수·공손한 명령"
+          },
+          "function": "IMP2P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "mood": "plural/polite imperative"
+      },
+      "role": {
+        "en": "Plural imperative",
+        "ko": "복수 명령"
+      },
+      "contextualExplanation": {
+        "en": "This addresses the community. Sunmak is more formal than simply vermek, “give.”",
+        "ko": "공동체를 향한 명령입니다. sunmak은 단순히 주다는 vermek보다 격식 있습니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "offer / present",
+        "ko": "바치다·제시하다"
+      }
+    },
+    {
+      "id": "study-rom-12-1-word-6",
+      "verseId": "ROM.12.1",
+      "start": 147,
+      "end": 157,
+      "surface": "tapınmanız",
+      "lemma": "tapınmak",
+      "meaning": {
+        "en": "your worship",
+        "ko": "여러분의 예배"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "tapın",
+          "meaning": {
+            "en": "worship",
+            "ko": "예배하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ma",
+          "meaning": {
+            "en": "verbal noun",
+            "ko": "동사 명사형"
+          },
+          "function": "VN"
+        },
+        {
+          "form": "nız",
+          "meaning": {
+            "en": "second-person plural possessive",
+            "ko": "2인칭 복수 소유"
+          },
+          "function": "P2P"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "verbal noun",
+        "possessive": "2pl/polite"
+      },
+      "role": {
+        "en": "Possessed verbal noun",
+        "ko": "소유 동사 명사형"
+      },
+      "contextualExplanation": {
+        "en": "The -ma here names the act; it is not negation. The possessor is the plural readership.",
+        "ko": "-ma는 행위 이름이며 부정이 아닙니다. 소유자는 복수 독자입니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "worship",
+        "ko": "예배하다"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-rom-12-1-word-1-vocab",
+      "analysisId": "study-rom-12-1-word-1",
+      "lemma": "kardeş",
+      "classification": "biblical",
+      "definitions": {
+        "en": "sibling / fellow believer in context",
+        "ko": "형제자매·문맥상 동료 신자"
+      },
+      "usageNotes": {
+        "en": "Turkish kardeş is not restricted to male siblings; the church context gives a fellow-believer sense.",
+        "ko": "kardeş는 남자 형제만 가리키지 않습니다. 교회 문맥에서는 같은 신앙의 형제자매를 뜻합니다."
+      }
+    },
+    {
+      "id": "study-rom-12-1-word-2-vocab",
+      "analysisId": "study-rom-12-1-word-2",
+      "lemma": "merhamet",
+      "classification": "biblical",
+      "definitions": {
+        "en": "mercy / compassion",
+        "ko": "긍휼·자비"
+      },
+      "usageNotes": {
+        "en": "The genitive possessor Tanrı’nın requires the possessed ending here; -i is not an accusative object in this phrase.",
+        "ko": "속격 소유자 Tanrı’nın에 호응하는 소유 어미이며 이 구에서는 대격 목적어가 아닙니다."
+      }
+    },
+    {
+      "id": "study-rom-12-1-word-3-vocab",
+      "analysisId": "study-rom-12-1-word-3",
+      "lemma": "beden",
+      "classification": "general",
+      "definitions": {
+        "en": "body",
+        "ko": "몸"
+      },
+      "usageNotes": {
+        "en": "Plural -ler, your-plural -iniz, then accusative -i. The readers’ bodies are what they offer.",
+        "ko": "복수 -ler·2인칭 복수 소유 -iniz·대격 -i가 차례로 붙습니다. 독자들의 몸이 드리는 대상입니다."
+      }
+    },
+    {
+      "id": "study-rom-12-1-word-4-vocab",
+      "analysisId": "study-rom-12-1-word-4",
+      "lemma": "etmek",
+      "classification": "general",
+      "definitions": {
+        "en": "do / make (auxiliary)",
+        "ko": "하다"
+      },
+      "usageNotes": {
+        "en": "Hoşnut etmek is “please.” Et- voices to ed- before the vowel in eden.",
+        "ko": "hoşnut etmek은 기쁘게 하다입니다. 모음 앞에서 et-가 ed-로 바뀝니다."
+      }
+    },
+    {
+      "id": "study-rom-12-1-word-5-vocab",
+      "analysisId": "study-rom-12-1-word-5",
+      "lemma": "sunmak",
+      "classification": "general",
+      "definitions": {
+        "en": "offer / present",
+        "ko": "바치다·제시하다"
+      },
+      "usageNotes": {
+        "en": "This addresses the community. Sunmak is more formal than simply vermek, “give.”",
+        "ko": "공동체를 향한 명령입니다. sunmak은 단순히 주다는 vermek보다 격식 있습니다."
+      }
+    },
+    {
+      "id": "study-rom-12-1-word-6-vocab",
+      "analysisId": "study-rom-12-1-word-6",
+      "lemma": "tapınmak",
+      "classification": "biblical",
+      "definitions": {
+        "en": "worship",
+        "ko": "예배하다"
+      },
+      "usageNotes": {
+        "en": "The -ma here names the act; it is not negation. The possessor is the plural readership.",
+        "ko": "-ma는 행위 이름이며 부정이 아닙니다. 소유자는 복수 독자입니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-rom-12-1-grammar-1",
+      "title": {
+        "en": "Genitive plus possession",
+        "ko": "속격과 소유형"
+      },
+      "explanation": {
+        "en": "Tanrı’nın merhameti shows the possessor on the first noun and possession on the second. Tapınmanız uses a possessive ending without an explicit sizin.",
+        "ko": "Tanrı’nın merhameti는 앞 명사에 소유자를, 뒤 명사에 소유를 표시합니다. tapınmanız는 sizin을 밝히지 않아도 소유 어미로 청자를 나타냅니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ROM.12.1",
+          "start": 0,
+          "end": 63
+        },
+        {
+          "verseId": "ROM.12.1",
+          "start": 64,
+          "end": 139
+        },
+        {
+          "verseId": "ROM.12.1",
+          "start": 140,
+          "end": 164
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-rom-12-1-grammar-2",
+      "title": {
+        "en": "An offering as a role",
+        "ko": "제물이라는 역할"
+      },
+      "explanation": {
+        "en": "Birer kurban olarak is predicative “as a sacrifice each.” Hoşnut eden modifies kurban, while Tanrı’yı remains the participle’s object.",
+        "ko": "birer kurban olarak은 각각 제물로라는 역할 표현입니다. hoşnut eden은 kurban을 꾸미고 Tanrı’yı는 관계형의 목적어입니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "ROM.12.1",
+          "start": 0,
+          "end": 63
+        },
+        {
+          "verseId": "ROM.12.1",
+          "start": 64,
+          "end": 139
+        },
+        {
+          "verseId": "ROM.12.1",
+          "start": 140,
+          "end": 164
+        }
+      ],
+      "relatedLessonIds": [
+        "prayer-offering"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Write an invitation to offer practical help using sunmak or yardım etmek, without pressuring someone to give money.",
+    "ko": "sunmak 또는 yardım etmek으로 실제 도움을 제안하세요. 금전 제공을 압박하지 마세요."
+  },
+  "modelResponse": {
+    "tr": "Size yardım sunmak istiyorum. Uygun olur mu?",
+    "meaning": {
+      "en": "I would like to offer you help. Would that be appropriate?",
+      "ko": "도움을 드리고 싶습니다. 괜찮을까요?"
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "prayer-offering"
+  ],
+  "relatedReadingIds": [
+    "reading-Rom-12-1-2"
+  ],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-rom-12-1-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Romans 12:1? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 로마서 12:1인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-rom-12-1",
+          "passageId": "study-rom-12-1",
+          "explanation": {
+            "en": "This is the passage. Therefore, brothers and sisters, I appeal to you by God’s mercy: offer your bodies as living, holy sacrifices pleasing to God. This is your spiritual worship. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 그러므로 형제자매 여러분, 하나님의 자비에 근거해 권합니다. 여러분의 몸을 살아 있고 거룩하며 하나님을 기쁘시게 하는 제물로 드리세요. 이것이 여러분의 영적 예배입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-14-21",
+          "passageId": "study-jhn-14-21",
+          "explanation": {
+            "en": "This is a different passage. The person who knows and carries out my commands is the one who loves me. My Father will love that person; I too will love them and reveal myself to them. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 내 명령을 알고 실행하는 사람이 나를 사랑하는 사람입니다. 아버지도 그 사람을 사랑하실 것입니다. 나도 그를 사랑하고 그에게 나 자신을 나타내겠습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jos-1-8",
+          "passageId": "study-jos-1-8",
+          "explanation": {
+            "en": "This is a different passage. Do not let what is written in the Law Book leave your speech. Think about it day and night so that you carefully carry it all out. Then you will succeed and reach your goal. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 율법책에 기록된 것을 입에서 떠나게 하지 마세요. 그 전체를 주의 깊게 실행하려고 밤낮으로 생각하세요. 그러면 성공하고 목적에 이를 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-1-16",
+          "passageId": "study-rom-1-16",
+          "explanation": {
+            "en": "This is a different passage. I am not ashamed of the gospel, because it is God’s power for the salvation of everyone who believes—first Jews and then those who are not Jews. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 나는 복음을 부끄러워하지 않습니다. 복음은 믿는 모든 사람, 먼저 유대인과 그다음 유대인이 아닌 사람의 구원을 위한 하나님의 능력이기 때문입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-12-1"
+      ],
+      "explanations": {
+        "en": "This is the passage. Therefore, brothers and sisters, I appeal to you by God’s mercy: offer your bodies as living, holy sacrifices pleasing to God. This is your spiritual worship. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 그러므로 형제자매 여러분, 하나님의 자비에 근거해 권합니다. 여러분의 몸을 살아 있고 거룩하며 하나님을 기쁘시게 하는 제물로 드리세요. 이것이 여러분의 영적 예배입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-rom-12-1-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-rom-12-1",
+          "referenceId": "study-rom-12-1",
+          "explanation": {
+            "en": "This is the passage. Therefore, brothers and sisters, I appeal to you by God’s mercy: offer your bodies as living, holy sacrifices pleasing to God. This is your spiritual worship. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 그러므로 형제자매 여러분, 하나님의 자비에 근거해 권합니다. 여러분의 몸을 살아 있고 거룩하며 하나님을 기쁘시게 하는 제물로 드리세요. 이것이 여러분의 영적 예배입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jhn-14-21",
+          "referenceId": "study-jhn-14-21",
+          "explanation": {
+            "en": "This is a different passage. The person who knows and carries out my commands is the one who loves me. My Father will love that person; I too will love them and reveal myself to them. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 내 명령을 알고 실행하는 사람이 나를 사랑하는 사람입니다. 아버지도 그 사람을 사랑하실 것입니다. 나도 그를 사랑하고 그에게 나 자신을 나타내겠습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-jos-1-8",
+          "referenceId": "study-jos-1-8",
+          "explanation": {
+            "en": "This is a different passage. Do not let what is written in the Law Book leave your speech. Think about it day and night so that you carefully carry it all out. Then you will succeed and reach your goal. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 율법책에 기록된 것을 입에서 떠나게 하지 마세요. 그 전체를 주의 깊게 실행하려고 밤낮으로 생각하세요. 그러면 성공하고 목적에 이를 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-rom-1-16",
+          "referenceId": "study-rom-1-16",
+          "explanation": {
+            "en": "This is a different passage. I am not ashamed of the gospel, because it is God’s power for the salvation of everyone who believes—first Jews and then those who are not Jews. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 나는 복음을 부끄러워하지 않습니다. 복음은 믿는 모든 사람, 먼저 유대인과 그다음 유대인이 아닌 사람의 구원을 위한 하나님의 능력이기 때문입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-12-1"
+      ],
+      "explanations": {
+        "en": "This is the passage. Therefore, brothers and sisters, I appeal to you by God’s mercy: offer your bodies as living, holy sacrifices pleasing to God. This is your spiritual worship. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 그러므로 형제자매 여러분, 하나님의 자비에 근거해 권합니다. 여러분의 몸을 살아 있고 거룩하며 하나님을 기쁘시게 하는 제물로 드리세요. 이것이 여러분의 영적 예배입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-rom-12-1-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “kardeş” in this passage?",
+        "ko": "이 본문에서 “kardeş”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-rom-12-1-word-1-vocab",
+          "label": {
+            "en": "sibling / fellow believer in context",
+            "ko": "형제자매·문맥상 동료 신자"
+          },
+          "explanation": {
+            "en": "sibling / fellow believer in context. Turkish kardeş is not restricted to male siblings; the church context gives a fellow-believer sense.",
+            "ko": "형제자매·문맥상 동료 신자. kardeş는 남자 형제만 가리키지 않습니다. 교회 문맥에서는 같은 신앙의 형제자매를 뜻합니다."
+          }
+        },
+        {
+          "id": "study-rom-12-1-word-2-vocab",
+          "label": {
+            "en": "mercy / compassion",
+            "ko": "긍휼·자비"
+          },
+          "explanation": {
+            "en": "That definition belongs to merhamet. kardeş means sibling / fellow believer in context here. Turkish kardeş is not restricted to male siblings; the church context gives a fellow-believer sense.",
+            "ko": "그 뜻은 merhamet입니다. 여기 kardeş는 형제자매·문맥상 동료 신자입니다. kardeş는 남자 형제만 가리키지 않습니다. 교회 문맥에서는 같은 신앙의 형제자매를 뜻합니다."
+          }
+        },
+        {
+          "id": "study-rom-12-1-word-3-vocab",
+          "label": {
+            "en": "body",
+            "ko": "몸"
+          },
+          "explanation": {
+            "en": "That definition belongs to beden. kardeş means sibling / fellow believer in context here. Turkish kardeş is not restricted to male siblings; the church context gives a fellow-believer sense.",
+            "ko": "그 뜻은 beden입니다. 여기 kardeş는 형제자매·문맥상 동료 신자입니다. kardeş는 남자 형제만 가리키지 않습니다. 교회 문맥에서는 같은 신앙의 형제자매를 뜻합니다."
+          }
+        },
+        {
+          "id": "study-rom-12-1-word-4-vocab",
+          "label": {
+            "en": "do / make (auxiliary)",
+            "ko": "하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to etmek. kardeş means sibling / fellow believer in context here. Turkish kardeş is not restricted to male siblings; the church context gives a fellow-believer sense.",
+            "ko": "그 뜻은 etmek입니다. 여기 kardeş는 형제자매·문맥상 동료 신자입니다. kardeş는 남자 형제만 가리키지 않습니다. 교회 문맥에서는 같은 신앙의 형제자매를 뜻합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-rom-12-1-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Turkish kardeş is not restricted to male siblings; the church context gives a fellow-believer sense.",
+        "ko": "kardeş는 남자 형제만 가리키지 않습니다. 교회 문맥에서는 같은 신앙의 형제자매를 뜻합니다."
+      }
+    },
+    {
+      "id": "study-rom-12-1-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “Bedenlerinizi”, what is the function of “-i” here?",
+        "ko": "“Bedenlerinizi”에서 “-i”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "Object of sunun. Plural -ler, your-plural -iniz, then accusative -i. The readers’ bodies are what they offer.",
+            "ko": "sunun의 목적어. 복수 -ler·2인칭 복수 소유 -iniz·대격 -i가 차례로 붙습니다. 독자들의 몸이 드리는 대상입니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Object of sunun. Plural -ler, your-plural -iniz, then accusative -i. The readers’ bodies are what they offer.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. sunun의 목적어. 복수 -ler·2인칭 복수 소유 -iniz·대격 -i가 차례로 붙습니다. 독자들의 몸이 드리는 대상입니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Object of sunun. Plural -ler, your-plural -iniz, then accusative -i. The readers’ bodies are what they offer.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. sunun의 목적어. 복수 -ler·2인칭 복수 소유 -iniz·대격 -i가 차례로 붙습니다. 독자들의 몸이 드리는 대상입니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Object of sunun. Plural -ler, your-plural -iniz, then accusative -i. The readers’ bodies are what they offer.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. sunun의 목적어. 복수 -ler·2인칭 복수 소유 -iniz·대격 -i가 차례로 붙습니다. 독자들의 몸이 드리는 대상입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ACC"
+      ],
+      "explanations": {
+        "en": "Plural -ler, your-plural -iniz, then accusative -i. The readers’ bodies are what they offer.",
+        "ko": "복수 -ler·2인칭 복수 소유 -iniz·대격 -i가 차례로 붙습니다. 독자들의 몸이 드리는 대상입니다."
+      }
+    }
+  ]
+}

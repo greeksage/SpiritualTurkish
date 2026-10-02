@@ -1,0 +1,761 @@
+{
+  "id": "study-mat-28-19-20",
+  "contentVersion": 1,
+  "objective": {
+    "en": "Understand Matthew 28:19, 20 through its clause structure and the forms öğrencilerim / adıyla.",
+    "ko": "마태복음 28:19, 20의 절 구조와 öğrencilerim / adıyla 형태를 이해합니다."
+  },
+  "prerequisites": {
+    "en": "Turkish alphabet and vowel harmony; basic noun cases and verb endings. Use the linked course lessons if these forms are new.",
+    "ko": "터키어 알파벳·모음 조화, 기본 명사 격·동사 어미를 알아야 합니다. 낯선 형태는 연결된 과정 수업을 참고하세요."
+  },
+  "naturalMeaning": {
+    "en": "Go and make disciples of all nations, baptizing them in the name of the Father, the Son, and the Holy Spirit, teaching them to obey everything I commanded. I am with you always, to the end of the world.",
+    "ko": "가서 모든 민족을 제자로 삼고 아버지·아들·성령의 이름으로 세례를 주며 내가 명한 모든 것을 따르도록 가르치세요. 나는 세상의 끝까지 언제나 여러분과 함께 있습니다."
+  },
+  "clauses": [
+    {
+      "id": "study-mat-28-19-20-clause-1",
+      "sourceSpans": [
+        {
+          "verseId": "MAT.28.19",
+          "start": 0,
+          "end": 118
+        }
+      ],
+      "naturalMeaning": {
+        "en": "The commands describe going, making disciples, and baptizing with a named formula.",
+        "ko": "명령은 감·제자 삼음·정해진 이름으로 세례 줌을 말합니다."
+      },
+      "literalGloss": {
+        "en": "go / all nations-object disciples-my as train / them Father Son Holy Spirit’s name-with baptize",
+        "ko": "가라 / 모든 민족을 나의 제자로 길러라 / 그들을 아버지 아들 성령의 이름으로 세례 주라"
+      },
+      "explanation": {
+        "en": "Yetiştirmek takes ulusları as object and öğrencilerim olarak as the intended role. Vaftiz etmek is a compound verb. Adıyla supplies the formula’s relation; it is not three separate source quotes.",
+        "ko": "yetiştirmek은 ulusları를 목적어로, öğrencilerim olarak을 의도한 역할로 취합니다. vaftiz etmek은 복합 동사입니다. adıyla는 이름의 관계를 나타내며 세 개의 별도 인용문이 아닙니다."
+      }
+    },
+    {
+      "id": "study-mat-28-19-20-clause-2",
+      "sourceSpans": [
+        {
+          "verseId": "MAT.28.20",
+          "start": 0,
+          "end": 106
+        }
+      ],
+      "naturalMeaning": {
+        "en": "The teaching command takes an infinitive object and is followed by a promise of presence.",
+        "ko": "가르침 명령은 부정사 목적어를 취하고 함께하심의 약속이 뒤따릅니다."
+      },
+      "literalGloss": {
+        "en": "to-you commanded-my every thing-to obeying-object to-them teach / world’s end-to until every moment with-you I-am",
+        "ko": "여러분에게 내가 명한 모든 것에 따름을 그들에게 가르쳐라 / 세상의 끝까지 매 순간 여러분과 함께이다 나"
+      },
+      "explanation": {
+        "en": "Buyurduğum modifies her şey with first-person embedded subject. Uymayı nominalizes obeying and takes accusative as what is taught; her şeye remains its dative complement. Sonuna dek marks an endpoint. Birlikteyim supplies the first-person predicate.",
+        "ko": "buyurduğum은 1인칭 내포 주어로 her şey를 꾸밉니다. uymayı는 따름을 명사화하여 가르치는 내용인 대격을 받고 her şeye는 그 여격 보어로 남습니다. sonuna dek는 끝점을 표시하며 birlikteyim이 1인칭 술어입니다."
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "study-mat-28-19-20-word-1",
+      "verseId": "MAT.28.19",
+      "start": 33,
+      "end": 45,
+      "surface": "öğrencilerim",
+      "lemma": "öğrenci",
+      "meaning": {
+        "en": "my disciples / students",
+        "ko": "나의 제자·학생들"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "öğrenci",
+          "meaning": {
+            "en": "student / disciple in context",
+            "ko": "학생·문맥상 제자"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ler",
+          "meaning": {
+            "en": "plural",
+            "ko": "복수"
+          },
+          "function": "PL"
+        },
+        {
+          "form": "im",
+          "meaning": {
+            "en": "first-person singular possessive",
+            "ko": "1인칭 단수 소유"
+          },
+          "function": "P1"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "number": "plural",
+        "possessive": "1sg"
+      },
+      "role": {
+        "en": "Possessed role complement",
+        "ko": "소유 역할 보어"
+      },
+      "contextualExplanation": {
+        "en": "Öğrenci commonly means student; here the discipleship context specifies follower/student of Jesus.",
+        "ko": "öğrenci는 보통 학생이며 여기서는 예수의 따르는 제자라는 문맥입니다."
+      },
+      "classification": "biblical",
+      "dictionaryMeaning": {
+        "en": "student / disciple in context",
+        "ko": "학생·문맥상 제자"
+      }
+    },
+    {
+      "id": "study-mat-28-19-20-word-2",
+      "verseId": "MAT.28.19",
+      "start": 100,
+      "end": 106,
+      "surface": "adıyla",
+      "lemma": "ad",
+      "meaning": {
+        "en": "in / with his name",
+        "ko": "그 이름으로"
+      },
+      "partOfSpeech": {
+        "en": "Noun",
+        "ko": "명사"
+      },
+      "segments": [
+        {
+          "form": "ad",
+          "meaning": {
+            "en": "name",
+            "ko": "이름"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "third-person possessive",
+            "ko": "3인칭 소유"
+          },
+          "function": "P3"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "la",
+          "meaning": {
+            "en": "with / by",
+            "ko": "~와 함께·~로"
+          },
+          "function": "WITH"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "possessive": "3"
+      },
+      "role": {
+        "en": "Possessed means/formula",
+        "ko": "소유 수단·정형 표현"
+      },
+      "contextualExplanation": {
+        "en": "The named Father, Son, and Holy Spirit determine the name’s reference.",
+        "ko": "언급된 아버지·아들·성령이 이름의 대상을 정합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "name",
+        "ko": "이름"
+      }
+    },
+    {
+      "id": "study-mat-28-19-20-word-3",
+      "verseId": "MAT.28.20",
+      "start": 5,
+      "end": 15,
+      "surface": "buyurduğum",
+      "lemma": "buyurmak",
+      "meaning": {
+        "en": "that I commanded",
+        "ko": "내가 명한"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "buyur",
+          "meaning": {
+            "en": "command / say (elevated register)",
+            "ko": "명하다·말씀하다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "duğ",
+          "meaning": {
+            "en": "nominalizing/participial -DIK",
+            "ko": "명사화·관계형 -DIK"
+          },
+          "function": "DIK"
+        },
+        {
+          "form": "um",
+          "meaning": {
+            "en": "first-person singular possessive",
+            "ko": "1인칭 단수 소유"
+          },
+          "function": "P1"
+        }
+      ],
+      "stemChanges": [
+        {
+          "en": "-duk → -duğ before a vowel",
+          "ko": "모음 앞에서 -duk가 -duğ로 변합니다."
+        }
+      ],
+      "grammaticalFeatures": {
+        "nonfinite": "-DIK nominal/participial",
+        "possessive": "1sg"
+      },
+      "role": {
+        "en": "First-person participial modifier",
+        "ko": "1인칭 관계형 수식"
+      },
+      "contextualExplanation": {
+        "en": "-um marks the embedded subject I, not plural we. Buyurmak is elevated command language here.",
+        "ko": "-um은 내포 주어 나이며 복수 우리가 아닙니다. buyurmak은 여기서 높고 격식 있는 명령 어휘입니다."
+      },
+      "classification": "literary",
+      "dictionaryMeaning": {
+        "en": "command / say (elevated register)",
+        "ko": "명하다·말씀하다"
+      }
+    },
+    {
+      "id": "study-mat-28-19-20-word-4",
+      "verseId": "MAT.28.20",
+      "start": 25,
+      "end": 31,
+      "surface": "uymayı",
+      "lemma": "uymak",
+      "meaning": {
+        "en": "obeying (object)",
+        "ko": "따름을"
+      },
+      "partOfSpeech": {
+        "en": "Verb",
+        "ko": "동사"
+      },
+      "segments": [
+        {
+          "form": "uy",
+          "meaning": {
+            "en": "conform / obey / fit",
+            "ko": "따르다·맞다"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "ma",
+          "meaning": {
+            "en": "verbal noun",
+            "ko": "동사 명사형"
+          },
+          "function": "VN"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "ı",
+          "meaning": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "function": "ACC"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "nonfinite": "verbal noun",
+        "case": "accusative"
+      },
+      "role": {
+        "en": "Verbal noun object of teaching",
+        "ko": "가르침의 동사 명사형 목적어"
+      },
+      "contextualExplanation": {
+        "en": "This -ma is nominalization, not negation. Her şeye marks what is obeyed.",
+        "ko": "이 -ma는 부정이 아니라 명사화입니다. her şeye가 따르는 내용을 표시합니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "conform / obey / fit",
+        "ko": "따르다·맞다"
+      }
+    },
+    {
+      "id": "study-mat-28-19-20-word-5",
+      "verseId": "MAT.28.20",
+      "start": 93,
+      "end": 104,
+      "surface": "birlikteyim",
+      "lemma": "birlikte",
+      "meaning": {
+        "en": "I am together / with you",
+        "ko": "나는 함께이다"
+      },
+      "partOfSpeech": {
+        "en": "Adverb",
+        "ko": "부사"
+      },
+      "segments": [
+        {
+          "form": "birlikte",
+          "meaning": {
+            "en": "together",
+            "ko": "함께"
+          },
+          "function": "ROOT"
+        },
+        {
+          "form": "y",
+          "meaning": {
+            "en": "buffer consonant linking suffixes",
+            "ko": "접사를 연결하는 완충 자음"
+          },
+          "function": "BUF"
+        },
+        {
+          "form": "im",
+          "meaning": {
+            "en": "first-person singular",
+            "ko": "1인칭 단수"
+          },
+          "function": "PERSON1"
+        }
+      ],
+      "stemChanges": [],
+      "grammaticalFeatures": {
+        "person": "1sg"
+      },
+      "role": {
+        "en": "First-person nominal predicate",
+        "ko": "1인칭 명사 술어"
+      },
+      "contextualExplanation": {
+        "en": "Sizinle identifies the companions; -im identifies the speaker.",
+        "ko": "sizinle는 함께할 이들이고 -im은 화자입니다."
+      },
+      "classification": "general",
+      "dictionaryMeaning": {
+        "en": "together",
+        "ko": "함께"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "study-mat-28-19-20-word-1-vocab",
+      "analysisId": "study-mat-28-19-20-word-1",
+      "lemma": "öğrenci",
+      "classification": "biblical",
+      "definitions": {
+        "en": "student / disciple in context",
+        "ko": "학생·문맥상 제자"
+      },
+      "usageNotes": {
+        "en": "Öğrenci commonly means student; here the discipleship context specifies follower/student of Jesus.",
+        "ko": "öğrenci는 보통 학생이며 여기서는 예수의 따르는 제자라는 문맥입니다."
+      }
+    },
+    {
+      "id": "study-mat-28-19-20-word-2-vocab",
+      "analysisId": "study-mat-28-19-20-word-2",
+      "lemma": "ad",
+      "classification": "general",
+      "definitions": {
+        "en": "name",
+        "ko": "이름"
+      },
+      "usageNotes": {
+        "en": "The named Father, Son, and Holy Spirit determine the name’s reference.",
+        "ko": "언급된 아버지·아들·성령이 이름의 대상을 정합니다."
+      }
+    },
+    {
+      "id": "study-mat-28-19-20-word-3-vocab",
+      "analysisId": "study-mat-28-19-20-word-3",
+      "lemma": "buyurmak",
+      "classification": "literary",
+      "definitions": {
+        "en": "command / say (elevated register)",
+        "ko": "명하다·말씀하다"
+      },
+      "usageNotes": {
+        "en": "-um marks the embedded subject I, not plural we. Buyurmak is elevated command language here.",
+        "ko": "-um은 내포 주어 나이며 복수 우리가 아닙니다. buyurmak은 여기서 높고 격식 있는 명령 어휘입니다."
+      },
+      "modernEquivalent": {
+        "en": "Modern verb: emretmek (to command)",
+        "ko": "현대 동사: emretmek (명령하다)"
+      }
+    },
+    {
+      "id": "study-mat-28-19-20-word-4-vocab",
+      "analysisId": "study-mat-28-19-20-word-4",
+      "lemma": "uymak",
+      "classification": "general",
+      "definitions": {
+        "en": "conform / obey / fit",
+        "ko": "따르다·맞다"
+      },
+      "usageNotes": {
+        "en": "This -ma is nominalization, not negation. Her şeye marks what is obeyed.",
+        "ko": "이 -ma는 부정이 아니라 명사화입니다. her şeye가 따르는 내용을 표시합니다."
+      }
+    },
+    {
+      "id": "study-mat-28-19-20-word-5-vocab",
+      "analysisId": "study-mat-28-19-20-word-5",
+      "lemma": "birlikte",
+      "classification": "general",
+      "definitions": {
+        "en": "together",
+        "ko": "함께"
+      },
+      "usageNotes": {
+        "en": "Sizinle identifies the companions; -im identifies the speaker.",
+        "ko": "sizinle는 함께할 이들이고 -im은 화자입니다."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "study-mat-28-19-20-grammar-1",
+      "title": {
+        "en": "Case inside and outside a verbal noun",
+        "ko": "동사 명사형 안팎의 격"
+      },
+      "explanation": {
+        "en": "Her şeye uymayı: dative belongs to uy-, while accusative belongs to öğretin. Two different verbs govern two different cases.",
+        "ko": "her şeye uymayı에서 여격은 uy-가, 대격은 öğretin이 요구합니다. 서로 다른 두 동사가 서로 다른 격을 정합니다."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "MAT.28.19",
+          "start": 0,
+          "end": 118
+        },
+        {
+          "verseId": "MAT.28.20",
+          "start": 0,
+          "end": 106
+        }
+      ],
+      "relatedLessonIds": []
+    },
+    {
+      "id": "study-mat-28-19-20-grammar-2",
+      "title": {
+        "en": "Teaching without coercion",
+        "ko": "강요 없는 가르침"
+      },
+      "explanation": {
+        "en": "The grammatical commands are directed to the disciples in the narrative. Use permission-based invitations in present conversations; the wording does not justify overriding someone’s refusal.",
+        "ko": "문법 명령은 이야기 속 제자들을 향합니다. 현재 대화에서는 허락을 구하는 초대를 사용하며 이 표현을 타인의 거절을 무시하는 근거로 삼지 마세요."
+      },
+      "sourceSpans": [
+        {
+          "verseId": "MAT.28.19",
+          "start": 0,
+          "end": 118
+        },
+        {
+          "verseId": "MAT.28.20",
+          "start": 0,
+          "end": 106
+        }
+      ],
+      "relatedLessonIds": [
+        "ministry-10",
+        "ministry-08"
+      ]
+    }
+  ],
+  "independentTask": {
+    "en": "Offer a study invitation and describe what to teach using a verbal noun object.",
+    "ko": "학습을 초대하고 동사 명사형 목적어로 가르칠 내용을 말하세요."
+  },
+  "modelResponse": {
+    "tr": "İsterseniz birlikte okuyabiliriz. Size bu eki kullanmayı gösterebilirim.",
+    "meaning": {
+      "en": "We can read together if you wish. I can show you how to use this suffix.",
+      "ko": "원하시면 함께 읽을 수 있습니다. 이 접사 사용법을 보여드릴 수 있습니다."
+    }
+  },
+  "selfAssessment": {
+    "en": "Can I explain the main clause in my own words, identify the selected suffixes, and use one construction in a new Turkish sentence? Compare meaning and grammatical roles, not exact wording. My response is a teaching exercise, not a revised Bible quotation.",
+    "ko": "핵심 절을 자신의 말로 설명하고 선택된 접사의 기능을 밝히며 한 구문을 새 터키어 문장에 사용할 수 있나요? 글자 일치가 아니라 뜻과 문법 역할을 비교하세요. 자신의 응답은 언어 연습이지 수정된 성경 인용이 아닙니다."
+  },
+  "relatedLessonIds": [
+    "ministry-10",
+    "ministry-08"
+  ],
+  "relatedReadingIds": [],
+  "editorialReview": {
+    "sourceText": "publisher-source-verified",
+    "linguistics": "authored-and-reviewed-in-implementation",
+    "english": "authored",
+    "korean": "independently-authored",
+    "externalSpecialistReview": "not-claimed"
+  },
+  "exercises": [
+    {
+      "id": "study-mat-28-19-20-reference-text",
+      "type": "reference-to-passage",
+      "prompt": {
+        "en": "Which Turkish passage corresponds to Matthew 28:19, 20? Consult the reading above.",
+        "ko": "어떤 터키어 본문이 마태복음 28:19, 20인가요? 위 본문을 참고하세요."
+      },
+      "options": [
+        {
+          "id": "study-mat-28-19-20",
+          "passageId": "study-mat-28-19-20",
+          "explanation": {
+            "en": "This is the passage. Go and make disciples of all nations, baptizing them in the name of the Father, the Son, and the Holy Spirit, teaching them to obey everything I commanded. I am with you always, to the end of the world. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 가서 모든 민족을 제자로 삼고 아버지·아들·성령의 이름으로 세례를 주며 내가 명한 모든 것을 따르도록 가르치세요. 나는 세상의 끝까지 언제나 여러분과 함께 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-act-1-8",
+          "passageId": "study-act-1-8",
+          "explanation": {
+            "en": "This is a different passage. When the Holy Spirit comes upon you, you will receive power and be my witnesses in Jerusalem, throughout Judea and Samaria, and to the ends of the earth. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 성령이 여러분에게 임하시면 능력을 받고 예루살렘·유대·사마리아와 온 땅에서 나의 증인이 될 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1jn-2-15-16",
+          "passageId": "study-1jn-2-15-16",
+          "explanation": {
+            "en": "This is a different passage. Do not love the world or what belongs to it. Love for the Father is absent in the one who loves the world; the desires and pride described come from the world, not the Father. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 세상이나 세상에 속한 것들을 사랑하지 마세요. 세상을 사랑하는 사람에게 아버지를 향한 사랑이 없으며 언급된 욕망과 자랑은 아버지가 아니라 세상에서 옵니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-2co-9-6-7",
+          "passageId": "study-2co-9-6-7",
+          "explanation": {
+            "en": "This is a different passage. Whoever sows little reaps little, and whoever sows much reaps much. Each should give as intended in their heart, not reluctantly or under compulsion; God loves a cheerful giver. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 적게 심는 이는 적게 거두고 많이 심는 이는 많이 거둡니다. 각자는 마음에 정한 대로 억지나 강요가 아니라 기꺼이 주세요. 하나님은 기쁘게 주는 이를 사랑하십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-mat-28-19-20"
+      ],
+      "explanations": {
+        "en": "This is the passage. Go and make disciples of all nations, baptizing them in the name of the Father, the Son, and the Holy Spirit, teaching them to obey everything I commanded. I am with you always, to the end of the world. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 가서 모든 민족을 제자로 삼고 아버지·아들·성령의 이름으로 세례를 주며 내가 명한 모든 것을 따르도록 가르치세요. 나는 세상의 끝까지 언제나 여러분과 함께 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-mat-28-19-20-text-reference",
+      "type": "passage-to-reference",
+      "prompt": {
+        "en": "Which reference belongs to the Turkish passage at the top of this page?",
+        "ko": "이 페이지 위 터키어 본문의 성경 주소는 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-mat-28-19-20",
+          "referenceId": "study-mat-28-19-20",
+          "explanation": {
+            "en": "This is the passage. Go and make disciples of all nations, baptizing them in the name of the Father, the Son, and the Holy Spirit, teaching them to obey everything I commanded. I am with you always, to the end of the world. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "이 본문이 맞습니다. 가서 모든 민족을 제자로 삼고 아버지·아들·성령의 이름으로 세례를 주며 내가 명한 모든 것을 따르도록 가르치세요. 나는 세상의 끝까지 언제나 여러분과 함께 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-act-1-8",
+          "referenceId": "study-act-1-8",
+          "explanation": {
+            "en": "This is a different passage. When the Holy Spirit comes upon you, you will receive power and be my witnesses in Jerusalem, throughout Judea and Samaria, and to the ends of the earth. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 성령이 여러분에게 임하시면 능력을 받고 예루살렘·유대·사마리아와 온 땅에서 나의 증인이 될 것입니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-1jn-2-15-16",
+          "referenceId": "study-1jn-2-15-16",
+          "explanation": {
+            "en": "This is a different passage. Do not love the world or what belongs to it. Love for the Father is absent in the one who loves the world; the desires and pride described come from the world, not the Father. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 세상이나 세상에 속한 것들을 사랑하지 마세요. 세상을 사랑하는 사람에게 아버지를 향한 사랑이 없으며 언급된 욕망과 자랑은 아버지가 아니라 세상에서 옵니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        },
+        {
+          "id": "study-2co-9-6-7",
+          "referenceId": "study-2co-9-6-7",
+          "explanation": {
+            "en": "This is a different passage. Whoever sows little reaps little, and whoever sows much reaps much. Each should give as intended in their heart, not reluctantly or under compulsion; God loves a cheerful giver. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+            "ko": "다른 본문입니다. 적게 심는 이는 적게 거두고 많이 심는 이는 많이 거둡니다. 각자는 마음에 정한 대로 억지나 강요가 아니라 기꺼이 주세요. 하나님은 기쁘게 주는 이를 사랑하십니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-mat-28-19-20"
+      ],
+      "explanations": {
+        "en": "This is the passage. Go and make disciples of all nations, baptizing them in the name of the Father, the Son, and the Holy Spirit, teaching them to obey everything I commanded. I am with you always, to the end of the world. Compare the wording and sentence structure with the named reference; use the text rather than recalling it from memory.",
+        "ko": "이 본문이 맞습니다. 가서 모든 민족을 제자로 삼고 아버지·아들·성령의 이름으로 세례를 주며 내가 명한 모든 것을 따르도록 가르치세요. 나는 세상의 끝까지 언제나 여러분과 함께 있습니다. 표시된 주소와 표현·문장 구조를 비교하세요. 암기보다 본문을 참고하세요."
+      }
+    },
+    {
+      "id": "study-mat-28-19-20-vocabulary",
+      "type": "vocabulary",
+      "prompt": {
+        "en": "Which meaning fits “öğrenci” in this passage?",
+        "ko": "이 본문에서 “öğrenci”의 알맞은 뜻은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "study-mat-28-19-20-word-1-vocab",
+          "label": {
+            "en": "student / disciple in context",
+            "ko": "학생·문맥상 제자"
+          },
+          "explanation": {
+            "en": "student / disciple in context. Öğrenci commonly means student; here the discipleship context specifies follower/student of Jesus.",
+            "ko": "학생·문맥상 제자. öğrenci는 보통 학생이며 여기서는 예수의 따르는 제자라는 문맥입니다."
+          }
+        },
+        {
+          "id": "study-mat-28-19-20-word-2-vocab",
+          "label": {
+            "en": "name",
+            "ko": "이름"
+          },
+          "explanation": {
+            "en": "That definition belongs to ad. öğrenci means student / disciple in context here. Öğrenci commonly means student; here the discipleship context specifies follower/student of Jesus.",
+            "ko": "그 뜻은 ad입니다. 여기 öğrenci는 학생·문맥상 제자입니다. öğrenci는 보통 학생이며 여기서는 예수의 따르는 제자라는 문맥입니다."
+          }
+        },
+        {
+          "id": "study-mat-28-19-20-word-3-vocab",
+          "label": {
+            "en": "command / say (elevated register)",
+            "ko": "명하다·말씀하다"
+          },
+          "explanation": {
+            "en": "That definition belongs to buyurmak. öğrenci means student / disciple in context here. Öğrenci commonly means student; here the discipleship context specifies follower/student of Jesus.",
+            "ko": "그 뜻은 buyurmak입니다. 여기 öğrenci는 학생·문맥상 제자입니다. öğrenci는 보통 학생이며 여기서는 예수의 따르는 제자라는 문맥입니다."
+          }
+        },
+        {
+          "id": "study-mat-28-19-20-word-4-vocab",
+          "label": {
+            "en": "conform / obey / fit",
+            "ko": "따르다·맞다"
+          },
+          "explanation": {
+            "en": "That definition belongs to uymak. öğrenci means student / disciple in context here. Öğrenci commonly means student; here the discipleship context specifies follower/student of Jesus.",
+            "ko": "그 뜻은 uymak입니다. 여기 öğrenci는 학생·문맥상 제자입니다. öğrenci는 보통 학생이며 여기서는 예수의 따르는 제자라는 문맥입니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "study-mat-28-19-20-word-1-vocab"
+      ],
+      "explanations": {
+        "en": "Öğrenci commonly means student; here the discipleship context specifies follower/student of Jesus.",
+        "ko": "öğrenci는 보통 학생이며 여기서는 예수의 따르는 제자라는 문맥입니다."
+      }
+    },
+    {
+      "id": "study-mat-28-19-20-grammar",
+      "type": "grammar",
+      "prompt": {
+        "en": "In “uymayı”, what is the function of “-ı” here?",
+        "ko": "“uymayı”에서 “-ı”의 이 문맥 기능은 무엇인가요?"
+      },
+      "options": [
+        {
+          "id": "ACC",
+          "label": {
+            "en": "accusative: marked object",
+            "ko": "대격: 특정 목적어"
+          },
+          "explanation": {
+            "en": "Verbal noun object of teaching. This -ma is nominalization, not negation. Her şeye marks what is obeyed.",
+            "ko": "가르침의 동사 명사형 목적어. 이 -ma는 부정이 아니라 명사화입니다. her şeye가 따르는 내용을 표시합니다."
+          }
+        },
+        {
+          "id": "LOC",
+          "label": {
+            "en": "locative: in / at",
+            "ko": "처소격: ~안에·~에서"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Verbal noun object of teaching. This -ma is nominalization, not negation. Her şeye marks what is obeyed.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 가르침의 동사 명사형 목적어. 이 -ma는 부정이 아니라 명사화입니다. her şeye가 따르는 내용을 표시합니다."
+          }
+        },
+        {
+          "id": "ABL",
+          "label": {
+            "en": "ablative: from / away from or a governed complement",
+            "ko": "탈격: ~로부터·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Verbal noun object of teaching. This -ma is nominalization, not negation. Her şeye marks what is obeyed.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 가르침의 동사 명사형 목적어. 이 -ma는 부정이 아니라 명사화입니다. her şeye가 따르는 내용을 표시합니다."
+          }
+        },
+        {
+          "id": "DAT",
+          "label": {
+            "en": "dative: recipient, direction or a governed complement",
+            "ko": "여격: 수혜·방향·지배된 보어"
+          },
+          "explanation": {
+            "en": "This suffix does not have that function here. Verbal noun object of teaching. This -ma is nominalization, not negation. Her şeye marks what is obeyed.",
+            "ko": "이 접사는 여기서 그 기능이 아닙니다. 가르침의 동사 명사형 목적어. 이 -ma는 부정이 아니라 명사화입니다. her şeye가 따르는 내용을 표시합니다."
+          }
+        }
+      ],
+      "acceptedOptionIds": [
+        "ACC"
+      ],
+      "explanations": {
+        "en": "This -ma is nominalization, not negation. Her şeye marks what is obeyed.",
+        "ko": "이 -ma는 부정이 아니라 명사화입니다. her şeye가 따르는 내용을 표시합니다."
+      }
+    }
+  ]
+}
